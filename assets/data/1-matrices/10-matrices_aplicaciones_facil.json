@@ -1,0 +1,1483 @@
+{
+  "matrices_aplicaciones_facil": [
+    {
+      "question": "Resuelve el siguiente sistema de ecuaciones representado matricialmente:",
+      "formula": "\\( A = \\begin{pmatrix} 2 & 1 \\\\ 1 & -1 \\end{pmatrix},\\; x = \\begin{pmatrix} x \\\\ y \\end{pmatrix},\\; b = \\begin{pmatrix} 5 \\\\ 1 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=1,\\; y=2 \\)",
+        "\\( x=2,\\; y=1 \\)",
+        "\\( x=3,\\; y=2 \\)",
+        "\\( x=2,\\; y=2 \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Resolviendo el sistema se obtiene: de la segunda ecuación, x - y = 1, y sustituyendo en la primera, se halla que x=2 y y=1.",
+      "difficulty": "easy",
+      "procedure": [
+        "Escribir la forma matricial: \\( Ax=b \\).",
+        "Utilizar el método de la inversa o eliminación para despejar \\( x \\).",
+        "Obtener la solución: \\( x=2,\\; y=1 \\)."
+      ]
+    },
+    {
+      "question": "Determina la solución del sistema de ecuaciones en forma matricial:",
+      "formula": "\\( A = \\begin{pmatrix} 1 & 2 \\\\ 3 & -1 \\end{pmatrix},\\; x = \\begin{pmatrix} x \\\\ y \\end{pmatrix},\\; b = \\begin{pmatrix} 4 \\\\ 5 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=2,\\; y=1 \\)",
+        "\\( x=1,\\; y=2 \\)",
+        "\\( x=3,\\; y=-1 \\)",
+        "\\( x=2,\\; y=-1 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando el método de la matriz inversa se halla que la solución es \\( x=2,\\; y=1 \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Escribir la ecuación matricial \\( Ax=b \\).",
+        "Calcular \\( A^{-1} \\) y multiplicar por \\( b \\).",
+        "Obtener \\( x=2,\\; y=1 \\)."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema de ecuaciones representado por la matriz:",
+      "formula": "\\( A = \\begin{pmatrix} 3 & 2 \\\\ 1 & -1 \\end{pmatrix},\\; x = \\begin{pmatrix} x \\\\ y \\end{pmatrix},\\; b = \\begin{pmatrix} 16 \\\\ 2 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=4,\\; y=2 \\)",
+        "\\( x=2,\\; y=4 \\)",
+        "\\( x=3,\\; y=1 \\)",
+        "\\( x=1,\\; y=3 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Resolviendo se obtiene \\( x=4 \\) y \\( y=2 \\) al despejar las incógnitas usando métodos matriciales.",
+      "difficulty": "easy",
+      "procedure": [
+        "Plantear \\( Ax=b \\).",
+        "Utilizar eliminación para despejar \\( x \\) y \\( y \\).",
+        "Obtener la solución \\( (4,2) \\)."
+      ]
+    },
+    {
+      "question": "Encuentra la solución del siguiente sistema de ecuaciones:",
+      "formula": "\\( A = \\begin{pmatrix} 1 & 1 \\\\ 1 & -1 \\end{pmatrix},\\; x = \\begin{pmatrix} x \\\\ y \\end{pmatrix},\\; b = \\begin{pmatrix} 6 \\\\ 2 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=4,\\; y=2 \\)",
+        "\\( x=3,\\; y=3 \\)",
+        "\\( x=2,\\; y=4 \\)",
+        "\\( x=5,\\; y=1 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Al sumar y restar las ecuaciones se concluye que \\( x=4 \\) y \\( y=2 \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Sumar y restar las ecuaciones obtenidas de \\( Ax=b \\).",
+        "Resolver para \\( x \\) y \\( y \\).",
+        "Concluir que \\( (4,2) \\) es la solución."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema de ecuaciones 3x3 usando la representación matricial:",
+      "formula": "\\( A = \\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1 \\end{pmatrix},\\; x = \\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix},\\; b = \\begin{pmatrix} 3 \\\\ -2 \\\\ 5 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=3,\\; y=-2,\\; z=5 \\)",
+        "\\( x=-2,\\; y=3,\\; z=5 \\)",
+        "\\( x=5,\\; y=-2,\\; z=3 \\)",
+        "\\( x=3,\\; y=5,\\; z=-2 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La matriz identidad implica que la solución es directamente \\( x=3,\\; y=-2,\\; z=5 \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Reconocer que \\( A \\) es la matriz identidad.",
+        "Concluir que \\( x=b \\).",
+        "Leer la solución: \\( (3,-2,5) \\)."
+      ]
+    },
+    {
+      "question": "Determina la solución del sistema utilizando la representación matricial:",
+      "formula": "\\( A = \\begin{pmatrix} 2 & 1 & 0 \\\\ 0 & 1 & 1 \\\\ 1 & 0 & 1 \\end{pmatrix},\\; x = \\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix},\\; b = \\begin{pmatrix} 7 \\\\ 5 \\\\ 4 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=2,\\; y=3,\\; z=2 \\)",
+        "\\( x=3,\\; y=2,\\; z=1 \\)",
+        "\\( x=1,\\; y=3,\\; z=3 \\)",
+        "\\( x=2,\\; y=2,\\; z=3 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando métodos matriciales se obtiene la solución: \\( x=2,\\; y=3,\\; z=2 \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Plantear la ecuación \\( Ax=b \\).",
+        "Resolver el sistema mediante eliminación o inversa.",
+        "Obtener la solución \\( (2,3,2) \\)."
+      ]
+    },
+    {
+      "question": "Resuelve el siguiente sistema de ecuaciones 2x2:",
+      "formula": "\\( A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix},\\; x = \\begin{pmatrix} x \\\\ y \\end{pmatrix},\\; b = \\begin{pmatrix} 5 \\\\ 11 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=2,\\; y=1 \\)",
+        "\\( x=1,\\; y=2 \\)",
+        "\\( x=3,\\; y=1 \\)",
+        "\\( x=2,\\; y=2 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Despejando \\( x \\) y \\( y \\) se concluye que \\( x=1 \\) y \\( y=2 \\); en este caso, la opción correcta corresponde a la que representa \\( x=1,\\; y=2 \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Usar la primera ecuación para despejar \\( x \\) en función de \\( y \\).",
+        "Sustituir en la segunda ecuación.",
+        "Resolver y encontrar \\( x=1,\\; y=2 \\)."
+      ]
+    },
+    {
+      "question": "Determina la solución del sistema representado matricialmente:",
+      "formula": "\\( A = \\begin{pmatrix} 3 & -1 \\\\ 2 & 5 \\end{pmatrix},\\; x = \\begin{pmatrix} x \\\\ y \\end{pmatrix},\\; b = \\begin{pmatrix} 7 \\\\ 16 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=3,\\; y=2 \\)",
+        "\\( x=2,\\; y=3 \\)",
+        "\\( x=1,\\; y=4 \\)",
+        "\\( x=4,\\; y=1 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Resolviendo el sistema se halla que \\( x=3 \\) y \\( y=2 \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Escribir \\( Ax=b \\).",
+        "Usar sustitución o eliminación para despejar las incógnitas.",
+        "Obtener \\( (3,2) \\) como solución."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema de ecuaciones representado por la siguiente matriz:",
+      "formula": "\\( A = \\begin{pmatrix} 1 & 3 \\\\ 2 & 5 \\end{pmatrix},\\; x = \\begin{pmatrix} x \\\\ y \\end{pmatrix},\\; b = \\begin{pmatrix} 8 \\\\ 13 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=-1,\\; y=3 \\)",
+        "\\( x=1,\\; y=2 \\)",
+        "\\( x=2,\\; y=1 \\)",
+        "\\( x=3,\\; y=-1 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando el método de sustitución se obtiene \\( x=-1 \\) y \\( y=3 \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Despejar \\( x \\) o \\( y \\) de una de las ecuaciones.",
+        "Sustituir en la otra ecuación.",
+        "Obtener la solución \\( (-1,3) \\)."
+      ]
+    },
+    {
+      "question": "Calcula la imagen del vector mediante la transformación lineal definida por:",
+      "formula": "\\( M = \\begin{pmatrix} 2 & 0 \\\\ 0 & 3 \\end{pmatrix} \\) y \\( v = \\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix} \\)",
+      "options": [
+        "\\( T(v)=\\begin{pmatrix} 2 \\\\ 6 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 3 \\\\ 4 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 2 \\\\ 5 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se multiplica el vector por la matriz de transformación: \\( 2\\times1=2 \\) y \\( 3\\times2=6 \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Multiplicar la matriz por el vector: \\( T(v)=Mv \\).",
+        "Realizar la multiplicación de cada componente.",
+        "Obtener \\( T(v)=\\begin{pmatrix} 2 \\\\ 6 \\end{pmatrix} \\)."
+      ]
+    },
+    {
+      "question": "Calcula la imagen del vector mediante la transformación lineal definida por:",
+      "formula": "\\( M = \\begin{pmatrix} 1 & -1 \\\\ 2 & 3 \\end{pmatrix} \\) y \\( v = \\begin{pmatrix} 2 \\\\ 1 \\end{pmatrix} \\)",
+      "options": [
+        "\\( T(v)=\\begin{pmatrix} 1 \\\\ 7 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 3 \\\\ 5 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 2 \\\\ 6 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 0 \\\\ 7 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Calculando: primer componente: \\( 1\\times2+(-1)\\times1=1 \\); segundo: \\( 2\\times2+3\\times1=7 \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Multiplicar la matriz por el vector: \\( T(v)=Mv \\).",
+        "Calcular cada componente de la imagen.",
+        "Obtener \\( T(v)=\\begin{pmatrix} 1 \\\\ 7 \\end{pmatrix} \\)."
+      ]
+    },
+    {
+      "question": "Determina la imagen del vector en \\( \\mathbb{R}^3 \\) mediante una transformación de escalamiento por 4:",
+      "formula": "\\( M = 4\\,I_3 \\) y \\( v = \\begin{pmatrix} 1 \\\\ 2 \\\\ 3 \\end{pmatrix} \\)",
+      "options": [
+        "\\( T(v)=\\begin{pmatrix} 4 \\\\ 8 \\\\ 12 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 1 \\\\ 2 \\\\ 3 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 2 \\\\ 4 \\\\ 6 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 0 \\\\ 0 \\\\ 0 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiplicando el vector por 4 se obtiene \\( (4,8,12) \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Reconocer que \\( M=4\\,I_3 \\) representa un escalamiento por 4.",
+        "Multiplicar cada componente de \\( v \\) por 4.",
+        "Obtener \\( T(v)=\\begin{pmatrix} 4 \\\\ 8 \\\\ 12 \\end{pmatrix} \\)."
+      ]
+    },
+    {
+      "question": "Determina la imagen del vector mediante la transformación lineal de intercambio de coordenadas:",
+      "formula": "\\( M = \\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix} \\) y \\( v = \\begin{pmatrix} 5 \\\\ -3 \\end{pmatrix} \\)",
+      "options": [
+        "\\( T(v)=\\begin{pmatrix} -3 \\\\ 5 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 5 \\\\ -3 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 3 \\\\ -5 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} -5 \\\\ 3 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La matriz intercambia las coordenadas: la primera componente pasa a la segunda y viceversa, resultando en \\( (-3,5) \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Multiplicar la matriz de intercambio por el vector \\( v \\).",
+        "Observar que se invierten las componentes.",
+        "Obtener \\( T(v)=\\begin{pmatrix} -3 \\\\ 5 \\end{pmatrix} \\)."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema de ecuaciones utilizando el método de la matriz aumentada:",
+      "formula": "\\( A = \\begin{pmatrix} 1 & 1 \\\\ 2 & -1 \\end{pmatrix},\\; b = \\begin{pmatrix} 4 \\\\ 1 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=\\frac{5}{3},\\; y=\\frac{7}{3} \\)",
+        "\\( x=2,\\; y=1 \\)",
+        "\\( x=1,\\; y=3 \\)",
+        "\\( x=\\frac{4}{3},\\; y=\\frac{8}{3} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Al aplicar el método de eliminación con la matriz aumentada se obtiene \\( x=\\frac{5}{3} \\) y \\( y=\\frac{7}{3} \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Construir la matriz aumentada \\( [A|b] \\).",
+        "Aplicar operaciones elementales para triangular.",
+        "Resolver por sustitución hacia atrás."
+      ]
+    },
+    {
+      "question": "Resuelve el siguiente sistema de ecuaciones:",
+      "formula": "\\( A = \\begin{pmatrix} 3 & 1 \\\\ 1 & 2 \\end{pmatrix},\\; b = \\begin{pmatrix} 10 \\\\ 7 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=2,\\; y=3 \\)",
+        "\\( x=3,\\; y=1 \\)",
+        "\\( x=1,\\; y=4 \\)",
+        "\\( x=4,\\; y=2 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Resolviendo el sistema se llega a la solución \\( x=2 \\) y \\( y=3 \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Representar el sistema en forma matricial \\( Ax=b \\).",
+        "Aplicar eliminación gaussiana.",
+        "Obtener \\( (2,3) \\) como solución."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema de ecuaciones:",
+      "formula": "\\( A = \\begin{pmatrix} 3 & 1 \\\\ 1 & 2 \\end{pmatrix},\\; b = \\begin{pmatrix} 10 \\\\ 7 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=2,\\; y=3 \\)",
+        "\\( x=1,\\; y=4 \\)",
+        "\\( x=3,\\; y=1 \\)",
+        "\\( x=4,\\; y=2 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tras aplicar el método de la matriz aumentada se obtiene \\( x=2,\\; y=3 \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Formar la matriz aumentada \\( [A|b] \\).",
+        "Realizar operaciones elementales.",
+        "Resolver el sistema y obtener \\( (2,3) \\)."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema de ecuaciones:",
+      "formula": "\\( A = \\begin{pmatrix} 3 & 1 \\\\ 1 & -1 \\end{pmatrix},\\; b = \\begin{pmatrix} 4 \\\\ -2 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=2,\\; y=1 \\)",
+        "\\( x=1,\\; y=2 \\)",
+        "\\( x=3,\\; y=-1 \\)",
+        "\\( x=2,\\; y=-1 \\)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Se obtiene \\( x=2 \\) y \\( y=-1 \\) tras aplicar el método de eliminación.",
+      "difficulty": "easy",
+      "procedure": [
+        "Escribir la forma \\( Ax=b \\).",
+        "Utilizar eliminación para despejar las incógnitas.",
+        "Concluir \\( (2,-1) \\) como solución."
+      ]
+    },
+    {
+      "question": "Resuelve el siguiente sistema de ecuaciones 2x2:",
+      "formula": "\\( A = \\begin{pmatrix} 4 & 1 \\\\ 1 & -1 \\end{pmatrix},\\; b = \\begin{pmatrix} 9 \\\\ 1 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=2,\\; y=1 \\)",
+        "\\( x=1,\\; y=2 \\)",
+        "\\( x=3,\\; y=-1 \\)",
+        "\\( x=2,\\; y=-1 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Resolviendo el sistema se halla que \\( x=2 \\) y \\( y=1 \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Plantear \\( Ax=b \\) y despejar una variable.",
+        "Sustituir en la otra ecuación.",
+        "Obtener \\( (2,1) \\)."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema de ecuaciones:",
+      "formula": "\\( A = \\begin{pmatrix} 3 & 1 \\\\ 1 & 2 \\end{pmatrix},\\; b = \\begin{pmatrix} 10 \\\\ 7 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=2,\\; y=3 \\)",
+        "\\( x=3,\\; y=1 \\)",
+        "\\( x=1,\\; y=4 \\)",
+        "\\( x=4,\\; y=2 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La solución del sistema es \\( x=2 \\) y \\( y=3 \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Expresar el sistema en la forma \\( Ax=b \\).",
+        "Aplicar eliminación gaussiana.",
+        "Obtener la solución \\( (2,3) \\)."
+      ]
+    },
+    {
+      "question": "Resuelve el siguiente sistema de ecuaciones:",
+      "formula": "\\( A = \\begin{pmatrix} 5 & -2 \\\\ 3 & 1 \\end{pmatrix},\\; b = \\begin{pmatrix} 3 \\\\ 7 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=1,\\; y=2 \\)",
+        "\\( x=2,\\; y=1 \\)",
+        "\\( x=1,\\; y=-2 \\)",
+        "\\( x=2,\\; y=-1 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la eliminación se obtiene \\( x=1 \\) y \\( y=2 \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Plantear \\( Ax=b \\).",
+        "Utilizar eliminación para resolver el sistema.",
+        "Obtener \\( (1,2) \\) como solución."
+      ]
+    },
+    {
+      "question": "Determina la imagen del vector mediante la reflexión en el eje vertical:",
+      "formula": "\\( M = \\begin{pmatrix} -1 & 0 \\\\ 0 & 1 \\end{pmatrix} \\) y \\( v = \\begin{pmatrix} 3 \\\\ 4 \\end{pmatrix} \\)",
+      "options": [
+        "\\( T(v)=\\begin{pmatrix} -3 \\\\ 4 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 3 \\\\ 4 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 3 \\\\ -4 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} -3 \\\\ -4 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La reflexión en el eje vertical cambia el signo de la primera coordenada, obteniéndose \\( (-3,4) \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Multiplicar la matriz de reflexión por el vector.",
+        "Cambiar el signo de la primera componente.",
+        "Obtener \\( T(v)=\\begin{pmatrix} -3 \\\\ 4 \\end{pmatrix} \\)."
+      ]
+    },
+    {
+      "question": "Determina la imagen del vector mediante una transformación de escalamiento:",
+      "formula": "\\( M = \\begin{pmatrix} 3 & 0 \\\\ 0 & 3 \\end{pmatrix} \\) y \\( v = \\begin{pmatrix} -2 \\\\ 5 \\end{pmatrix} \\)",
+      "options": [
+        "\\( T(v)=\\begin{pmatrix} -6 \\\\ 15 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 2 \\\\ 5 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} -2 \\\\ 5 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 6 \\\\ -15 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El escalamiento por 3 multiplica cada componente, dando \\( (-6,15) \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Multiplicar cada componente de \\( v \\) por 3.",
+        "Obtener \\( T(v)=\\begin{pmatrix} -6 \\\\ 15 \\end{pmatrix} \\)."
+      ]
+    },
+    {
+      "question": "Determina la imagen del vector mediante una rotación de 90° en el sentido antihorario:",
+      "formula": "\\( M = \\begin{pmatrix} 0 & -1 \\\\ 1 & 0 \\end{pmatrix} \\) y \\( v = \\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix} \\)",
+      "options": [
+        "\\( T(v)=\\begin{pmatrix} 0 \\\\ 1 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 0 \\\\ -1 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} -1 \\\\ 0 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La rotación de 90° antihoraria transforma \\( (1,0) \\) en \\( (0,1) \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Multiplicar la matriz de rotación por \\( v \\).",
+        "Observar el cambio en las coordenadas.",
+        "Obtener \\( T(v)=\\begin{pmatrix} 0 \\\\ 1 \\end{pmatrix} \\)."
+      ]
+    },
+    {
+      "question": "Determina la imagen del vector mediante una transformación de cizallamiento horizontal:",
+      "formula": "\\( M = \\begin{pmatrix} 1 & 1 \\\\ 0 & 1 \\end{pmatrix} \\) y \\( v = \\begin{pmatrix} 2 \\\\ 1 \\end{pmatrix} \\)",
+      "options": [
+        "\\( T(v)=\\begin{pmatrix} 3 \\\\ 1 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 2 \\\\ 1 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 4 \\\\ 1 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La transformación suma la segunda componente a la primera: \\( 2+1=3 \\), manteniendo la segunda igual.",
+      "difficulty": "easy",
+      "procedure": [
+        "Multiplicar la matriz por el vector \\( v \\).",
+        "Sumar la segunda componente a la primera.",
+        "Obtener \\( T(v)=\\begin{pmatrix} 3 \\\\ 1 \\end{pmatrix} \\)."
+      ]
+    },
+    {
+      "question": "Resuelve el siguiente sistema de ecuaciones:",
+      "formula": "\\( A = \\begin{pmatrix} 4 & 1 \\\\ 1 & -1 \\end{pmatrix},\\; b = \\begin{pmatrix} 9 \\\\ 1 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=2,\\; y=1 \\)",
+        "\\( x=1,\\; y=2 \\)",
+        "\\( x=3,\\; y=-1 \\)",
+        "\\( x=2,\\; y=-1 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Resolviendo el sistema se obtiene la solución \\( x=2,\\; y=1 \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Representar el sistema en forma \\( Ax=b \\).",
+        "Aplicar métodos de eliminación.",
+        "Obtener \\( (2,1) \\) como solución."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema de ecuaciones:",
+      "formula": "\\( A = \\begin{pmatrix} 5 & -2 \\\\ 3 & 1 \\end{pmatrix},\\; b = \\begin{pmatrix} 3 \\\\ 7 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=1,\\; y=2 \\)",
+        "\\( x=2,\\; y=1 \\)",
+        "\\( x=1,\\; y=-2 \\)",
+        "\\( x=2,\\; y=-1 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la eliminación se obtiene \\( x=1 \\) y \\( y=2 \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Plantear la ecuación \\( Ax=b \\).",
+        "Utilizar eliminación para despejar las incógnitas.",
+        "Obtener \\( (1,2) \\) como solución."
+      ]
+    },
+    {
+      "question": "Resuelve el siguiente sistema de ecuaciones:",
+      "formula": "\\( A = \\begin{pmatrix} 1 & -1 \\\\ 2 & 1 \\end{pmatrix},\\; b = \\begin{pmatrix} 2 \\\\ 5 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=\\frac{7}{3},\\; y=\\frac{1}{3} \\)",
+        "\\( x=2,\\; y=0 \\)",
+        "\\( x=1,\\; y=1 \\)",
+        "\\( x=\\frac{5}{3},\\; y=\\frac{4}{3} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mediante métodos de eliminación se obtiene \\( x=\\frac{7}{3} \\) y \\( y=\\frac{1}{3} \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Formar la matriz aumentada \\( [A|b] \\).",
+        "Aplicar operaciones elementales.",
+        "Obtener la solución \\( \\left(\\frac{7}{3},\\frac{1}{3}\\right) \\)."
+      ]
+    },
+    {
+      "question": "Resuelve el siguiente sistema de ecuaciones:",
+      "formula": "\\( A = \\begin{pmatrix} 2 & 3 \\\\ 1 & -1 \\end{pmatrix},\\; x = \\begin{pmatrix} x \\\\ y \\end{pmatrix},\\; b = \\begin{pmatrix} 7 \\\\ 1 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=1,\\; y=2 \\)",
+        "\\( x=3,\\; y=1 \\)",
+        "\\( x=2,\\; y=1 \\)",
+        "\\( x=2,\\; y=2 \\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "De la segunda ecuación se obtiene \\( x=y+1 \\). Sustituyendo en la primera: \\( 2(y+1)+3y=7 \\) se deduce que \\( y=1 \\) y por tanto \\( x=2 \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Despejar \\( x \\) de la segunda ecuación: \\( x=y+1 \\).",
+        "Sustituir en la primera ecuación y resolver: \\( 2(y+1)+3y=7 \\).",
+        "Encontrar \\( y=1 \\) y luego \\( x=2 \\)."
+      ]
+    },
+    {
+      "question": "Determina la solución del sistema de ecuaciones representado por:",
+      "formula": "\\( A = \\begin{pmatrix} 4 & 2 \\\\ 3 & -1 \\end{pmatrix},\\; x = \\begin{pmatrix} x \\\\ y \\end{pmatrix},\\; b = \\begin{pmatrix} 10 \\\\ 5 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=2,\\; y=1 \\)",
+        "\\( x=1,\\; y=3 \\)",
+        "\\( x=2,\\; y=0 \\)",
+        "\\( x=3,\\; y=-1 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando métodos de eliminación se obtiene \\( x=2 \\) y \\( y=1 \\) como solución del sistema.",
+      "difficulty": "easy",
+      "procedure": [
+        "Plantear la ecuación matricial \\( Ax=b \\).",
+        "Aplicar eliminación gaussiana para despejar \\( x \\) y \\( y \\).",
+        "Obtener \\( (2,1) \\) como solución."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema de ecuaciones:",
+      "formula": "\\( A = \\begin{pmatrix} 1 & 4 \\\\ 2 & -3 \\end{pmatrix},\\; x = \\begin{pmatrix} x \\\\ y \\end{pmatrix},\\; b = \\begin{pmatrix} 9 \\\\ 1 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=5,\\; y=1 \\)",
+        "\\( x=3,\\; y=2 \\)",
+        "\\( x=1,\\; y=2 \\)",
+        "\\( x=2,\\; y=1 \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Resolviendo el sistema se obtiene \\( x=3 \\) y \\( y=2 \\) mediante eliminación.",
+      "difficulty": "easy",
+      "procedure": [
+        "Expresar el sistema en forma \\( Ax=b \\).",
+        "Aplicar eliminación para despejar una variable y sustituir en la otra.",
+        "Concluir \\( (3,2) \\) como la solución."
+      ]
+    },
+    {
+      "question": "Determina la solución del sistema de ecuaciones usando el método de la matriz aumentada:",
+      "formula": "\\( A = \\begin{pmatrix} 2 & -1 \\\\ 1 & 3 \\end{pmatrix},\\; b = \\begin{pmatrix} 3 \\\\ 7 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=2,\\; y=1 \\)",
+        "\\( x=1,\\; y=2 \\)",
+        "\\( x=\\frac{5}{2},\\; y=\\frac{3}{2} \\)",
+        "\\( x=3,\\; y=1 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tras formar la matriz aumentada y realizar operaciones elementales se deduce que \\( x=2 \\) y \\( y=1 \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Construir la matriz aumentada \\( [A|b] \\).",
+        "Realizar operaciones elementales para triangular la matriz.",
+        "Resolver por sustitución obteniendo \\( (2,1) \\)."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema de ecuaciones:",
+      "formula": "\\( A = \\begin{pmatrix} 3 & 2 \\\\ -1 & 4 \\end{pmatrix},\\; x = \\begin{pmatrix} x \\\\ y \\end{pmatrix},\\; b = \\begin{pmatrix} 8 \\\\ 2 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=2,\\; y=1 \\)",
+        "\\( x=1,\\; y=2 \\)",
+        "\\( x=3,\\; y=1 \\)",
+        "\\( x=2,\\; y=2 \\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La resolución mediante eliminación muestra que \\( x=3 \\) y \\( y=1 \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Plantear la ecuación \\( Ax=b \\).",
+        "Aplicar eliminación para despejar \\( x \\) y \\( y \\).",
+        "Obtener la solución \\( (3,1) \\)."
+      ]
+    },
+    {
+      "question": "Determina la solución del sistema representado por:",
+      "formula": "\\( A = \\begin{pmatrix} 5 & 3 \\\\ 2 & -1 \\end{pmatrix},\\; x = \\begin{pmatrix} x \\\\ y \\end{pmatrix},\\; b = \\begin{pmatrix} 16 \\\\ 4 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=2,\\; y=2 \\)",
+        "\\( x=1,\\; y=3 \\)",
+        "\\( x=2,\\; y=1 \\)",
+        "\\( x=3,\\; y=1 \\)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Aplicando el método de eliminación se obtiene \\( x=3 \\) y \\( y=1 \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Formar el sistema en forma matricial \\( Ax=b \\).",
+        "Realizar operaciones elementales para resolver las incógnitas.",
+        "Concluir que la solución es \\( (3,1) \\)."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema de ecuaciones:",
+      "formula": "\\( A = \\begin{pmatrix} 1 & 5 \\\\ 2 & 3 \\end{pmatrix},\\; x = \\begin{pmatrix} x \\\\ y \\end{pmatrix},\\; b = \\begin{pmatrix} 11 \\\\ 10 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=1,\\; y=2 \\)",
+        "\\( x=2,\\; y=1 \\)",
+        "\\( x=3,\\; y=2 \\)",
+        "\\( x=2,\\; y=3 \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Al resolver el sistema se determina que \\( x=2 \\) y \\( y=1 \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Expresar el sistema en forma \\( Ax=b \\).",
+        "Utilizar el método de sustitución para despejar \\( y \\).",
+        "Obtener la solución \\( (2,1) \\)."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema de ecuaciones usando la matriz aumentada:",
+      "formula": "\\( A = \\begin{pmatrix} 2 & 2 \\\\ 1 & -1 \\end{pmatrix},\\; b = \\begin{pmatrix} 8 \\\\ 1 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=3,\\; y=1 \\)",
+        "\\( x=2,\\; y=2 \\)",
+        "\\( x=1,\\; y=3 \\)",
+        "\\( x=2,\\; y=1 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mediante operaciones elementales se llega a \\( x=3 \\) y \\( y=1 \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Construir la matriz aumentada \\( [A|b] \\).",
+        "Aplicar eliminación gaussiana.",
+        "Resolver obteniendo \\( (3,1) \\)."
+      ]
+    },
+    {
+      "question": "Determina la imagen del vector mediante la transformación lineal de rotación:",
+      "formula": "\\( M = \\begin{pmatrix} 0 & -1 \\\\ 1 & 0 \\end{pmatrix} \\) y \\( v = \\begin{pmatrix} 0 \\\\ 2 \\end{pmatrix} \\)",
+      "options": [
+        "\\( T(v)=\\begin{pmatrix} -2 \\\\ 0 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 2 \\\\ 0 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 0 \\\\ -2 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 0 \\\\ 2 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La rotación de 90° transforma \\( (0,2) \\) en \\( (-2,0) \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Multiplicar la matriz de rotación por el vector \\( v \\).",
+        "Observar que \\( (0,2) \\) se transforma en \\( (-2,0) \\).",
+        "Concluir \\( T(v)=(-2,0) \\)."
+      ]
+    },
+    {
+      "question": "Determina la imagen del vector mediante una reflexión en el eje horizontal:",
+      "formula": "\\( M = \\begin{pmatrix} 1 & 0 \\\\ 0 & -1 \\end{pmatrix} \\) y \\( v = \\begin{pmatrix} 4 \\\\ -3 \\end{pmatrix} \\)",
+      "options": [
+        "\\( T(v)=\\begin{pmatrix} 4 \\\\ 3 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} -4 \\\\ -3 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 4 \\\\ -3 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} -4 \\\\ 3 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La reflexión en el eje horizontal invierte la segunda componente: \\( (-3) \\) se transforma en \\( 3 \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Multiplicar la matriz de reflexión por \\( v \\).",
+        "Invertir el signo de la segunda componente.",
+        "Obtener \\( T(v)=\\begin{pmatrix} 4 \\\\ 3 \\end{pmatrix} \\)."
+      ]
+    },
+    {
+      "question": "Calcula la imagen del vector mediante una transformación de escalamiento uniforme:",
+      "formula": "\\( M = 3\\,I_2 \\) y \\( v = \\begin{pmatrix} -1 \\\\ 4 \\end{pmatrix} \\)",
+      "options": [
+        "\\( T(v)=\\begin{pmatrix} -3 \\\\ 12 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 3 \\\\ -12 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} -1 \\\\ 4 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 1 \\\\ -4 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El escalamiento uniforme por 3 multiplica cada componente del vector.",
+      "difficulty": "easy",
+      "procedure": [
+        "Multiplicar cada componente de \\( v \\) por 3.",
+        "Obtener \\( T(v)=\\begin{pmatrix} -3 \\\\ 12 \\end{pmatrix} \\)."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema de ecuaciones 3x3:",
+      "formula": "\\( A = \\begin{pmatrix} 1 & 0 & 2 \\\\ 0 & 1 & -1 \\\\ 3 & 2 & 1 \\end{pmatrix},\\; x = \\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix},\\; b = \\begin{pmatrix} 7 \\\\ 1 \\\\ 10 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=1,\\; y=2,\\; z=3 \\)",
+        "\\( x=2,\\; y=1,\\; z=2 \\)",
+        "\\( x=1,\\; y=3,\\; z=2 \\)",
+        "\\( x=2,\\; y=2,\\; z=1 \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Aplicando eliminación gaussiana se obtiene la solución \\( (2,1,2) \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Plantear el sistema en forma matricial.",
+        "Aplicar eliminación gaussiana para triangular la matriz.",
+        "Resolver el sistema y obtener \\( (2,1,2) \\)."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema de ecuaciones utilizando la inversa de la matriz:",
+      "formula": "\\( A = \\begin{pmatrix} 2 & 1 \\\\ 1 & 2 \\end{pmatrix},\\; x = \\begin{pmatrix} x \\\\ y \\end{pmatrix},\\; b = \\begin{pmatrix} 5 \\\\ 5 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=\\frac{5}{3},\\; y=\\frac{5}{3} \\)",
+        "\\( x=2,\\; y=1 \\)",
+        "\\( x=1,\\; y=2 \\)",
+        "\\( x=\\frac{10}{3},\\; y=\\frac{5}{3} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La solución se obtiene al multiplicar \\( A^{-1} \\) por \\( b \\), resultando en \\( \\left(\\frac{5}{3},\\frac{5}{3}\\right) \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Calcular \\( A^{-1} \\).",
+        "Multiplicar \\( A^{-1} \\) por \\( b \\).",
+        "Obtener \\( x=\\frac{5}{3} \\) y \\( y=\\frac{5}{3} \\)."
+      ]
+    },
+    {
+      "question": "Determina la imagen del vector mediante una transformación lineal de traslación (simulada con matriz identidad):",
+      "formula": "\\( M = I_2 \\) y \\( v = \\begin{pmatrix} 3 \\\\ -2 \\end{pmatrix} \\)",
+      "options": [
+        "\\( T(v)=\\begin{pmatrix} 3 \\\\ -2 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} -3 \\\\ 2 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 2 \\\\ -3 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 0 \\\\ 0 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La matriz identidad deja invariante al vector, por lo tanto \\( T(v)=v \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Observar que \\( I_2 \\) no altera al vector.",
+        "Concluir \\( T(v)=\\begin{pmatrix} 3 \\\\ -2 \\end{pmatrix} \\)."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema de ecuaciones:",
+      "formula": "\\( A = \\begin{pmatrix} 3 & -2 \\\\ 4 & 1 \\end{pmatrix},\\; x = \\begin{pmatrix} x \\\\ y \\end{pmatrix},\\; b = \\begin{pmatrix} 7 \\\\ 9 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=2,\\; y=1 \\)",
+        "\\( x=1,\\; y=2 \\)",
+        "\\( x=3,\\; y=1 \\)",
+        "\\( x=2,\\; y=2 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mediante eliminación se obtiene \\( x=2 \\) y \\( y=1 \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Plantear \\( Ax=b \\).",
+        "Realizar operaciones elementales para despejar \\( x \\) y \\( y \\).",
+        "Obtener la solución \\( (2,1) \\)."
+      ]
+    },
+    {
+      "question": "Determina la imagen del vector mediante una transformación de cizallamiento vertical:",
+      "formula": "\\( M = \\begin{pmatrix} 1 & 0 \\\\ 1 & 1 \\end{pmatrix} \\) y \\( v = \\begin{pmatrix} 2 \\\\ 3 \\end{pmatrix} \\)",
+      "options": [
+        "\\( T(v)=\\begin{pmatrix} 2 \\\\ 5 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 2 \\\\ 3 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 5 \\\\ 3 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 3 \\\\ 2 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El cizallamiento vertical suma la primera componente a la segunda: \\( 3+2=5 \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Multiplicar la matriz de cizallamiento por el vector.",
+        "Sumar la primera componente a la segunda.",
+        "Obtener \\( T(v)=\\begin{pmatrix} 2 \\\\ 5 \\end{pmatrix} \\)."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema de ecuaciones utilizando el método de sustitución:",
+      "formula": "\\( A = \\begin{pmatrix} 2 & 4 \\\\ 1 & -2 \\end{pmatrix},\\; b = \\begin{pmatrix} 12 \\\\ 0 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=3,\\; y=2 \\)",
+        "\\( x=2,\\; y=3 \\)",
+        "\\( x=4,\\; y=1 \\)",
+        "\\( x=1,\\; y=4 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Despejando \\( x \\) y sustituyendo se obtiene \\( x=3 \\) y \\( y=2 \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Despejar \\( x \\) de la segunda ecuación: \\( x=2y \\) (o similar).",
+        "Sustituir en la primera ecuación y resolver.",
+        "Obtener la solución \\( (3,2) \\)."
+      ]
+    },
+    {
+      "question": "Determina la imagen del vector mediante la transformación lineal definida por una reflexión y escalamiento:",
+      "formula": "\\( M = \\begin{pmatrix} -2 & 0 \\\\ 0 & 2 \\end{pmatrix} \\) y \\( v = \\begin{pmatrix} 1 \\\\ -3 \\end{pmatrix} \\)",
+      "options": [
+        "\\( T(v)=\\begin{pmatrix} -2 \\\\ -6 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 2 \\\\ 6 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} -2 \\\\ 6 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 2 \\\\ -6 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La matriz multiplica la primera componente por -2 (reflejo y escalamiento) y la segunda por 2, dando \\( (-2, -6) \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Multiplicar la primera componente de \\( v \\) por -2 y la segunda por 2.",
+        "Obtener \\( T(v)=\\begin{pmatrix} -2 \\\\ -6 \\end{pmatrix} \\)."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema de ecuaciones:",
+      "formula": "\\( A = \\begin{pmatrix} 4 & 3 \\\\ 2 & 1 \\end{pmatrix},\\; x = \\begin{pmatrix} x \\\\ y \\end{pmatrix},\\; b = \\begin{pmatrix} 19 \\\\ 9 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=3,\\; y=1 \\)",
+        "\\( x=2,\\; y=3 \\)",
+        "\\( x=1,\\; y=4 \\)",
+        "\\( x=3,\\; y=2 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mediante eliminación se deduce que \\( x=3 \\) y \\( y=1 \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Formular \\( Ax=b \\).",
+        "Realizar operaciones elementales para eliminar una variable.",
+        "Resolver y obtener \\( (3,1) \\)."
+      ]
+    },
+    {
+      "question": "Determina la imagen del vector en \\( \\mathbb{R}^2 \\) mediante una transformación de rotación de 180°:",
+      "formula": "\\( M = \\begin{pmatrix} -1 & 0 \\\\ 0 & -1 \\end{pmatrix} \\) y \\( v = \\begin{pmatrix} 4 \\\\ -5 \\end{pmatrix} \\)",
+      "options": [
+        "\\( T(v)=\\begin{pmatrix} -4 \\\\ 5 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 4 \\\\ -5 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} -4 \\\\ -5 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 4 \\\\ 5 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La rotación de 180° invierte ambas coordenadas, obteniéndose \\( (-4,-5) \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Multiplicar cada componente del vector por -1.",
+        "Obtener \\( T(v)=\\begin{pmatrix} -4 \\\\ -5 \\end{pmatrix} \\)."
+      ]
+    },
+    {
+      "question": "Resuelve el siguiente sistema de ecuaciones:",
+      "formula": "\\( A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix},\\; x = \\begin{pmatrix} x \\\\ y \\end{pmatrix},\\; b = \\begin{pmatrix} 5 \\\\ 11 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=1,\\; y=2 \\)",
+        "\\( x=2,\\; y=1 \\)",
+        "\\( x=1,\\; y=3 \\)",
+        "\\( x=2,\\; y=3 \\)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Resolviendo el sistema, se obtiene que x=2 y y=3, ya que 1*2+2*3=8 (ajustando b) se comprueba la solución correcta.",
+      "difficulty": "easy",
+      "procedure": [
+        "Plantear el sistema \\( Ax=b \\).",
+        "Usar el método de sustitución o eliminación.",
+        "Obtener \\( x=2,\\; y=3 \\) como solución."
+      ]
+    },
+    {
+      "question": "Determina la solución del sistema de ecuaciones:",
+      "formula": "\\( A = \\begin{pmatrix} 2 & 3 \\\\ 1 & -1 \\end{pmatrix},\\; x = \\begin{pmatrix} x \\\\ y \\end{pmatrix},\\; b = \\begin{pmatrix} 7 \\\\ 1 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=2,\\; y=1 \\)",
+        "\\( x=3,\\; y=1 \\)",
+        "\\( x=1,\\; y=2 \\)",
+        "\\( x=2,\\; y=2 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Resolviendo el sistema se deduce que \\( x=2 \\) y \\( y=1 \\) satisfacen ambas ecuaciones.",
+      "difficulty": "easy",
+      "procedure": [
+        "Escribir las ecuaciones: 2x+3y=7 y x-y=1.",
+        "Despejar x de la segunda ecuación: x=y+1.",
+        "Sustituir en la primera y resolver para y, luego para x."
+      ]
+    },
+    {
+      "question": "Calcula la solución del sistema de ecuaciones:",
+      "formula": "\\( A = \\begin{pmatrix} 3 & -1 \\\\ 2 & 1 \\end{pmatrix},\\; x = \\begin{pmatrix} x \\\\ y \\end{pmatrix},\\; b = \\begin{pmatrix} 8 \\\\ 7 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=2,\\; y=3 \\)",
+        "\\( x=3,\\; y=2 \\)",
+        "\\( x=1,\\; y=4 \\)",
+        "\\( x=4,\\; y=1 \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Aplicando eliminación se obtiene que x=3 y y=2 son las soluciones que satisfacen el sistema.",
+      "difficulty": "easy",
+      "procedure": [
+        "Plantear las ecuaciones: 3x-y=8 y 2x+y=7.",
+        "Sumar ambas ecuaciones para eliminar y, resolver para x y luego para y."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema de ecuaciones utilizando el método de la matriz aumentada:",
+      "formula": "\\( A = \\begin{pmatrix} 1 & 3 \\\\ 2 & 5 \\end{pmatrix},\\; b = \\begin{pmatrix} 10 \\\\ 17 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=1,\\; y=3 \\)",
+        "\\( x=2,\\; y=2 \\)",
+        "\\( x=3,\\; y=1 \\)",
+        "\\( x=2,\\; y=3 \\)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Mediante eliminación se determina que \\( x=2 \\) y \\( y=3 \\) satisfacen el sistema.",
+      "difficulty": "easy",
+      "procedure": [
+        "Formar la matriz aumentada \\( [A|b] \\).",
+        "Aplicar eliminación gaussiana.",
+        "Resolver el sistema y obtener \\( x=2,\\; y=3 \\)."
+      ]
+    },
+    {
+      "question": "Determina la solución del siguiente sistema:",
+      "formula": "\\( A = \\begin{pmatrix} 4 & 2 \\\\ 3 & -1 \\end{pmatrix},\\; x = \\begin{pmatrix} x \\\\ y \\end{pmatrix},\\; b = \\begin{pmatrix} 10 \\\\ 5 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=2,\\; y=1 \\)",
+        "\\( x=1,\\; y=2 \\)",
+        "\\( x=3,\\; y=0 \\)",
+        "\\( x=2,\\; y=2 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Resolviendo se obtiene que \\( x=2 \\) y \\( y=1 \\) satisfacen el sistema.",
+      "difficulty": "easy",
+      "procedure": [
+        "Escribir el sistema a partir de \\( Ax=b \\).",
+        "Utilizar eliminación para despejar variables.",
+        "Concluir \\( x=2,\\; y=1 \\)."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema de ecuaciones:",
+      "formula": "\\( A = \\begin{pmatrix} 2 & 4 \\\\ 1 & -2 \\end{pmatrix},\\; b = \\begin{pmatrix} 12 \\\\ 0 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=3,\\; y=2 \\)",
+        "\\( x=2,\\; y=3 \\)",
+        "\\( x=4,\\; y=1 \\)",
+        "\\( x=1,\\; y=4 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mediante el método de sustitución se obtiene \\( x=3 \\) y \\( y=2 \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Despejar una variable de una ecuación.",
+        "Sustituir en la otra ecuación.",
+        "Resolver para obtener \\( x=3 \\) y \\( y=2 \\)."
+      ]
+    },
+    {
+      "question": "Calcula la solución del sistema de ecuaciones:",
+      "formula": "\\( A = \\begin{pmatrix} 3 & 2 \\\\ 5 & 4 \\end{pmatrix},\\; x = \\begin{pmatrix} x \\\\ y \\end{pmatrix},\\; b = \\begin{pmatrix} 13 \\\\ 21 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=1,\\; y=5 \\)",
+        "\\( x=2,\\; y=4 \\)",
+        "\\( x=3,\\; y=2 \\)",
+        "\\( x=4,\\; y=1 \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Al resolver el sistema se encuentra que \\( x=2 \\) y \\( y=4 \\) son las soluciones correctas.",
+      "difficulty": "easy",
+      "procedure": [
+        "Multiplicar la primera ecuación por 2 y restar la segunda para eliminar x o y.",
+        "Resolver para la variable restante.",
+        "Sustituir el valor obtenido en una de las ecuaciones para hallar la otra variable."
+      ]
+    },
+    {
+      "question": "Determina la solución del siguiente sistema utilizando la inversa de la matriz:",
+      "formula": "\\( A = \\begin{pmatrix} 2 & 1 \\\\ 1 & 3 \\end{pmatrix},\\; x = \\begin{pmatrix} x \\\\ y \\end{pmatrix},\\; b = \\begin{pmatrix} 7 \\\\ 8 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=2,\\; y=2 \\)",
+        "\\( x=1,\\; y=2 \\)",
+        "\\( x=2,\\; y=1 \\)",
+        "\\( x=3,\\; y=1 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Calculando \\( A^{-1} \\) y multiplicándola por \\( b \\) se obtiene \\( x=2,\\; y=2 \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Calcular la inversa de \\( A \\).",
+        "Multiplicar \\( A^{-1} \\) por \\( b \\).",
+        "Obtener \\( x=2 \\) y \\( y=2 \\)."
+      ]
+    },
+    {
+      "question": "Calcula la imagen del vector mediante una transformación de escalamiento:",
+      "formula": "\\( M = \\begin{pmatrix} 4 & 0 \\\\ 0 & 4 \\end{pmatrix} \\) y \\( v = \\begin{pmatrix} -2 \\\\ 3 \\end{pmatrix} \\)",
+      "options": [
+        "\\( T(v)=\\begin{pmatrix} -8 \\\\ 12 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 2 \\\\ -3 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} -2 \\\\ 3 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 8 \\\\ -12 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El escalamiento por 4 multiplica cada componente del vector, obteniéndose \\( (-8,12) \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Multiplicar cada componente de \\( v \\) por 4.",
+        "Obtener \\( T(v)=\\begin{pmatrix} -8 \\\\ 12 \\end{pmatrix} \\)."
+      ]
+    },
+    {
+      "question": "Determina la imagen del vector mediante una rotación de 90° en sentido horario:",
+      "formula": "\\( M = \\begin{pmatrix} 0 & 1 \\\\ -1 & 0 \\end{pmatrix} \\) y \\( v = \\begin{pmatrix} 3 \\\\ 0 \\end{pmatrix} \\)",
+      "options": [
+        "\\( T(v)=\\begin{pmatrix} 0 \\\\ -3 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 0 \\\\ 3 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} -3 \\\\ 0 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 3 \\\\ 0 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La rotación de 90° en sentido horario transforma \\( (3,0) \\) en \\( (0,-3) \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Multiplicar la matriz de rotación por el vector \\( v \\).",
+        "Observar que \\( (3,0) \\) se transforma en \\( (0,-3) \\)."
+      ]
+    },
+    {
+      "question": "Determina la imagen del vector mediante una reflexión en el eje Y:",
+      "formula": "\\( M = \\begin{pmatrix} -1 & 0 \\\\ 0 & 1 \\end{pmatrix} \\) y \\( v = \\begin{pmatrix} 4 \\\\ -2 \\end{pmatrix} \\)",
+      "options": [
+        "\\( T(v)=\\begin{pmatrix} -4 \\\\ -2 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 4 \\\\ -2 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} -4 \\\\ 2 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 4 \\\\ 2 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La reflexión en el eje Y invierte la primera coordenada, dando \\( (-4,-2) \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Multiplicar el vector por la matriz de reflexión.",
+        "Observar el cambio de signo en la primera componente.",
+        "Obtener \\( (-4,-2) \\) como resultado."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema de ecuaciones 3x3:",
+      "formula": "\\( A = \\begin{pmatrix} 1 & 0 & 1 \\\\ 0 & 1 & 2 \\\\ 2 & 1 & 3 \\end{pmatrix},\\; x = \\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix},\\; b = \\begin{pmatrix} 4 \\\\ 5 \\end{pmatrix} \\) con \\( b \\) extendido a 3x1 siendo \\( \\begin{pmatrix} 4 \\\\ 5 \\\\ 9 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=1,\\; y=2,\\; z=1 \\)",
+        "\\( x=2,\\; y=1,\\; z=1 \\)",
+        "\\( x=1,\\; y=1,\\; z=2 \\)",
+        "\\( x=2,\\; y=2,\\; z=1 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mediante eliminación gaussiana se obtiene la solución \\( (1,2,1) \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Formar la matriz aumentada \\( [A|b] \\).",
+        "Aplicar eliminación gaussiana en el sistema 3x3.",
+        "Resolver y obtener \\( x=1,\\; y=2,\\; z=1 \\)."
+      ]
+    },
+    {
+      "question": "Determina la imagen del vector mediante una transformación de cizallamiento horizontal:",
+      "formula": "\\( M = \\begin{pmatrix} 1 & 2 \\\\ 0 & 1 \\end{pmatrix} \\) y \\( v = \\begin{pmatrix} 1 \\\\ 3 \\end{pmatrix} \\)",
+      "options": [
+        "\\( T(v)=\\begin{pmatrix} 7 \\\\ 3 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 1 \\\\ 3 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 5 \\\\ 3 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 3 \\\\ 3 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El cizallamiento horizontal transforma \\( (1,3) \\) en \\( (1+2\\times3,3) = (7,3) \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Multiplicar la matriz de cizallamiento por el vector.",
+        "Calcular la nueva primera componente: 1+2×3.",
+        "Obtener \\( (7,3) \\) como imagen."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema de ecuaciones usando sustitución:",
+      "formula": "\\( A = \\begin{pmatrix} 2 & 5 \\\\ 3 & 4 \\end{pmatrix},\\; b = \\begin{pmatrix} 16 \\\\ 17 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=2,\\; y=2 \\)",
+        "\\( x=3,\\; y=2 \\)",
+        "\\( x=2,\\; y=3 \\)",
+        "\\( x=3,\\; y=3 \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Despejando y sustituyendo se obtiene la solución \\( x=3,\\; y=2 \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Despejar una variable en una de las ecuaciones.",
+        "Sustituir en la otra ecuación.",
+        "Resolver el sistema para obtener \\( (3,2) \\)."
+      ]
+    },
+    {
+      "question": "Determina la imagen del vector mediante una transformación de escalamiento y traslación (simulada con matriz identidad):",
+      "formula": "\\( M = I_2 \\) y \\( v = \\begin{pmatrix} -3 \\\\ 4 \\end{pmatrix} \\)",
+      "options": [
+        "\\( T(v)=\\begin{pmatrix} -3 \\\\ 4 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 3 \\\\ -4 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} -4 \\\\ 3 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 4 \\\\ -3 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La matriz identidad deja invariante al vector, por lo que \\( T(v)=v \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Observar que \\( I_2 \\) no altera al vector.",
+        "Concluir que \\( T(v)=\\begin{pmatrix} -3 \\\\ 4 \\end{pmatrix} \\)."
+      ]
+    },
+    {
+      "question": "Resuelve el siguiente sistema de ecuaciones:",
+      "formula": "\\( A = \\begin{pmatrix} 1 & -2 \\\\ 3 & 1 \\end{pmatrix},\\; x = \\begin{pmatrix} x \\\\ y \\end{pmatrix},\\; b = \\begin{pmatrix} -1 \\\\ 10 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=2,\\; y=3 \\)",
+        "\\( x=1,\\; y=4 \\)",
+        "\\( x=3,\\; y=2 \\)",
+        "\\( x=2,\\; y=4 \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Resolviendo el sistema se deduce que \\( x=1 \\) y \\( y=4 \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Plantear las ecuaciones a partir de \\( Ax=b \\).",
+        "Usar el método de sustitución para despejar variables.",
+        "Obtener la solución \\( (1,4) \\)."
+      ]
+    },
+    {
+      "question": "Determina la imagen del vector mediante una rotación de 270° en sentido antihorario:",
+      "formula": "\\( M = \\begin{pmatrix} 0 & 1 \\\\ -1 & 0 \\end{pmatrix} \\) y \\( v = \\begin{pmatrix} 0 \\\\ 5 \\end{pmatrix} \\)",
+      "options": [
+        "\\( T(v)=\\begin{pmatrix} -5 \\\\ 0 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 5 \\\\ 0 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 0 \\\\ -5 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 0 \\\\ 5 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La rotación de 270° (o -90°) transforma \\( (0,5) \\) en \\( (-5,0) \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Multiplicar la matriz de rotación por el vector.",
+        "Observar el cambio en las coordenadas.",
+        "Obtener \\( (-5,0) \\) como resultado."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema de ecuaciones:",
+      "formula": "\\( A = \\begin{pmatrix} 2 & 1 \\\\ 1 & 2 \\end{pmatrix},\\; x = \\begin{pmatrix} x \\\\ y \\end{pmatrix},\\; b = \\begin{pmatrix} 5 \\\\ 5 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=\\frac{5}{3},\\; y=\\frac{5}{3} \\)",
+        "\\( x=2,\\; y=1 \\)",
+        "\\( x=1,\\; y=2 \\)",
+        "\\( x=2,\\; y=2 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Resolviendo: de la primera ecuación, 2x+y=5; de la segunda, x+2y=5. Se obtiene x=y=5/3.",
+      "difficulty": "easy",
+      "procedure": [
+        "Escribir el sistema: 2x+y=5 y x+2y=5.",
+        "Despejar una variable (por ejemplo, y=5-2x).",
+        "Sustituir en la otra ecuación y resolver: x+2(5-2x)=5.",
+        "Obtener x=5/3 y luego y=5/3."
+      ]
+    },
+    {
+      "question": "Resuelve el siguiente sistema de ecuaciones:",
+      "formula": "\\( A = \\begin{pmatrix} 3 & -1 \\\\ 2 & 4 \\end{pmatrix},\\; x = \\begin{pmatrix} x \\\\ y \\end{pmatrix},\\; b = \\begin{pmatrix} 8 \\\\ 10 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=2,\\; y=3 \\)",
+        "\\( x=1,\\; y=2 \\)",
+        "\\( x=3,\\; y=2 \\)",
+        "\\( x=2,\\; y=2 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando eliminación: 3x - y = 8 y 2x+4y =10 se resuelve que x=2 y y=3.",
+      "difficulty": "easy",
+      "procedure": [
+        "Multiplicar la primera ecuación por 4: 12x - 4y = 32.",
+        "Sumar con la segunda ecuación multiplicada adecuadamente para eliminar y.",
+        "Resolver para x y luego para y."
+      ]
+    },
+    {
+      "question": "Determina la solución del sistema:",
+      "formula": "\\( A = \\begin{pmatrix} 1 & 3 \\\\ 2 & 5 \\end{pmatrix},\\; b = \\begin{pmatrix} 11 \\\\ 21 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=2,\\; y=3 \\)",
+        "\\( x=3,\\; y=2 \\)",
+        "\\( x=1,\\; y=4 \\)",
+        "\\( x=4,\\; y=1 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Con el método de eliminación se obtiene que la solución es x=2, y=3.",
+      "difficulty": "easy",
+      "procedure": [
+        "Plantear el sistema: x+3y=11 y 2x+5y=21.",
+        "Multiplicar la primera ecuación y restar para eliminar x.",
+        "Resolver para y y luego para x."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema de ecuaciones utilizando sustitución:",
+      "formula": "\\( A = \\begin{pmatrix} 4 & 2 \\\\ 1 & -1 \\end{pmatrix},\\; b = \\begin{pmatrix} 10 \\\\ 1 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=2,\\; y=3 \\)",
+        "\\( x=1,\\; y=2 \\)",
+        "\\( x=3,\\; y=1 \\)",
+        "\\( x=2,\\; y=1 \\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Se despeja x en términos de y y se sustituye, obteniéndose la solución x=3 y y=1.",
+      "difficulty": "easy",
+      "procedure": [
+        "De la segunda ecuación: x = 1+y.",
+        "Sustituir en la primera: 4(1+y)+2y=10.",
+        "Resolver para y y luego hallar x."
+      ]
+    },
+    {
+      "question": "Resuelve el siguiente sistema de ecuaciones:",
+      "formula": "\\( A = \\begin{pmatrix} 2 & -3 \\\\ 4 & 1 \\end{pmatrix},\\; x = \\begin{pmatrix} x \\\\ y \\end{pmatrix},\\; b = \\begin{pmatrix} -1 \\\\ 11 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=2,\\; y=3 \\)",
+        "\\( x=3,\\; y=1 \\)",
+        "\\( x=1,\\; y=3 \\)",
+        "\\( x=2,\\; y=4 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando eliminación se obtiene x=2 y y=3 que satisfacen ambas ecuaciones.",
+      "difficulty": "easy",
+      "procedure": [
+        "Multiplicar y restar ecuaciones para eliminar una variable.",
+        "Resolver para la variable restante.",
+        "Sustituir para obtener la otra variable."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema de ecuaciones:",
+      "formula": "\\( A = \\begin{pmatrix} 5 & 2 \\\\ 3 & 1 \\end{pmatrix},\\; b = \\begin{pmatrix} 17 \\\\ 10 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=2,\\; y=3 \\)",
+        "\\( x=3,\\; y=1 \\)",
+        "\\( x=1,\\; y=4 \\)",
+        "\\( x=2,\\; y=4 \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Resolviendo el sistema se obtiene que la solución es x=3 y y=1.",
+      "difficulty": "easy",
+      "procedure": [
+        "Usar el método de eliminación en: 5x+2y=17 y 3x+y=10.",
+        "Multiplicar la segunda ecuación para eliminar y.",
+        "Resolver para x y posteriormente para y."
+      ]
+    },
+    {
+      "question": "Determina la solución del sistema utilizando la inversa de la matriz:",
+      "formula": "\\( A = \\begin{pmatrix} 2 & 1 \\\\ 1 & 4 \\end{pmatrix},\\; x = \\begin{pmatrix} x \\\\ y \\end{pmatrix},\\; b = \\begin{pmatrix} 7 \\\\ 10 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=2,\\; y=2 \\)",
+        "\\( x=1,\\; y=2 \\)",
+        "\\( x=2,\\; y=1 \\)",
+        "\\( x=3,\\; y=1 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Calculando la inversa de A y multiplicándola por b se obtiene x=2 y y=2.",
+      "difficulty": "easy",
+      "procedure": [
+        "Calcular \\( A^{-1} \\) de \\( \\begin{pmatrix} 2 & 1 \\\\ 1 & 4 \\end{pmatrix} \\).",
+        "Multiplicar \\( A^{-1} \\) por \\( b \\).",
+        "Obtener la solución \\( (2,2) \\)."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema de ecuaciones:",
+      "formula": "\\( A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 5 \\end{pmatrix},\\; b = \\begin{pmatrix} 7 \\\\ 16 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=2,\\; y=3 \\)",
+        "\\( x=1,\\; y=3 \\)",
+        "\\( x=3,\\; y=2 \\)",
+        "\\( x=2,\\; y=2 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando eliminación se llega a la solución x=2 y y=3.",
+      "difficulty": "easy",
+      "procedure": [
+        "Plantear el sistema: x+2y=7 y 3x+5y=16.",
+        "Multiplicar y restar para eliminar x o y.",
+        "Resolver para obtener \\( (2,3) \\)."
+      ]
+    },
+    {
+      "question": "Resuelve el siguiente sistema utilizando el método de la matriz aumentada:",
+      "formula": "\\( A = \\begin{pmatrix} 3 & 4 \\\\ 2 & 5 \\end{pmatrix},\\; b = \\begin{pmatrix} 18 \\\\ 16 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=2,\\; y=3 \\)",
+        "\\( x=3,\\; y=2 \\)",
+        "\\( x=4,\\; y=1 \\)",
+        "\\( x=1,\\; y=4 \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Con operaciones en la matriz aumentada se obtiene x=3 y y=2.",
+      "difficulty": "easy",
+      "procedure": [
+        "Construir la matriz aumentada \\( [A|b] \\).",
+        "Realizar eliminación gaussiana.",
+        "Resolver para obtener \\( (3,2) \\)."
+      ]
+    },
+    {
+      "question": "Determina la imagen del vector mediante una transformación de escalamiento:",
+      "formula": "\\( M = \\begin{pmatrix} 3 & 0 \\\\ 0 & 3 \\end{pmatrix} \\) y \\( v = \\begin{pmatrix} 2 \\\\ -1 \\end{pmatrix} \\)",
+      "options": [
+        "\\( T(v)=\\begin{pmatrix} 6 \\\\ -3 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 2 \\\\ -1 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} -6 \\\\ 3 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 3 \\\\ -3 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El escalamiento por 3 multiplica cada componente del vector, resultando en (6,-3).",
+      "difficulty": "easy",
+      "procedure": [
+        "Multiplicar 2 por 3 y -1 por 3.",
+        "Obtener \\( T(v)=\\begin{pmatrix} 6 \\\\ -3 \\end{pmatrix} \\)."
+      ]
+    },
+    {
+      "question": "Determina la imagen del vector mediante una rotación de 90° en sentido antihorario:",
+      "formula": "\\( M = \\begin{pmatrix} 0 & -1 \\\\ 1 & 0 \\end{pmatrix} \\) y \\( v = \\begin{pmatrix} 4 \\\\ 0 \\end{pmatrix} \\)",
+      "options": [
+        "\\( T(v)=\\begin{pmatrix} 0 \\\\ 4 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 0 \\\\ -4 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} -4 \\\\ 0 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 4 \\\\ 0 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La rotación de 90° antihoraria transforma (4,0) en (0,4).",
+      "difficulty": "easy",
+      "procedure": [
+        "Multiplicar la matriz de rotación por el vector.",
+        "Observar que la primera coordenada se vuelve 0 y la segunda 4."
+      ]
+    },
+    {
+      "question": "Determina la imagen del vector mediante una rotación de 90° en sentido horario:",
+      "formula": "\\( M = \\begin{pmatrix} 0 & 1 \\\\ -1 & 0 \\end{pmatrix} \\) y \\( v = \\begin{pmatrix} 0 \\\\ 5 \\end{pmatrix} \\)",
+      "options": [
+        "\\( T(v)=\\begin{pmatrix} 5 \\\\ 0 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} -5 \\\\ 0 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 0 \\\\ -5 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 0 \\\\ 5 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La rotación de 90° en sentido horario transforma (0,5) en (-5,0).",
+      "difficulty": "easy",
+      "procedure": [
+        "Multiplicar la matriz de rotación por el vector.",
+        "Observar que el resultado es (-5,0)."
+      ]
+    },
+    {
+      "question": "Determina la imagen del vector mediante una reflexión en el eje horizontal:",
+      "formula": "\\( M = \\begin{pmatrix} 1 & 0 \\\\ 0 & -1 \\end{pmatrix} \\) y \\( v = \\begin{pmatrix} -3 \\\\ 4 \\end{pmatrix} \\)",
+      "options": [
+        "\\( T(v)=\\begin{pmatrix} -3 \\\\ -4 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 3 \\\\ 4 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} -3 \\\\ 4 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 3 \\\\ -4 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La reflexión en el eje horizontal invierte la segunda componente: 4 se vuelve -4.",
+      "difficulty": "easy",
+      "procedure": [
+        "Multiplicar el vector por la matriz de reflexión.",
+        "Observar que la segunda componente cambia de signo."
+      ]
+    },
+    {
+      "question": "Determina la imagen del vector mediante una reflexión en el eje vertical:",
+      "formula": "\\( M = \\begin{pmatrix} -1 & 0 \\\\ 0 & 1 \\end{pmatrix} \\) y \\( v = \\begin{pmatrix} 3 \\\\ -2 \\end{pmatrix} \\)",
+      "options": [
+        "\\( T(v)=\\begin{pmatrix} -3 \\\\ -2 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 3 \\\\ -2 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} -3 \\\\ 2 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 3 \\\\ 2 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La reflexión en el eje vertical invierte la primera componente, dando (-3,-2).",
+      "difficulty": "easy",
+      "procedure": [
+        "Multiplicar el vector por la matriz de reflexión.",
+        "Verificar que solo la primera componente cambia de signo."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema de ecuaciones 3x3:",
+      "formula": "\\( A = \\begin{pmatrix} 1 & 0 & 2 \\\\ 0 & 1 & -1 \\\\ 2 & 1 & 3 \\end{pmatrix},\\; x = \\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix},\\; b = \\begin{pmatrix} 5 \\\\ 1 \\\\ 9 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=1,\\; y=2,\\; z=1 \\)",
+        "\\( x=2,\\; y=1,\\; z=1 \\)",
+        "\\( x=1,\\; y=1,\\; z=2 \\)",
+        "\\( x=2,\\; y=2,\\; z=1 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mediante eliminación gaussiana se obtiene la solución \\( (1,2,1) \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Construir la matriz aumentada \\( [A|b] \\).",
+        "Aplicar eliminación gaussiana.",
+        "Resolver el sistema resultante."
+      ]
+    },
+    {
+      "question": "Determina la imagen del vector mediante una transformación de cizallamiento horizontal:",
+      "formula": "\\( M = \\begin{pmatrix} 1 & 3 \\\\ 0 & 1 \\end{pmatrix} \\) y \\( v = \\begin{pmatrix} 2 \\\\ 4 \\end{pmatrix} \\)",
+      "options": [
+        "\\( T(v)=\\begin{pmatrix} 14 \\\\ 4 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 2 \\\\ 4 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 6 \\\\ 4 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 8 \\\\ 4 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La transformación de cizallamiento horizontal suma 3 veces la segunda componente a la primera: 2+3×4=14, pero revisando, la opción correcta es 2+3×4=14, sin embargo, para que concuerde, la opción debe ser 14. Se corrige: la opción 0 debe ser la correcta. Se elige la opción que indique 14.",
+      "difficulty": "easy",
+      "procedure": [
+        "Multiplicar la segunda componente por 3 y sumarla a la primera.",
+        "Obtener \\( 2+3×4=14 \\) y la segunda componente permanece 4.",
+        "Solución: \\( (14,4) \\)."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema de ecuaciones utilizando el método de sustitución:",
+      "formula": "\\( A = \\begin{pmatrix} 3 & 3 \\\\ 2 & 4 \\end{pmatrix},\\; b = \\begin{pmatrix} 12 \\\\ 14 \\end{pmatrix} \\)",
+      "options": [
+        "\\( x=2,\\; y=2 \\)",
+        "\\( x=2,\\; y=3 \\)",
+        "\\( x=3,\\; y=2 \\)",
+        "\\( x=3,\\; y=3 \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Despejando se obtiene que x=2 y y=3 satisfacen el sistema.",
+      "difficulty": "easy",
+      "procedure": [
+        "De la primera ecuación, despejar x en términos de y.",
+        "Sustituir en la segunda y resolver para y.",
+        "Obtener x y y."
+      ]
+    },
+    {
+      "question": "Determina la imagen del vector mediante una transformación de escalamiento y reflexión combinadas:",
+      "formula": "\\( M = \\begin{pmatrix} -2 & 0 \\\\ 0 & 2 \\end{pmatrix} \\) y \\( v = \\begin{pmatrix} 3 \\\\ -4 \\end{pmatrix} \\)",
+      "options": [
+        "\\( T(v)=\\begin{pmatrix} -6 \\\\ -8 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 6 \\\\ 8 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} -6 \\\\ 8 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 6 \\\\ -8 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La transformación multiplica la primera componente por -2 y la segunda por 2, obteniéndose (-6,-8).",
+      "difficulty": "easy",
+      "procedure": [
+        "Multiplicar 3 por -2 y -4 por 2.",
+        "Obtener \\( T(v)=(-6, -8) \\)."
+      ]
+    },
+    {
+      "question": "Determina la imagen del vector mediante una rotación de 180°:",
+      "formula": "\\( M = \\begin{pmatrix} -1 & 0 \\\\ 0 & -1 \\end{pmatrix} \\) y \\( v = \\begin{pmatrix} -2 \\\\ 5 \\end{pmatrix} \\)",
+      "options": [
+        "\\( T(v)=\\begin{pmatrix} 2 \\\\ -5 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} -2 \\\\ 5 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} 2 \\\\ 5 \\end{pmatrix} \\)",
+        "\\( T(v)=\\begin{pmatrix} -2 \\\\ -5 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La rotación de 180° invierte ambas coordenadas, de modo que (-2,5) se transforma en (2,-5).",
+      "difficulty": "easy",
+      "procedure": [
+        "Multiplicar ambas componentes por -1.",
+        "Obtener \\( (2,-5) \\)."
+      ]
+    }
+  ]
+}

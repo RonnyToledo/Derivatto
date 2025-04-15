@@ -1,0 +1,1466 @@
+{
+  "vectores_espacios_facil": [
+    {
+      "question": "¿Cuál de las siguientes expresiones representa la propiedad de cerradura bajo la suma en un espacio vectorial?",
+      "formula": "\\( \\forall \\vec{u},\\vec{v} \\in V,\\; \\vec{u}+\\vec{v} \\in V \\)",
+      "options": [
+        "\\( \\exists \\vec{0} \\in V \\)",
+        "\\( \\forall c \\in \\mathbb{R},\\; c\\vec{u} \\in V \\)",
+        "\\( \\forall \\vec{u},\\vec{v} \\in V,\\; \\vec{u}+\\vec{v} \\in V \\)",
+        "\\( \\vec{u}+\\vec{0} = \\vec{u} \\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La propiedad de cerradura bajo la suma indica que la suma de cualesquiera dos vectores del espacio sigue perteneciendo al espacio.",
+      "difficulty": "easy",
+      "procedure": [
+        "Se identifica que la suma de dos elementos de V debe pertenecer a V.",
+        "Se selecciona la opción que expresa esta propiedad."
+      ]
+    },
+    {
+      "question": "¿Qué propiedad axiomática garantiza que la suma de vectores es conmutativa en un espacio vectorial?",
+      "formula": "\\( \\vec{u}+\\vec{v}=\\vec{v}+\\vec{u} \\)",
+      "options": [
+        "\\( \\vec{u}+\\vec{v}=\\vec{v}+\\vec{u} \\)",
+        "\\( \\forall c \\in \\mathbb{R},\\; c\\vec{u} \\in V \\)",
+        "\\( \\exists \\vec{0} \\in V \\)",
+        "\\( (\\vec{u}+\\vec{v})+\\vec{w}=\\vec{u}+(\\vec{v}+\\vec{w}) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La propiedad conmutativa de la suma establece que el orden de los sumandos no altera el resultado.",
+      "difficulty": "easy",
+      "procedure": [
+        "Se revisa cada opción para identificar la que muestra la igualdad al invertir el orden de los vectores.",
+        "Se confirma que \\(\\vec{u}+\\vec{v}=\\vec{v}+\\vec{u}\\) es la propiedad conmutativa."
+      ]
+    },
+    {
+      "question": "En un espacio vectorial, ¿qué axioma asegura la existencia del vector cero?",
+      "formula": "\\( \\exists \\vec{0} \\in V\\; \\text{tal que}\\; \\vec{u}+\\vec{0}=\\vec{u}\\; \\forall \\vec{u} \\in V \\)",
+      "options": [
+        "\\( \\forall \\vec{u},\\vec{v} \\in V,\\; \\vec{u}+\\vec{v} \\in V \\)",
+        "\\( \\exists \\vec{0} \\in V\\; \\text{tal que}\\; \\vec{u}+\\vec{0}=\\vec{u}\\; \\forall \\vec{u} \\in V \\)",
+        "\\( \\forall c \\in \\mathbb{R},\\; c\\vec{u} \\in V \\)",
+        "\\( \\vec{u}+(-\\vec{u})=\\vec{0} \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Este axioma establece que debe existir un vector cero que, al sumarse a cualquier vector, lo deja inalterado.",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar el axioma que introduce el elemento neutro en la suma.",
+        "Seleccionar la opción que menciona la existencia de \\(\\vec{0}\\) con la propiedad indicada."
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes propiedades describe la existencia del inverso aditivo en un espacio vectorial?",
+      "formula": "\\( \\forall \\vec{u} \\in V,\\; \\exists (-\\vec{u}) \\in V \\;\\text{tal que}\\; \\vec{u}+(-\\vec{u})=\\vec{0} \\)",
+      "options": [
+        "\\( \\vec{u}+\\vec{0}=\\vec{u} \\)",
+        "\\( \\forall \\vec{u} \\in V,\\; \\exists (-\\vec{u}) \\in V \\;\\text{tal que}\\; \\vec{u}+(-\\vec{u})=\\vec{0} \\)",
+        "\\( \\forall \\vec{u},\\vec{v} \\in V,\\; \\vec{u}+\\vec{v} \\in V \\)",
+        "\\( \\forall c \\in \\mathbb{R},\\; c\\vec{u} \\in V \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El axioma del inverso aditivo garantiza que cada vector tiene un opuesto que lo anula al sumarlos.",
+      "difficulty": "easy",
+      "procedure": [
+        "Buscar la opción que incluya la existencia de un vector opuesto para cada \\(\\vec{u}\\).",
+        "Confirmar que la suma del vector y su inverso da el vector cero."
+      ]
+    },
+    {
+      "question": "La propiedad de cerradura bajo la multiplicación por escalar se expresa como:",
+      "formula": "\\( \\forall c \\in \\mathbb{R},\\; \\forall \\vec{u} \\in V,\\; c\\vec{u} \\in V \\)",
+      "options": [
+        "\\( \\vec{u}+\\vec{v} \\in V \\)",
+        "\\( \\forall c \\in \\mathbb{R},\\; c\\vec{u} \\in V \\)",
+        "\\( \\exists \\vec{0} \\in V \\)",
+        "\\( \\vec{u}+(-\\vec{u})=\\vec{0} \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Esta propiedad asegura que al multiplicar cualquier vector por un escalar se obtiene otro vector que pertenece al espacio.",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar la relación entre escalares y vectores.",
+        "Seleccionar la opción que indica la pertenencia al espacio tras la multiplicación."
+      ]
+    },
+    {
+      "question": "¿Qué enunciado corresponde al axioma de distributividad de la multiplicación escalar sobre la suma de vectores?",
+      "formula": "\\( c(\\vec{u}+\\vec{v})=c\\vec{u}+c\\vec{v} \\)",
+      "options": [
+        "\\( (c+d)\\vec{u}=c\\vec{u}+d\\vec{u} \\)",
+        "\\( c(\\vec{u}+\\vec{v})=c\\vec{u}+c\\vec{v} \\)",
+        "\\( 1\\vec{u}=\\vec{u} \\)",
+        "\\( \\vec{u}+\\vec{v}=\\vec{v}+\\vec{u} \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La distributividad del escalar sobre la suma vectorial permite distribuir el escalar a cada uno de los vectores sumados.",
+      "difficulty": "easy",
+      "procedure": [
+        "Observar la forma en que el escalar multiplica a la suma.",
+        "Elegir la expresión que refleja correctamente esta propiedad."
+      ]
+    },
+    {
+      "question": "El axioma de distributividad de la suma de escalares se expresa como:",
+      "formula": "\\( (c+d)\\vec{u}=c\\vec{u}+d\\vec{u} \\)",
+      "options": [
+        "\\( (c+d)\\vec{u}=c\\vec{u}+d\\vec{u} \\)",
+        "\\( c(\\vec{u}+\\vec{v})=c\\vec{u}+c\\vec{v} \\)",
+        "\\( c\\vec{u}+\\vec{0}=\\vec{u} \\)",
+        "\\( \\vec{u}+\\vec{v}=\\vec{v}+\\vec{u} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Esta propiedad muestra cómo la suma de escalares actúa sobre la multiplicación de un vector.",
+      "difficulty": "easy",
+      "procedure": [
+        "Verificar que el escalar que es la suma de dos números se reparte en la multiplicación.",
+        "Confirmar la igualdad en la opción seleccionada."
+      ]
+    },
+    {
+      "question": "¿Cuál es la propiedad que indica que la multiplicación por el escalar 1 deja invariante a cualquier vector?",
+      "formula": "\\( 1\\vec{u}=\\vec{u} \\)",
+      "options": [
+        "\\( 0\\vec{u}=\\vec{0} \\)",
+        "\\( 1\\vec{u}=\\vec{u} \\)",
+        "\\( \\vec{u}+\\vec{0}=\\vec{u} \\)",
+        "\\( \\vec{u}+(-\\vec{u})=\\vec{0} \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El axioma de identidad multiplicativa establece que multiplicar cualquier vector por 1 lo deja sin cambios.",
+      "difficulty": "easy",
+      "procedure": [
+        "Observar que el escalar 1 es el elemento neutro en la multiplicación.",
+        "Seleccionar la opción que expresa esta propiedad."
+      ]
+    },
+    {
+      "question": "Identifica el axioma que relaciona la asociatividad de la suma en un espacio vectorial.",
+      "formula": "\\( (\\vec{u}+\\vec{v})+\\vec{w}=\\vec{u}+(\\vec{v}+\\vec{w}) \\)",
+      "options": [
+        "\\( \\vec{u}+\\vec{v}=\\vec{v}+\\vec{u} \\)",
+        "\\( (\\vec{u}+\\vec{v})+\\vec{w}=\\vec{u}+(\\vec{v}+\\vec{w}) \\)",
+        "\\( \\exists \\vec{0} \\in V \\)",
+        "\\( \\vec{u}+(-\\vec{u})=\\vec{0} \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La asociatividad de la suma permite agrupar los vectores de distintas maneras sin cambiar el resultado.",
+      "difficulty": "easy",
+      "procedure": [
+        "Verificar la igualdad que permite reagrupación en la suma.",
+        "Seleccionar la opción que muestra la propiedad asociativa."
+      ]
+    },
+    {
+      "question": "La independencia lineal de un conjunto de vectores se define como:",
+      "formula": "\\( a_1\\vec{v}_1+a_2\\vec{v}_2+\\cdots+a_n\\vec{v}_n=\\vec{0} \\Rightarrow a_1=a_2=\\cdots=a_n=0 \\)",
+      "options": [
+        "\\( \\vec{v}_1,\\vec{v}_2,\\ldots,\\vec{v}_n \\) generan el espacio",
+        "\\( a_1\\vec{v}_1+a_2\\vec{v}_2+\\cdots+a_n\\vec{v}_n=\\vec{0} \\Rightarrow a_1=a_2=\\cdots=a_n=0 \\)",
+        "\\( \\vec{v}_1+\\vec{v}_2+\\cdots+\\vec{v}_n=\\vec{0} \\)",
+        "\\( \\exists\\, c \\in \\mathbb{R}\\;\\text{tal que}\\; c\\vec{v}_1=\\vec{0} \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Un conjunto de vectores es linealmente independiente si la única combinación lineal que da el vector cero es la trivial.",
+      "difficulty": "easy",
+      "procedure": [
+        "Analizar la condición de independencia lineal.",
+        "Seleccionar la opción que establece la implicación solo para la solución trivial."
+      ]
+    },
+    {
+      "question": "Una base de un espacio vectorial es un conjunto de vectores que es:",
+      "formula": "\\( \\text{linealmente independiente y generador de }V \\)",
+      "options": [
+        "\\( linealmente independiente pero no necesariamente generador \\)",
+        "\\( generador pero no necesariamente linealmente independiente \\)",
+        "\\( linealmente independiente y generador de V \\)",
+        "\\( ni linealmente independiente ni generador \\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Por definición, una base es un conjunto que es a la vez linealmente independiente y que genera el espacio vectorial.",
+      "difficulty": "easy",
+      "procedure": [
+        "Recordar la definición de base en un espacio vectorial.",
+        "Seleccionar la opción que cumpla ambas condiciones."
+      ]
+    },
+    {
+      "question": "El número de vectores en una base se denomina:",
+      "formula": "\\( \\dim(V) \\)",
+      "options": [
+        "\\( \\dim(V) \\)",
+        "\\( \\text{card}(V) \\)",
+        "\\( \\#V \\)",
+        "\\( \\text{base}(V) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La dimensión de un espacio vectorial es el número de vectores en cualquiera de sus bases.",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar que la dimensión se relaciona con el número de vectores en la base.",
+        "Seleccionar la opción que utiliza la notación \\(\\dim(V)\\)."
+      ]
+    },
+    {
+      "question": "Si un conjunto de vectores es linealmente independiente, entonces:",
+      "formula": "\\( a_1\\vec{v}_1+\\cdots+a_n\\vec{v}_n=\\vec{0} \\Rightarrow a_1=a_2=\\cdots=a_n=0 \\)",
+      "options": [
+        "\\( a_1\\vec{v}_1+\\cdots+a_n\\vec{v}_n=\\vec{0} \\) tiene soluciones no triviales",
+        "\\( a_1\\vec{v}_1+\\cdots+a_n\\vec{v}_n=\\vec{0} \\Rightarrow a_1=a_2=\\cdots=a_n=0 \\)",
+        "\\( \\vec{v}_1,\\ldots,\\vec{v}_n \\) generan \\(V\\)",
+        "\\( \\vec{v}_1+\\cdots+\\vec{v}_n=\\vec{0} \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La independencia lineal implica que la única combinación lineal que da el vector cero es la trivial.",
+      "difficulty": "easy",
+      "procedure": [
+        "Aplicar la definición de independencia lineal.",
+        "Seleccionar la opción que refleje que solo la solución trivial es posible."
+      ]
+    },
+    {
+      "question": "En un espacio vectorial, la combinación lineal de vectores se define como:",
+      "formula": "\\( a_1\\vec{v}_1+a_2\\vec{v}_2+\\cdots+a_n\\vec{v}_n \\)",
+      "options": [
+        "\\( a_1\\vec{v}_1+\\cdots+a_n\\vec{v}_n \\)",
+        "\\( \\vec{v}_1\\cdot\\vec{v}_2+\\cdots \\)",
+        "\\( \\vec{v}_1\\times\\vec{v}_2 \\)",
+        "\\( \\max\\{\\vec{v}_1,\\vec{v}_2,\\ldots\\} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Una combinación lineal es una suma de vectores multiplicados por escalares.",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar la suma ponderada de vectores.",
+        "Seleccionar la opción que corresponde a esa definición."
+      ]
+    },
+    {
+      "question": "La propiedad conmutativa de la suma vectorial se expresa como:",
+      "formula": "\\( \\vec{u}+\\vec{v}=\\vec{v}+\\vec{u} \\)",
+      "options": [
+        "\\( \\vec{u}+\\vec{v}=\\vec{v}+\\vec{u} \\)",
+        "\\( (\\vec{u}+\\vec{v})+\\vec{w}=\\vec{u}+(\\vec{v}+\\vec{w}) \\)",
+        "\\( \\vec{u}+\\vec{0}=\\vec{u} \\)",
+        "\\( 1\\vec{u}=\\vec{u} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La suma de vectores es conmutativa, lo que significa que el orden de los sumandos no afecta el resultado.",
+      "difficulty": "easy",
+      "procedure": [
+        "Observar que el cambio de orden no altera la suma.",
+        "Seleccionar la opción que expresa esta igualdad."
+      ]
+    },
+    {
+      "question": "La asociatividad de la multiplicación escalar se expresa como:",
+      "formula": "\\( a(b\\vec{u})=(ab)\\vec{u} \\)",
+      "options": [
+        "\\( a(b\\vec{u})=(ab)\\vec{u} \\)",
+        "\\( a(\\vec{u}+\\vec{v})=a\\vec{u}+a\\vec{v} \\)",
+        "\\( (a+b)\\vec{u}=a\\vec{u}+b\\vec{u} \\)",
+        "\\( \\vec{u}+\\vec{v}=\\vec{v}+\\vec{u} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La propiedad asociativa en la multiplicación escalar permite reordenar la multiplicación de escalares con un vector.",
+      "difficulty": "easy",
+      "procedure": [
+        "Verificar que multiplicar un escalar por el resultado de otro producto escalar es equivalente a multiplicar los escalares primero.",
+        "Seleccionar la opción que muestra esta relación."
+      ]
+    },
+    {
+      "question": "Para un conjunto de vectores, ser generador significa que cualquier vector en el espacio se puede expresar como:",
+      "formula": "\\( a_1\\vec{v}_1+a_2\\vec{v}_2+\\cdots+a_n\\vec{v}_n \\)",
+      "options": [
+        "\\( a_1\\vec{v}_1+a_2\\vec{v}_2+\\cdots+a_n\\vec{v}_n \\)",
+        "\\( \\vec{v}_1\\cdot\\vec{v}_2 \\)",
+        "\\( \\vec{v}_1\\times\\vec{v}_2 \\)",
+        "\\( \\vec{v}_1-\\vec{v}_2 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ser generador implica que cualquier vector del espacio puede expresarse como combinación lineal de los vectores del conjunto.",
+      "difficulty": "easy",
+      "procedure": [
+        "Reconocer el concepto de span de un conjunto de vectores.",
+        "Seleccionar la opción que muestra la combinación lineal."
+      ]
+    },
+    {
+      "question": "El axioma que asegura que la suma de vectores siempre produce otro vector en el espacio se llama:",
+      "formula": "\\( \\vec{u}+\\vec{v}\\in V \\)",
+      "options": [
+        "\\( \\vec{u}+\\vec{v}\\in V \\)",
+        "\\( \\vec{u}-\\vec{v}\\in V \\)",
+        "\\( c\\vec{u}\\in V \\)",
+        "\\( \\vec{u}\\cdot\\vec{v}\\in V \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Este axioma de cerradura en la suma indica que la suma de dos vectores siempre pertenece al espacio vectorial.",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar la propiedad de cerradura para la suma.",
+        "Seleccionar la opción que indica la pertenencia del resultado al espacio."
+      ]
+    },
+    {
+      "question": "¿Cuál de los siguientes no es un axioma de un espacio vectorial?",
+      "formula": "\\( \\vec{u}-\\vec{v}\\in V \\)",
+      "options": [
+        "\\( \\vec{u}-\\vec{v}\\in V \\)",
+        "\\( \\vec{u}+\\vec{v}\\in V \\)",
+        "\\( 1\\vec{u}=\\vec{u} \\)",
+        "\\( \\exists\\, \\vec{0} \\in V \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El axioma de espacio vectorial no establece explícitamente la cerradura para la resta; ésta se deduce de la existencia del inverso aditivo.",
+      "difficulty": "easy",
+      "procedure": [
+        "Analizar cada opción y notar que la resta no es un axioma primario.",
+        "Elegir la opción que no corresponde a un axioma."
+      ]
+    },
+    {
+      "question": "La existencia de un vector neutro en la suma se expresa mediante:",
+      "formula": "\\( \\exists \\vec{0} \\in V\\; \\text{tal que}\\; \\vec{u}+\\vec{0}=\\vec{u} \\)",
+      "options": [
+        "\\( \\vec{u}+\\vec{0}=\\vec{u} \\)",
+        "\\( \\exists \\vec{0} \\in V\\; \\text{tal que}\\; \\vec{u}+\\vec{0}=\\vec{u} \\)",
+        "\\( \\vec{u}+(-\\vec{u})=\\vec{0} \\)",
+        "\\( \\forall c\\in \\mathbb{R},\\; c\\vec{u}\\in V \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El axioma del elemento neutro establece la existencia de un vector \\(\\vec{0}\\) que, al sumarse a cualquier vector, no lo altera.",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar la característica del vector neutro.",
+        "Seleccionar la opción que define la existencia y propiedad de \\(\\vec{0}\\)."
+      ]
+    },
+    {
+      "question": "La regla del inverso aditivo en un espacio vectorial se enuncia como:",
+      "formula": "\\( \\vec{u}+(-\\vec{u})=\\vec{0} \\)",
+      "options": [
+        "\\( \\vec{u}+\\vec{0}=\\vec{u} \\)",
+        "\\( \\vec{u}+(-\\vec{u})=\\vec{0} \\)",
+        "\\( \\forall c\\in \\mathbb{R},\\; c\\vec{u}\\in V \\)",
+        "\\( \\vec{u}-\\vec{v}\\in V \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El inverso aditivo es el vector que, sumado al vector original, produce el vector cero.",
+      "difficulty": "easy",
+      "procedure": [
+        "Recordar la definición de inverso aditivo.",
+        "Seleccionar la opción que expresa correctamente la propiedad."
+      ]
+    },
+    {
+      "question": "Si \\( \\{\\vec{v}_1, \\vec{v}_2\\} \\) es linealmente independiente, ¿cuál de las siguientes afirmaciones es verdadera?",
+      "formula": "\\( a\\vec{v}_1+b\\vec{v}_2=\\vec{0} \\Rightarrow a=b=0 \\)",
+      "options": [
+        "\\( a\\vec{v}_1+b\\vec{v}_2=\\vec{0} \\) tiene infinitas soluciones",
+        "\\( a\\vec{v}_1+b\\vec{v}_2=\\vec{0} \\Rightarrow a=b=0 \\)",
+        "\\( \\vec{v}_1 \\) y \\( \\vec{v}_2 \\) son proporcionales",
+        "\\( \\vec{v}_1,\\vec{v}_2 \\) generan \\(V\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La independencia lineal implica que la única solución a la combinación lineal igual a cero es la trivial.",
+      "difficulty": "easy",
+      "procedure": [
+        "Aplicar la definición de independencia lineal para dos vectores.",
+        "Elegir la opción que establece la unicidad de la solución trivial."
+      ]
+    },
+    {
+      "question": "En el contexto de espacios vectoriales, ¿qué significa que un conjunto de vectores genere el espacio?",
+      "formula": "\\( V=\\text{span}\\{\\vec{v}_1,\\vec{v}_2,\\ldots,\\vec{v}_n\\} \\)",
+      "options": [
+        "\\( V=\\text{span}\\{\\vec{v}_1,\\vec{v}_2,\\ldots,\\vec{v}_n\\} \\)",
+        "\\( V=\\{\\vec{v}_1\\} \\)",
+        "\\( \\vec{v}_1,\\vec{v}_2 \\) son linealmente independientes",
+        "\\( V\\subset\\text{span}\\{\\vec{v}_1,\\vec{v}_2,\\ldots,\\vec{v}_n\\} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Que un conjunto de vectores genere el espacio significa que cualquier vector de \\(V\\) puede expresarse como combinación lineal de ellos.",
+      "difficulty": "easy",
+      "procedure": [
+        "Entender el concepto de span de un conjunto.",
+        "Seleccionar la opción que define correctamente la generación del espacio."
+      ]
+    },
+    {
+      "question": "El concepto de dimensión de un espacio vectorial es:",
+      "formula": "\\( \\dim(V)=n \\)",
+      "options": [
+        "\\( \\dim(V)=n \\)",
+        "\\( \\dim(V)=n^2 \\)",
+        "\\( \\dim(V)=\\infty \\)",
+        "\\( \\dim(V)=0 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La dimensión de un espacio vectorial es el número de vectores en cualquier base del espacio.",
+      "difficulty": "easy",
+      "procedure": [
+        "Recordar que la base mínima tiene \\(n\\) vectores.",
+        "Seleccionar la opción que usa la notación correcta \\(\\dim(V)=n\\)."
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes afirmaciones describe correctamente la independencia lineal?",
+      "formula": "\\( a_1\\vec{v}_1+\\cdots+a_n\\vec{v}_n=\\vec{0} \\Rightarrow a_i=0 \\;\\forall i \\)",
+      "options": [
+        "\\( a_1\\vec{v}_1+\\cdots+a_n\\vec{v}_n=\\vec{0} \\) tiene múltiples soluciones",
+        "\\( a_1\\vec{v}_1+\\cdots+a_n\\vec{v}_n=\\vec{0} \\Rightarrow a_i=0 \\;\\forall i \\)",
+        "\\( \\vec{v}_1,\\ldots,\\vec{v}_n \\) son proporcionales",
+        "\\( \\{\\vec{v}_1,\\ldots,\\vec{v}_n\\} \\) genera \\(V\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La independencia lineal se define por la unicidad de la solución trivial en la combinación lineal igual a cero.",
+      "difficulty": "easy",
+      "procedure": [
+        "Revisar la definición formal de independencia lineal.",
+        "Seleccionar la opción que establece que solo la solución trivial es válida."
+      ]
+    },
+    {
+      "question": "Para verificar si dos vectores son linealmente independientes, se debe comprobar que:",
+      "formula": "\\( a\\vec{v}_1+b\\vec{v}_2=\\vec{0} \\Rightarrow a=b=0 \\)",
+      "options": [
+        "\\( a\\vec{v}_1+b\\vec{v}_2=\\vec{0} \\) admite soluciones no triviales",
+        "\\( a\\vec{v}_1+b\\vec{v}_2=\\vec{0} \\Rightarrow a=b=0 \\)",
+        "\\( \\vec{v}_1 \\) y \\( \\vec{v}_2 \\) son colineales",
+        "\\( \\vec{v}_1,\\vec{v}_2 \\) generan \\(V\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La verificación de independencia lineal en dos vectores requiere que la única solución de la ecuación lineal sea la trivial.",
+      "difficulty": "easy",
+      "procedure": [
+        "Plantear la ecuación de combinación lineal igual a cero.",
+        "Determinar que la única solución es \\( a=b=0 \\)."
+      ]
+    },
+    {
+      "question": "La propiedad que garantiza que la multiplicación por el escalar cero da como resultado el vector cero se expresa como:",
+      "formula": "\\( 0\\vec{u}=\\vec{0} \\)",
+      "options": [
+        "\\( 0\\vec{u}=\\vec{0} \\)",
+        "\\( 1\\vec{u}=\\vec{u} \\)",
+        "\\( \\vec{u}+\\vec{0}=\\vec{u} \\)",
+        "\\( \\vec{u}-\\vec{u}=\\vec{u} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiplicar cualquier vector por 0 debe dar el vector cero, según los axiomas de espacio vectorial.",
+      "difficulty": "easy",
+      "procedure": [
+        "Aplicar la propiedad del escalar 0 en la multiplicación.",
+        "Seleccionar la opción que refleja el resultado \\( \\vec{0} \\)."
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes propiedades muestra que el escalar 1 actúa como identidad en la multiplicación vectorial?",
+      "formula": "\\( 1\\vec{u}=\\vec{u} \\)",
+      "options": [
+        "\\( 0\\vec{u}=\\vec{0} \\)",
+        "\\( 1\\vec{u}=\\vec{u} \\)",
+        "\\( \\vec{u}+\\vec{0}=\\vec{u} \\)",
+        "\\( \\vec{u}+(-\\vec{u})=\\vec{0} \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El axioma de identidad multiplicativa indica que multiplicar un vector por 1 lo deja inalterado.",
+      "difficulty": "easy",
+      "procedure": [
+        "Reconocer la función del número 1 en la multiplicación.",
+        "Seleccionar la opción que exprese \\( 1\\vec{u}=\\vec{u} \\)."
+      ]
+    },
+    {
+      "question": "Una base en un espacio vectorial es el conjunto mínimo de vectores que permite expresar cualquier vector del espacio mediante una combinación lineal. Esto se denota por:",
+      "formula": "\\( V=\\text{span}(\\{\\vec{v}_1,\\vec{v}_2,\\ldots,\\vec{v}_n\\}) \\)",
+      "options": [
+        "\\( V=\\text{span}(\\{\\vec{v}_1,\\vec{v}_2,\\ldots,\\vec{v}_n\\}) \\)",
+        "\\( V=\\{\\vec{v}_1\\} \\)",
+        "\\( \\{\\vec{v}_1,\\vec{v}_2,\\ldots,\\vec{v}_n\\} \\) es linealmente dependiente",
+        "\\( V\\subset\\text{span}(\\{\\vec{v}_1,\\vec{v}_2\\}) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Una base es un conjunto de vectores linealmente independientes que generan todo el espacio, es decir, su span es igual a \\(V\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Definir el concepto de base como conjunto generador y linealmente independiente.",
+        "Seleccionar la opción que denote \\( V=\\text{span}(\\{\\vec{v}_1,\\ldots,\\vec{v}_n\\}) \\)."
+      ]
+    },
+    {
+      "question": "La propiedad que establece la existencia de un elemento neutro en la suma de vectores es fundamental para definir un espacio vectorial. Se expresa como:",
+      "formula": "\\( \\vec{u}+\\vec{0}=\\vec{u} \\)",
+      "options": [
+        "\\( \\vec{u}+\\vec{0}=\\vec{u} \\)",
+        "\\( \\vec{u}+(-\\vec{u})=\\vec{0} \\)",
+        "\\( 1\\vec{u}=\\vec{u} \\)",
+        "\\( \\vec{u}+\\vec{v}=\\vec{v}+\\vec{u} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El axioma del elemento neutro en la suma asegura que existe un vector \\(\\vec{0}\\) tal que la suma con cualquier vector \\(\\vec{u}\\) lo deja inalterado.",
+      "difficulty": "easy",
+      "procedure": [
+        "Recordar el axioma del elemento neutro en la suma.",
+        "Seleccionar la opción que expresa \\( \\vec{u}+\\vec{0}=\\vec{u} \\)."
+      ]
+    },
+    {
+      "question": "En un espacio vectorial, la suma de dos vectores siempre pertenece al espacio. ¿Qué propiedad es esta?",
+      "formula": "\\( \\vec{u}+\\vec{v}\\in V \\)",
+      "options": [
+        "\\( \\vec{u}+\\vec{v}\\in V \\)",
+        "\\( \\vec{u}-\\vec{v}\\in V \\)",
+        "\\( c\\vec{u}\\in V \\)",
+        "\\( \\vec{u}\\cdot\\vec{v}\\in V \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Esta es la propiedad de cerradura bajo la suma en un espacio vectorial.",
+      "difficulty": "easy",
+      "procedure": [
+        "Revisar la definición de espacio vectorial.",
+        "Seleccionar la opción que indica la pertenencia del resultado de la suma a V."
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes expresiones corresponde a la propiedad asociativa de la suma vectorial?",
+      "formula": "\\( (\\vec{u}+\\vec{v})+\\vec{w}=\\vec{u}+(\\vec{v}+\\vec{w}) \\)",
+      "options": [
+        "\\( \\vec{u}+\\vec{v}=\\vec{v}+\\vec{u} \\)",
+        "\\( (\\vec{u}+\\vec{v})+\\vec{w}=\\vec{u}+(\\vec{v}+\\vec{w}) \\)",
+        "\\( \\vec{u}+\\vec{0}=\\vec{u} \\)",
+        "\\( 1\\vec{u}=\\vec{u} \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La asociatividad permite reordenar la suma de tres vectores sin cambiar el resultado.",
+      "difficulty": "easy",
+      "procedure": [
+        "Verificar que el agrupamiento de los sumandos no afecta el resultado.",
+        "Seleccionar la opción que expresa la propiedad asociativa."
+      ]
+    },
+    {
+      "question": "La definición axiomática de un espacio vectorial incluye la existencia de un inverso aditivo para cada vector. ¿Cuál es la expresión correcta?",
+      "formula": "\\( \\forall \\vec{u}\\in V,\\;\\exists (-\\vec{u})\\in V\\;\\text{tal que}\\;\\vec{u}+(-\\vec{u})=\\vec{0} \\)",
+      "options": [
+        "\\( \\vec{u}+(-\\vec{u})=\\vec{0} \\)",
+        "\\( \\forall \\vec{u}\\in V,\\;\\exists (-\\vec{u})\\in V\\;\\text{tal que}\\;\\vec{u}+(-\\vec{u})=\\vec{0} \\)",
+        "\\( \\vec{u}-\\vec{u}=\\vec{0} \\)",
+        "\\( \\forall c\\in \\mathbb{R},\\; c\\vec{u}\\in V \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La existencia de inversos aditivos es un axioma fundamental en la definición de espacio vectorial.",
+      "difficulty": "easy",
+      "procedure": [
+        "Recordar el axioma que garantiza el inverso aditivo.",
+        "Seleccionar la opción que lo exprese de forma completa y correcta."
+      ]
+    },
+    {
+      "question": "La suma de dos vectores en un espacio vectorial es conmutativa. ¿Cuál de las siguientes expresiones lo demuestra?",
+      "formula": "\\( \\vec{u}+\\vec{v}=\\vec{v}+\\vec{u} \\)",
+      "options": [
+        "\\( \\vec{u}+\\vec{v}=\\vec{v}+\\vec{u} \\)",
+        "\\( (\\vec{u}+\\vec{v})+\\vec{w}=\\vec{u}+(\\vec{v}+\\vec{w}) \\)",
+        "\\( \\vec{u}+\\vec{0}=\\vec{u} \\)",
+        "\\( 1\\vec{u}=\\vec{u} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La propiedad conmutativa se demuestra al poder cambiar el orden de la suma sin modificar el resultado.",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar la igualdad que permite intercambiar el orden de los vectores.",
+        "Seleccionar la opción que lo muestra."
+      ]
+    },
+    {
+      "question": "La noción de que un conjunto de vectores es generador de un espacio se expresa mediante:",
+      "formula": "\\( V=\\text{span}\\{\\vec{v}_1,\\vec{v}_2,\\ldots,\\vec{v}_n\\} \\)",
+      "options": [
+        "\\( V=\\text{span}\\{\\vec{v}_1,\\vec{v}_2,\\ldots,\\vec{v}_n\\} \\)",
+        "\\( V\\subset\\{\\vec{v}_1,\\vec{v}_2\\} \\)",
+        "\\( \\{\\vec{v}_1,\\vec{v}_2,\\ldots,\\vec{v}_n\\} \\) es linealmente independiente",
+        "\\( V=\\{\\vec{v}_1\\} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Un conjunto generador es aquel cuyos elementos, mediante combinaciones lineales, pueden expresar cualquier vector en \\(V\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Comprender el concepto de span en un espacio vectorial.",
+        "Seleccionar la opción que lo define correctamente."
+      ]
+    },
+    {
+      "question": "El axioma que permite multiplicar un vector por un escalar y obtener otro vector en el espacio es:",
+      "formula": "\\( \\forall c\\in \\mathbb{R},\\;\\forall \\vec{u}\\in V,\\; c\\vec{u}\\in V \\)",
+      "options": [
+        "\\( \\vec{u}+\\vec{v}\\in V \\)",
+        "\\( \\forall c\\in \\mathbb{R},\\;\\forall \\vec{u}\\in V,\\; c\\vec{u}\\in V \\)",
+        "\\( \\vec{u}+(-\\vec{u})=\\vec{0} \\)",
+        "\\( \\vec{u}+\\vec{0}=\\vec{u} \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Este axioma de cerradura en la multiplicación por escalares indica que el resultado de multiplicar un vector por un escalar pertenece al espacio.",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar la propiedad que relaciona escalares y vectores.",
+        "Seleccionar la opción que expresa la cerradura en la multiplicación."
+      ]
+    },
+    {
+      "question": "La dimensión de un espacio vectorial se define como el número de vectores en una base. Esto se expresa como:",
+      "formula": "\\( \\dim(V)=n \\)",
+      "options": [
+        "\\( \\dim(V)=n \\)",
+        "\\( \\dim(V)=n+1 \\)",
+        "\\( \\dim(V)=\\infty \\)",
+        "\\( \\dim(V)=0 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La dimensión es igual al número de vectores en cualquier base del espacio vectorial.",
+      "difficulty": "easy",
+      "procedure": [
+        "Recordar la definición de dimensión en un espacio vectorial.",
+        "Seleccionar la opción que expresa \\( \\dim(V)=n \\)."
+      ]
+    },
+    {
+      "question": "La propiedad que establece que el vector cero es único en un espacio vectorial se deduce de:",
+      "formula": "\\( \\vec{u}+\\vec{0}=\\vec{u} \\)",
+      "options": [
+        "\\( \\vec{u}+\\vec{0}=\\vec{u} \\)",
+        "\\( \\vec{u}+(-\\vec{u})=\\vec{0} \\)",
+        "\\( \\forall c\\in \\mathbb{R},\\; c\\vec{u}\\in V \\)",
+        "\\( (\\vec{u}+\\vec{v})+\\vec{w}=\\vec{u}+(\\vec{v}+\\vec{w}) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La unicidad del vector cero se sigue de la propiedad de identidad en la suma.",
+      "difficulty": "easy",
+      "procedure": [
+        "Utilizar la propiedad \\( \\vec{u}+\\vec{0}=\\vec{u} \\) para deducir la unicidad del elemento neutro.",
+        "Seleccionar la opción correcta."
+      ]
+    },
+    {
+      "question": "¿Cuál es la propiedad que establece que la suma de dos vectores en un espacio vectorial pertenece al mismo espacio?",
+      "formula": "\\( \\forall \\vec{u},\\vec{v}\\in V,\\; \\vec{u}+\\vec{v}\\in V \\)",
+      "options": [
+        "\\( \\vec{u}+\\vec{v}\\in V \\)",
+        "\\( \\vec{u}-\\vec{v}\\in V \\)",
+        "\\( c\\vec{u}\\in V \\)",
+        "\\( \\vec{u}\\cdot\\vec{v}\\in V \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Esta propiedad es el axioma de cerradura de la suma en un espacio vectorial.",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar la propiedad de cerradura en la suma.",
+        "Notar que para todo par de vectores, su suma debe pertenecer al espacio."
+      ]
+    },
+    {
+      "question": "¿Qué axioma garantiza la existencia de un vector neutro (vector cero) en un espacio vectorial?",
+      "formula": "\\( \\exists \\vec{0}\\in V\\; \\text{tal que}\\; \\vec{u}+\\vec{0}=\\vec{u}\\; \\forall \\vec{u}\\in V \\)",
+      "options": [
+        "\\( \\vec{u}+\\vec{0}=\\vec{u} \\)",
+        "\\( \\exists \\vec{0}\\in V\\; \\text{tal que}\\; \\vec{u}+\\vec{0}=\\vec{u}\\; \\forall \\vec{u}\\in V \\)",
+        "\\( \\vec{u}-\\vec{u}=\\vec{0} \\)",
+        "\\( c\\vec{u}\\in V \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El axioma del vector cero asegura la existencia de un elemento neutro en la suma vectorial.",
+      "difficulty": "easy",
+      "procedure": [
+        "Revisar la definición de elemento neutro en la suma.",
+        "Seleccionar la opción que incluya la existencia y la propiedad \\(\\vec{u}+\\vec{0}=\\vec{u}\\)."
+      ]
+    },
+    {
+      "question": "¿Cuál axioma establece que para cada vector existe un inverso aditivo en el espacio vectorial?",
+      "formula": "\\( \\forall \\vec{u}\\in V,\\; \\exists (-\\vec{u})\\in V\\; \\text{tal que}\\; \\vec{u}+(-\\vec{u})=\\vec{0} \\)",
+      "options": [
+        "\\( \\vec{u}+\\vec{0}=\\vec{u} \\)",
+        "\\( \\vec{u}+(-\\vec{u})=\\vec{0} \\)",
+        "\\( \\forall \\vec{u}\\in V,\\; \\exists (-\\vec{u})\\in V\\; \\text{tal que}\\; \\vec{u}+(-\\vec{u})=\\vec{0} \\)",
+        "\\( c\\vec{u}\\in V \\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Este axioma garantiza que cada vector tiene un opuesto aditivo que al sumarlo produce el vector cero.",
+      "difficulty": "easy",
+      "procedure": [
+        "Reconocer la necesidad de un inverso para cancelar cada vector.",
+        "Escoger la opción que enuncia la existencia del inverso aditivo para todos los vectores."
+      ]
+    },
+    {
+      "question": "¿Qué propiedad de los vectores indica que el orden en la suma no altera el resultado?",
+      "formula": "\\( \\vec{u}+\\vec{v}=\\vec{v}+\\vec{u} \\)",
+      "options": [
+        "\\( \\vec{u}+\\vec{v}=\\vec{v}+\\vec{u} \\)",
+        "\\( (\\vec{u}+\\vec{v})+\\vec{w}=\\vec{u}+(\\vec{v}+\\vec{w}) \\)",
+        "\\( \\vec{u}+\\vec{0}=\\vec{u} \\)",
+        "\\( 1\\vec{u}=\\vec{u} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La propiedad conmutativa establece que el orden de la suma no afecta el resultado.",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar que cambiar el orden de los vectores no modifica su suma.",
+        "Seleccionar la opción que expresa la igualdad en el cambio de orden."
+      ]
+    },
+    {
+      "question": "¿Cómo se expresa la propiedad asociativa de la suma vectorial?",
+      "formula": "\\( (\\vec{u}+\\vec{v})+\\vec{w}=\\vec{u}+(\\vec{v}+\\vec{w}) \\)",
+      "options": [
+        "\\( \\vec{u}+\\vec{v}=\\vec{v}+\\vec{u} \\)",
+        "\\( (\\vec{u}+\\vec{v})+\\vec{w}=\\vec{u}+(\\vec{v}+\\vec{w}) \\)",
+        "\\( \\vec{u}+\\vec{0}=\\vec{u} \\)",
+        "\\( c(\\vec{u}+\\vec{v})=c\\vec{u}+c\\vec{v} \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La propiedad asociativa permite agrupar la suma de tres vectores de cualquier forma sin afectar el resultado.",
+      "difficulty": "easy",
+      "procedure": [
+        "Revisar la igualdad en la que se agrupan los vectores de dos formas distintas.",
+        "Seleccionar la opción que demuestra la asociatividad."
+      ]
+    },
+    {
+      "question": "¿Qué axioma garantiza que al multiplicar un vector por cualquier escalar el resultado es un vector del espacio?",
+      "formula": "\\( \\forall c\\in \\mathbb{R},\\; \\forall \\vec{u}\\in V,\\; c\\vec{u}\\in V \\)",
+      "options": [
+        "\\( \\vec{u}+\\vec{v}\\in V \\)",
+        "\\( c\\vec{u}\\in V \\)",
+        "\\( \\vec{u}+(-\\vec{u})=\\vec{0} \\)",
+        "\\( \\vec{u}+\\vec{0}=\\vec{u} \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El axioma de cerradura en la multiplicación por escalares asegura que el producto de un escalar y un vector pertenece a V.",
+      "difficulty": "easy",
+      "procedure": [
+        "Observar que el producto entre un escalar y un vector debe estar definido en V.",
+        "Seleccionar la opción que refleja esta propiedad."
+      ]
+    },
+    {
+      "question": "¿Cuál es el enunciado que expresa la identidad multiplicativa en un espacio vectorial?",
+      "formula": "\\( 1\\vec{u}=\\vec{u} \\)",
+      "options": [
+        "\\( 0\\vec{u}=\\vec{0} \\)",
+        "\\( 1\\vec{u}=\\vec{u} \\)",
+        "\\( \\vec{u}+\\vec{0}=\\vec{u} \\)",
+        "\\( \\vec{u}+(-\\vec{u})=\\vec{0} \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La identidad multiplicativa indica que el escalar 1 deja inalterado al vector cuando se multiplica.",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar el papel del número 1 como identidad en la multiplicación.",
+        "Elegir la opción que cumple con \\( 1\\vec{u}=\\vec{u} \\)."
+      ]
+    },
+    {
+      "question": "¿Cómo se expresa la distributividad de la multiplicación escalar respecto a la suma de vectores?",
+      "formula": "\\( c(\\vec{u}+\\vec{v})=c\\vec{u}+c\\vec{v} \\)",
+      "options": [
+        "\\( c(\\vec{u}+\\vec{v})=c\\vec{u}+c\\vec{v} \\)",
+        "\\( (c+d)\\vec{u}=c\\vec{u}+d\\vec{u} \\)",
+        "\\( \\vec{u}+\\vec{v}=\\vec{v}+\\vec{u} \\)",
+        "\\( c\\vec{u}\\in V \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Esta propiedad permite distribuir el escalar sobre la suma de dos vectores.",
+      "difficulty": "easy",
+      "procedure": [
+        "Aplicar la propiedad distributiva en la multiplicación de un escalar con una suma.",
+        "Seleccionar la opción que muestra la distribución correcta."
+      ]
+    },
+    {
+      "question": "¿Qué propiedad describe la distributividad de la suma de escalares en la multiplicación vectorial?",
+      "formula": "\\( (c+d)\\vec{u}=c\\vec{u}+d\\vec{u} \\)",
+      "options": [
+        "\\( (c+d)\\vec{u}=c\\vec{u}+d\\vec{u} \\)",
+        "\\( c(\\vec{u}+\\vec{v})=c\\vec{u}+c\\vec{v} \\)",
+        "\\( \\vec{u}+\\vec{0}=\\vec{u} \\)",
+        "\\( 1\\vec{u}=\\vec{u} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La propiedad distributiva de la suma de escalares permite distribuir la suma de dos escalares sobre un vector.",
+      "difficulty": "easy",
+      "procedure": [
+        "Notar que la suma de dos escalares se reparte en la multiplicación con el vector.",
+        "Elegir la opción que expresa la igualdad correctamente."
+      ]
+    },
+    {
+      "question": "Si \\( c\\) es un escalar y \\( \\vec{u}\\) es un vector, ¿qué se cumple al multiplicar \\( c\\) por el vector cero?",
+      "formula": "\\( c\\vec{0}=\\vec{0} \\)",
+      "options": [
+        "\\( c\\vec{0}=\\vec{0} \\)",
+        "\\( c\\vec{0}=\\vec{u} \\)",
+        "\\( c\\vec{0}=\\vec{0}+\\vec{u} \\)",
+        "\\( c\\vec{0}=c\\vec{u} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiplicar cualquier escalar por el vector cero da como resultado el vector cero.",
+      "difficulty": "easy",
+      "procedure": [
+        "Utilizar la propiedad de linealidad y la existencia del vector cero.",
+        "Seleccionar la opción que establece \\( c\\vec{0}=\\vec{0} \\)."
+      ]
+    },
+    {
+      "question": "¿Cómo se define formalmente el concepto de combinación lineal de vectores?",
+      "formula": "\\( a_1\\vec{v}_1+a_2\\vec{v}_2+\\cdots+a_n\\vec{v}_n \\)",
+      "options": [
+        "\\( a_1\\vec{v}_1+a_2\\vec{v}_2+\\cdots+a_n\\vec{v}_n \\)",
+        "\\( \\vec{v}_1\\cdot\\vec{v}_2+\\cdots \\)",
+        "\\( \\vec{v}_1\\times\\vec{v}_2 \\)",
+        "\\( \\vec{v}_1-\\vec{v}_2 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Una combinación lineal es la suma de vectores multiplicados por escalares.",
+      "difficulty": "easy",
+      "procedure": [
+        "Definir la combinación lineal como suma ponderada de vectores.",
+        "Seleccionar la opción que refleja esta definición."
+      ]
+    },
+    {
+      "question": "¿Qué significa que un conjunto de vectores sea linealmente independiente?",
+      "formula": "\\( a_1\\vec{v}_1+\\cdots+a_n\\vec{v}_n=\\vec{0}\\Rightarrow a_1=a_2=\\cdots=a_n=0 \\)",
+      "options": [
+        "\\( \\vec{v}_1,\\ldots,\\vec{v}_n \\) generan el espacio",
+        "\\( a_1\\vec{v}_1+\\cdots+a_n\\vec{v}_n=\\vec{0}\\Rightarrow a_1=a_2=\\cdots=a_n=0 \\)",
+        "\\( \\vec{v}_1+\\cdots+\\vec{v}_n=\\vec{0} \\)",
+        "\\( a_1\\vec{v}_1+\\cdots+a_n\\vec{v}_n=\\vec{0}\\) tiene múltiples soluciones"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La independencia lineal significa que la única solución de la combinación lineal igual a cero es la trivial.",
+      "difficulty": "easy",
+      "procedure": [
+        "Aplicar la definición formal de independencia lineal.",
+        "Seleccionar la opción que establece que todos los coeficientes deben ser cero."
+      ]
+    },
+    {
+      "question": "¿Qué significa que un conjunto de vectores sea generador de un espacio vectorial?",
+      "formula": "\\( V=\\text{span}\\{\\vec{v}_1,\\vec{v}_2,\\ldots,\\vec{v}_n\\} \\)",
+      "options": [
+        "\\( V=\\text{span}\\{\\vec{v}_1,\\vec{v}_2,\\ldots,\\vec{v}_n\\} \\)",
+        "\\( \\{\\vec{v}_1,\\vec{v}_2,\\ldots,\\vec{v}_n\\} \\) es linealmente independiente",
+        "\\( V\\subset\\{\\vec{v}_1,\\vec{v}_2\\} \\)",
+        "\\( \\vec{v}_1+\\vec{v}_2+\\cdots+\\vec{v}_n=\\vec{0} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Un conjunto generador permite expresar cualquier vector del espacio como combinación lineal de sus elementos.",
+      "difficulty": "easy",
+      "procedure": [
+        "Definir el concepto de span de un conjunto de vectores.",
+        "Seleccionar la opción que refleja que el espacio es el conjunto de todas las combinaciones lineales."
+      ]
+    },
+    {
+      "question": "La dimensión de un espacio vectorial se define como:",
+      "formula": "\\( \\dim(V)=n \\)",
+      "options": [
+        "\\( \\dim(V)=n \\)",
+        "\\( \\dim(V)=n+1 \\)",
+        "\\( \\dim(V)=\\infty \\)",
+        "\\( \\dim(V)=0 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La dimensión es el número de vectores en cualquier base del espacio vectorial.",
+      "difficulty": "easy",
+      "procedure": [
+        "Recordar la definición de base y que la dimensión es el número de elementos de esta.",
+        "Seleccionar la opción que expresa \\( \\dim(V)=n \\)."
+      ]
+    },
+    {
+      "question": "¿Qué propiedad se utiliza para demostrar la unicidad del vector cero en un espacio vectorial?",
+      "formula": "\\( \\vec{u}+\\vec{0}=\\vec{u} \\)",
+      "options": [
+        "\\( \\vec{u}+\\vec{0}=\\vec{u} \\)",
+        "\\( \\vec{u}+(-\\vec{u})=\\vec{0} \\)",
+        "\\( c\\vec{u}\\in V \\)",
+        "\\( \\vec{u}+\\vec{v}=\\vec{v}+\\vec{u} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La propiedad del elemento neutro en la suma implica que el vector cero es único.",
+      "difficulty": "easy",
+      "procedure": [
+        "Utilizar el axioma que establece \\(\\vec{u}+\\vec{0}=\\vec{u}\\) para deducir la unicidad.",
+        "Seleccionar la opción que lo expresa."
+      ]
+    },
+    {
+      "question": "Si \\( \\vec{u}\\) es un vector y \\( -\\vec{u}\\) su inverso aditivo, ¿qué se cumple al sumarlos?",
+      "formula": "\\( \\vec{u}+(-\\vec{u})=\\vec{0} \\)",
+      "options": [
+        "\\( \\vec{u}+(-\\vec{u})=\\vec{0} \\)",
+        "\\( \\vec{u}+(-\\vec{u})=\\vec{u} \\)",
+        "\\( \\vec{u}+(-\\vec{u})=\\vec{u}+\\vec{0} \\)",
+        "\\( \\vec{u}+(-\\vec{u})=\\vec{u}-\\vec{0} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La suma de un vector y su inverso aditivo siempre da el vector cero.",
+      "difficulty": "easy",
+      "procedure": [
+        "Aplicar la definición del inverso aditivo.",
+        "Seleccionar la opción que verifica la igualdad."
+      ]
+    },
+    {
+      "question": "En un espacio vectorial, ¿cuál es el resultado de multiplicar cualquier vector por el escalar 0?",
+      "formula": "\\( 0\\vec{u}=\\vec{0} \\)",
+      "options": [
+        "\\( 0\\vec{u}=\\vec{0} \\)",
+        "\\( 0\\vec{u}=\\vec{u} \\)",
+        "\\( 0\\vec{u}=\\vec{u}+\\vec{0} \\)",
+        "\\( 0\\vec{u}=\\vec{u}-\\vec{u} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiplicar cualquier vector por 0 da como resultado el vector cero, según la propiedad de linealidad.",
+      "difficulty": "easy",
+      "procedure": [
+        "Utilizar la propiedad de la multiplicación por cero en el contexto de espacios vectoriales.",
+        "Seleccionar la opción que establece \\( 0\\vec{u}=\\vec{0} \\)."
+      ]
+    },
+    {
+      "question": "¿Cómo se expresa la asociatividad de la multiplicación escalar?",
+      "formula": "\\( a(b\\vec{u})=(ab)\\vec{u} \\)",
+      "options": [
+        "\\( a(b\\vec{u})=(ab)\\vec{u} \\)",
+        "\\( a(b\\vec{u})=b(a\\vec{u}) \\)",
+        "\\( a(b\\vec{u})=a\\vec{u}+b\\vec{u} \\)",
+        "\\( a(b\\vec{u})=\\vec{u} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La propiedad asociativa en la multiplicación escalar permite reordenar la multiplicación de escalares.",
+      "difficulty": "easy",
+      "procedure": [
+        "Multiplicar el escalar \\(b\\) por el vector y luego por \\(a\\) es lo mismo que multiplicar \\(a\\) y \\(b\\) primero y luego por \\(\\vec{u}\\).",
+        "Seleccionar la opción que muestra \\( a(b\\vec{u})=(ab)\\vec{u} \\)."
+      ]
+    },
+    {
+      "question": "¿Qué axioma implica que para cada escalar \\( c\\) y cada vector \\( \\vec{u}\\) se cumple \\( c\\vec{u}\\in V \\)?",
+      "formula": "\\( \\forall c\\in \\mathbb{R},\\; \\forall \\vec{u}\\in V,\\; c\\vec{u}\\in V \\)",
+      "options": [
+        "\\( \\vec{u}+\\vec{v}\\in V \\)",
+        "\\( c\\vec{u}\\in V \\)",
+        "\\( \\vec{u}+(-\\vec{u})=\\vec{0} \\)",
+        "\\( \\vec{u}+\\vec{0}=\\vec{u} \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Este axioma de cerradura en la multiplicación por escalares garantiza que el producto de un escalar por un vector pertenece a V.",
+      "difficulty": "easy",
+      "procedure": [
+        "Verificar la propiedad de cerradura para la multiplicación por escalares.",
+        "Seleccionar la opción que expresa \\( c\\vec{u}\\in V \\)."
+      ]
+    },
+    {
+      "question": "Una base de un espacio vectorial es un conjunto de vectores que es linealmente independiente y que además:",
+      "formula": "\\( V=\\text{span}\\{\\vec{v}_1,\\vec{v}_2,\\ldots,\\vec{v}_n\\} \\)",
+      "options": [
+        "\\( V=\\text{span}\\{\\vec{v}_1,\\vec{v}_2,\\ldots,\\vec{v}_n\\} \\)",
+        "\\( \\{\\vec{v}_1,\\vec{v}_2,\\ldots,\\vec{v}_n\\} \\) es linealmente dependiente",
+        "\\( V\\subset\\{\\vec{v}_1,\\vec{v}_2\\} \\)",
+        "\\( V=\\{\\vec{v}_1\\} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Por definición, una base es un conjunto linealmente independiente que genera todo el espacio vectorial.",
+      "difficulty": "easy",
+      "procedure": [
+        "Recordar que para ser base, el conjunto debe ser generador y linealmente independiente.",
+        "Seleccionar la opción que expresa ambas propiedades."
+      ]
+    },
+    {
+      "question": "¿Cuál es la condición necesaria para que un conjunto de vectores sea considerado linealmente independiente?",
+      "formula": "\\( a_1\\vec{v}_1+\\cdots+a_n\\vec{v}_n=\\vec{0}\\Rightarrow a_1=a_2=\\cdots=a_n=0 \\)",
+      "options": [
+        "\\( a_1\\vec{v}_1+\\cdots+a_n\\vec{v}_n=\\vec{0} \\) tiene infinitas soluciones",
+        "\\( a_1\\vec{v}_1+\\cdots+a_n\\vec{v}_n=\\vec{0}\\Rightarrow a_1=a_2=\\cdots=a_n=0 \\)",
+        "\\( \\vec{v}_1+\\cdots+\\vec{v}_n=\\vec{0} \\)",
+        "\\( \\{\\vec{v}_1,\\ldots,\\vec{v}_n\\} \\) genera \\(V\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La condición de independencia lineal es que la única solución de la combinación lineal igual a cero sea la trivial.",
+      "difficulty": "easy",
+      "procedure": [
+        "Aplicar la definición formal de independencia lineal.",
+        "Seleccionar la opción que muestra la implicación correcta."
+      ]
+    },
+    {
+      "question": "En el contexto de espacios vectoriales, ¿cuál de las siguientes expresiones representa la idea de que cualquier vector se puede escribir como combinación lineal de los vectores de una base?",
+      "formula": "\\( V=\\text{span}\\{\\vec{v}_1,\\vec{v}_2,\\ldots,\\vec{v}_n\\} \\)",
+      "options": [
+        "\\( V=\\text{span}\\{\\vec{v}_1,\\vec{v}_2,\\ldots,\\vec{v}_n\\} \\)",
+        "\\( V\\subset\\{\\vec{v}_1,\\vec{v}_2\\} \\)",
+        "\\( \\{\\vec{v}_1,\\vec{v}_2,\\ldots,\\vec{v}_n\\} \\) es linealmente dependiente",
+        "\\( \\vec{v}_1+\\vec{v}_2+\\cdots+\\vec{v}_n=\\vec{0} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El span de un conjunto de vectores representa todas las combinaciones lineales posibles, generando el espacio vectorial.",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar que \\( V=\\text{span}\\{\\vec{v}_1,\\ldots,\\vec{v}_n\\} \\) significa que cualquier vector en V es una combinación lineal de la base.",
+        "Seleccionar la opción correcta."
+      ]
+    },
+    {
+      "question": "¿Qué propiedad asegura que la multiplicación por el escalar 1 deja inalterado cualquier vector?",
+      "formula": "\\( 1\\vec{u}=\\vec{u} \\)",
+      "options": [
+        "\\( 1\\vec{u}=\\vec{u} \\)",
+        "\\( 0\\vec{u}=\\vec{0} \\)",
+        "\\( \\vec{u}+\\vec{0}=\\vec{u} \\)",
+        "\\( \\vec{u}+(-\\vec{u})=\\vec{0} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La identidad multiplicativa del 1 garantiza que el vector no se modifica al multiplicarse por 1.",
+      "difficulty": "easy",
+      "procedure": [
+        "Recordar la propiedad de identidad en la multiplicación.",
+        "Seleccionar la opción que muestra \\( 1\\vec{u}=\\vec{u} \\)."
+      ]
+    },
+    {
+      "question": "¿Qué significa que un conjunto V sea cerrado bajo la suma en un espacio vectorial?",
+      "formula": "\\( \\forall \\vec{u}, \\vec{v} \\in V, \\; \\vec{u}+\\vec{v} \\in V \\)",
+      "options": [
+        "\\( \\vec{u}+\\vec{v} \\in V \\)",
+        "\\( \\vec{u}+\\vec{v} \\notin V \\)",
+        "\\( \\vec{u}-\\vec{v} \\in V \\)",
+        "\\( c\\vec{u} \\in V \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La cerradura bajo la suma indica que la suma de cualesquiera dos vectores de V pertenece a V.",
+      "difficulty": "easy",
+      "procedure": [
+        "Verificar que la suma de dos vectores siempre resulte en otro vector de V.",
+        "Confirmar que la propiedad se cumple para todo par de vectores."
+      ]
+    },
+    {
+      "question": "¿Cómo se expresa la cerradura bajo la multiplicación por escalar en un espacio vectorial?",
+      "formula": "\\( \\forall c \\in \\mathbb{R}, \\; \\forall \\vec{u} \\in V, \\; c\\vec{u} \\in V \\)",
+      "options": [
+        "\\( c\\vec{u} \\in V \\)",
+        "\\( c\\vec{u} \\notin V \\)",
+        "\\( \\vec{u}+\\vec{v} \\in V \\)",
+        "\\( \\vec{u}-\\vec{v} \\in V \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La propiedad de cerradura bajo la multiplicación por escalar establece que multiplicar cualquier vector por cualquier escalar produce otro vector en V.",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar que se deben considerar todos los escalares reales.",
+        "Verificar que el producto escalar- vector permanece en el espacio."
+      ]
+    },
+    {
+      "question": "¿Qué axioma garantiza la existencia de un vector neutro en la suma?",
+      "formula": "\\( \\exists \\vec{0} \\in V \\; \\text{tal que} \\; \\vec{u}+\\vec{0}=\\vec{u} \\; \\forall \\vec{u} \\in V \\)",
+      "options": [
+        "\\( \\vec{u}+\\vec{0}=\\vec{u} \\)",
+        "\\( \\exists \\vec{0} \\in V \\; \\text{tal que} \\; \\vec{u}+\\vec{0}=\\vec{u} \\; \\forall \\vec{u} \\in V \\)",
+        "\\( \\vec{u}+(-\\vec{u})=\\vec{0} \\)",
+        "\\( c\\vec{u}\\in V \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Este axioma asegura que existe un elemento neutro (vector cero) en V que al sumarlo a cualquier vector no lo modifica.",
+      "difficulty": "easy",
+      "procedure": [
+        "Recordar la definición del vector cero.",
+        "Seleccionar la opción que establece su existencia y propiedad."
+      ]
+    },
+    {
+      "question": "¿Cuál es la definición formal de inverso aditivo en un espacio vectorial?",
+      "formula": "\\( \\forall \\vec{u} \\in V, \\; \\exists (-\\vec{u}) \\in V \\; \\text{tal que} \\; \\vec{u}+(-\\vec{u})=\\vec{0} \\)",
+      "options": [
+        "\\( \\vec{u}+(-\\vec{u})=\\vec{0} \\)",
+        "\\( \\forall \\vec{u} \\in V, \\; \\exists (-\\vec{u}) \\in V \\; \\text{tal que} \\; \\vec{u}+(-\\vec{u})=\\vec{0} \\)",
+        "\\( \\vec{u}-\\vec{u}=\\vec{0} \\)",
+        "\\( c\\vec{u}\\in V \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El inverso aditivo es aquel vector que, sumado al vector original, da como resultado el vector cero.",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar la necesidad de que cada vector tenga un opuesto aditivo.",
+        "Seleccionar la opción que lo expresa formalmente para todo vector."
+      ]
+    },
+    {
+      "question": "¿Qué propiedad garantiza que la suma de vectores es conmutativa?",
+      "formula": "\\( \\vec{u}+\\vec{v}=\\vec{v}+\\vec{u} \\)",
+      "options": [
+        "\\( \\vec{u}+\\vec{v}=\\vec{v}+\\vec{u} \\)",
+        "\\( (\\vec{u}+\\vec{v})+\\vec{w}=\\vec{u}+(\\vec{v}+\\vec{w}) \\)",
+        "\\( \\vec{u}+\\vec{0}=\\vec{u} \\)",
+        "\\( 1\\vec{u}=\\vec{u} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La conmutatividad indica que el orden en que se suman los vectores no afecta el resultado.",
+      "difficulty": "easy",
+      "procedure": [
+        "Verificar que \\( \\vec{u}+\\vec{v} \\) es igual a \\( \\vec{v}+\\vec{u} \\) sin importar el orden.",
+        "Seleccionar la opción correcta."
+      ]
+    },
+    {
+      "question": "¿Cómo se expresa la propiedad asociativa de la suma en un espacio vectorial?",
+      "formula": "\\( (\\vec{u}+\\vec{v})+\\vec{w}=\\vec{u}+(\\vec{v}+\\vec{w}) \\)",
+      "options": [
+        "\\( \\vec{u}+\\vec{v}=\\vec{v}+\\vec{u} \\)",
+        "\\( (\\vec{u}+\\vec{v})+\\vec{w}=\\vec{u}+(\\vec{v}+\\vec{w}) \\)",
+        "\\( \\vec{u}+\\vec{0}=\\vec{u} \\)",
+        "\\( c(\\vec{u}+\\vec{v})=c\\vec{u}+c\\vec{v} \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La asociatividad permite agrupar la suma de tres vectores de forma arbitraria sin cambiar el resultado.",
+      "difficulty": "easy",
+      "procedure": [
+        "Comprobar que el agrupamiento en la suma de vectores no altera el resultado final.",
+        "Seleccionar la opción que refleja esta propiedad."
+      ]
+    },
+    {
+      "question": "¿Qué propiedad relaciona la multiplicación de un vector por el escalar 1?",
+      "formula": "\\( 1\\vec{u}=\\vec{u} \\)",
+      "options": [
+        "\\( 1\\vec{u}=\\vec{u} \\)",
+        "\\( 0\\vec{u}=\\vec{0} \\)",
+        "\\( \\vec{u}+\\vec{0}=\\vec{u} \\)",
+        "\\( \\vec{u}+(-\\vec{u})=\\vec{0} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La multiplicación por el escalar 1 actúa como la identidad, dejando inalterado el vector.",
+      "difficulty": "easy",
+      "procedure": [
+        "Recordar la función del 1 como elemento neutro en la multiplicación.",
+        "Seleccionar la opción que expresa esta igualdad."
+      ]
+    },
+    {
+      "question": "¿Cómo se expresa la distributividad de la multiplicación escalar sobre la suma de vectores?",
+      "formula": "\\( c(\\vec{u}+\\vec{v})=c\\vec{u}+c\\vec{v} \\)",
+      "options": [
+        "\\( c(\\vec{u}+\\vec{v})=c\\vec{u}+c\\vec{v} \\)",
+        "\\( (c+d)\\vec{u}=c\\vec{u}+d\\vec{u} \\)",
+        "\\( \\vec{u}+\\vec{v}=\\vec{v}+\\vec{u} \\)",
+        "\\( c\\vec{u}\\in V \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La distributividad escalar permite distribuir el escalar sobre cada uno de los vectores en la suma.",
+      "difficulty": "easy",
+      "procedure": [
+        "Aplicar la multiplicación escalar a la suma de dos vectores.",
+        "Seleccionar la opción que refleja la propiedad correctamente."
+      ]
+    },
+    {
+      "question": "¿Cómo se expresa la distributividad de la suma de escalares en la multiplicación de un vector?",
+      "formula": "\\( (c+d)\\vec{u}=c\\vec{u}+d\\vec{u} \\)",
+      "options": [
+        "\\( (c+d)\\vec{u}=c\\vec{u}+d\\vec{u} \\)",
+        "\\( c(\\vec{u}+\\vec{v})=c\\vec{u}+c\\vec{v} \\)",
+        "\\( \\vec{u}+\\vec{0}=\\vec{u} \\)",
+        "\\( 1\\vec{u}=\\vec{u} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Esta propiedad muestra cómo la suma de dos escalares se distribuye en la multiplicación por un vector.",
+      "difficulty": "easy",
+      "procedure": [
+        "Observar que sumar dos escalares y luego multiplicar es equivalente a multiplicar cada escalar por el vector y sumarlos.",
+        "Elegir la opción que lo expresa correctamente."
+      ]
+    },
+    {
+      "question": "¿Qué sucede al multiplicar cualquier vector por el escalar 0?",
+      "formula": "\\( 0\\vec{u}=\\vec{0} \\)",
+      "options": [
+        "\\( 0\\vec{u}=\\vec{0} \\)",
+        "\\( 0\\vec{u}=\\vec{u} \\)",
+        "\\( 0\\vec{u}=\\vec{u}+\\vec{0} \\)",
+        "\\( 0\\vec{u}=\\vec{u}-\\vec{u} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La multiplicación por 0 anula cualquier vector, produciendo el vector cero.",
+      "difficulty": "easy",
+      "procedure": [
+        "Aplicar la propiedad de multiplicación por cero.",
+        "Seleccionar la opción que establece \\( 0\\vec{u}=\\vec{0} \\)."
+      ]
+    },
+    {
+      "question": "¿Qué significa que un conjunto de vectores sea linealmente independiente?",
+      "formula": "\\( a_1\\vec{v}_1+\\cdots+a_n\\vec{v}_n=\\vec{0} \\Rightarrow a_1=a_2=\\cdots=a_n=0 \\)",
+      "options": [
+        "\\( \\{\\vec{v}_1,\\ldots,\\vec{v}_n\\} \\) es generador",
+        "\\( a_1\\vec{v}_1+\\cdots+a_n\\vec{v}_n=\\vec{0} \\Rightarrow a_1=a_2=\\cdots=a_n=0 \\)",
+        "\\( \\vec{v}_1+\\cdots+\\vec{v}_n=\\vec{0} \\)",
+        "\\( a_1\\vec{v}_1+\\cdots+a_n\\vec{v}_n=\\vec{0} \\) tiene soluciones no triviales"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La independencia lineal implica que la única combinación lineal que da el vector cero es la trivial.",
+      "difficulty": "easy",
+      "procedure": [
+        "Revisar la definición formal de independencia lineal.",
+        "Seleccionar la opción que garantiza que solo la solución trivial es posible."
+      ]
+    },
+    {
+      "question": "¿Qué significa que un conjunto de vectores sea generador de un espacio vectorial?",
+      "formula": "\\( V=\\text{span}\\{\\vec{v}_1,\\vec{v}_2,\\ldots,\\vec{v}_n\\} \\)",
+      "options": [
+        "\\( V=\\text{span}\\{\\vec{v}_1,\\vec{v}_2,\\ldots,\\vec{v}_n\\} \\)",
+        "\\( \\{\\vec{v}_1,\\vec{v}_2,\\ldots,\\vec{v}_n\\} \\) es linealmente independiente",
+        "\\( \\vec{v}_1+\\vec{v}_2+\\cdots+\\vec{v}_n=\\vec{0} \\)",
+        "\\( V\\subset\\{\\vec{v}_1,\\vec{v}_2\\} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ser generador significa que cualquier vector en V se puede expresar como combinación lineal de los vectores del conjunto.",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar el concepto de 'span' de un conjunto de vectores.",
+        "Seleccionar la opción que indica que el espacio es la suma de todas las combinaciones lineales de dichos vectores."
+      ]
+    },
+    {
+      "question": "¿Cómo se define la dimensión de un espacio vectorial?",
+      "formula": "\\( \\dim(V)=n \\)",
+      "options": [
+        "\\( \\dim(V)=n \\)",
+        "\\( \\dim(V)=n+1 \\)",
+        "\\( \\dim(V)=\\infty \\)",
+        "\\( \\dim(V)=0 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La dimensión es el número de vectores en una base de V.",
+      "difficulty": "easy",
+      "procedure": [
+        "Recordar que la base es el conjunto mínimo de vectores generadores.",
+        "Seleccionar la opción que indica la cantidad exacta de vectores en la base."
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes expresiones NO es un axioma en la definición de un espacio vectorial?",
+      "formula": "\\( \\vec{u}-\\vec{v}\\in V \\)",
+      "options": [
+        "\\( \\vec{u}-\\vec{v}\\in V \\)",
+        "\\( \\vec{u}+\\vec{v}\\in V \\)",
+        "\\( c\\vec{u}\\in V \\)",
+        "\\( \\vec{u}+(-\\vec{u})=\\vec{0} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La cerradura se define para la suma y la multiplicación por escalares, no para la resta.",
+      "difficulty": "easy",
+      "procedure": [
+        "Revisar la lista de axiomas de un espacio vectorial.",
+        "Identificar la opción que no corresponde a un axioma primario."
+      ]
+    },
+    {
+      "question": "¿Qué propiedad se utiliza para demostrar que el vector cero es único en un espacio vectorial?",
+      "formula": "\\( \\vec{u}+\\vec{0}=\\vec{u} \\)",
+      "options": [
+        "\\( \\vec{u}+\\vec{0}=\\vec{u} \\)",
+        "\\( \\vec{u}+(-\\vec{u})=\\vec{0} \\)",
+        "\\( c\\vec{u}\\in V \\)",
+        "\\( \\vec{u}+\\vec{v}=\\vec{v}+\\vec{u} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La propiedad del elemento neutro en la suma implica que el vector cero es único en V.",
+      "difficulty": "easy",
+      "procedure": [
+        "Utilizar el axioma de existencia del vector cero.",
+        "Seleccionar la opción que demuestra la unicidad mediante la propiedad del elemento neutro."
+      ]
+    },
+    {
+      "question": "¿Qué nos indica la propiedad asociativa en la multiplicación escalar?",
+      "formula": "\\( a(b\\vec{u})=(ab)\\vec{u} \\)",
+      "options": [
+        "\\( a(b\\vec{u})=(ab)\\vec{u} \\)",
+        "\\( a(b\\vec{u})=b(a\\vec{u}) \\)",
+        "\\( a(b\\vec{u})=a\\vec{u}+b\\vec{u} \\)",
+        "\\( a(b\\vec{u})=\\vec{u} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La asociatividad en la multiplicación escalar permite agrupar los escalares antes de multiplicar por el vector.",
+      "difficulty": "easy",
+      "procedure": [
+        "Verificar que multiplicar primero los escalares y luego el vector es equivalente a multiplicar secuencialmente.",
+        "Seleccionar la opción que expresa la igualdad correctamente."
+      ]
+    },
+    {
+      "question": "Si un conjunto de vectores es linealmente independiente, ¿qué implica sobre sus coeficientes en una combinación lineal igual a cero?",
+      "formula": "\\( a_1\\vec{v}_1+\\cdots+a_n\\vec{v}_n=\\vec{0} \\Rightarrow a_1=a_2=\\cdots=a_n=0 \\)",
+      "options": [
+        "\\( a_1, a_2, \\ldots, a_n \\) pueden ser distintos de cero",
+        "\\( a_1=a_2=\\cdots=a_n=0 \\)",
+        "\\( \\vec{v}_1, \\ldots, \\vec{v}_n \\) son proporcionales",
+        "\\( \\{\\vec{v}_1, \\ldots, \\vec{v}_n\\} \\) es generador"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La definición de independencia lineal indica que la única solución para la combinación lineal igual a cero es la trivial.",
+      "difficulty": "easy",
+      "procedure": [
+        "Aplicar la definición formal de independencia lineal.",
+        "Seleccionar la opción que garantiza que todos los coeficientes deben ser cero."
+      ]
+    },
+    {
+      "question": "En la definición de base, ¿qué dos propiedades deben cumplir los vectores del conjunto?",
+      "formula": "\\( \\text{Base: } \\{\\vec{v}_1,\\ldots,\\vec{v}_n\\} \\text{ es linealmente independiente y genera } V \\)",
+      "options": [
+        "Genera V y es finito",
+        "Es linealmente independiente y genera V",
+        "Es linealmente dependiente y genera V",
+        "Es finito y ordenado"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Una base debe ser un conjunto de vectores que sea simultáneamente linealmente independiente y generador de V.",
+      "difficulty": "easy",
+      "procedure": [
+        "Revisar la definición de base en un espacio vectorial.",
+        "Seleccionar la opción que indica ambas propiedades."
+      ]
+    },
+    {
+      "question": "¿Qué nos permite afirmar que dos bases de un espacio vectorial tienen el mismo número de elementos?",
+      "formula": "\\( \\dim(V)=n \\)",
+      "options": [
+        "La propiedad de cerradura",
+        "La propiedad del vector cero",
+        "El teorema de la dimensión",
+        "La asociatividad"
+      ],
+      "correctAnswer": 2,
+      "explanation": "El teorema de la dimensión establece que todas las bases de un espacio vectorial tienen el mismo número de elementos.",
+      "difficulty": "easy",
+      "procedure": [
+        "Recordar el teorema fundamental de la dimensión en espacios vectoriales.",
+        "Seleccionar la opción que lo menciona."
+      ]
+    },
+    {
+      "question": "Si un conjunto de vectores es generador pero linealmente dependiente, ¿qué podemos concluir?",
+      "formula": "",
+      "options": [
+        "No es una base",
+        "Es una base",
+        "Es linealmente independiente",
+        "No genera el espacio"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Para ser una base, el conjunto debe ser generador y además linealmente independiente.",
+      "difficulty": "easy",
+      "procedure": [
+        "Distinguir entre ser generador y ser base.",
+        "Seleccionar la opción que explica que la dependencia impide ser base."
+      ]
+    },
+    {
+      "question": "¿Qué axioma se utiliza para deducir la existencia del inverso aditivo en un espacio vectorial?",
+      "formula": "\\( \\forall \\vec{u}\\in V,\\; \\exists (-\\vec{u}) \\in V \\; \\text{tal que}\\; \\vec{u}+(-\\vec{u})=\\vec{0} \\)",
+      "options": [
+        "\\( \\vec{u}+\\vec{0}=\\vec{u} \\)",
+        "\\( \\forall \\vec{u}\\in V,\\; \\exists (-\\vec{u}) \\in V \\; \\text{tal que}\\; \\vec{u}+(-\\vec{u})=\\vec{0} \\)",
+        "\\( \\vec{u}+\\vec{v}\\in V \\)",
+        "\\( c\\vec{u}\\in V \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El axioma de inverso aditivo establece la existencia del opuesto para cada vector en V.",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar el axioma que menciona el inverso aditivo.",
+        "Seleccionar la opción que lo enuncia formalmente."
+      ]
+    },
+    {
+      "question": "¿Qué significa que un conjunto de vectores sea minimalmente generador de V?",
+      "formula": "",
+      "options": [
+        "Que es la base de V",
+        "Que contiene el vector cero",
+        "Que es linealmente dependiente",
+        "Que no genera V"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Un conjunto minimalmente generador es una base, ya que es generador y no contiene elementos redundantes.",
+      "difficulty": "easy",
+      "procedure": [
+        "Entender el concepto de minimalidad en conjuntos generadores.",
+        "Seleccionar la opción que relaciona este concepto con la base."
+      ]
+    },
+    {
+      "question": "¿Qué enunciado expresa la propiedad de existencia del elemento neutro en la suma de vectores?",
+      "formula": "\\( \\exists \\vec{0}\\in V \\; \\text{tal que} \\; \\vec{u}+\\vec{0}=\\vec{u} \\; \\forall \\vec{u}\\in V \\)",
+      "options": [
+        "\\( \\vec{u}+\\vec{0}=\\vec{u} \\)",
+        "\\( \\exists \\vec{0}\\in V \\; \\text{tal que} \\; \\vec{u}+\\vec{0}=\\vec{u} \\; \\forall \\vec{u}\\in V \\)",
+        "\\( \\vec{u}+(-\\vec{u})=\\vec{0} \\)",
+        "\\( c\\vec{u}\\in V \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Este enunciado formaliza la existencia del vector cero como elemento neutro en la suma.",
+      "difficulty": "easy",
+      "procedure": [
+        "Revisar el axioma del elemento neutro.",
+        "Seleccionar la opción que lo define de forma completa."
+      ]
+    },
+    {
+      "question": "En un espacio vectorial, ¿qué garantiza que la suma de dos vectores siempre da como resultado otro vector en V?",
+      "formula": "",
+      "options": [
+        "La cerradura bajo la suma",
+        "La existencia del inverso aditivo",
+        "La conmutatividad",
+        "La distributividad"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La cerradura bajo la suma es el axioma que garantiza que la suma de dos vectores permanece en el espacio.",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar la propiedad que se refiere a la suma de vectores.",
+        "Seleccionar la opción correcta."
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes afirmaciones es una consecuencia de los axiomas de un espacio vectorial?",
+      "formula": "",
+      "options": [
+        "La unicidad del vector cero",
+        "La existencia de infinitos vectores",
+        "La conmutatividad de la multiplicación",
+        "La existencia de un único escalar"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La unicidad del vector cero se deduce del axioma del elemento neutro en la suma.",
+      "difficulty": "easy",
+      "procedure": [
+        "Analizar las consecuencias de los axiomas básicos.",
+        "Seleccionar la opción que se deriva de la propiedad del vector cero."
+      ]
+    }
+  ]
+}

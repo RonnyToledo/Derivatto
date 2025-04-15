@@ -1,0 +1,1618 @@
+{
+  "integrales_indefinidas_dificil": [
+    {
+      "question": "Calcula la integral indefinida de f(x) = 12x³.",
+      "formula": "\\(\\int 12x^3 dx\\)",
+      "options": [
+        "\\(3x^4 + C\\)",
+        "\\(12x^4 + C\\)",
+        "\\(4x^3 + C\\)",
+        "\\(x^4 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se extrae la constante 12 y se aplica la regla de potencia: \\(\\int x^3 dx = \\frac{x^4}{4} + C\\), resultando \\(12 \\cdot \\frac{x^4}{4} = 3x^4 + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Extraer la constante 12 de la integral.",
+        "Aplicar la fórmula \\(\\int x^n dx = \\frac{x^{n+1}}{n+1} + C\\) para n = 3.",
+        "Simplificar: \\(12 \\cdot \\frac{x^4}{4} = 3x^4\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 3.",
+      "formula": "\\(\\int 3 dx\\)",
+      "options": [
+        "\\(3x + C\\)",
+        "\\(x^3 + C\\)",
+        "\\(3 + C\\)",
+        "\\(x + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La integral de una constante es la constante por x: \\(\\int 3 dx = 3x + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Reconocer que se integra una constante.",
+        "Multiplicar la constante por x y añadir C."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 7eˣ.",
+      "formula": "\\(\\int 7e^x dx\\)",
+      "options": [
+        "\\(7e^x + C\\)",
+        "\\(e^x + C\\)",
+        "\\(7xe^x + C\\)",
+        "\\(7e^{2x} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La integral de \\(e^x\\) es \\(e^x\\), por lo que \\(\\int 7e^x dx = 7e^x + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Extraer la constante 7.",
+        "Integrar \\(e^x\\) obteniendo \\(e^x\\) y multiplicar por 7.",
+        "Agregar la constante de integración."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 2x⁸.",
+      "formula": "\\(\\int 2x^8 dx\\)",
+      "options": [
+        "\\(\\frac{2x^9}{9} + C\\)",
+        "\\(\\frac{x^9}{9} + C\\)",
+        "\\(2x^9 + C\\)",
+        "\\(\\frac{2x^8}{9} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla de potencia: \\(\\int x^8 dx = \\frac{x^9}{9} + C\\), se tiene \\(2\\cdot \\frac{x^9}{9} = \\frac{2x^9}{9} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Extraer la constante 2.",
+        "Aplicar la regla de integración para n = 8.",
+        "Multiplicar el resultado por 2 y añadir C."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = x⁻¹.",
+      "formula": "\\(\\int x^{-1} dx\\)",
+      "options": [
+        "\\(\\ln|x| + C\\)",
+        "\\(\\frac{x^{0}}{0} + C\\)",
+        "\\(x^{-1} + C\\)",
+        "\\(\\frac{1}{x} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La integral de \\(x^{-1}\\) es un caso especial y resulta \\(\\ln|x| + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Reconocer el caso especial para n = -1.",
+        "Utilizar la fórmula \\(\\int x^{-1} dx = \\ln|x| + C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 8x^(2/3).",
+      "formula": "\\(\\int 8x^{2/3} dx\\)",
+      "options": [
+        "\\(\\frac{24x^{5/3}}{5} + C\\)",
+        "\\(\\frac{8x^{5/3}}{5} + C\\)",
+        "\\(\\frac{24x^{2/3}}{5} + C\\)",
+        "\\(\\frac{8x^{5/3}}{3} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se aplica la regla: \\(\\int x^{2/3} dx = \\frac{x^{5/3}}{5/3} = \\frac{3x^{5/3}}{5}\\); multiplicando por 8 se obtiene \\(\\frac{24x^{5/3}}{5} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la fórmula \\(\\int x^n dx = \\frac{x^{n+1}}{n+1} + C\\) para n = 2/3.",
+        "Multiplicar el resultado por 8.",
+        "Simplificar la fracción."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 5x^(4/3).",
+      "formula": "\\(\\int 5x^{4/3} dx\\)",
+      "options": [
+        "\\(\\frac{15x^{7/3}}{7} + C\\)",
+        "\\(\\frac{5x^{7/3}}{7} + C\\)",
+        "\\(\\frac{15x^{4/3}}{7} + C\\)",
+        "\\(\\frac{5x^{7/3}}{3} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se integra \\(x^{4/3}\\) obteniendo \\(\\frac{x^{7/3}}{7/3} = \\frac{3x^{7/3}}{7}\\); multiplicando por 5 da \\(\\frac{15x^{7/3}}{7} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Determinar el exponente: n = 4/3.",
+        "Aplicar la regla de integración para n = 4/3.",
+        "Multiplicar el resultado por 5 y simplificar."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = -4x⁶.",
+      "formula": "\\(\\int -4x^6 dx\\)",
+      "options": [
+        "\\(-\\frac{4x^7}{7} + C\\)",
+        "\\(-\\frac{4x^7}{6} + C\\)",
+        "\\(\\frac{4x^7}{7} + C\\)",
+        "\\(-4x^7 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se aplica la regla de potencia: \\(\\int x^6 dx = \\frac{x^7}{7} + C\\) y se multiplica por -4, dando \\(-\\frac{4x^7}{7} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Extraer el signo negativo y la constante -4.",
+        "Aplicar la fórmula \\(\\frac{x^{6+1}}{7} + C\\).",
+        "Multiplicar el resultado por -4."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 11eˣ.",
+      "formula": "\\(\\int 11e^x dx\\)",
+      "options": [
+        "\\(11e^x + C\\)",
+        "\\(e^x + C\\)",
+        "\\(11xe^x + C\\)",
+        "\\(11e^{2x} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La integral de \\(e^x\\) es \\(e^x\\); multiplicando por 11 se obtiene \\(11e^x + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Extraer la constante 11.",
+        "Integrar \\(e^x\\) y multiplicar por 11.",
+        "Agregar la constante de integración."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 3x² + 4.",
+      "formula": "\\(\\int (3x^2 + 4) dx\\)",
+      "options": [
+        "\\(x^3 + 4x + C\\)",
+        "\\(3x^3 + 4x + C\\)",
+        "\\(x^3 + 4 + C\\)",
+        "\\(3x^2 + 4x + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se integra término a término: \\(\\int 3x^2 dx = x^3 + C\\) y \\(\\int 4 dx = 4x + C\\); sumando se tiene \\(x^3 + 4x + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Dividir la integral en dos partes.",
+        "Integrar \\(3x^2\\) y \\(4\\) por separado.",
+        "Sumar ambos resultados y agregar C."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 2eˣ + 3x.",
+      "formula": "\\(\\int (2e^x + 3x) dx\\)",
+      "options": [
+        "\\(2e^x + \\frac{3x^2}{2} + C\\)",
+        "\\(2e^x + 3x^2 + C\\)",
+        "\\(2xe^x + \\frac{3x^2}{2} + C\\)",
+        "\\(e^x + \\frac{3x^2}{2} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se integra cada término: \\(\\int 2e^x dx = 2e^x\\) y \\(\\int 3x dx = \\frac{3x^2}{2}\\), por lo que el resultado es \\(2e^x + \\frac{3x^2}{2} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Separar la integral en dos partes.",
+        "Integrar \\(2e^x\\) y \\(3x\\) individualmente.",
+        "Sumar ambos resultados y añadir C."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 6x^(1/4).",
+      "formula": "\\(\\int 6x^{1/4} dx\\)",
+      "options": [
+        "\\(\\frac{24x^{5/4}}{5} + C\\)",
+        "\\(\\frac{6x^{5/4}}{5} + C\\)",
+        "\\(\\frac{24x^{1/4}}{5} + C\\)",
+        "\\(\\frac{6x^{5/4}}{4} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se utiliza la regla de potencia: \\(\\int x^{1/4} dx = \\frac{x^{5/4}}{5/4} = \\frac{4x^{5/4}}{5}\\). Multiplicando por 6 se obtiene \\(\\frac{24x^{5/4}}{5} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la fórmula para n = 1/4.",
+        "Multiplicar el resultado por 6.",
+        "Simplificar y añadir la constante de integración."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 7x³.",
+      "formula": "\\(\\int 7x^3 dx\\)",
+      "options": [
+        "\\(\\frac{7x^4}{4} + C\\)",
+        "\\(7x^4 + C\\)",
+        "\\(\\frac{7x^3}{4} + C\\)",
+        "\\(\\frac{x^4}{7} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Integrando \\(x^3\\) se obtiene \\(\\frac{x^4}{4}\\); multiplicando por 7 se tiene \\(\\frac{7x^4}{4} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Extraer la constante 7.",
+        "Aplicar la regla de potencia a \\(x^3\\).",
+        "Multiplicar el resultado y añadir C."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 4x⁻⁵.",
+      "formula": "\\(\\int 4x^{-5} dx\\)",
+      "options": [
+        "\\(-x^{-4} + C\\)",
+        "\\(x^{-4} + C\\)",
+        "\\(-4x^{-4} + C\\)",
+        "\\(\\frac{x^{-4}}{-4} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla para \\(x^n\\): \\(\\int x^{-5} dx = \\frac{x^{-4}}{-4} + C\\). Multiplicando por 4 se simplifica a \\(-x^{-4} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la fórmula de integración para n = -5.",
+        "Multiplicar el resultado por 4.",
+        "Simplificar para obtener la expresión final."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 8x^(1/2).",
+      "formula": "\\(\\int 8x^{1/2} dx\\)",
+      "options": [
+        "\\(\\frac{16x^{3/2}}{3} + C\\)",
+        "\\(\\frac{8x^{3/2}}{3} + C\\)",
+        "\\(\\frac{16x^{1/2}}{3} + C\\)",
+        "\\(\\frac{16x^{3/2}}{2} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se integra \\(x^{1/2}\\) obteniendo \\(\\frac{x^{3/2}}{3/2} = \\frac{2x^{3/2}}{3}\\); multiplicando por 8 se tiene \\(\\frac{16x^{3/2}}{3} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la regla para n = 1/2.",
+        "Multiplicar el resultado por 8.",
+        "Simplificar y agregar C."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 10x⁷.",
+      "formula": "\\(\\int 10x^7 dx\\)",
+      "options": [
+        "\\(\\frac{5x^8}{4} + C\\)",
+        "\\(\\frac{10x^8}{8} + C\\)",
+        "\\(\\frac{5x^8}{8} + C\\)",
+        "\\(\\frac{10x^7}{8} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Integrando \\(x^7\\) se obtiene \\(\\frac{x^8}{8}\\); multiplicando por 10 se tiene \\(\\frac{10x^8}{8} = \\frac{5x^8}{4} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la regla de potencia para n = 7.",
+        "Multiplicar el resultado por 10 y simplificar la fracción."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 5x^(2/5).",
+      "formula": "\\(\\int 5x^{2/5} dx\\)",
+      "options": [
+        "\\(\\frac{25x^{7/5}}{7} + C\\)",
+        "\\(\\frac{5x^{7/5}}{7} + C\\)",
+        "\\(\\frac{25x^{2/5}}{7} + C\\)",
+        "\\(\\frac{5x^{7/5}}{2} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se integra \\(x^{2/5}\\) obteniendo \\(\\frac{x^{7/5}}{7/5} = \\frac{5x^{7/5}}{7}\\); multiplicando por 5 resulta \\(\\frac{25x^{7/5}}{7} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Determinar el exponente n = 2/5.",
+        "Aplicar la fórmula de integración.",
+        "Multiplicar por 5 y simplificar."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 12x^(3/4).",
+      "formula": "\\(\\int 12x^{3/4} dx\\)",
+      "options": [
+        "\\(\\frac{48x^{7/4}}{7} + C\\)",
+        "\\(\\frac{12x^{7/4}}{7} + C\\)",
+        "\\(\\frac{48x^{3/4}}{7} + C\\)",
+        "\\(\\frac{12x^{7/4}}{4} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se integra \\(x^{3/4}\\) obteniendo \\(\\frac{x^{7/4}}{7/4} = \\frac{4x^{7/4}}{7}\\); multiplicando por 12 se obtiene \\(\\frac{48x^{7/4}}{7} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la regla para n = 3/4.",
+        "Multiplicar el resultado por 12.",
+        "Simplificar la fracción y añadir C."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 3eˣ.",
+      "formula": "\\(\\int 3e^x dx\\)",
+      "options": [
+        "\\(3e^x + C\\)",
+        "\\(e^x + C\\)",
+        "\\(3xe^x + C\\)",
+        "\\(3e^{2x} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La integral de \\(e^x\\) es \\(e^x\\); multiplicando por 3 se obtiene \\(3e^x + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Extraer la constante 3.",
+        "Integrar \\(e^x\\) y multiplicar por 3.",
+        "Agregar la constante de integración."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 15x⁴.",
+      "formula": "\\(\\int 15x^4 dx\\)",
+      "options": [
+        "\\(3x^5 + C\\)",
+        "\\(15x^5 + C\\)",
+        "\\(3x^4 + C\\)",
+        "\\(15x^4 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Integrando \\(x^4\\) se obtiene \\(\\frac{x^5}{5}\\); multiplicando por 15 da \\(15\\cdot \\frac{x^5}{5} = 3x^5 + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la regla de potencia para n = 4.",
+        "Multiplicar el resultado por 15 y simplificar la fracción."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 2x⁻⁶.",
+      "formula": "\\(\\int 2x^{-6} dx\\)",
+      "options": [
+        "\\(-\\frac{2x^{-5}}{5} + C\\)",
+        "\\(\\frac{2x^{-5}}{5} + C\\)",
+        "\\(-2x^{-5} + C\\)",
+        "\\(\\frac{-2x^{-6}}{5} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se aplica la regla de potencia: \\(\\int x^{-6} dx = \\frac{x^{-5}}{-5} + C\\). Multiplicando por 2 se obtiene \\(-\\frac{2x^{-5}}{5} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la fórmula para n = -6.",
+        "Multiplicar el resultado por 2.",
+        "Simplificar y agregar C."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 9x^(5/2).",
+      "formula": "\\(\\int 9x^{5/2} dx\\)",
+      "options": [
+        "\\(\\frac{18x^{7/2}}{7} + C\\)",
+        "\\(\\frac{9x^{7/2}}{7} + C\\)",
+        "\\(\\frac{18x^{5/2}}{7} + C\\)",
+        "\\(\\frac{9x^{7/2}}{2} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se integra \\(x^{5/2}\\) obteniendo \\(\\frac{x^{7/2}}{7/2} = \\frac{2x^{7/2}}{7}\\); multiplicando por 9 resulta \\(\\frac{18x^{7/2}}{7} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la regla de potencia para n = 5/2.",
+        "Multiplicar el resultado por 9.",
+        "Simplificar la expresión y añadir C."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = -3eˣ.",
+      "formula": "\\(\\int -3e^x dx\\)",
+      "options": [
+        "\\(-3e^x + C\\)",
+        "\\(3e^x + C\\)",
+        "\\(-3xe^x + C\\)",
+        "\\(3xe^x + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La integral de \\(e^x\\) es \\(e^x\\); multiplicando por -3 se obtiene \\(-3e^x + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Extraer la constante -3.",
+        "Integrar \\(e^x\\) y multiplicar por -3.",
+        "Agregar la constante de integración."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 8x^(3/2).",
+      "formula": "\\(\\int 8x^{3/2} dx\\)",
+      "options": [
+        "\\(\\frac{16x^{5/2}}{5} + C\\)",
+        "\\(\\frac{8x^{5/2}}{5} + C\\)",
+        "\\(\\frac{16x^{3/2}}{5} + C\\)",
+        "\\(\\frac{16x^{5/2}}{3} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se integra \\(x^{3/2}\\) obteniendo \\(\\frac{x^{5/2}}{5/2} = \\frac{2x^{5/2}}{5}\\); multiplicado por 8 resulta \\(\\frac{16x^{5/2}}{5} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la fórmula de integración para n = 3/2.",
+        "Multiplicar el resultado por 8.",
+        "Simplificar y agregar C."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 4x^(1/10).",
+      "formula": "\\(\\int 4x^{1/10} dx\\)",
+      "options": [
+        "\\(\\frac{40x^{11/10}}{11} + C\\)",
+        "\\(\\frac{4x^{11/10}}{11} + C\\)",
+        "\\(\\frac{40x^{1/10}}{11} + C\\)",
+        "\\(\\frac{10x^{11/10}}{11} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se integra \\(x^{1/10}\\) obteniendo \\(\\frac{x^{11/10}}{11/10} = \\frac{10x^{11/10}}{11}\\); multiplicando por 4 da \\(\\frac{40x^{11/10}}{11} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la regla de potencia para n = 1/10.",
+        "Multiplicar el resultado por 4.",
+        "Simplificar y añadir la constante de integración."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 6x².",
+      "formula": "\\(\\int 6x^2 dx\\)",
+      "options": [
+        "\\(2x^3 + C\\)",
+        "\\(6x^3 + C\\)",
+        "\\(2x^2 + C\\)",
+        "\\(6x^2 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Integrando \\(x^2\\) se obtiene \\(\\frac{x^3}{3}\\); multiplicado por 6 da \\(6\\cdot \\frac{x^3}{3} = 2x^3 + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la regla de potencia para n = 2.",
+        "Multiplicar el resultado por 6.",
+        "Simplificar la fracción y añadir C."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 5eˣ.",
+      "formula": "\\(\\int 5e^x dx\\)",
+      "options": [
+        "\\(5e^x + C\\)",
+        "\\(e^x + C\\)",
+        "\\(5xe^x + C\\)",
+        "\\(5e^{2x} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La integral de \\(e^x\\) es \\(e^x\\); multiplicado por 5 resulta \\(5e^x + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Extraer la constante 5.",
+        "Integrar \\(e^x\\) y multiplicar por 5.",
+        "Agregar la constante de integración."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 7x⁵.",
+      "formula": "\\(\\int 7x^5 dx\\)",
+      "options": [
+        "\\(\\frac{7x^6}{6} + C\\)",
+        "\\(7x^6 + C\\)",
+        "\\(\\frac{7x^5}{6} + C\\)",
+        "\\(\\frac{x^6}{7} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Integrando \\(x^5\\) se obtiene \\(\\frac{x^6}{6}\\); multiplicado por 7 da \\(\\frac{7x^6}{6} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la regla de integración para n = 5.",
+        "Multiplicar el resultado por 7 y simplificar."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 9x^(1/2).",
+      "formula": "\\(\\int 9x^{1/2} dx\\)",
+      "options": [
+        "\\(6x^{3/2} + C\\)",
+        "\\(9x^{3/2} + C\\)",
+        "\\(6x^{1/2} + C\\)",
+        "\\(9x^{1/2} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se integra \\(x^{1/2}\\) obteniendo \\(\\frac{x^{3/2}}{3/2} = \\frac{2x^{3/2}}{3}\\); multiplicado por 9 resulta \\(9\\cdot \\frac{2x^{3/2}}{3} = 6x^{3/2} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la fórmula para n = 1/2.",
+        "Multiplicar el resultado por 9.",
+        "Simplificar y agregar la constante de integración."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 11x³.",
+      "formula": "\\(\\int 11x^3 dx\\)",
+      "options": [
+        "\\(\\frac{11x^4}{4} + C\\)",
+        "\\(11x^4 + C\\)",
+        "\\(\\frac{11x^3}{4} + C\\)",
+        "\\(\\frac{x^4}{11} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Integrando \\(x^3\\) se obtiene \\(\\frac{x^4}{4}\\); multiplicado por 11 da \\(\\frac{11x^4}{4} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la regla de potencia para n = 3.",
+        "Multiplicar el resultado por 11.",
+        "Simplificar y añadir la constante de integración."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 4x.",
+      "formula": "\\(\\int 4x dx\\)",
+      "options": [
+        "\\(2x^2 + C\\)",
+        "\\(4x^2 + C\\)",
+        "\\(2x + C\\)",
+        "\\(x^2 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se extrae la constante 4 y se utiliza la regla de potencia: \\(\\int x dx = \\frac{x^2}{2} + C\\). Así, \\(4\\cdot \\frac{x^2}{2} = 2x^2 + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Extraer la constante 4 de la integral.",
+        "Aplicar la regla de integración para \\(x\\): \\(\\frac{x^2}{2} + C\\).",
+        "Multiplicar el resultado por 4 para obtener \\(2x^2 + C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = x¹⁰.",
+      "formula": "\\(\\int x^{10} dx\\)",
+      "options": [
+        "\\(\\frac{x^{11}}{11} + C\\)",
+        "\\(\\frac{x^{11}}{10} + C\\)",
+        "\\(\\frac{x^{10}}{10} + C\\)",
+        "\\(\\frac{x^{11}}{12} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla de potencia: \\(\\int x^n dx = \\frac{x^{n+1}}{n+1} + C\\) con \\(n=10\\), se obtiene \\(\\frac{x^{11}}{11} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar \\(n = 10\\) en la función.",
+        "Sumar 1 al exponente: 10 + 1 = 11.",
+        "Dividir \\(x^{11}\\) por 11 y añadir la constante de integración."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = e^(2x).",
+      "formula": "\\(\\int e^{2x} dx\\)",
+      "options": [
+        "\\(\\frac{e^{2x}}{2} + C\\)",
+        "\\(2e^{2x} + C\\)",
+        "\\(e^{2x} + C\\)",
+        "\\(\\frac{e^{2x}}{x} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mediante un cambio de variable se obtiene que \\(\\int e^{2x} dx = \\frac{e^{2x}}{2} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Reconocer que la derivada de \\(2x\\) es 2.",
+        "Aplicar la fórmula \\(\\int e^{ax} dx = \\frac{e^{ax}}{a} + C\\) con \\(a=2\\).",
+        "Obtener \\(\\frac{e^{2x}}{2} + C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 3x⁷.",
+      "formula": "\\(\\int 3x^7 dx\\)",
+      "options": [
+        "\\(\\frac{3x^8}{8} + C\\)",
+        "\\(\\frac{3x^8}{7} + C\\)",
+        "\\(\\frac{x^8}{8} + C\\)",
+        "\\(3x^8 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla de potencia con \\(n=7\\): \\(\\int x^7 dx = \\frac{x^8}{8} + C\\) y multiplicando por 3 se obtiene \\(\\frac{3x^8}{8} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Extraer la constante 3.",
+        "Aplicar la fórmula \\(\\int x^n dx = \\frac{x^{n+1}}{n+1} + C\\) para \\(n=7\\).",
+        "Multiplicar el resultado por 3 para obtener \\(\\frac{3x^8}{8} + C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 7x⁻².",
+      "formula": "\\(\\int 7x^{-2} dx\\)",
+      "options": [
+        "\\(-7x^{-1} + C\\)",
+        "\\(7x^{-1} + C\\)",
+        "\\(\\frac{7x^{-1}}{-1} + C\\)",
+        "\\(-\\frac{7x^{-1}}{2} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Utilizando la regla de potencia: \\(\\int x^{-2} dx = \\frac{x^{-1}}{-1} + C = -x^{-1} + C\\); multiplicando por 7 se obtiene \\(-7x^{-1} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar \\(n = -2\\) en la función.",
+        "Aplicar la fórmula \\(\\int x^n dx = \\frac{x^{n+1}}{n+1} + C\\).",
+        "Multiplicar el resultado por 7 para obtener \\(-7x^{-1} + C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 9x^(1/3).",
+      "formula": "\\(\\int 9x^{1/3} dx\\)",
+      "options": [
+        "\\(\\frac{27x^{4/3}}{4} + C\\)",
+        "\\(\\frac{9x^{4/3}}{4} + C\\)",
+        "\\(\\frac{27x^{4/3}}{3} + C\\)",
+        "\\(\\frac{9x^{4/3}}{3} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se tiene \\(\\int x^{1/3} dx = \\frac{x^{4/3}}{4/3} = \\frac{3x^{4/3}}{4} + C\\); multiplicando por 9 se obtiene \\(\\frac{27x^{4/3}}{4} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la regla de potencia para \\(n = 1/3\\).",
+        "Calcular \\(\\frac{x^{4/3}}{4/3} = \\frac{3x^{4/3}}{4}\\).",
+        "Multiplicar el resultado por 9 y añadir C."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 2e^(3x).",
+      "formula": "\\(\\int 2e^{3x} dx\\)",
+      "options": [
+        "\\(\\frac{2e^{3x}}{3} + C\\)",
+        "\\(2e^{3x} + C\\)",
+        "\\(\\frac{3e^{3x}}{2} + C\\)",
+        "\\(e^{3x} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando \\(\\int e^{ax} dx = \\frac{e^{ax}}{a} + C\\) con \\(a=3\\), se obtiene \\(\\frac{e^{3x}}{3}\\). Multiplicando por 2, el resultado es \\(\\frac{2e^{3x}}{3} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar \\(a = 3\\) en la función exponencial.",
+        "Aplicar la fórmula \\(\\int e^{3x} dx = \\frac{e^{3x}}{3} + C\\).",
+        "Multiplicar el resultado por 2 para obtener \\(\\frac{2e^{3x}}{3} + C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = x⁻³.",
+      "formula": "\\(\\int x^{-3} dx\\)",
+      "options": [
+        "\\(-\\frac{1}{2x^2} + C\\)",
+        "\\(\\frac{1}{2x^2} + C\\)",
+        "\\(-\\frac{1}{3x^2} + C\\)",
+        "\\(\\frac{1}{3x^2} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Para \\(n=-3\\), \\(\\int x^{-3} dx = \\frac{x^{-2}}{-2} + C = -\\frac{1}{2x^2} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar \\(n = -3\\) en la función.",
+        "Aplicar la regla de potencia y simplificar: \\(\\frac{x^{-2}}{-2} = -\\frac{1}{2x^2}\\).",
+        "Agregar la constante de integración."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 6x^(5/2).",
+      "formula": "\\(\\int 6x^{5/2} dx\\)",
+      "options": [
+        "\\(\\frac{12x^{7/2}}{7} + C\\)",
+        "\\(\\frac{6x^{7/2}}{7} + C\\)",
+        "\\(\\frac{12x^{7/2}}{5} + C\\)",
+        "\\(\\frac{6x^{7/2}}{5} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se utiliza la regla de potencia: \\(\\int x^{5/2} dx = \\frac{x^{7/2}}{7/2} = \\frac{2x^{7/2}}{7} + C\\); multiplicando por 6 se obtiene \\(\\frac{12x^{7/2}}{7} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la fórmula para \\(n = 5/2\\).",
+        "Obtener \\(\\frac{x^{7/2}}{7/2} = \\frac{2x^{7/2}}{7}\\).",
+        "Multiplicar el resultado por 6 y agregar C."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 8e^x.",
+      "formula": "\\(\\int 8e^x dx\\)",
+      "options": [
+        "\\(8e^x + C\\)",
+        "\\(e^x + C\\)",
+        "\\(8xe^x + C\\)",
+        "\\(8e^{2x} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La integral de \\(e^x\\) es \\(e^x + C\\); multiplicando por 8 se obtiene \\(8e^x + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar la constante multiplicativa 8.",
+        "Integrar \\(e^x\\) para obtener \\(e^x + C\\).",
+        "Multiplicar el resultado por 8."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 10x³.",
+      "formula": "\\(\\int 10x^3 dx\\)",
+      "options": [
+        "\\(\\frac{5x^4}{2} + C\\)",
+        "\\(\\frac{10x^4}{3} + C\\)",
+        "\\(\\frac{10x^4}{4} + C\\)",
+        "\\(\\frac{5x^4}{3} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se integra \\(x^3\\) obteniendo \\(\\frac{x^4}{4} + C\\); multiplicado por 10 se tiene \\(10\\cdot \\frac{x^4}{4} = \\frac{5x^4}{2} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la regla de potencia para \\(x^3\\).",
+        "Calcular \\(\\int x^3 dx = \\frac{x^4}{4} + C\\).",
+        "Multiplicar por 10 y simplificar."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 3x^(2/5).",
+      "formula": "\\(\\int 3x^{2/5} dx\\)",
+      "options": [
+        "\\(\\frac{15x^{7/5}}{7} + C\\)",
+        "\\(\\frac{3x^{7/5}}{7} + C\\)",
+        "\\(\\frac{15x^{7/5}}{5} + C\\)",
+        "\\(\\frac{5x^{7/5}}{7} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se tiene \\(\\int x^{2/5} dx = \\frac{x^{7/5}}{7/5} = \\frac{5x^{7/5}}{7} + C\\); multiplicado por 3 resulta \\(\\frac{15x^{7/5}}{7} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Determinar el exponente \\(n = 2/5\\).",
+        "Aplicar la regla: \\(\\int x^n dx = \\frac{x^{n+1}}{n+1} + C\\).",
+        "Multiplicar el resultado por 3 y simplificar."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = e^x + x.",
+      "formula": "\\(\\int (e^x + x) dx\\)",
+      "options": [
+        "\\(e^x + \\frac{x^2}{2} + C\\)",
+        "\\(e^x + x^2 + C\\)",
+        "\\(e^x + \\frac{x^2}{3} + C\\)",
+        "\\(2e^x + \\frac{x^2}{2} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se integra término a término: \\(\\int e^x dx = e^x + C\\) y \\(\\int x dx = \\frac{x^2}{2} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Separar la integral en dos partes: una para \\(e^x\\) y otra para \\(x\\).",
+        "Integrar cada término individualmente.",
+        "Sumar los resultados y agregar la constante de integración."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 5x² - 2e^x.",
+      "formula": "\\(\\int (5x^2 - 2e^x) dx\\)",
+      "options": [
+        "\\(\\frac{5x^3}{3} - 2e^x + C\\)",
+        "\\(\\frac{5x^3}{3} + 2e^x + C\\)",
+        "\\(\\frac{5x^3}{2} - 2e^x + C\\)",
+        "\\(5x^3 - 2e^x + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se integra cada término: \\(\\int 5x^2 dx = \\frac{5x^3}{3} + C\\) y \\(\\int 2e^x dx = 2e^x + C\\). El resultado es \\(\\frac{5x^3}{3} - 2e^x + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Dividir la integral en dos partes.",
+        "Integrar \\(5x^2\\) usando la regla de potencia.",
+        "Integrar \\(2e^x\\) y combinar ambos resultados."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 7x⁴ + 3.",
+      "formula": "\\(\\int (7x^4 + 3) dx\\)",
+      "options": [
+        "\\(\\frac{7x^5}{5} + 3x + C\\)",
+        "\\(\\frac{7x^5}{5} + C\\)",
+        "\\(7x^5 + 3x + C\\)",
+        "\\(\\frac{7x^5}{5} + 3 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se integra cada término: \\(\\int 7x^4 dx = \\frac{7x^5}{5} + C\\) y \\(\\int 3 dx = 3x + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Separar la integral en dos sumandos.",
+        "Aplicar la regla de potencia a \\(7x^4\\).",
+        "Integrar la constante 3 y sumar ambos resultados."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 2x^(-1/2).",
+      "formula": "\\(\\int 2x^{-1/2} dx\\)",
+      "options": [
+        "\\(4\\sqrt{x} + C\\)",
+        "\\(2\\sqrt{x} + C\\)",
+        "\\(\\sqrt{x} + C\\)",
+        "\\(4x + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se tiene \\(\\int x^{-1/2} dx = 2x^{1/2} + C\\); multiplicando por 2 se obtiene \\(4x^{1/2} + C\\), que se expresa como \\(4\\sqrt{x} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la regla de potencia para \\(n = -1/2\\).",
+        "Obtener \\(\\int x^{-1/2} dx = 2x^{1/2} + C\\).",
+        "Multiplicar por 2 y expresar \\(x^{1/2}\\) como \\(\\sqrt{x}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 9e^x + 4x².",
+      "formula": "\\(\\int (9e^x + 4x^2) dx\\)",
+      "options": [
+        "\\(9e^x + \\frac{4x^3}{3} + C\\)",
+        "\\(9e^x + 4x^3 + C\\)",
+        "\\(e^x + \\frac{4x^3}{3} + C\\)",
+        "\\(9e^x + \\frac{4x^3}{2} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se integra \\(9e^x\\) y \\(4x^2\\) por separado: \\(9e^x + 4\\cdot \\frac{x^3}{3} = 9e^x + \\frac{4x^3}{3} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Integrar \\(9e^x\\) obteniendo \\(9e^x + C\\).",
+        "Aplicar la regla de potencia a \\(4x^2\\): \\(\\frac{4x^3}{3} + C\\).",
+        "Sumar ambos resultados y agregar C."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = x^(7/3).",
+      "formula": "\\(\\int x^{7/3} dx\\)",
+      "options": [
+        "\\(\\frac{3x^{10/3}}{10} + C\\)",
+        "\\(\\frac{x^{10/3}}{10} + C\\)",
+        "\\(\\frac{3x^{10/3}}{7} + C\\)",
+        "\\(\\frac{x^{10/3}}{3} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se aplica la regla de potencia: \\(\\int x^{7/3} dx = \\frac{x^{10/3}}{10/3} + C = \\frac{3x^{10/3}}{10} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar \\(n = 7/3\\).",
+        "Calcular \\(n+1 = 10/3\\) y aplicar la fórmula.",
+        "Simplificar para obtener \\(\\frac{3x^{10/3}}{10} + C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 4x³ - x².",
+      "formula": "\\(\\int (4x^3 - x^2) dx\\)",
+      "options": [
+        "\\(x^4 - \\frac{x^3}{3} + C\\)",
+        "\\(4x^4 - \\frac{x^3}{3} + C\\)",
+        "\\(x^4 - \\frac{x^2}{3} + C\\)",
+        "\\(4x^4 - x^3 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se integra \\(4x^3\\) como \\(4\\frac{x^4}{4} = x^4\\) y \\(x^2\\) como \\(\\frac{x^3}{3}\\). El resultado es \\(x^4 - \\frac{x^3}{3} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la regla de potencia a \\(4x^3\\): \\(4\\frac{x^4}{4} = x^4\\).",
+        "Aplicar la regla de potencia a \\(x^2\\): \\(\\frac{x^3}{3}\\).",
+        "Restar ambos resultados y agregar C."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 6x^(-4).",
+      "formula": "\\(\\int 6x^{-4} dx\\)",
+      "options": [
+        "\\(-2x^{-3} + C\\)",
+        "\\(2x^{-3} + C\\)",
+        "\\(-2x^{-4} + C\\)",
+        "\\(2x^{-4} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Para \\(n=-4\\), \\(\\int x^{-4} dx = \\frac{x^{-3}}{-3} + C\\); multiplicado por 6 se obtiene \\(-2x^{-3} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar \\(n = -4\\).",
+        "Aplicar la fórmula \\(\\frac{x^{n+1}}{n+1}\\) para obtener \\(\\frac{x^{-3}}{-3}\\).",
+        "Multiplicar el resultado por 6 y agregar C."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 8e^(2x) - 3x.",
+      "formula": "\\(\\int (8e^{2x} - 3x) dx\\)",
+      "options": [
+        "\\(4e^{2x} - \\frac{3x^2}{2} + C\\)",
+        "\\(4e^{2x} - \\frac{3x^2}{3} + C\\)",
+        "\\(8e^{2x} - \\frac{3x^2}{2} + C\\)",
+        "\\(4e^{2x} - 3x^2 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Integrando \\(8e^{2x}\\) se obtiene \\(8\\cdot \\frac{e^{2x}}{2} = 4e^{2x}\\) y \\(\\int 3x dx = \\frac{3x^2}{2}\\). El resultado es \\(4e^{2x} - \\frac{3x^2}{2} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar \\(\\int e^{2x} dx = \\frac{e^{2x}}{2} + C\\) y multiplicar por 8.",
+        "Integrar \\(3x\\) para obtener \\(\\frac{3x^2}{2} + C\\).",
+        "Restar ambos resultados y añadir C."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = x^(1/2) + x^(-1/2).",
+      "formula": "\\(\\int (x^{1/2} + x^{-1/2}) dx\\)",
+      "options": [
+        "\\(\\frac{2x^{3/2}}{3} + 2x^{1/2} + C\\)",
+        "\\(\\frac{2x^{3/2}}{3} + x^{1/2} + C\\)",
+        "\\(\\frac{3x^{3/2}}{2} + 2x^{1/2} + C\\)",
+        "\\(\\frac{2x^{3/2}}{3} + 2x^{1/2}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se integra \\(x^{1/2}\\) obteniendo \\(\\frac{2x^{3/2}}{3}\\) y \\(x^{-1/2}\\) obteniendo \\(2x^{1/2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la regla de potencia a \\(x^{1/2}\\) y \\(x^{-1/2}\\) respectivamente.",
+        "Obtener \\(\\int x^{1/2} dx = \\frac{2x^{3/2}}{3} + C\\) y \\(\\int x^{-1/2} dx = 2x^{1/2} + C\\).",
+        "Sumar los dos resultados y agregar C."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 7x² - 5.",
+      "formula": "\\(\\int (7x^2 - 5) dx\\)",
+      "options": [
+        "\\(\\frac{7x^3}{3} - 5x + C\\)",
+        "\\(\\frac{7x^3}{3} - 5 + C\\)",
+        "\\(7x^3 - 5x + C\\)",
+        "\\(\\frac{7x^3}{3} - 5 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Integrando \\(7x^2\\) se obtiene \\(\\frac{7x^3}{3}\\) y \\(\\int -5 dx = -5x + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la regla de potencia a \\(7x^2\\).",
+        "Integrar la constante -5.",
+        "Sumar ambos resultados y agregar C."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 9x^(1/4).",
+      "formula": "\\(\\int 9x^{1/4} dx\\)",
+      "options": [
+        "\\(\\frac{36x^{5/4}}{5} + C\\)",
+        "\\(\\frac{9x^{5/4}}{5} + C\\)",
+        "\\(\\frac{36x^{5/4}}{4} + C\\)",
+        "\\(\\frac{9x^{5/4}}{4} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se integra \\(x^{1/4}\\) obteniendo \\(\\frac{x^{5/4}}{5/4} = \\frac{4x^{5/4}}{5} + C\\); multiplicado por 9 resulta \\(\\frac{36x^{5/4}}{5} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la fórmula de integración para \\(n = 1/4\\).",
+        "Calcular \\(\\frac{x^{5/4}}{5/4} = \\frac{4x^{5/4}}{5}\\).",
+        "Multiplicar el resultado por 9 y agregar C."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 10e^x + 2x².",
+      "formula": "\\(\\int (10e^x + 2x^2) dx\\)",
+      "options": [
+        "\\(10e^x + \\frac{2x^3}{3} + C\\)",
+        "\\(10e^x + \\frac{2x^3}{2} + C\\)",
+        "\\(10e^x + 2x^3 + C\\)",
+        "\\(e^x + \\frac{2x^3}{3} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se integra \\(10e^x\\) obteniendo \\(10e^x + C\\) y \\(2x^2\\) obteniendo \\(\\frac{2x^3}{3} + C\\). La suma es \\(10e^x + \\frac{2x^3}{3} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Separar la integral en dos sumandos.",
+        "Integrar \\(10e^x\\) y \\(2x^2\\) por separado.",
+        "Sumar ambos resultados y añadir C."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 4x^3 - 6e^x.",
+      "formula": "\\(\\int (4x^3 - 6e^x) dx\\)",
+      "options": [
+        "\\(\\frac{4x^3}{3} - 6e^x + C\\)",
+        "\\(4x^3 - 6e^x + C\\)",
+        "\\(\\frac{4x^3}{3} - 6xe^x + C\\)",
+        "\\(4x^3 - 6xe^x + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se integra \\(4x^3\\) como \\(\\frac{4x^4}{4} = \\frac{4x^3}{3}\\) y \\(6e^x\\) como \\(6e^x + C\\). El resultado es \\(\\frac{4x^3}{3} - 6e^x + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la regla de potencia a \\(4x^3\\).",
+        "Integrar \\(6e^x\\) obteniendo \\(6e^x + C\\).",
+        "Restar ambos resultados y agregar C."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 3x^(-2) + 4.",
+      "formula": "\\(\\int (3x^{-2} + 4) dx\\)",
+      "options": [
+        "\\(-3x^{-1} + 4x + C\\)",
+        "\\(3x^{-1} + 4x + C\\)",
+        "\\(-3x^{-1} + 4 + C\\)",
+        "\\(-3x^{-1} - 4x + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se integra \\(3x^{-2}\\) como \\(3\\cdot \\frac{x^{-1}}{-1} = -3x^{-1}\\) y \\(4\\) como \\(4x + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la regla de potencia a \\(3x^{-2}\\).",
+        "Obtener \\(-3x^{-1}\\) y luego integrar la constante 4.",
+        "Sumar ambos resultados y agregar C."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 8x^(3/5).",
+      "formula": "\\(\\int 8x^{3/5} dx\\)",
+      "options": [
+        "\\(5x^{8/5} + C\\)",
+        "\\(8x^{8/5} + C\\)",
+        "\\(\\frac{5x^{8/5}}{2} + C\\)",
+        "\\(\\frac{8x^{8/5}}{5} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se tiene \\(\\int x^{3/5} dx = \\frac{x^{8/5}}{8/5} = \\frac{5x^{8/5}}{8}\\); multiplicando por 8 se obtiene \\(5x^{8/5} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la regla de potencia para \\(n = 3/5\\).",
+        "Calcular \\(\\frac{x^{8/5}}{8/5} = \\frac{5x^{8/5}}{8}\\).",
+        "Multiplicar el resultado por 8 y añadir C."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = e^x - x.",
+      "formula": "\\(\\int (e^x - x) dx\\)",
+      "options": [
+        "\\(e^x - \\frac{x^2}{2} + C\\)",
+        "\\(e^x - x^2 + C\\)",
+        "\\(xe^x - \\frac{x^2}{2} + C\\)",
+        "\\(e^x - \\frac{x^2}{3} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Integrando \\(e^x\\) se obtiene \\(e^x\\) y \\(x\\) se integra como \\(\\frac{x^2}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Separar la integral en \\(\\int e^x dx\\) y \\(\\int x dx\\).",
+        "Integrar cada término.",
+        "Combinar los resultados y agregar C."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 2x^4 + 3x^3.",
+      "formula": "\\(\\int (2x^4 + 3x^3) dx\\)",
+      "options": [
+        "\\(\\frac{2x^5}{5} + \\frac{3x^4}{4} + C\\)",
+        "\\(\\frac{2x^5}{5} + 3x^4 + C\\)",
+        "\\(2x^5 + \\frac{3x^4}{4} + C\\)",
+        "\\(\\frac{2x^5}{5} + \\frac{3x^4}{5} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Integrando \\(2x^4\\) se obtiene \\(2\\cdot \\frac{x^5}{5}\\) y \\(3x^3\\) se integra como \\(3\\cdot \\frac{x^4}{4}\\); la suma es \\(\\frac{2x^5}{5} + \\frac{3x^4}{4} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la regla de potencia a cada término.",
+        "Calcular \\(\\int 2x^4 dx = \\frac{2x^5}{5} + C\\) y \\(\\int 3x^3 dx = \\frac{3x^4}{4} + C\\).",
+        "Sumar ambos resultados y agregar la constante de integración."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = x².",
+      "formula": "\\(\\int x^2 dx\\)",
+      "options": [
+        "\\(\\frac{x^3}{3} + C\\)",
+        "\\(x^3 + C\\)",
+        "\\(\\frac{x^2}{2} + C\\)",
+        "\\(3x^2 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla de potencia, \\(\\int x^2 dx = \\frac{x^{2+1}}{2+1} + C = \\frac{x^3}{3} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar la función: f(x) = x².",
+        "Aplicar la regla de integración: \\(\\int x^n dx = \\frac{x^{n+1}}{n+1} + C\\).",
+        "Sustituir n = 2 y simplificar."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = eˣ.",
+      "formula": "\\(\\int e^x dx\\)",
+      "options": [
+        "\\(xe^x + C\\)",
+        "\\(e^{2x} + C\\)",
+        "\\(e^x - C\\)",
+        "\\(e^x + C\\)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "La integral de \\(e^x\\) es \\(e^x + C\\), ya que la derivada de \\(e^x\\) es \\(e^x\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Reconocer la función a integrar: f(x) = eˣ.",
+        "Recordar que \\(\\int e^x dx = e^x + C\\).",
+        "Agregar la constante de integración C."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = x³.",
+      "formula": "\\(\\int x^3 dx\\)",
+      "options": [
+        "\\(\\frac{x^4}{4} + C\\)",
+        "\\(x^4 + C\\)",
+        "\\(\\frac{3x^4}{4} + C\\)",
+        "\\(4x^3 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Con la regla de potencia, \\(\\int x^3 dx = \\frac{x^{3+1}}{3+1} + C = \\frac{x^4}{4} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar la función: f(x) = x³.",
+        "Aplicar la fórmula \\(\\int x^n dx = \\frac{x^{n+1}}{n+1} + C\\) para n = 3.",
+        "Simplificar el resultado."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = x⁴.",
+      "formula": "\\(\\int x^4 dx\\)",
+      "options": [
+        "\\(x^5 + C\\)",
+        "\\(\\frac{4x^5}{5} + C\\)",
+        "\\(\\frac{x^5}{5} + C\\)",
+        "\\(\\frac{x^4}{4} + C\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Aplicando la regla de potencia: \\(\\int x^4 dx = \\frac{x^{5}}{5} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Observar que f(x) = x⁴.",
+        "Utilizar la fórmula \\(\\int x^n dx = \\frac{x^{n+1}}{n+1} + C\\) con n = 4.",
+        "Obtener el resultado \\(\\frac{x^5}{5} + C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = x.",
+      "formula": "\\(\\int x dx\\)",
+      "options": [
+        "\\(\\frac{x^2}{2} + C\\)",
+        "\\(x^2 + C\\)",
+        "\\(\\frac{x^2}{3} + C\\)",
+        "\\(2x + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Para f(x) = x, se tiene \\(\\int x dx = \\frac{x^2}{2} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Reconocer la función lineal f(x) = x.",
+        "Aplicar la regla de potencia con n = 1: \\(\\frac{x^{1+1}}{1+1} + C\\).",
+        "Simplificar el cociente."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = x⁵.",
+      "formula": "\\(\\int x^5 dx\\)",
+      "options": [
+        "\\(\\frac{x^6}{5} + C\\)",
+        "\\(x^6 + C\\)",
+        "\\(\\frac{x^6}{6} + C\\)",
+        "\\(5x^5 + C\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Con la regla de potencia: \\(\\int x^5 dx = \\frac{x^{6}}{6} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar f(x) = x⁵.",
+        "Aplicar la fórmula \\(\\int x^n dx = \\frac{x^{n+1}}{n+1} + C\\) con n = 5.",
+        "Obtener \\(\\frac{x^6}{6} + C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 2x².",
+      "formula": "\\(\\int 2x^2 dx\\)",
+      "options": [
+        "\\(\\frac{2x^3}{3} + C\\)",
+        "\\(\\frac{x^3}{3} + C\\)",
+        "\\(2x^3 + C\\)",
+        "\\(\\frac{2x^2}{3} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se extrae la constante y se integra: \\(2\\int x^2 dx = 2\\frac{x^3}{3} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Extraer el 2 y aplicar la regla de potencia a x².",
+        "Obtener \\(\\frac{x^3}{3}\\) y multiplicar por 2.",
+        "Agregar la constante de integración."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 3x³.",
+      "formula": "\\(\\int 3x^3 dx\\)",
+      "options": [
+        "\\(3\\frac{x^4}{4} + C\\)",
+        "\\(\\frac{3x^4}{4} + C\\)",
+        "\\(\\frac{x^4}{3} + C\\)",
+        "\\(3x^4 + C\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Integrando: \\(3\\int x^3 dx = 3\\frac{x^4}{4} + C = \\frac{3x^4}{4} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Extraer la constante 3.",
+        "Integrar x³ utilizando \\(\\frac{x^4}{4}\\).",
+        "Multiplicar el resultado por 3 y agregar C."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = x⁻².",
+      "formula": "\\(\\int x^{-2} dx\\)",
+      "options": [
+        "\\(-\\frac{1}{x} + C\\)",
+        "\\(\\frac{1}{x} + C\\)",
+        "\\(-x^{-1} + C\\)",
+        "\\(x^{-1} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Para n = -2, \\(\\int x^{-2} dx = \\frac{x^{-1}}{-1} + C = -\\frac{1}{x} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Reconocer el exponente negativo: n = -2.",
+        "Aplicar la fórmula: \\(\\frac{x^{n+1}}{n+1}\\) con n = -2.",
+        "Simplificar a \\(-\\frac{1}{x} + C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = √x.",
+      "formula": "\\(\\int x^{1/2} dx\\)",
+      "options": [
+        "\\(\\frac{x^{3/2}}{3/2} + C\\)",
+        "\\(\\frac{x^{3/2}}{2} + C\\)",
+        "\\(\\frac{2x^{3/2}}{3} + C\\)",
+        "\\(\\frac{x^{3/2}}{3} + C\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Se tiene \\(\\int x^{1/2} dx = \\frac{x^{3/2}}{3/2} + C = \\frac{2x^{3/2}}{3} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Expresar √x como \\(x^{1/2}\\).",
+        "Aplicar la regla de potencia con n = 1/2.",
+        "Simplificar dividiendo por 3/2."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = x^(3/2).",
+      "formula": "\\(\\int x^{3/2} dx\\)",
+      "options": [
+        "\\(\\frac{2x^{5/2}}{5} + C\\)",
+        "\\(\\frac{x^{5/2}}{5/2} + C\\)",
+        "\\(\\frac{5x^{5/2}}{2} + C\\)",
+        "\\(\\frac{2x^{5/2}}{3} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Para n = 3/2, \\(\\int x^{3/2} dx = \\frac{x^{5/2}}{5/2} + C = \\frac{2x^{5/2}}{5} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar n = 3/2 en \\(x^{3/2}\\).",
+        "Sumar 1 al exponente: 3/2 + 1 = 5/2.",
+        "Dividir por 5/2 y simplificar."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 4eˣ.",
+      "formula": "\\(\\int 4e^x dx\\)",
+      "options": [
+        "\\(4xe^x + C\\)",
+        "\\(4e^{x}+ C\\)",
+        "\\(4e^x + C\\)",
+        "\\(e^x + C\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La constante 4 se saca y se integra \\(\\int e^x dx = e^x + C\\), resultando en \\(4e^x + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Extraer la constante 4.",
+        "Integrar \\(e^x\\) que se mantiene igual.",
+        "Multiplicar el resultado por 4 y agregar C."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = -eˣ.",
+      "formula": "\\(\\int -e^x dx\\)",
+      "options": [
+        "\\(-xe^x + C\\)",
+        "\\(-e^x + C\\)",
+        "\\(e^x + C\\)",
+        "\\(-e^{x} - C\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Integrar \\(-e^x\\) produce \\(-e^x + C\\) ya que la derivada de \\(-e^x\\) es \\(-e^x\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Sacar el signo negativo de la integral.",
+        "Integrar \\(e^x\\) que es \\(e^x\\).",
+        "Reintroducir el signo negativo y sumar C."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 7x².",
+      "formula": "\\(\\int 7x^2 dx\\)",
+      "options": [
+        "\\(7\\frac{x^3}{3} + C\\)",
+        "\\(\\frac{7x^3}{2} + C\\)",
+        "\\(\\frac{7x^3}{4} + C\\)",
+        "\\(7x^3 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se tiene \\(7\\int x^2 dx = 7\\frac{x^3}{3} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Extraer la constante 7.",
+        "Integrar \\(x^2\\) para obtener \\(\\frac{x^3}{3}\\).",
+        "Multiplicar por 7 y añadir C."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 9x³.",
+      "formula": "\\(\\int 9x^3 dx\\)",
+      "options": [
+        "\\(9\\frac{x^4}{4} + C\\)",
+        "\\(\\frac{9x^4}{4} + C\\)",
+        "\\(\\frac{x^4}{9} + C\\)",
+        "\\(9x^4 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla de potencia: \\(9\\int x^3 dx = 9\\frac{x^4}{4} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Extraer la constante 9.",
+        "Integrar \\(x^3\\) utilizando la fórmula correspondiente.",
+        "Multiplicar el resultado por 9 y sumar C."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 1.",
+      "formula": "\\(\\int 1 dx\\)",
+      "options": [
+        "\\(1 + C\\)",
+        "\\(\\ln|x| + C\\)",
+        "\\(x + C\\)",
+        "\\(0 + C\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La integral de 1 es \\(x + C\\), ya que la derivada de x es 1.",
+      "difficulty": "hard",
+      "procedure": [
+        "Reconocer que f(x) = 1 se integra como la función identidad.",
+        "Integrar obteniendo \\(x + C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = x⁻³.",
+      "formula": "\\(\\int x^{-3} dx\\)",
+      "options": [
+        "\\(\\frac{x^{-2}}{-2} + C\\)",
+        "\\(-\\frac{1}{2x^2} + C\\)",
+        "\\(\\frac{1}{2x^2} + C\\)",
+        "\\(\\ln|x| + C\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Con n = -3, \\(\\int x^{-3} dx = \\frac{x^{-2}}{-2} + C = -\\frac{1}{2x^2} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar n = -3 en la función \\(x^{-3}\\).",
+        "Aplicar la fórmula de integración para potencias.",
+        "Simplificar el resultado para obtener \\(-\\frac{1}{2x^2} + C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = x^(1/3).",
+      "formula": "\\(\\int x^{1/3} dx\\)",
+      "options": [
+        "\\(\\frac{3x^{4/3}}{4} + C\\)",
+        "\\(\\frac{x^{4/3}}{4/3} + C\\)",
+        "\\(\\frac{4x^{4/3}}{3} + C\\)",
+        "\\(\\frac{3x^{4/3}}{5} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Para n = 1/3, \\(\\int x^{1/3} dx = \\frac{x^{4/3}}{4/3} + C = \\frac{3x^{4/3}}{4} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Determinar el exponente: n = 1/3.",
+        "Sumar 1 al exponente para obtener 4/3.",
+        "Dividir por 4/3 y simplificar."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 2x⁵.",
+      "formula": "\\(\\int 2x^5 dx\\)",
+      "options": [
+        "\\(\\frac{x^6}{3} + C\\)",
+        "\\(\\frac{2x^6}{6} + C\\)",
+        "\\(\\frac{x^6}{6} + C\\)",
+        "\\(\\frac{2x^6}{3} + C\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Extraemos la constante 2 y aplicamos la regla: \\(2\\frac{x^6}{6} = \\frac{x^6}{3} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Sacar la constante 2 de la integral.",
+        "Integrar x⁵: \\(\\int x^5 dx = \\frac{x^6}{6} + C\\).",
+        "Multiplicar el resultado por 2 y simplificar."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 6eˣ.",
+      "formula": "\\(\\int 6e^x dx\\)",
+      "options": [
+        "\\(6xe^x + C\\)",
+        "\\(6e^x - C\\)",
+        "\\(6e^x + C\\)",
+        "\\(e^x + C\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La constante 6 se extrae y la integral de \\(e^x\\) es \\(e^x + C\\), dando \\(6e^x + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Extraer la constante 6.",
+        "Integrar \\(e^x\\) que permanece inalterado.",
+        "Multiplicar el resultado por 6 y sumar C."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 5x⁴.",
+      "formula": "\\(\\int 5x^4 dx\\)",
+      "options": [
+        "\\(x^5 + C\\)",
+        "\\(\\frac{5x^5}{5} + C\\)",
+        "\\(\\frac{5x^5}{5} + C\\)",
+        "\\(\\frac{5x^5}{5} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se tiene \\(5\\int x^4 dx = 5\\frac{x^5}{5} + C = x^5 + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Extraer la constante 5.",
+        "Aplicar la regla de potencia a x⁴.",
+        "Simplificar \\(5\\frac{x^5}{5}\\) y agregar C."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 8x².",
+      "formula": "\\(\\int 8x^2 dx\\)",
+      "options": [
+        "\\(\\frac{8x^3}{3} + C\\)",
+        "\\(8\\frac{x^3}{3} + C\\)",
+        "\\(\\frac{8x^3}{2} + C\\)",
+        "\\(\\frac{x^3}{8} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Integrando: \\(8\\int x^2 dx = 8\\frac{x^3}{3} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Extraer la constante 8.",
+        "Integrar x² usando la fórmula correspondiente.",
+        "Multiplicar el resultado por 8 y añadir C."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = -2eˣ.",
+      "formula": "\\(\\int -2e^x dx\\)",
+      "options": [
+        "\\(-2xe^x + C\\)",
+        "\\(-2e^x + C\\)",
+        "\\(2e^x + C\\)",
+        "\\(-e^x + C\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Se extrae -2 y se integra \\(e^x\\) para obtener \\(-2e^x + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Sacar la constante -2.",
+        "Integrar \\(e^x\\) que es \\(e^x\\).",
+        "Multiplicar y agregar la constante de integración."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = x⁷.",
+      "formula": "\\(\\int x^7 dx\\)",
+      "options": [
+        "\\(\\frac{x^8}{8} + C\\)",
+        "\\(\\frac{7x^8}{8} + C\\)",
+        "\\(x^8 + C\\)",
+        "\\(\\frac{x^7}{8} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla de potencia: \\(\\int x^7 dx = \\frac{x^8}{8} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar la función: f(x) = x⁷.",
+        "Aplicar \\(\\int x^n dx = \\frac{x^{n+1}}{n+1} + C\\) con n = 7.",
+        "Obtener \\(\\frac{x^8}{8} + C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 3x^(1/2).",
+      "formula": "\\(\\int 3x^{1/2} dx\\)",
+      "options": [
+        "\\(2x^{3/2} + C\\)",
+        "\\(3\\frac{2x^{3/2}}{3} + C\\)",
+        "\\(\\frac{3x^{3/2}}{2} + C\\)",
+        "\\(\\frac{2x^{3/2}}{3} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se tiene \\(\\int x^{1/2} dx = \\frac{2x^{3/2}}{3} + C\\); multiplicando por 3 se obtiene \\(2x^{3/2} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Extraer la constante 3.",
+        "Integrar \\(x^{1/2}\\) para obtener \\(\\frac{2x^{3/2}}{3}\\).",
+        "Multiplicar por 3 y simplificar."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = x⁻⁴.",
+      "formula": "\\(\\int x^{-4} dx\\)",
+      "options": [
+        "\\(\\frac{x^{-3}}{-3} + C\\)",
+        "\\(-\\frac{x^{-3}}{3} + C\\)",
+        "\\(\\frac{x^{-3}}{3} + C\\)",
+        "\\(-3x^{-3} + C\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Para n = -4, \\(\\int x^{-4} dx = \\frac{x^{-3}}{-3} + C = -\\frac{x^{-3}}{3} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar n = -4 en la función.",
+        "Aplicar la regla de integración para potencias.",
+        "Simplificar el resultado para obtener \\(-\\frac{x^{-3}}{3} + C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 10eˣ.",
+      "formula": "\\(\\int 10e^x dx\\)",
+      "options": [
+        "\\(10xe^x + C\\)",
+        "\\(10e^x + C\\)",
+        "\\(e^x + C\\)",
+        "\\(10e^{x} - C\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Extraemos la constante 10 y la integral de \\(e^x\\) es \\(e^x + C\\), dando \\(10e^x + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Extraer 10 de la integral.",
+        "Integrar \\(e^x\\) y multiplicar el resultado por 10.",
+        "Agregar la constante de integración."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = 2x³.",
+      "formula": "\\(\\int 2x^3 dx\\)",
+      "options": [
+        "\\(\\frac{x^4}{2} + C\\)",
+        "\\(2\\frac{x^4}{3} + C\\)",
+        "\\(\\frac{2x^4}{4} + C\\)",
+        "\\(\\frac{x^4}{2} - C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Integrando: \\(2\\int x^3 dx = 2\\frac{x^4}{4} + C = \\frac{x^4}{2} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Extraer la constante 2.",
+        "Aplicar la regla de potencia a x³.",
+        "Multiplicar y simplificar para obtener \\(\\frac{x^4}{2} + C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = -5x².",
+      "formula": "\\(\\int -5x^2 dx\\)",
+      "options": [
+        "\\(-5\\frac{x^3}{3} + C\\)",
+        "\\(5\\frac{x^3}{3} + C\\)",
+        "\\(-\\frac{5x^3}{3} + C\\)",
+        "\\(\\frac{5x^3}{3} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se tiene \\(\\int -5x^2 dx = -5\\frac{x^3}{3} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Extraer el -5.",
+        "Integrar x² para obtener \\(\\frac{x^3}{3}\\).",
+        "Multiplicar por -5 y agregar C."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida de f(x) = x^(1/5).",
+      "formula": "\\(\\int x^{1/5} dx\\)",
+      "options": [
+        "\\(\\frac{5x^{6/5}}{6} + C\\)",
+        "\\(\\frac{5x^{6/5}}{6} + C\\)",
+        "\\(\\frac{x^{6/5}}{6/5} + C\\)",
+        "\\(\\frac{6x^{6/5}}{5} + C\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Para n = 1/5, \\(\\int x^{1/5} dx = \\frac{x^{6/5}}{6/5} + C = \\frac{5x^{6/5}}{6} + C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar el exponente n = 1/5.",
+        "Sumar 1 al exponente para obtener 6/5.",
+        "Dividir por 6/5 y simplificar."
+      ]
+    }
+  ]
+}

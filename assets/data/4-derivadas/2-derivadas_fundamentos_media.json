@@ -1,0 +1,1612 @@
+{
+  "derivadas_fundamentos_media": [
+    {
+      "question": "Calcula la derivada de \\( f(x)=7x^5 \\).",
+      "formula": "\\( f(x)=7x^5 \\)",
+      "options": [
+        "\\( 35x^4 \\)",
+        "\\( 7x^4 \\)",
+        "\\( 35x^5 \\)",
+        "\\( 5x^4 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla de potencias: \\( \\frac{d}{dx}(x^n)=nx^{n-1} \\), se tiene \\( f'(x)=7\\cdot5x^{4}=35x^4 \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar el exponente: 5.",
+        "Multiplicar la constante 7 por 5.",
+        "Restar 1 al exponente: 5-1=4.",
+        "Obtener \\( f'(x)=35x^4 \\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\frac{2x+3}{x-1} \\).",
+      "formula": "\\( f(x)=\\frac{2x+3}{x-1} \\)",
+      "options": [
+        "\\( -\\frac{5}{(x-1)^2} \\)",
+        "\\( \\frac{5}{(x-1)^2} \\)",
+        "\\( -\\frac{2}{(x-1)^2} \\)",
+        "\\( -\\frac{3}{(x-1)^2} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando la regla del cociente: \\( f'(x)=\\frac{(2)(x-1)-(2x+3)(1)}{(x-1)^2} \\), se simplifica a \\( -\\frac{5}{(x-1)^2} \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar \\( u=2x+3 \\) y \\( v=x-1 \\).",
+        "Calcular \\( u'=2 \\) y \\( v'=1 \\).",
+        "Aplicar la fórmula: \\( f'(x)=\\frac{u'v-u v'}{v^2} \\).",
+        "Simplificar para obtener \\( -\\frac{5}{(x-1)^2} \\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\sin(2x)+\\cos(3x) \\).",
+      "formula": "\\( f(x)=\\sin(2x)+\\cos(3x) \\)",
+      "options": [
+        "\\( 2\\cos(2x)-3\\sin(3x) \\)",
+        "\\( 2\\sin(2x)-3\\cos(3x) \\)",
+        "\\( -2\\cos(2x)+3\\sin(3x) \\)",
+        "\\( 2\\cos(2x)+3\\sin(3x) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Derivando cada término se tiene \\( (\\sin(2x))'=2\\cos(2x) \\) y \\( (\\cos(3x))'=-3\\sin(3x) \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Aplicar la regla de la cadena a \\( \\sin(2x) \\): \\( 2\\cos(2x) \\).",
+        "Aplicar la regla de la cadena a \\( \\cos(3x) \\): \\( -3\\sin(3x) \\).",
+        "Sumar los resultados: \\( 2\\cos(2x)-3\\sin(3x) \\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\ln(x^2+4) \\).",
+      "formula": "\\( f(x)=\\ln(x^2+4) \\)",
+      "options": [
+        "\\( \\frac{2x}{x^2+4} \\)",
+        "\\( \\frac{2}{x^2+4} \\)",
+        "\\( \\frac{x}{x^2+4} \\)",
+        "\\( \\frac{2x}{(x^2+4)^2} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando la derivada del logaritmo: \\( (\\ln(u))'=\\frac{u'}{u} \\) con \\( u=x^2+4 \\) y \\( u'=2x \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar \\( u=x^2+4 \\) y calcular \\( u'=2x \\).",
+        "Aplicar la fórmula: \\( f'(x)=\\frac{2x}{x^2+4} \\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=e^{\\sin(x)} \\).",
+      "formula": "\\( f(x)=e^{\\sin(x)} \\)",
+      "options": [
+        "\\( e^{\\sin(x)}\\cos(x) \\)",
+        "\\( e^{\\sin(x)}\\sin(x) \\)",
+        "\\( \\cos(x)e^x \\)",
+        "\\( e^{\\cos(x)}\\sin(x) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla de la cadena: la derivada de \\( e^u \\) es \\( e^u\\,u' \\) y con \\( u=\\sin(x) \\), \\( u'=\\cos(x) \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar \\( u=\\sin(x) \\) y calcular \\( u'=\\cos(x) \\).",
+        "Obtener \\( f'(x)=e^{\\sin(x)}\\cos(x) \\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\arccos(x) \\).",
+      "formula": "\\( f(x)=\\arccos(x) \\)",
+      "options": [
+        "\\( -\\frac{1}{\\sqrt{1-x^2}} \\)",
+        "\\( \\frac{1}{\\sqrt{1-x^2}} \\)",
+        "\\( -\\frac{1}{1-x^2} \\)",
+        "\\( \\frac{1}{1-x^2} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\( \\arccos(x) \\) es \\( -\\frac{1}{\\sqrt{1-x^2}} \\) para \\( |x|<1 \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Recordar la fórmula: \\( \\frac{d}{dx}\\arccos(x)=-\\frac{1}{\\sqrt{1-x^2}} \\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\sqrt[4]{x} \\).",
+      "formula": "\\( f(x)=\\sqrt[4]{x} \\)",
+      "options": [
+        "\\( \\frac{1}{4}x^{-3/4} \\)",
+        "\\( \\frac{1}{4}x^{3/4} \\)",
+        "\\( 4x^{-3/4} \\)",
+        "\\( \\frac{3}{4}x^{-1/4} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reescribiendo \\( f(x)=x^{1/4} \\), se aplica la regla de potencias: \\( f'(x)=\\frac{1}{4}x^{1/4-1}=\\frac{1}{4}x^{-3/4} \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expresar \\( \\sqrt[4]{x} \\) como \\( x^{1/4} \\).",
+        "Aplicar la regla de potencias: \\( \\frac{1}{4}x^{-3/4} \\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\frac{1}{1+e^{-x}} \\).",
+      "formula": "\\( f(x)=\\frac{1}{1+e^{-x}} \\)",
+      "options": [
+        "\\( \\frac{e^{-x}}{(1+e^{-x})^2} \\)",
+        "\\( -\\frac{e^{-x}}{(1+e^{-x})^2} \\)",
+        "\\( \\frac{e^{x}}{(1+e^{-x})^2} \\)",
+        "\\( \\frac{1}{(1+e^{-x})^2} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La función es la conocida función logística. Su derivada es \\( f'(x)=\\frac{e^{-x}}{(1+e^{-x})^2} \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar la función como \\( f(x)=\\frac{1}{1+e^{-x}} \\).",
+        "Aplicar la regla de la cadena y del cociente para obtener \\( \\frac{e^{-x}}{(1+e^{-x})^2} \\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=x\\cos(x) \\).",
+      "formula": "\\( f(x)=x\\cos(x) \\)",
+      "options": [
+        "\\( \\cos(x)-x\\sin(x) \\)",
+        "\\( \\cos(x)+x\\sin(x) \\)",
+        "\\( -\\sin(x)-x\\cos(x) \\)",
+        "\\( -\\cos(x)-x\\sin(x) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando la regla del producto: \\( (x)'\\cos(x)+x(\\cos(x))' = \\cos(x)-x\\sin(x) \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar \\( u=x \\) y \\( v=\\cos(x) \\).",
+        "Calcular \\( u'=1 \\) y \\( v'=-\\sin(x) \\).",
+        "Aplicar la fórmula del producto: \\( u'v+uv' \\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\tan(x)-\\cot(x) \\).",
+      "formula": "\\( f(x)=\\tan(x)-\\cot(x) \\)",
+      "options": [
+        "\\( \\sec^2(x)+\\csc^2(x) \\)",
+        "\\( \\sec^2(x)-\\csc^2(x) \\)",
+        "\\( -\\sec^2(x)+\\csc^2(x) \\)",
+        "\\( -\\sec^2(x)-\\csc^2(x) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\( \\tan(x) \\) es \\( \\sec^2(x) \\) y la de \\( \\cot(x) \\) es \\( -\\csc^2(x) \\); sumándolas se obtiene \\( \\sec^2(x)+\\csc^2(x) \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Derivar \\( \\tan(x) \\): \\( \\sec^2(x) \\).",
+        "Derivar \\( -\\cot(x) \\): \\( \\csc^2(x) \\).",
+        "Sumar: \\( \\sec^2(x)+\\csc^2(x) \\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\log_{2}(x) \\).",
+      "formula": "\\( f(x)=\\log_{2}(x) \\)",
+      "options": [
+        "\\( \\frac{1}{x\\ln(2)} \\)",
+        "\\( \\frac{1}{2x} \\)",
+        "\\( \\frac{1}{x\\ln(x)} \\)",
+        "\\( \\frac{\\ln(2)}{x} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\( \\log_{a}(x) \\) es \\( \\frac{1}{x\\ln(a)} \\), así que para \\( a=2 \\) se tiene \\( \\frac{1}{x\\ln(2)} \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Aplicar la fórmula: \\( \\frac{d}{dx}(\\log_a(x))=\\frac{1}{x\\ln(a)} \\).",
+        "Sustituir \\( a=2 \\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=x^2\\ln(x) \\).",
+      "formula": "\\( f(x)=x^2\\ln(x) \\)",
+      "options": [
+        "\\( 2x\\ln(x)+x \\)",
+        "\\( 2x\\ln(x)-x \\)",
+        "\\( x\\ln(x)+2x \\)",
+        "\\( 2\\ln(x)+1 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla del producto: \\( (x^2)'\\ln(x)+x^2(1/x)=2x\\ln(x)+x \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar \\( u=x^2 \\) y \\( v=\\ln(x) \\).",
+        "Calcular \\( u'=2x \\) y \\( v'=1/x \\).",
+        "Aplicar \\( u'v+uv' \\) y simplificar."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\frac{1}{x^2+4x+4} \\).",
+      "formula": "\\( f(x)=\\frac{1}{x^2+4x+4} \\)",
+      "options": [
+        "\\( -\\frac{2}{(x+2)^3} \\)",
+        "\\( \\frac{2}{(x+2)^3} \\)",
+        "\\( -\\frac{2x+4}{(x+2)^2} \\)",
+        "\\( -\\frac{2}{(x+2)^2} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El denominador se factoriza: \\( x^2+4x+4=(x+2)^2 \\). Usando la regla de potencias se obtiene \\( f'(x)=-\\frac{2(x+2)}{(x+2)^4}=-\\frac{2}{(x+2)^3} \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Factorizar el denominador: \\( (x+2)^2 \\).",
+        "Reescribir \\( f(x)=(x+2)^{-2} \\).",
+        "Aplicar la regla de potencias: \\( f'(x)=-2(x+2)^{-3}\\cdot1 \\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\sqrt{1-x} \\).",
+      "formula": "\\( f(x)=\\sqrt{1-x} \\)",
+      "options": [
+        "\\( -\\frac{1}{2\\sqrt{1-x}} \\)",
+        "\\( \\frac{1}{2\\sqrt{1-x}} \\)",
+        "\\( -\\frac{1}{\\sqrt{1-x}} \\)",
+        "\\( \\frac{1}{\\sqrt{1-x}} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reescribiendo \\( f(x)=(1-x)^{1/2} \\) y aplicando la regla de potencias junto con la cadena se obtiene \\( f'(x)=-\\frac{1}{2\\sqrt{1-x}} \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expresar \\( \\sqrt{1-x} \\) como \\( (1-x)^{1/2} \\).",
+        "Aplicar la derivada: \\( \\frac{1}{2}(1-x)^{-1/2}(-1) \\).",
+        "Simplificar para obtener \\( -\\frac{1}{2\\sqrt{1-x}} \\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\sin^3(x) \\).",
+      "formula": "\\( f(x)=\\sin^3(x) \\)",
+      "options": [
+        "\\( 3\\sin^2(x)\\cos(x) \\)",
+        "\\( 3\\cos^2(x)\\sin(x) \\)",
+        "\\( 3\\sin(x)\\cos(x) \\)",
+        "\\( 3\\sin^2(x) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Utilizando la regla de la cadena: \\( (\\sin(x))^3 \\) se deriva como \\( 3\\sin^2(x)(\\sin(x))' \\) y \\( (\\sin(x))'=\\cos(x) \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Reescribir \\( \\sin^3(x) \\) como \\( (\\sin(x))^3 \\).",
+        "Aplicar la regla de la cadena: multiplicar por 3 y \\( \\cos(x) \\).",
+        "Obtener \\( 3\\sin^2(x)\\cos(x) \\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\cosh(3x) \\).",
+      "formula": "\\( f(x)=\\cosh(3x) \\)",
+      "options": [
+        "\\( 3\\sinh(3x) \\)",
+        "\\( \\sinh(3x) \\)",
+        "\\( 3\\cosh(3x) \\)",
+        "\\( -3\\sinh(3x) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla de la cadena: \\( (\\cosh(u))'=\\sinh(u)\\,u' \\) con \\( u=3x \\) y \\( u'=3 \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar \\( u=3x \\) y calcular \\( u'=3 \\).",
+        "Aplicar la derivada de \\( \\cosh(u) \\): \\( \\sinh(u)\\,u' \\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\sinh(x^2) \\).",
+      "formula": "\\( f(x)=\\sinh(x^2) \\)",
+      "options": [
+        "\\( 2x\\cosh(x^2) \\)",
+        "\\( 2x\\sinh(x^2) \\)",
+        "\\( x\\cosh(x^2) \\)",
+        "\\( 2\\cosh(x^2) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla de la cadena: \\( u=x^2 \\) con \\( u'=2x \\) y \\( (\\sinh(u))'=\\cosh(u) \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar \\( u=x^2 \\) y calcular \\( u'=2x \\).",
+        "Derivar \\( \\sinh(u) \\) para obtener \\( \\cosh(u) \\).",
+        "Multiplicar: \\( f'(x)=2x\\cosh(x^2) \\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\ln\\left(\\frac{x}{2}\\right) \\).",
+      "formula": "\\( f(x)=\\ln\\left(\\frac{x}{2}\\right) \\)",
+      "options": [
+        "\\( \\frac{1}{x} \\)",
+        "\\( \\frac{1}{2x} \\)",
+        "\\( \\frac{1}{x}-\\ln(2) \\)",
+        "\\( \\ln(x) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando propiedades logarítmicas, \\( \\ln(\\frac{x}{2})=\\ln(x)-\\ln(2) \\); la derivada de \\( \\ln(x) \\) es \\( 1/x \\) y la constante se anula.",
+      "difficulty": "medium",
+      "procedure": [
+        "Expresar \\( \\ln\\left(\\frac{x}{2}\\right)=\\ln(x)-\\ln(2) \\).",
+        "Derivar \\( \\ln(x) \\) y recordar que \\( \\ln(2) \\) es constante."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\frac{e^x}{1+e^x} \\).",
+      "formula": "\\( f(x)=\\frac{e^x}{1+e^x} \\)",
+      "options": [
+        "\\( \\frac{e^x}{(1+e^x)^2} \\)",
+        "\\( \\frac{e^x}{1+e^x} \\)",
+        "\\( \\frac{e^x(1+e^x)}{(1+e^x)^2} \\)",
+        "\\( \\frac{e^x}{(1+e^x)} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de la función logística es \\( \\frac{e^x}{(1+e^x)^2} \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Aplicar la regla del cociente o reconocer la forma logística.",
+        "Simplificar para obtener \\( \\frac{e^x}{(1+e^x)^2} \\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\arctan(\\sqrt{x}) \\).",
+      "formula": "\\( f(x)=\\arctan(\\sqrt{x}) \\)",
+      "options": [
+        "\\( \\frac{1}{2\\sqrt{x}(1+x)} \\)",
+        "\\( \\frac{1}{\\sqrt{x}(1+x)} \\)",
+        "\\( \\frac{1}{2(1+x)} \\)",
+        "\\( \\frac{1}{2\\sqrt{x}} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sea \\( u=\\sqrt{x} \\) con \\( u'=\\frac{1}{2\\sqrt{x}} \\) y \\( 1+u^2=1+x \\); por la regla de la cadena, \\( f'(x)=\\frac{1}{1+u^2}u' \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar \\( u=\\sqrt{x} \\) y calcular \\( u'=\\frac{1}{2\\sqrt{x}} \\).",
+        "Sustituir en \\( f'(x)=\\frac{u'}{1+u^2} \\) y simplificar."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=(x^2+1)^3 \\).",
+      "formula": "\\( f(x)=(x^2+1)^3 \\)",
+      "options": [
+        "\\( 6x(x^2+1)^2 \\)",
+        "\\( 3(x^2+1)^2 \\)",
+        "\\( 6x(x^2+1)^3 \\)",
+        "\\( 3x(x^2+1)^2 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla de la cadena y la potencia: \\( f'(x)=3(x^2+1)^2\\cdot2x=6x(x^2+1)^2 \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar \\( u=x^2+1 \\) y \\( u'=2x \\).",
+        "Aplicar \\( (u^3)'=3u^2\\,u' \\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\sqrt{x^2+1} \\).",
+      "formula": "\\( f(x)=\\sqrt{x^2+1} \\)",
+      "options": [
+        "\\( \\frac{x}{\\sqrt{x^2+1}} \\)",
+        "\\( \\frac{1}{\\sqrt{x^2+1}} \\)",
+        "\\( \\frac{2x}{\\sqrt{x^2+1}} \\)",
+        "\\( \\frac{x}{x^2+1} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reescribiendo \\( f(x)=(x^2+1)^{1/2} \\), se obtiene \\( f'(x)=\\frac{1}{2}(x^2+1)^{-1/2}2x=\\frac{x}{\\sqrt{x^2+1}} \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expresar \\( \\sqrt{x^2+1} \\) como \\( (x^2+1)^{1/2} \\).",
+        "Aplicar la regla de la cadena: \\( \\frac{1}{2}(x^2+1)^{-1/2}\\cdot2x \\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\frac{\\ln(x)}{x} \\).",
+      "formula": "\\( f(x)=\\frac{\\ln(x)}{x} \\)",
+      "options": [
+        "\\( \\frac{1-\\ln(x)}{x^2} \\)",
+        "\\( \\frac{\\ln(x)-1}{x^2} \\)",
+        "\\( \\frac{1}{x^2}-\\ln(x) \\)",
+        "\\( \\frac{1}{x}-\\frac{\\ln(x)}{x^2} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando la regla del cociente, se obtiene \\( f'(x)=\\frac{1-\\ln(x)}{x^2} \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar \\( u=\\ln(x) \\) y \\( v=x \\).",
+        "Calcular \\( u'=1/x \\) y \\( v'=1 \\).",
+        "Aplicar \\( f'(x)=\\frac{u'v-uv'}{v^2} \\) y simplificar."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\cos(x)\\sin(x) \\).",
+      "formula": "\\( f(x)=\\cos(x)\\sin(x) \\)",
+      "options": [
+        "\\( \\cos^2(x)-\\sin^2(x) \\)",
+        "\\( \\sin^2(x)-\\cos^2(x) \\)",
+        "\\( 2\\cos(x)\\sin(x) \\)",
+        "\\( \\cos(x)\\sin(x) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla del producto se obtiene \\( f'(x)=\\cos(x)(\\cos(x))-\\sin(x)(\\sin(x))=\\cos^2(x)-\\sin^2(x) \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar \\( u=\\cos(x) \\) y \\( v=\\sin(x) \\).",
+        "Calcular \\( u'=-\\sin(x) \\) y \\( v'=\\cos(x) \\).",
+        "Aplicar \\( u'v+uv' \\) y simplificar."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=x e^{-x} \\).",
+      "formula": "\\( f(x)=x e^{-x} \\)",
+      "options": [
+        "\\( e^{-x}(1-x) \\)",
+        "\\( e^{-x}(1+x) \\)",
+        "\\( -e^{-x}(1-x) \\)",
+        "\\( xe^{-x} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla del producto: \\( (x)'e^{-x}+x(e^{-x})' = e^{-x}-xe^{-x}=e^{-x}(1-x) \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar \\( u=x \\) y \\( v=e^{-x} \\).",
+        "Calcular \\( u'=1 \\) y \\( v'=-e^{-x} \\).",
+        "Aplicar \\( u'v+uv' \\) y factorizar \\( e^{-x} \\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\sqrt{e^x+1} \\).",
+      "formula": "\\( f(x)=\\sqrt{e^x+1} \\)",
+      "options": [
+        "\\( \\frac{e^x}{2\\sqrt{e^x+1}} \\)",
+        "\\( \\frac{e^x}{\\sqrt{e^x+1}} \\)",
+        "\\( \\frac{1}{2\\sqrt{e^x+1}} \\)",
+        "\\( \\frac{e^x}{2(e^x+1)} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reescribiendo \\( f(x)=(e^x+1)^{1/2} \\), se tiene \\( f'(x)=\\frac{1}{2}(e^x+1)^{-1/2}e^x \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expresar \\( \\sqrt{e^x+1} \\) como \\( (e^x+1)^{1/2} \\).",
+        "Aplicar la regla de la cadena y de potencias."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\arctan(x^2) \\).",
+      "formula": "\\( f(x)=\\arctan(x^2) \\)",
+      "options": [
+        "\\( \\frac{2x}{1+x^4} \\)",
+        "\\( \\frac{2x}{1+x^2} \\)",
+        "\\( \\frac{1}{1+x^4} \\)",
+        "\\( \\frac{2x}{(1+x^2)^2} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sea \\( u=x^2 \\) con \\( u'=2x \\); entonces, \\( f'(x)=\\frac{u'}{1+u^2}=\\frac{2x}{1+x^4} \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar \\( u=x^2 \\) y calcular \\( u'=2x \\).",
+        "Aplicar \\( \\frac{d}{dx}\\arctan(u)=\\frac{u'}{1+u^2} \\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\frac{1}{\\sqrt{1-x^2}} \\).",
+      "formula": "\\( f(x)=\\frac{1}{\\sqrt{1-x^2}} \\)",
+      "options": [
+        "\\( \\frac{x}{(1-x^2)^{3/2}} \\)",
+        "\\( -\\frac{x}{(1-x^2)^{3/2}} \\)",
+        "\\( \\frac{-x}{\\sqrt{1-x^2}} \\)",
+        "\\( \\frac{x}{\\sqrt{1-x^2}} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reescribiendo como \\( (1-x^2)^{-1/2} \\) y aplicando la regla de potencias junto con la cadena se obtiene \\( f'(x)=\\frac{x}{(1-x^2)^{3/2}} \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expresar \\( \\frac{1}{\\sqrt{1-x^2}} \\) como \\( (1-x^2)^{-1/2} \\).",
+        "Aplicar la derivada: \\( -\\frac{1}{2}(1-x^2)^{-3/2}(-2x) \\).",
+        "Simplificar para obtener \\( \\frac{x}{(1-x^2)^{3/2}} \\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=x^{x^2} \\).",
+      "formula": "\\( f(x)=x^{x^2} \\)",
+      "options": [
+        "\\( x^{x^2}\\,x(2\\ln(x)+1) \\)",
+        "\\( x^{x^2}(2\\ln(x)+1) \\)",
+        "\\( x^{x^2}\\,2\\ln(x) \\)",
+        "\\( x^{x^2}(2x\\ln(x)+1) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando diferenciación logarítmica: \\( \\ln(f(x))=x^2\\ln(x) \\); derivando se obtiene \\( f'(x)=x^{x^2}\\,x(2\\ln(x)+1) \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Tomar el logaritmo: \\( \\ln(f(x))=x^2\\ln(x) \\).",
+        "Derivar ambos lados y despejar \\( f'(x) \\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\sqrt{\\ln(2x+3)} \\).",
+      "formula": "\\( f(x)=\\sqrt{\\ln(2x+3)} \\)",
+      "options": [
+        "\\( \\frac{1}{(2x+3)\\sqrt{\\ln(2x+3)}} \\)",
+        "\\( \\frac{1}{2(2x+3)\\sqrt{\\ln(2x+3)}} \\)",
+        "\\( \\frac{2}{(2x+3)\\sqrt{\\ln(2x+3)}} \\)",
+        "\\( \\frac{1}{\\sqrt{\\ln(2x+3)}} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reescribiendo \\( f(x)=(\\ln(2x+3))^{1/2} \\) y aplicando la regla de la cadena se obtiene \\( f'(x)=\\frac{1}{(2x+3)\\sqrt{\\ln(2x+3)}} \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expresar \\( \\sqrt{\\ln(2x+3)} \\) como \\( (\\ln(2x+3))^{1/2} \\).",
+        "Aplicar la derivada: \\( \\frac{1}{2}(\\ln(2x+3))^{-1/2}\\cdot\\frac{2}{2x+3} \\).",
+        "Simplificar para obtener \\( \\frac{1}{(2x+3)\\sqrt{\\ln(2x+3)}} \\)."
+      ]
+    },
+    {
+      "question": "¿Qué se obtiene al derivar una función constante \\( f(x)=c \\)?",
+      "formula": "\\( f(x)=c \\)",
+      "options": [
+        "0",
+        "La función misma",
+        "La pendiente 1",
+        "La derivada es indefinida"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de una constante es 0, ya que no hay variación en la función.",
+      "difficulty": "medium",
+      "procedure": [
+        "Recordar que \\( \\frac{d}{dx}(c)=0 \\) para cualquier constante \\( c \\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\cos(x)+\\sin(x) \\).",
+      "formula": "\\( f(x)=\\cos(x)+\\sin(x) \\)",
+      "options": [
+        "\\( \\cos(x)-\\sin(x) \\)",
+        "\\( \\cos(x)+\\sin(x) \\)",
+        "\\( \\sin(x)-\\cos(x) \\)",
+        "\\( -\\cos(x)+\\sin(x) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Derivando se tiene \\( (\\cos(x))'=-\\sin(x) \\) y \\( (\\sin(x))'=\\cos(x) \\); sumando: \\( -\\sin(x)+\\cos(x)=\\cos(x)-\\sin(x) \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Derivar \\( \\cos(x) \\) y \\( \\sin(x) \\) respectivamente.",
+        "Sumar los resultados para obtener \\( \\cos(x)-\\sin(x) \\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=x^4 \\).",
+      "formula": "\\( f(x)=x^4 \\)",
+      "options": [
+        "\\( 4x^3 \\)",
+        "\\( x^3 \\)",
+        "\\( 4x^2 \\)",
+        "\\( 3x^3 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla de potencias: \\( \\frac{d}{dx}(x^4)=4x^{3} \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar la función: \\( x^4 \\).",
+        "Aplicar la regla de potencias: \\( nx^{n-1} \\) con \\( n=4 \\).",
+        "Obtener \\( f'(x)=4x^3 \\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=3x^3-2x+5 \\).",
+      "formula": "\\( f(x)=3x^3-2x+5 \\)",
+      "options": [
+        "\\( 9x^2-2x \\)",
+        "\\( 9x^2-2 \\)",
+        "\\( 3x^2-2 \\)",
+        "\\( 9x^2+2 \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Derivando término a término: \\( (3x^3)'=9x^2 \\), \\( (-2x)'=-2 \\) y la constante se anula, dando \\( f'(x)=9x^2-2 \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Derivar \\( 3x^3 \\) usando la regla de potencias: \\( 9x^2 \\).",
+        "Derivar \\( -2x \\): \\( -2 \\).",
+        "Sumar los resultados y descartar la constante."
+      ]
+    },
+    {
+      "question": "¿Cuál es la interpretación de \\( f'(a) \\) en un punto \\( a \\)?",
+      "formula": "\\( f'(a) \\)",
+      "options": [
+        "La pendiente de la recta tangente en \\( a \\)",
+        "El valor de la función en \\( a \\)",
+        "El área bajo la curva en \\( a \\)",
+        "La integral definida en \\( a \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada en un punto indica la pendiente de la recta tangente a la curva en ese punto.",
+      "difficulty": "medium",
+      "procedure": [
+        "Recordar la definición de derivada como límite del cociente incremental.",
+        "Interpretar el límite como la pendiente de la tangente en \\( a \\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\sqrt{2x+1} \\).",
+      "formula": "\\( f(x)=\\sqrt{2x+1} \\)",
+      "options": [
+        "\\( \\frac{1}{\\sqrt{2x+1}} \\)",
+        "\\( \\frac{2}{\\sqrt{2x+1}} \\)",
+        "\\( \\frac{1}{2\\sqrt{2x+1}} \\)",
+        "\\( \\sqrt{2x+1} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reescribiendo \\( f(x)=(2x+1)^{1/2} \\) y aplicando la regla de potencias junto con la cadena se obtiene \\( f'(x)=\\frac{1}{\\sqrt{2x+1}} \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expresar \\( \\sqrt{2x+1} \\) como \\( (2x+1)^{1/2} \\).",
+        "Aplicar la derivada: \\( \\frac{1}{2}(2x+1)^{-1/2}\\cdot2 \\).",
+        "Simplificar para obtener \\( \\frac{1}{\\sqrt{2x+1}} \\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\tan(3x) \\).",
+      "formula": "\\( f(x)=\\tan(3x) \\)",
+      "options": [
+        "\\( 3\\sec^2(3x) \\)",
+        "\\( \\sec^2(3x) \\)",
+        "\\( 3\\tan(3x) \\)",
+        "\\( \\tan(3x) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando la regla de la cadena: \\( f'(x)=\\sec^2(3x)\\cdot3=3\\sec^2(3x) \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar la función interna \\( u=3x \\) y su derivada \\( u'=3 \\).",
+        "Recordar que \\( \\frac{d}{dx}\\tan(u)=\\sec^2(u)\\,u' \\).",
+        "Obtener \\( f'(x)=3\\sec^2(3x) \\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\ln(\\sqrt{x}) \\).",
+      "formula": "\\( f(x)=\\ln(\\sqrt{x}) \\)",
+      "options": [
+        "\\( \\frac{1}{2x} \\)",
+        "\\( \\frac{1}{x} \\)",
+        "\\( \\frac{2}{x} \\)",
+        "\\( \\frac{1}{2\\sqrt{x}} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Como \\( \\ln(\\sqrt{x})=\\frac{1}{2}\\ln(x) \\), su derivada es \\( \\frac{1}{2}\\cdot\\frac{1}{x}=\\frac{1}{2x} \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expresar \\( \\sqrt{x} \\) como \\( x^{1/2} \\) y aplicar la propiedad logarítmica.",
+        "Derivar \\( \\frac{1}{2}\\ln(x) \\) usando \\( (\\ln x)'=\\frac{1}{x} \\).",
+        "Obtener \\( f'(x)=\\frac{1}{2x} \\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\sqrt[3]{x^2} \\).",
+      "formula": "\\( f(x)=\\sqrt[3]{x^2} \\)",
+      "options": [
+        "\\( \\frac{2}{3}x^{-1/3} \\)",
+        "\\( \\frac{2}{3}x^{1/3} \\)",
+        "\\( \\frac{1}{3}x^{-1/3} \\)",
+        "\\( \\frac{2}{3}x^{2/3} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reescribiendo \\( f(x)=x^{2/3} \\) y aplicando la regla de potencias se obtiene \\( f'(x)=\\frac{2}{3}x^{-1/3} \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expresar \\( \\sqrt[3]{x^2} \\) como \\( x^{2/3} \\).",
+        "Aplicar la regla de potencias: \\( \\frac{2}{3}x^{2/3-1}=\\frac{2}{3}x^{-1/3} \\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=e^{x^2} \\).",
+      "formula": "\\( f(x)=e^{x^2} \\)",
+      "options": [
+        "\\( 2xe^{x^2} \\)",
+        "\\( e^{x^2} \\)",
+        "\\( 2e^{x^2} \\)",
+        "\\( xe^{x^2} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla de la cadena: \\( f'(x)=e^{x^2}\\cdot2x=2xe^{x^2} \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar la función interna \\( u=x^2 \\) con \\( u'=2x \\).",
+        "Recordar que \\( \\frac{d}{dx}e^u=e^u\\,u' \\).",
+        "Obtener \\( f'(x)=2xe^{x^2} \\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\frac{1}{\\ln(x)} \\).",
+      "formula": "\\( f(x)=\\frac{1}{\\ln(x)} \\)",
+      "options": [
+        "\\( -\\frac{1}{x(\\ln(x))^2} \\)",
+        "\\( \\frac{1}{x(\\ln(x))^2} \\)",
+        "\\( -\\frac{1}{(\\ln(x))^2} \\)",
+        "\\( \\frac{1}{(\\ln(x))^2} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reescribiendo \\( f(x)=(\\ln(x))^{-1} \\) y aplicando la regla de potencias junto con la cadena se obtiene \\( f'(x)=-\\frac{1}{x(\\ln(x))^2} \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Escribir \\( f(x)=(\\ln(x))^{-1} \\).",
+        "Aplicar la derivada: \\( -1\\,(\\ln(x))^{-2}\\cdot\\frac{1}{x} \\).",
+        "Obtener \\( f'(x)=-\\frac{1}{x(\\ln(x))^2} \\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\cosh(x) \\).",
+      "formula": "\\( f(x)=\\cosh(x) \\)",
+      "options": [
+        "\\( \\sinh(x) \\)",
+        "\\( \\cosh(x) \\)",
+        "\\( -\\sinh(x) \\)",
+        "\\( -\\cosh(x) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\( \\cosh(x) \\) es \\( \\sinh(x) \\).",
+      "difficulty": "medium",
+      "procedure": ["Recordar que \\( \\frac{d}{dx}\\cosh(x)=\\sinh(x) \\)."]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\sinh(2x) \\).",
+      "formula": "\\( f(x)=\\sinh(2x) \\)",
+      "options": [
+        "\\( 2\\cosh(2x) \\)",
+        "\\( \\sinh(2x) \\)",
+        "\\( 2\\sinh(2x) \\)",
+        "\\( \\cosh(2x) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla de la cadena: \\( f'(x)=2\\cosh(2x) \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar \\( u=2x \\) y \\( u'=2 \\).",
+        "Recordar que \\( \\frac{d}{dx}\\sinh(u)=\\cosh(u)\\,u' \\).",
+        "Obtener \\( f'(x)=2\\cosh(2x) \\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\frac{e^x}{x} \\).",
+      "formula": "\\( f(x)=\\frac{e^x}{x} \\)",
+      "options": [
+        "\\( \\frac{e^x(x-1)}{x^2} \\)",
+        "\\( \\frac{e^x(x+1)}{x^2} \\)",
+        "\\( \\frac{e^x}{x^2} \\)",
+        "\\( \\frac{e^x(x-1)}{x} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla del cociente se obtiene: \\( f'(x)=\\frac{e^x\\,x-e^x}{x^2}=\\frac{e^x(x-1)}{x^2} \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar \\( u=e^x \\) y \\( v=x \\).",
+        "Calcular \\( u'=e^x \\) y \\( v'=1 \\).",
+        "Aplicar la fórmula del cociente y simplificar."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\ln\\left(\\frac{x+1}{x-1}\\right) \\).",
+      "formula": "\\( f(x)=\\ln\\left(\\frac{x+1}{x-1}\\right) \\)",
+      "options": [
+        "\\( -\\frac{2}{x^2-1} \\)",
+        "\\( \\frac{2}{x^2-1} \\)",
+        "\\( -\\frac{2}{x^2+1} \\)",
+        "\\( \\frac{2}{x^2+1} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Escribiendo \\( f(x)=\\ln(x+1)-\\ln(x-1) \\) y derivando se obtiene \\( \\frac{1}{x+1}-\\frac{1}{x-1}=\\frac{-2}{x^2-1} \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Reescribir \\( f(x)=\\ln(x+1)-\\ln(x-1) \\).",
+        "Derivar cada término.",
+        "Simplificar la resta de fracciones para obtener \\( -\\frac{2}{x^2-1} \\)."
+      ]
+    },
+    {
+      "question": "¿Qué significa que la derivada de una función sea positiva en un intervalo?",
+      "formula": "\\( f'(x)>0 \\)",
+      "options": [
+        "La función es creciente en ese intervalo",
+        "La función es decreciente en ese intervalo",
+        "La función es constante en ese intervalo",
+        "La función tiene un máximo en ese intervalo"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Si \\( f'(x)>0 \\), la función aumenta conforme \\( x \\) crece, es decir, es creciente.",
+      "difficulty": "medium",
+      "procedure": [
+        "Analizar el signo de la derivada.",
+        "Relacionar un valor positivo con el incremento de la función."
+      ]
+    },
+    {
+      "question": "¿Cuál es la interpretación de la segunda derivada \\( f''(x) \\)?",
+      "formula": "\\( f''(x) \\)",
+      "options": [
+        "La tasa de cambio de la derivada (o concavidad)",
+        "La pendiente de la función original",
+        "La integral de la función",
+        "La función original"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La segunda derivada indica cómo cambia la pendiente y se relaciona con la concavidad de la función.",
+      "difficulty": "medium",
+      "procedure": [
+        "Recordar que \\( f''(x)=\\frac{d}{dx}(f'(x)) \\).",
+        "Interpretar \\( f''(x) \\) en términos de aceleración o curvatura."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\sqrt{1+e^x} \\).",
+      "formula": "\\( f(x)=\\sqrt{1+e^x} \\)",
+      "options": [
+        "\\( \\frac{e^x}{2\\sqrt{1+e^x}} \\)",
+        "\\( \\frac{e^x}{\\sqrt{1+e^x}} \\)",
+        "\\( \\frac{1}{2\\sqrt{1+e^x}} \\)",
+        "\\( \\frac{e^x}{2(1+e^x)} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reescribiendo \\( f(x)=(1+e^x)^{1/2} \\) y aplicando la regla de potencias y la cadena se obtiene \\( f'(x)=\\frac{e^x}{2\\sqrt{1+e^x}} \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Escribir \\( f(x)=(1+e^x)^{1/2} \\).",
+        "Aplicar la derivada: \\( \\frac{1}{2}(1+e^x)^{-1/2}\\cdot e^x \\).",
+        "Simplificar el resultado."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\frac{\\sin(x)}{x} \\).",
+      "formula": "\\( f(x)=\\frac{\\sin(x)}{x} \\)",
+      "options": [
+        "\\( \\frac{x\\cos(x)-\\sin(x)}{x^2} \\)",
+        "\\( \\frac{x\\cos(x)+\\sin(x)}{x^2} \\)",
+        "\\( \\frac{\\cos(x)-\\sin(x)}{x^2} \\)",
+        "\\( \\frac{\\sin(x)-x\\cos(x)}{x^2} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla del cociente se obtiene \\( f'(x)=\\frac{x\\cos(x)-\\sin(x)}{x^2} \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar \\( u=\\sin(x) \\) y \\( v=x \\).",
+        "Calcular \\( u'=\\cos(x) \\) y \\( v'=1 \\).",
+        "Aplicar la fórmula del cociente y simplificar."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\sec^2(x) \\).",
+      "formula": "\\( f(x)=\\sec^2(x) \\)",
+      "options": [
+        "\\( 2\\sec^2(x)\\tan(x) \\)",
+        "\\( 2\\sec(x)\\tan(x) \\)",
+        "\\( \\sec^2(x)\\tan(x) \\)",
+        "\\( 2\\tan(x) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla de la cadena a \\( (\\sec(x))^2 \\) se obtiene \\( 2\\sec(x)\\cdot\\sec(x)\\tan(x)=2\\sec^2(x)\\tan(x) \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Reconocer la función como \\( u^2 \\) con \\( u=\\sec(x) \\).",
+        "Calcular \\( u'=\\sec(x)\\tan(x) \\).",
+        "Aplicar la regla de la cadena: \\( 2u\\,u' \\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\arctan(2x) \\).",
+      "formula": "\\( f(x)=\\arctan(2x) \\)",
+      "options": [
+        "\\( \\frac{2}{1+4x^2} \\)",
+        "\\( \\frac{1}{1+4x^2} \\)",
+        "\\( \\frac{2}{1+2x^2} \\)",
+        "\\( \\frac{2}{1+4x} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la derivada de \\( \\arctan(u) \\) y la regla de la cadena se obtiene \\( f'(x)=\\frac{2}{1+(2x)^2}=\\frac{2}{1+4x^2} \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar \\( u=2x \\) y \\( u'=2 \\).",
+        "Usar que \\( \\frac{d}{dx}\\arctan(u)=\\frac{u'}{1+u^2} \\).",
+        "Obtener el resultado."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\cos(\\ln(x)) \\).",
+      "formula": "\\( f(x)=\\cos(\\ln(x)) \\)",
+      "options": [
+        "\\( -\\frac{\\sin(\\ln(x))}{x} \\)",
+        "\\( \\frac{\\sin(\\ln(x))}{x} \\)",
+        "\\( -\\frac{\\cos(\\ln(x))}{x} \\)",
+        "\\( \\frac{\\cos(\\ln(x))}{x} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla de la cadena: \\( f'(x)=-\\sin(\\ln(x))\\cdot\\frac{1}{x} \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar \\( u=\\ln(x) \\) con \\( u'=\\frac{1}{x} \\).",
+        "Derivar \\( \\cos(u) \\) obteniendo \\( -\\sin(u) \\).",
+        "Multiplicar para obtener \\( f'(x)=-\\frac{\\sin(\\ln(x))}{x} \\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\ln(e^x+e^{-x}) \\).",
+      "formula": "\\( f(x)=\\ln(e^x+e^{-x}) \\)",
+      "options": [
+        "\\( \\frac{e^x-e^{-x}}{e^x+e^{-x}} \\)",
+        "\\( \\frac{e^x+e^{-x}}{e^x-e^{-x}} \\)",
+        "\\( \\frac{e^x-e^{-x}}{e^x-e^{-x}} \\)",
+        "\\( \\frac{e^x+e^{-x}}{e^x+e^{-x}} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Derivando \\( \\ln(e^x+e^{-x}) \\) se obtiene \\( f'(x)=\\frac{e^x-e^{-x}}{e^x+e^{-x}} \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Derivar \\( e^x+e^{-x} \\): \\( e^x-e^{-x} \\).",
+        "Aplicar la regla de la cadena: \\( \\frac{u'}{u} \\).",
+        "Obtener el cociente."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\sqrt{\\ln(x)} \\).",
+      "formula": "\\( f(x)=\\sqrt{\\ln(x)} \\)",
+      "options": [
+        "\\( \\frac{1}{2x\\sqrt{\\ln(x)}} \\)",
+        "\\( \\frac{1}{x\\sqrt{\\ln(x)}} \\)",
+        "\\( \\frac{1}{2\\sqrt{\\ln(x)}} \\)",
+        "\\( \\frac{\\sqrt{\\ln(x)}}{2x} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reescribiendo \\( f(x)=(\\ln(x))^{1/2} \\) y aplicando la regla de potencias y la cadena se obtiene \\( f'(x)=\\frac{1}{2x\\sqrt{\\ln(x)}} \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expresar \\( \\sqrt{\\ln(x)} \\) como \\( (\\ln(x))^{1/2} \\).",
+        "Aplicar la regla de potencias: \\( \\frac{1}{2}(\\ln(x))^{-1/2}\\cdot\\frac{1}{x} \\).",
+        "Simplificar el resultado."
+      ]
+    },
+    {
+      "question": "¿Qué se obtiene al derivar una función constante?",
+      "formula": "\\( f(x)=c \\)",
+      "options": [
+        "0",
+        "La función misma",
+        "La pendiente 1",
+        "La derivada es indefinida"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de una constante es 0, ya que no hay variación.",
+      "difficulty": "medium",
+      "procedure": [
+        "Recordar que \\( \\frac{d}{dx}(c)=0 \\) para cualquier constante \\( c \\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\cos(x)+\\sin(x) \\).",
+      "formula": "\\( f(x)=\\cos(x)+\\sin(x) \\)",
+      "options": [
+        "\\( \\cos(x)-\\sin(x) \\)",
+        "\\( \\cos(x)+\\sin(x) \\)",
+        "\\( \\sin(x)-\\cos(x) \\)",
+        "\\( -\\cos(x)+\\sin(x) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Derivando se tiene \\( (\\cos(x))'=-\\sin(x) \\) y \\( (\\sin(x))'=\\cos(x) \\), sumando se obtiene \\( \\cos(x)-\\sin(x) \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Derivar \\( \\cos(x) \\): \\( -\\sin(x) \\).",
+        "Derivar \\( \\sin(x) \\): \\( \\cos(x) \\).",
+        "Sumar para obtener \\( -\\sin(x)+\\cos(x)=\\cos(x)-\\sin(x) \\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\tan^{-1}(\\sqrt{x}) \\).",
+      "formula": "\\( f(x)=\\tan^{-1}(\\sqrt{x}) \\)",
+      "options": [
+        "\\( \\frac{1}{2\\sqrt{x}(1+x)} \\)",
+        "\\( \\frac{1}{2\\sqrt{x}} \\)",
+        "\\( \\frac{1}{1+x} \\)",
+        "\\( \\frac{1}{\\sqrt{x}(1+x)} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando la derivada de \\( \\arctan(u) \\) y la cadena se obtiene \\( \\frac{1}{1+(\\sqrt{x})^2}\\cdot\\frac{1}{2\\sqrt{x}}=\\frac{1}{2\\sqrt{x}(1+x)} \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar \\( u=\\sqrt{x} \\) con \\( u'=\\frac{1}{2\\sqrt{x}} \\).",
+        "Recordar que \\( \\frac{d}{dx}\\arctan(u)=\\frac{u'}{1+u^2} \\).",
+        "Obtener \\( f'(x)=\\frac{1}{2\\sqrt{x}(1+x)} \\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=x\\ln(x) \\).",
+      "formula": "\\( f(x)=x\\ln(x) \\)",
+      "options": [
+        "\\( \\ln(x)+1 \\)",
+        "\\( \\ln(x) \\)",
+        "\\( 1+\\frac{1}{x} \\)",
+        "\\( x+\\ln(x) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla del producto: \\( f'(x)=1\\cdot\\ln(x)+x\\cdot\\frac{1}{x}=\\ln(x)+1 \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar \\( u=x \\) y \\( v=\\ln(x) \\).",
+        "Calcular \\( u'=1 \\) y \\( v'=\\frac{1}{x} \\).",
+        "Aplicar la regla del producto: \\( f'(x)=u'v+uv' \\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\frac{\\sqrt{x}}{x+1} \\).",
+      "formula": "\\( f(x)=\\frac{\\sqrt{x}}{x+1} \\)",
+      "options": [
+        "\\( \\frac{1-x}{2\\sqrt{x}(x+1)^2} \\)",
+        "\\( \\frac{x-1}{2\\sqrt{x}(x+1)^2} \\)",
+        "\\( \\frac{1}{2\\sqrt{x}(x+1)^2} \\)",
+        "\\( \\frac{1-x}{\\sqrt{x}(x+1)^2} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla del cociente se obtiene \\( f'(x)=\\frac{(x+1)\\cdot(1/(2\\sqrt{x}))-\\sqrt{x}\\cdot1}{(x+1)^2}=\\frac{1-x}{2\\sqrt{x}(x+1)^2} \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Escribir \\( \\sqrt{x} \\) como \\( x^{1/2} \\).",
+        "Aplicar la regla del cociente y simplificar el numerador.",
+        "Obtener la expresión final."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\ln\\left(\\frac{1+x}{1-x}\\right) \\).",
+      "formula": "\\( f(x)=\\ln\\left(\\frac{1+x}{1-x}\\right) \\)",
+      "options": [
+        "\\( \\frac{2}{1-x^2} \\)",
+        "\\( \\frac{2}{1+x^2} \\)",
+        "\\( \\frac{1}{1-x^2} \\)",
+        "\\( \\frac{-2}{1-x^2} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando propiedades logarítmicas: \\( f(x)=\\ln(1+x)-\\ln(1-x) \\) y derivando se obtiene \\( \\frac{1}{1+x}+\\frac{1}{1-x}=\\frac{2}{1-x^2} \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Separar la función logarítmica en dos términos.",
+        "Derivar cada uno y sumar los resultados.",
+        "Simplificar para obtener \\( \\frac{2}{1-x^2} \\)."
+      ]
+    },
+    {
+      "question": "¿Qué representa la derivada en el contexto físico de un movimiento?",
+      "formula": "\\( v=\\frac{dx}{dt} \\)",
+      "options": [
+        "La velocidad instantánea",
+        "La aceleración",
+        "La posición",
+        "El desplazamiento"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de la posición con respecto al tiempo se interpreta como la velocidad instantánea.",
+      "difficulty": "medium",
+      "procedure": [
+        "Recordar la definición de velocidad: \\( v=\\frac{dx}{dt} \\).",
+        "Relacionar la derivada con la tasa de cambio instantánea de la posición."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\frac{x}{x^2+1} \\).",
+      "formula": "\\( f(x)=\\frac{x}{x^2+1} \\)",
+      "options": [
+        "\\( \\frac{1-x^2}{(x^2+1)^2} \\)",
+        "\\( \\frac{1+x^2}{(x^2+1)^2} \\)",
+        "\\( \\frac{x^2-1}{(x^2+1)^2} \\)",
+        "\\( \\frac{2x}{(x^2+1)^2} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla del cociente se obtiene \\( f'(x)=\\frac{(x^2+1)-2x^2}{(x^2+1)^2}=\\frac{1-x^2}{(x^2+1)^2} \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar \\( u=x \\) y \\( v=x^2+1 \\).",
+        "Calcular \\( u'=1 \\) y \\( v'=2x \\).",
+        "Aplicar la regla del cociente y simplificar."
+      ]
+    },
+    {
+      "question": "¿Qué es una derivada?",
+      "formula": "\\( f'(x)=\\lim_{h\\to0}\\frac{f(x+h)-f(x)}{h} \\)",
+      "options": [
+        "\\( \\text{La integral de una función} \\)",
+        "\\( \\text{La tasa de cambio promedio} \\)",
+        "\\( \\text{La pendiente de la recta tangente en un punto} \\)",
+        "\\( \\text{El valor absoluto de la función} \\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La derivada se define como el límite del cociente incremental y representa la pendiente de la recta tangente a la función en un punto.",
+      "difficulty": "medium",
+      "procedure": [
+        "Escribir la definición de derivada: \\( f'(x)=\\lim_{h\\to0}\\frac{f(x+h)-f(x)}{h} \\).",
+        "Interpretar el límite como la pendiente instantánea.",
+        "Relacionar el concepto con la tasa de cambio en un punto."
+      ]
+    },
+    {
+      "question": "¿Cuál es la interpretación geométrica de la derivada en un punto?",
+      "formula": "\\( f'(x) \\)",
+      "options": [
+        "\\( \\text{El área bajo la curva} \\)",
+        "\\( \\text{El radio de curvatura} \\)",
+        "\\( \\text{La longitud de la curva} \\)",
+        "\\( \\text{La pendiente de la recta tangente a la curva} \\)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Geométricamente, la derivada en un punto representa la pendiente de la recta tangente a la curva en ese punto.",
+      "difficulty": "medium",
+      "procedure": [
+        "Recordar la definición de derivada como pendiente de la recta tangente.",
+        "Identificar la relación entre la pendiente y el ángulo de inclinación de la curva.",
+        "Concluir que el signo y valor de \\( f'(x) \\) indican la dirección y rapidez del cambio."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=x^2 \\).",
+      "formula": "\\( f(x)=x^2 \\)",
+      "options": ["\\( x^2 \\)", "\\( 2x \\)", "\\( 2 \\)", "\\( x \\)"],
+      "correctAnswer": 1,
+      "explanation": "Utilizando la regla de potencias, la derivada de \\( x^2 \\) es \\( 2x \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Aplicar la regla de potencias: si \\( f(x)=x^n \\), entonces \\( f'(x)=nx^{n-1} \\).",
+        "Sustituir \\( n=2 \\) para obtener \\( f'(x)=2x^{1} \\).",
+        "Concluir que \\( f'(x)=2x \\)."
+      ]
+    },
+    {
+      "question": "¿Qué representa la derivada en un contexto físico?",
+      "formula": "\\( v=\\frac{dx}{dt} \\)",
+      "options": [
+        "\\( \\text{La aceleración} \\)",
+        "\\( \\text{El desplazamiento} \\)",
+        "\\( \\text{La velocidad instantánea} \\)",
+        "\\( \\text{El tiempo de viaje} \\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "En física, la derivada de la posición respecto al tiempo representa la velocidad instantánea.",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar que \\( v=\\frac{dx}{dt} \\) es la definición de velocidad.",
+        "Relacionar la derivada con la tasa de cambio de la posición.",
+        "Concluir que se trata de la velocidad instantánea."
+      ]
+    },
+    {
+      "question": "¿Cómo se interpreta la derivada en términos de tasa de cambio instantáneo?",
+      "formula": "\\( f'(a)=\\lim_{h\\to0}\\frac{f(a+h)-f(a)}{h} \\)",
+      "options": [
+        "\\( \\text{Como la pendiente de la tangente en } a \\)",
+        "\\( \\text{Como el cambio promedio en un intervalo} \\)",
+        "\\( \\text{Como la pendiente de la secante} \\)",
+        "\\( \\text{Como el área bajo la curva} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada en \\( a \\) es la pendiente de la recta tangente, lo que representa la tasa de cambio instantáneo en ese punto.",
+      "difficulty": "medium",
+      "procedure": [
+        "Escribir la definición de derivada.",
+        "Reconocer que el límite representa la pendiente de la tangente en \\( a \\).",
+        "Concluir que la derivada indica el cambio instantáneo."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=3x+5 \\).",
+      "formula": "\\( f(x)=3x+5 \\)",
+      "options": ["\\( 5 \\)", "\\( 3x \\)", "\\( 0 \\)", "\\( 3 \\)"],
+      "correctAnswer": 3,
+      "explanation": "La derivada de una función lineal \\( f(x)=mx+b \\) es la constante \\( m \\); por lo tanto, \\( f'(x)=3 \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar que \\( m=3 \\) es la pendiente de la función.",
+        "Recordar que la derivada de \\( mx+b \\) es \\( m \\).",
+        "Concluir que \\( f'(x)=3 \\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\sin(x) \\).",
+      "formula": "\\( f(x)=\\sin(x) \\)",
+      "options": [
+        "\\( \\sin(x) \\)",
+        "\\( \\cos(x) \\)",
+        "\\( -\\sin(x) \\)",
+        "\\( -\\cos(x) \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La derivada de \\( \\sin(x) \\) es \\( \\cos(x) \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Recordar la regla de derivación para funciones trigonométricas.",
+        "Aplicar que \\( \\frac{d}{dx}(\\sin(x))=\\cos(x) \\).",
+        "Concluir que \\( f'(x)=\\cos(x) \\)."
+      ]
+    },
+    {
+      "question": "¿Qué nos indica una derivada igual a cero en un punto?",
+      "formula": "\\( f'(x)=0 \\)",
+      "options": [
+        "\\( \\text{El punto es de inflexión} \\)",
+        "\\( \\text{La función es creciente} \\)",
+        "\\( \\text{El punto es un extremo o punto crítico} \\)",
+        "\\( \\text{La función es constante} \\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Un valor de derivada cero sugiere que en ese punto la función puede tener un máximo, un mínimo o ser un punto de silla.",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar que \\( f'(x)=0 \\) implica ausencia de cambio instantáneo.",
+        "Relacionarlo con la existencia de extremos o puntos críticos.",
+        "Analizar la función para determinar la naturaleza del punto."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=e^x \\).",
+      "formula": "\\( f(x)=e^x \\)",
+      "options": [
+        "\\( e^x \\)",
+        "\\( x e^{x-1} \\)",
+        "\\( e^{x}+1 \\)",
+        "\\( \\ln(e^x) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La función exponencial se diferencia a sí misma: \\( \\frac{d}{dx}e^x=e^x \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Recordar la regla de la función exponencial.",
+        "Aplicar que la derivada de \\( e^x \\) es \\( e^x \\).",
+        "Concluir que \\( f'(x)=e^x \\)."
+      ]
+    },
+    {
+      "question": "¿Qué significa que la derivada de una función sea negativa en un intervalo?",
+      "formula": "\\( f'(x)<0 \\)",
+      "options": [
+        "\\( \\text{La función es creciente en ese intervalo} \\)",
+        "\\( \\text{La función es constante} \\)",
+        "\\( \\text{La función es decreciente en ese intervalo} \\)",
+        "\\( \\text{La función tiene un máximo en ese intervalo} \\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Si \\( f'(x)<0 \\) en un intervalo, la función está disminuyendo en ese intervalo.",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar el signo negativo en \\( f'(x) \\).",
+        "Relacionarlo con la disminución de los valores de la función.",
+        "Concluir que la función es decreciente en ese intervalo."
+      ]
+    },
+    {
+      "question": "¿Cuál es la derivada de \\( f(x)=\\ln(x) \\) para \\( x>0 \\)?",
+      "formula": "\\( f(x)=\\ln(x) \\)",
+      "options": [
+        "\\( \\ln(x)+1 \\)",
+        "\\( x \\)",
+        "\\( \\frac{1}{\\ln(x)} \\)",
+        "\\( \\frac{1}{x} \\)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "La derivada de la función logarítmica es \\( \\frac{1}{x} \\) para \\( x>0 \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Recordar la regla de derivación de \\( \\ln(x) \\).",
+        "Aplicar que \\( \\frac{d}{dx}\\ln(x)=\\frac{1}{x} \\).",
+        "Concluir que \\( f'(x)=\\frac{1}{x} \\) para \\( x>0 \\)."
+      ]
+    },
+    {
+      "question": "Determina la derivada de \\( f(x)=\\cos(x) \\).",
+      "formula": "\\( f(x)=\\cos(x) \\)",
+      "options": [
+        "\\( -\\sin(x) \\)",
+        "\\( \\sin(x) \\)",
+        "\\( -\\cos(x) \\)",
+        "\\( \\cos(x) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\( \\cos(x) \\) es \\( -\\sin(x) \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Recordar la derivada de la función coseno.",
+        "Aplicar que \\( \\frac{d}{dx}\\cos(x)=-\\sin(x) \\).",
+        "Concluir que \\( f'(x)=-\\sin(x) \\)."
+      ]
+    },
+    {
+      "question": "¿Qué representa la derivada de \\( f(x)=x^3 \\) en un punto?",
+      "formula": "\\( f(x)=x^3 \\)",
+      "options": [
+        "\\( \\text{El área bajo la curva} \\)",
+        "\\( \\text{La pendiente de la recta tangente a la curva} \\)",
+        "\\( \\text{El volumen generado al rotar la curva} \\)",
+        "\\( \\text{La concavidad de la función} \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La derivada de \\( x^3 \\) en un punto indica la pendiente de la recta tangente, ofreciendo información sobre el comportamiento local de la función.",
+      "difficulty": "medium",
+      "procedure": [
+        "Aplicar la regla de potencias para derivar \\( x^3 \\).",
+        "Obtener \\( f'(x)=3x^2 \\).",
+        "Interpretar \\( 3x^2 \\) como la pendiente de la tangente en el punto considerado."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\frac{1}{x} \\).",
+      "formula": "\\( f(x)=\\frac{1}{x} \\)",
+      "options": [
+        "\\( \\frac{1}{x^2} \\)",
+        "\\( -\\frac{1}{x} \\)",
+        "\\( -\\frac{1}{x^2} \\)",
+        "\\( -\\frac{2}{x^3} \\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La derivada de \\( \\frac{1}{x} \\) es \\( -\\frac{1}{x^2} \\), obtenida aplicando la regla de potencias con exponente negativo.",
+      "difficulty": "medium",
+      "procedure": [
+        "Reescribir \\( f(x)=x^{-1} \\).",
+        "Aplicar la regla de potencias: \\( \\frac{d}{dx}x^{-1}=-1\\,x^{-2} \\).",
+        "Concluir que \\( f'(x)=-\\frac{1}{x^2} \\)."
+      ]
+    },
+    {
+      "question": "¿Qué proceso se utiliza para obtener la derivada de una función?",
+      "formula": "\\( \\text{Diferenciación} \\)",
+      "options": [
+        "\\( \\text{Diferenciación} \\)",
+        "\\( \\text{Integración} \\)",
+        "\\( \\text{Factorización} \\)",
+        "\\( \\text{Compleción} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El proceso de diferenciación es el que se utiliza para obtener la derivada de una función.",
+      "difficulty": "medium",
+      "procedure": [
+        "Reconocer que la diferenciación es el proceso de derivar funciones.",
+        "Diferenciar entre otros procesos matemáticos como la integración.",
+        "Confirmar que la respuesta correcta es la diferenciación."
+      ]
+    },
+    {
+      "question": "En un contexto físico, ¿qué representa la derivada de la posición respecto al tiempo?",
+      "formula": "\\( v=\\frac{dx}{dt} \\)",
+      "options": [
+        "\\( \\text{La aceleración} \\)",
+        "\\( \\text{El desplazamiento} \\)",
+        "\\( \\text{La velocidad} \\)",
+        "\\( \\text{La fuerza} \\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La derivada de la posición con respecto al tiempo se interpreta como la velocidad instantánea.",
+      "difficulty": "medium",
+      "procedure": [
+        "Recordar la definición física de la velocidad como \\( v=\\frac{dx}{dt} \\).",
+        "Relacionar la derivada con la tasa de cambio de la posición.",
+        "Concluir que se trata de la velocidad."
+      ]
+    },
+    {
+      "question": "¿Cómo se interpreta el signo de la derivada en el crecimiento o decrecimiento de una función?",
+      "formula": "\\( f'(x)>0 \\) o \\( f'(x)<0 \\)",
+      "options": [
+        "\\( \\text{Si } f'(x)<0, \\text{ la función crece} \\)",
+        "\\( \\text{Si } f'(x)>0, \\text{ la función crece} \\)",
+        "\\( \\text{Si } f'(x)>0, \\text{ la función decrece} \\)",
+        "\\( \\text{El signo no afecta el comportamiento de la función} \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Un valor positivo de \\( f'(x) \\) indica que la función es creciente, mientras que un valor negativo indica que es decreciente.",
+      "difficulty": "medium",
+      "procedure": [
+        "Analizar el signo de \\( f'(x) \\).",
+        "Relacionar \\( f'(x)>0 \\) con el crecimiento de la función.",
+        "Concluir la interpretación según el signo."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\sqrt{x} \\).",
+      "formula": "\\( f(x)=\\sqrt{x} \\)",
+      "options": [
+        "\\( \\frac{1}{2\\sqrt{x}} \\)",
+        "\\( \\sqrt{x} \\)",
+        "\\( 2\\sqrt{x} \\)",
+        "\\( \\frac{1}{\\sqrt{x}} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\( \\sqrt{x} \\) es \\( \\frac{1}{2\\sqrt{x}} \\), utilizando la regla de potencias con exponente \\( \\frac{1}{2} \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expresar \\( \\sqrt{x} \\) como \\( x^{1/2} \\).",
+        "Aplicar la regla de potencias: \\( \\frac{d}{dx}x^{1/2}=\\frac{1}{2}x^{-1/2} \\).",
+        "Reescribir el resultado como \\( \\frac{1}{2\\sqrt{x}} \\)."
+      ]
+    },
+    {
+      "question": "¿Qué indica la derivada cuando es constante en un intervalo?",
+      "formula": "\\( f'(x)=c \\)",
+      "options": [
+        "\\( \\text{La función es cuadrática} \\)",
+        "\\( \\text{La función es exponencial} \\)",
+        "\\( \\text{La función es polinómica de grado mayor a 2} \\)",
+        "\\( \\text{La función es lineal} \\)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Si la derivada es constante, la función es lineal, ya que su tasa de cambio no varía.",
+      "difficulty": "medium",
+      "procedure": [
+        "Reconocer que una derivada constante significa que la pendiente es la misma en todo el intervalo.",
+        "Relacionar esta propiedad con funciones lineales.",
+        "Concluir que la función es de la forma \\( f(x)=mx+b \\)."
+      ]
+    },
+    {
+      "question": "¿Qué se entiende por la tasa de cambio instantáneo de una función?",
+      "formula": "\\( f'(a)=\\lim_{h\\to0}\\frac{f(a+h)-f(a)}{h} \\)",
+      "options": [
+        "\\( \\text{El cambio total en un intervalo} \\)",
+        "\\( \\text{El valor medio de la función} \\)",
+        "\\( \\text{El cambio en un punto específico} \\)",
+        "\\( \\text{La integral definida} \\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La tasa de cambio instantáneo se define como el límite del cociente incremental en un punto específico.",
+      "difficulty": "medium",
+      "procedure": [
+        "Escribir la definición de derivada en el punto \\( a \\).",
+        "Interpretar el límite como la tasa de cambio en ese instante.",
+        "Concluir que es el cambio en un punto específico."
+      ]
+    },
+    {
+      "question": "¿Cómo se relaciona la derivada con la aproximación lineal de una función?",
+      "formula": "\\( L(x)=f(a)+f'(a)(x-a) \\)",
+      "options": [
+        "\\( \\text{La derivada es la pendiente de la aproximación lineal} \\)",
+        "\\( \\text{La derivada no se relaciona con la aproximación lineal} \\)",
+        "\\( \\text{La derivada es el valor de la función en } a \\)",
+        "\\( \\text{La derivada es la integral de la función} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La fórmula de la linealización \\( L(x)=f(a)+f'(a)(x-a) \\) muestra que \\( f'(a) \\) es la pendiente de la recta que aproxima la función cerca de \\( a \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Recordar la fórmula de la aproximación lineal.",
+        "Identificar el término \\( f'(a) \\) como la pendiente en \\( a \\).",
+        "Concluir la relación entre derivada y aproximación lineal."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=7 \\).",
+      "formula": "\\( f(x)=7 \\)",
+      "options": ["\\( 7 \\)", "\\( 0 \\)", "\\( 1 \\)", "\\( 7x \\)"],
+      "correctAnswer": 1,
+      "explanation": "La derivada de una constante es 0, ya que no existe cambio en la función.",
+      "difficulty": "medium",
+      "procedure": [
+        "Recordar que \\( \\frac{d}{dx}(\\text{constante})=0 \\).",
+        "Aplicar esta regla a \\( f(x)=7 \\).",
+        "Concluir que \\( f'(x)=0 \\)."
+      ]
+    },
+    {
+      "question": "¿Qué indica la derivada en términos de comportamiento local de la función?",
+      "formula": "\\( \\)",
+      "options": [
+        "\\( \\text{El valor exacto de la función} \\)",
+        "\\( \\text{La integral indefinida} \\)",
+        "\\( \\text{La tendencia de la función a aumentar o disminuir} \\)",
+        "\\( \\text{El área bajo la curva} \\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La derivada indica la tendencia local de la función, es decir, si está aumentando o disminuyendo en un punto.",
+      "difficulty": "medium",
+      "procedure": [
+        "Entender que la derivada refleja el comportamiento inmediato de la función.",
+        "Relacionar el signo de \\( f'(x) \\) con la tendencia de crecimiento o decrecimiento.",
+        "Concluir la interpretación del comportamiento local."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\tan(x) \\).",
+      "formula": "\\( f(x)=\\tan(x) \\)",
+      "options": [
+        "\\( \\sec^2(x) \\)",
+        "\\( \\cos^2(x) \\)",
+        "\\( \\sin(x) \\)",
+        "\\( -\\sec^2(x) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\( \\tan(x) \\) es \\( \\sec^2(x) \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Recordar la derivada de la función tangente.",
+        "Aplicar que \\( \\frac{d}{dx}\\tan(x)=\\sec^2(x) \\).",
+        "Concluir el resultado."
+      ]
+    },
+    {
+      "question": "¿Qué es la derivada de orden superior?",
+      "formula": "\\( f''(x) \\)",
+      "options": [
+        "\\( \\text{La integral de la función} \\)",
+        "\\( \\text{El valor de la función} \\)",
+        "\\( \\text{La pendiente de la recta secante} \\)",
+        "\\( \\text{La derivada de la derivada} \\)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "La derivada de orden superior es la derivada de la derivada, que analiza la tasa de cambio de la tasa de cambio original.",
+      "difficulty": "medium",
+      "procedure": [
+        "Diferenciar la función para obtener \\( f'(x) \\).",
+        "Diferenciar \\( f'(x) \\) para obtener \\( f''(x) \\).",
+        "Interpretar \\( f''(x) \\) como la aceleración o concavidad según el contexto."
+      ]
+    },
+    {
+      "question": "¿Cómo se interpreta la derivada en el análisis de extremos de una función?",
+      "formula": "\\( f'(x)=0 \\)",
+      "options": [
+        "\\( \\text{Indica un posible máximo o mínimo} \\)",
+        "\\( \\text{Indica que la función es constante} \\)",
+        "\\( \\text{Indica que la función es lineal} \\)",
+        "\\( \\text{No tiene interpretación en extremos} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cuando \\( f'(x)=0 \\) se detectan puntos críticos, los cuales pueden corresponder a máximos o mínimos locales.",
+      "difficulty": "medium",
+      "procedure": [
+        "Encontrar los puntos donde \\( f'(x)=0 \\).",
+        "Analizar el cambio de signo de \\( f'(x) \\) a ambos lados del punto.",
+        "Concluir si se trata de un máximo o mínimo local."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=x^2+2x+1 \\).",
+      "formula": "\\( f(x)=x^2+2x+1 \\)",
+      "options": ["\\( x+2 \\)", "\\( 2x \\)", "\\( 2x+2 \\)", "\\( 2x+1 \\)"],
+      "correctAnswer": 2,
+      "explanation": "Derivando término a término: \\( \\frac{d}{dx}(x^2)=2x \\) y \\( \\frac{d}{dx}(2x)=2 \\), por lo que \\( f'(x)=2x+2 \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Aplicar la derivación de cada término: \\( \\frac{d}{dx}(x^2)=2x \\), \\( \\frac{d}{dx}(2x)=2 \\), y \\( \\frac{d}{dx}(1)=0 \\).",
+        "Sumar los resultados: \\( 2x+2 \\).",
+        "Concluir el resultado."
+      ]
+    },
+    {
+      "question": "¿Qué se entiende por la interpretación física de la derivada en el movimiento?",
+      "formula": "\\( v=\\frac{dx}{dt} \\)",
+      "options": [
+        "\\( \\text{Representa la aceleración} \\)",
+        "\\( \\text{Representa la velocidad} \\)",
+        "\\( \\text{Representa la posición} \\)",
+        "\\( \\text{Representa la energía} \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "En el análisis del movimiento, la derivada de la posición con respecto al tiempo es la velocidad instantánea.",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar que \\( v=\\frac{dx}{dt} \\) define la velocidad.",
+        "Relacionar la derivada con la tasa de cambio de la posición.",
+        "Concluir que representa la velocidad."
+      ]
+    },
+    {
+      "question": "¿Cuál es la relación entre la derivada y la linealización de una función?",
+      "formula": "\\( L(x)=f(a)+f'(a)(x-a) \\)",
+      "options": [
+        "\\( \\text{La derivada calcula el área bajo la curva} \\)",
+        "\\( \\text{La derivada es irrelevante para la linealización} \\)",
+        "\\( \\text{La derivada da el máximo de la función} \\)",
+        "\\( \\text{La derivada permite aproximar la función localmente} \\)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "La fórmula de la linealización utiliza la derivada para aproximar la función cerca de un punto, siendo \\( f'(a) \\) la pendiente de la recta tangente.",
+      "difficulty": "medium",
+      "procedure": [
+        "Escribir la fórmula de la aproximación lineal: \\( L(x)=f(a)+f'(a)(x-a) \\).",
+        "Reconocer que \\( f'(a) \\) es la pendiente en el punto \\( a \\).",
+        "Concluir que la derivada permite una aproximación local lineal."
+      ]
+    },
+    {
+      "question": "¿Qué papel juega la derivada en la determinación de la concavidad de una función?",
+      "formula": "\\( f''(x) \\)",
+      "options": [
+        "\\( \\text{Determina la curvatura de la función} \\)",
+        "\\( \\text{Indica puntos de inflexión} \\)",
+        "\\( \\text{Determina la pendiente de la tangente} \\)",
+        "\\( \\text{No tiene relación con la concavidad} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La segunda derivada \\( f''(x) \\) indica la concavidad de la función, es decir, si la curva es cóncava hacia arriba o hacia abajo.",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular la segunda derivada \\( f''(x) \\).",
+        "Analizar el signo de \\( f''(x) \\) para determinar la concavidad.",
+        "Concluir que un \\( f''(x)>0 \\) indica concavidad hacia arriba y \\( f''(x)<0 \\) hacia abajo."
+      ]
+    }
+  ]
+}

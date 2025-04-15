@@ -1,0 +1,1348 @@
+{
+  "limites_continuidad_dificil": [
+    {
+      "question": "Calcule el límite de la función al acercarse a 2.",
+      "formula": "\\( \\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2} \\)",
+      "options": ["\\(2\\)", "\\(3\\)", "\\(4\\)", "\\(5\\)"],
+      "correctAnswer": 2,
+      "explanation": "Factorizando el numerador como \\(x^2-4=(x-2)(x+2)\\) se cancela el término \\(x-2\\) y al evaluar en \\(x=2\\) se obtiene \\(2+2=4\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Factorizar el numerador: \\(x^2-4=(x-2)(x+2)\\).",
+        "Cancelar el factor común \\(x-2\\).",
+        "Evaluar la función resultante en \\(x=2\\) para obtener \\(2+2=4\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 4.",
+      "formula": "\\( \\lim_{x \\to 4} \\frac{\\sqrt{x} - 2}{x - 4} \\)",
+      "options": [
+        "\\(\\frac{1}{2}\\)",
+        "\\(\\frac{1}{3}\\)",
+        "\\(\\frac{1}{4}\\)",
+        "\\(\\frac{1}{8}\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Utilizando la derivada de \\(\\sqrt{x}\\), que es \\(\\frac{1}{2\\sqrt{x}}\\), y evaluando en \\(x=4\\) se obtiene \\(\\frac{1}{2\\cdot2}=\\frac{1}{4}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar que la derivada de \\(\\sqrt{x}\\) es \\(\\frac{1}{2\\sqrt{x}}\\).",
+        "Evaluar la derivada en \\(x=4\\): \\(\\frac{1}{2\\sqrt{4}}=\\frac{1}{4}\\).",
+        "Concluir que el límite es \\(\\frac{1}{4}\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{1 - \\cos(x)}{x^2} \\)",
+      "options": [
+        "\\(\\frac{1}{2}\\)",
+        "\\(1\\)",
+        "\\(0\\)",
+        "\\(\\frac{1}{4}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando la expansión en serie de \\(\\cos(x)\\), se tiene que \\(1-\\cos(x)\\sim \\frac{x^2}{2}\\) para valores pequeños de \\(x\\), por lo que el límite es \\(\\frac{1}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar la serie de Taylor de \\(\\cos(x)\\): \\(\\cos(x)\\approx 1-\\frac{x^2}{2}\\).",
+        "Sustituir en la función: \\(1-\\cos(x)\\approx \\frac{x^2}{2}\\).",
+        "Dividir por \\(x^2\\) y obtener el límite \\(\\frac{1}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a infinito.",
+      "formula": "\\( \\lim_{x \\to \\infty} \\left( \\sqrt{x^2+3x} - x \\right) \\)",
+      "options": [
+        "\\(\\frac{3}{2}\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(3\\)",
+        "\\(0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dividiendo por \\(x\\) y simplificando la expresión, se demuestra que el límite es \\(\\frac{3}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplicar y dividir por la conjugada para simplificar la expresión.",
+        "Dividir cada término por \\(x\\) y evaluar el límite.",
+        "Obtener el resultado \\(\\frac{3}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{e^x - 1 - x}{x^2} \\)",
+      "options": [
+        "\\(0\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(1\\)",
+        "\\(\\frac{1}{3}\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Expandiendo \\(e^x\\) en serie de Taylor, se observa que el término de orden \\(x^2\\) es \\(\\frac{1}{2}\\), por lo que el límite es \\(\\frac{1}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Utilizar la serie de Taylor de \\(e^x\\): \\(e^x\\approx 1+x+\\frac{x^2}{2}+\\cdots\\).",
+        "Sustraer los términos \\(1+x\\) y dividir por \\(x^2\\).",
+        "Concluir que el límite es \\(\\frac{1}{2}\\)."
+      ]
+    },
+    {
+      "question": "Determine si la función es continua en \\(x=0\\): \\( f(x)=\\begin{cases} x^2, & x \\geq 0 \\\\ -x, & x < 0 \\end{cases} \\)",
+      "formula": "",
+      "options": [
+        "Sí, es continua.",
+        "No, no es continua.",
+        "Continua solo por la derecha.",
+        "Continua solo por la izquierda."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ambos lados de \\(x=0\\) tienen límite 0 y el valor de la función en 0 es 0, por lo que la función es continua en ese punto.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el límite cuando \\(x\\) se acerca a 0 por la derecha: \\(\\lim_{x \\to 0^+} x^2=0\\).",
+        "Calcular el límite cuando \\(x\\) se acerca a 0 por la izquierda: \\(\\lim_{x \\to 0^-} (-x)=0\\).",
+        "Comparar ambos límites con el valor \\(f(0)=0\\) y concluir que es continua."
+      ]
+    },
+    {
+      "question": "Demuestre que el límite es 3.",
+      "formula": "\\( \\lim_{x \\to 1} \\frac{x^3 - 1}{x - 1} \\)",
+      "options": ["\\(1\\)", "\\(2\\)", "\\(3\\)", "\\(0\\)"],
+      "correctAnswer": 2,
+      "explanation": "Se factoriza el numerador como \\(x^3-1=(x-1)(x^2+x+1)\\) y tras cancelar \\(x-1\\) se evalúa en \\(x=1\\): \\(1^2+1+1=3\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Factorizar el numerador: \\(x^3-1=(x-1)(x^2+x+1)\\).",
+        "Cancelar el factor \\(x-1\\) en numerador y denominador.",
+        "Evaluar la expresión resultante en \\(x=1\\) para obtener 3."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{\\ln(1+x)}{x} \\)",
+      "options": ["\\(0\\)", "\\(1\\)", "\\(\\frac{1}{2}\\)", "\\(e\\)"],
+      "correctAnswer": 1,
+      "explanation": "Para \\(x\\) cercano a 0, \\(\\ln(1+x)\\) se comporta como \\(x\\), por lo que el límite es 1.",
+      "difficulty": "hard",
+      "procedure": [
+        "Utilizar la aproximación de la función logarítmica: \\(\\ln(1+x)\\approx x\\) para valores pequeños de \\(x\\).",
+        "Dividir \\(x\\) entre \\(x\\) y concluir que el límite es 1."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a infinito.",
+      "formula": "\\( \\lim_{x \\to \\infty} \\frac{5x^2 - 3x + 2}{2x^2 + x - 1} \\)",
+      "options": [
+        "\\(\\frac{5}{2}\\)",
+        "\\(\\frac{3}{2}\\)",
+        "\\(2\\)",
+        "\\(\\frac{5}{3}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Los términos de mayor grado en el numerador y denominador dominan la función. Se obtiene \\(\\frac{5x^2}{2x^2}=\\frac{5}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar los términos dominantes: \\(5x^2\\) en el numerador y \\(2x^2\\) en el denominador.",
+        "Simplificar la fracción resultante a \\(\\frac{5}{2}\\).",
+        "Concluir que el límite es \\(\\frac{5}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0 por la derecha.",
+      "formula": "\\( \\lim_{x \\to 0^+} x \\ln(x) \\)",
+      "options": ["\\(0\\)", "\\(1\\)", "\\(\\infty\\)", "\\(-\\infty\\)"],
+      "correctAnswer": 0,
+      "explanation": "Aunque \\(\\ln(x)\\) tiende a \\(-\\infty\\) al acercarse a 0, el factor \\(x\\) domina y el producto tiende a 0.",
+      "difficulty": "hard",
+      "procedure": [
+        "Analizar el comportamiento de \\(x\\) y \\(\\ln(x)\\) cuando \\(x\\) se aproxima a 0.",
+        "Observar que \\(x\\) tiende a 0 más rápido que \\(\\ln(x)\\) tiende a \\(-\\infty\\).",
+        "Concluir que el límite es 0."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{\\tan(x) - x}{x^3} \\)",
+      "options": [
+        "\\(0\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(\\frac{1}{3}\\)",
+        "\\(\\frac{1}{6}\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Utilizando la expansión en serie de \\(\\tan(x)\\) se obtiene \\(\\tan(x)\\approx x+\\frac{x^3}{3}\\). Al restar \\(x\\) y dividir por \\(x^3\\), el límite es \\(\\frac{1}{3}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Expandir \\(\\tan(x)\\) en serie de Taylor: \\(\\tan(x)\\approx x+\\frac{x^3}{3}+\\cdots\\).",
+        "Restar \\(x\\) y dividir la diferencia por \\(x^3\\).",
+        "Concluir que el límite es \\(\\frac{1}{3}\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{\\sin(2x)}{\\sin(3x)} \\)",
+      "options": [
+        "\\(\\frac{3}{2}\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(\\frac{2}{3}\\)",
+        "\\(\\frac{2}{5}\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Para \\(x\\) pequeño, \\(\\sin(ax)\\approx ax\\). Así, el límite se convierte en \\(\\frac{2x}{3x}=\\frac{2}{3}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la aproximación: \\(\\sin(2x)\\approx 2x\\) y \\(\\sin(3x)\\approx 3x\\).",
+        "Simplificar la fracción \\(\\frac{2x}{3x}\\).",
+        "Concluir que el límite es \\(\\frac{2}{3}\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{e^{2x} - e^{-x}}{x} \\)",
+      "options": ["\\(2\\)", "\\(3\\)", "\\(1\\)", "\\(0\\)"],
+      "correctAnswer": 1,
+      "explanation": "Expandiendo \\(e^{2x}\\) y \\(e^{-x}\\) en series se tiene: \\(e^{2x}\\approx 1+2x\\) y \\(e^{-x}\\approx 1-x\\). La diferencia es \\(3x\\) y al dividir por \\(x\\) se obtiene 3.",
+      "difficulty": "hard",
+      "procedure": [
+        "Usar la aproximación de la serie de Taylor para \\(e^{2x}\\) y \\(e^{-x}\\).",
+        "Restar ambas expansiones: \\((1+2x)-(1-x)=3x\\).",
+        "Dividir \\(3x\\) entre \\(x\\) y obtener 3."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función.",
+      "formula": "\\( \\lim_{x \\to \\infty} \\left(1+\\frac{1}{x}\\right)^x \\)",
+      "options": ["\\(1\\)", "\\(0\\)", "\\(\\infty\\)", "\\(e\\)"],
+      "correctAnswer": 3,
+      "explanation": "Este límite es la definición clásica de la constante \\(e\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Reconocer la expresión como la definición de \\(e\\).",
+        "Observar que al tender \\(x\\) a infinito, \\(\\left(1+\\frac{1}{x}\\right)^x\\) converge a \\(e\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{\\sqrt{1+x} - 1}{x} \\)",
+      "options": [
+        "\\(\\frac{1}{2}\\)",
+        "\\(1\\)",
+        "\\(0\\)",
+        "\\(\\frac{1}{4}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Utilizando la expansión en serie de la raíz cuadrada, se obtiene que el término lineal es \\(\\frac{x}{2}\\), por lo que el límite es \\(\\frac{1}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Expandir \\(\\sqrt{1+x}\\) usando la serie de Taylor: \\(\\sqrt{1+x}\\approx 1+\\frac{x}{2}+\\cdots\\).",
+        "Restar 1 y dividir por \\(x\\) para obtener \\(\\frac{1}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{\\cos(x) - 1}{x^2} \\)",
+      "options": [
+        "\\(\\frac{1}{2}\\)",
+        "\\(0\\)",
+        "\\(-\\frac{1}{2}\\)",
+        "\\(-1\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Utilizando la expansión en serie de \\(\\cos(x)\\): \\(\\cos(x)\\approx1-\\frac{x^2}{2}\\), se deduce que la diferencia \\(\\cos(x)-1\\) es aproximadamente \\(-\\frac{x^2}{2}\\), lo que al dividir por \\(x^2\\) da \\(-\\frac{1}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Expresar \\(\\cos(x)\\) mediante su serie de Taylor.",
+        "Obtener que \\(\\cos(x)-1\\approx -\\frac{x^2}{2}\\).",
+        "Dividir por \\(x^2\\) y concluir que el límite es \\(-\\frac{1}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{\\ln(\\cos(x))}{x^2} \\)",
+      "options": [
+        "\\(0\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(-1\\)",
+        "\\(-\\frac{1}{2}\\)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Para \\(x\\) pequeño, se tiene \\(\\ln(\\cos(x))\\sim -\\frac{x^2}{2}\\), de modo que el límite resulta ser \\(-\\frac{1}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Utilizar la aproximación: \\(\\cos(x)\\approx1-\\frac{x^2}{2}\\).",
+        "Aplicar el logaritmo y aproximar: \\(\\ln(\\cos(x))\\approx -\\frac{x^2}{2}\\).",
+        "Dividir por \\(x^2\\) y obtener \\(-\\frac{1}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{\\sin(x)-x+\\frac{x^3}{6}}{x^5} \\)",
+      "options": [
+        "\\(\\frac{1}{120}\\)",
+        "\\(\\frac{1}{6}\\)",
+        "\\(0\\)",
+        "\\(\\frac{1}{24}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Utilizando la serie de Taylor de \\(\\sin(x)\\), se obtiene que el numerador equivale a \\(\\frac{x^5}{120}\\), de donde se deduce que el límite es \\(\\frac{1}{120}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Expresar \\(\\sin(x)\\) mediante su serie de Taylor: \\(\\sin(x)=x-\\frac{x^3}{6}+\\frac{x^5}{120}+\\cdots\\).",
+        "Simplificar la expresión \\(\\sin(x)-x+\\frac{x^3}{6}\\) para obtener \\(\\frac{x^5}{120}\\).",
+        "Dividir por \\(x^5\\) y concluir que el límite es \\(\\frac{1}{120}\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{e^{\\sin(x)} - 1}{x} \\)",
+      "options": ["\\(0\\)", "\\(1\\)", "\\(e\\)", "\\(\\frac{1}{2}\\)"],
+      "correctAnswer": 1,
+      "explanation": "Para valores pequeños de \\(x\\), \\(\\sin(x)\\approx x\\) y \\(e^x\\approx 1+x\\), por lo que el límite es 1.",
+      "difficulty": "hard",
+      "procedure": [
+        "Aproximar \\(\\sin(x)\\) por \\(x\\) y \\(e^{\\sin(x)}\\) por \\(1+\\sin(x)\\).",
+        "Observar que \\(e^{\\sin(x)}-1\\approx x\\).",
+        "Dividir por \\(x\\) y concluir que el límite es 1."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{\\tan(x) - \\sin(x)}{x^3} \\)",
+      "options": [
+        "\\(\\frac{1}{3}\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(0\\)",
+        "\\(\\frac{1}{6}\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Utilizando las series de Taylor para \\(\\tan(x)\\) y \\(\\sin(x)\\), se demuestra que \\(\\tan(x)-\\sin(x)\\sim \\frac{x^3}{2}\\), lo que implica que el límite es \\(\\frac{1}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Expandir \\(\\tan(x)\\) y \\(\\sin(x)\\) en series de Taylor.",
+        "Restar las series para obtener el término de orden \\(x^3\\).",
+        "Dividir por \\(x^3\\) y concluir que el límite es \\(\\frac{1}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{\\sqrt{1+2x} - \\sqrt{1-3x}}{x} \\)",
+      "options": [
+        "\\(\\frac{3}{2}\\)",
+        "\\(2\\)",
+        "\\(1\\)",
+        "\\(\\frac{5}{2}\\)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Mediante la expansión en serie de las raíces, se obtiene que \\(\\sqrt{1+2x}\\approx 1+x\\) y \\(\\sqrt{1-3x}\\approx 1-1.5x\\); su diferencia es aproximadamente \\(2.5x\\), por lo que el límite es \\(\\frac{5}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Expandir \\(\\sqrt{1+2x}\\) y \\(\\sqrt{1-3x}\\) usando series de Taylor.",
+        "Restar las dos expresiones para obtener \\(2.5x\\).",
+        "Dividir por \\(x\\) y concluir que el límite es \\(\\frac{5}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{\\ln(1+3x) - \\ln(1-2x)}{x} \\)",
+      "options": ["\\(3\\)", "\\(2\\)", "\\(5\\)", "\\(1\\)"],
+      "correctAnswer": 2,
+      "explanation": "Utilizando propiedades logarítmicas y la expansión en serie, se deduce que la diferencia es \\(3x - (-2x)=5x\\) y al dividir por \\(x\\) se obtiene 5.",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la propiedad de los logaritmos: \\(\\ln(a)-\\ln(b)=\\ln(\\frac{a}{b})\\).",
+        "Expresar \\(\\ln(1+3x)\\) y \\(\\ln(1-2x)\\) en serie de Taylor.",
+        "Concluir que el límite es 5."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{\\cos(3x) - \\cos(5x)}{x^2} \\)",
+      "options": ["\\(\\frac{1}{2}\\)", "\\(2\\)", "\\(8\\)", "\\(4\\)"],
+      "correctAnswer": 2,
+      "explanation": "Mediante la expansión en serie, se obtiene que \\(\\cos(3x)\\approx 1-\\frac{9x^2}{2}\\) y \\(\\cos(5x)\\approx 1-\\frac{25x^2}{2}\\); la diferencia da \\(\\frac{16x^2}{2}=8x^2\\), y al dividir por \\(x^2\\) se obtiene 8.",
+      "difficulty": "hard",
+      "procedure": [
+        "Expandir \\(\\cos(3x)\\) y \\(\\cos(5x)\\) en series de Taylor.",
+        "Restar las dos series para obtener un término de \\(x^2\\).",
+        "Dividir por \\(x^2\\) y concluir que el límite es 8."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a infinito.",
+      "formula": "\\( \\lim_{x \\to \\infty} \\left( \\sqrt{x^2+x} - x \\right) \\)",
+      "options": [
+        "\\(1\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(\\frac{1}{3}\\)",
+        "\\(0\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Al factorizar \\(x\\) y simplificar la expresión, se demuestra que el límite es \\(\\frac{1}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Extraer \\(x\\) de la raíz: \\(\\sqrt{x^2+x}=x\\sqrt{1+\\frac{1}{x}}\\).",
+        "Utilizar la expansión de la raíz para \\(\\frac{1}{x}\\) pequeño.",
+        "Concluir que el límite es \\(\\frac{1}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{\\arctan(x)}{x} \\)",
+      "options": ["\\(0\\)", "\\(1\\)", "\\(\\frac{1}{2}\\)", "\\(\\infty\\)"],
+      "correctAnswer": 1,
+      "explanation": "Para \\(x\\) pequeño, \\(\\arctan(x)\\approx x\\), por lo que la división \\(\\frac{x}{x}\\) da 1.",
+      "difficulty": "hard",
+      "procedure": [
+        "Utilizar la aproximación lineal de \\(\\arctan(x)\\) para valores pequeños de \\(x\\).",
+        "Dividir \\(x\\) entre \\(x\\) y obtener 1.",
+        "Concluir que el límite es 1."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{\\sin(x) - \\tan(x)}{x^3} \\)",
+      "options": [
+        "\\(\\frac{1}{2}\\)",
+        "\\(0\\)",
+        "\\(-\\frac{1}{2}\\)",
+        "\\(-1\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Utilizando las series de Taylor, se demuestra que \\(\\sin(x)-\\tan(x)\\sim -\\frac{x^3}{2}\\) y al dividir por \\(x^3\\) se obtiene \\(-\\frac{1}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Expandir \\(\\sin(x)\\) y \\(\\tan(x)\\) en series de Taylor.",
+        "Restar ambas series para identificar el término de \\(x^3\\).",
+        "Dividir por \\(x^3\\) y concluir que el límite es \\(-\\frac{1}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{e^x - \\cos(x)}{x} \\)",
+      "options": ["\\(0\\)", "\\(1\\)", "\\(e\\)", "\\(\\frac{1}{2}\\)"],
+      "correctAnswer": 1,
+      "explanation": "Utilizando las expansiones en series de \\(e^x\\) y \\(\\cos(x)\\), se demuestra que el límite es 1.",
+      "difficulty": "hard",
+      "procedure": [
+        "Expandir \\(e^x\\) como \\(1+x+\\cdots\\) y \\(\\cos(x)\\) como \\(1-\\frac{x^2}{2}+\\cdots\\).",
+        "Restar las dos expresiones y dividir por \\(x\\).",
+        "Concluir que el límite es 1."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{\\ln(1+x) - \\sin(x)}{x^2} \\)",
+      "options": [
+        "\\(-\\frac{1}{2}\\)",
+        "\\(0\\)",
+        "\\(1\\)",
+        "\\(\\frac{1}{2}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Expandiendo \\(\\ln(1+x)\\) y \\(\\sin(x)\\) en series, se deduce que la diferencia tiene término principal \\(-\\frac{x^2}{2}\\), de donde se obtiene \\(-\\frac{1}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Utilizar la serie de Taylor para \\(\\ln(1+x)\\): \\(x-\\frac{x^2}{2}+\\cdots\\).",
+        "Utilizar la serie de Taylor para \\(\\sin(x)\\): \\(x-\\frac{x^3}{6}+\\cdots\\).",
+        "Restar y dividir por \\(x^2\\) para concluir que el límite es \\(-\\frac{1}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a infinito.",
+      "formula": "\\( \\lim_{x \\to \\infty} \\frac{\\ln(x)}{x} \\)",
+      "options": ["\\(1\\)", "\\(\\frac{1}{2}\\)", "\\(\\infty\\)", "\\(0\\)"],
+      "correctAnswer": 3,
+      "explanation": "El logaritmo crece mucho más lentamente que la función lineal \\(x\\), por lo que el límite es 0.",
+      "difficulty": "hard",
+      "procedure": [
+        "Comparar el crecimiento de \\(\\ln(x)\\) y \\(x\\).",
+        "Concluir que \\(\\ln(x)\\) es insignificante frente a \\(x\\) cuando \\(x\\) tiende a infinito.",
+        "Obtener el límite 0."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{\\sqrt{1+x} - \\sqrt{1-x}}{x} \\)",
+      "options": ["\\(0\\)", "\\(\\frac{1}{2}\\)", "\\(1\\)", "\\(2\\)"],
+      "correctAnswer": 2,
+      "explanation": "Utilizando la expansión en serie para ambas raíces, se obtiene que \\(\\sqrt{1+x}\\approx 1+\\frac{x}{2}\\) y \\(\\sqrt{1-x}\\approx 1-\\frac{x}{2}\\), de donde su diferencia es \\(x\\) y el límite es 1.",
+      "difficulty": "hard",
+      "procedure": [
+        "Expandir \\(\\sqrt{1+x}\\) y \\(\\sqrt{1-x}\\) usando la serie de Taylor.",
+        "Restar las dos expresiones para obtener \\(x\\).",
+        "Dividir por \\(x\\) y concluir que el límite es 1."
+      ]
+    },
+
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{\\sin(5x)}{x} \\)",
+      "options": ["\\(3\\)", "\\(5\\)", "\\(7\\)", "\\(10\\)"],
+      "correctAnswer": 1,
+      "explanation": "Para valores pequeños de x, se utiliza la aproximación \\(\\sin(5x)\\approx 5x\\); al dividir por x se obtiene 5.",
+      "difficulty": "hard",
+      "procedure": [
+        "Aproximar \\(\\sin(5x)\\) por \\(5x\\) para x pequeño.",
+        "Dividir \\(5x\\) entre x.",
+        "Concluir que el límite es 5."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{\\tan(2x)}{x} \\)",
+      "options": ["\\(2\\)", "\\(1\\)", "\\(3\\)", "\\(4\\)"],
+      "correctAnswer": 0,
+      "explanation": "Utilizando la aproximación \\(\\tan(2x)\\approx 2x\\) para x pequeño, se tiene \\(\\frac{2x}{x}=2\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aproximar \\(\\tan(2x)\\) por \\(2x\\) cuando x es pequeño.",
+        "Simplificar la fracción \\(\\frac{2x}{x}\\).",
+        "Concluir que el límite es 2."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a infinito.",
+      "formula": "\\( \\lim_{x \\to \\infty} \\frac{2x+3}{3x-4} \\)",
+      "options": [
+        "\\(\\frac{2}{3}\\)",
+        "\\(\\frac{3}{2}\\)",
+        "\\(1\\)",
+        "\\(0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dividiendo numerador y denominador por x se obtiene \\(\\frac{2+3/x}{3-4/x}\\) que tiende a \\(\\frac{2}{3}\\) cuando x tiende a infinito.",
+      "difficulty": "hard",
+      "procedure": [
+        "Dividir numerador y denominador por x.",
+        "Observar que los términos \\(3/x\\) y \\(4/x\\) tienden a 0.",
+        "Concluir que el límite es \\(\\frac{2}{3}\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{e^{3x}-1}{x} \\)",
+      "options": ["\\(1\\)", "\\(2\\)", "\\(3\\)", "\\(4\\)"],
+      "correctAnswer": 2,
+      "explanation": "La expansión de \\(e^{3x}\\) para x pequeño es \\(1+3x+\\cdots\\), de donde se deduce que el límite es 3.",
+      "difficulty": "hard",
+      "procedure": [
+        "Utilizar la serie de Taylor de \\(e^{3x}\\): \\(1+3x+\\cdots\\).",
+        "Restar 1 y dividir por x.",
+        "Obtener el límite igual a 3."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{1-\\cos(4x)}{x^2} \\)",
+      "options": ["\\(4\\)", "\\(8\\)", "\\(16\\)", "\\(2\\)"],
+      "correctAnswer": 1,
+      "explanation": "Usando la aproximación \\(1-\\cos(4x)\\approx \\frac{(4x)^2}{2}=8x^2\\) se obtiene que el límite es 8.",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la serie de Taylor de \\(\\cos(4x)\\): \\(1-\\frac{(4x)^2}{2}+\\cdots\\).",
+        "Simplificar para obtener \\(8x^2\\) en el numerador.",
+        "Dividir por \\(x^2\\) y concluir que el límite es 8."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{\\ln(1+2x)}{x} \\)",
+      "options": ["\\(1\\)", "\\(2\\)", "\\(3\\)", "\\(0\\)"],
+      "correctAnswer": 1,
+      "explanation": "La serie de Taylor de \\(\\ln(1+2x)\\) es \\(2x+\\cdots\\), por lo que el límite es 2.",
+      "difficulty": "hard",
+      "procedure": [
+        "Expandir \\(\\ln(1+2x)\\) como \\(2x+\\cdots\\) para x pequeño.",
+        "Dividir el término lineal por x.",
+        "Concluir que el límite es 2."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{\\sin(x)-x}{x^3} \\)",
+      "options": [
+        "\\(-\\frac{1}{6}\\)",
+        "\\(\\frac{1}{6}\\)",
+        "\\(-\\frac{1}{3}\\)",
+        "\\(\\frac{1}{3}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La serie de Taylor de \\(\\sin(x)\\) es \\(x-\\frac{x^3}{6}+\\cdots\\); al restar x y dividir por \\(x^3\\) se obtiene \\(-\\frac{1}{6}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Utilizar la serie de Taylor de \\(\\sin(x)\\): \\(x-\\frac{x^3}{6}+\\cdots\\).",
+        "Restar x y dividir entre \\(x^3\\).",
+        "Concluir que el límite es \\(-\\frac{1}{6}\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a infinito.",
+      "formula": "\\( \\lim_{x \\to \\infty} \\left(\\sqrt{x^2+1}-x\\right) \\)",
+      "options": ["\\(0\\)", "\\(1\\)", "\\(\\frac{1}{2}\\)", "\\(\\infty\\)"],
+      "correctAnswer": 0,
+      "explanation": "Multiplicando y dividiendo por la conjugada, se demuestra que \\(\\sqrt{x^2+1}-x\\sim \\frac{1}{2x}\\) y al tender x a infinito el límite es 0.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplicar por la conjugada para simplificar la expresión.",
+        "Observar que el término resultante es \\(\\frac{1}{2x}\\).",
+        "Concluir que al tender x a infinito, el límite es 0."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{\\sqrt{1+3x}-\\sqrt{1-2x}}{x} \\)",
+      "options": [
+        "\\(\\frac{5}{2}\\)",
+        "\\(2\\)",
+        "\\(3\\)",
+        "\\(\\frac{3}{2}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando la expansión de la raíz: \\(\\sqrt{1+3x}\\approx 1+\\frac{3x}{2}\\) y \\(\\sqrt{1-2x}\\approx 1-\\frac{2x}{2}\\), la diferencia es \\(\\frac{5}{2}x\\), lo que al dividir por x da \\(\\frac{5}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Expandir ambas raíces usando la aproximación de Taylor.",
+        "Restar las expresiones para obtener \\(\\frac{5}{2}x\\).",
+        "Dividir por x y concluir que el límite es \\(\\frac{5}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{\\sin^2(x)}{1-\\cos(x)} \\)",
+      "options": ["\\(1\\)", "\\(2\\)", "\\(0\\)", "\\(\\frac{1}{2}\\)"],
+      "correctAnswer": 1,
+      "explanation": "Para x pequeño, \\(\\sin^2(x)\\approx x^2\\) y \\(1-\\cos(x)\\approx \\frac{x^2}{2}\\); al dividir se obtiene 2.",
+      "difficulty": "hard",
+      "procedure": [
+        "Utilizar las aproximaciones: \\(\\sin(x)\\approx x\\) y \\(1-\\cos(x)\\approx \\frac{x^2}{2}\\).",
+        "Elevar \\(\\sin(x)\\) al cuadrado para obtener \\(x^2\\).",
+        "Dividir \\(x^2\\) entre \\(\\frac{x^2}{2}\\) y obtener 2."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{e^x - e^{-x}}{x} \\)",
+      "options": ["\\(2\\)", "\\(1\\)", "\\(e\\)", "\\(0\\)"],
+      "correctAnswer": 0,
+      "explanation": "Utilizando la serie de Taylor de \\(e^x\\) y \\(e^{-x}\\), se obtiene \\(e^x-e^{-x}\\approx 2x\\) y al dividir por x el resultado es 2.",
+      "difficulty": "hard",
+      "procedure": [
+        "Expresar \\(e^x\\) y \\(e^{-x}\\) en series de Taylor.",
+        "Restar ambas series para obtener \\(2x\\).",
+        "Dividir por x y concluir que el límite es 2."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{5^x-1}{x} \\)",
+      "options": ["\\(\\ln(5)\\)", "\\(5\\)", "\\(1\\)", "\\(\\frac{1}{5}\\)"],
+      "correctAnswer": 0,
+      "explanation": "La fórmula \\( \\lim_{x\\to 0}\\frac{a^x-1}{x}=\\ln(a) \\) aplicada para a=5 da \\(\\ln(5)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar la identidad \\(\\lim_{x\\to 0}\\frac{a^x-1}{x}=\\ln(a)\\).",
+        "Sustituir a=5 y obtener \\(\\ln(5)\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{\\sin(3x)}{\\sin(5x)} \\)",
+      "options": [
+        "\\(\\frac{3}{5}\\)",
+        "\\(\\frac{5}{3}\\)",
+        "\\(1\\)",
+        "\\(\\frac{3}{2}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando la aproximación \\(\\sin(ax)\\approx ax\\) para x pequeño, se tiene \\(\\frac{3x}{5x}=\\frac{3}{5}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aproximar \\(\\sin(3x)\\) por \\(3x\\) y \\(\\sin(5x)\\) por \\(5x\\).",
+        "Dividir \\(3x\\) entre \\(5x\\).",
+        "Concluir que el límite es \\(\\frac{3}{5}\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{\\arcsin(x)}{x} \\)",
+      "options": ["\\(0\\)", "\\(1\\)", "\\(2\\)", "\\(\\infty\\)"],
+      "correctAnswer": 1,
+      "explanation": "La función \\(\\arcsin(x)\\) tiene derivada 1 en 0, por lo que el límite es 1.",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la definición de derivada para \\(\\arcsin(x)\\) en x=0.",
+        "Concluir que \\(\\frac{\\arcsin(x)}{x}\\) tiende a 1."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a infinito.",
+      "formula": "\\( \\lim_{x \\to \\infty} \\frac{\\ln(x+1)}{\\ln(x)} \\)",
+      "options": ["\\(1\\)", "\\(0\\)", "\\(\\infty\\)", "\\(2\\)"],
+      "correctAnswer": 0,
+      "explanation": "Para x grande, \\(\\ln(x+1)\\) y \\(\\ln(x)\\) son asintóticamente equivalentes, por lo que el límite es 1.",
+      "difficulty": "hard",
+      "procedure": [
+        "Observar que para x grande, la diferencia entre \\(\\ln(x+1)\\) y \\(\\ln(x)\\) es insignificante.",
+        "Concluir que el límite es 1."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{\\sqrt[3]{1+6x}-1}{x} \\)",
+      "options": ["\\(3\\)", "\\(2\\)", "\\(6\\)", "\\(1\\)"],
+      "correctAnswer": 1,
+      "explanation": "Usando la expansión de la raíz cúbica, \\(\\sqrt[3]{1+6x}\\approx 1+\\frac{6x}{3}=1+2x\\), se obtiene que el límite es 2.",
+      "difficulty": "hard",
+      "procedure": [
+        "Expandir \\(\\sqrt[3]{1+6x}\\) usando la serie de Taylor.",
+        "Obtener \\(1+2x\\) y restar 1.",
+        "Dividir por x y concluir que el límite es 2."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{e^{\\sin(x)}-1}{x} \\)",
+      "options": ["\\(0\\)", "\\(1\\)", "\\(e\\)", "\\(2\\)"],
+      "correctAnswer": 1,
+      "explanation": "Para x pequeño, \\(\\sin(x)\\approx x\\) y \\(e^x\\approx 1+x\\), por lo que el límite es 1.",
+      "difficulty": "hard",
+      "procedure": [
+        "Aproximar \\(\\sin(x)\\) por x.",
+        "Utilizar la expansión \\(e^x\\approx 1+x\\).",
+        "Concluir que \\(e^{\\sin(x)}-1\\approx x\\) y el límite es 1."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a infinito.",
+      "formula": "\\( \\lim_{x \\to \\infty} \\frac{x}{e^x} \\)",
+      "options": ["\\(0\\)", "\\(1\\)", "\\(\\infty\\)", "\\(e\\)"],
+      "correctAnswer": 0,
+      "explanation": "La función exponencial crece mucho más rápido que la función lineal, de modo que el límite es 0.",
+      "difficulty": "hard",
+      "procedure": [
+        "Comparar el crecimiento de x y \\(e^x\\).",
+        "Concluir que \\(\\frac{x}{e^x}\\) tiende a 0 al aumentar x."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{\\ln(1+x)-\\sin(x)}{x^2} \\)",
+      "options": [
+        "\\(-\\frac{1}{2}\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(0\\)",
+        "\\(-1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Expandiendo \\(\\ln(1+x)\\approx x-\\frac{x^2}{2}\\) y \\(\\sin(x)\\approx x-\\frac{x^3}{6}\\), se obtiene que el término de orden \\(x^2\\) es \\(-\\frac{x^2}{2}\\), resultando en \\(-\\frac{1}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Utilizar la serie de Taylor para \\(\\ln(1+x)\\) y \\(\\sin(x)\\).",
+        "Restar las expresiones y aislar el término de \\(x^2\\).",
+        "Dividir por \\(x^2\\) y concluir que el límite es \\(-\\frac{1}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{\\cos(x)-1+\\frac{x^2}{2}}{x^4} \\)",
+      "options": [
+        "\\(\\frac{1}{24}\\)",
+        "\\(\\frac{1}{6}\\)",
+        "\\(\\frac{1}{12}\\)",
+        "\\(\\frac{1}{48}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La expansión de \\(\\cos(x)\\) es \\(1-\\frac{x^2}{2}+\\frac{x^4}{24}+\\cdots\\); tras cancelar, se obtiene que el término dominante es \\(\\frac{x^4}{24}\\), por lo que el límite es \\(\\frac{1}{24}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Expandir \\(\\cos(x)\\) en serie de Taylor.",
+        "Cancelar los términos constantes y de segundo orden.",
+        "Dividir el término de cuarto orden por \\(x^4\\) y obtener \\(\\frac{1}{24}\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{\\tan(x)-x}{x^3} \\)",
+      "options": [
+        "\\(\\frac{1}{3}\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(\\frac{1}{6}\\)",
+        "\\(0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La expansión de \\(\\tan(x)\\) es \\(x+\\frac{x^3}{3}+\\cdots\\); al restar x y dividir por \\(x^3\\), el límite es \\(\\frac{1}{3}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Utilizar la serie de Taylor de \\(\\tan(x)\\): \\(x+\\frac{x^3}{3}+\\cdots\\).",
+        "Restar x y dividir el resultado entre \\(x^3\\).",
+        "Concluir que el límite es \\(\\frac{1}{3}\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{1-\\cos(2x)}{\\sin^2(x)} \\)",
+      "options": ["\\(1\\)", "\\(2\\)", "\\(0\\)", "\\(\\frac{1}{2}\\)"],
+      "correctAnswer": 1,
+      "explanation": "Utilizando la identidad \\(1-\\cos(2x)=2\\sin^2(x)\\), la fracción se simplifica a 2.",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar la identidad trigonométrica \\(1-\\cos(2x)=2\\sin^2(x)\\).",
+        "Sustituir en la expresión y simplificar.",
+        "Concluir que el límite es 2."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a infinito.",
+      "formula": "\\( \\lim_{x \\to \\infty} \\left(\\frac{3x+1}{3x-1}\\right)^x \\)",
+      "options": ["\\(e^{2/3}\\)", "\\(e\\)", "\\(1\\)", "\\(0\\)"],
+      "correctAnswer": 0,
+      "explanation": "La expresión se puede escribir como \\(\\left(1+\\frac{2}{3x-1}\\right)^x\\); al tomar el límite se obtiene \\(e^{2/3}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Reescribir la fracción como \\(1+\\frac{2}{3x-1}\\).",
+        "Aplicar el límite de la forma \\(\\left(1+\\frac{a}{x}\\right)^x\\).",
+        "Concluir que el límite es \\(e^{2/3}\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{\\sin(4x)}{2x} \\)",
+      "options": ["\\(2\\)", "\\(4\\)", "\\(1\\)", "\\(\\frac{1}{2}\\)"],
+      "correctAnswer": 0,
+      "explanation": "Aproximando \\(\\sin(4x)\\approx 4x\\), la fracción se convierte en \\(\\frac{4x}{2x}=2\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Usar la aproximación \\(\\sin(4x)\\approx 4x\\) para x pequeño.",
+        "Simplificar \\(\\frac{4x}{2x}\\).",
+        "Concluir que el límite es 2."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{\\sqrt{1+x}-\\sqrt{1-x}}{x} \\)",
+      "options": ["\\(1\\)", "\\(2\\)", "\\(0\\)", "\\(\\frac{1}{2}\\)"],
+      "correctAnswer": 0,
+      "explanation": "Expandiendo las raíces: \\(\\sqrt{1+x}\\approx 1+\\frac{x}{2}\\) y \\(\\sqrt{1-x}\\approx 1-\\frac{x}{2}\\), su diferencia es x, de donde el límite es 1.",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la expansión de Taylor para \\(\\sqrt{1+x}\\) y \\(\\sqrt{1-x}\\).",
+        "Restar ambas expresiones para obtener x.",
+        "Dividir por x y concluir que el límite es 1."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{e^{2x}-e^{-2x}}{\\sin(3x)} \\)",
+      "options": [
+        "\\(\\frac{4}{3}\\)",
+        "\\(2\\)",
+        "\\(\\frac{2}{3}\\)",
+        "\\(1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Expandiendo \\(e^{2x}-e^{-2x}\\approx 4x\\) y \\(\\sin(3x)\\approx 3x\\) para x pequeño, el límite es \\(\\frac{4x}{3x}=\\frac{4}{3}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Utilizar la serie de Taylor para \\(e^{2x}\\) y \\(e^{-2x}\\).",
+        "Aproximar \\(e^{2x}-e^{-2x}\\) como 4x.",
+        "Aproximar \\(\\sin(3x)\\) como 3x y dividir para obtener \\(\\frac{4}{3}\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{\\ln(1+x^2)}{x} \\)",
+      "options": ["\\(0\\)", "\\(1\\)", "\\(2\\)", "\\(\\infty\\)"],
+      "correctAnswer": 0,
+      "explanation": "Para x pequeño, \\(\\ln(1+x^2)\\approx x^2\\); al dividir por x se obtiene un término de orden x que tiende a 0.",
+      "difficulty": "hard",
+      "procedure": [
+        "Utilizar la aproximación \\(\\ln(1+x^2)\\approx x^2\\).",
+        "Dividir \\(x^2\\) entre x para obtener x.",
+        "Concluir que al tender x a 0, el límite es 0."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{\\arctan(2x)}{\\arctan(3x)} \\)",
+      "options": [
+        "\\(\\frac{2}{3}\\)",
+        "\\(\\frac{3}{2}\\)",
+        "\\(1\\)",
+        "\\(0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Para x pequeño, \\(\\arctan(2x)\\approx 2x\\) y \\(\\arctan(3x)\\approx 3x\\); dividiendo se obtiene \\(\\frac{2}{3}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aproximar \\(\\arctan(2x)\\) por 2x y \\(\\arctan(3x)\\) por 3x.",
+        "Dividir las dos aproximaciones.",
+        "Concluir que el límite es \\(\\frac{2}{3}\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\( \\lim_{x \\to 0} \\frac{\\sqrt{1+5x}-\\sqrt{1-x}}{x} \\)",
+      "options": ["\\(3\\)", "\\(2\\)", "\\(5\\)", "\\(\\frac{5}{2}\\)"],
+      "correctAnswer": 0,
+      "explanation": "Expandiendo ambas raíces: \\(\\sqrt{1+5x}\\approx 1+\\frac{5x}{2}\\) y \\(\\sqrt{1-x}\\approx 1-\\frac{x}{2}\\); la diferencia es \\(3x\\) y al dividir por x se obtiene 3.",
+      "difficulty": "hard",
+      "procedure": [
+        "Utilizar la serie de Taylor para \\(\\sqrt{1+5x}\\) y \\(\\sqrt{1-x}\\).",
+        "Obtener las aproximaciones: \\(1+\\frac{5x}{2}\\) y \\(1-\\frac{x}{2}\\).",
+        "Restar y dividir por x para concluir que el límite es 3."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a infinito.",
+      "formula": "\\( \\lim_{x \\to \\infty} \\frac{3x^2+2}{2x^2-5} \\)",
+      "options": [
+        "\\(\\frac{3}{2}\\)",
+        "\\(\\frac{2}{3}\\)",
+        "\\(1\\)",
+        "\\(2\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Los términos de mayor grado dominan la función; dividiendo \\(3x^2\\) entre \\(2x^2\\) se obtiene \\(\\frac{3}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar los términos de mayor grado en el numerador y denominador.",
+        "Dividir \\(3x^2\\) entre \\(2x^2\\).",
+        "Concluir que el límite es \\(\\frac{3}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\sin(7x)}{x}\\)",
+      "options": ["\\(5\\)", "\\(6\\)", "\\(7\\)", "\\(8\\)"],
+      "correctAnswer": 2,
+      "explanation": "Para valores pequeños de x, se usa la aproximación \\(\\sin(7x) \\approx 7x\\). Al dividir \\(7x\\) entre x, el límite es 7.",
+      "difficulty": "hard",
+      "procedure": [
+        "Utilizar la aproximación lineal: \\(\\sin(7x) \\approx 7x\\).",
+        "Dividir \\(7x\\) entre x.",
+        "Concluir que el límite es 7."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{1-\\cos(3x)}{x^2}\\)",
+      "options": ["\\(3\\)", "\\(\\frac{9}{2}\\)", "\\(6\\)", "\\(4\\)"],
+      "correctAnswer": 1,
+      "explanation": "Utilizando la expansión de Taylor: \\(1-\\cos(3x)\\approx \\frac{(3x)^2}{2} = \\frac{9x^2}{2}\\). Al dividir por \\(x^2\\), el límite es \\(\\frac{9}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Expandir \\(\\cos(3x)\\) en serie: \\(\\cos(3x)\\approx 1-\\frac{(3x)^2}{2}\\).",
+        "Obtener \\(1-\\cos(3x) \\approx \\frac{9x^2}{2}\\).",
+        "Dividir entre \\(x^2\\) para llegar a \\(\\frac{9}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\tan(5x)}{x}\\)",
+      "options": ["\\(5\\)", "\\(4\\)", "\\(1\\)", "\\(7\\)"],
+      "correctAnswer": 0,
+      "explanation": "Para valores pequeños de x, \\(\\tan(5x)\\approx 5x\\). Dividiendo \\(5x\\) entre x se obtiene 5.",
+      "difficulty": "hard",
+      "procedure": [
+        "Aproximar \\(\\tan(5x)\\) por \\(5x\\) para x pequeño.",
+        "Dividir \\(5x\\) entre x.",
+        "Concluir que el límite es 5."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{e^{4x}-1-4x}{x^2}\\)",
+      "options": ["\\(4\\)", "\\(6\\)", "\\(8\\)", "\\(10\\)"],
+      "correctAnswer": 2,
+      "explanation": "La expansión de \\(e^{4x}\\) es \\(1+4x+8x^2+\\cdots\\). Al restar 1+4x, queda \\(8x^2\\), y dividiendo por \\(x^2\\) se obtiene 8.",
+      "difficulty": "hard",
+      "procedure": [
+        "Utilizar la serie de Taylor de \\(e^{4x}\\): \\(1+4x+8x^2+\\cdots\\).",
+        "Restar 1 y 4x, dejando \\(8x^2\\).",
+        "Dividir entre \\(x^2\\) para obtener 8."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a infinito.",
+      "formula": "\\(\\lim_{x \\to \\infty} \\left(\\sqrt{9x^2+2x}-3x\\right)\\)",
+      "options": [
+        "\\(\\frac{1}{3}\\)",
+        "\\(\\frac{2}{3}\\)",
+        "\\(1\\)",
+        "\\(0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se factoriza \\(3x\\) en la raíz: \\(\\sqrt{9x^2+2x}=3x\\sqrt{1+\\frac{2}{9x}} \\approx 3x\\left(1+\\frac{1}{9x}\\right)=3x+\\frac{1}{3}\\). La diferencia con \\(3x\\) es \\(\\frac{1}{3}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Factorizar \\(3x\\) de la raíz: \\(\\sqrt{9x^2+2x}=3x\\sqrt{1+\\frac{2}{9x}}\\).",
+        "Utilizar la aproximación \\(\\sqrt{1+u}\\approx 1+\\frac{u}{2}\\) para u pequeño.",
+        "Determinar que la diferencia tiende a \\(\\frac{1}{3}\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\ln(1+7x)}{x}\\)",
+      "options": ["\\(5\\)", "\\(6\\)", "\\(7\\)", "\\(8\\)"],
+      "correctAnswer": 2,
+      "explanation": "Para x pequeño, la expansión de \\(\\ln(1+7x)\\) es \\(7x\\). Dividiendo por x se obtiene 7.",
+      "difficulty": "hard",
+      "procedure": [
+        "Usar la aproximación: \\(\\ln(1+7x)\\approx 7x\\) para x pequeño.",
+        "Dividir \\(7x\\) entre x.",
+        "Concluir que el límite es 7."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\arctan(4x)}{x}\\)",
+      "options": ["\\(4\\)", "\\(2\\)", "\\(1\\)", "\\(0\\)"],
+      "correctAnswer": 0,
+      "explanation": "La aproximación lineal de \\(\\arctan(4x)\\) es \\(4x\\) para x pequeño. Dividiendo \\(4x\\) entre x, el límite es 4.",
+      "difficulty": "hard",
+      "procedure": [
+        "Aproximar \\(\\arctan(4x)\\) como \\(4x\\).",
+        "Dividir \\(4x\\) entre x.",
+        "Concluir que el límite es 4."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\(\\lim_{x \\to 0} \\left(1+2x\\right)^{\\frac{1}{x}}\\)",
+      "options": ["\\(e^2\\)", "\\(e\\)", "\\(2\\)", "\\(1\\)"],
+      "correctAnswer": 0,
+      "explanation": "Usando la definición de la exponencial: \\(\\lim_{x\\to0} (1+ax)^{1/x}=e^a\\) con a=2, el límite es \\(e^2\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar la fórmula \\(\\lim_{x\\to0} (1+ax)^{1/x}=e^a\\).",
+        "Sustituir a=2.",
+        "Concluir que el límite es \\(e^2\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{(1+x)^{1/x}-e}{x}\\)",
+      "options": [
+        "\\(-\\frac{e}{2}\\)",
+        "\\(\\frac{e}{2}\\)",
+        "\\(-e\\)",
+        "\\(e\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La expansión de \\((1+x)^{1/x}\\) es \\(e\\left(1-\\frac{x}{2}+\\cdots\\right)\\). Restando e y dividiendo por x se obtiene \\(-\\frac{e}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Utilizar la expansión: \\((1+x)^{1/x} \\approx e\\left(1-\\frac{x}{2}\\right)\\).",
+        "Restar e y dividir el residuo por x.",
+        "Concluir que el límite es \\(-\\frac{e}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a infinito.",
+      "formula": "\\(\\lim_{x \\to \\infty} \\frac{2x+3}{x-1}\\)",
+      "options": ["\\(2\\)", "\\(3\\)", "\\(1\\)", "\\(0\\)"],
+      "correctAnswer": 0,
+      "explanation": "Dividiendo numerador y denominador por x se obtiene \\(\\frac{2+3/x}{1-1/x}\\). Al dejar x tender a infinito, el límite es 2.",
+      "difficulty": "hard",
+      "procedure": [
+        "Dividir numerador y denominador por x.",
+        "Observar que los términos \\(3/x\\) y \\(1/x\\) tienden a 0.",
+        "Concluir que el límite es 2."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\sin(2x)-2\\sin(x)}{x^3}\\)",
+      "options": ["\\(-1\\)", "\\(0\\)", "\\(1\\)", "\\(\\frac{1}{2}\\)"],
+      "correctAnswer": 0,
+      "explanation": "Utilizando las series de Taylor, \\(\\sin(2x)=2x-\\frac{8x^3}{6}+\\cdots\\) y \\(2\\sin(x)=2x-\\frac{2x^3}{6}+\\cdots\\). La diferencia es \\(-x^3\\), dividiendo entre \\(x^3\\) el límite es \\(-1\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Expandir \\(\\sin(2x)\\) y \\(\\sin(x)\\) en series de Taylor.",
+        "Restar \\(2\\sin(x)\\) de \\(\\sin(2x)\\) para obtener el término en \\(x^3\\).",
+        "Dividir por \\(x^3\\) y concluir que el límite es \\(-1\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\tan(x)-\\sin(x)}{x^3}\\)",
+      "options": [
+        "\\(\\frac{1}{2}\\)",
+        "\\(\\frac{1}{3}\\)",
+        "\\(0\\)",
+        "\\(-\\frac{1}{2}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Las expansiones en serie dan \\(\\tan(x)=x+\\frac{x^3}{3}+\\cdots\\) y \\(\\sin(x)=x-\\frac{x^3}{6}+\\cdots\\). La diferencia es \\(\\frac{x^3}{2}\\); dividiendo por \\(x^3\\), se obtiene \\(\\frac{1}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Expandir \\(\\tan(x)\\) y \\(\\sin(x)\\) en series de Taylor.",
+        "Restar las series para identificar el término de \\(x^3\\).",
+        "Dividir por \\(x^3\\) y concluir que el límite es \\(\\frac{1}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función usando una identidad trigonométrica.",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{1-\\cos(2x)}{\\sin^2(x)}\\)",
+      "options": ["\\(1\\)", "\\(2\\)", "\\(3\\)", "\\(4\\)"],
+      "correctAnswer": 1,
+      "explanation": "Recordando la identidad \\(1-\\cos(2x)=2\\sin^2(x)\\), la fracción se simplifica a 2.",
+      "difficulty": "hard",
+      "procedure": [
+        "Utilizar la identidad trigonométrica: \\(1-\\cos(2x)=2\\sin^2(x)\\).",
+        "Simplificar la expresión.",
+        "Concluir que el límite es 2."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a infinito.",
+      "formula": "\\(\\lim_{x \\to \\infty} \\left(\\ln(x+2)-\\ln(x)\\right)\\)",
+      "options": ["\\(0\\)", "\\(1\\)", "\\(2\\)", "\\(\\infty\\)"],
+      "correctAnswer": 0,
+      "explanation": "La diferencia \\(\\ln(x+2)-\\ln(x)=\\ln\\left(1+\\frac{2}{x}\\right)\\) tiende a \\(\\ln(1)=0\\) conforme \\(x\\) tiende a infinito.",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la propiedad logarítmica: \\(\\ln(a)-\\ln(b)=\\ln\\left(\\frac{a}{b}\\right)\\).",
+        "Observar que \\(\\frac{x+2}{x}=1+\\frac{2}{x}\\) tiende a 1.",
+        "Concluir que el límite es 0."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{e^{\\sin(x)}-1}{x}\\)",
+      "options": ["\\(1\\)", "\\(e\\)", "\\(0\\)", "\\(2\\)"],
+      "correctAnswer": 0,
+      "explanation": "Para x pequeño, \\(\\sin(x)\\approx x\\) y \\(e^{x}\\approx 1+x\\); por lo tanto, el límite es 1.",
+      "difficulty": "hard",
+      "procedure": [
+        "Aproximar \\(\\sin(x)\\) por x y \\(e^{\\sin(x)}\\) por \\(1+x\\).",
+        "Restar 1 y dividir por x.",
+        "Concluir que el límite es 1."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{1-e^{-3x}}{x}\\)",
+      "options": ["\\(3\\)", "\\(1\\)", "\\(0\\)", "\\(-3\\)"],
+      "correctAnswer": 0,
+      "explanation": "Expandiendo \\(e^{-3x}\\approx 1-3x\\) para x pequeño, se tiene que \\(1-e^{-3x}\\approx 3x\\). Dividiendo por x, el límite es 3.",
+      "difficulty": "hard",
+      "procedure": [
+        "Usar la aproximación: \\(e^{-3x}\\approx 1-3x\\).",
+        "Restar: \\(1-(1-3x)=3x\\).",
+        "Dividir entre x para obtener 3."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{(1+x)^5-1}{x}\\)",
+      "options": ["\\(5\\)", "\\(4\\)", "\\(1\\)", "\\(0\\)"],
+      "correctAnswer": 0,
+      "explanation": "Expandiendo \\((1+x)^5\\) se obtiene \\(1+5x+\\cdots\\). Al restar 1 y dividir por x, el límite es 5.",
+      "difficulty": "hard",
+      "procedure": [
+        "Expandir \\((1+x)^5\\) usando el binomio de Newton.",
+        "Restar 1 y dividir el término lineal por x.",
+        "Concluir que el límite es 5."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a infinito.",
+      "formula": "\\(\\lim_{x \\to \\infty} \\left(\\sqrt{x^2+4x}-x\\right)\\)",
+      "options": ["\\(2\\)", "\\(4\\)", "\\(0\\)", "\\(\\infty\\)"],
+      "correctAnswer": 0,
+      "explanation": "Se factoriza x en la raíz: \\(\\sqrt{x^2+4x}=x\\sqrt{1+\\frac{4}{x}}\\approx x\\left(1+\\frac{2}{x}\\right)=x+2\\). La diferencia \\((x+2)-x\\) es 2.",
+      "difficulty": "hard",
+      "procedure": [
+        "Extraer x de la raíz: \\(\\sqrt{x^2+4x}=x\\sqrt{1+\\frac{4}{x}}\\).",
+        "Aproximar \\(\\sqrt{1+\\frac{4}{x}}\\) para x grande.",
+        "Concluir que la diferencia tiende a 2."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\sin(3x)}{\\sin(7x)}\\)",
+      "options": [
+        "\\(\\frac{3}{7}\\)",
+        "\\(\\frac{7}{3}\\)",
+        "\\(1\\)",
+        "\\(0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Para x pequeño, \\(\\sin(3x)\\approx 3x\\) y \\(\\sin(7x)\\approx 7x\\). Dividiendo, se obtiene \\(\\frac{3}{7}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aproximar \\(\\sin(3x)\\) y \\(\\sin(7x)\\) por sus términos lineales.",
+        "Dividir \\(3x\\) entre \\(7x\\).",
+        "Concluir que el límite es \\(\\frac{3}{7}\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\tan(2x)-\\sin(2x)}{x^3}\\)",
+      "options": ["\\(4\\)", "\\(2\\)", "\\(0\\)", "\\(1\\)"],
+      "correctAnswer": 0,
+      "explanation": "Expandiendo en series: \\(\\tan(2x)=2x+\\frac{8}{3}x^3+\\cdots\\) y \\(\\sin(2x)=2x-\\frac{4}{3}x^3+\\cdots\\). La diferencia es \\(4x^3\\); dividiendo por \\(x^3\\), se obtiene 4.",
+      "difficulty": "hard",
+      "procedure": [
+        "Expandir \\(\\tan(2x)\\) y \\(\\sin(2x)\\) en series de Taylor.",
+        "Restar las series para obtener el término en \\(x^3\\).",
+        "Dividir por \\(x^3\\) y concluir que el límite es 4."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{e^{2x}-e^{-x}-3x}{x^2}\\)",
+      "options": ["\\(\\frac{3}{2}\\)", "\\(3\\)", "\\(2\\)", "\\(1\\)"],
+      "correctAnswer": 0,
+      "explanation": "Utilizando las series de Taylor: \\(e^{2x}=1+2x+2x^2+\\cdots\\) y \\(e^{-x}=1-x+\\frac{x^2}{2}+\\cdots\\). Al combinar y cancelar el término lineal, el término en \\(x^2\\) resulta en \\(\\frac{3}{2}x^2\\); dividiendo por \\(x^2\\) se obtiene \\(\\frac{3}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Expandir \\(e^{2x}\\) y \\(e^{-x}\\) en series de Taylor.",
+        "Restar y cancelar el término lineal.",
+        "Dividir el término resultante en \\(x^2\\) para obtener \\(\\frac{3}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\cos(4x)-1}{x^2}\\)",
+      "options": ["\\(-8\\)", "\\(-4\\)", "\\(4\\)", "\\(8\\)"],
+      "correctAnswer": 0,
+      "explanation": "La expansión de \\(\\cos(4x)\\) es \\(1-8x^2+\\cdots\\); al restar 1 y dividir por \\(x^2\\), el límite es \\(-8\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Utilizar la serie de Taylor de \\(\\cos(4x)\\).",
+        "Obtener \\(\\cos(4x)-1 \\approx -8x^2\\).",
+        "Dividir entre \\(x^2\\) para obtener \\(-8\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a infinito.",
+      "formula": "\\(\\lim_{x \\to \\infty} \\frac{3x^3+2x}{5x^3-4}\\)",
+      "options": [
+        "\\(\\frac{3}{5}\\)",
+        "\\(\\frac{2}{5}\\)",
+        "\\(\\frac{5}{3}\\)",
+        "\\(1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Los términos de mayor grado en numerador y denominador son \\(3x^3\\) y \\(5x^3\\), respectivamente, por lo que el límite es \\(\\frac{3}{5}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar los términos dominantes en el numerador y denominador.",
+        "Dividir \\(3x^3\\) entre \\(5x^3\\).",
+        "Concluir que el límite es \\(\\frac{3}{5}\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\ln(1+2x)-2x}{x^2}\\)",
+      "options": ["\\(-2\\)", "\\(-\\frac{2}{2}\\)", "\\(-2\\)", "\\(-2\\)"],
+      "correctAnswer": 0,
+      "explanation": "En general, \\(\\ln(1+ax)\\approx ax-\\frac{a^2x^2}{2}\\) para x pequeño. Con a=2, la diferencia es \\(-\\frac{(2)^2}{2}x^2=-2x^2\\). Dividiendo entre \\(x^2\\), se obtiene \\(-2\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Utilizar la expansión \\(\\ln(1+2x)\\approx 2x-\\frac{4x^2}{2}\\).",
+        "Restar 2x y dividir el residuo por \\(x^2\\).",
+        "Concluir que el límite es \\(-2\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{(1+x)^{1/x}}{e}\\)",
+      "options": ["\\(1\\)", "\\(e\\)", "\\(0\\)", "\\(\\frac{1}{e}\\)"],
+      "correctAnswer": 0,
+      "explanation": "Se sabe que \\(\\lim_{x\\to0}(1+x)^{1/x}=e\\). Dividiendo por e, el límite es 1.",
+      "difficulty": "hard",
+      "procedure": [
+        "Utilizar la identidad \\(\\lim_{x\\to0}(1+x)^{1/x}=e\\).",
+        "Dividir el resultado por e.",
+        "Concluir que el límite es 1."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\arcsin(x)-x}{x^3}\\)",
+      "options": [
+        "\\(\\frac{1}{6}\\)",
+        "\\(\\frac{1}{3}\\)",
+        "\\(0\\)",
+        "\\(-\\frac{1}{6}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La expansión de \\(\\arcsin(x)\\) es \\(x+\\frac{x^3}{6}+\\cdots\\). Al restar x y dividir por \\(x^3\\), el límite es \\(\\frac{1}{6}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Expandir \\(\\arcsin(x)\\) en serie de Taylor.",
+        "Restar x y dividir entre \\(x^3\\).",
+        "Concluir que el límite es \\(\\frac{1}{6}\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\arctan(x)-x}{x^3}\\)",
+      "options": [
+        "\\(-\\frac{1}{3}\\)",
+        "\\(\\frac{1}{3}\\)",
+        "\\(0\\)",
+        "\\(-\\frac{1}{6}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La expansión de \\(\\arctan(x)\\) es \\(x-\\frac{x^3}{3}+\\cdots\\); al restar x y dividir por \\(x^3\\), el límite es \\(-\\frac{1}{3}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Utilizar la serie de Taylor para \\(\\arctan(x)\\).",
+        "Restar x y dividir entre \\(x^3\\).",
+        "Concluir que el límite es \\(-\\frac{1}{3}\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{e^x-1-x-\\frac{x^2}{2}}{x^3}\\)",
+      "options": [
+        "\\(\\frac{1}{6}\\)",
+        "\\(\\frac{1}{3}\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La expansión de \\(e^x\\) es \\(1+x+\\frac{x^2}{2}+\\frac{x^3}{6}+\\cdots\\). Al restar \\(1+x+\\frac{x^2}{2}\\) y dividir por \\(x^3\\), se obtiene \\(\\frac{1}{6}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Expandir \\(e^x\\) en serie de Taylor.",
+        "Restar los términos \\(1+x+\\frac{x^2}{2}\\).",
+        "Dividir entre \\(x^3\\) y concluir que el límite es \\(\\frac{1}{6}\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\sqrt{1+3x}-\\sqrt{1-2x}-\\frac{5x}{2}}{x^2}\\)",
+      "options": [
+        "\\(-\\frac{5}{8}\\)",
+        "\\(\\frac{5}{8}\\)",
+        "\\(0\\)",
+        "\\(-\\frac{1}{2}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Expandiendo las raíces: \\(\\sqrt{1+3x}\\approx 1+\\frac{3x}{2}-\\frac{9x^2}{8}\\) y \\(\\sqrt{1-2x}\\approx 1- x-\\frac{x^2}{2}\\). Su diferencia es \\(\\frac{5x}{2}-\\frac{5x^2}{8}\\). Al restar \\(\\frac{5x}{2}\\) y dividir por \\(x^2\\), el límite es \\(-\\frac{5}{8}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Expandir \\(\\sqrt{1+3x}\\) y \\(\\sqrt{1-2x}\\) en series de Taylor hasta el término de \\(x^2\\).",
+        "Restar las dos series y luego sustraer \\(\\frac{5x}{2}\\).",
+        "Dividir el resultado entre \\(x^2\\) para obtener \\(-\\frac{5}{8}\\)."
+      ]
+    },
+    {
+      "question": "Calcule el límite de la función al acercarse a 0.",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{(1+x)^2-(1-x)^2}{x}\\)",
+      "options": ["\\(4\\)", "\\(2\\)", "\\(0\\)", "\\(1\\)"],
+      "correctAnswer": 0,
+      "explanation": "Expandiendo \\((1+x)^2=1+2x+x^2\\) y \\((1-x)^2=1-2x+x^2\\), su diferencia es \\(4x\\). Dividiendo por x, el límite es 4.",
+      "difficulty": "hard",
+      "procedure": [
+        "Expandir ambos binomios.",
+        "Restar para obtener \\(4x\\).",
+        "Dividir por x y concluir que el límite es 4."
+      ]
+    }
+  ]
+}

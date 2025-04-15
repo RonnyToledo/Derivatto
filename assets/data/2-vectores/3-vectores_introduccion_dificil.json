@@ -1,0 +1,1435 @@
+{
+  "vectores_introduccion_dificil": [
+    {
+      "question": "Calcula la magnitud del vector \\(\\vec{v} = (3,4)\\).",
+      "formula": "\\(\\vec{v} = (3,4)\\)",
+      "options": ["\\(5\\)", "\\(7\\)", "\\(6\\)", "\\(\\sqrt{13}\\)"],
+      "correctAnswer": 0,
+      "explanation": "La magnitud se calcula como \\(\\sqrt{3^2 + 4^2} = \\sqrt{9+16} = \\sqrt{25} = 5\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identifica las componentes: 3 y 4.",
+        "Aplica la fórmula: \\(\\sqrt{3^2+4^2}\\).",
+        "Calcula: \\(\\sqrt{9+16} = \\sqrt{25}\\).",
+        "Obtén el resultado: 5."
+      ]
+    },
+    {
+      "question": "Calcula la magnitud del vector \\(\\vec{v} = (1,-2,2)\\).",
+      "formula": "\\(\\vec{v} = (1,-2,2)\\)",
+      "options": [
+        "\\(\\sqrt{7}\\)",
+        "\\(\\sqrt{10}\\)",
+        "\\(3\\)",
+        "\\(\\sqrt{12}\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La magnitud es \\(\\sqrt{1^2+(-2)^2+2^2} = \\sqrt{1+4+4} = \\sqrt{9} = 3\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula el cuadrado de cada componente: 1, 4 y 4.",
+        "Suma los cuadrados: 1+4+4 = 9.",
+        "Aplica la raíz cuadrada: \\(\\sqrt{9} = 3\\)."
+      ]
+    },
+    {
+      "question": "Calcula la suma de los vectores \\(\\vec{u} = (2,3)\\) y \\(\\vec{v} = (-1,4)\\).",
+      "formula": "\\(\\vec{u} = (2,3), \\; \\vec{v} = (-1,4)\\)",
+      "options": ["\\((1,7)\\)", "\\((1,6)\\)", "\\((3,7)\\)", "\\((2,8)\\)"],
+      "correctAnswer": 0,
+      "explanation": "Se suman las componentes: \\(2+(-1)=1\\) y \\(3+4=7\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Suma las componentes en la primera posición: 2 + (-1) = 1.",
+        "Suma las componentes en la segunda posición: 3 + 4 = 7.",
+        "Forma el vector resultante: \\((1,7)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la resta \\(\\vec{a} - \\vec{b}\\) para \\(\\vec{a} = (5,2)\\) y \\(\\vec{b} = (3,7)\\).",
+      "formula": "\\(\\vec{a} = (5,2), \\; \\vec{b} = (3,7)\\)",
+      "options": ["\\((2,-5)\\)", "\\((2,5)\\)", "\\((8,-5)\\)", "\\((5,9)\\)"],
+      "correctAnswer": 0,
+      "explanation": "Se resta cada componente: \\(5-3=2\\) y \\(2-7=-5\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Resta la primera componente: 5 - 3 = 2.",
+        "Resta la segunda componente: 2 - 7 = -5.",
+        "El vector resultante es: \\((2,-5)\\)."
+      ]
+    },
+    {
+      "question": "Determina el vector unitario de \\(\\vec{v} = (3,4)\\).",
+      "formula": "\\(\\vec{v} = (3,4)\\)",
+      "options": [
+        "\\((\\frac{3}{5},\\frac{4}{5})\\)",
+        "\\((3,4)\\)",
+        "\\((\\frac{4}{5},\\frac{3}{5})\\)",
+        "\\((\\frac{5}{3},\\frac{5}{4})\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El vector unitario se obtiene dividiendo cada componente por la magnitud, que es 5.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula la magnitud: \\(\\sqrt{3^2+4^2} = 5\\).",
+        "Divide cada componente por 5: \\((3/5,4/5)\\).",
+        "El resultado es el vector unitario."
+      ]
+    },
+    {
+      "question": "Representa el vector de magnitud 10 y dirección 45° en el plano 2D en coordenadas cartesianas.",
+      "formula": "\\(r = 10, \\; \\theta = 45^\\circ\\)",
+      "options": [
+        "\\((5\\sqrt{2},5\\sqrt{2})\\)",
+        "\\((10,10)\\)",
+        "\\((5,5)\\)",
+        "\\((\\sqrt{10},\\sqrt{10})\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Las componentes se calculan como \\(10\\cos45^\\circ=5\\sqrt{2}\\) y \\(10\\sin45^\\circ=5\\sqrt{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula la componente \\(x\\): \\(10\\cos45^\\circ = 5\\sqrt{2}\\).",
+        "Calcula la componente \\(y\\): \\(10\\sin45^\\circ = 5\\sqrt{2}\\).",
+        "El vector en coordenadas cartesianas es: \\((5\\sqrt{2},5\\sqrt{2})\\)."
+      ]
+    },
+    {
+      "question": "Convierte el punto \\((3,3)\\) de coordenadas cartesianas a polares.",
+      "formula": "\\((x,y) = (3,3)\\)",
+      "options": [
+        "\\((3\\sqrt{2},45^\\circ)\\)",
+        "\\((3,45^\\circ)\\)",
+        "\\((\\sqrt{18},30^\\circ)\\)",
+        "\\((3\\sqrt{2},30^\\circ)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El radio es \\(r=\\sqrt{3^2+3^2}=3\\sqrt{2}\\) y el ángulo es \\(45^\\circ\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula el radio: \\(\\sqrt{3^2+3^2} = \\sqrt{18} = 3\\sqrt{2}\\).",
+        "Determina el ángulo: \\(\\arctan(3/3)=45^\\circ\\).",
+        "El punto en polares es: \\((3\\sqrt{2},45^\\circ)\\)."
+      ]
+    },
+    {
+      "question": "Convierte el punto \\((1,1,1)\\) de coordenadas cartesianas a esféricas.",
+      "formula": "\\((x,y,z) = (1,1,1)\\)",
+      "options": [
+        "\\((\\sqrt{3},\\arccos(1/\\sqrt{3}),45^\\circ)\\)",
+        "\\((\\sqrt{3},45^\\circ,\\arccos(1/\\sqrt{3}))\\)",
+        "\\((3,\\arccos(1/\\sqrt{3}),45^\\circ)\\)",
+        "\\((\\sqrt{3},\\arctan(1),45^\\circ)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se calcula \\(r=\\sqrt{3}\\), \\(\\theta=\\arccos(1/\\sqrt{3})\\) y \\(\\phi=45^\\circ\\) (ángulo en el plano xy).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula el radio: \\(r=\\sqrt{1+1+1}=\\sqrt{3}\\).",
+        "Determina \\(\\theta=\\arccos(1/\\sqrt{3})\\).",
+        "Determina \\(\\phi=\\arctan(1/1)=45^\\circ\\)."
+      ]
+    },
+    {
+      "question": "Calcula el producto punto de los vectores \\(\\vec{u} = (4,-3)\\) y \\(\\vec{v} = (-2,5)\\).",
+      "formula": "\\(\\vec{u} = (4,-3), \\; \\vec{v} = (-2,5)\\)",
+      "options": ["\\(-23\\)", "\\(23\\)", "\\(-13\\)", "\\(13\\)"],
+      "correctAnswer": 0,
+      "explanation": "Producto punto: \\(4(-2)+(-3)(5)=-8-15=-23\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplica las primeras componentes: 4 \\(\\times\\) (-2) = -8.",
+        "Multiplica las segundas componentes: (-3) \\(\\times\\) 5 = -15.",
+        "Suma los resultados: -8 + (-15) = -23."
+      ]
+    },
+    {
+      "question": "Calcula el producto punto de \\(\\vec{a} = (1,2,3)\\) y \\(\\vec{b} = (4,-1,2)\\).",
+      "formula": "\\(\\vec{a} = (1,2,3), \\; \\vec{b} = (4,-1,2)\\)",
+      "options": ["\\(8\\)", "\\(6\\)", "\\(9\\)", "\\(7\\)"],
+      "correctAnswer": 0,
+      "explanation": "Se calcula: \\(1\\times4+2\\times(-1)+3\\times2=4-2+6=8\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplica cada par de componentes.",
+        "Suma los productos: 4 - 2 + 6 = 8.",
+        "El producto punto es 8."
+      ]
+    },
+    {
+      "question": "Calcula el producto vectorial de \\(\\vec{a} = (1,0,2)\\) y \\(\\vec{b} = (3,-1,4)\\).",
+      "formula": "\\(\\vec{a} = (1,0,2), \\; \\vec{b} = (3,-1,4)\\)",
+      "options": [
+        "\\((2,2,-1)\\)",
+        "\\((2,-2,1)\\)",
+        "\\((-2,2,1)\\)",
+        "\\((2,2,1)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El producto vectorial se obtiene calculando: \\(\\vec{a}\\times\\vec{b} = (0\\cdot4-2\\cdot(-1),\\;2\\cdot3-1\\cdot4,\\;1\\cdot(-1)-0\\cdot3) = (2,2,-1)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula la primera componente: \\(0\\times4 - 2\\times(-1)=2\\).",
+        "Calcula la segunda componente: \\(2\\times3 - 1\\times4=2\\).",
+        "Calcula la tercera componente: \\(1\\times(-1)-0\\times3=-1\\).",
+        "El resultado es \\((2,2,-1)\\)."
+      ]
+    },
+    {
+      "question": "Determina el ángulo entre \\(\\vec{u} = (1,2)\\) y \\(\\vec{v} = (2,3)\\).",
+      "formula": "\\(\\vec{u} = (1,2), \\; \\vec{v} = (2,3)\\)",
+      "options": [
+        "\\(\\arccos\\left(\\frac{8}{\\sqrt{65}}\\right)\\)",
+        "\\(\\arccos\\left(\\frac{7}{\\sqrt{65}}\\right)\\)",
+        "\\(\\arcsin\\left(\\frac{8}{\\sqrt{65}}\\right)\\)",
+        "\\(\\arctan\\left(\\frac{8}{\\sqrt{65}}\\right)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El ángulo se obtiene con \\(\\cos\\theta = \\frac{\\vec{u}\\cdot\\vec{v}}{|\\vec{u}|\\,|\\vec{v}|}\\), donde \\(\\vec{u}\\cdot\\vec{v}=8\\) y \\(|\\vec{u}|=\\sqrt{5}\\), \\(|\\vec{v}|=\\sqrt{13}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula el producto punto: 1\\(\\times\\)2 + 2\\(\\times\\)3 = 8.",
+        "Determina las magnitudes: \\(|\\vec{u}|=\\sqrt{5}\\) y \\(|\\vec{v}|=\\sqrt{13}\\).",
+        "Aplica la fórmula: \\(\\cos\\theta=\\frac{8}{\\sqrt{5\\times13}}=\\frac{8}{\\sqrt{65}}\\).",
+        "El ángulo es \\(\\arccos\\left(\\frac{8}{\\sqrt{65}}\\right)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la proyección de \\(\\vec{u} = (4,3)\\) sobre \\(\\vec{v} = (2,0)\\).",
+      "formula": "\\(\\vec{u} = (4,3), \\; \\vec{v} = (2,0)\\)",
+      "options": ["\\((4,0)\\)", "\\((2,0)\\)", "\\((3,0)\\)", "\\((4,3)\\)"],
+      "correctAnswer": 0,
+      "explanation": "La proyección se calcula como \\(\\text{proj}_{\\vec{v}}\\vec{u}=\\left(\\frac{\\vec{u}\\cdot\\vec{v}}{|\\vec{v}|^2}\\right)\\vec{v}\\). Aquí, \\(\\vec{u}\\cdot\\vec{v}=8\\) y \\(|\\vec{v}|^2=4\\), dando \\((4,0)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula el producto punto: 4\\(\\times\\)2 + 3\\(\\times\\)0 = 8.",
+        "Determina \\(|\\vec{v}|^2 = 2^2 = 4\\).",
+        "Aplica la fórmula: \\(\\frac{8}{4}=2\\), luego multiplica por \\(\\vec{v}\\): \\(2\\times(2,0)=(4,0)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la suma de los vectores \\(\\vec{a} = (1,2,3)\\) y \\(\\vec{b} = (4,5,6)\\).",
+      "formula": "\\(\\vec{a} = (1,2,3), \\; \\vec{b} = (4,5,6)\\)",
+      "options": [
+        "\\((5,7,9)\\)",
+        "\\((4,7,9)\\)",
+        "\\((5,8,9)\\)",
+        "\\((5,7,8)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se suman las componentes: \\(1+4=5\\), \\(2+5=7\\) y \\(3+6=9\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Suma la primera componente: 1 + 4 = 5.",
+        "Suma la segunda componente: 2 + 5 = 7.",
+        "Suma la tercera componente: 3 + 6 = 9.",
+        "El vector resultante es \\((5,7,9)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la resta \\(\\vec{a} - \\vec{b}\\) para \\(\\vec{a} = (7,8,9)\\) y \\(\\vec{b} = (1,2,3)\\).",
+      "formula": "\\(\\vec{a} = (7,8,9), \\; \\vec{b} = (1,2,3)\\)",
+      "options": [
+        "\\((6,6,6)\\)",
+        "\\((8,6,6)\\)",
+        "\\((6,7,6)\\)",
+        "\\((6,6,7)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se resta cada componente: 7-1=6, 8-2=6 y 9-3=6.",
+      "difficulty": "hard",
+      "procedure": [
+        "Resta la primera componente: 7 - 1 = 6.",
+        "Resta la segunda componente: 8 - 2 = 6.",
+        "Resta la tercera componente: 9 - 3 = 6.",
+        "El vector resultante es \\((6,6,6)\\)."
+      ]
+    },
+    {
+      "question": "Multiplica el vector \\(\\vec{v} = (2,-3)\\) por el escalar 4.",
+      "formula": "\\(\\vec{v} = (2,-3)\\)",
+      "options": [
+        "\\((8,-12)\\)",
+        "\\((2,-3)\\)",
+        "\\((6,-9)\\)",
+        "\\((4,-6)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiplica cada componente por 4: \\(2\\times4=8\\) y \\(-3\\times4=-12\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplica la primera componente: 2 \\(\\times\\) 4 = 8.",
+        "Multiplica la segunda componente: -3 \\(\\times\\) 4 = -12.",
+        "El resultado es \\((8,-12)\\)."
+      ]
+    },
+    {
+      "question": "¿Son ortogonales los vectores \\(\\vec{a} = (1,2)\\) y \\(\\vec{b} = (-2,1)\\)?",
+      "formula": "\\(\\vec{a} = (1,2), \\; \\vec{b} = (-2,1)\\)",
+      "options": [
+        "\\(Sí\\)",
+        "\\(No\\)",
+        "\\(No se puede determinar\\)",
+        "\\(Depende de la norma\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El producto punto es \\(1\\times(-2)+2\\times1 = -2+2=0\\), lo que implica ortogonalidad.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula el producto punto: \\(1\\times(-2)+2\\times1=0\\).",
+        "Como es 0, los vectores son ortogonales."
+      ]
+    },
+    {
+      "question": "¿Son paralelos los vectores \\(\\vec{a} = (2,4)\\) y \\(\\vec{b} = (1,2)\\)?",
+      "formula": "\\(\\vec{a} = (2,4), \\; \\vec{b} = (1,2)\\)",
+      "options": [
+        "\\(Sí\\)",
+        "\\(No\\)",
+        "\\(Sólo si son unitarios\\)",
+        "\\(No se puede determinar\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El vector \\(\\vec{b}\\) es un múltiplo escalar de \\(\\vec{a}\\) (\\(\\vec{a}=2\\vec{b}\\)), por lo tanto son paralelos.",
+      "difficulty": "hard",
+      "procedure": [
+        "Observa que \\((2,4) = 2\\times(1,2)\\).",
+        "Concluye que los vectores son paralelos."
+      ]
+    },
+    {
+      "question": "Encuentra las componentes del vector con magnitud 10 y dirección 60°.",
+      "formula": "\\(r = 10, \\; \\theta = 60^\\circ\\)",
+      "options": [
+        "\\((5,5\\sqrt{3})\\)",
+        "\\((10,10)\\)",
+        "\\((5\\sqrt{3},5)\\)",
+        "\\((10\\cos60,10\\sin60)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Calcula \\(x=10\\cos60^\\circ=5\\) y \\(y=10\\sin60^\\circ=5\\sqrt{3}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula la componente \\(x\\): \\(10\\cos60^\\circ=5\\).",
+        "Calcula la componente \\(y\\): \\(10\\sin60^\\circ=5\\sqrt{3}\\).",
+        "El vector en componentes es \\((5,5\\sqrt{3})\\)."
+      ]
+    },
+    {
+      "question": "Determina las componentes cartesianas del vector en coordenadas polares \\((r=8, \\theta=30^\\circ)\\).",
+      "formula": "\\(r = 8, \\; \\theta = 30^\\circ\\)",
+      "options": [
+        "\\((4\\sqrt{3},4)\\)",
+        "\\((8\\sqrt{3},8)\\)",
+        "\\((4,4\\sqrt{3})\\)",
+        "\\((8\\cos30,8\\sin30)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usa \\(x=8\\cos30^\\circ=4\\sqrt{3}\\) y \\(y=8\\sin30^\\circ=4\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula \\(x=8\\cos30^\\circ=4\\sqrt{3}\\).",
+        "Calcula \\(y=8\\sin30^\\circ=4\\).",
+        "Forma el vector: \\((4\\sqrt{3},4)\\)."
+      ]
+    },
+    {
+      "question": "Determina el vector unitario en la dirección de \\(\\vec{v} = (0,-5)\\).",
+      "formula": "\\(\\vec{v} = (0,-5)\\)",
+      "options": ["\\((0,-1)\\)", "\\((0,5)\\)", "\\((0,-5)\\)", "\\((1,0)\\)"],
+      "correctAnswer": 0,
+      "explanation": "Divide \\(\\vec{v}\\) por su magnitud \\(5\\) para obtener \\((0,-1)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula la magnitud: \\(|(0,-5)|=5\\).",
+        "Divide cada componente por 5: \\((0/5,-5/5)=(0,-1)\\)."
+      ]
+    },
+    {
+      "question": "Encuentra la resultante de los vectores \\(\\vec{a} = (1,2)\\), \\(\\vec{b} = (3,-1)\\) y \\(\\vec{c} = (-2,4)\\).",
+      "formula": "\\(\\vec{a} = (1,2),\\; \\vec{b} = (3,-1),\\; \\vec{c} = (-2,4)\\)",
+      "options": ["\\((2,5)\\)", "\\((2,6)\\)", "\\((1,5)\\)", "\\((2,4)\\)"],
+      "correctAnswer": 0,
+      "explanation": "Suma componente a componente: \\(1+3-2=2\\) y \\(2+(-1)+4=5\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Suma las componentes \\(x\\): 1 + 3 - 2 = 2.",
+        "Suma las componentes \\(y\\): 2 - 1 + 4 = 5.",
+        "El vector resultante es \\((2,5)\\)."
+      ]
+    },
+    {
+      "question": "Resuelve el vector de magnitud 12 y ángulo 30° en sus componentes.",
+      "formula": "\\(r = 12, \\; \\theta = 30^\\circ\\)",
+      "options": [
+        "\\((6\\sqrt{3},6)\\)",
+        "\\((12\\cos30,12\\sin30)\\)",
+        "\\((6,6\\sqrt{3})\\)",
+        "\\((12,12)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Calcula \\(x=12\\cos30^\\circ=6\\sqrt{3}\\) y \\(y=12\\sin30^\\circ=6\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula \\(x=12\\cos30^\\circ=6\\sqrt{3}\\).",
+        "Calcula \\(y=12\\sin30^\\circ=6\\).",
+        "El vector en componentes es \\((6\\sqrt{3},6)\\)."
+      ]
+    },
+    {
+      "question": "Calcula el área del paralelogramo formado por \\(\\vec{a} = (3,0)\\) y \\(\\vec{b} = (0,4)\\).",
+      "formula": "\\(\\vec{a} = (3,0), \\; \\vec{b} = (0,4)\\)",
+      "options": ["\\(12\\)", "\\(7\\)", "\\(0\\)", "\\(1\\)"],
+      "correctAnswer": 0,
+      "explanation": "El área se obtiene con \\(|\\vec{a}\\times\\vec{b}|=|3\\times4-0\\times0|=12\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula el determinante: 3 \\(\\times\\) 4 = 12.",
+        "El área del paralelogramo es 12."
+      ]
+    },
+    {
+      "question": "Calcula el área del triángulo formado por \\(\\vec{a} = (3,0)\\) y \\(\\vec{b} = (0,4)\\).",
+      "formula": "\\(\\vec{a} = (3,0), \\; \\vec{b} = (0,4)\\)",
+      "options": ["\\(6\\)", "\\(12\\)", "\\(7\\)", "\\(0\\)"],
+      "correctAnswer": 0,
+      "explanation": "El área del triángulo es la mitad del área del paralelogramo: \\(\\frac{12}{2}=6\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula el área del paralelogramo: 12.",
+        "Divide entre 2 para obtener el área del triángulo: 6."
+      ]
+    },
+    {
+      "question": "Calcula la proyección de \\(\\vec{a} = (6,8)\\) sobre \\(\\vec{b} = (3,0)\\).",
+      "formula": "\\(\\vec{a} = (6,8), \\; \\vec{b} = (3,0)\\)",
+      "options": ["\\((6,0)\\)", "\\((3,0)\\)", "\\((6,8)\\)", "\\((8,0)\\)"],
+      "correctAnswer": 0,
+      "explanation": "La proyección se calcula como \\(\\left(\\frac{\\vec{a}\\cdot\\vec{b}}{|\\vec{b}|^2}\\right)\\vec{b}\\). Aquí, \\(\\vec{a}\\cdot\\vec{b}=18\\) y \\(|\\vec{b}|^2=9\\), dando \\((6,0)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula el producto punto: 6\\(\\times\\)3 + 8\\(\\times\\)0 = 18.",
+        "Determina \\(|\\vec{b}|^2=3^2=9\\).",
+        "Calcula el factor: \\(18/9=2\\) y multiplica: 2\\(\\times\\)(3,0) = (6,0)."
+      ]
+    },
+    {
+      "question": "Calcula la proyección escalar de \\(\\vec{a} = (5,12)\\) sobre \\(\\vec{b} = (0,13)\\).",
+      "formula": "\\(\\vec{a} = (5,12), \\; \\vec{b} = (0,13)\\)",
+      "options": ["\\(12\\)", "\\(13\\)", "\\(5\\)", "\\(\\frac{156}{13}\\)"],
+      "correctAnswer": 0,
+      "explanation": "La proyección escalar se obtiene dividiendo el producto punto entre la magnitud de \\(\\vec{b}\\): \\(\\frac{5\\times0+12\\times13}{13}=\\frac{156}{13}=12\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula el producto punto: 5\\(\\times\\)0 + 12\\(\\times\\)13 = 156.",
+        "Divide por la magnitud de \\(\\vec{b}\\): 156/13 = 12."
+      ]
+    },
+    {
+      "question": "Calcula la resta \\(\\vec{p} - \\vec{q}\\) en el plano 2D para \\(\\vec{p} = (7,-3)\\) y \\(\\vec{q} = (2,4)\\).",
+      "formula": "\\(\\vec{p} = (7,-3), \\; \\vec{q} = (2,4)\\)",
+      "options": [
+        "\\((5,-7)\\)",
+        "\\((9,-7)\\)",
+        "\\((5,7)\\)",
+        "\\((7,-3)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se resta componente a componente: \\(7-2=5\\) y \\(-3-4=-7\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Resta la primera componente: 7 - 2 = 5.",
+        "Resta la segunda componente: -3 - 4 = -7.",
+        "El vector resultante es \\((5,-7)\\)."
+      ]
+    },
+    {
+      "question": "Determina el ángulo entre \\(\\vec{a} = (2,2)\\) y \\(\\vec{b} = (3,1)\\) usando la fórmula del coseno.",
+      "formula": "\\(\\vec{a} = (2,2), \\; \\vec{b} = (3,1)\\)",
+      "options": [
+        "\\(\\arccos\\left(\\frac{2}{\\sqrt{5}}\\right)\\)",
+        "\\(\\arccos\\left(\\frac{8}{\\sqrt{80}}\\right)\\)",
+        "\\(\\arccos\\left(\\frac{2}{5}\\right)\\)",
+        "\\(\\arcsin\\left(\\frac{2}{\\sqrt{5}}\\right)\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Calcula el producto punto y las magnitudes para obtener \\(\\cos\\theta=\\frac{8}{\\sqrt{80}}\\), por lo que \\(\\theta=\\arccos\\left(\\frac{8}{\\sqrt{80}}\\right)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula el producto punto: 2\\(\\times\\)3 + 2\\(\\times\\)1 = 8.",
+        "Calcula \\(|\\vec{a}|=\\sqrt{2^2+2^2}=\\sqrt{8}\\) y \\(|\\vec{b}|=\\sqrt{3^2+1^2}=\\sqrt{10}\\).",
+        "Aplica la fórmula: \\(\\cos\\theta=\\frac{8}{\\sqrt{8\\times10}}=\\frac{8}{\\sqrt{80}}\\).",
+        "Determina \\(\\theta=\\arccos\\left(\\frac{8}{\\sqrt{80}}\\right)\\)."
+      ]
+    },
+    {
+      "question": "Convierte el vector en coordenadas polares \\((r=10, \\theta=120^\\circ)\\) a coordenadas cartesianas.",
+      "formula": "\\(r = 10, \\; \\theta = 120^\\circ\\)",
+      "options": [
+        "\\((-5,5\\sqrt{3})\\)",
+        "\\((5,-5\\sqrt{3})\\)",
+        "\\((10\\cos120,10\\sin120)\\)",
+        "\\((-10,10)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Calcula \\(x=10\\cos120^\\circ=-5\\) y \\(y=10\\sin120^\\circ=5\\sqrt{3}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula \\(x=10\\cos120^\\circ=-5\\).",
+        "Calcula \\(y=10\\sin120^\\circ=5\\sqrt{3}\\).",
+        "El vector en coordenadas cartesianas es \\((-5,5\\sqrt{3})\\)."
+      ]
+    },
+    {
+      "question": "Calcula el ángulo que forma el vector \\(\\vec{v} = (-3,3)\\) con el eje positivo \\(x\\).",
+      "formula": "\\(\\vec{v} = (-3,3)\\)",
+      "options": [
+        "\\(45^\\circ\\)",
+        "\\(135^\\circ\\)",
+        "\\(90^\\circ\\)",
+        "\\(180^\\circ\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El ángulo se obtiene calculando \\(\\arctan(|3/3|)=45^\\circ\\), pero como el vector se encuentra en el segundo cuadrante, se suma \\(180^\\circ - 45^\\circ = 135^\\circ\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el ángulo base: \\(\\arctan(1)=45^\\circ\\).",
+        "Determinar el cuadrante: el vector \\((-3,3)\\) está en el segundo cuadrante.",
+        "Ajustar el ángulo: \\(180^\\circ - 45^\\circ = 135^\\circ\\)."
+      ]
+    },
+    {
+      "question": "Calcula la magnitud del vector \\(\\vec{v} = (-4,-3)\\).",
+      "formula": "\\(\\vec{v} = (-4,-3)\\)",
+      "options": ["\\(5\\)", "\\(7\\)", "\\(4\\)", "\\(\\sqrt{7}\\)"],
+      "correctAnswer": 0,
+      "explanation": "La magnitud se calcula con \\(\\sqrt{(-4)^2+(-3)^2}=\\sqrt{16+9}=\\sqrt{25}=5\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Elevar cada componente al cuadrado: 16 y 9.",
+        "Sumar los cuadrados: 16+9=25.",
+        "Extraer la raíz: \\(\\sqrt{25}=5\\)."
+      ]
+    },
+    {
+      "question": "Determina el vector unitario de \\(\\vec{v} = (-6,8)\\).",
+      "formula": "\\(\\vec{v} = (-6,8)\\)",
+      "options": [
+        "\\(\\left(-\\frac{6}{10},\\frac{8}{10}\\right)\\)",
+        "\\(\\left(-\\frac{8}{10},\\frac{6}{10}\\right)\\)",
+        "\\(\\left(\\frac{6}{10},-\\frac{8}{10}\\right)\\)",
+        "\\(\\left(\\frac{8}{10},-\\frac{6}{10}\\right)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La magnitud es \\(\\sqrt{(-6)^2+8^2}=\\sqrt{36+64}=10\\). Se divide cada componente por 10 para obtener \\(\\left(-\\frac{6}{10},\\frac{8}{10}\\right)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular la magnitud: \\(10\\).",
+        "Dividir cada componente: \\(-6/10\\) y \\(8/10\\).",
+        "Obtener el vector unitario: \\(\\left(-\\frac{6}{10},\\frac{8}{10}\\right)\\)."
+      ]
+    },
+    {
+      "question": "Convierte el punto \\( (-3,3\\sqrt{3}) \\) de coordenadas cartesianas a polares.",
+      "formula": "\\((x,y) = (-3,3\\sqrt{3})\\)",
+      "options": [
+        "\\((6,120^\\circ)\\)",
+        "\\((6,60^\\circ)\\)",
+        "\\((3,120^\\circ)\\)",
+        "\\((3,60^\\circ)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El radio es \\(r=\\sqrt{(-3)^2+(3\\sqrt{3})^2}=\\sqrt{9+27}=6\\) y el ángulo es \\(\\theta=120^\\circ\\) (ya que \\(x<0\\) y \\(y>0\\)).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el radio: \\(r=\\sqrt{9+27}=6\\).",
+        "Determinar el ángulo usando \\(\\arctan\\left(\\frac{|3\\sqrt{3}|}{3}\\right)=60^\\circ\\) y ajustar al segundo cuadrante: \\(180^\\circ-60^\\circ=120^\\circ\\)."
+      ]
+    },
+    {
+      "question": "Convierte el punto \\((4,-4,4)\\) de coordenadas cartesianas a esféricas.",
+      "formula": "\\((x,y,z) = (4,-4,4)\\)",
+      "options": [
+        "\\((4\\sqrt{3},\\arccos(1/\\sqrt{3}),315^\\circ)\\)",
+        "\\((4\\sqrt{3},\\arccos(1/\\sqrt{3}),45^\\circ)\\)",
+        "\\((4\\sqrt{3},\\arccos(1/\\sqrt{3}),135^\\circ)\\)",
+        "\\((4\\sqrt{3},\\arccos(1/\\sqrt{3}),225^\\circ)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se tiene \\(r=\\sqrt{4^2+(-4)^2+4^2}=4\\sqrt{3}\\), \\(\\theta=\\arccos(4/(4\\sqrt{3}))=\\arccos(1/\\sqrt{3})\\) y \\(\\phi\\) se determina por \\(\\arctan(-4/4)\\), resultando en \\(315^\\circ\\) (o \\( -45^\\circ\\) ajustado al rango [0,360)).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular \\(r=4\\sqrt{3}\\).",
+        "Determinar \\(\\theta=\\arccos(1/\\sqrt{3})\\).",
+        "Calcular \\(\\phi\\) considerando que \\(x>0\\) y \\(y<0\\): \\(\\phi=315^\\circ\\)."
+      ]
+    },
+    {
+      "question": "Suma los vectores \\(\\vec{u} = (2, -3, 4)\\) y \\(\\vec{v} = (-1, 5, -2)\\).",
+      "formula": "\\(\\vec{u} = (2, -3, 4), \\; \\vec{v} = (-1, 5, -2)\\)",
+      "options": [
+        "\\((1,2,2)\\)",
+        "\\((1,2,1)\\)",
+        "\\((0,2,2)\\)",
+        "\\((-1,2,2)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se suman las componentes: \\(2+(-1)=1\\), \\(-3+5=2\\) y \\(4+(-2)=2\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Suma la primera componente: 2 + (-1) = 1.",
+        "Suma la segunda componente: -3 + 5 = 2.",
+        "Suma la tercera componente: 4 + (-2) = 2."
+      ]
+    },
+    {
+      "question": "Resta los vectores \\(\\vec{a} = (-2,4)\\) y \\(\\vec{b} = (3,-1)\\).",
+      "formula": "\\(\\vec{a} = (-2,4), \\; \\vec{b} = (3,-1)\\)",
+      "options": [
+        "\\((-5,5)\\)",
+        "\\((-1,5)\\)",
+        "\\((5,-5)\\)",
+        "\\((1,-5)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se resta cada componente: \\(-2-3=-5\\) y \\(4-(-1)=5\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Resta la primera componente: -2 - 3 = -5.",
+        "Resta la segunda componente: 4 - (-1) = 5."
+      ]
+    },
+    {
+      "question": "Calcula el producto punto de \\(\\vec{a} = (7,-2,1)\\) y \\(\\vec{b} = (2,3,-4)\\).",
+      "formula": "\\(\\vec{a} = (7,-2,1), \\; \\vec{b} = (2,3,-4)\\)",
+      "options": ["\\(4\\)", "\\(6\\)", "\\(2\\)", "\\(8\\)"],
+      "correctAnswer": 0,
+      "explanation": "Se calcula: \\(7\\times2+(-2)\\times3+1\\times(-4)=14-6-4=4\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplicar las componentes correspondientes.",
+        "Sumar los productos: 14 - 6 - 4 = 4."
+      ]
+    },
+    {
+      "question": "Calcula el producto vectorial de \\(\\vec{a} = (1,2,3)\\) y \\(\\vec{b} = (4,0,-1)\\).",
+      "formula": "\\(\\vec{a} = (1,2,3), \\; \\vec{b} = (4,0,-1)\\)",
+      "options": [
+        "\\((-2,13,-8)\\)",
+        "\\((2,-13,8)\\)",
+        "\\((-2,13,8)\\)",
+        "\\((2,13,-8)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El producto vectorial se calcula componente a componente: \\((2\\cdot(-1)-3\\cdot0, 3\\cdot4-1\\cdot(-1), 1\\cdot0-2\\cdot4)=( -2,13,-8)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular la primera componente: \\(2(-1)-3(0)=-2\\).",
+        "Calcular la segunda componente: \\(3(4)-1(-1)=12+1=13\\).",
+        "Calcular la tercera componente: \\(1(0)-2(4)=-8\\)."
+      ]
+    },
+    {
+      "question": "Determina si los vectores \\(\\vec{a} = (3,-1)\\) y \\(\\vec{b} = (-6,2)\\) son paralelos.",
+      "formula": "\\(\\vec{a} = (3,-1), \\; \\vec{b} = (-6,2)\\)",
+      "options": [
+        "\\(Sí\\)",
+        "\\(No\\)",
+        "\\(No se puede determinar\\)",
+        "\\(Depende del contexto\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El vector \\(\\vec{b}\\) es un múltiplo escalar de \\(\\vec{a}\\) (\\(\\vec{b}=-2\\vec{a}\\)), por lo tanto son paralelos.",
+      "difficulty": "hard",
+      "procedure": [
+        "Verificar si existe un escalar \\(k\\) tal que \\(\\vec{b}=k\\vec{a}\\).",
+        "Encontrar que \\(k=-2\\)."
+      ]
+    },
+    {
+      "question": "Determina si los vectores \\(\\vec{a} = (2,5)\\) y \\(\\vec{b} = (5,2)\\) son ortogonales.",
+      "formula": "\\(\\vec{a} = (2,5), \\; \\vec{b} = (5,2)\\)",
+      "options": [
+        "\\(Sí\\)",
+        "\\(No\\)",
+        "\\(Depende de la norma\\)",
+        "\\(No se puede determinar\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El producto punto es \\(2\\times5+5\\times2=10+10=20\\), por lo tanto no son ortogonales.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el producto punto.",
+        "Verificar que el resultado no es 0, por lo que los vectores no son ortogonales."
+      ]
+    },
+    {
+      "question": "Calcula el área del paralelogramo formado por \\(\\vec{u} = (2,3,4)\\) y \\(\\vec{v} = (1,0,1)\\).",
+      "formula": "\\(\\vec{u} = (2,3,4), \\; \\vec{v} = (1,0,1)\\)",
+      "options": [
+        "\\(\\sqrt{22}\\)",
+        "\\(\\sqrt{18}\\)",
+        "\\(\\sqrt{26}\\)",
+        "\\(\\sqrt{20}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El área es la norma del producto vectorial. Se obtiene \\(\\vec{u}\\times\\vec{v}=(3\\cdot1-4\\cdot0,4\\cdot1-2\\cdot1,2\\cdot0-3\\cdot1)=(3,2,-3)\\) y su norma es \\(\\sqrt{9+4+9}=\\sqrt{22}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el producto vectorial de \\(\\vec{u}\\) y \\(\\vec{v}\\).",
+        "Calcular la norma del vector resultante para obtener el área."
+      ]
+    },
+    {
+      "question": "Calcula el área del triángulo formado por \\(\\vec{a} = (0,3)\\) y \\(\\vec{b} = (4,0)\\).",
+      "formula": "\\(\\vec{a} = (0,3), \\; \\vec{b} = (4,0)\\)",
+      "options": ["\\(6\\)", "\\(12\\)", "\\(8\\)", "\\(4\\)"],
+      "correctAnswer": 0,
+      "explanation": "El área del triángulo es la mitad del área del paralelogramo formado por \\(\\vec{a}\\) y \\(\\vec{b}\\): \\(\\frac{1}{2}\\times|0\\times0-3\\times4|=6\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el determinante de \\(\\vec{a}\\) y \\(\\vec{b}\\).",
+        "Dividir el valor absoluto del determinante entre 2."
+      ]
+    },
+    {
+      "question": "Calcula la proyección de \\(\\vec{a} = (9,12)\\) sobre \\(\\vec{b} = (3,4)\\).",
+      "formula": "\\(\\vec{a} = (9,12), \\; \\vec{b} = (3,4)\\)",
+      "options": [
+        "\\((9,12)\\)",
+        "\\((3,4)\\)",
+        "\\((6,8)\\)",
+        "\\((12,16)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El producto punto es \\(9\\times3+12\\times4=27+48=75\\) y \\(|\\vec{b}|^2=9+16=25\\). El factor es \\(75/25=3\\), y la proyección es \\(3\\times(3,4)=(9,12)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el producto punto \\(\\vec{a}\\cdot\\vec{b}=75\\).",
+        "Calcular \\(|\\vec{b}|^2=25\\).",
+        "Multiplicar \\(\\vec{b}\\) por \\(75/25=3\\)."
+      ]
+    },
+    {
+      "question": "Calcula la proyección escalar de \\(\\vec{a} = (-5,2)\\) sobre \\(\\vec{b} = (1,0)\\).",
+      "formula": "\\(\\vec{a} = (-5,2), \\; \\vec{b} = (1,0)\\)",
+      "options": ["\\(-5\\)", "\\(2\\)", "\\(5\\)", "\\(0\\)"],
+      "correctAnswer": 0,
+      "explanation": "El producto punto es \\(-5\\times1+2\\times0=-5\\) y la magnitud de \\(\\vec{b}\\) es 1, por lo que la proyección escalar es \\(-5\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el producto punto de \\(\\vec{a}\\) y \\(\\vec{b}\\).",
+        "Dividir el resultado por la magnitud de \\(\\vec{b}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el ángulo entre los vectores \\(\\vec{a} = (-2,2)\\) y \\(\\vec{b} = (2,2)\\).",
+      "formula": "\\(\\vec{a} = (-2,2), \\; \\vec{b} = (2,2)\\)",
+      "options": [
+        "\\(90^\\circ\\)",
+        "\\(45^\\circ\\)",
+        "\\(180^\\circ\\)",
+        "\\(0^\\circ\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El producto punto es \\(-2\\times2+2\\times2= -4+4=0\\), lo que implica un ángulo de \\(90^\\circ\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el producto punto de los vectores.",
+        "Concluir que al ser 0, el ángulo es \\(90^\\circ\\)."
+      ]
+    },
+    {
+      "question": "Determina la magnitud del vector \\(\\vec{v} = (7,-24)\\).",
+      "formula": "\\(\\vec{v} = (7,-24)\\)",
+      "options": ["\\(25\\)", "\\(26\\)", "\\(24\\)", "\\(23\\)"],
+      "correctAnswer": 0,
+      "explanation": "La magnitud es \\(\\sqrt{7^2+(-24)^2}=\\sqrt{49+576}=\\sqrt{625}=25\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Elevar cada componente: \\(7^2=49\\) y \\((-24)^2=576\\).",
+        "Sumar los resultados: 49+576=625.",
+        "Extraer la raíz: \\(\\sqrt{625}=25\\)."
+      ]
+    },
+    {
+      "question": "Calcula el vector resultante de la suma de \\(\\vec{u} = (-1,3,5)\\) y \\(\\vec{v} = (4,-2,0)\\).",
+      "formula": "\\(\\vec{u} = (-1,3,5), \\; \\vec{v} = (4,-2,0)\\)",
+      "options": [
+        "\\((3,1,5)\\)",
+        "\\((3,5,1)\\)",
+        "\\((-3,1,5)\\)",
+        "\\((3,1,-5)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se suman las componentes: \\(-1+4=3\\), \\(3+(-2)=1\\) y \\(5+0=5\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Sumar las componentes correspondientes de cada vector.",
+        "Obtener el vector resultante: \\((3,1,5)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la diferencia \\(\\vec{a} - \\vec{b}\\) para \\(\\vec{a} = (10,-5,3)\\) y \\(\\vec{b} = (4,7,-2)\\).",
+      "formula": "\\(\\vec{a} = (10,-5,3), \\; \\vec{b} = (4,7,-2)\\)",
+      "options": [
+        "\\((6,-12,5)\\)",
+        "\\((6,12,5)\\)",
+        "\\((-6,-12,5)\\)",
+        "\\((6,-12,-5)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se realiza la resta componente a componente: \\(10-4=6\\), \\(-5-7=-12\\) y \\(3-(-2)=5\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Restar cada par de componentes correspondientes.",
+        "Obtener el vector resultante: \\((6,-12,5)\\)."
+      ]
+    },
+    {
+      "question": "Calcula el producto escalar de \\(\\vec{a} = (0,-3,4)\\) y \\(\\vec{b} = (5,2,1)\\).",
+      "formula": "\\(\\vec{a} = (0,-3,4), \\; \\vec{b} = (5,2,1)\\)",
+      "options": ["\\(-2\\)", "\\(2\\)", "\\(6\\)", "\\(0\\)"],
+      "correctAnswer": 0,
+      "explanation": "El producto escalar es \\(0\\times5+(-3)\\times2+4\\times1=0-6+4=-2\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplicar cada par de componentes y sumar los resultados.",
+        "Obtener \\(-2\\)."
+      ]
+    },
+    {
+      "question": "Calcula el producto vectorial de \\(\\vec{a} = (2,3,1)\\) y \\(\\vec{b} = (1,0,4)\\).",
+      "formula": "\\(\\vec{a} = (2,3,1), \\; \\vec{b} = (1,0,4)\\)",
+      "options": [
+        "\\((12,-7,-3)\\)",
+        "\\((-12,7,3)\\)",
+        "\\((12,7,-3)\\)",
+        "\\((-12,-7,3)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El producto vectorial es \\(\\vec{a}\\times\\vec{b}=(3\\times4-1\\times0, 1\\times1-2\\times4, 2\\times0-3\\times1)=(12,-7,-3)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular cada componente del producto vectorial.",
+        "Obtener el resultado \\((12,-7,-3)\\)."
+      ]
+    },
+    {
+      "question": "Determina el vector unitario en la dirección de \\(\\vec{v} = (-8,6)\\).",
+      "formula": "\\(\\vec{v} = (-8,6)\\)",
+      "options": [
+        "\\(\\left(-\\frac{8}{10},\\frac{6}{10}\\right)\\)",
+        "\\(\\left(-\\frac{6}{10},\\frac{8}{10}\\right)\\)",
+        "\\(\\left(\\frac{8}{10},-\\frac{6}{10}\\right)\\)",
+        "\\(\\left(\\frac{6}{10},-\\frac{8}{10}\\right)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La magnitud de \\(\\vec{v}\\) es \\(\\sqrt{(-8)^2+6^2}=\\sqrt{64+36}=10\\). Se divide cada componente por 10 para obtener el vector unitario.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular la magnitud: 10.",
+        "Dividir cada componente: \\(-8/10\\) y \\(6/10\\).",
+        "Obtener \\(\\left(-\\frac{8}{10},\\frac{6}{10}\\right)\\)."
+      ]
+    },
+    {
+      "question": "Convierte el punto \\((-5,5)\\) de coordenadas cartesianas a polares.",
+      "formula": "\\((x,y) = (-5,5)\\)",
+      "options": [
+        "\\((5\\sqrt{2},135^\\circ)\\)",
+        "\\((5\\sqrt{2},45^\\circ)\\)",
+        "\\((5\\sqrt{2},90^\\circ)\\)",
+        "\\((5\\sqrt{2},180^\\circ)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El radio es \\(\\sqrt{(-5)^2+5^2}=\\sqrt{25+25}=5\\sqrt{2}\\) y el ángulo, al estar en el segundo cuadrante, es \\(135^\\circ\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el radio: \\(5\\sqrt{2}\\).",
+        "Determinar el ángulo: \\(\\arctan(5/5)=45^\\circ\\) y ajustar al segundo cuadrante: \\(180^\\circ-45^\\circ=135^\\circ\\)."
+      ]
+    },
+    {
+      "question": "Convierte el punto \\((0,-7)\\) de coordenadas cartesianas a polares.",
+      "formula": "\\((x,y) = (0,-7)\\)",
+      "options": [
+        "\\((7,270^\\circ)\\)",
+        "\\((7,90^\\circ)\\)",
+        "\\((7,180^\\circ)\\)",
+        "\\((7,0^\\circ)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El radio es 7 y el ángulo es \\(270^\\circ\\) ya que el punto se encuentra en el eje negativo \\(y\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el radio: \\(\\sqrt{0^2+(-7)^2}=7\\).",
+        "Determinar el ángulo: \\(270^\\circ\\)."
+      ]
+    },
+    {
+      "question": "Calcula la proyección de \\(\\vec{a} = (4,-4)\\) sobre \\(\\vec{b} = (1,1)\\).",
+      "formula": "\\(\\vec{a} = (4,-4), \\; \\vec{b} = (1,1)\\)",
+      "options": [
+        "\\((0,0)\\)",
+        "\\((2,2)\\)",
+        "\\((-2,-2)\\)",
+        "\\((4,-4)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El producto punto es \\(4\\times1+(-4)\\times1=0\\), lo que implica que la proyección es el vector nulo \\((0,0)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el producto punto: 0.",
+        "Concluir que la proyección es \\((0,0)\\)."
+      ]
+    },
+    {
+      "question": "Determina si los vectores \\(\\vec{a} = (3,3)\\) y \\(\\vec{b} = (-3,3)\\) son ortogonales.",
+      "formula": "\\(\\vec{a} = (3,3), \\; \\vec{b} = (-3,3)\\)",
+      "options": [
+        "\\(Sí\\)",
+        "\\(No\\)",
+        "\\(Depende\\)",
+        "\\(No se puede determinar\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El producto punto es \\(3\\times(-3)+3\\times3= -9+9=0\\), por lo que son ortogonales.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el producto punto.",
+        "Verificar que el resultado es 0, indicando ortogonalidad."
+      ]
+    },
+    {
+      "question": "Calcula la magnitud del vector \\(\\vec{v} = (-2,-2,-1)\\).",
+      "formula": "\\(\\vec{v} = (-2,-2,-1)\\)",
+      "options": ["\\(3\\)", "\\(4\\)", "\\(2\\)", "\\(\\sqrt{9}\\)"],
+      "correctAnswer": 0,
+      "explanation": "La magnitud es \\(\\sqrt{(-2)^2+(-2)^2+(-1)^2}=\\sqrt{4+4+1}=\\sqrt{9}=3\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Elevar cada componente: 4, 4 y 1.",
+        "Sumar: 4+4+1=9.",
+        "Extraer la raíz: \\(\\sqrt{9}=3\\)."
+      ]
+    },
+    {
+      "question": "Calcula el ángulo entre \\(\\vec{a} = (1,0,0)\\) y \\(\\vec{b} = (0,1,0)\\).",
+      "formula": "\\(\\vec{a} = (1,0,0), \\; \\vec{b} = (0,1,0)\\)",
+      "options": [
+        "\\(90^\\circ\\)",
+        "\\(0^\\circ\\)",
+        "\\(45^\\circ\\)",
+        "\\(180^\\circ\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El producto punto es 0, por lo tanto el ángulo entre ellos es \\(90^\\circ\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el producto punto: 0.",
+        "Concluir que el ángulo es \\(90^\\circ\\)."
+      ]
+    },
+    {
+      "question": "Determina el vector unitario de \\(\\vec{v} = (0,0,-10)\\).",
+      "formula": "\\(\\vec{v} = (0,0,-10)\\)",
+      "options": [
+        "\\((0,0,-1)\\)",
+        "\\((0,0,10)\\)",
+        "\\((-1,0,0)\\)",
+        "\\((0,-1,0)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La magnitud de \\(\\vec{v}\\) es 10, por lo que al dividir cada componente se obtiene \\((0,0,-1)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular la magnitud: 10.",
+        "Dividir cada componente por 10."
+      ]
+    },
+    {
+      "question": "Calcula el área del paralelogramo formado por \\(\\vec{u} = (5,2)\\) y \\(\\vec{v} = (3,7)\\).",
+      "formula": "\\(\\vec{u} = (5,2), \\; \\vec{v} = (3,7)\\)",
+      "options": ["\\(29\\)", "\\(35\\)", "\\(15\\)", "\\(29.5\\)"],
+      "correctAnswer": 0,
+      "explanation": "El área es el valor absoluto del determinante: \\(|5\\times7-2\\times3|=|35-6|=29\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el determinante: 35-6=29.",
+        "Tomar el valor absoluto para obtener el área."
+      ]
+    },
+    {
+      "question": "Calcula la magnitud del vector \\(\\vec{v} = (-7,24)\\).",
+      "formula": "\\(\\vec{v} = (-7,24)\\)",
+      "options": ["\\(25\\)", "\\(23\\)", "\\(\\sqrt{625}\\)", "\\(24\\)"],
+      "correctAnswer": 0,
+      "explanation": "La magnitud se calcula como \\(\\sqrt{(-7)^2+24^2}=\\sqrt{49+576}=\\sqrt{625}=25\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Eleva cada componente al cuadrado: \\((-7)^2=49\\) y \\(24^2=576\\).",
+        "Suma los cuadrados: 49+576=625.",
+        "Extrae la raíz cuadrada: \\(\\sqrt{625}=25\\)."
+      ]
+    },
+    {
+      "question": "Calcula el vector resultante de la suma de \\(\\vec{u} = (2,-3)\\) y \\(\\vec{v} = (-4,5)\\).",
+      "formula": "\\(\\vec{u} = (2,-3), \\; \\vec{v} = (-4,5)\\)",
+      "options": [
+        "\\((-2,2)\\)",
+        "\\((2,-2)\\)",
+        "\\((-6,8)\\)",
+        "\\((6,-8)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se suman las componentes: \\(2+(-4)=-2\\) y \\(-3+5=2\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Suma la primera componente: 2 + (-4) = -2.",
+        "Suma la segunda componente: -3 + 5 = 2.",
+        "El vector resultante es \\((-2,2)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la proyección de \\(\\vec{a} = (8,6)\\) sobre \\(\\vec{b} = (2,3)\\).",
+      "formula": "\\(\\vec{a} = (8,6), \\; \\vec{b} = (2,3)\\)",
+      "options": [
+        "\\(\\left(\\frac{68}{13}, \\frac{102}{13}\\right)\\)",
+        "\\(\\left(\\frac{34}{13}, \\frac{51}{13}\\right)\\)",
+        "\\((4,3)\\)",
+        "\\((8,6)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El producto punto es \\(8\\times2+6\\times3=16+18=34\\). El cuadrado de la norma de \\(\\vec{b}\\) es \\(2^2+3^2=4+9=13\\). El factor de proyección es \\(34/13\\) y la proyección es \\(\\left(\\frac{34}{13} \\times 2, \\frac{34}{13} \\times 3\\right)=\\left(\\frac{68}{13}, \\frac{102}{13}\\right)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el producto punto: 8×2 + 6×3 = 34.",
+        "Calcular \\(|\\vec{b}|^2=4+9=13\\).",
+        "Multiplicar \\(\\vec{b}\\) por \\(34/13\\) para obtener la proyección."
+      ]
+    },
+    {
+      "question": "Encuentra el ángulo entre \\(\\vec{a} = (1,0)\\) y \\(\\vec{b} = \\left(\\frac{\\sqrt{2}}{2}, \\frac{\\sqrt{2}}{2}\\right)\\).",
+      "formula": "\\(\\vec{a} = (1,0), \\; \\vec{b} = \\left(\\frac{\\sqrt{2}}{2}, \\frac{\\sqrt{2}}{2}\\right)\\)",
+      "options": [
+        "\\(45^\\circ\\)",
+        "\\(30^\\circ\\)",
+        "\\(60^\\circ\\)",
+        "\\(90^\\circ\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El producto punto es \\(1\\times\\frac{\\sqrt{2}}{2}+0\\times\\frac{\\sqrt{2}}{2}=\\frac{\\sqrt{2}}{2}\\) y, al ser ambos vectores unitarios, \\(\\cos\\theta=\\frac{\\sqrt{2}}{2}\\) lo que implica \\(\\theta=45^\\circ\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el producto punto: \\(\\frac{\\sqrt{2}}{2}\\).",
+        "Como ambos vectores son unitarios, \\(\\cos\\theta=\\frac{\\sqrt{2}}{2}\\).",
+        "Determinar que \\(\\theta=45^\\circ\\)."
+      ]
+    },
+    {
+      "question": "Convierte el punto \\((-4,-4)\\) de coordenadas cartesianas a polares.",
+      "formula": "\\((x,y) = (-4,-4)\\)",
+      "options": [
+        "\\((4\\sqrt{2},225^\\circ)\\)",
+        "\\((4\\sqrt{2},135^\\circ)\\)",
+        "\\((4,225^\\circ)\\)",
+        "\\((8,225^\\circ)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El radio es \\(r=\\sqrt{(-4)^2+(-4)^2}=\\sqrt{16+16}=\\sqrt{32}=4\\sqrt{2}\\). El punto se encuentra en el tercer cuadrante, por lo que el ángulo es \\(225^\\circ\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el radio: \\(\\sqrt{16+16}=4\\sqrt{2}\\).",
+        "Determinar el ángulo en el tercer cuadrante: \\(225^\\circ\\)."
+      ]
+    },
+    {
+      "question": "Convierte el punto \\((2,-2,2)\\) de coordenadas cartesianas a esféricas.",
+      "formula": "\\((x,y,z) = (2,-2,2)\\)",
+      "options": [
+        "\\((2\\sqrt{3},\\arccos(1/\\sqrt{3}),315^\\circ)\\)",
+        "\\((2\\sqrt{3},\\arccos(1/\\sqrt{3}),45^\\circ)\\)",
+        "\\((2\\sqrt{3},\\arccos(-1/\\sqrt{3}),315^\\circ)\\)",
+        "\\((2\\sqrt{3},\\arccos(1/\\sqrt{3}),135^\\circ)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Para \\((2,-2,2)\\): \\(r=\\sqrt{2^2+(-2)^2+2^2}=\\sqrt{12}=2\\sqrt{3}\\), \\(\\theta=\\arccos(\\frac{z}{r})=\\arccos(\\frac{2}{2\\sqrt{3}})=\\arccos(1/\\sqrt{3})\\), y \\(\\phi=\\arctan\\left(\\frac{y}{x}\\right)=\\arctan(-1)= -45^\\circ\\) que se expresa como \\(315^\\circ\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular \\(r=\\sqrt{4+4+4}=2\\sqrt{3}\\).",
+        "Determinar \\(\\theta=\\arccos(1/\\sqrt{3})\\).",
+        "Calcular \\(\\phi\\) y ajustar el ángulo negativo a \\(315^\\circ\\)."
+      ]
+    },
+    {
+      "question": "Calcula el producto vectorial de \\(\\vec{a} = (2,1,3)\\) y \\(\\vec{b} = (1,4,0)\\).",
+      "formula": "\\(\\vec{a} = (2,1,3), \\; \\vec{b} = (1,4,0)\\)",
+      "options": [
+        "\\((-12,3,7)\\)",
+        "\\((12,-3,-7)\\)",
+        "\\((-12,-3,7)\\)",
+        "\\((12,3,-7)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El producto vectorial se calcula como \\(\\vec{a}\\times\\vec{b}=\\left(1\\times0-3\\times4,\\; 3\\times1-2\\times0,\\; 2\\times4-1\\times1\\right)=(-12,3,7)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular la primera componente: \\(1\\times0-3\\times4=-12\\).",
+        "Calcular la segunda componente: \\(3\\times1-2\\times0=3\\).",
+        "Calcular la tercera componente: \\(2\\times4-1\\times1=7\\)."
+      ]
+    },
+    {
+      "question": "Calcula el producto escalar de \\(\\vec{a} = (3,-2,5)\\) y \\(\\vec{b} = (-1,6,0)\\).",
+      "formula": "\\(\\vec{a} = (3,-2,5), \\; \\vec{b} = (-1,6,0)\\)",
+      "options": ["\\(-15\\)", "\\(15\\)", "\\(-10\\)", "\\(10\\)"],
+      "correctAnswer": 0,
+      "explanation": "El producto escalar es \\(3\\times(-1)+(-2)\\times6+5\\times0=-3-12+0=-15\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplica las componentes correspondientes.",
+        "Suma los productos: -3 - 12 + 0 = -15."
+      ]
+    },
+    {
+      "question": "Resta los vectores \\(\\vec{a} = (5,7)\\) y \\(\\vec{b} = (8,3)\\).",
+      "formula": "\\(\\vec{a} = (5,7), \\; \\vec{b} = (8,3)\\)",
+      "options": [
+        "\\((-3,4)\\)",
+        "\\((3,-4)\\)",
+        "\\((13,10)\\)",
+        "\\((-13,4)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La resta se realiza componente a componente: \\(5-8=-3\\) y \\(7-3=4\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Resta la primera componente: 5 - 8 = -3.",
+        "Resta la segunda componente: 7 - 3 = 4."
+      ]
+    },
+    {
+      "question": "Suma los vectores \\(\\vec{a} = (-3,2,7)\\) y \\(\\vec{b} = (4,-5,1)\\).",
+      "formula": "\\(\\vec{a} = (-3,2,7), \\; \\vec{b} = (4,-5,1)\\)",
+      "options": [
+        "\\((1,-3,8)\\)",
+        "\\((-7,7,6)\\)",
+        "\\((7,-3,8)\\)",
+        "\\((1,3,8)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Suma componente a componente: \\(-3+4=1\\), \\(2+(-5)=-3\\) y \\(7+1=8\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Suma la primera componente: -3 + 4 = 1.",
+        "Suma la segunda componente: 2 + (-5) = -3.",
+        "Suma la tercera componente: 7 + 1 = 8."
+      ]
+    },
+    {
+      "question": "Calcula el área del triángulo formado por los puntos \\((0,0)\\), \\((4,0)\\) y \\((2,3)\\).",
+      "formula": "Puntos: \\((0,0), (4,0), (2,3)\\)",
+      "options": ["\\(6\\)", "\\(8\\)", "\\(4\\)", "\\(12\\)"],
+      "correctAnswer": 0,
+      "explanation": "El área se calcula usando el determinante: \\(\\frac{1}{2}|4\\times3-0\\times2|=\\frac{1}{2}\\times12=6\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el determinante: 4×3 - 0×2 = 12.",
+        "Dividir entre 2: 12/2 = 6."
+      ]
+    },
+    {
+      "question": "Determina si los vectores \\(\\vec{a} = (3,4)\\) y \\(\\vec{b} = (6,8)\\) son paralelos.",
+      "formula": "\\(\\vec{a} = (3,4), \\; \\vec{b} = (6,8)\\)",
+      "options": [
+        "\\(Sí\\)",
+        "\\(No\\)",
+        "\\(Depende\\)",
+        "\\(No se puede determinar\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El vector \\(\\vec{b}\\) es un múltiplo escalar de \\(\\vec{a}\\) (\\(\\vec{b}=2\\vec{a}\\)), por lo tanto son paralelos.",
+      "difficulty": "hard",
+      "procedure": [
+        "Verificar que cada componente de \\(\\vec{b}\\) es el doble de la correspondiente en \\(\\vec{a}\\)."
+      ]
+    },
+    {
+      "question": "Determina si los vectores \\(\\vec{a} = (1,2,3)\\) y \\(\\vec{b} = (4,5,6)\\) son ortogonales.",
+      "formula": "\\(\\vec{a} = (1,2,3), \\; \\vec{b} = (4,5,6)\\)",
+      "options": [
+        "\\(No\\)",
+        "\\(Sí\\)",
+        "\\(Depende\\)",
+        "\\(No se puede determinar\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El producto punto es \\(1\\times4+2\\times5+3\\times6=4+10+18=32\\), que no es cero, por lo tanto no son ortogonales.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el producto punto: 4 + 10 + 18 = 32.",
+        "Verificar que \\(32 \\neq 0\\), por lo que los vectores no son ortogonales."
+      ]
+    },
+    {
+      "question": "Encuentra el ángulo entre \\(\\vec{a} = (0,-1)\\) y \\(\\vec{b} = (1,0)\\).",
+      "formula": "\\(\\vec{a} = (0,-1), \\; \\vec{b} = (1,0)\\)",
+      "options": [
+        "\\(90^\\circ\\)",
+        "\\(0^\\circ\\)",
+        "\\(45^\\circ\\)",
+        "\\(180^\\circ\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Los vectores son perpendiculares, por lo que el ángulo entre ellos es \\(90^\\circ\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Observar que \\(\\vec{a}\\) y \\(\\vec{b}\\) están en direcciones ortogonales.",
+        "Concluir que el ángulo es \\(90^\\circ\\)."
+      ]
+    },
+    {
+      "question": "Calcula la proyección escalar de \\(\\vec{a} = (7,-1)\\) sobre \\(\\vec{b} = (3,0)\\).",
+      "formula": "\\(\\vec{a} = (7,-1), \\; \\vec{b} = (3,0)\\)",
+      "options": ["\\(7\\)", "\\(21\\)", "\\(3\\)", "\\(\\frac{7}{3}\\)"],
+      "correctAnswer": 0,
+      "explanation": "El producto punto es \\(7\\times3+(-1)\\times0=21\\) y la magnitud de \\(\\vec{b}\\) es 3, de modo que la proyección escalar es \\(\\frac{21}{3}=7\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el producto punto: 7×3 = 21.",
+        "Dividir entre la magnitud de \\(\\vec{b}\\): 21/3 = 7."
+      ]
+    },
+    {
+      "question": "Calcula la proyección vectorial de \\(\\vec{a} = (7,-1)\\) sobre \\(\\vec{b} = (3,0)\\).",
+      "formula": "\\(\\vec{a} = (7,-1), \\; \\vec{b} = (3,0)\\)",
+      "options": ["\\((7,0)\\)", "\\((7/3,0)\\)", "\\((0,7)\\)", "\\((0,0)\\)"],
+      "correctAnswer": 0,
+      "explanation": "La proyección escalar es 7, y el vector unitario de \\(\\vec{b}\\) es \\((1,0)\\); por ello, la proyección vectorial es \\(7\\times(1,0)=(7,0)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Obtener la proyección escalar: 7.",
+        "Multiplicar el vector unitario de \\(\\vec{b}\\) por 7 para obtener \\((7,0)\\)."
+      ]
+    },
+    {
+      "question": "Calcula el vector unitario de \\(\\vec{v} = (0,-9)\\).",
+      "formula": "\\(\\vec{v} = (0,-9)\\)",
+      "options": ["\\((0,-1)\\)", "\\((0,9)\\)", "\\((-9,0)\\)", "\\((1,0)\\)"],
+      "correctAnswer": 0,
+      "explanation": "La magnitud de \\(\\vec{v}\\) es 9, y al dividir cada componente por 9 se obtiene \\((0,-1)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular la magnitud: \\(\\sqrt{0^2+(-9)^2}=9\\).",
+        "Dividir cada componente: \\(0/9=0\\) y \\(-9/9=-1\\)."
+      ]
+    },
+    {
+      "question": "Suma los vectores \\(\\vec{a} = (3,-2)\\) y \\(\\vec{b} = (-1,4)\\) en \\(\\mathbb{R}^2\\).",
+      "formula": "\\(\\vec{a} = (3,-2), \\; \\vec{b} = (-1,4)\\)",
+      "options": ["\\((2,2)\\)", "\\((4,2)\\)", "\\((2,-6)\\)", "\\((0,0)\\)"],
+      "correctAnswer": 0,
+      "explanation": "Suma componente a componente: \\(3+(-1)=2\\) y \\(-2+4=2\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Suma la primera componente: 3 + (-1) = 2.",
+        "Suma la segunda componente: -2 + 4 = 2."
+      ]
+    },
+    {
+      "question": "Resta los vectores \\(\\vec{a} = (10,-4)\\) y \\(\\vec{b} = (3,-8)\\).",
+      "formula": "\\(\\vec{a} = (10,-4), \\; \\vec{b} = (3,-8)\\)",
+      "options": [
+        "\\((7,4)\\)",
+        "\\((7,-4)\\)",
+        "\\((13,-12)\\)",
+        "\\((13,4)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La resta se realiza componente a componente: \\(10-3=7\\) y \\(-4-(-8)=4\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Resta la primera componente: 10 - 3 = 7.",
+        "Resta la segunda componente: -4 + 8 = 4."
+      ]
+    },
+    {
+      "question": "Encuentra el ángulo entre \\(\\vec{a} = (2,2)\\) y \\(\\vec{b} = (-2,2)\\).",
+      "formula": "\\(\\vec{a} = (2,2), \\; \\vec{b} = (-2,2)\\)",
+      "options": [
+        "\\(90^\\circ\\)",
+        "\\(45^\\circ\\)",
+        "\\(0^\\circ\\)",
+        "\\(180^\\circ\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El producto punto es \\(2\\times(-2)+2\\times2= -4+4=0\\), lo que indica que el ángulo entre ellos es \\(90^\\circ\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el producto punto: 0.",
+        "Concluir que el ángulo es \\(90^\\circ\\) ya que el producto es cero."
+      ]
+    },
+    {
+      "question": "Calcula el producto escalar de \\(\\vec{a} = (4,4,2)\\) y \\(\\vec{b} = (1,0,3)\\).",
+      "formula": "\\(\\vec{a} = (4,4,2), \\; \\vec{b} = (1,0,3)\\)",
+      "options": ["\\(10\\)", "\\(8\\)", "\\(12\\)", "\\(14\\)"],
+      "correctAnswer": 0,
+      "explanation": "El producto escalar es \\(4\\times1+4\\times0+2\\times3=4+0+6=10\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplicar cada par de componentes: 4×1, 4×0, 2×3.",
+        "Sumar los resultados: 4+0+6=10."
+      ]
+    },
+    {
+      "question": "Calcula el producto vectorial de \\(\\vec{a} = (0,2,-1)\\) y \\(\\vec{b} = (3,1,4)\\).",
+      "formula": "\\(\\vec{a} = (0,2,-1), \\; \\vec{b} = (3,1,4)\\)",
+      "options": [
+        "\\((9,-3,-6)\\)",
+        "\\((-9,3,6)\\)",
+        "\\((9,3,6)\\)",
+        "\\((9,-3,6)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El producto vectorial se obtiene como \\(\\vec{a}\\times\\vec{b}=\\left(2\\times4-(-1)\\times1,\\; (-1)\\times3-0\\times4,\\; 0\\times1-2\\times3\\right)= (8+1,-3-0,-6)=(9,-3,-6)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular la primera componente: 2×4 - (-1)×1 = 8+1 = 9.",
+        "Calcular la segunda componente: (-1)×3 - 0×4 = -3.",
+        "Calcular la tercera componente: 0×1 - 2×3 = -6."
+      ]
+    },
+    {
+      "question": "Calcula el área del paralelogramo formado por \\(\\vec{u} = (3,4,0)\\) y \\(\\vec{v} = (1,2,0)\\).",
+      "formula": "\\(\\vec{u} = (3,4,0), \\; \\vec{v} = (1,2,0)\\)",
+      "options": ["\\(2\\)", "\\(6\\)", "\\(8\\)", "\\(4\\)"],
+      "correctAnswer": 0,
+      "explanation": "En el plano, el área es el valor absoluto del determinante: \\(|3\\times2-4\\times1|=|6-4|=2\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el determinante: 3×2 - 4×1 = 6 - 4 = 2.",
+        "El área del paralelogramo es 2."
+      ]
+    },
+    {
+      "question": "Convierte el punto \\((5,5)\\) de coordenadas cartesianas a polares.",
+      "formula": "\\((x,y) = (5,5)\\)",
+      "options": [
+        "\\((5\\sqrt{2},45^\\circ)\\)",
+        "\\((5\\sqrt{2},30^\\circ)\\)",
+        "\\((5,45^\\circ)\\)",
+        "\\((5\\sqrt{2},60^\\circ)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El radio es \\(r=\\sqrt{5^2+5^2}=\\sqrt{25+25}=\\sqrt{50}=5\\sqrt{2}\\) y el ángulo es \\(45^\\circ\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el radio: \\(\\sqrt{25+25}=5\\sqrt{2}\\).",
+        "Determinar el ángulo: \\(\\arctan(5/5)=45^\\circ\\)."
+      ]
+    },
+    {
+      "question": "Convierte el punto \\((0,-10)\\) de coordenadas cartesianas a polares.",
+      "formula": "\\((x,y) = (0,-10)\\)",
+      "options": [
+        "\\((10,270^\\circ)\\)",
+        "\\((10,90^\\circ)\\)",
+        "\\((10,180^\\circ)\\)",
+        "\\((10,0^\\circ)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El radio es \\(r=\\sqrt{0^2+(-10)^2}=10\\) y el punto se encuentra sobre el eje negativo \\(y\\), lo que corresponde a \\(270^\\circ\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el radio: \\(\\sqrt{0+100}=10\\).",
+        "Determinar que el ángulo es \\(270^\\circ\\) para el eje negativo \\(y\\)."
+      ]
+    },
+    {
+      "question": "Suma los vectores \\(\\vec{a} = (2,3,4)\\) y \\(\\vec{b} = (5,-6,7)\\).",
+      "formula": "\\(\\vec{a} = (2,3,4), \\; \\vec{b} = (5,-6,7)\\)",
+      "options": [
+        "\\((7,-3,11)\\)",
+        "\\((7,3,11)\\)",
+        "\\((3, -3,11)\\)",
+        "\\((7,-3,10)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se suman las componentes: \\(2+5=7\\), \\(3+(-6)=-3\\) y \\(4+7=11\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Suma la primera componente: 2+5=7.",
+        "Suma la segunda componente: 3+(-6)=-3.",
+        "Suma la tercera componente: 4+7=11."
+      ]
+    },
+    {
+      "question": "Resta los vectores \\(\\vec{a} = (8,3,-2)\\) y \\(\\vec{b} = (3,7,1)\\).",
+      "formula": "\\(\\vec{a} = (8,3,-2), \\; \\vec{b} = (3,7,1)\\)",
+      "options": [
+        "\\((5,-4,-3)\\)",
+        "\\((5,4,3)\\)",
+        "\\((11,-4,-3)\\)",
+        "\\((5,-10,-3)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se realiza la resta componente a componente: \\(8-3=5\\), \\(3-7=-4\\) y \\(-2-1=-3\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Resta la primera componente: 8-3=5.",
+        "Resta la segunda componente: 3-7=-4.",
+        "Resta la tercera componente: -2-1=-3."
+      ]
+    },
+    {
+      "question": "Calcula el producto punto de \\(\\vec{a} = (2,-3,5)\\) y \\(\\vec{b} = (4,0,-1)\\).",
+      "formula": "\\(\\vec{a} = (2,-3,5), \\; \\vec{b} = (4,0,-1)\\)",
+      "options": ["\\(3\\)", "\\(-3\\)", "\\(8\\)", "\\(-8\\)"],
+      "correctAnswer": 0,
+      "explanation": "El producto punto es \\(2\\times4+(-3)\\times0+5\\times(-1)=8+0-5=3\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplicar las componentes correspondientes: 2×4, (-3)×0, 5×(-1).",
+        "Sumar los resultados: 8 + 0 - 5 = 3."
+      ]
+    },
+    {
+      "question": "Encuentra la componente de \\(\\vec{a} = (10,5)\\) en la dirección de \\(\\vec{b} = (2,1)\\).",
+      "formula": "\\(\\vec{a} = (10,5), \\; \\vec{b} = (2,1)\\)",
+      "options": [
+        "\\(5\\sqrt{5}\\)",
+        "\\(5\\sqrt{2}\\)",
+        "\\(5\\sqrt{3}\\)",
+        "\\(5\\sqrt{7}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La componente escalar es \\(\\frac{\\vec{a}\\cdot\\vec{b}}{|\\vec{b}|}=\\frac{10\\times2+5\\times1}{\\sqrt{2^2+1^2}}=\\frac{20+5}{\\sqrt{5}}=\\frac{25}{\\sqrt{5}}=5\\sqrt{5}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el producto punto: 10×2 + 5×1 = 25.",
+        "Calcular la norma de \\(\\vec{b}\\): \\(\\sqrt{4+1}=\\sqrt{5}\\).",
+        "Dividir: \\(25/\\sqrt{5}=5\\sqrt{5}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la norma del vector \\(\\vec{v} = \\left(\\frac{3}{2}, -\\frac{5}{2}\\right)\\).",
+      "formula": "\\(\\vec{v} = \\left(\\frac{3}{2}, -\\frac{5}{2}\\right)\\)",
+      "options": [
+        "\\(\\frac{\\sqrt{34}}{2}\\)",
+        "\\(\\frac{\\sqrt{34}}{3}\\)",
+        "\\(\\frac{\\sqrt{34}}{4}\\)",
+        "\\(\\sqrt{\\frac{34}{2}}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La norma se calcula como \\(\\sqrt{\\left(\\frac{3}{2}\\right)^2+\\left(-\\frac{5}{2}\\right)^2}=\\sqrt{\\frac{9}{4}+\\frac{25}{4}}=\\sqrt{\\frac{34}{4}}=\\frac{\\sqrt{34}}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Elevar cada componente: \\(\\left(\\frac{3}{2}\\right)^2=\\frac{9}{4}\\) y \\(\\left(-\\frac{5}{2}\\right)^2=\\frac{25}{4}\\).",
+        "Sumar los cuadrados: \\(\\frac{9}{4}+\\frac{25}{4}=\\frac{34}{4}\\).",
+        "Extraer la raíz: \\(\\sqrt{\\frac{34}{4}}=\\frac{\\sqrt{34}}{2}\\)."
+      ]
+    }
+  ]
+}

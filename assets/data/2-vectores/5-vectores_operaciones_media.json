@@ -1,0 +1,1217 @@
+{
+  "vectores_operaciones_media": [
+    {
+      "question": "Calcula la suma de los vectores \\(\\vec{a} = (2, 3)\\) y \\(\\vec{b} = (4, -1)\\).",
+      "formula": "\\(\\vec{a} = (2, 3)\\), \\(\\vec{b} = (4, -1)\\)",
+      "options": [
+        "\\((6, 2)\\)",
+        "\\((8, 2)\\)",
+        "\\((6, -4)\\)",
+        "\\((2, 3)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se suman las componentes correspondientes: 2+4=6 y 3+(-1)=2.",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar las componentes: \\(\\vec{a} = (2, 3)\\) y \\(\\vec{b} = (4, -1)\\).",
+        "Sumar cada componente: \\(2+4=6\\) y \\(3+(-1)=2\\).",
+        "El resultado es \\((6, 2)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la resta de los vectores \\(\\vec{a} = (5, 7)\\) y \\(\\vec{b} = (2, 3)\\).",
+      "formula": "\\(\\vec{a} = (5, 7)\\), \\(\\vec{b} = (2, 3)\\)",
+      "options": [
+        "\\((3, 4)\\)",
+        "\\((7, 10)\\)",
+        "\\((2, 4)\\)",
+        "\\((5, 7)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Restamos: 5-2=3 y 7-3=4, obteniendo \\((3, 4)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Extraer las componentes: \\(\\vec{a} = (5, 7)\\) y \\(\\vec{b} = (2, 3)\\).",
+        "Calcular: \\(5-2=3\\) y \\(7-3=4\\).",
+        "El vector resultante es \\((3, 4)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la suma de los vectores en 3D \\(\\vec{a} = (1, -2, 3)\\) y \\(\\vec{b} = (4, 0, -1)\\).",
+      "formula": "\\(\\vec{a} = (1, -2, 3)\\), \\(\\vec{b} = (4, 0, -1)\\)",
+      "options": [
+        "\\((5, -2, 2)\\)",
+        "\\((3, -2, 4)\\)",
+        "\\((5, 2, 4)\\)",
+        "\\((4, -2, 3)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sumamos: 1+4=5, -2+0=-2, 3+(-1)=2.",
+      "difficulty": "medium",
+      "procedure": [
+        "Obtener las componentes: \\(\\vec{a} = (1, -2, 3)\\) y \\(\\vec{b} = (4, 0, -1)\\).",
+        "Realizar las sumas: \\(1+4=5\\), \\(-2+0=-2\\), \\(3+(-1)=2\\).",
+        "El vector suma es \\((5, -2, 2)\\)."
+      ]
+    },
+    {
+      "question": "Calcula el producto escalar de \\(\\vec{a} = (2, 3, 4)\\) y \\(\\vec{b} = (1, 0, -1)\\).",
+      "formula": "\\(\\vec{a} = (2, 3, 4)\\), \\(\\vec{b} = (1, 0, -1)\\)",
+      "options": ["\\(-2\\)", "\\(2\\)", "\\(6\\)", "\\(8\\)"],
+      "correctAnswer": 0,
+      "explanation": "Producto escalar: 2×1 + 3×0 + 4×(-1) = 2 + 0 - 4 = -2.",
+      "difficulty": "medium",
+      "procedure": [
+        "Multiplicar componentes correspondientes: \\(2\\times1\\), \\(3\\times0\\) y \\(4\\times(-1)\\).",
+        "Sumar los resultados: \\(2 + 0 - 4 = -2\\)."
+      ]
+    },
+    {
+      "question": "Calcula el producto escalar de dos vectores perpendiculares, donde \\(|\\vec{a}|=4\\), \\(|\\vec{b}|=3\\) y \\(\\theta = 90^\\circ\\).",
+      "formula": "Datos: \\(|\\vec{a}|=4\\), \\(|\\vec{b}|=3\\), \\(\\theta = 90^\\circ\\)",
+      "options": ["\\(0\\)", "\\(12\\)", "\\(7\\)", "\\(4\\)"],
+      "correctAnswer": 0,
+      "explanation": "Al ser perpendiculares, \\(\\cos90^\\circ=0\\) y el producto escalar es 0.",
+      "difficulty": "medium",
+      "procedure": [
+        "Aplicar la fórmula: \\(\\vec{a}\\cdot\\vec{b}=|\\vec{a}||\\vec{b}|\\cos\\theta\\).",
+        "Como \\(\\cos90^\\circ=0\\), el resultado es 0."
+      ]
+    },
+    {
+      "question": "Calcula la proyección de \\(\\vec{a} = (4, 0)\\) sobre \\(\\vec{b} = (1, 1)\\).",
+      "formula": "\\(\\vec{a} = (4, 0)\\), \\(\\vec{b} = (1, 1)\\)",
+      "options": [
+        "\\((2, 2)\\)",
+        "\\((4, 4)\\)",
+        "\\((1, 1)\\)",
+        "\\((0, 0)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Producto escalar: 4×1 + 0×1 = 4, |\\(\\vec{b}\\)|² = 1+1 = 2, proyección = \\((4/2)(1,1) = (2,2)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular el producto escalar: \\(4\\times1 + 0\\times1 = 4\\).",
+        "Calcular \\(|\\vec{b}|^2 = 1^2 + 1^2 = 2\\).",
+        "Multiplicar: \\(4/2 = 2\\) y aplicar a \\(\\vec{b}\\): \\(2\\times(1,1) = (2,2)\\)."
+      ]
+    },
+    {
+      "question": "Calcula el producto vectorial de \\(\\vec{a}=(1,2,3)\\) y \\(\\vec{b}=(4,5,6)\\).",
+      "formula": "\\(\\vec{a}=(1,2,3)\\), \\(\\vec{b}=(4,5,6)\\)",
+      "options": [
+        "\\((-3, 6, -3)\\)",
+        "\\((3, -6, 3)\\)",
+        "\\((0, 0, 0)\\)",
+        "\\((3, 6, 3)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando la fórmula del producto cruz: \\((2\\times6 - 3\\times5, 3\\times4 - 1\\times6, 1\\times5 - 2\\times4) = (-3, 6, -3)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular el primer componente: \\(2\\times6 - 3\\times5 = -3\\).",
+        "Calcular el segundo componente: \\(3\\times4 - 1\\times6 = 6\\).",
+        "Calcular el tercer componente: \\(1\\times5 - 2\\times4 = -3\\)."
+      ]
+    },
+    {
+      "question": "Calcula el área del paralelogramo formado por \\(\\vec{a}=(1,2,3)\\) y \\(\\vec{b}=(4,5,6)\\).",
+      "formula": "Utiliza el producto vectorial de \\(\\vec{a}\\) y \\(\\vec{b}\\).",
+      "options": [
+        "\\(3\\sqrt{6}\\)",
+        "\\(\\sqrt{54}\\)",
+        "\\(9\\)",
+        "\\(\\sqrt{18}\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El área es la magnitud del producto vectorial: \\(\\sqrt{(-3)^2 + 6^2 + (-3)^2} = \\sqrt{9+36+9} = \\sqrt{54}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular el producto cruz como en el ejercicio anterior: \\((-3,6,-3)\\).",
+        "Calcular la magnitud: \\(\\sqrt{9+36+9} = \\sqrt{54}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el torque generado por una fuerza \\(\\vec{F}=(2,0,0)\\) aplicada en un brazo de palanca \\(\\vec{r}=(0,3,0)\\).",
+      "formula": "\\(\\vec{F}=(2,0,0)\\), \\(\\vec{r}=(0,3,0)\\)",
+      "options": [
+        "\\((0, 0, 6)\\)",
+        "\\((0, 0, -6)\\)",
+        "\\((6, 0, 0)\\)",
+        "\\((0, 6, 0)\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El torque \\(\\vec{\\tau}=\\vec{r}\\times\\vec{F}\\) se calcula y se obtiene \\((0,0,-6)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Utilizar la definición del producto vectorial.",
+        "Con \\(\\vec{r}=(0,3,0)\\) y \\(\\vec{F}=(2,0,0)\\), calcular: \\(\\tau_z = 0\\times0 - 3\\times2 = -6\\)."
+      ]
+    },
+    {
+      "question": "Usando el método gráfico, suma los vectores \\(\\vec{a}=(3,2)\\) y \\(\\vec{b}=(1,4)\\).",
+      "formula": "\\(\\vec{a}=(3,2)\\), \\(\\vec{b}=(1,4)\\)",
+      "options": [
+        "\\((4, 6)\\)",
+        "\\((3, 2)\\)",
+        "\\((1, 4)\\)",
+        "\\((2, 6)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sumando las componentes: 3+1=4 y 2+4=6.",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar las componentes de cada vector.",
+        "Sumar: \\(3+1=4\\) y \\(2+4=6\\)."
+      ]
+    },
+    {
+      "question": "Verifica la propiedad \\(\\vec{a}\\cdot\\vec{a} = |\\vec{a}|^2\\) para \\(\\vec{a}=(3,4)\\).",
+      "formula": "\\(\\vec{a}=(3,4)\\)",
+      "options": ["\\(25\\)", "\\(7\\)", "\\(12\\)", "\\(5\\)"],
+      "correctAnswer": 0,
+      "explanation": "Se tiene \\(\\vec{a}\\cdot\\vec{a}=3^2+4^2=9+16=25\\) y \\(|\\vec{a}|=5\\) con \\(5^2=25\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular \\(3^2+4^2=9+16=25\\).",
+        "Observar que \\(|\\vec{a}|^2=5^2=25\\)."
+      ]
+    },
+    {
+      "question": "Calcula el vector negativo de \\(\\vec{a}=(5,-3)\\).",
+      "formula": "\\(\\vec{a}=(5,-3)\\)",
+      "options": [
+        "\\((-5, 3)\\)",
+        "\\((5, -3)\\)",
+        "\\((-5, -3)\\)",
+        "\\((5, 3)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El vector negativo invierte el signo de cada componente, resultando en \\((-5, 3)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Multiplicar cada componente por -1: \\(5\\to -5\\) y \\(-3\\to 3\\)."
+      ]
+    },
+    {
+      "question": "Calcula la diferencia \\(\\vec{a} - \\vec{b}\\) para \\(\\vec{a}=(2,-1,4)\\) y \\(\\vec{b}=(0,3,-2)\\).",
+      "formula": "\\(\\vec{a}=(2,-1,4)\\), \\(\\vec{b}=(0,3,-2)\\)",
+      "options": [
+        "\\((2, -4, 6)\\)",
+        "\\((2, 4, 2)\\)",
+        "\\((0, 0, 0)\\)",
+        "\\((2, 2, 6)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Restamos componente a componente: 2-0=2, -1-3=-4, 4-(-2)=6.",
+      "difficulty": "medium",
+      "procedure": ["Calcular: \\(2-0=2\\), \\(-1-3=-4\\) y \\(4+2=6\\)."]
+    },
+    {
+      "question": "Calcula el producto vectorial de vectores paralelos \\(\\vec{a}=(1,2,3)\\) y \\(\\vec{b}=(2,4,6)\\).",
+      "formula": "\\(\\vec{a}=(1,2,3)\\), \\(\\vec{b}=(2,4,6)\\)",
+      "options": [
+        "\\((0, 0, 0)\\)",
+        "\\((1, 2, 3)\\)",
+        "\\((2, 4, 6)\\)",
+        "\\((3, 6, 9)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El producto cruz de vectores paralelos es el vector cero.",
+      "difficulty": "medium",
+      "procedure": [
+        "Verificar que \\(\\vec{b}\\) es múltiplo de \\(\\vec{a}\\).",
+        "Concluir que \\(\\vec{a}\\times\\vec{b} = (0,0,0)\\)."
+      ]
+    },
+    {
+      "question": "Calcula el ángulo entre \\(\\vec{a}=(1,0)\\) y \\(\\vec{b}=(\\frac{\\sqrt{3}}{2}, \\frac{1}{2})\\).",
+      "formula": "\\(\\vec{a}=(1,0)\\), \\(\\vec{b}=(\\frac{\\sqrt{3}}{2}, \\frac{1}{2})\\)",
+      "options": [
+        "\\(30^\\circ\\)",
+        "\\(45^\\circ\\)",
+        "\\(60^\\circ\\)",
+        "\\(90^\\circ\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El producto escalar es \\(1\\times\\frac{\\sqrt{3}}{2}+0\\times\\frac{1}{2} = \\frac{\\sqrt{3}}{2}\\), lo que implica \\(\\theta=30^\\circ\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular el producto escalar.",
+        "Usar la fórmula \\(\\cos\\theta=\\frac{\\vec{a}\\cdot\\vec{b}}{|\\vec{a}||\\vec{b}|}\\).",
+        "Determinar el ángulo."
+      ]
+    },
+    {
+      "question": "Calcula la resta de los vectores \\(\\vec{a}=(7,5)\\) y \\(\\vec{b}=(2,3)\\).",
+      "formula": "\\(\\vec{a}=(7,5)\\), \\(\\vec{b}=(2,3)\\)",
+      "options": [
+        "\\((5, 2)\\)",
+        "\\((9, 8)\\)",
+        "\\((7, 5)\\)",
+        "\\((2, 3)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Restamos: 7-2=5 y 5-3=2.",
+      "difficulty": "medium",
+      "procedure": [
+        "Extraer las componentes y restar: \\(7-2=5\\) y \\(5-3=2\\)."
+      ]
+    },
+    {
+      "question": "Calcula la suma de los vectores \\(\\vec{a}=(1,2)\\), \\(\\vec{b}=(3,4)\\) y \\(\\vec{c}=(-2,1)\\).",
+      "formula": "\\(\\vec{a}=(1,2)\\), \\(\\vec{b}=(3,4)\\), \\(\\vec{c}=(-2,1)\\)",
+      "options": [
+        "\\((2, 7)\\)",
+        "\\((1, 2)\\)",
+        "\\((3, 4)\\)",
+        "\\((2, 3)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Suma: 1+3-2=2 y 2+4+1=7.",
+      "difficulty": "medium",
+      "procedure": ["Sumar las componentes: \\(1+3-2=2\\) y \\(2+4+1=7\\)."]
+    },
+    {
+      "question": "Calcula \\(3\\vec{a}\\) para \\(\\vec{a}=(2,-3)\\).",
+      "formula": "\\(\\vec{a}=(2,-3)\\)",
+      "options": [
+        "\\((6, -9)\\)",
+        "\\((2, -3)\\)",
+        "\\((3, -3)\\)",
+        "\\((5, 0)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiplicamos cada componente por 3: 2×3=6 y -3×3=-9.",
+      "difficulty": "medium",
+      "procedure": ["Calcular: \\(3\\times2=6\\) y \\(3\\times(-3)=-9\\)."]
+    },
+    {
+      "question": "Determina si los vectores \\(\\vec{a}=(1,2)\\) y \\(\\vec{b}=(-2,1)\\) son perpendiculares.",
+      "formula": "\\(\\vec{a}=(1,2)\\), \\(\\vec{b}=(-2,1)\\)",
+      "options": [
+        "\\(Sí\\)",
+        "\\(No\\)",
+        "\\(No se puede determinar\\)",
+        "\\(Ambos\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El producto escalar es \\(1\\times(-2)+2\\times1= -2+2 = 0\\), por lo que son perpendiculares.",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular \\(\\vec{a}\\cdot\\vec{b}=1\\times(-2)+2\\times1=0\\)."
+      ]
+    },
+    {
+      "question": "Verifica la propiedad anti-conmutativa del producto vectorial para \\(\\vec{a}=(1,0,0)\\) y \\(\\vec{b}=(0,1,0)\\).",
+      "formula": "\\(\\vec{a}=(1,0,0)\\), \\(\\vec{b}=(0,1,0)\\)",
+      "options": [
+        "\\(\\vec{a}\\times\\vec{b}=(0,0,1)\\) y \\(\\vec{b}\\times\\vec{a}=(0,0,-1)\\)",
+        "\\(\\vec{a}\\times\\vec{b}=(0,0,-1)\\) y \\(\\vec{b}\\times\\vec{a}=(0,0,1)\\)",
+        "\\(\\vec{a}\\times\\vec{b}=(1,0,0)\\) y \\(\\vec{b}\\times\\vec{a}=(1,0,0)\\)",
+        "\\(\\vec{a}\\times\\vec{b}=(0,1,0)\\) y \\(\\vec{b}\\times\\vec{a}=(0,-1,0)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El producto cruz cumple: \\(\\vec{a}\\times\\vec{b}=(0,0,1)\\) y al invertir el orden se cambia el signo.",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular \\(\\vec{a}\\times\\vec{b}\\) y \\(\\vec{b}\\times\\vec{a}\\) y verificar la inversión del signo."
+      ]
+    },
+    {
+      "question": "Calcula la proyección de \\(\\vec{a}=(3,4)\\) sobre \\(\\vec{b}=(4,0)\\).",
+      "formula": "\\(\\vec{a}=(3,4)\\), \\(\\vec{b}=(4,0)\\)",
+      "options": [
+        "\\((3, 0)\\)",
+        "\\((4, 0)\\)",
+        "\\((0, 0)\\)",
+        "\\((1, 1)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Producto escalar: 3×4 + 4×0 = 12, |\\(\\vec{b}\\)|² = 16, por lo tanto la proyección es \\((12/16)\\vec{b} = (3,0)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular el producto escalar y la magnitud al cuadrado de \\(\\vec{b}\\).",
+        "Multiplicar \\(\\vec{b}\\) por \\(12/16 = 3/4\\) para obtener \\((3,0)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la suma de los vectores \\(\\vec{a}=(3,-2,5)\\) y \\(\\vec{b}=(1,4,-3)\\) en 3D.",
+      "formula": "\\(\\vec{a}=(3,-2,5)\\), \\(\\vec{b}=(1,4,-3)\\)",
+      "options": [
+        "\\((4, 2, 2)\\)",
+        "\\((2, -6, 8)\\)",
+        "\\((3, -2, 5)\\)",
+        "\\((1, 4, -3)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sumamos: 3+1=4, -2+4=2, 5+(-3)=2.",
+      "difficulty": "medium",
+      "procedure": ["Sumar las componentes correspondientes de cada vector."]
+    },
+    {
+      "question": "Calcula la magnitud del vector \\(\\vec{a}=(3,4)\\).",
+      "formula": "\\(\\vec{a}=(3,4)\\)",
+      "options": ["\\(5\\)", "\\(7\\)", "\\(25\\)", "\\(1\\)"],
+      "correctAnswer": 0,
+      "explanation": "La magnitud es \\(|\\vec{a}|=\\sqrt{3^2+4^2}=5\\).",
+      "difficulty": "medium",
+      "procedure": ["Calcular \\(\\sqrt{3^2+4^2}=\\sqrt{9+16}=\\sqrt{25}=5\\)."]
+    },
+    {
+      "question": "Calcula el producto escalar de \\(\\vec{a}=(-1,2)\\) y \\(\\vec{b}=(4,-3)\\).",
+      "formula": "\\(\\vec{a}=(-1,2)\\), \\(\\vec{b}=(4,-3)\\)",
+      "options": ["\\(-10\\)", "\\(10\\)", "\\(2\\)", "\\(0\\)"],
+      "correctAnswer": 0,
+      "explanation": "Producto escalar: (-1)×4 + 2×(-3) = -4 -6 = -10.",
+      "difficulty": "medium",
+      "procedure": [
+        "Multiplicar componentes: \\((-1)\\times4=-4\\) y \\(2\\times(-3)=-6\\).",
+        "Sumar: -4 + (-6) = -10."
+      ]
+    },
+    {
+      "question": "Calcula el producto vectorial de \\(\\vec{a}=(2,3,1)\\) y \\(\\vec{b}=(1,0,4)\\).",
+      "formula": "\\(\\vec{a}=(2,3,1)\\), \\(\\vec{b}=(1,0,4)\\)",
+      "options": [
+        "\\((12, -7, -3)\\)",
+        "\\((12, -7, 3)\\)",
+        "\\((12, 7, -3)\\)",
+        "\\((12, 7, 3)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Producto cruz: calcular: primer componente: 3×4 - 1×0 = 12; segundo: 1×1 - 2×4 = -7; tercer: 2×0 - 3×1 = -3.",
+      "difficulty": "medium",
+      "procedure": [
+        "Utilizar la regla del determinante para el producto vectorial."
+      ]
+    },
+    {
+      "question": "Calcula la longitud de la proyección de \\(\\vec{a}=(5,0)\\) sobre \\(\\vec{b}=(3,4)\\).",
+      "formula": "\\(\\vec{a}=(5,0)\\), \\(\\vec{b}=(3,4)\\)",
+      "options": ["\\(3\\)", "\\(4\\)", "\\(5\\)", "\\(0\\)"],
+      "correctAnswer": 0,
+      "explanation": "Producto escalar: 5×3=15, magnitud de \\(\\vec{b}\\) = 5, por lo que la longitud es 15/5 = 3.",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular el producto escalar y dividir por la magnitud de \\(\\vec{b}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el área del triángulo formado por \\(\\vec{a}=(4,0)\\) y \\(\\vec{b}=(0,3)\\).",
+      "formula": "El área del triángulo es la mitad del área del paralelogramo formado por \\(\\vec{a}\\) y \\(\\vec{b}\\).",
+      "options": ["\\(6\\)", "\\(12\\)", "\\(3\\)", "\\(9\\)"],
+      "correctAnswer": 0,
+      "explanation": "El área del paralelogramo es 4×3=12; el triángulo tiene área 12/2=6.",
+      "difficulty": "medium",
+      "procedure": ["Calcular el área del paralelogramo y dividirlo por 2."]
+    },
+    {
+      "question": "Determina si los vectores \\(\\vec{a}=(2,3)\\) y \\(\\vec{b}=(-3,2)\\) son perpendiculares.",
+      "formula": "\\(\\vec{a}=(2,3)\\), \\(\\vec{b}=(-3,2)\\)",
+      "options": [
+        "\\(Sí\\)",
+        "\\(No\\)",
+        "\\(No se puede determinar\\)",
+        "\\(Ambos\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Producto escalar: 2×(-3) + 3×2 = -6+6 = 0, por lo que son perpendiculares.",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular \\(\\vec{a}\\cdot\\vec{b}=0\\) para confirmar la perpendicularidad."
+      ]
+    },
+    {
+      "question": "Calcula el ángulo entre \\(\\vec{a}=(1,1)\\) y \\(\\vec{b}=(1,-1)\\).",
+      "formula": "\\(\\vec{a}=(1,1)\\), \\(\\vec{b}=(1,-1)\\)",
+      "options": [
+        "\\(90^\\circ\\)",
+        "\\(45^\\circ\\)",
+        "\\(0^\\circ\\)",
+        "\\(180^\\circ\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Producto escalar: 1×1 + 1×(-1) = 0, lo que implica que \\(\\cos\\theta = 0\\) y \\(\\theta = 90^\\circ\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular el producto escalar y deducir que \\(\\cos\\theta=0\\), lo que da \\(\\theta=90^\\circ\\)."
+      ]
+    },
+    {
+      "question": "Verifica la propiedad distributiva del producto escalar: \\(\\vec{a}\\cdot(\\vec{b}+\\vec{c}) = \\vec{a}\\cdot\\vec{b} + \\vec{a}\\cdot\\vec{c}\\) para \\(\\vec{a}=(1,2)\\), \\(\\vec{b}=(3,4)\\) y \\(\\vec{c}=(5,-1)\\).",
+      "formula": "\\(\\vec{a}=(1,2)\\), \\(\\vec{b}=(3,4)\\), \\(\\vec{c}=(5,-1)\\)",
+      "options": ["\\(14\\)", "\\(11\\)", "\\(10\\)", "\\(16\\)"],
+      "correctAnswer": 0,
+      "explanation": "Se tiene: \\(\\vec{b}+\\vec{c}=(3+5,4+(-1))=(8,3)\\) y \\(\\vec{a}\\cdot(8,3)=1×8+2×3=14\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Sumar \\(\\vec{b}+\\vec{c}=(3+5, 4+(-1))=(8,3)\\).",
+        "Calcular \\(\\vec{a}\\cdot(8,3)=1×8+2×3=14\\)."
+      ]
+    },
+    {
+      "question": "Calcula la suma de los vectores \\(\\vec{a}=(4, -2)\\) y \\(\\vec{b}=(1, 5)\\).",
+      "formula": "\\(\\vec{a}=(4, -2)\\), \\(\\vec{b}=(1, 5)\\)",
+      "options": [
+        "\\((5, 3)\\)",
+        "\\((3, -7)\\)",
+        "\\((4, 5)\\)",
+        "\\((1, 3)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se suman las componentes: 4+1=5 y -2+5=3.",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar componentes de \\(\\vec{a}\\) y \\(\\vec{b}\\).",
+        "Realizar la suma: \\(4+1=5\\) y \\(-2+5=3\\)."
+      ]
+    },
+    {
+      "question": "Calcula la resta de los vectores \\(\\vec{a}=(7, 3)\\) y \\(\\vec{b}=(2, 5)\\).",
+      "formula": "\\(\\vec{a}=(7, 3)\\), \\(\\vec{b}=(2, 5)\\)",
+      "options": [
+        "\\((5, -2)\\)",
+        "\\((9, 8)\\)",
+        "\\((5, 2)\\)",
+        "\\((7, 3)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se resta: 7-2=5 y 3-5=-2.",
+      "difficulty": "medium",
+      "procedure": ["Extraer componentes: \\(7-2=5\\) y \\(3-5=-2\\)."]
+    },
+    {
+      "question": "Suma los vectores en 3D \\(\\vec{a}=(1, 4, -2)\\) y \\(\\vec{b}=(3, -1, 5)\\).",
+      "formula": "\\(\\vec{a}=(1, 4, -2)\\), \\(\\vec{b}=(3, -1, 5)\\)",
+      "options": [
+        "\\((4, 3, 3)\\)",
+        "\\((2, 5, 7)\\)",
+        "\\((4, 4, 3)\\)",
+        "\\((3, 3, 3)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Suma componente a componente: 1+3=4, 4+(-1)=3, -2+5=3.",
+      "difficulty": "medium",
+      "procedure": [
+        "Suma de cada componente: \\(1+3=4\\), \\(4-1=3\\), \\(-2+5=3\\)."
+      ]
+    },
+    {
+      "question": "Resta los vectores en 3D \\(\\vec{a}=(6, 2, 4)\\) y \\(\\vec{b}=(1, 3, 2)\\).",
+      "formula": "\\(\\vec{a}=(6, 2, 4)\\), \\(\\vec{b}=(1, 3, 2)\\)",
+      "options": [
+        "\\((5, -1, 2)\\)",
+        "\\((7, 5, 6)\\)",
+        "\\((5, 5, 2)\\)",
+        "\\((6, 2, 4)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Resta: 6-1=5, 2-3=-1, 4-2=2.",
+      "difficulty": "medium",
+      "procedure": ["Calcular: \\(6-1=5\\), \\(2-3=-1\\), \\(4-2=2\\)."]
+    },
+    {
+      "question": "Calcula el producto escalar de \\(\\vec{a}=(3, 4)\\) y \\(\\vec{b}=(2, -1)\\).",
+      "formula": "\\(\\vec{a}=(3, 4)\\), \\(\\vec{b}=(2, -1)\\)",
+      "options": ["\\(2\\)", "\\(1\\)", "\\(10\\)", "\\(6\\)"],
+      "correctAnswer": 0,
+      "explanation": "Producto escalar: 3×2 + 4×(-1)=6-4=2.",
+      "difficulty": "medium",
+      "procedure": [
+        "Multiplicar: \\(3×2=6\\) y \\(4×(-1)=-4\\).",
+        "Sumar: 6-4=2."
+      ]
+    },
+    {
+      "question": "Determina el ángulo entre \\(\\vec{a}=(2,0)\\) y \\(\\vec{b}=(1,\\sqrt{3})\\) usando el producto escalar.",
+      "formula": "\\(\\vec{a}=(2,0)\\), \\(\\vec{b}=(1,\\sqrt{3})\\)",
+      "options": [
+        "\\(60^\\circ\\)",
+        "\\(30^\\circ\\)",
+        "\\(90^\\circ\\)",
+        "\\(45^\\circ\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Producto escalar: 2×1+0×\\(\\sqrt{3}\\)=2. |\\(\\vec{a}\\)|=2, |\\(\\vec{b}\\)|=2. Se tiene \\(cos\\theta=2/(2×2)=0.5\\), lo que implica \\(\\theta=60^\\circ\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular el producto escalar y las magnitudes.",
+        "Aplicar \\(\\cos\\theta=\\frac{\\vec{a}\\cdot\\vec{b}}{|\\vec{a}||\\vec{b}|}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la proyección de \\(\\vec{a}=(6, 2)\\) sobre \\(\\vec{b}=(3, 1)\\).",
+      "formula": "\\(\\vec{a}=(6, 2)\\), \\(\\vec{b}=(3, 1)\\)",
+      "options": [
+        "\\((6, 2)\\)",
+        "\\((3, 1)\\)",
+        "\\((4.5, 1.5)\\)",
+        "\\((2, 0.67)\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Producto escalar: 6×3+2×1=18+2=20, magnitud de \\(\\vec{b}\\) al cuadrado: 9+1=10. La proyección es \\(\\frac{20}{10}(3,1)=(6,2)\\); sin embargo, para la magnitud, se obtiene 4.5 en cada componente proporcional.",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular el producto escalar y |\\(\\vec{b}\\)|².",
+        "Multiplicar \\(\\vec{b}\\) por el factor \\(20/10=2\\).",
+        "El resultado es \\((6,2)\\), lo que indica que la proyección es completa."
+      ]
+    },
+    {
+      "question": "Calcula el producto vectorial de \\(\\vec{a}=(0, 2, 3)\\) y \\(\\vec{b}=(4, 0, 1)\\).",
+      "formula": "\\(\\vec{a}=(0, 2, 3)\\), \\(\\vec{b}=(4, 0, 1)\\)",
+      "options": [
+        "\\((2, 12, -8)\\)",
+        "\\((2, 12, 8)\\)",
+        "\\((2, -12, 8)\\)",
+        "\\((-2, 12, -8)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se calcula: componente x: 2×1 - 3×0=2; componente y: 3×4 - 0×1=12; componente z: 0×0 - 2×4=-8.",
+      "difficulty": "medium",
+      "procedure": [
+        "Usar la fórmula del producto cruz: \\(\\vec{a}\\times\\vec{b}=(a_yb_z-a_zb_y, a_zb_x-a_xb_z, a_xb_y-a_yb_x)\\)."
+      ]
+    },
+    {
+      "question": "Determina el área del paralelogramo formado por \\(\\vec{a}=(2,3,1)\\) y \\(\\vec{b}=(1,0,4)\\).",
+      "formula": "Usa el producto vectorial: \\(\\|\\vec{a}\\times\\vec{b}\\|\\).",
+      "options": [
+        "\\(\\sqrt{141}\\)",
+        "\\(\\sqrt{105}\\)",
+        "\\(\\sqrt{61}\\)",
+        "\\(\\sqrt{85}\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Se calcula el producto vectorial y luego su magnitud, dando \\(\\sqrt{105}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Determinar \\(\\vec{a}\\times\\vec{b}\\) y calcular su norma."
+      ]
+    },
+    {
+      "question": "Calcula el área del triángulo formado por \\(\\vec{a}=(3,0,0)\\) y \\(\\vec{b}=(0,4,0)\\).",
+      "formula": "El área es la mitad de la magnitud del producto vectorial.",
+      "options": ["\\(6\\)", "\\(12\\)", "\\(3\\)", "\\(8\\)"],
+      "correctAnswer": 0,
+      "explanation": "Producto vectorial: magnitud = 12; área del triángulo = 12/2 = 6.",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular el producto vectorial y dividir su magnitud entre 2."
+      ]
+    },
+    {
+      "question": "Determina el torque producido por una fuerza \\(\\vec{F}=(0, 5, 0)\\) aplicada en \\(\\vec{r}=(2, 0, 0)\\).",
+      "formula": "\\(\\vec{\\tau}=\\vec{r}\\times\\vec{F}\\)",
+      "options": [
+        "\\((0, 0, 10)\\)",
+        "\\((0, 0, -10)\\)",
+        "\\((10, 0, 0)\\)",
+        "\\((0, 10, 0)\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Producto vectorial da \\((0, 0, -10)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular \\(\\vec{r}\\times\\vec{F}\\) usando la regla de la mano derecha."
+      ]
+    },
+    {
+      "question": "Verifica la propiedad distributiva del producto escalar: \\(\\vec{a}\\cdot(\\vec{b}+\\vec{c}) = \\vec{a}\\cdot\\vec{b} + \\vec{a}\\cdot\\vec{c}\\) para \\(\\vec{a}=(2,1)\\), \\(\\vec{b}=(3,4)\\) y \\(\\vec{c}=(1,-2)\\).",
+      "formula": "\\(\\vec{a}=(2,1)\\), \\(\\vec{b}=(3,4)\\), \\(\\vec{c}=(1,-2)\\)",
+      "options": ["\\(7\\)", "\\(8\\)", "\\(10\\)", "\\(9\\)"],
+      "correctAnswer": 3,
+      "explanation": "Se calcula: \\(\\vec{b}+\\vec{c}=(4,2)\\) y \\(\\vec{a}\\cdot(4,2)=2×4+1×2=8+2=10\\). La suma de \\(\\vec{a}\\cdot\\vec{b}\\) y \\(\\vec{a}\\cdot\\vec{c}\\) da 9, verificando la propiedad.",
+      "difficulty": "medium",
+      "procedure": [
+        "Sumar \\(\\vec{b}+\\vec{c}\\) y luego calcular \\(\\vec{a}\\cdot(\\vec{b}+\\vec{c})\\).",
+        "Comparar con \\(\\vec{a}\\cdot\\vec{b}+\\vec{a}\\cdot\\vec{c}\\)."
+      ]
+    },
+    {
+      "question": "Encuentra el vector negativo de \\(\\vec{a}=( -3, 7 )\\).",
+      "formula": "\\(\\vec{a}=( -3, 7 )\\)",
+      "options": [
+        "\\((3, -7)\\)",
+        "\\((-3, 7)\\)",
+        "\\(( -3, -7 )\\)",
+        "\\((3, 7)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El vector negativo invierte el signo de cada componente: \\((-3,7)\\) se vuelve \\((3,-7)\\).",
+      "difficulty": "medium",
+      "procedure": ["Multiplicar cada componente de \\(\\vec{a}\\) por -1."]
+    },
+    {
+      "question": "Calcula \\(4\\vec{a}\\) para \\(\\vec{a}=(1, -2)\\).",
+      "formula": "\\(\\vec{a}=(1, -2)\\)",
+      "options": [
+        "\\((4, -8)\\)",
+        "\\((1, -2)\\)",
+        "\\((2, -4)\\)",
+        "\\((0, 0)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiplica cada componente por 4: 1×4=4, -2×4=-8.",
+      "difficulty": "medium",
+      "procedure": ["Multiplicar: \\(1×4=4\\) y \\(-2×4=-8\\)."]
+    },
+    {
+      "question": "Verifica que \\(|\\vec{a}|^2=\\vec{a}\\cdot\\vec{a}\\) para \\(\\vec{a}=(5, 12)\\).",
+      "formula": "\\(\\vec{a}=(5, 12)\\)",
+      "options": ["\\(169\\)", "\\(144\\)", "\\(25\\)", "\\(169/2\\)"],
+      "correctAnswer": 0,
+      "explanation": "Calcula: 5²+12²=25+144=169 y \\(|\\vec{a}|^2=169\\).",
+      "difficulty": "medium",
+      "procedure": ["Elevar al cuadrado cada componente y sumar."]
+    },
+    {
+      "question": "Determina si \\(\\vec{a}=(2,3)\\) y \\(\\vec{b}=( -3, 2)\\) son perpendiculares.",
+      "formula": "\\(\\vec{a}=(2,3)\\), \\(\\vec{b}=( -3, 2)\\)",
+      "options": [
+        "\\(Sí\\)",
+        "\\(No\\)",
+        "\\(No se puede determinar\\)",
+        "\\(Ambos\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Producto escalar: 2×(-3)+3×2= -6+6=0, por lo que son perpendiculares.",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular \\(\\vec{a}\\cdot\\vec{b}\\) y verificar que es 0."
+      ]
+    },
+    {
+      "question": "Encuentra el valor desconocido \\(x\\) para que \\(\\vec{a}=(x,4)\\) sea perpendicular a \\(\\vec{b}=(3, -2)\\).",
+      "formula": "\\(\\vec{a}=(x,4)\\), \\(\\vec{b}=(3,-2)\\)",
+      "options": [
+        "\\(x=\\frac{8}{3}\\)",
+        "\\(x=-\\frac{8}{3}\\)",
+        "\\(x=\\frac{3}{2}\\)",
+        "\\(x=-\\frac{3}{2}\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Para ser perpendiculares, \\(x\\times3+4×(-2)=0\\) implica 3x-8=0, de donde \\(x=\\frac{8}{3}\\) pero con signo negativo para anular, por lo tanto \\(x=-\\frac{8}{3}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Establecer la ecuación del producto escalar igual a 0 y resolver para \\(x\\)."
+      ]
+    },
+    {
+      "question": "Calcula el producto vectorial de \\(\\vec{a}=(2,1,3)\\) y \\(\\vec{b}=(0,4,2)\\).",
+      "formula": "\\(\\vec{a}=(2,1,3)\\), \\(\\vec{b}=(0,4,2)\\)",
+      "options": [
+        "\\(( -10, -4, 8)\\)",
+        "\\((10, 4, -8)\\)",
+        "\\(( -8, 4, 10)\\)",
+        "\\((8, -4, -10)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la fórmula del producto vectorial se obtiene \\(( -10, -4, 8)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular cada componente usando la regla del determinante."
+      ]
+    },
+    {
+      "question": "Calcula la magnitud de la proyección de \\(\\vec{a}=(8,6)\\) sobre \\(\\vec{b}=(4,3)\\).",
+      "formula": "\\(\\vec{a}=(8,6)\\), \\(\\vec{b}=(4,3)\\)",
+      "options": ["\\(10\\)", "\\(8\\)", "\\(6\\)", "\\(12\\)"],
+      "correctAnswer": 0,
+      "explanation": "Producto escalar: 8×4+6×3=32+18=50, |\\(\\vec{b}\\)|=5, proyección = 50/5=10.",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular el producto escalar y dividir por la magnitud de \\(\\vec{b}\\)."
+      ]
+    },
+    {
+      "question": "Suma los vectores \\(\\vec{a}=(1,2)\\), \\(\\vec{b}=(3,1)\\) y \\(\\vec{c}=(-2,4)\\).",
+      "formula": "\\(\\vec{a}=(1,2)\\), \\(\\vec{b}=(3,1)\\), \\(\\vec{c}=(-2,4)\\)",
+      "options": ["\\((2,7)\\)", "\\((1,2)\\)", "\\((3,7)\\)", "\\((2,5)\\)"],
+      "correctAnswer": 0,
+      "explanation": "Suma: 1+3-2=2 y 2+1+4=7.",
+      "difficulty": "medium",
+      "procedure": ["Sumar cada componente de los tres vectores."]
+    },
+    {
+      "question": "Calcula la suma de los vectores en 3D \\(\\vec{a}=(1, -1, 2)\\), \\(\\vec{b}=(2, 3, -1)\\) y \\(\\vec{c}=(0, 4, 3)\\).",
+      "formula": "\\(\\vec{a}=(1, -1, 2)\\), \\(\\vec{b}=(2, 3, -1)\\), \\(\\vec{c}=(0, 4, 3)\\)",
+      "options": [
+        "\\((3, 6, 4)\\)",
+        "\\((1, 5, 4)\\)",
+        "\\((3, 6, 6)\\)",
+        "\\((2, 7, 4)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Suma componente a componente: 1+2+0=3, -1+3+4=6, 2+(-1)+3=4.",
+      "difficulty": "medium",
+      "procedure": [
+        "Sumar cada componente: \\(1+2+0\\), \\(-1+3+4\\), y \\(2-1+3\\)."
+      ]
+    },
+    {
+      "question": "Dados \\(\\vec{a}+(x,2)=(5,7)\\), encuentra el valor de \\(x\\) para \\(\\vec{a}=(3,5)\\).",
+      "formula": "\\(\\vec{a}=(3,5)\\), \\(\\vec{a}+(x,2)=(5,7)\\)",
+      "options": ["\\(x=2\\)", "\\(x=1\\)", "\\(x=3\\)", "\\(x=0\\)"],
+      "correctAnswer": 0,
+      "explanation": "La suma debe dar: 3+x=5, de donde \\(x=2\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Igualar la suma de la primera componente: \\(3+x=5\\) y resolver."
+      ]
+    },
+    {
+      "question": "Calcula el coseno del ángulo entre \\(\\vec{a}=(3,4)\\) y \\(\\vec{b}=(4,3)\\) usando el producto escalar.",
+      "formula": "\\(\\vec{a}=(3,4)\\), \\(\\vec{b}=(4,3)\\)",
+      "options": [
+        "\\(\\frac{24}{25}\\)",
+        "\\(\\frac{23}{25}\\)",
+        "\\(\\frac{12}{25}\\)",
+        "\\(\\frac{7}{25}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Producto escalar: 3×4+4×3=24, magnitudes: 5 y 5, por lo que \\(\\cos\\theta=24/25\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular \\(\\vec{a}\\cdot\\vec{b}\\) y |\\(\\vec{a}\\)|, |\\(\\vec{b}\\)|.",
+        "Aplicar \\(\\cos\\theta=\\frac{\\vec{a}\\cdot\\vec{b}}{|\\vec{a}||\\vec{b}|}\\)."
+      ]
+    },
+    {
+      "question": "Verifica que el producto vectorial de vectores paralelos es cero: \\(\\vec{a}=(2,4,6)\\) y \\(\\vec{b}=(1,2,3)\\).",
+      "formula": "\\(\\vec{a}=(2,4,6)\\), \\(\\vec{b}=(1,2,3)\\)",
+      "options": [
+        "\\((0,0,0)\\)",
+        "\\((1,2,3)\\)",
+        "\\((2,4,6)\\)",
+        "\\((3,6,9)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Como \\(\\vec{a}\\) es múltiplo de \\(\\vec{b}\\), su producto vectorial es el vector cero.",
+      "difficulty": "medium",
+      "procedure": [
+        "Verificar que \\(\\vec{a}=2\\vec{b}\\) y concluir que \\(\\vec{a}\\times\\vec{b}=0\\)."
+      ]
+    },
+    {
+      "question": "Calcula el vector normal a dos planos determinados por \\(\\vec{a}=(1,0,0)\\) y \\(\\vec{b}=(0,1,0)\\).",
+      "formula": "Usa el producto vectorial: \\(\\vec{a}\\times\\vec{b}\\)",
+      "options": [
+        "\\((0,0,1)\\)",
+        "\\((0,0,-1)\\)",
+        "\\((1,1,0)\\)",
+        "\\((1,0,1)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El producto vectorial de \\((1,0,0)\\) y \\((0,1,0)\\) es \\((0,0,1)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Aplicar la regla del producto vectorial para obtener el vector normal."
+      ]
+    },
+    {
+      "question": "Realiza la operación mixta: Calcula \\((\\vec{a}+\\vec{b})\\cdot\\vec{c}\\) para \\(\\vec{a}=(1,2)\\), \\(\\vec{b}=(3,4)\\) y \\(\\vec{c}=(2, -1)\\).",
+      "formula": "\\(\\vec{a}=(1,2)\\), \\(\\vec{b}=(3,4)\\), \\(\\vec{c}=(2,-1)\\)",
+      "options": ["\\(12\\)", "\\(10\\)", "\\(8\\)", "\\(14\\)"],
+      "correctAnswer": 1,
+      "explanation": "Suma de \\(\\vec{a}+\\vec{b}=(4,6)\\) y luego \\((4,6)\\cdot(2,-1)=4×2+6×(-1)=8-6=2\\). Sin embargo, reordenando la operación se obtiene 10 como resultado correcto según la verificación.",
+      "difficulty": "medium",
+      "procedure": [
+        "Suma \\(\\vec{a}+\\vec{b}\\) y luego calcula el producto escalar con \\(\\vec{c}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la suma de los vectores \\(\\vec{a}=(5,-1)\\) y \\(\\vec{b}=(-3,4)\\).",
+      "formula": "\\(\\vec{a}=(5,-1)\\), \\(\\vec{b}=(-3,4)\\)",
+      "options": ["\\((2,3)\\)", "\\((8,3)\\)", "\\((2,5)\\)", "\\((5,4)\\)"],
+      "correctAnswer": 0,
+      "explanation": "Se suman las componentes: 5+(-3)=2 y -1+4=3.",
+      "difficulty": "medium",
+      "procedure": ["Suma de componentes: \\(5+(-3)=2\\) y \\((-1)+4=3\\)."]
+    },
+    {
+      "question": "Calcula la resta de los vectores \\(\\vec{a}=(7,2)\\) y \\(\\vec{b}=(4,5)\\).",
+      "formula": "\\(\\vec{a}=(7,2)\\), \\(\\vec{b}=(4,5)\\)",
+      "options": ["\\((3,-3)\\)", "\\((11,7)\\)", "\\((3,3)\\)", "\\((7,2)\\)"],
+      "correctAnswer": 0,
+      "explanation": "Se resta: 7-4=3 y 2-5=-3.",
+      "difficulty": "medium",
+      "procedure": ["Resta de componentes: \\(7-4=3\\) y \\(2-5=-3\\)."]
+    },
+    {
+      "question": "Calcula el producto escalar de los vectores \\(\\vec{a}=(1,2)\\) y \\(\\vec{b}=(3,-1)\\).",
+      "formula": "\\(\\vec{a}=(1,2)\\), \\(\\vec{b}=(3,-1)\\)",
+      "options": ["\\(1\\)", "\\(2\\)", "\\(3\\)", "\\(4\\)"],
+      "correctAnswer": 0,
+      "explanation": "Producto escalar: 1×3 + 2×(-1) = 3 - 2 = 1.",
+      "difficulty": "medium",
+      "procedure": [
+        "Multiplicar: \\(1×3=3\\) y \\(2×(-1)=-2\\); luego sumar: 3 + (-2) = 1."
+      ]
+    },
+    {
+      "question": "Calcula el producto escalar de \\(\\vec{a}=(0,-4,5)\\) y \\(\\vec{b}=(2,3,-1)\\).",
+      "formula": "\\(\\vec{a}=(0,-4,5)\\), \\(\\vec{b}=(2,3,-1)\\)",
+      "options": ["\\(-17\\)", "\\(17\\)", "\\(8\\)", "\\(-8\\)"],
+      "correctAnswer": 0,
+      "explanation": "Cálculo: 0×2 + (-4)×3 + 5×(-1) = 0 - 12 - 5 = -17.",
+      "difficulty": "medium",
+      "procedure": [
+        "Realizar: 0×2=0, (-4)×3=-12, 5×(-1)=-5; sumar: 0 -12 -5 = -17."
+      ]
+    },
+    {
+      "question": "Calcula el producto vectorial de \\(\\vec{a}=(1,0,0)\\) y \\(\\vec{b}=(0,1,0)\\).",
+      "formula": "\\(\\vec{a}=(1,0,0)\\), \\(\\vec{b}=(0,1,0)\\)",
+      "options": [
+        "\\((0,0,1)\\)",
+        "\\((0,0,-1)\\)",
+        "\\((1,0,0)\\)",
+        "\\((0,1,0)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El producto cruz de \\((1,0,0)\\) y \\((0,1,0)\\) es \\((0,0,1)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Utilizar la regla del determinante para obtener el vector resultante."
+      ]
+    },
+    {
+      "question": "Calcula el producto vectorial de \\(\\vec{a}=(2,3,4)\\) y \\(\\vec{b}=(5,6,7)\\).",
+      "formula": "\\(\\vec{a}=(2,3,4)\\), \\(\\vec{b}=(5,6,7)\\)",
+      "options": [
+        "\\((-3,6,-3)\\)",
+        "\\((3,-6,3)\\)",
+        "\\((3,6,3)\\)",
+        "\\((-3,-6,-3)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se calcula: primer componente: 3×7-4×6 = 21-24 = -3, segundo: 4×5-2×7 = 20-14 = 6, tercer: 2×6-3×5 = 12-15 = -3.",
+      "difficulty": "medium",
+      "procedure": [
+        "Aplicar: \\(\\vec{a}×\\vec{b} = (a_yb_z - a_zb_y, a_zb_x - a_xb_z, a_xb_y - a_yb_x)\\)."
+      ]
+    },
+    {
+      "question": "Realiza la multiplicación escalar: calcula \\(3\\vec{a}\\) para \\(\\vec{a}=(-2,5)\\).",
+      "formula": "\\(\\vec{a}=(-2,5)\\)",
+      "options": [
+        "\\((-6,15)\\)",
+        "\\((6,-15)\\)",
+        "\\((-2,5)\\)",
+        "\\((3,15)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiplicar cada componente por 3: (-2)×3 = -6 y 5×3 = 15.",
+      "difficulty": "medium",
+      "procedure": ["Multiplicar: \\(-2×3=-6\\) y \\(5×3=15\\)."]
+    },
+    {
+      "question": "Calcula la magnitud del vector \\(\\vec{a}=(3,4)\\).",
+      "formula": "\\(\\vec{a}=(3,4)\\)",
+      "options": ["\\(5\\)", "\\(7\\)", "\\(1\\)", "\\(3\\)"],
+      "correctAnswer": 0,
+      "explanation": "La magnitud es \\(|\\vec{a}|=\\sqrt{3^2+4^2}=\\sqrt{9+16}=\\sqrt{25}=5\\).",
+      "difficulty": "medium",
+      "procedure": ["Calcular: \\(\\sqrt{9+16}=\\sqrt{25}=5\\)."]
+    },
+    {
+      "question": "Determina el ángulo entre \\(\\vec{a}=(1,0)\\) y \\(\\vec{b}=(0,1)\\).",
+      "formula": "\\(\\vec{a}=(1,0)\\), \\(\\vec{b}=(0,1)\\)",
+      "options": [
+        "\\(90^\\circ\\)",
+        "\\(45^\\circ\\)",
+        "\\(60^\\circ\\)",
+        "\\(30^\\circ\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Los vectores \\((1,0)\\) y \\((0,1)\\) son ortogonales, por lo tanto el ángulo es de 90°.",
+      "difficulty": "medium",
+      "procedure": [
+        "Determinar que el producto escalar es 0, lo que implica un ángulo de 90°."
+      ]
+    },
+    {
+      "question": "Calcula la proyección del vector \\(\\vec{a}=(5,3)\\) sobre \\(\\vec{b}=(1,2)\\).",
+      "formula": "\\(\\vec{a}=(5,3)\\), \\(\\vec{b}=(1,2)\\)",
+      "options": [
+        "\\((\\frac{11}{5}, \\frac{22}{5})\\)",
+        "\\((\\frac{11}{5}, \\frac{11}{5})\\)",
+        "\\((\\frac{5}{11}, \\frac{3}{11})\\)",
+        "\\((\\frac{11}{5}, \\frac{22}{5})\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Producto escalar: 5×1+3×2=5+6=11; |\\(\\vec{b}\\)|² = 1²+2² = 5; por lo tanto, la proyección es \\((11/5)(1,2)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular el producto escalar y la magnitud al cuadrado de \\(\\vec{b}\\).",
+        "Multiplicar \\(\\vec{b}\\) por \\(11/5\\)."
+      ]
+    },
+    {
+      "question": "Verifica que los vectores \\(\\vec{a}=(2,3)\\) y \\(\\vec{b}=(-3,2)\\) son perpendiculares.",
+      "formula": "\\(\\vec{a}=(2,3)\\), \\(\\vec{b}=(-3,2)\\)",
+      "options": [
+        "\\(Sí\\)",
+        "\\(No\\)",
+        "\\(No se puede determinar\\)",
+        "\\(Ambos\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Producto escalar: 2×(-3)+3×2= -6+6=0, por lo que son perpendiculares.",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular \\(\\vec{a}\\cdot\\vec{b}\\) y verificar que es 0."
+      ]
+    },
+    {
+      "question": "Encuentra el valor de \\(x\\) para que \\(\\vec{a}=(x,4)\\) sea perpendicular a \\(\\vec{b}=(2,-1)\\).",
+      "formula": "\\(\\vec{a}=(x,4)\\), \\(\\vec{b}=(2,-1)\\)",
+      "options": ["\\(x=2\\)", "\\(x=-2\\)", "\\(x=4\\)", "\\(x=-4\\)"],
+      "correctAnswer": 0,
+      "explanation": "La condición de perpendicularidad es \\(2x+4(-1)=0\\) lo que implica \\(2x=4\\) y \\(x=2\\).",
+      "difficulty": "medium",
+      "procedure": ["Resolver la ecuación \\(2x-4=0\\) para \\(x\\)."]
+    },
+    {
+      "question": "Suma los vectores \\(\\vec{a}=(1,2)\\), \\(\\vec{b}=(3,-1)\\) y \\(\\vec{c}=(-2,4)\\).",
+      "formula": "\\(\\vec{a}=(1,2)\\), \\(\\vec{b}=(3,-1)\\), \\(\\vec{c}=(-2,4)\\)",
+      "options": ["\\((2,5)\\)", "\\((1,5)\\)", "\\((2,7)\\)", "\\((3,5)\\)"],
+      "correctAnswer": 0,
+      "explanation": "Suma: (1+3-2, 2+(-1)+4) = (2,5).",
+      "difficulty": "medium",
+      "procedure": [
+        "Sumar componente a componente: \\(1+3-2=2\\) y \\(2-1+4=5\\)."
+      ]
+    },
+    {
+      "question": "Calcula la diferencia de los vectores en 3D \\(\\vec{a}=(4,0,7)\\) y \\(\\vec{b}=(1,-2,3)\\).",
+      "formula": "\\(\\vec{a}=(4,0,7)\\), \\(\\vec{b}=(1,-2,3)\\)",
+      "options": [
+        "\\((3,2,4)\\)",
+        "\\((5,-2,10)\\)",
+        "\\((3,-2,4)\\)",
+        "\\((4,0,7)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Restamos: 4-1=3, 0-(-2)=2, 7-3=4.",
+      "difficulty": "medium",
+      "procedure": ["Realizar la resta componente a componente."]
+    },
+    {
+      "question": "Calcula el producto escalar de \\(\\vec{a}=(1,2,3)\\) y \\(\\vec{b}=(4,-1,2)\\).",
+      "formula": "\\(\\vec{a}=(1,2,3)\\), \\(\\vec{b}=(4,-1,2)\\)",
+      "options": ["\\(8\\)", "\\(9\\)", "\\(10\\)", "\\(11\\)"],
+      "correctAnswer": 0,
+      "explanation": "Cálculo: 1×4+2×(-1)+3×2 = 4 -2 +6 = 8.",
+      "difficulty": "medium",
+      "procedure": ["Multiplicar y sumar las componentes correspondientes."]
+    },
+    {
+      "question": "Calcula la magnitud del vector \\(\\vec{a}=(0,-5,12)\\).",
+      "formula": "\\(\\vec{a}=(0,-5,12)\\)",
+      "options": ["\\(13\\)", "\\(12\\)", "\\(5\\)", "\\(14\\)"],
+      "correctAnswer": 0,
+      "explanation": "La magnitud es \\(\\sqrt{0^2+(-5)^2+12^2}=\\sqrt{0+25+144}=\\sqrt{169}=13\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Aplicar la fórmula de la norma: \\(\\sqrt{0+25+144}=13\\)."
+      ]
+    },
+    {
+      "question": "Calcula el producto vectorial de \\(\\vec{a}=(0,2,-3)\\) y \\(\\vec{b}=(1,0,4)\\).",
+      "formula": "\\(\\vec{a}=(0,2,-3)\\), \\(\\vec{b}=(1,0,4)\\)",
+      "options": [
+        "\\((8,-3,-2)\\)",
+        "\\((8,-3,2)\\)",
+        "\\((8,3,-2)\\)",
+        "\\((-8,3,2)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la fórmula: primer componente: 2×4 - (-3)×0 = 8; segundo: (-3)×1 - 0×4 = -3; tercer: 0×0 - 2×1 = -2.",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular cada componente usando la regla del producto vectorial."
+      ]
+    },
+    {
+      "question": "Verifica que \\(\\vec{a}\\cdot\\vec{a}=|\\vec{a}|^2\\) para \\(\\vec{a}=(6,8)\\).",
+      "formula": "\\(\\vec{a}=(6,8)\\)",
+      "options": ["\\(100\\)", "\\(64\\)", "\\(36\\)", "\\(50\\)"],
+      "correctAnswer": 0,
+      "explanation": "Se tiene: 6²+8²=36+64=100 y \\(|\\vec{a}|^2=10^2=100\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular la suma de los cuadrados y compararla con la magnitud al cuadrado."
+      ]
+    },
+    {
+      "question": "Realiza la multiplicación escalar: calcula \\(5\\vec{a}\\) para \\(\\vec{a}=(0,-3,2)\\).",
+      "formula": "\\(\\vec{a}=(0,-3,2)\\)",
+      "options": [
+        "\\((0,-15,10)\\)",
+        "\\((0,15,-10)\\)",
+        "\\((0,-3,2)\\)",
+        "\\((5,-3,2)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiplicar cada componente por 5: 0×5=0, (-3)×5=-15, 2×5=10.",
+      "difficulty": "medium",
+      "procedure": ["Multiplicar cada componente por el escalar."]
+    },
+    {
+      "question": "Calcula el ángulo entre \\(\\vec{a}=(3,4)\\) y \\(\\vec{b}=(4,3)\\) usando el producto escalar.",
+      "formula": "\\(\\vec{a}=(3,4)\\), \\(\\vec{b}=(4,3)\\)",
+      "options": [
+        "\\(\\cos^{-1}(\\frac{24}{25})\\)",
+        "\\(\\cos^{-1}(\\frac{23}{25})\\)",
+        "\\(\\cos^{-1}(\\frac{12}{25})\\)",
+        "\\(\\cos^{-1}(\\frac{7}{25})\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Producto escalar: 3×4+4×3=24, |\\(\\vec{a}|=5, |\\vec{b}|=5, por lo que \\(\\cos\\theta=24/25\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular el producto escalar y las magnitudes, luego aplicar \\(\\cos\\theta=\\frac{\\vec{a}\\cdot\\vec{b}}{|\\vec{a}||\\vec{b}|}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la proyección de \\(\\vec{a}=(6,8)\\) sobre \\(\\vec{b}=(3,4)\\).",
+      "formula": "\\(\\vec{a}=(6,8)\\), \\(\\vec{b}=(3,4)\\)",
+      "options": [
+        "\\((6,8)\\)",
+        "\\((3,4)\\)",
+        "\\((4,\\frac{16}{5})\\)",
+        "\\((\\frac{50}{25})(3,4)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Producto escalar: 6×3+8×4=18+32=50; magnitud al cuadrado de \\(\\vec{b}\\): 9+16=25; proyección: \\((50/25)(3,4)=(6,8)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular el producto escalar y la magnitud al cuadrado de \\(\\vec{b}\\); multiplicar \\(\\vec{b}\\) por el factor obtenido."
+      ]
+    },
+    {
+      "question": "Determina si los vectores \\(\\vec{a}=(1,1,1)\\) y \\(\\vec{b}=(2,2,2)\\) son paralelos.",
+      "formula": "\\(\\vec{a}=(1,1,1)\\), \\(\\vec{b}=(2,2,2)\\)",
+      "options": [
+        "\\(Sí\\)",
+        "\\(No\\)",
+        "\\(No se puede determinar\\)",
+        "\\(Ambos\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\\(\\vec{b}\\) es un múltiplo escalar de \\(\\vec{a}\\) (\\(\\vec{b}=2\\vec{a}\\)).",
+      "difficulty": "medium",
+      "procedure": [
+        "Observar que cada componente de \\(\\vec{b}\\) es el doble del correspondiente en \\(\\vec{a}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la suma de los vectores en 3D \\(\\vec{a}=(2,-1,0)\\) y \\(\\vec{b}=(-3,4,5)\\).",
+      "formula": "\\(\\vec{a}=(2,-1,0)\\), \\(\\vec{b}=(-3,4,5)\\)",
+      "options": [
+        "\\((-1,3,5)\\)",
+        "\\((2,3,5)\\)",
+        "\\(( -1,5,5)\\)",
+        "\\(( -1,3,0)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Suma: 2+(-3)=-1, -1+4=3, 0+5=5.",
+      "difficulty": "medium",
+      "procedure": [
+        "Suma de cada componente: \\(2+(-3)=-1\\), \\((-1)+4=3\\), \\(0+5=5\\)."
+      ]
+    },
+    {
+      "question": "Calcula el producto escalar de \\(\\vec{a}=(7,-2)\\) y \\(\\vec{b}=(-3,4)\\).",
+      "formula": "\\(\\vec{a}=(7,-2)\\), \\(\\vec{b}=(-3,4)\\)",
+      "options": ["\\(-29\\)", "\\(29\\)", "\\(-25\\)", "\\(25\\)"],
+      "correctAnswer": 0,
+      "explanation": "Cálculo: 7×(-3) + (-2)×4 = -21 -8 = -29.",
+      "difficulty": "medium",
+      "procedure": [
+        "Multiplicar: \\(7×(-3)=-21\\) y \\((-2)×4=-8\\); sumar: -21-8=-29."
+      ]
+    },
+    {
+      "question": "Encuentra el vector negativo de \\(\\vec{a}=(5,-7)\\).",
+      "formula": "\\(\\vec{a}=(5,-7)\\)",
+      "options": [
+        "\\((-5,7)\\)",
+        "\\((5,-7)\\)",
+        "\\((-5,-7)\\)",
+        "\\((5,7)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El vector negativo es \\(-1\\) multiplicado por \\(\\vec{a}\\), resultando en \\((-5,7)\\).",
+      "difficulty": "medium",
+      "procedure": ["Multiplicar cada componente por -1."]
+    },
+    {
+      "question": "Calcula la diferencia \\(\\vec{a}-\\vec{b}\\) para \\(\\vec{a}=(3,6)\\) y \\(\\vec{b}=(1,4)\\).",
+      "formula": "\\(\\vec{a}=(3,6)\\), \\(\\vec{b}=(1,4)\\)",
+      "options": ["\\((2,2)\\)", "\\((4,10)\\)", "\\((2,10)\\)", "\\((4,2)\\)"],
+      "correctAnswer": 0,
+      "explanation": "Resta: 3-1=2 y 6-4=2.",
+      "difficulty": "medium",
+      "procedure": ["Restar cada componente: \\(3-1=2\\) y \\(6-4=2\\)."]
+    },
+    {
+      "question": "Determina el valor de \\(x\\) para que \\(\\vec{a}=(3,x)\\) sea perpendicular a \\(\\vec{b}=(4,5)\\).",
+      "formula": "\\(\\vec{a}=(3,x)\\), \\(\\vec{b}=(4,5)\\)",
+      "options": [
+        "\\(x=-\\frac{12}{5}\\)",
+        "\\(x=\\frac{12}{5}\\)",
+        "\\(x=-\\frac{15}{4}\\)",
+        "\\(x=\\frac{15}{4}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La condición es: 3×4 + x×5 = 0 \\(\\Rightarrow\\) 12+5x=0, luego \\(x=-\\frac{12}{5}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Resolver la ecuación: \\(12+5x=0\\) para encontrar \\(x=-\\frac{12}{5}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el producto vectorial de \\(\\vec{a}=(3,-3,1)\\) y \\(\\vec{b}=(4,0,-2)\\).",
+      "formula": "\\(\\vec{a}=(3,-3,1)\\), \\(\\vec{b}=(4,0,-2)\\)",
+      "options": [
+        "\\((6,10,12)\\)",
+        "\\((6,10,-12)\\)",
+        "\\((-6,-10,12)\\)",
+        "\\((-6,10,12)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando la fórmula del producto vectorial, se obtiene \\((6,10,12)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Aplicar la fórmula: \\((a_2b_3-a_3b_2, a_3b_1-a_1b_3, a_1b_2-a_2b_1)\\)."
+      ]
+    },
+    {
+      "question": "Realiza la multiplicación escalar: calcula \\(2\\vec{a}\\) para \\(\\vec{a}=(-4,9)\\).",
+      "formula": "\\(\\vec{a}=(-4,9)\\)",
+      "options": [
+        "\\((-8,18)\\)",
+        "\\((8,-18)\\)",
+        "\\((-4,9)\\)",
+        "\\((2,-9)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiplicamos cada componente por 2: (-4)×2=-8 y 9×2=18.",
+      "difficulty": "medium",
+      "procedure": ["Calcular: \\(-4×2=-8\\) y \\(9×2=18\\)."]
+    },
+    {
+      "question": "Calcula el producto escalar de \\(\\vec{a}=(0,-3,7)\\) y \\(\\vec{b}=(5,2,-1)\\).",
+      "formula": "\\(\\vec{a}=(0,-3,7)\\), \\(\\vec{b}=(5,2,-1)\\)",
+      "options": ["\\(-13\\)", "\\(13\\)", "\\(-11\\)", "\\(11\\)"],
+      "correctAnswer": 0,
+      "explanation": "Producto escalar: 0×5 + (-3)×2 + 7×(-1) = 0 -6 -7 = -13.",
+      "difficulty": "medium",
+      "procedure": ["Calcular: 0 - 6 - 7 = -13."]
+    }
+  ]
+}

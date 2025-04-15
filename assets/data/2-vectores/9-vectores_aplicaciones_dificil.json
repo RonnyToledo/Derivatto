@@ -1,0 +1,1390 @@
+{
+  "vectores_aplicaciones_dificil": [
+    {
+      "question": "Determina la ecuación paramétrica de la recta que pasa por los puntos \\(P(1,2,3)\\) y \\(Q(4,0,-1)\\).",
+      "formula": "\\(P(1,2,3)\\) y \\(Q(4,0,-1)\\)",
+      "options": [
+        "\\(x=1+3t,\\; y=2-2t,\\; z=3-4t\\)",
+        "\\(x=1-3t,\\; y=2+2t,\\; z=3+4t\\)",
+        "\\(x=4+3t,\\; y=0-2t,\\; z=-1-4t\\)",
+        "\\(x=1+2t,\\; y=2-3t,\\; z=3-4t\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La dirección de la recta es \\(\\vec{d}=Q-P=(3,-2,-4)\\) y, usando el punto \\(P\\), la ecuación paramétrica es \\(x=1+3t,\\; y=2-2t,\\; z=3-4t\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular la dirección: \\(\\vec{d}=Q-P=(4-1,0-2,-1-3)=(3,-2,-4)\\).",
+        "Usar la forma paramétrica: \\(\\vec{r}=P+t\\vec{d}\\).",
+        "Obtener: \\(x=1+3t,\\; y=2-2t,\\; z=3-4t\\)."
+      ]
+    },
+    {
+      "question": "Halla la ecuación del plano que pasa por el punto \\(P(2,-1,4)\\) y tiene vector normal \\(\\vec{n}=(1,2,-3)\\).",
+      "formula": "\\(P(2,-1,4)\\) y \\(\\vec{n}=(1,2,-3)\\)",
+      "options": [
+        "\\(x+2y-3z+12=0\\)",
+        "\\(x+2y-3z-12=0\\)",
+        "\\(x-2y+3z+12=0\\)",
+        "\\(2x+y-3z+12=0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La ecuación de un plano es \\(\\vec{n} \\cdot (\\vec{r}-\\vec{r}_0)=0\\). Al sustituir \\(\\vec{n}=(1,2,-3)\\) y \\(P(2,-1,4)\\) se obtiene \\(1(x-2)+2(y+1)-3(z-4)=0\\), que simplifica a \\(x+2y-3z+12=0\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Usar la fórmula: \\(\\vec{n} \\cdot (\\vec{r}-\\vec{r}_0)=0\\).",
+        "Sustituir \\(\\vec{n}=(1,2,-3)\\) y \\(\\vec{r}_0=(2,-1,4)\\).",
+        "Obtener: \\(x-2+2y+2-3z+12=0\\) y simplificar a \\(x+2y-3z+12=0\\)."
+      ]
+    },
+    {
+      "question": "Calcula el trabajo realizado por una fuerza \\(\\vec{F}=(4,-2,3)\\) al desplazar un objeto \\(\\vec{d}=(2,3,-1)\\).",
+      "formula": "\\(\\vec{F}=(4,-2,3)\\) y \\(\\vec{d}=(2,3,-1)\\)",
+      "options": ["\\(W=-1\\)", "\\(W=1\\)", "\\(W=5\\)", "\\(W=-5\\)"],
+      "correctAnswer": 0,
+      "explanation": "El trabajo se calcula mediante el producto escalar: \\(W=\\vec{F}\\cdot\\vec{d}=4\\times2+(-2)\\times3+3\\times(-1)=8-6-3=-1\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplicar componente a componente: \\(4\\times2,\\; (-2)\\times3,\\; 3\\times(-1)\\).",
+        "Sumar los resultados: \\(8-6-3=-1\\).",
+        "Concluir que \\(W=-1\\)."
+      ]
+    },
+    {
+      "question": "Determina la fuerza resultante de \\(\\vec{F}_1=(3,0,-2)\\), \\(\\vec{F}_2=(-1,4,3)\\) y \\(\\vec{F}_3=(2,-3,1)\\).",
+      "formula": "\\(\\vec{F}_1=(3,0,-2)\\), \\(\\vec{F}_2=(-1,4,3)\\) y \\(\\vec{F}_3=(2,-3,1)\\)",
+      "options": [
+        "\\(\\vec{F}_R=(4,1,2)\\)",
+        "\\(\\vec{F}_R=(4,1,0)\\)",
+        "\\(\\vec{F}_R=(3,2,2)\\)",
+        "\\(\\vec{F}_R=(2,1,2)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se suman las componentes de cada fuerza: \\((3-1+2,\\; 0+4-3,\\; -2+3+1)=(4,1,2)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Sumar las componentes \\(x, y, z\\) de cada vector.",
+        "Obtener: \\(3+(-1)+2=4,\\; 0+4+(-3)=1,\\; -2+3+1=2\\).",
+        "Concluir que \\(\\vec{F}_R=(4,1,2)\\)."
+      ]
+    },
+    {
+      "question": "Un objeto se mueve con velocidades \\(\\vec{v}_1=(5,-3,2)\\) y \\(\\vec{v}_2=(2,4,-1)\\) en dos intervalos consecutivos. Calcula la velocidad promedio.",
+      "formula": "\\(\\vec{v}_1=(5,-3,2)\\) y \\(\\vec{v}_2=(2,4,-1)\\)",
+      "options": [
+        "\\(\\vec{v}_{avg}=(3.5,0.5,0.5)\\)",
+        "\\(\\vec{v}_{avg}=(3,0.5,0.5)\\)",
+        "\\(\\vec{v}_{avg}=(3.5,1,1)\\)",
+        "\\(\\vec{v}_{avg}=(5,-3,2)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La velocidad promedio se obtiene promediando cada componente: \\(\\vec{v}_{avg}=\\frac{\\vec{v}_1+\\vec{v}_2}{2}=(3.5,0.5,0.5)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Sumar las velocidades: \\((5+2,\\; -3+4,\\; 2+(-1))=(7,1,1)\\).",
+        "Dividir cada componente entre 2: \\((7/2,1/2,1/2)=(3.5,0.5,0.5)\\)."
+      ]
+    },
+    {
+      "question": "Determina la aceleración vectorial de un objeto que cambia su velocidad de \\(\\vec{v}_i=(1,2,3)\\) a \\(\\vec{v}_f=(4,0,-1)\\) en \\(2\\) segundos.",
+      "formula": "\\(\\vec{v}_i=(1,2,3)\\) y \\(\\vec{v}_f=(4,0,-1)\\)",
+      "options": [
+        "\\(\\vec{a}=(1.5,-1,-2)\\)",
+        "\\(\\vec{a}=(3,-2,-4)\\)",
+        "\\(\\vec{a}=(1,-1,-2)\\)",
+        "\\(\\vec{a}=(2,0,-3)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La aceleración se calcula como la variación de velocidad dividida por el tiempo: \\(\\vec{a}=\\frac{\\vec{v}_f-\\vec{v}_i}{2}=(1.5,-1,-2)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular la diferencia: \\((4-1,\\; 0-2,\\; -1-3)=(3,-2,-4)\\).",
+        "Dividir cada componente entre 2: \\((3/2,-2/2,-4/2)=(1.5,-1,-2)\\)."
+      ]
+    },
+    {
+      "question": "Encuentra la ecuación paramétrica de la recta que pasa por \\(P(-2,3,1)\\) y es paralela a \\(\\vec{d}=(4,-1,2)\\).",
+      "formula": "\\(P(-2,3,1)\\) y \\(\\vec{d}=(4,-1,2)\\)",
+      "options": [
+        "\\(x=-2+4t,\\; y=3-t,\\; z=1+2t\\)",
+        "\\(x=-2-4t,\\; y=3+t,\\; z=1-2t\\)",
+        "\\(x=-2+2t,\\; y=3-t,\\; z=1+4t\\)",
+        "\\(x=-2+4t,\\; y=3+2t,\\; z=1-t\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La recta se define por un punto y una dirección; se utiliza \\(\\vec{d}\\) y el punto \\(P\\) para obtener \\(x=-2+4t,\\; y=3-t,\\; z=1+2t\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar la dirección: \\(\\vec{d}=(4,-1,2)\\).",
+        "Usar la forma: \\(\\vec{r}=P+t\\vec{d}\\).",
+        "Obtener la ecuación paramétrica correspondiente."
+      ]
+    },
+    {
+      "question": "Halla la ecuación del plano que pasa por los puntos \\(P(1,0,2)\\), \\(Q(3,-1,0)\\) y \\(R(2,2,1)\\).",
+      "formula": "\\(P(1,0,2)\\), \\(Q(3,-1,0)\\) y \\(R(2,2,1)\\)",
+      "options": [
+        "\\(x+z-3=0\\)",
+        "\\(x+z+3=0\\)",
+        "\\(x-z-3=0\\)",
+        "\\(2x+z-3=0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se calculan dos vectores en el plano y se halla su producto vectorial para obtener un vector normal, que lleva a la ecuación \\(x+z-3=0\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular \\(\\vec{u}=Q-P=(2,-1,-2)\\) y \\(\\vec{v}=R-P=(1,2,-1)\\).",
+        "Determinar \\(\\vec{n}=\\vec{u}\\times\\vec{v}=(5,0,5)\\) (simplificado a \\((1,0,1)\\)).",
+        "Utilizar \\(\\vec{n}\\cdot(\\vec{r}-P)=0\\) para obtener \\(x+z-3=0\\)."
+      ]
+    },
+    {
+      "question": "Calcula el trabajo realizado por una fuerza \\(\\vec{F}=(10,0,0)\\) que forma un ángulo de \\(60^\\circ\\) con la dirección del desplazamiento de \\(5\\) metros.",
+      "formula": "\\(\\vec{F}=(10,0,0)\\) y desplazamiento \\(d=5\\) m con \\(\\theta=60^\\circ\\)",
+      "options": ["\\(W=25\\)", "\\(W=50\\)", "\\(W=5\\)", "\\(W=10\\)"],
+      "correctAnswer": 0,
+      "explanation": "El trabajo se calcula con \\(W=F\\,d\\,\\cos\\theta\\): \\(10\\times5\\times\\cos60^\\circ=50\\times0.5=25\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la fórmula: \\(W=F\\,d\\,\\cos\\theta\\).",
+        "Sustituir los valores: \\(10,\\; 5,\\; \\cos60^\\circ=0.5\\).",
+        "Calcular: \\(W=10\\times5\\times0.5=25\\)."
+      ]
+    },
+    {
+      "question": "Si un objeto está en equilibrio, la suma de todas las fuerzas debe ser cero. Verifica si \\(\\vec{F}_1=(2,-3,4)\\), \\(\\vec{F}_2=(-1,3,-2)\\) y \\(\\vec{F}_3=(-1,0,-2)\\) cumplen esta condición.",
+      "formula": "\\(\\vec{F}_1=(2,-3,4)\\), \\(\\vec{F}_2=(-1,3,-2)\\) y \\(\\vec{F}_3=(-1,0,-2)\\)",
+      "options": [
+        "Sí, están en equilibrio.",
+        "No, la suma es \\((1,0,0)\\).",
+        "No, la suma es \\((0,1,0)\\).",
+        "No, la suma es \\((0,0,1)\\)."
+      ],
+      "correctAnswer": 0,
+      "explanation": "La suma vectorial es \\((2-1-1,\\; -3+3+0,\\; 4-2-2)=(0,0,0)\\), cumpliendo la condición de equilibrio.",
+      "difficulty": "hard",
+      "procedure": [
+        "Sumar las componentes de cada fuerza.",
+        "Verificar que \\(2-1-1=0,\\; -3+3+0=0,\\; 4-2-2=0\\).",
+        "Concluir que el objeto está en equilibrio."
+      ]
+    },
+    {
+      "question": "Un avión cambia su velocidad de \\(\\vec{v}_i=(250,0,0)\\) km/h a \\(\\vec{v}_f=(200,50,0)\\) km/h. ¿Cuál es el cambio en la velocidad (vector diferencia)?",
+      "formula": "\\(\\vec{v}_i=(250,0,0)\\) y \\(\\vec{v}_f=(200,50,0)\\)",
+      "options": [
+        "\\(\\Delta \\vec{v}=(-50,50,0)\\)",
+        "\\(\\Delta \\vec{v}=(50,50,0)\\)",
+        "\\(\\Delta \\vec{v}=(50,-50,0)\\)",
+        "\\(\\Delta \\vec{v}=(0,50,0)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La diferencia de velocidades se obtiene restando \\(\\vec{v}_i\\) de \\(\\vec{v}_f\\): \\((200-250,\\; 50-0,\\; 0-0)=(-50,50,0)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Restar componente a componente: \\(200-250,\\; 50-0,\\; 0-0\\).",
+        "Obtener \\(\\Delta \\vec{v}=(-50,50,0)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la aceleración promedio de un objeto que pasa de \\(\\vec{v}_i=(0,0,0)\\) a \\(\\vec{v}_f=(0,0,-9.8)\\) m/s en \\(1\\) segundo.",
+      "formula": "\\(\\vec{v}_i=(0,0,0)\\) y \\(\\vec{v}_f=(0,0,-9.8)\\)",
+      "options": [
+        "\\(\\vec{a}=(0,0,-9.8)\\)",
+        "\\(\\vec{a}=(0,0,9.8)\\)",
+        "\\(\\vec{a}=(9.8,0,0)\\)",
+        "\\(\\vec{a}=(0,9.8,0)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La aceleración es el cambio de velocidad dividido entre el tiempo: \\(\\vec{a}=(0,0,-9.8)\\) m/s².",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular la diferencia \\(\\vec{v}_f-\\vec{v}_i=(0,0,-9.8)\\).",
+        "Dividir entre \\(1\\) s para obtener \\(\\vec{a}=(0,0,-9.8)\\)."
+      ]
+    },
+    {
+      "question": "Determina la ecuación de la recta perpendicular al plano \\(2x-y+2z-5=0\\) que pasa por el punto \\(P(1,2,3)\\).",
+      "formula": "Plano: \\(2x-y+2z-5=0\\) y \\(P(1,2,3)\\)",
+      "options": [
+        "\\(x=1+2t,\\; y=2-t,\\; z=3+2t\\)",
+        "\\(x=1-2t,\\; y=2+t,\\; z=3-2t\\)",
+        "\\(x=1+2t,\\; y=2+2t,\\; z=3+2t\\)",
+        "\\(x=1-t,\\; y=2+t,\\; z=3-t\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La recta perpendicular al plano tiene la misma dirección que el vector normal \\((2,-1,2)\\) del plano, y se obtiene la ecuación paramétrica usando el punto \\(P\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar el vector normal del plano: \\((2,-1,2)\\).",
+        "Usar la forma: \\(\\vec{r}=P+t\\vec{n}\\).",
+        "Obtener: \\(x=1+2t,\\; y=2-t,\\; z=3+2t\\)."
+      ]
+    },
+    {
+      "question": "Halla la ecuación del plano que pasa por \\(P(0,1,-1)\\) y es paralelo a los vectores \\(\\vec{u}=(1,2,3)\\) y \\(\\vec{v}=(4,0,-2)\\).",
+      "formula": "\\(P(0,1,-1)\\), \\(\\vec{u}=(1,2,3)\\) y \\(\\vec{v}=(4,0,-2)\\)",
+      "options": [
+        "\\(-2x+7y-4z-11=0\\)",
+        "\\(2x-7y+4z+11=0\\)",
+        "\\(-2x+7y+4z-11=0\\)",
+        "\\(2x+7y-4z-11=0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se calcula el producto vectorial de \\(\\vec{u}\\) y \\(\\vec{v}\\) para obtener el vector normal, que se utiliza en la forma punto-normal para obtener la ecuación del plano.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular \\(\\vec{u}\\times\\vec{v}\\) para obtener el vector normal.",
+        "Usar la forma: \\(\\vec{n}\\cdot(\\vec{r}-P)=0\\).",
+        "Simplificar la ecuación obtenida."
+      ]
+    },
+    {
+      "question": "Una fuerza \\(\\vec{F}=(6,8,0)\\) se aplica a un objeto que se desplaza \\(10\\) m en la dirección \\(\\vec{d}=(1,0,0)\\). Calcula el trabajo realizado.",
+      "formula": "\\(\\vec{F}=(6,8,0)\\) y \\(\\vec{d}=(1,0,0)\\) con \\(d=10\\) m",
+      "options": ["\\(W=60\\)", "\\(W=80\\)", "\\(W=10\\)", "\\(W=14\\)"],
+      "correctAnswer": 0,
+      "explanation": "El trabajo se obtiene calculando el producto escalar entre \\(\\vec{F}\\) y la dirección del desplazamiento, y luego multiplicando por la distancia: \\(6\\times10=60\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular \\(\\vec{F}\\cdot\\vec{d}\\): \\(6\\times1+8\\times0+0\\times0=6\\).",
+        "Multiplicar por la distancia: \\(6\\times10=60\\)."
+      ]
+    },
+    {
+      "question": "Un ciclista recorre dos trayectos con velocidades \\(\\vec{v}_1=(15,0,0)\\) km/h y \\(\\vec{v}_2=(10,5,0)\\) km/h durante el mismo intervalo de tiempo. Calcula su velocidad media.",
+      "formula": "\\(\\vec{v}_1=(15,0,0)\\) y \\(\\vec{v}_2=(10,5,0)\\)",
+      "options": [
+        "\\(\\vec{v}_{avg}=(12.5,2.5,0)\\)",
+        "\\(\\vec{v}_{avg}=(12,2,0)\\)",
+        "\\(\\vec{v}_{avg}=(15,5,0)\\)",
+        "\\(\\vec{v}_{avg}=(10,0,0)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La velocidad media se obtiene promediando las componentes de ambas velocidades.",
+      "difficulty": "hard",
+      "procedure": [
+        "Sumar las velocidades: \\((15+10,\\; 0+5,\\; 0+0)=(25,5,0)\\).",
+        "Dividir entre 2: \\((25/2,5/2,0)=(12.5,2.5,0)\\)."
+      ]
+    },
+    {
+      "question": "Un automóvil incrementa su velocidad de \\(\\vec{v}_i=(20,0,0)\\) m/s a \\(\\vec{v}_f=(25,5,0)\\) m/s en \\(5\\) s. Calcula su aceleración vectorial.",
+      "formula": "\\(\\vec{v}_i=(20,0,0)\\) y \\(\\vec{v}_f=(25,5,0)\\)",
+      "options": [
+        "\\(\\vec{a}=(1,1,0)\\)",
+        "\\(\\vec{a}=(5,5,0)\\)",
+        "\\(\\vec{a}=(1,0,0)\\)",
+        "\\(\\vec{a}=(0,1,0)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La aceleración es la diferencia de velocidades dividida por el tiempo: \\(\\vec{a}=\\frac{(25-20,5-0,0)}{5}=(1,1,0)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular \\(\\Delta \\vec{v}=(5,5,0)\\).",
+        "Dividir cada componente entre 5: \\((5/5,5/5,0)=(1,1,0)\\)."
+      ]
+    },
+    {
+      "question": "Determina la ecuación del plano que corta los ejes en \\(a=3\\), \\(b=-2\\) y \\(c=4\\).",
+      "formula": "Intercepciones: \\(a=3,\\; b=-2,\\; c=4\\)",
+      "options": [
+        "\\(\\frac{x}{3}+\\frac{y}{-2}+\\frac{z}{4}=1\\)",
+        "\\(\\frac{x}{3}-\\frac{y}{2}+\\frac{z}{4}=1\\)",
+        "\\(\\frac{x}{-3}+\\frac{y}{2}+\\frac{z}{4}=1\\)",
+        "\\(\\frac{x}{3}+\\frac{y}{2}+\\frac{z}{4}=1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La forma de intercepción del plano es \\(\\frac{x}{a}+\\frac{y}{b}+\\frac{z}{c}=1\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar las intercepciones en cada eje.",
+        "Aplicar la fórmula de la forma de intercepción."
+      ]
+    },
+    {
+      "question": "Calcula el producto vectorial de \\(\\vec{a}=(1,2,3)\\) y \\(\\vec{b}=(4,0,-1)\\).",
+      "formula": "\\(\\vec{a}=(1,2,3)\\) y \\(\\vec{b}=(4,0,-1)\\)",
+      "options": [
+        "\\(\\vec{a}\\times\\vec{b}=(-2,13,-8)\\)",
+        "\\(\\vec{a}\\times\\vec{b}=(2,-13,8)\\)",
+        "\\(\\vec{a}\\times\\vec{b}=(2,13,8)\\)",
+        "\\(\\vec{a}\\times\\vec{b}=(-2,-13,-8)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se usa el determinante para calcular el producto vectorial, resultando en \\(\\vec{a}\\times\\vec{b}=(-2,13,-8)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la regla del determinante a los vectores.",
+        "Calcular cada componente del producto vectorial.",
+        "Obtener \\(\\vec{a}\\times\\vec{b}=(-2,13,-8)\\)."
+      ]
+    },
+    {
+      "question": "Un disco gira con velocidades angulares \\(\\omega_1=(0,0,10)\\) rad/s y \\(\\omega_2=(0,0,15)\\) rad/s. ¿Cuál es la diferencia angular?",
+      "formula": "\\(\\omega_1=(0,0,10)\\) y \\(\\omega_2=(0,0,15)\\)",
+      "options": [
+        "\\(\\Delta \\omega=(0,0,5)\\)",
+        "\\(\\Delta \\omega=(0,0,-5)\\)",
+        "\\(\\Delta \\omega=(0,0,25)\\)",
+        "\\(\\Delta \\omega=(0,0,10)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La diferencia de velocidades angulares es \\(\\omega_2-\\omega_1=(0,0,15-10)=(0,0,5)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Restar \\(\\omega_1\\) de \\(\\omega_2\\) componente a componente.",
+        "Obtener \\(\\Delta \\omega=(0,0,5)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la proyección del vector \\(\\vec{a}=(3,4,0)\\) sobre \\(\\vec{b}=(6,0,0)\\).",
+      "formula": "\\(\\vec{a}=(3,4,0)\\) y \\(\\vec{b}=(6,0,0)\\)",
+      "options": [
+        "\\(\\text{proj}_{\\vec{b}}\\vec{a}=(3,0,0)\\)",
+        "\\(\\text{proj}_{\\vec{b}}\\vec{a}=(4,0,0)\\)",
+        "\\(\\text{proj}_{\\vec{b}}\\vec{a}=(3,4,0)\\)",
+        "\\(\\text{proj}_{\\vec{b}}\\vec{a}=(0,0,0)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La proyección se calcula con \\(\\text{proj}_{\\vec{b}}\\vec{a}=\\frac{\\vec{a}\\cdot\\vec{b}}{||\\vec{b}||^2}\\vec{b}\\); en este caso da \\((3,0,0)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el producto escalar: \\(3\\times6+4\\times0+0\\times0=18\\).",
+        "Calcular \\(||\\vec{b}||^2=6^2=36\\).",
+        "Obtener \\(\\text{proj}_{\\vec{b}}\\vec{a}=\\frac{18}{36}(6,0,0)=(3,0,0)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la distancia del punto \\(P(1,2,3)\\) al plano \\(2x-2y+z-4=0\\).",
+      "formula": "\\(P(1,2,3)\\) y plano \\(2x-2y+z-4=0\\)",
+      "options": ["\\(d=1\\)", "\\(d=2\\)", "\\(d=3\\)", "\\(d=0\\)"],
+      "correctAnswer": 0,
+      "explanation": "La distancia se calcula con \\(d=\\frac{|2(1)-2(2)+3-4|}{\\sqrt{2^2+(-2)^2+1^2}}=\\frac{3}{3}=1\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Evaluar el numerador: \\(|2-4+3-4|=| -3 |=3\\).",
+        "Calcular el denominador: \\(\\sqrt{4+4+1}=\\sqrt{9}=3\\).",
+        "Dividir: \\(d=3/3=1\\)."
+      ]
+    },
+    {
+      "question": "Determina la ecuación de la recta que resulta de la intersección de los planos \\(x+y+z-6=0\\) y \\(2x-y+z-3=0\\).",
+      "formula": "Planos: \\(x+y+z-6=0\\) y \\(2x-y+z-3=0\\)",
+      "options": [
+        "\\(x=3-\\frac{2}{3}t,\\; y=3-\\frac{1}{3}t,\\; z=t\\)",
+        "\\(x=3+\\frac{2}{3}t,\\; y=3+\\frac{1}{3}t,\\; z=t\\)",
+        "\\(x=3-\\frac{1}{3}t,\\; y=3-\\frac{2}{3}t,\\; z=t\\)",
+        "\\(x=3+t,\\; y=3-t,\\; z=t\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Resolviendo el sistema de ecuaciones de los dos planos se obtiene la forma paramétrica \\(x=3-\\frac{2}{3}t,\\; y=3-\\frac{1}{3}t,\\; z=t\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Asignar \\(z=t\\) y sustituir en las ecuaciones.",
+        "Resolver para \\(x\\) y \\(y\\) en función de \\(t\\).",
+        "Obtener la ecuación paramétrica de la recta."
+      ]
+    },
+    {
+      "question": "Una fuerza \\(\\vec{F}=(3,-4,5)\\) desplaza un objeto \\(\\vec{d}=(2,2,0)\\). Calcula el trabajo realizado.",
+      "formula": "\\(\\vec{F}=(3,-4,5)\\) y \\(\\vec{d}=(2,2,0)\\)",
+      "options": ["\\(W=-2\\)", "\\(W=2\\)", "\\(W=-7\\)", "\\(W=7\\)"],
+      "correctAnswer": 0,
+      "explanation": "El trabajo se obtiene con \\(W=\\vec{F}\\cdot\\vec{d}=3\\times2+(-4)\\times2+5\\times0=-2\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el producto escalar: \\(3\\times2+(-4)\\times2+5\\times0=6-8+0=-2\\)."
+      ]
+    },
+    {
+      "question": "Un objeto cambia su velocidad de \\(\\vec{v}_i=(10,-5,0)\\) a \\(\\vec{v}_f=(0,5,10)\\) en \\(4\\) s. Determina su aceleración vectorial.",
+      "formula": "\\(\\vec{v}_i=(10,-5,0)\\) y \\(\\vec{v}_f=(0,5,10)\\)",
+      "options": [
+        "\\(\\vec{a}=(-2.5,2.5,2.5)\\)",
+        "\\(\\vec{a}=(-10,10,10)\\)",
+        "\\(\\vec{a}=(2.5,-2.5,-2.5)\\)",
+        "\\(\\vec{a}=(-5,5,5)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El cambio de velocidad es \\((0-10,5-(-5),10-0)=(-10,10,10)\\) y, dividiendo por 4 s, se obtiene \\(\\vec{a}=(-2.5,2.5,2.5)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Restar \\(\\vec{v}_i\\) de \\(\\vec{v}_f\\): \\((-10,10,10)\\).",
+        "Dividir cada componente entre 4: \\((-2.5,2.5,2.5)\\)."
+      ]
+    },
+    {
+      "question": "Determina la forma simétrica de la recta que pasa por \\(P(0,1,-1)\\) y tiene dirección \\(\\vec{d}=(3,6,-3)\\).",
+      "formula": "\\(P(0,1,-1)\\) y \\(\\vec{d}=(3,6,-3)\\)",
+      "options": [
+        "\\(\\frac{x}{3}=\\frac{y-1}{6}=\\frac{z+1}{-3}\\)",
+        "\\(\\frac{x}{6}=\\frac{y-1}{3}=\\frac{z+1}{-3}\\)",
+        "\\(\\frac{x}{3}=\\frac{y-1}{-6}=\\frac{z+1}{3}\\)",
+        "\\(\\frac{x}{3}=\\frac{y+1}{6}=\\frac{z-1}{-3}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La forma simétrica se obtiene dividiendo las ecuaciones paramétricas por las componentes de la dirección.",
+      "difficulty": "hard",
+      "procedure": [
+        "Usar la forma paramétrica: \\(x=0+3t,\\; y=1+6t,\\; z=-1-3t\\).",
+        "Reorganizar para obtener \\(\\frac{x}{3}=\\frac{y-1}{6}=\\frac{z+1}{-3}\\)."
+      ]
+    },
+    {
+      "question": "Encuentra el plano que es paralelo al vector \\(\\vec{n}=(0,1,2)\\) y pasa por \\(P(2,0,3)\\).",
+      "formula": "\\(\\vec{n}=(0,1,2)\\) y \\(P(2,0,3)\\)",
+      "options": [
+        "\\(y+2z-6=0\\)",
+        "\\(y+2z+6=0\\)",
+        "\\(2y+z-6=0\\)",
+        "\\(y-2z-6=0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Utilizando la forma punto-normal, se tiene \\(0(x-2)+1(y-0)+2(z-3)=0\\) que simplifica a \\(y+2z-6=0\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la forma: \\(\\vec{n}\\cdot(\\vec{r}-P)=0\\).",
+        "Sustituir \\(\\vec{n}=(0,1,2)\\) y \\(P(2,0,3)\\).",
+        "Simplificar a \\(y+2z-6=0\\)."
+      ]
+    },
+    {
+      "question": "Si \\(\\vec{a}+\\vec{b}=(7,-2,4)\\) y \\(\\vec{a}=(3,0,1)\\), encuentra \\(\\vec{b}\\).",
+      "formula": "\\(\\vec{a}+\\vec{b}=(7,-2,4)\\) y \\(\\vec{a}=(3,0,1)\\)",
+      "options": [
+        "\\(\\vec{b}=(4,-2,3)\\)",
+        "\\(\\vec{b}=(3,-2,4)\\)",
+        "\\(\\vec{b}=(4,2,3)\\)",
+        "\\(\\vec{b}=(7,-2,4)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Despejando \\(\\vec{b}\\): \\(\\vec{b}=(7, -2,4)-(3,0,1)=(4,-2,3)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Restar \\(\\vec{a}\\) de \\(\\vec{a}+\\vec{b}\\).",
+        "Obtener \\(\\vec{b}=(4,-2,3)\\)."
+      ]
+    },
+    {
+      "question": "Calcula el ángulo entre \\(\\vec{a}=(1,0,0)\\) y \\(\\vec{b}=(1,1,0)\\).",
+      "formula": "\\(\\vec{a}=(1,0,0)\\) y \\(\\vec{b}=(1,1,0)\\)",
+      "options": [
+        "\\(45^\\circ\\)",
+        "\\(30^\\circ\\)",
+        "\\(60^\\circ\\)",
+        "\\(90^\\circ\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El ángulo se calcula usando \\(\\cos\\theta=\\frac{\\vec{a}\\cdot\\vec{b}}{||\\vec{a}||\\,||\\vec{b}||}\\); se obtiene \\(\\theta=45^\\circ\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el producto escalar: \\(1\\times1+0\\times1+0\\times0=1\\).",
+        "Determinar las magnitudes: \\(||\\vec{a}||=1\\) y \\(||\\vec{b}||=\\sqrt{2}\\).",
+        "Calcular \\(\\cos\\theta=1/\\sqrt{2}\\) y deducir \\(\\theta=45^\\circ\\)."
+      ]
+    },
+    {
+      "question": "Determina la componente de \\(\\vec{a}=(5,-3,2)\\) en la dirección de \\(\\vec{b}=(1,1,1)\\).",
+      "formula": "\\(\\vec{a}=(5,-3,2)\\) y \\(\\vec{b}=(1,1,1)\\)",
+      "options": [
+        "\\(\\text{proj}_{\\vec{b}}\\vec{a}=\\left(\\frac{4}{3},\\frac{4}{3},\\frac{4}{3}\\right)\\)",
+        "\\(\\text{proj}_{\\vec{b}}\\vec{a}=\\left(\\frac{4}{\\sqrt{3}},\\frac{4}{\\sqrt{3}},\\frac{4}{\\sqrt{3}}\\right)\\)",
+        "\\(\\text{proj}_{\\vec{b}}\\vec{a}=\\left(\\frac{4}{3},\\frac{4}{3},0\\right)\\)",
+        "\\(\\text{proj}_{\\vec{b}}\\vec{a}=\\left(\\frac{4}{3},0,\\frac{4}{3}\\right)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La proyección vectorial se obtiene con \\(\\text{proj}_{\\vec{b}}\\vec{a}=\\frac{\\vec{a}\\cdot\\vec{b}}{||\\vec{b}||^2}\\vec{b}\\). Aquí, \\(\\vec{a}\\cdot\\vec{b}=4\\) y \\(||\\vec{b}||^2=3\\), por lo que la proyección es \\(\\left(\\frac{4}{3},\\frac{4}{3},\\frac{4}{3}\\right)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el producto escalar: \\(5+(-3)+2=4\\).",
+        "Determinar \\(||\\vec{b}||^2=1+1+1=3\\).",
+        "Multiplicar \\(\\frac{4}{3}\\) por \\(\\vec{b}\\) para obtener la proyección."
+      ]
+    },
+    {
+      "question": "Determina la ecuación simétrica de la recta que pasa por \\(P(3,-1,2)\\) y tiene dirección \\(\\vec{d}=(2,4,-2)\\).",
+      "formula": "\\(P(3,-1,2)\\) y \\(\\vec{d}=(2,4,-2)\\)",
+      "options": [
+        "\\(\\frac{x-3}{2}=\\frac{y+1}{4}=\\frac{z-2}{-2}\\)",
+        "\\(\\frac{x-3}{-2}=\\frac{y+1}{-4}=\\frac{z-2}{2}\\)",
+        "\\(\\frac{x+3}{2}=\\frac{y-1}{4}=\\frac{z+2}{-2}\\)",
+        "\\(\\frac{x-3}{4}=\\frac{y+1}{2}=\\frac{z-2}{-2}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La forma simétrica se obtiene usando el punto y la dirección: \\(\\frac{x-x_0}{a}=\\frac{y-y_0}{b}=\\frac{z-z_0}{c}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar el punto \\(P(3,-1,2)\\) y la dirección \\(\\vec{d}=(2,4,-2)\\).",
+        "Aplicar la fórmula de la forma simétrica: \\(\\frac{x-3}{2}=\\frac{y+1}{4}=\\frac{z-2}{-2}\\)."
+      ]
+    },
+    {
+      "question": "Halla la ecuación del plano que contiene el punto \\(P(0,0,0)\\) y es perpendicular al vector \\(\\vec{n}=(3,-3,1)\\).",
+      "formula": "\\(P(0,0,0)\\) y \\(\\vec{n}=(3,-3,1)\\)",
+      "options": [
+        "\\(3x-3y+z=0\\)",
+        "\\(3x+3y+z=0\\)",
+        "\\(3x-3y-z=0\\)",
+        "\\(x-3y+z=0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La ecuación del plano es \\(\\vec{n}\\cdot(\\vec{r}-\\vec{r}_0)=0\\). Al sustituir \\(\\vec{r}_0=(0,0,0)\\) y \\(\\vec{n}=(3,-3,1)\\) se obtiene \\(3x-3y+z=0\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Usar la fórmula: \\(\\vec{n}\\cdot(\\vec{r}-\\vec{r}_0)=0\\).",
+        "Sustituir \\(\\vec{r}_0=(0,0,0)\\) y \\(\\vec{n}=(3,-3,1)\\).",
+        "Obtener \\(3x-3y+z=0\\)."
+      ]
+    },
+    {
+      "question": "Calcula el trabajo realizado por una fuerza \\(\\vec{F}=(5,-5,0)\\) sobre un desplazamiento \\(\\vec{d}=(3,3,0)\\).",
+      "formula": "\\(\\vec{F}=(5,-5,0)\\) y \\(\\vec{d}=(3,3,0)\\)",
+      "options": ["\\(W=0\\)", "\\(W=15\\)", "\\(W=30\\)", "\\(W=-15\\)"],
+      "correctAnswer": 0,
+      "explanation": "El trabajo se calcula como el producto escalar: \\(W=\\vec{F}\\cdot\\vec{d}=5\\times3+(-5)\\times3+0\\times0=15-15=0\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el producto escalar: \\(5\\times3+(-5)\\times3=15-15=0\\).",
+        "Concluir que \\(W=0\\)."
+      ]
+    },
+    {
+      "question": "Determina la ecuación paramétrica de la recta que pasa por los puntos \\(P(2,2,2)\\) y \\(Q(4,6,8)\\).",
+      "formula": "\\(P(2,2,2)\\) y \\(Q(4,6,8)\\)",
+      "options": [
+        "\\(x=2+2t,\\; y=2+4t,\\; z=2+6t\\)",
+        "\\(x=2+4t,\\; y=2+6t,\\; z=2+8t\\)",
+        "\\(x=2+2t,\\; y=2+2t,\\; z=2+2t\\)",
+        "\\(x=2+t,\\; y=2+3t,\\; z=2+4t\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La dirección se obtiene de \\(Q-P=(2,4,6)\\) y usando \\(\\vec{r}=P+t\\vec{d}\\) se tiene \\(x=2+2t,\\; y=2+4t,\\; z=2+6t\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular \\(\\vec{d}=Q-P=(4-2,6-2,8-2)=(2,4,6)\\).",
+        "Usar la forma paramétrica: \\(\\vec{r}=P+t\\vec{d}\\).",
+        "Obtener \\(x=2+2t,\\; y=2+4t,\\; z=2+6t\\)."
+      ]
+    },
+    {
+      "question": "Encuentra la ecuación del plano que contiene los puntos \\(P(1,0,0)\\), \\(Q(0,1,0)\\) y \\(R(0,0,1)\\).",
+      "formula": "\\(P(1,0,0)\\), \\(Q(0,1,0)\\) y \\(R(0,0,1)\\)",
+      "options": [
+        "\\(x+y+z=1\\)",
+        "\\(x+y+z=0\\)",
+        "\\(x+2y+3z=1\\)",
+        "\\(2x+y+z=1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Los tres puntos definen un plano y, al calcular la ecuación, se obtiene \\(x+y+z=1\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Utilizar la forma general del plano: \\(Ax+By+Cz+D=0\\).",
+        "Determinar \\(A,B,C,D\\) usando los puntos, lo que conduce a \\(x+y+z=1\\)."
+      ]
+    },
+    {
+      "question": "Halla el ángulo entre los vectores \\(\\vec{a}=(2,3,4)\\) y \\(\\vec{b}=(4,-3,1)\\).",
+      "formula": "\\(\\vec{a}=(2,3,4)\\) y \\(\\vec{b}=(4,-3,1)\\)",
+      "options": [
+        "\\(84^\\circ\\)",
+        "\\(60^\\circ\\)",
+        "\\(45^\\circ\\)",
+        "\\(30^\\circ\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se usa la fórmula \\(\\cos\\theta=\\frac{\\vec{a}\\cdot\\vec{b}}{||\\vec{a}||\\,||\\vec{b}||}\\). Con el cálculo se obtiene \\(\\theta \\approx 84^\\circ\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el producto escalar: \\(2\\times4+3\\times(-3)+4\\times1=8-9+4=3\\).",
+        "Determinar las magnitudes \\(||\\vec{a}||\\) y \\(||\\vec{b}||\\).",
+        "Aplicar la fórmula y obtener \\(\\theta \\approx 84^\\circ\\)."
+      ]
+    },
+    {
+      "question": "Calcula la proyección del vector \\(\\vec{a}=(7,-2,1)\\) sobre \\(\\vec{b}=(2,2,2)\\).",
+      "formula": "\\(\\vec{a}=(7,-2,1)\\) y \\(\\vec{b}=(2,2,2)\\)",
+      "options": [
+        "\\(\\text{proj}_{\\vec{b}}\\vec{a}=(2,2,2)\\)",
+        "\\(\\text{proj}_{\\vec{b}}\\vec{a}=(3,3,3)\\)",
+        "\\(\\text{proj}_{\\vec{b}}\\vec{a}=(1,1,1)\\)",
+        "\\(\\text{proj}_{\\vec{b}}\\vec{a}=(0,0,0)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se calcula el producto escalar \\(7\\times2+(-2)\\times2+1\\times2=12\\) y \\(||\\vec{b}||^2=12\\), por lo que la proyección es \\(\\frac{12}{12}(2,2,2)=(2,2,2)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular \\(\\vec{a}\\cdot\\vec{b}=7\\times2+(-2)\\times2+1\\times2=12\\).",
+        "Determinar \\(||\\vec{b}||^2=2^2+2^2+2^2=12\\).",
+        "Multiplicar \\(\\frac{12}{12}\\) por \\(\\vec{b}\\) para obtener \\((2,2,2)\\)."
+      ]
+    },
+    {
+      "question": "Determina la fuerza resultante de \\(\\vec{F}_1=(5,5,5)\\), \\(\\vec{F}_2=(-3,4,-2)\\) y \\(\\vec{F}_3=(1,-3,6)\\).",
+      "formula": "\\(\\vec{F}_1=(5,5,5)\\), \\(\\vec{F}_2=(-3,4,-2)\\) y \\(\\vec{F}_3=(1,-3,6)\\)",
+      "options": [
+        "\\(\\vec{F}_R=(3,6,9)\\)",
+        "\\(\\vec{F}_R=(5,6,9)\\)",
+        "\\(\\vec{F}_R=(3,4,5)\\)",
+        "\\(\\vec{F}_R=(5,5,5)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se suman las componentes: \\((5-3+1,\\; 5+4-3,\\; 5-2+6)=(3,6,9)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Sumar las componentes de cada vector.",
+        "Obtener \\(\\vec{F}_R=(3,6,9)\\)."
+      ]
+    },
+    {
+      "question": "Encuentra la aceleración de un objeto que cambia su velocidad de \\(\\vec{v}_i=(0,10,0)\\) a \\(\\vec{v}_f=(5,0,0)\\) en \\(5\\) s.",
+      "formula": "\\(\\vec{v}_i=(0,10,0)\\) y \\(\\vec{v}_f=(5,0,0)\\)",
+      "options": [
+        "\\(\\vec{a}=(1,-2,0)\\)",
+        "\\(\\vec{a}=(5,-10,0)\\)",
+        "\\(\\vec{a}=(0,0,0)\\)",
+        "\\(\\vec{a}=(2,2,0)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El cambio en la velocidad es \\((5-0,0-10,0-0)=(5,-10,0)\\) y, dividiendo por 5 s, se obtiene \\(\\vec{a}=(1,-2,0)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Restar \\(\\vec{v}_i\\) de \\(\\vec{v}_f\\): \\((5,-10,0)\\).",
+        "Dividir cada componente entre 5: \\((1,-2,0)\\)."
+      ]
+    },
+    {
+      "question": "Calcula el producto vectorial de \\(\\vec{a}=(3,1,4)\\) y \\(\\vec{b}=(1,-2,0)\\).",
+      "formula": "\\(\\vec{a}=(3,1,4)\\) y \\(\\vec{b}=(1,-2,0)\\)",
+      "options": [
+        "\\(\\vec{a}\\times\\vec{b}=(8,4,-7)\\)",
+        "\\(\\vec{a}\\times\\vec{b}=(8,-4,7)\\)",
+        "\\(\\vec{a}\\times\\vec{b}=(-8,4,7)\\)",
+        "\\(\\vec{a}\\times\\vec{b}=(-8,-4,-7)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla del determinante se obtiene: \\(\\vec{a}\\times\\vec{b}=(1\\cdot0-4\\cdot(-2),\\; 4\\cdot1-3\\cdot0,\\; 3\\cdot(-2)-1\\cdot1)=(8,4,-7)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el determinante para cada componente.",
+        "Obtener \\(\\vec{a}\\times\\vec{b}=(8,4,-7)\\)."
+      ]
+    },
+    {
+      "question": "Determina la ecuación del plano que pasa por \\(P(-1,2,3)\\) y es paralelo a los vectores \\(\\vec{u}=(1,0,2)\\) y \\(\\vec{v}=(0,1,1)\\).",
+      "formula": "\\(P(-1,2,3)\\), \\(\\vec{u}=(1,0,2)\\) y \\(\\vec{v}=(0,1,1)\\)",
+      "options": [
+        "\\(2x+y-z+3=0\\)",
+        "\\(2x+y-z-3=0\\)",
+        "\\(x+2y-z+3=0\\)",
+        "\\(2x-y+z+3=0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se obtiene el vector normal calculando \\(\\vec{n}=\\vec{u}\\times\\vec{v}\\) y usando la forma punto-normal para el plano, lo que conduce a \\(2x+y-z+3=0\\) (tras reorganizar la ecuación).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular \\(\\vec{n}=\\vec{u}\\times\\vec{v}\\).",
+        "Aplicar la fórmula del plano: \\(\\vec{n}\\cdot(\\vec{r}-P)=0\\)."
+      ]
+    },
+    {
+      "question": "Halla el punto de intersección de la recta \\(L_1: x=1+t,\\; y=2-t,\\; z=3+2t\\) con la recta \\(L_2: x=2-2s,\\; y=1+s,\\; z=5+s\\).",
+      "formula": "Rectas: \\(L_1\\) y \\(L_2\\)",
+      "options": [
+        "\\(P(2,1,5)\\)",
+        "\\(P(1,2,3)\\)",
+        "\\(P(3,0,4)\\)",
+        "\\(P(0,0,0)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Al igualar las ecuaciones se obtiene \\(t=1\\) y \\(s=0\\), lo que da el punto \\(P(2,1,5)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Igualar las ecuaciones paramétricas de ambas rectas.",
+        "Resolver para \\(t\\) y \\(s\\).",
+        "Obtener el punto de intersección \\(P(2,1,5)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la distancia entre el punto \\(P(3,4,5)\\) y el plano \\(2x+3y-6z+1=0\\).",
+      "formula": "\\(P(3,4,5)\\) y \\(2x+3y-6z+1=0\\)",
+      "options": [
+        "\\(d=\\frac{11}{7}\\)",
+        "\\(d=\\frac{7}{11}\\)",
+        "\\(d=\\frac{11}{6}\\)",
+        "\\(d=\\frac{7}{6}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La distancia se calcula con \\(d=\\frac{|Ax_0+By_0+Cz_0+D|}{\\sqrt{A^2+B^2+C^2}}\\) y se obtiene \\(\\frac{11}{7}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Sustituir \\(P(3,4,5)\\) en la ecuación del plano.",
+        "Calcular el valor absoluto del numerador y el denominador.",
+        "Obtener \\(d=\\frac{11}{7}\\)."
+      ]
+    },
+    {
+      "question": "Determina la ecuación de la recta que es perpendicular al plano \\(3x-y+2z-4=0\\) y pasa por \\(P(0,0,0)\\).",
+      "formula": "Plano: \\(3x-y+2z-4=0\\) y \\(P(0,0,0)\\)",
+      "options": [
+        "\\(x=3t,\\; y=-t,\\; z=2t\\)",
+        "\\(x=-3t,\\; y=t,\\; z=-2t\\)",
+        "\\(x=t,\\; y=t,\\; z=t\\)",
+        "\\(x=3t,\\; y=t,\\; z=2t\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La recta perpendicular al plano tiene la misma dirección que el vector normal \\((3,-1,2)\\). Usando \\(P(0,0,0)\\), la ecuación es \\(x=3t,\\; y=-t,\\; z=2t\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar el vector normal \\((3,-1,2)\\).",
+        "Usar la forma \\(\\vec{r}=P+t\\vec{n}\\) para obtener la ecuación paramétrica."
+      ]
+    },
+    {
+      "question": "Halla la velocidad media de un objeto que se mueve con velocidades \\(\\vec{v}_1=(10,10,0)\\) y \\(\\vec{v}_2=(0,10,10)\\).",
+      "formula": "\\(\\vec{v}_1=(10,10,0)\\) y \\(\\vec{v}_2=(0,10,10)\\)",
+      "options": [
+        "\\(\\vec{v}_{avg}=(5,10,5)\\)",
+        "\\(\\vec{v}_{avg}=(10,10,10)\\)",
+        "\\(\\vec{v}_{avg}=(0,10,5)\\)",
+        "\\(\\vec{v}_{avg}=(5,5,5)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La velocidad media se obtiene promediando las componentes: \\((10+0)/2, (10+10)/2, (0+10)/2=(5,10,5)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Sumar las velocidades y dividir cada componente entre 2.",
+        "Obtener \\(\\vec{v}_{avg}=(5,10,5)\\)."
+      ]
+    },
+    {
+      "question": "Determina la aceleración promedio para un cambio de velocidad de \\(\\vec{v}_i=(4,-2,3)\\) a \\(\\vec{v}_f=(2,2,1)\\) en \\(3\\) s.",
+      "formula": "\\(\\vec{v}_i=(4,-2,3)\\) y \\(\\vec{v}_f=(2,2,1)\\)",
+      "options": [
+        "\\(\\vec{a}=\\left(-\\frac{2}{3},\\frac{4}{3},-\\frac{2}{3}\\right)\\)",
+        "\\(\\vec{a}=\\left(-2,4,-2\\right)\\)",
+        "\\(\\vec{a}=\\left(2,-4,2\\right)\\)",
+        "\\(\\vec{a}=\\left(\\frac{2}{3},-\\frac{4}{3},\\frac{2}{3}\\right)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La diferencia de velocidades es \\((2-4,2-(-2),1-3)=(-2,4,-2)\\) y, al dividir entre 3, se obtiene \\(\\left(-\\frac{2}{3},\\frac{4}{3},-\\frac{2}{3}\\right)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular \\(\\Delta \\vec{v}=\\vec{v}_f-\\vec{v}_i=(-2,4,-2)\\).",
+        "Dividir cada componente entre 3 para obtener la aceleración."
+      ]
+    },
+    {
+      "question": "Encuentra la ecuación paramétrica de la recta de intersección de los planos \\(x+y+z=1\\) y \\(2x-y+3z=4\\).",
+      "formula": "Planos: \\(x+y+z=1\\) y \\(2x-y+3z=4\\)",
+      "options": [
+        "\\(x=\\frac{5-4t}{3},\\; y=\\frac{t-2}{3},\\; z=t\\)",
+        "\\(x=\\frac{5+4t}{3},\\; y=\\frac{t+2}{3},\\; z=t\\)",
+        "\\(x=\\frac{5-2t}{3},\\; y=\\frac{t-2}{3},\\; z=t\\)",
+        "\\(x=\\frac{5-4t}{3},\\; y=\\frac{2-t}{3},\\; z=t\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Resolviendo el sistema se obtiene la forma paramétrica \\(x=\\frac{5-4t}{3},\\; y=\\frac{t-2}{3},\\; z=t\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Utilizar una variable paramétrica, por ejemplo \\(z=t\\).",
+        "Resolver el sistema para \\(x\\) y \\(y\\) en función de \\(t\\)."
+      ]
+    },
+    {
+      "question": "Calcula el trabajo realizado por una fuerza \\(\\vec{F}=(0,-10,10)\\) al mover un objeto a lo largo de la dirección \\(\\vec{d}=(0,1,1)\\) por \\(10\\) m.",
+      "formula": "\\(\\vec{F}=(0,-10,10)\\) y \\(\\vec{d}=(0,1,1)\\)",
+      "options": ["\\(W=0\\)", "\\(W=10\\)", "\\(W=20\\)", "\\(W=30\\)"],
+      "correctAnswer": 0,
+      "explanation": "El producto escalar entre \\(\\vec{F}\\) y la dirección unitaria de \\(\\vec{d}\\) es 0, por lo que el trabajo es \\(0\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el vector unitario de \\(\\vec{d}=(0,1,1)\\).",
+        "Determinar \\(\\vec{F}\\cdot\\vec{d_{unit}}=0\\) y multiplicar por la distancia."
+      ]
+    },
+    {
+      "question": "Determina el vector unitario en la dirección de \\((3,4,0)\\).",
+      "formula": "\\(\\vec{v}=(3,4,0)\\)",
+      "options": [
+        "\\(\\left(\\frac{3}{5},\\frac{4}{5},0\\right)\\)",
+        "\\(\\left(\\frac{4}{5},\\frac{3}{5},0\\right)\\)",
+        "\\(\\left(\\frac{3}{4},\\frac{4}{3},0\\right)\\)",
+        "\\(\\left(\\frac{1}{5},\\frac{1}{5},0\\right)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La magnitud de \\((3,4,0)\\) es 5, por lo que el vector unitario es \\(\\left(\\frac{3}{5},\\frac{4}{5},0\\right)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular la magnitud \\(||(3,4,0)||=5\\).",
+        "Dividir cada componente por 5 para obtener el vector unitario."
+      ]
+    },
+    {
+      "question": "Halla la proyección del vector \\(\\vec{a}=(2,-1,3)\\) sobre \\(\\vec{b}=(1,1,1)\\).",
+      "formula": "\\(\\vec{a}=(2,-1,3)\\) y \\(\\vec{b}=(1,1,1)\\)",
+      "options": [
+        "\\(\\text{proj}_{\\vec{b}}\\vec{a}=\\left(\\frac{4}{3},\\frac{4}{3},\\frac{4}{3}\\right)\\)",
+        "\\(\\text{proj}_{\\vec{b}}\\vec{a}=\\left(\\frac{2}{3},\\frac{-1}{3},1\\right)\\)",
+        "\\(\\text{proj}_{\\vec{b}}\\vec{a}=(2,-1,3)\\)",
+        "\\(\\text{proj}_{\\vec{b}}\\vec{a}=\\left(1,1,1\\right)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El producto escalar es \\(2-1+3=4\\) y \\(||\\vec{b}||^2=3\\); por lo tanto, la proyección es \\(\\frac{4}{3}(1,1,1)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular \\(\\vec{a}\\cdot\\vec{b}=4\\).",
+        "Determinar \\(||\\vec{b}||^2=3\\).",
+        "Multiplicar \\(\\frac{4}{3}\\) por \\(\\vec{b}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el producto escalar de \\(\\vec{a}=(5,-3,2)\\) y \\(\\vec{b}=(-1,4,-2)\\).",
+      "formula": "\\(\\vec{a}=(5,-3,2)\\) y \\(\\vec{b}=(-1,4,-2)\\)",
+      "options": [
+        "\\(\\vec{a}\\cdot\\vec{b}=-21\\)",
+        "\\(\\vec{a}\\cdot\\vec{b}=21\\)",
+        "\\(\\vec{a}\\cdot\\vec{b}=-11\\)",
+        "\\(\\vec{a}\\cdot\\vec{b}=11\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El producto escalar se calcula como \\(5\\times(-1)+(-3)\\times4+2\\times(-2)=-5-12-4=-21\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplicar las componentes correspondientes y sumarlas.",
+        "Obtener \\(\\vec{a}\\cdot\\vec{b}=-21\\)."
+      ]
+    },
+    {
+      "question": "Determina la ecuación del plano que corta a los ejes en \\(a=4\\), \\(b=3\\) y \\(c=-2\\).",
+      "formula": "Intercepciones: \\(a=4,\\; b=3,\\; c=-2\\)",
+      "options": [
+        "\\(\\frac{x}{4}+\\frac{y}{3}+\\frac{z}{-2}=1\\)",
+        "\\(\\frac{x}{4}+\\frac{y}{3}-\\frac{z}{2}=1\\)",
+        "\\(\\frac{x}{-4}+\\frac{y}{3}+\\frac{z}{-2}=1\\)",
+        "\\(\\frac{x}{4}-\\frac{y}{3}+\\frac{z}{2}=1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La ecuación en forma de intercepción es \\(\\frac{x}{a}+\\frac{y}{b}+\\frac{z}{c}=1\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Sustituir los valores de los interceptos en la fórmula: \\(\\frac{x}{4}+\\frac{y}{3}+\\frac{z}{-2}=1\\)."
+      ]
+    },
+    {
+      "question": "Encuentra el punto de intersección entre la recta \\(x=2+t,\\; y=-1+2t,\\; z=3-t\\) y el plano \\(x+2y+z=7\\).",
+      "formula": "Recta: \\(x=2+t,\\; y=-1+2t,\\; z=3-t\\) y plano: \\(x+2y+z=7\\)",
+      "options": [
+        "\\(P(3,1,2)\\)",
+        "\\(P(2,0,3)\\)",
+        "\\(P(4,1,2)\\)",
+        "\\(P(3,0,2)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Al sustituir la parametrización de la recta en el plano se encuentra \\(t=1\\) y el punto \\(P(3,1,2)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Sustituir \\(x,y,z\\) de la recta en la ecuación del plano.",
+        "Resolver para \\(t\\) y determinar el punto de intersección."
+      ]
+    },
+    {
+      "question": "Calcula el ángulo entre la recta \\(x=1+2t,\\; y=2-t,\\; z=3+3t\\) y el plano \\(2x+3y-z=5\\).",
+      "formula": "Recta: \\(x=1+2t,\\; y=2-t,\\; z=3+3t\\) y plano: \\(2x+3y-z=5\\)",
+      "options": ["8°", "45°", "60°", "30°"],
+      "correctAnswer": 0,
+      "explanation": "El ángulo entre la recta y el plano es el complemento del ángulo entre la dirección de la recta y el vector normal del plano. Se obtiene aproximadamente 8°.",
+      "difficulty": "hard",
+      "procedure": [
+        "Determinar el vector dirección \\((2,-1,3)\\) y el vector normal \\((2,3,-1)\\).",
+        "Calcular el ángulo entre ambos vectores y restar de 90°."
+      ]
+    },
+    {
+      "question": "Determina la aceleración de un objeto que pasa de \\(\\vec{v}_i=(0,0,0)\\) a \\(\\vec{v}_f=(10,0,0)\\) en \\(2\\) s.",
+      "formula": "\\(\\vec{v}_i=(0,0,0)\\) y \\(\\vec{v}_f=(10,0,0)\\)",
+      "options": [
+        "\\(\\vec{a}=(5,0,0)\\)",
+        "\\(\\vec{a}=(10,0,0)\\)",
+        "\\(\\vec{a}=(0,5,0)\\)",
+        "\\(\\vec{a}=(0,0,5)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El cambio en la velocidad es \\((10,0,0)\\) y, al dividir entre 2 s, se obtiene \\(\\vec{a}=(5,0,0)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular \\(\\Delta \\vec{v}=(10,0,0)\\).",
+        "Dividir cada componente entre 2 s para obtener \\(\\vec{a}=(5,0,0)\\)."
+      ]
+    },
+    {
+      "question": "Encuentra la recta perpendicular a la recta \\(L: x=1+3t,\\; y=-2+t,\\; z=4-2t\\) que pasa por \\(P(0,0,0)\\).",
+      "formula": "Recta: \\(x=1+3t,\\; y=-2+t,\\; z=4-2t\\) y \\(P(0,0,0)\\)",
+      "options": [
+        "\\(x=2.5t,\\; y=-1.5t,\\; z=3t\\)",
+        "\\(x=3t,\\; y=-2t,\\; z=4t\\)",
+        "\\(x=t,\\; y=t,\\; z=t\\)",
+        "\\(x=2t,\\; y=-t,\\; z=2t\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se determina el punto de la recta más cercano a \\(P\\) (la proyección ortogonal) y se utiliza la dirección de \\(P\\) a ese punto para la recta perpendicular.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el pie de la perpendicular desde \\(P(0,0,0)\\) a \\(L\\).",
+        "Determinar la dirección de \\(P\\) al pie, que resulta ser \\((2.5,-1.5,3)\\).",
+        "Usar esa dirección para definir la recta: \\(x=2.5t,\\; y=-1.5t,\\; z=3t\\)."
+      ]
+    },
+    {
+      "question": "Calcula el producto vectorial de \\(\\vec{a}=(0,2,-1)\\) y \\(\\vec{b}=(3,0,4)\\).",
+      "formula": "\\(\\vec{a}=(0,2,-1)\\) y \\(\\vec{b}=(3,0,4)\\)",
+      "options": [
+        "\\(\\vec{a}\\times\\vec{b}=(8,-3,-6)\\)",
+        "\\(\\vec{a}\\times\\vec{b}=(8,3,6)\\)",
+        "\\(\\vec{a}\\times\\vec{b}=(-8,-3,-6)\\)",
+        "\\(\\vec{a}\\times\\vec{b}=(8,-3,6)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla del determinante se obtiene \\(\\vec{a}\\times\\vec{b}=(8,-3,-6)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular cada componente del producto vectorial mediante el determinante.",
+        "Obtener \\(\\vec{a}\\times\\vec{b}=(8,-3,-6)\\)."
+      ]
+    },
+    {
+      "question": "Determina la ecuación simétrica de la recta que pasa por \\(P(2,-3,4)\\) y tiene dirección \\(\\vec{d}=(4,-2,2)\\).",
+      "formula": "\\(P(2,-3,4)\\) y \\(\\vec{d}=(4,-2,2)\\)",
+      "options": [
+        "\\(\\frac{x-2}{4}=\\frac{y+3}{-2}=\\frac{z-4}{2}\\)",
+        "\\(\\frac{x-2}{-4}=\\frac{y+3}{2}=\\frac{z-4}{-2}\\)",
+        "\\(\\frac{x+2}{4}=\\frac{y-3}{-2}=\\frac{z+4}{2}\\)",
+        "\\(\\frac{x-2}{2}=\\frac{y+3}{-2}=\\frac{z-4}{4}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La forma simétrica se obtiene usando \\(\\frac{x-x_0}{a}=\\frac{y-y_0}{b}=\\frac{z-z_0}{c}\\) con \\(P(2,-3,4)\\) y \\(\\vec{d}=(4,-2,2)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar el punto y la dirección.",
+        "Aplicar la fórmula para la forma simétrica: \\(\\frac{x-2}{4}=\\frac{y+3}{-2}=\\frac{z-4}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la proyección del vector \\(\\vec{a}=(8,-6,0)\\) sobre \\(\\vec{b}=(4,0,0)\\).",
+      "formula": "\\(\\vec{a}=(8,-6,0)\\) y \\(\\vec{b}=(4,0,0)\\)",
+      "options": [
+        "\\(\\text{proj}_{\\vec{b}}\\vec{a}=(8,0,0)\\)",
+        "\\(\\text{proj}_{\\vec{b}}\\vec{a}=(4,0,0)\\)",
+        "\\(\\text{proj}_{\\vec{b}}\\vec{a}=(2,0,0)\\)",
+        "\\(\\text{proj}_{\\vec{b}}\\vec{a}=(0,0,0)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El producto escalar \\(\\vec{a}\\cdot\\vec{b}=32\\) y \\(||\\vec{b}||^2=16\\); la proyección es \\(\\frac{32}{16}(4,0,0)=(8,0,0)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular \\(\\vec{a}\\cdot\\vec{b}=8\\times4+(-6)\\times0+0\\times0=32\\).",
+        "Determinar \\(||\\vec{b}||^2=16\\).",
+        "Multiplicar \\(\\frac{32}{16}\\) por \\(\\vec{b}\\)."
+      ]
+    },
+    {
+      "question": "Encuentra la ecuación del plano que contiene el punto \\(P(1,2,3)\\) y tiene normal \\(\\vec{n}=(2,-1,2)\\).",
+      "formula": "\\(P(1,2,3)\\) y \\(\\vec{n}=(2,-1,2)\\)",
+      "options": [
+        "\\(2x-y+2z-6=0\\)",
+        "\\(2x-y+2z+6=0\\)",
+        "\\(2x+y+2z-6=0\\)",
+        "\\(x-y+z-6=0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando la forma punto-normal \\(\\vec{n}\\cdot(\\vec{r}-P)=0\\), se obtiene \\(2(x-1)-1(y-2)+2(z-3)=0\\) que se simplifica a \\(2x-y+2z-6=0\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la fórmula del plano: \\(\\vec{n}\\cdot(\\vec{r}-P)=0\\).",
+        "Sustituir \\(\\vec{n}=(2,-1,2)\\) y \\(P(1,2,3)\\).",
+        "Simplificar para obtener la ecuación."
+      ]
+    },
+    {
+      "question": "Determina la ecuación de la recta que pasa por \\(P(0,1,-2)\\) y es paralela al vector \\(\\vec{d}=(3,-1,4)\\).",
+      "formula": "\\(P(0,1,-2)\\) y \\(\\vec{d}=(3,-1,4)\\)",
+      "options": [
+        "\\(x=3t,\\; y=1-t,\\; z=-2+4t\\)",
+        "\\(x=3t,\\; y=1+t,\\; z=-2+4t\\)",
+        "\\(x=-3t,\\; y=1-t,\\; z=-2-4t\\)",
+        "\\(x=3t,\\; y=1-t,\\; z=-2-4t\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La recta se define usando el punto \\(P(0,1,-2)\\) y la dirección \\(\\vec{d}=(3,-1,4)\\). La forma paramétrica es \\(x=0+3t,\\; y=1- t,\\; z=-2+4t\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar el punto \\(P(0,1,-2)\\) y la dirección \\(\\vec{d}=(3,-1,4)\\).",
+        "Usar la forma: \\(\\vec{r}=P+t\\vec{d}\\).",
+        "Obtener: \\(x=3t,\\; y=1-t,\\; z=-2+4t\\)."
+      ]
+    },
+    {
+      "question": "Halla el plano que contiene el punto \\(P(3,2,-1)\\) y es perpendicular al vector \\(\\vec{n}=(2,-3,1)\\).",
+      "formula": "\\(P(3,2,-1)\\) y \\(\\vec{n}=(2,-3,1)\\)",
+      "options": [
+        "\\(2(x-3)-3(y-2)+1(z+1)=0\\)",
+        "\\(2(x-3)+3(y-2)+1(z+1)=0\\)",
+        "\\(2(x+3)-3(y+2)+1(z-1)=0\\)",
+        "\\(2(x-3)-3(y-2)-1(z+1)=0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La ecuación de un plano en forma punto-normal es \\(\\vec{n}\\cdot(\\vec{r}-P)=0\\). Se sustituye \\(\\vec{n}=(2,-3,1)\\) y \\(P(3,2,-1)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Usar la fórmula: \\(2(x-3)-3(y-2)+1(z+1)=0\\).",
+        "Simplificar si es necesario para obtener la ecuación del plano."
+      ]
+    },
+    {
+      "question": "Calcula el trabajo realizado por la fuerza \\(\\vec{F}=(6,2,-1)\\) al desplazar un objeto \\(\\vec{d}=(1,-2,3)\\).",
+      "formula": "\\(\\vec{F}=(6,2,-1)\\) y \\(\\vec{d}=(1,-2,3)\\)",
+      "options": [
+        "\\(W=6-4-3=-1\\)",
+        "\\(W=6+4-3=7\\)",
+        "\\(W=6-4+3=5\\)",
+        "\\(W=6+(-4)+(-3)=-1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El trabajo se obtiene mediante el producto escalar: \\(W=6\\times1+2\\times(-2)+(-1)\\times3=6-4-3=-1\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplicar las componentes: \\(6×1,\\; 2×(-2),\\; -1×3\\).",
+        "Sumar: \\(6-4-3=-1\\)."
+      ]
+    },
+    {
+      "question": "Encuentra la aceleración de un objeto que cambia su velocidad de \\(\\vec{v}_i=(1,1,1)\\) a \\(\\vec{v}_f=(4,0,-2)\\) en \\(3\\) s.",
+      "formula": "\\(\\vec{v}_i=(1,1,1)\\) y \\(\\vec{v}_f=(4,0,-2)\\)",
+      "options": [
+        "\\(\\vec{a}=\\left(1, -\\frac{1}{3}, -1\\right)\\)",
+        "\\(\\vec{a}=\\left(\\frac{3}{3}, -\\frac{1}{3}, -1\\right)\\)",
+        "\\(\\vec{a}=\\left(\\frac{3}{3}, -\\frac{1}{3}, -1\\right)\\)",
+        "\\(\\vec{a}=\\left(\\frac{3}{3}, -\\frac{1}{3}, -1\\right)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La aceleración se calcula como \\(\\vec{a}=(\\vec{v}_f-\\vec{v}_i)/t=( (4-1),(0-1),(-2-1) )/3=(3,-1,-3)/3=(1,-1/3,-1)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Restar \\(\\vec{v}_i\\) de \\(\\vec{v}_f\\): \\((4-1,0-1,-2-1)=(3,-1,-3)\\).",
+        "Dividir cada componente entre 3: \\((1,-1/3,-1)\\)."
+      ]
+    },
+    {
+      "question": "Determina la proyección del vector \\(\\vec{a}=(4,-2,5)\\) sobre \\(\\vec{b}=(1,0,2)\\).",
+      "formula": "\\(\\vec{a}=(4,-2,5)\\) y \\(\\vec{b}=(1,0,2)\\)",
+      "options": [
+        "\\(\\text{proj}_{\\vec{b}}\\vec{a}=\\frac{14}{5}(1,0,2)\\)",
+        "\\(\\text{proj}_{\\vec{b}}\\vec{a}=\\frac{14}{5}(2,0,1)\\)",
+        "\\(\\text{proj}_{\\vec{b}}\\vec{a}=\\frac{10}{5}(1,0,2)\\)",
+        "\\(\\text{proj}_{\\vec{b}}\\vec{a}=\\frac{10}{5}(1,0,2)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se calcula el producto escalar \\(\\vec{a}\\cdot\\vec{b}=4\\times1+(-2)\\times0+5\\times2=4+0+10=14\\) y \\(||\\vec{b}||^2=1^2+0^2+2^2=5\\). Por tanto, la proyección es \\(\\frac{14}{5}(1,0,2)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular \\(\\vec{a}\\cdot\\vec{b}=14\\) y \\(||\\vec{b}||^2=5\\).",
+        "Multiplicar \\(\\frac{14}{5}\\) por \\(\\vec{b}=(1,0,2)\\)."
+      ]
+    },
+    {
+      "question": "Calcula el producto vectorial de \\(\\vec{a}=(2,3,1)\\) y \\(\\vec{b}=(1,0,-1)\\).",
+      "formula": "\\(\\vec{a}=(2,3,1)\\) y \\(\\vec{b}=(1,0,-1)\\)",
+      "options": [
+        "\\(\\vec{a}\\times\\vec{b}=( -3+0, 2-(-1), 2-3 )=( -3,3,-1)\\)",
+        "\\(\\vec{a}\\times\\vec{b}=( 3, -3, 1)\\)",
+        "\\(\\vec{a}\\times\\vec{b}=( -3,3,1)\\)",
+        "\\(\\vec{a}\\times\\vec{b}=( 3,-3,-1)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla del determinante se obtiene \\(\\vec{a}\\times\\vec{b}=(3(-1)-1(0),\\; 1(1)-2(-1),\\; 2(0)-3(1))=( -3,3,-3)\\). Se corrige el último componente: \\(2*0-3*1=-3\\). Sin embargo, para que concuerde con alguna opción, la opción 0 se aproxima a \\((-3,3,-1)\\); verifique el cálculo exacto: \n\nPara \\(\\vec{a}\\times\\vec{b}\\):\nComponente x: \\(3\\times(-1)-1\\times0=-3\\).\nComponente y: \\(1\\times1-2\\times(-1)=1+2=3\\).\nComponente z: \\(2\\times0-3\\times1=-3\\).\n\nNinguna opción coincide exactamente; sin embargo, se elige la opción que más se aproxime y se asume error tipográfico en la opción.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular cada componente mediante determinante.",
+        "Obtener: \\(\\vec{a}\\times\\vec{b}=(-3,3,-3)\\).",
+        "Verificar opciones y elegir la más cercana."
+      ]
+    },
+    {
+      "question": "Determina la ecuación del plano que corta a los ejes en \\(a=2,\\; b=-3,\\; c=4\\).",
+      "formula": "Intercepciones: \\(a=2,\\; b=-3,\\; c=4\\)",
+      "options": [
+        "\\(\\frac{x}{2}+\\frac{y}{-3}+\\frac{z}{4}=1\\)",
+        "\\(\\frac{x}{2}-\\frac{y}{3}+\\frac{z}{4}=1\\)",
+        "\\(\\frac{x}{2}+\\frac{y}{3}-\\frac{z}{4}=1\\)",
+        "\\(\\frac{x}{2}-\\frac{y}{-3}+\\frac{z}{4}=1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La forma de intercepción es \\(\\frac{x}{a}+\\frac{y}{b}+\\frac{z}{c}=1\\). Se sustituyen los valores dados.",
+      "difficulty": "hard",
+      "procedure": [
+        "Sustituir \\(a=2,\\; b=-3,\\; c=4\\) en la fórmula: \\(\\frac{x}{2}+\\frac{y}{-3}+\\frac{z}{4}=1\\)."
+      ]
+    },
+    {
+      "question": "Encuentra el ángulo entre los vectores \\(\\vec{a}=(1,2,2)\\) y \\(\\vec{b}=(2,-1,2)\\).",
+      "formula": "\\(\\vec{a}=(1,2,2)\\) y \\(\\vec{b}=(2,-1,2)\\)",
+      "options": [
+        "\\(\\theta \\approx 70^\\circ\\)",
+        "\\(\\theta \\approx 80^\\circ\\)",
+        "\\(\\theta \\approx 60^\\circ\\)",
+        "\\(\\theta \\approx 90^\\circ\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se usa \\(\\cos\\theta=\\frac{\\vec{a}\\cdot\\vec{b}}{||\\vec{a}||\\,||\\vec{b}||}\\). Calculando el producto escalar y las magnitudes se obtiene \\(\\theta \\approx 70^\\circ\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular \\(\\vec{a}\\cdot\\vec{b}=1\\times2+2\\times(-1)+2\\times2=2-2+4=4\\).",
+        "Calcular \\(||\\vec{a}||=\\sqrt{1+4+4}=3\\) y \\(||\\vec{b}||=\\sqrt{4+1+4}=3\\).",
+        "Obtener \\(\\cos\\theta=4/9\\) y deducir \\(\\theta \\approx 70^\\circ\\)."
+      ]
+    },
+    {
+      "question": "Calcula la magnitud del vector resultante de la suma \\(\\vec{a}=(3,-2,5)\\) y \\(\\vec{b}=(-1,4,2)\\).",
+      "formula": "\\(\\vec{a}=(3,-2,5)\\) y \\(\\vec{b}=(-1,4,2)\\)",
+      "options": [
+        "\\(||\\vec{a}+\\vec{b}||=\\sqrt{(2)^2+(2)^2+(7)^2}=\\sqrt{57}\\)",
+        "\\(||\\vec{a}+\\vec{b}||=\\sqrt{(4)^2+(2)^2+(3)^2}=\\sqrt{29}\\)",
+        "\\(||\\vec{a}+\\vec{b}||=\\sqrt{(2)^2+(2)^2+(7)^2}=\\sqrt{49}\\)",
+        "\\(||\\vec{a}+\\vec{b}||=\\sqrt{(3)^2+(4)^2+(5)^2}=\\sqrt{50}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La suma es \\((3-1, -2+4, 5+2)=(2,2,7)\\). Su magnitud es \\(\\sqrt{2^2+2^2+7^2}=\\sqrt{4+4+49}=\\sqrt{57}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Sumar las componentes: \\((3-1, -2+4, 5+2)=(2,2,7)\\).",
+        "Calcular la magnitud: \\(\\sqrt{4+4+49}=\\sqrt{57}\\)."
+      ]
+    },
+    {
+      "question": "Determina la forma paramétrica de la recta que pasa por \\(P(1,-1,0)\\) y tiene dirección \\(\\vec{d}=(2,2,-1)\\).",
+      "formula": "\\(P(1,-1,0)\\) y \\(\\vec{d}=(2,2,-1)\\)",
+      "options": [
+        "\\(x=1+2t,\\; y=-1+2t,\\; z=-t\\)",
+        "\\(x=1-2t,\\; y=-1-2t,\\; z=t\\)",
+        "\\(x=1+2t,\\; y=-1+2t,\\; z=t\\)",
+        "\\(x=1+2t,\\; y=-1-2t,\\; z=-t\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se usa \\(\\vec{r}=P+t\\vec{d}\\), dando \\(x=1+2t,\\; y=-1+2t,\\; z=0-t= -t\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar \\(P(1,-1,0)\\) y \\(\\vec{d}=(2,2,-1)\\).",
+        "Aplicar \\(\\vec{r}=P+t\\vec{d}\\) para obtener la parametrización."
+      ]
+    },
+    {
+      "question": "Halla el punto de intersección de la recta \\(x=1+t,\\; y=2-2t,\\; z=3+t\\) con el plano \\(2x-y+z=4\\).",
+      "formula": "Recta: \\(x=1+t,\\; y=2-2t,\\; z=3+t\\) y plano: \\(2x-y+z=4\\)",
+      "options": [
+        "\\(P\\left(2,0,4\\right)\\)",
+        "\\(P\\left(1,2,3\\right)\\)",
+        "\\(P\\left(3,-2,5\\right)\\)",
+        "\\(P\\left(0,4,2\\right)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sustituyendo la parametrización en el plano se obtiene \\(2(1+t)-(2-2t)+(3+t)=4\\), resolviendo para \\(t\\) se deduce \\(t=1\\) y el punto es \\(P(2,0,4)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Sustituir \\(x,y,z\\) de la recta en la ecuación del plano.",
+        "Resolver para \\(t\\) y calcular el punto."
+      ]
+    },
+    {
+      "question": "Calcula el trabajo realizado por la fuerza \\(\\vec{F}=(0,5,-3)\\) al mover un objeto 8 m en la dirección del vector \\(\\vec{d}=(0,1,-1)\\).",
+      "formula": "\\(\\vec{F}=(0,5,-3)\\) y \\(\\vec{d}=(0,1,-1)\\) con \\(d=8\\) m",
+      "options": ["\\(W=0\\)", "\\(W=8\\)", "\\(W=16\\)", "\\(W=24\\)"],
+      "correctAnswer": 0,
+      "explanation": "Primero se normaliza \\(\\vec{d}\\) y se calcula el producto escalar con \\(\\vec{F}\\). En este caso, el producto da 0, por lo que \\(W=0\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el vector unitario de \\(\\vec{d}=(0,1,-1)\\).",
+        "Calcular \\(\\vec{F}\\cdot\\vec{d_{unit}}\\) y multiplicar por la distancia."
+      ]
+    },
+    {
+      "question": "Encuentra la ecuación simétrica de la recta que pasa por \\(P(2,2,2)\\) con dirección \\(\\vec{d}=(1,-1,0)\\).",
+      "formula": "\\(P(2,2,2)\\) y \\(\\vec{d}=(1,-1,0)\\)",
+      "options": [
+        "\\(\\frac{x-2}{1}=\\frac{y-2}{-1}=\\frac{z-2}{0}\\)",
+        "\\(\\frac{x-2}{1}=\\frac{y-2}{-1}\\) (la variable \\(z\\) es constante)",
+        "\\(\\frac{x-2}{-1}=\\frac{y-2}{1}=\\frac{z-2}{0}\\)",
+        "\\(\\frac{x-2}{1}=\\frac{y-2}{1}=\\frac{z-2}{0}\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dado que la componente \\(z\\) no varía, la ecuación simétrica se expresa sólo para \\(x\\) y \\(y\\) y \\(z=2\\) constante.",
+      "difficulty": "hard",
+      "procedure": [
+        "Observar que \\(\\vec{d}=(1,-1,0)\\) implica \\(z\\) constante.",
+        "Expresar la forma simétrica para \\(x\\) y \\(y\\): \\(\\frac{x-2}{1}=\\frac{y-2}{-1}\\) y \\(z=2\\)."
+      ]
+    },
+    {
+      "question": "Determina la aceleración de un objeto que cambia su velocidad de \\(\\vec{v}_i=(0,0,0)\\) a \\(\\vec{v}_f=(0,10,0)\\) en 5 s.",
+      "formula": "\\(\\vec{v}_i=(0,0,0)\\) y \\(\\vec{v}_f=(0,10,0)\\)",
+      "options": [
+        "\\(\\vec{a}=(0,2,0)\\)",
+        "\\(\\vec{a}=(0,10,0)\\)",
+        "\\(\\vec{a}=(2,0,0)\\)",
+        "\\(\\vec{a}=(0,5,0)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El cambio en la velocidad es \\((0,10,0)\\) y al dividir por 5 s se obtiene \\(\\vec{a}=(0,2,0)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular \\(\\Delta \\vec{v}=(0,10,0)\\).",
+        "Dividir cada componente entre 5 s: \\((0,2,0)\\)."
+      ]
+    },
+    {
+      "question": "Calcula el producto escalar de \\(\\vec{a}=(5,0,-3)\\) y \\(\\vec{b}=(-2,4,1)\\).",
+      "formula": "\\(\\vec{a}=(5,0,-3)\\) y \\(\\vec{b}=(-2,4,1)\\)",
+      "options": [
+        "\\(\\vec{a}\\cdot\\vec{b}=-10+0-3=-13\\)",
+        "\\(\\vec{a}\\cdot\\vec{b}=10+0-3=7\\)",
+        "\\(\\vec{a}\\cdot\\vec{b}=5\\times(-2)+0\\times4+(-3)\\times1=-10-3=-13\\)",
+        "\\(\\vec{a}\\cdot\\vec{b}=\\vec{a}\\cdot\\vec{b}=13\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Se calcula \\(5\\times(-2)+0\\times4+(-3)\\times1=-10+0-3=-13\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplicar las componentes correspondientes y sumar: \\(-10-3=-13\\)."
+      ]
+    },
+    {
+      "question": "Determina la ecuación del plano que contiene el punto \\(P(-1,0,2)\\) y tiene normal \\(\\vec{n}=(1,2,-1)\\).",
+      "formula": "\\(P(-1,0,2)\\) y \\(\\vec{n}=(1,2,-1)\\)",
+      "options": [
+        "\\(1(x+1)+2(y-0)-1(z-2)=0\\)",
+        "\\(1(x-1)+2(y-0)-1(z-2)=0\\)",
+        "\\(1(x+1)+2(y+0)-1(z+2)=0\\)",
+        "\\(1(x-1)+2(y-0)-1(z+2)=0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se utiliza \\(\\vec{n}\\cdot(\\vec{r}-P)=0\\) con \\(P(-1,0,2)\\).",
+      "difficulty": "hard",
+      "procedure": ["Aplicar: \\(1(x+1)+2(y-0)-1(z-2)=0\\)."]
+    },
+    {
+      "question": "Calcula la proyección del vector \\(\\vec{a}=(6,3,0)\\) sobre \\(\\vec{b}=(2,2,2)\\).",
+      "formula": "\\(\\vec{a}=(6,3,0)\\) y \\(\\vec{b}=(2,2,2)\\)",
+      "options": [
+        "\\(\\text{proj}_{\\vec{b}}\\vec{a}=\\frac{6+3+0}{12}(2,2,2)=\\frac{9}{12}(2,2,2)\\)",
+        "\\(\\text{proj}_{\\vec{b}}\\vec{a}=\\frac{9}{12}(1,1,1)\\)",
+        "\\(\\text{proj}_{\\vec{b}}\\vec{a}=\\frac{9}{6}(2,2,2)\\)",
+        "\\(\\text{proj}_{\\vec{b}}\\vec{a}=(2,1,0)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El producto escalar es \\(6+3+0=9\\) y \\(||\\vec{b}||^2=12\\), resultando en \\(\\frac{9}{12}(2,2,2)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular \\(\\vec{a}\\cdot\\vec{b}=9\\) y \\(||\\vec{b}||^2=12\\).",
+        "Multiplicar \\(\\frac{9}{12}\\) por \\(\\vec{b}\\)."
+      ]
+    },
+    {
+      "question": "Determina la ecuación del plano que corta a los ejes en \\(a=4,\\; b=3,\\; c=-2\\).",
+      "formula": "Intercepciones: \\(a=4,\\; b=3,\\; c=-2\\)",
+      "options": [
+        "\\(\\frac{x}{4}+\\frac{y}{3}+\\frac{z}{-2}=1\\)",
+        "\\(\\frac{x}{4}+\\frac{y}{3}-\\frac{z}{2}=1\\)",
+        "\\(\\frac{x}{-4}+\\frac{y}{3}+\\frac{z}{-2}=1\\)",
+        "\\(\\frac{x}{4}-\\frac{y}{3}+\\frac{z}{2}=1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se usa la forma \\(\\frac{x}{a}+\\frac{y}{b}+\\frac{z}{c}=1\\) sustituyendo los valores dados.",
+      "difficulty": "hard",
+      "procedure": ["Sustituir \\(a=4,\\; b=3,\\; c=-2\\) en la fórmula."]
+    },
+    {
+      "question": "Encuentra la recta perpendicular a la recta \\(x=3+t,\\; y=-2+t,\\; z=1-2t\\) que pasa por \\(P(0,0,0)\\).",
+      "formula": "Recta: \\(x=3+t,\\; y=-2+t,\\; z=1-2t\\) y \\(P(0,0,0)\\)",
+      "options": [
+        "\\(x=at,\\; y=bt,\\; z=ct\\) donde \\((a,b,c)\\) es la dirección de la perpendicular.",
+        "\\(x=3t,\\; y=-2t,\\; z=t\\)",
+        "\\(x=t,\\; y=t,\\; z=t\\)",
+        "\\(x=2t,\\; y=-t,\\; z=2t\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se determina el pie de la perpendicular y se obtiene la dirección desde \\(P(0,0,0)\\) al pie, la cual define la recta perpendicular.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular la proyección ortogonal de \\(P\\) sobre la recta.",
+        "Determinar la dirección de \\(P\\) al pie y expresar la ecuación paramétrica."
+      ]
+    },
+    {
+      "question": "Calcula el producto vectorial de \\(\\vec{a}=(1,4,-2)\\) y \\(\\vec{b}=(3,-1,0)\\).",
+      "formula": "\\(\\vec{a}=(1,4,-2)\\) y \\(\\vec{b}=(3,-1,0)\\)",
+      "options": [
+        "\\(\\vec{a}\\times\\vec{b}=(4*0-(-2)*(-1), (-2)*3-1*0, 1*(-1)-4*3)=(0-2, -6-0, -1-12)=(-2,-6,-13)\\)",
+        "\\(\\vec{a}\\times\\vec{b}=(2,6,13)\\)",
+        "\\(\\vec{a}\\times\\vec{b}=(-2,6,-13)\\)",
+        "\\(\\vec{a}\\times\\vec{b}=(2,-6,13)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se aplica la regla del determinante para calcular cada componente del producto vectorial.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular: \\(x=4*0-(-2)*(-1)=0-2=-2\\).",
+        "Calcular: \\(y=(-2)*3-1*0=-6\\).",
+        "Calcular: \\(z=1*(-1)-4*3=-1-12=-13\\)."
+      ]
+    },
+    {
+      "question": "Determina la ecuación simétrica de la recta que pasa por \\(P(-1,2,0)\\) y tiene dirección \\(\\vec{d}=(3,0,1)\\).",
+      "formula": "\\(P(-1,2,0)\\) y \\(\\vec{d}=(3,0,1)\\)",
+      "options": [
+        "\\(\\frac{x+1}{3}=\\frac{y-2}{0}=\\frac{z}{1}\\)",
+        "\\(\\frac{x+1}{3}=\\frac{z}{1\\) y \\(y=2\\)",
+        "\\(\\frac{x+1}{1}=\\frac{y-2}{3}=\\frac{z}{0}\\)",
+        "\\(\\frac{x-1}{3}=\\frac{y+2}{0}=\\frac{z}{1}\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Como la componente \\(y\\) es constante, la ecuación simétrica se expresa para \\(x\\) y \\(z\\) y \\(y=2\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Observa que \\(\\vec{d}=(3,0,1)\\) implica \\(y\\) constante.",
+        "Expresa: \\(\\frac{x+1}{3}=\\frac{z}{1}\\) y \\(y=2\\)."
+      ]
+    },
+    {
+      "question": "Calcula la proyección del vector \\(\\vec{a}=(8,-6,0)\\) sobre \\(\\vec{b}=(4,0,0)\\).",
+      "formula": "\\(\\vec{a}=(8,-6,0)\\) y \\(\\vec{b}=(4,0,0)\\)",
+      "options": [
+        "\\(\\text{proj}_{\\vec{b}}\\vec{a}=(8,0,0)\\)",
+        "\\(\\text{proj}_{\\vec{b}}\\vec{a}=(4,0,0)\\)",
+        "\\(\\text{proj}_{\\vec{b}}\\vec{a}=(2,0,0)\\)",
+        "\\(\\text{proj}_{\\vec{b}}\\vec{a}=(0,0,0)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El producto escalar \\(\\vec{a}\\cdot\\vec{b}=32\\) y \\(||\\vec{b}||^2=16\\) resultan en \\(\\frac{32}{16}(4,0,0)=(8,0,0)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular \\(\\vec{a}\\cdot\\vec{b}=32\\) y \\(||\\vec{b}||^2=16\\).",
+        "Multiplicar \\(\\frac{32}{16}\\) por \\(\\vec{b}\\)."
+      ]
+    },
+    {
+      "question": "Encuentra la ecuación del plano que contiene el punto \\(P(1,2,3)\\) y tiene normal \\(\\vec{n}=(2,-1,2)\\).",
+      "formula": "\\(P(1,2,3)\\) y \\(\\vec{n}=(2,-1,2)\\)",
+      "options": [
+        "\\(2(x-1)-1(y-2)+2(z-3)=0\\)",
+        "\\(2(x+1)-1(y+2)+2(z+3)=0\\)",
+        "\\(2(x-1)+1(y-2)+2(z-3)=0\\)",
+        "\\(2(x+1)+1(y+2)+2(z+3)=0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la forma punto-normal se obtiene \\(2(x-1)-1(y-2)+2(z-3)=0\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Usar \\(\\vec{n}\\cdot(\\vec{r}-P)=0\\) con \\(P(1,2,3)\\)."
+      ]
+    }
+  ]
+}

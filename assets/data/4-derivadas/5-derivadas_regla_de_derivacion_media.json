@@ -1,0 +1,1546 @@
+{
+  "derivadas_regla_de_derivacion_media": [
+    {
+      "question": "Calcula la derivada de f(x) = \\(x^3\\).",
+      "formula": "\\( f(x) = x^3 \\)",
+      "options": ["\\( x^3 \\)", "\\( 3x^2 \\)", "\\( 3x \\)", "\\( x^2 \\)"],
+      "correctAnswer": 1,
+      "explanation": "Aplicando la regla del poder, la derivada de \\(x^n\\) es \\(nx^{n-1}\\). Entonces, la derivada de \\(x^3\\) es \\(3x^2\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar la función potencia: \\(x^3\\).",
+        "Aplicar la regla del poder: \\(f'(x)=3x^2\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de f(x) = \\(2x^5\\).",
+      "formula": "\\( f(x) = 2x^5 \\)",
+      "options": [
+        "\\( 10x^4 \\)",
+        "\\( 2x^4 \\)",
+        "\\( 5x^4 \\)",
+        "\\( 8x^4 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La constante se mantiene y aplicamos la regla del poder: \\(f'(x)=2\\cdot5x^{4}=10x^4\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Extraer la constante 2.",
+        "Aplicar la regla del poder a \\(x^5\\): \\(5x^4\\).",
+        "Multiplicar: \\(2\\cdot5x^4=10x^4\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de f(x) = \\(x^2 + 3x\\).",
+      "formula": "\\( f(x) = x^2 + 3x \\)",
+      "options": [
+        "\\( 3+2x \\)",
+        "\\( 2x+3 \\)",
+        "\\( x+3 \\)",
+        "\\( 3x+2 \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Derivamos cada término: la derivada de \\(x^2\\) es \\(2x\\) y la de \\(3x\\) es 3. Sumando, obtenemos \\(2x+3\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Derivar \\(x^2\\) obteniendo \\(2x\\).",
+        "Derivar \\(3x\\) obteniendo 3.",
+        "Sumar ambos resultados: \\(2x+3\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de f(x) = \\(5x^4 - 2x^2\\).",
+      "formula": "\\( f(x) = 5x^4 - 2x^2 \\)",
+      "options": [
+        "\\( 20x^3 - 4x \\)",
+        "\\( 5x^3 - 2x \\)",
+        "\\( 20x^3 - 2x \\)",
+        "\\( 4x^3 - 4x \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicamos la regla del poder a cada término: \\(5x^4\\) deriva a \\(20x^3\\) y \\(2x^2\\) deriva a \\(4x\\). La derivada es \\(20x^3 - 4x\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Derivar \\(5x^4\\) obteniendo \\(20x^3\\).",
+        "Derivar \\(2x^2\\) obteniendo \\(4x\\).",
+        "Restar: \\(20x^3 - 4x\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de f(x) = \\(x \\cdot \\sin(x)\\).",
+      "formula": "\\( f(x) = x \\cdot \\sin(x) \\)",
+      "options": [
+        "\\( \\cos(x) + x\\sin(x) \\)",
+        "\\( \\sin(x) + x\\cos(x) \\)",
+        "\\( \\sin(x) - x\\cos(x) \\)",
+        "\\( \\cos(x) - x\\sin(x) \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Se utiliza la regla del producto: \\(f'(x)=1\\cdot\\sin(x)+x\\cdot\\cos(x)=\\sin(x)+x\\cos(x)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar las funciones: \\(u=x\\) y \\(v=\\sin(x)\\).",
+        "Derivar cada función: \\(u'=1\\) y \\(v'=\\cos(x)\\).",
+        "Aplicar la regla del producto: \\(f'(x)=u'v+uv'\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de f(x) = \\(x^2 \\cdot e^x\\).",
+      "formula": "\\( f(x) = x^2 \\cdot e^x \\)",
+      "options": [
+        "\\( e^x(2x + x^2) \\)",
+        "\\( e^x(x + x^2) \\)",
+        "\\( 2xe^x \\)",
+        "\\( x^2e^x \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicamos la regla del producto: la derivada es \\(e^x\\cdot2x + x^2\\cdot e^x = e^x(2x+x^2)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Derivar \\(x^2\\) obteniendo \\(2x\\).",
+        "Derivar \\(e^x\\) obteniendo \\(e^x\\).",
+        "Aplicar la regla del producto y factorizar \\(e^x\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de f(x) = \\(\\frac{x^2}{x+1}\\).",
+      "formula": "\\( f(x) = \\frac{x^2}{x+1} \\)",
+      "options": [
+        "\\( \\frac{x^2+2x}{(x+1)^2} \\)",
+        "\\( \\frac{2x}{(x+1)^2} \\)",
+        "\\( \\frac{2x^2}{(x+1)^2} \\)",
+        "\\( \\frac{x^2-2x}{(x+1)^2} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla del cociente: \\(f'(x)=\\frac{2x(x+1)-x^2}{(x+1)^2}=\\frac{x^2+2x}{(x+1)^2}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Derivar el numerador: \\(\\frac{d}{dx}(x^2)=2x\\).",
+        "Derivar el denominador: \\(\\frac{d}{dx}(x+1)=1\\).",
+        "Aplicar la fórmula del cociente y simplificar."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de f(x) = \\(\\frac{\\sin(x)}{x}\\).",
+      "formula": "\\( f(x) = \\frac{\\sin(x)}{x} \\)",
+      "options": [
+        "\\( \\frac{x\\cos(x)-\\sin(x)}{x^2} \\)",
+        "\\( \\frac{\\cos(x)-\\sin(x)}{x^2} \\)",
+        "\\( \\frac{x\\sin(x)-\\cos(x)}{x^2} \\)",
+        "\\( \\frac{x\\cos(x)+\\sin(x)}{x^2} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando la regla del cociente, se tiene \\(f'(x)=\\frac{\\cos(x)\\cdot x - \\sin(x)\\cdot1}{x^2}=\\frac{x\\cos(x)-\\sin(x)}{x^2}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar \\(u=\\sin(x)\\) y \\(v=x\\).",
+        "Calcular \\(u'=\\cos(x)\\) y \\(v'=1\\).",
+        "Aplicar la fórmula del cociente."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de f(x) = \\((3x+2)^4\\).",
+      "formula": "\\( f(x) = (3x+2)^4 \\)",
+      "options": [
+        "\\( 12(3x+2)^3 \\)",
+        "\\( 4(3x+2)^3 \\)",
+        "\\( 3(3x+2)^3 \\)",
+        "\\( 12(3x+2)^4 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla de la cadena: \\(f'(x)=4(3x+2)^3\\cdot3=12(3x+2)^3\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar la función interna \\(u=3x+2\\).",
+        "Derivar la función externa \\(u^4\\) obteniendo \\(4u^3\\).",
+        "Multiplicar por la derivada de \\(u\\), que es 3."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de f(x) = \\(\\sqrt{5x-1}\\).",
+      "formula": "\\( f(x) = \\sqrt{5x-1} \\)",
+      "options": [
+        "\\( \\frac{5}{2\\sqrt{5x-1}} \\)",
+        "\\( \\frac{5}{\\sqrt{5x-1}} \\)",
+        "\\( \\frac{\\sqrt{5x-1}}{2} \\)",
+        "\\( \\frac{5\\sqrt{5x-1}}{2} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reescribiendo \\(\\sqrt{5x-1}\\) como \\((5x-1)^{1/2}\\) y aplicando la regla de la cadena se obtiene \\(\\frac{1}{2}(5x-1)^{-1/2}\\cdot5=\\frac{5}{2\\sqrt{5x-1}}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expresar la función en forma de potencia: \\((5x-1)^{1/2}\\).",
+        "Aplicar la regla de la cadena: derivar la potencia y multiplicar por la derivada de \\(5x-1\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de f(x) = \\(\\ln(2x+3)\\).",
+      "formula": "\\( f(x) = \\ln(2x+3) \\)",
+      "options": [
+        "\\( \\frac{2}{2x+3} \\)",
+        "\\( \\frac{1}{2x+3} \\)",
+        "\\( \\frac{2}{x+3} \\)",
+        "\\( \\frac{\\ln(2x+3)}{x} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\ln(u)\\) es \\(\\frac{u'}{u}\\). Con \\(u=2x+3\\) y \\(u'=2\\), se tiene \\(\\frac{2}{2x+3}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar \\(u=2x+3\\) y calcular \\(u'=2\\).",
+        "Aplicar la regla de la función logarítmica: \\(f'(x)=\\frac{u'}{u}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de f(x) = \\(x\\cdot(x^2+1)^3\\).",
+      "formula": "\\( f(x) = x\\cdot(x^2+1)^3 \\)",
+      "options": [
+        "\\( (x^2+1)^2(7x^2+1) \\)",
+        "\\( 3x(x^2+1)^2 \\)",
+        "\\( (x^2+1)^3+6x^3 \\)",
+        "\\( x\\cdot(x^2+1)^2 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se usa la regla del producto junto con la cadena. La derivada es \\((x^2+1)^3+6x^2(x^2+1)^2\\), que se factoriza como \\((x^2+1)^2(7x^2+1)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Aplicar la regla del producto: derivar \\(x\\) y \\((x^2+1)^3\\) por separado.",
+        "Utilizar la regla de la cadena para \\((x^2+1)^3\\).",
+        "Factorizar el resultado."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de f(x) = \\(e^{3x}\\).",
+      "formula": "\\( f(x) = e^{3x} \\)",
+      "options": [
+        "\\( 3e^{3x} \\)",
+        "\\( e^{3x} \\)",
+        "\\( 3e^x \\)",
+        "\\( e^{2x} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando la regla de la cadena, la derivada de \\(e^{3x}\\) es \\(e^{3x}\\) por la derivada del exponente, que es 3, resultando en \\(3e^{3x}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar la función interna \\(3x\\) y su derivada, que es 3.",
+        "Multiplicar por \\(e^{3x}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de f(x) = \\(\\cos(2x)\\).",
+      "formula": "\\( f(x) = \\cos(2x) \\)",
+      "options": [
+        "\\( -2\\sin(2x) \\)",
+        "\\( -\\sin(2x) \\)",
+        "\\( 2\\cos(2x) \\)",
+        "\\( 2\\sin(2x) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Derivando \\(\\cos(2x)\\) se obtiene \\(-\\sin(2x)\\) por la función coseno, multiplicado por la derivada de \\(2x\\) que es 2, dando \\(-2\\sin(2x)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Aplicar la derivada de la función coseno: \\(\\frac{d}{dx}\\cos(u)=-\\sin(u)\\cdot u'\\).",
+        "Calcular \\(u'=2\\) para \\(u=2x\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de f(x) = \\(7x^6\\).",
+      "formula": "\\( f(x) = 7x^6 \\)",
+      "options": [
+        "\\( 42x^5 \\)",
+        "\\( 7x^5 \\)",
+        "\\( 6x^5 \\)",
+        "\\( 42x^6 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(7x^6\\) es \\(7\\cdot6x^{5}=42x^5\\), usando la regla del poder.",
+      "difficulty": "medium",
+      "procedure": [
+        "Multiplicar la constante 7 por el exponente 6.",
+        "Reducir el exponente en uno: \\(x^5\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de f(x) = \\(4x^3 + 2x^2 + x\\).",
+      "formula": "\\( f(x) = 4x^3 + 2x^2 + x \\)",
+      "options": [
+        "\\( 12x^2+4x+1 \\)",
+        "\\( 12x^2+2x+1 \\)",
+        "\\( 4x^2+2x+1 \\)",
+        "\\( 12x^2+4x \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Derivamos término a término: \\(12x^2\\) para \\(4x^3\\), \\(4x\\) para \\(2x^2\\) y 1 para \\(x\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Derivar \\(4x^3\\) a \\(12x^2\\).",
+        "Derivar \\(2x^2\\) a \\(4x\\).",
+        "Derivar \\(x\\) a 1 y sumar."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de f(x) = \\(x^5 - x^3\\).",
+      "formula": "\\( f(x) = x^5 - x^3 \\)",
+      "options": [
+        "\\( 5x^4 - 3x^2 \\)",
+        "\\( 5x^4 + 3x^2 \\)",
+        "\\( x^4 - x^2 \\)",
+        "\\( 5x^3 - 3x \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicamos la regla del poder a cada término: \\(x^5\\) deriva a \\(5x^4\\) y \\(x^3\\) a \\(3x^2\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Derivar \\(x^5\\) obteniendo \\(5x^4\\).",
+        "Derivar \\(x^3\\) obteniendo \\(3x^2\\).",
+        "Restar las derivadas."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de f(x) = \\((2x+1)(x^2-1)\\).",
+      "formula": "\\( f(x) = (2x+1)(x^2-1) \\)",
+      "options": [
+        "\\( 6x^2+2x-2 \\)",
+        "\\( 4x^2+2x-2 \\)",
+        "\\( 6x^2-2x-2 \\)",
+        "\\( 2x^2+2x-2 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se utiliza la regla del producto: derivada de \\(2x+1\\) es 2 y la de \\(x^2-1\\) es \\(2x\\), lo que da \\(2(x^2-1)+ (2x+1)(2x)=6x^2+2x-2\\) tras simplificar.",
+      "difficulty": "medium",
+      "procedure": [
+        "Derivar \\(2x+1\\) obteniendo 2.",
+        "Derivar \\(x^2-1\\) obteniendo \\(2x\\).",
+        "Aplicar la regla del producto y simplificar."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de f(x) = \\(\\frac{x^3+1}{x-1}\\).",
+      "formula": "\\( f(x) = \\frac{x^3+1}{x-1} \\)",
+      "options": [
+        "\\( \\frac{2x^3-3x^2-1}{(x-1)^2} \\)",
+        "\\( \\frac{3x^3-1}{(x-1)^2} \\)",
+        "\\( \\frac{2x^3-3x^2+1}{(x-1)^2} \\)",
+        "\\( \\frac{x^3-1}{(x-1)^2} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla del cociente se obtiene: \\(\\frac{(3x^2)(x-1)-(x^3+1)}{(x-1)^2}\\), que simplificado resulta en \\(\\frac{2x^3-3x^2-1}{(x-1)^2}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Derivar el numerador \\(x^3+1\\) a \\(3x^2\\).",
+        "Derivar el denominador \\(x-1\\) a 1.",
+        "Aplicar la fórmula del cociente y simplificar."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de f(x) = \\(\\sqrt{1+x^2}\\).",
+      "formula": "\\( f(x) = \\sqrt{1+x^2} \\)",
+      "options": [
+        "\\( \\frac{x}{\\sqrt{1+x^2}} \\)",
+        "\\( \\frac{1}{\\sqrt{1+x^2}} \\)",
+        "\\( x(1+x^2)^{-1/2} \\)",
+        "\\( \\frac{2x}{\\sqrt{1+x^2}} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reescribiendo \\(\\sqrt{1+x^2}\\) como \\((1+x^2)^{1/2}\\) y aplicando la regla de la cadena se obtiene \\(\\frac{1}{2}(1+x^2)^{-1/2}\\cdot2x = \\frac{x}{\\sqrt{1+x^2}}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expresar la función en forma de potencia.",
+        "Aplicar la regla de la cadena: derivar la potencia y multiplicar por la derivada del interior."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de f(x) = \\(x\\ln(x)\\).",
+      "formula": "\\( f(x) = x\\ln(x) \\)",
+      "options": [
+        "\\( \\ln(x)+1 \\)",
+        "\\( 1+\\ln(x) \\)",
+        "\\( \\ln(x) \\)",
+        "\\( 1 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando la regla del producto: la derivada de \\(x\\) es 1 y la de \\(\\ln(x)\\) es \\(1/x\\). Se obtiene \\(1\\cdot\\ln(x)+x\\cdot(1/x)=\\ln(x)+1\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar las funciones \\(u=x\\) y \\(v=\\ln(x)\\).",
+        "Calcular \\(u'=1\\) y \\(v'=1/x\\).",
+        "Aplicar la regla del producto."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de f(x) = \\(e^{x^2}\\).",
+      "formula": "\\( f(x) = e^{x^2} \\)",
+      "options": [
+        "\\( 2xe^{x^2} \\)",
+        "\\( e^{x^2} \\)",
+        "\\( xe^{x^2} \\)",
+        "\\( 2e^{x^2} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(e^{x^2}\\) se obtiene aplicando la regla de la cadena: \\(e^{x^2}\\cdot2x=2xe^{x^2}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar \\(u=x^2\\) y calcular \\(u'=2x\\).",
+        "Multiplicar por \\(e^{x^2}\\) según la regla de la cadena."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de f(x) = \\(\\sin^2(x)\\).",
+      "formula": "\\( f(x) = \\sin^2(x) \\)",
+      "options": [
+        "\\( \\sin(2x) \\)",
+        "\\( 2\\sin(x)\\cos(x) \\)",
+        "\\( \\cos(2x) \\)",
+        "\\( 0 \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Derivando \\(\\sin^2(x)\\) se usa la regla de la cadena: \\(2\\sin(x)\\cos(x)\\), que es equivalente a \\(\\sin(2x)\\) pero se mantiene la forma original.",
+      "difficulty": "medium",
+      "procedure": [
+        "Reconocer la función compuesta: \\((\\sin(x))^2\\).",
+        "Aplicar la regla de la cadena: \\(2\\sin(x)\\cdot\\cos(x)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de f(x) = \\(\\cos^2(x)\\).",
+      "formula": "\\( f(x) = \\cos^2(x) \\)",
+      "options": [
+        "\\( -2\\cos(x)\\sin(x) \\)",
+        "\\( -\\sin(2x) \\)",
+        "\\( 2\\cos(x)\\sin(x) \\)",
+        "\\( \\sin(2x) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Derivando \\(\\cos^2(x)\\) se obtiene \\(-2\\cos(x)\\sin(x)\\), utilizando la regla de la cadena.",
+      "difficulty": "medium",
+      "procedure": [
+        "Escribir \\(\\cos^2(x)\\) como \\((\\cos(x))^2\\).",
+        "Aplicar la regla de la cadena: derivar el cuadrado y luego \\(\\cos(x)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de f(x) = \\(\\tan(x)\\).",
+      "formula": "\\( f(x) = \\tan(x) \\)",
+      "options": [
+        "\\( \\sec^2(x) \\)",
+        "\\( \\tan(x)\\sec^2(x) \\)",
+        "\\( \\sec(x) \\)",
+        "\\( \\sin(x) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\tan(x)\\) es \\(\\sec^2(x)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Recordar la derivada conocida de la tangente: \\(\\frac{d}{dx}\\tan(x)=\\sec^2(x)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de f(x) = \\(\\ln(x^2+1)\\).",
+      "formula": "\\( f(x) = \\ln(x^2+1) \\)",
+      "options": [
+        "\\( \\frac{2x}{x^2+1} \\)",
+        "\\( \\frac{1}{x^2+1} \\)",
+        "\\( \\frac{2x}{2x} \\)",
+        "\\( \\ln(x^2+1) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando la regla de la cadena en \\(\\ln(u)\\) con \\(u=x^2+1\\), donde \\(u'=2x\\), se obtiene \\(\\frac{2x}{x^2+1}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar \\(u=x^2+1\\) y derivar para obtener \\(2x\\).",
+        "Aplicar \\(\\frac{u'}{u}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de f(x) = \\(\\sqrt[3]{x}\\).",
+      "formula": "\\( f(x) = \\sqrt[3]{x} \\)",
+      "options": [
+        "\\( \\frac{1}{3}x^{-2/3} \\)",
+        "\\( x^{-2/3} \\)",
+        "\\( \\frac{1}{3}x^{2/3} \\)",
+        "\\( x^{1/3} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reescribiendo \\(\\sqrt[3]{x}\\) como \\(x^{1/3}\\) y aplicando la regla del poder se obtiene \\(\\frac{1}{3}x^{-2/3}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expresar la raíz cúbica en forma de potencia.",
+        "Aplicar la regla del poder: \\(f'(x)=\\frac{1}{3}x^{(1/3)-1}=\\frac{1}{3}x^{-2/3}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de f(x) = \\(\\frac{1}{x+2}\\).",
+      "formula": "\\( f(x) = \\frac{1}{x+2} \\)",
+      "options": [
+        "\\( -\\frac{1}{(x+2)^2} \\)",
+        "\\( \\frac{1}{(x+2)^2} \\)",
+        "\\( -\\frac{1}{x+2} \\)",
+        "\\( \\frac{1}{x+2} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se puede reescribir la función como \\((x+2)^{-1}\\). Su derivada es \\(-1(x+2)^{-2}\\) por la regla del poder.",
+      "difficulty": "medium",
+      "procedure": [
+        "Expresar \\(\\frac{1}{x+2}\\) como \\((x+2)^{-1}\\).",
+        "Aplicar la regla del poder y multiplicar por la derivada del interior, que es 1."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de f(x) = \\(\\arctan(x)\\).",
+      "formula": "\\( f(x) = \\arctan(x) \\)",
+      "options": [
+        "\\( \\frac{1}{1+x^2} \\)",
+        "\\( \\frac{x}{1+x^2} \\)",
+        "\\( 1+x^2 \\)",
+        "\\( \\arctan(x) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\arctan(x)\\) es conocida y es \\(\\frac{1}{1+x^2}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Recordar la derivada estándar de la función arco tangente."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de f(x) = \\(e^{\\sin(x)}\\).",
+      "formula": "\\( f(x) = e^{\\sin(x)} \\)",
+      "options": [
+        "\\( e^{\\sin(x)}\\cos(x) \\)",
+        "\\( e^{\\sin(x)}\\sin(x) \\)",
+        "\\( \\cos(x)e^x \\)",
+        "\\( e^x\\cos(x) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla de la cadena: la derivada de \\(e^{\\sin(x)}\\) es \\(e^{\\sin(x)}\\) multiplicado por la derivada de \\(\\sin(x)\\) que es \\(\\cos(x)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar la función interna \\(\\sin(x)\\) y derivarla obteniendo \\(\\cos(x)\\).",
+        "Multiplicar por \\(e^{\\sin(x)}\\) según la regla de la cadena."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=3x^4+7x-5 \\).",
+      "formula": "\\( f(x)=3x^4+7x-5 \\)",
+      "options": [
+        "\\( 12x^3+7 \\)",
+        "\\( 12x^3-7 \\)",
+        "\\( 3x^3+7 \\)",
+        "\\( 12x^4+7 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Derivamos término a término: la derivada de \\(3x^4\\) es \\(12x^3\\), de \\(7x\\) es 7 y la constante se anula, obteniendo \\(12x^3+7\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Derivar \\(3x^4\\): \\(3\\cdot4x^{3}=12x^3\\).",
+        "Derivar \\(7x\\): 7.",
+        "Sumar los resultados: \\(12x^3+7\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=4x^3-9x^2+x-6 \\).",
+      "formula": "\\( f(x)=4x^3-9x^2+x-6 \\)",
+      "options": [
+        "\\( 12x^2-18x+1 \\)",
+        "\\( 12x^2-9x+1 \\)",
+        "\\( 4x^2-18x+1 \\)",
+        "\\( 12x^2-9x-6 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Derivamos cada término: \\(4x^3\\) a \\(12x^2\\), \\(-9x^2\\) a \\(-18x\\), \\(x\\) a 1 y la constante se anula.",
+      "difficulty": "medium",
+      "procedure": [
+        "Derivar \\(4x^3\\): \\(12x^2\\).",
+        "Derivar \\(-9x^2\\): \\(-18x\\).",
+        "Derivar \\(x\\): 1.",
+        "Sumar: \\(12x^2-18x+1\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=2x^7-3x^5+x^2 \\).",
+      "formula": "\\( f(x)=2x^7-3x^5+x^2 \\)",
+      "options": [
+        "\\( 14x^6-15x^4+2x \\)",
+        "\\( 14x^6-15x^5+2x \\)",
+        "\\( 14x^7-15x^5+2x^2 \\)",
+        "\\( 12x^6-10x^4+2x \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicamos la regla del poder: \\(2x^7\\) deriva a \\(14x^6\\), \\(-3x^5\\) a \\(-15x^4\\) y \\(x^2\\) a \\(2x\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Derivar \\(2x^7\\): \\(2\\cdot7x^{6}=14x^6\\).",
+        "Derivar \\(-3x^5\\): \\(-3\\cdot5x^{4}=-15x^4\\).",
+        "Derivar \\(x^2\\): \\(2x\\).",
+        "Sumar: \\(14x^6-15x^4+2x\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\frac{x^2+1}{2x-3} \\).",
+      "formula": "\\( f(x)=\\frac{x^2+1}{2x-3} \\)",
+      "options": [
+        "\\( \\frac{2(x^2-3x-1)}{(2x-3)^2} \\)",
+        "\\( \\frac{2x(2x-3)-(x^2+1)2}{(2x-3)^2} \\)",
+        "\\( \\frac{2x(2x-3)+(x^2+1)2}{(2x-3)^2} \\)",
+        "\\( \\frac{2(x^2+3x+1)}{(2x-3)^2} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla del cociente: \\(u=x^2+1\\) y \\(v=2x-3\\). Con \\(u'=2x\\) y \\(v'=2\\), se obtiene \\(\\frac{2x(2x-3)-2(x^2+1)}{(2x-3)^2}=\\frac{2(x^2-3x-1)}{(2x-3)^2}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar \\(u=x^2+1\\) y \\(v=2x-3\\).",
+        "Calcular \\(u'=2x\\) y \\(v'=2\\).",
+        "Aplicar la regla del cociente y simplificar."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=(2x+1)^3+(3x-2)^2 \\).",
+      "formula": "\\( f(x)=(2x+1)^3+(3x-2)^2 \\)",
+      "options": [
+        "\\( 6(2x+1)^2+6(3x-2) \\)",
+        "\\( 6(2x+1)^2+5(3x-2) \\)",
+        "\\( 3(2x+1)^2+2(3x-2) \\)",
+        "\\( 6(2x+1)^2-6(3x-2) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Para \\((2x+1)^3\\), la derivada es \\(3(2x+1)^2\\cdot2=6(2x+1)^2\\). Para \\((3x-2)^2\\), es \\(2(3x-2)\\cdot3=6(3x-2)\\). La suma da \\(6(2x+1)^2+6(3x-2)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Derivar \\((2x+1)^3\\) usando la regla de la cadena.",
+        "Derivar \\((3x-2)^2\\) usando la regla de la cadena.",
+        "Sumar ambos resultados."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=x\\ln(5x) \\).",
+      "formula": "\\( f(x)=x\\ln(5x) \\)",
+      "options": [
+        "\\( \\ln(5x)+1 \\)",
+        "\\( \\ln(5x)+5 \\)",
+        "\\( \\frac{1}{5x}+1 \\)",
+        "\\( \\ln(5x)+\\frac{1}{x} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usamos la regla del producto: derivada de \\(x\\) es 1 y la de \\(\\ln(5x)\\) es \\(\\frac{1}{5x}\\cdot5=\\frac{1}{x}\\). Se tiene \\(\\ln(5x)+1\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Aplicar la regla del producto: \\(f'(x)=1\\cdot\\ln(5x)+x\\cdot\\frac{1}{x}\\).",
+        "Simplificar: \\(\\ln(5x)+1\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\ln(\\sin(x)+x) \\).",
+      "formula": "\\( f(x)=\\ln(\\sin(x)+x) \\)",
+      "options": [
+        "\\( \\frac{\\cos(x)+1}{\\sin(x)+x} \\)",
+        "\\( \\frac{\\cos(x)+x}{\\sin(x)+1} \\)",
+        "\\( \\frac{\\sin(x)+1}{\\cos(x)+x} \\)",
+        "\\( \\frac{\\sin(x)+\\cos(x)}{x} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sea \\(u=\\sin(x)+x\\) con \\(u'=\\cos(x)+1\\). La derivada de \\(\\ln(u)\\) es \\(u'/u\\), resultando en \\(\\frac{\\cos(x)+1}{\\sin(x)+x}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar \\(u=\\sin(x)+x\\) y calcular \\(u'=\\cos(x)+1\\).",
+        "Aplicar la derivada de \\(\\ln(u)\\): \\(\\frac{u'}{u}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=e^{2x}\\sin(x) \\).",
+      "formula": "\\( f(x)=e^{2x}\\sin(x) \\)",
+      "options": [
+        "\\( e^{2x}(2\\sin(x)+\\cos(x)) \\)",
+        "\\( e^{2x}(2\\cos(x)+\\sin(x)) \\)",
+        "\\( 2e^{2x}\\sin(x)+e^{2x}\\cos(x) \\)",
+        "\\( 2e^{2x}(\\sin(x)+\\cos(x)) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicamos la regla del producto: derivada de \\(e^{2x}\\) es \\(2e^{2x}\\) y la de \\(\\sin(x)\\) es \\(\\cos(x)\\). Se tiene \\(e^{2x}(2\\sin(x)+\\cos(x))\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Derivar \\(e^{2x}\\): \\(2e^{2x}\\).",
+        "Derivar \\(\\sin(x)\\): \\(\\cos(x)\\).",
+        "Aplicar la regla del producto y factorizar."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\cos(x)\\ln(x) \\).",
+      "formula": "\\( f(x)=\\cos(x)\\ln(x) \\)",
+      "options": [
+        "\\( -\\sin(x)\\ln(x)+\\frac{\\cos(x)}{x} \\)",
+        "\\( -\\sin(x)\\ln(x)-\\frac{\\cos(x)}{x} \\)",
+        "\\( -\\cos(x)\\ln(x)+\\frac{\\sin(x)}{x} \\)",
+        "\\( \\frac{-\\sin(x)+\\cos(x)}{x} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usamos la regla del producto: derivada de \\(\\cos(x)\\) es \\(-\\sin(x)\\) y la de \\(\\ln(x)\\) es \\(1/x\\), obteniendo \\(-\\sin(x)\\ln(x)+\\frac{\\cos(x)}{x}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Derivar \\(\\cos(x)\\): \\(-\\sin(x)\\).",
+        "Derivar \\(\\ln(x)\\): \\(1/x\\).",
+        "Aplicar la regla del producto."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\frac{3x-4}{2x+5} \\).",
+      "formula": "\\( f(x)=\\frac{3x-4}{2x+5} \\)",
+      "options": [
+        "\\( \\frac{23}{(2x+5)^2} \\)",
+        "\\( \\frac{23x}{(2x+5)^2} \\)",
+        "\\( \\frac{6x+15}{(2x+5)^2} \\)",
+        "\\( \\frac{3}{2x+5} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Con \\(u=3x-4\\) y \\(v=2x+5\\), se tiene \\(u'=3\\) y \\(v'=2\\). La derivada es \\(\\frac{3(2x+5)-2(3x-4)}{(2x+5)^2}=\\frac{23}{(2x+5)^2}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar \\(u\\) y \\(v\\) y sus derivadas.",
+        "Aplicar la regla del cociente y simplificar."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\sqrt{3x^2+2} \\).",
+      "formula": "\\( f(x)=\\sqrt{3x^2+2} \\)",
+      "options": [
+        "\\( \\frac{3x}{\\sqrt{3x^2+2}} \\)",
+        "\\( \\frac{6x}{\\sqrt{3x^2+2}} \\)",
+        "\\( \\frac{3}{\\sqrt{3x^2+2}} \\)",
+        "\\( \\frac{6x}{3x^2+2} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Escribiendo la función como \\((3x^2+2)^{1/2}\\), su derivada es \\(\\frac{1}{2}(3x^2+2)^{-1/2}\\cdot6x=\\frac{3x}{\\sqrt{3x^2+2}}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expresar la raíz como potencia.",
+        "Aplicar la regla de la cadena."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=(x+2)^5 \\).",
+      "formula": "\\( f(x)=(x+2)^5 \\)",
+      "options": [
+        "\\( 5(x+2)^4 \\)",
+        "\\( 5x^4+2 \\)",
+        "\\( 5(x+2)^5 \\)",
+        "\\( (x+2)^4 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Utilizamos la regla del poder: la derivada de \\((x+2)^5\\) es \\(5(x+2)^4\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Aplicar la regla de la cadena: derivar \\(x+2\\) (que es 1) y multiplicar por 5."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\tan(x^2) \\).",
+      "formula": "\\( f(x)=\\tan(x^2) \\)",
+      "options": [
+        "\\( \\sec^2(x^2)\\cdot2x \\)",
+        "\\( 2x\\tan(x^2) \\)",
+        "\\( \\sec(x^2)\\cdot2x \\)",
+        "\\( 2\\tan(x^2) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sea \\(u=x^2\\) con \\(u'=2x\\). La derivada de \\(\\tan(u)\\) es \\(\\sec^2(u)\\cdot u'\\), resultando en \\(\\sec^2(x^2)\\cdot2x\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar \\(u=x^2\\) y calcular \\(u'=2x\\).",
+        "Aplicar la derivada de \\(\\tan(u)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\sin(x)\\cos(x) \\).",
+      "formula": "\\( f(x)=\\sin(x)\\cos(x) \\)",
+      "options": [
+        "\\( \\cos^2(x)-\\sin^2(x) \\)",
+        "\\( \\sin^2(x)-\\cos^2(x) \\)",
+        "\\( \\sin(2x) \\)",
+        "\\( 2\\sin(x)\\cos(x) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla del producto se obtiene \\(\\cos(x)\\cos(x)-\\sin(x)\\sin(x)=\\cos^2(x)-\\sin^2(x)\\), lo que equivale a \\(\\cos(2x)\\) pero se conserva la forma.",
+      "difficulty": "medium",
+      "procedure": [
+        "Derivar \\(\\sin(x)\\) y \\(\\cos(x)\\) respectivamente.",
+        "Aplicar la regla del producto y simplificar."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\frac{x^2+4}{x^3-x} \\).",
+      "formula": "\\( f(x)=\\frac{x^2+4}{x^3-x} \\)",
+      "options": [
+        "\\( \\frac{2x(x^3-x)-(x^2+4)(3x^2-1)}{(x^3-x)^2} \\)",
+        "\\( \\frac{2x(x^3-x)+(x^2+4)(3x^2-1)}{(x^3-x)^2} \\)",
+        "\\( \\frac{(2x)(x^3-x)-(x^2+4)(3x^2+1)}{(x^3-x)^2} \\)",
+        "\\( \\frac{2x(x^3+x)-(x^2+4)(3x^2-1)}{(x^3-x)^2} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicamos la regla del cociente, dejando el resultado en forma de fracción con numerador \\(2x(x^3-x)-(x^2+4)(3x^2-1)\\) y denominador \\((x^3-x)^2\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar \\(u=x^2+4\\) y \\(v=x^3-x\\) y derivar cada uno.",
+        "Aplicar la regla del cociente y expresar el resultado sin simplificar completamente."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=2\\ln((x+1)^2) \\).",
+      "formula": "\\( f(x)=2\\ln((x+1)^2) \\)",
+      "options": [
+        "\\( \\frac{2}{x+1} \\)",
+        "\\( \\frac{4}{x+1} \\)",
+        "\\( \\frac{2}{(x+1)^2} \\)",
+        "\\( \\frac{1}{x+1} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Recordando que \\(\\ln((x+1)^2)=2\\ln|x+1|\\), la derivada es \\(2\\cdot\\frac{1}{x+1}=\\frac{2}{x+1}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Utilizar la propiedad logarítmica para simplificar.",
+        "Derivar \\(\\ln|x+1|\\) y multiplicar por la constante resultante."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=e^{\\sin(x^2)} \\).",
+      "formula": "\\( f(x)=e^{\\sin(x^2)} \\)",
+      "options": [
+        "\\( e^{\\sin(x^2)}\\cos(x^2)\\cdot2x \\)",
+        "\\( e^{\\sin(x^2)}\\sin(x^2)\\cdot2x \\)",
+        "\\( e^{\\sin(x^2)}\\cdot2x \\)",
+        "\\( 2xe^{\\sin(x^2)} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sea \\(u=\\sin(x^2)\\) con \\(u'=\\cos(x^2)\\cdot2x\\). Entonces, la derivada es \\(e^{\\sin(x^2)}\\cdot\\cos(x^2)\\cdot2x\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Aplicar la regla de la cadena a \\(e^{u}\\).",
+        "Calcular \\(u'=\\cos(x^2)\\cdot2x\\) y multiplicar."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=(2x+3)^2(x-1) \\).",
+      "formula": "\\( f(x)=(2x+3)^2(x-1) \\)",
+      "options": [
+        "\\( 4(2x+3)(x-1)+ (2x+3)^2 \\)",
+        "\\( 4(2x+3)(x-1)- (2x+3)^2 \\)",
+        "\\( 2(2x+3)(x-1)+ (2x+3)^2 \\)",
+        "\\( (2x+3)^2(x-1) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usamos la regla del producto: derivada de \\((2x+3)^2\\) es \\(2(2x+3)\\cdot2=4(2x+3)\\) y la derivada de \\(x-1\\) es 1. Se obtiene \\(4(2x+3)(x-1)+(2x+3)^2\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Aplicar la regla del producto, derivando cada factor.",
+        "Sumar ambos términos resultantes."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\frac{x^3-2x+1}{x^2+1} \\).",
+      "formula": "\\( f(x)=\\frac{x^3-2x+1}{x^2+1} \\)",
+      "options": [
+        "\\( \\frac{(3x^2-2)(x^2+1)-2x(x^3-2x+1)}{(x^2+1)^2} \\)",
+        "\\( \\frac{(3x^2-2)(x^2+1)+2x(x^3-2x+1)}{(x^2+1)^2} \\)",
+        "\\( \\frac{(3x^2-2)(x^2+1)-x(x^3-2x+1)}{(x^2+1)^2} \\)",
+        "\\( \\frac{(3x^2-2)(x^2+1)-2(x^3-2x+1)}{(x^2+1)^2} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Con \\(u=x^3-2x+1\\) y \\(v=x^2+1\\), se aplica la regla del cociente: \\(\\frac{u'v-uv'}{v^2}\\) con \\(u'=3x^2-2\\) y \\(v'=2x\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular \\(u'\\) y \\(v'\\).",
+        "Aplicar la fórmula del cociente y dejar el resultado en forma de fracción."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\frac{1}{\\sqrt{x}} \\).",
+      "formula": "\\( f(x)=\\frac{1}{\\sqrt{x}} \\)",
+      "options": [
+        "\\( -\\frac{1}{2x^{3/2}} \\)",
+        "\\( \\frac{1}{2x^{3/2}} \\)",
+        "\\( -\\frac{1}{2\\sqrt{x}} \\)",
+        "\\( \\frac{1}{2\\sqrt{x}} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reescribiendo \\(\\frac{1}{\\sqrt{x}}\\) como \\(x^{-1/2}\\), su derivada es \\(-\\frac{1}{2}x^{-3/2}\\), que equivale a \\(-\\frac{1}{2x^{3/2}}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expresar la función como potencia de x.",
+        "Aplicar la regla del poder."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=x^2\\ln(x) \\).",
+      "formula": "\\( f(x)=x^2\\ln(x) \\)",
+      "options": [
+        "\\( 2x\\ln(x)+x \\)",
+        "\\( 2x\\ln(x)+\\frac{x^2}{x} \\)",
+        "\\( 2x\\ln(x)+\\ln(x) \\)",
+        "\\( x^2+2x\\ln(x) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicamos la regla del producto: derivada de \\(x^2\\) es \\(2x\\) y la de \\(\\ln(x)\\) es \\(1/x\\). El resultado es \\(2x\\ln(x)+x\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Derivar \\(x^2\\) y \\(\\ln(x)\\) separadamente.",
+        "Aplicar la regla del producto y simplificar."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\arctan(2x) \\).",
+      "formula": "\\( f(x)=\\arctan(2x) \\)",
+      "options": [
+        "\\( \\frac{2}{1+4x^2} \\)",
+        "\\( \\frac{2}{1+2x} \\)",
+        "\\( \\frac{1}{1+4x^2} \\)",
+        "\\( \\frac{2x}{1+4x^2} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\arctan(u)\\) es \\(\\frac{u'}{1+u^2}\\). Con \\(u=2x\\) y \\(u'=2\\), se tiene \\(\\frac{2}{1+4x^2}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar \\(u=2x\\) y calcular \\(u'=2\\).",
+        "Aplicar la fórmula para la derivada de \\(\\arctan(u)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\sin(3x)+\\cos(4x) \\).",
+      "formula": "\\( f(x)=\\sin(3x)+\\cos(4x) \\)",
+      "options": [
+        "\\( 3\\cos(3x)-4\\sin(4x) \\)",
+        "\\( 3\\sin(3x)-4\\cos(4x) \\)",
+        "\\( 3\\cos(3x)+4\\sin(4x) \\)",
+        "\\( 3\\sin(3x)+4\\cos(4x) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Derivamos \\(\\sin(3x)\\) a \\(3\\cos(3x)\\) y \\(\\cos(4x)\\) a \\(-4\\sin(4x)\\), sumando obtenemos \\(3\\cos(3x)-4\\sin(4x)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Aplicar la regla de la cadena a cada término.",
+        "Sumar los resultados."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=(x+1)^{1/3} \\).",
+      "formula": "\\( f(x)=(x+1)^{1/3} \\)",
+      "options": [
+        "\\( \\frac{1}{3}(x+1)^{-2/3} \\)",
+        "\\( \\frac{1}{3}(x+1)^{2/3} \\)",
+        "\\( \\frac{1}{3}(x+1)^{-1/3} \\)",
+        "\\( \\frac{1}{3}(x+1)^{1/3} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usamos la regla del poder: la derivada de \\((x+1)^{1/3}\\) es \\(\\frac{1}{3}(x+1)^{-2/3}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Aplicar la regla del poder y la cadena (derivada de \\(x+1\\) es 1)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\frac{e^x}{x} \\).",
+      "formula": "\\( f(x)=\\frac{e^x}{x} \\)",
+      "options": [
+        "\\( \\frac{e^x(x-1)}{x^2} \\)",
+        "\\( \\frac{e^x(x+1)}{x^2} \\)",
+        "\\( \\frac{e^x}{x^2} \\)",
+        "\\( \\frac{xe^x-e^x}{x^2} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicamos la regla del cociente con \\(u=e^x\\) y \\(v=x\\), obteniendo \\(\\frac{e^x\\cdot x-e^x\\cdot1}{x^2}=\\frac{e^x(x-1)}{x^2}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar \\(u\\) y \\(v\\) y calcular sus derivadas.",
+        "Aplicar la fórmula del cociente."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\frac{\\ln(x)}{x} \\).",
+      "formula": "\\( f(x)=\\frac{\\ln(x)}{x} \\)",
+      "options": [
+        "\\( \\frac{1-\\ln(x)}{x^2} \\)",
+        "\\( \\frac{\\ln(x)-1}{x^2} \\)",
+        "\\( \\frac{1+\\ln(x)}{x^2} \\)",
+        "\\( \\frac{\\ln(x)}{x^2} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Con \\(u=\\ln(x)\\) y \\(v=x\\), se obtiene \\(\\frac{(1/x)x-\\ln(x)}{x^2}=\\frac{1-\\ln(x)}{x^2}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Aplicar la regla del cociente con \\(u=\\ln(x)\\) y \\(v=x\\).",
+        "Simplificar el resultado."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=(5x^2-3x+2)^4 \\).",
+      "formula": "\\( f(x)=(5x^2-3x+2)^4 \\)",
+      "options": [
+        "\\( 4(5x^2-3x+2)^3(10x-3) \\)",
+        "\\( 4(5x^2-3x+2)^3(5x-3) \\)",
+        "\\( 4(5x^2-3x+2)^3(10x+3) \\)",
+        "\\( 4(5x^2-3x+2)^4(10x-3) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sea \\(u=5x^2-3x+2\\) con \\(u'=10x-3\\). Aplicando la regla de la cadena, la derivada es \\(4u^3\\cdot u'=4(5x^2-3x+2)^3(10x-3)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar la función interna \\(u\\) y calcular \\(u'\\).",
+        "Aplicar la regla de la cadena."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=(x^2-1)^{3/2} \\).",
+      "formula": "\\( f(x)=(x^2-1)^{3/2} \\)",
+      "options": [
+        "\\( 3x\\sqrt{x^2-1} \\)",
+        "\\( \\frac{3x}{\\sqrt{x^2-1}} \\)",
+        "\\( \\frac{3}{2}x\\sqrt{x^2-1} \\)",
+        "\\( \\frac{3x(x^2-1)^{1/2}}{2} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sea \\(u=x^2-1\\) con \\(u'=2x\\). La derivada es \\(\\frac{3}{2}u^{1/2}u'=\\frac{3}{2}(x^2-1)^{1/2}\\cdot2x=3x\\sqrt{x^2-1}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Reescribir la función en forma de potencia.",
+        "Aplicar la regla de la cadena y simplificar."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\sqrt{\\ln(x)} \\).",
+      "formula": "\\( f(x)=\\sqrt{\\ln(x)} \\)",
+      "options": [
+        "\\( \\frac{1}{2x\\sqrt{\\ln(x)}} \\)",
+        "\\( \\frac{1}{\\sqrt{\\ln(x)}} \\)",
+        "\\( \\frac{1}{2\\sqrt{x\\ln(x)}} \\)",
+        "\\( \\frac{1}{x\\sqrt{\\ln(x)}} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Expresamos \\(\\sqrt{\\ln(x)}\\) como \\((\\ln(x))^{1/2}\\). Su derivada es \\(\\frac{1}{2}(\\ln(x))^{-1/2}(1/x)=\\frac{1}{2x\\sqrt{\\ln(x)}}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Reescribir la función en forma de potencia.",
+        "Aplicar la regla de la cadena y simplificar."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=x\\,e^{2x}-\\cos(x) \\).",
+      "formula": "\\( f(x)=x\\,e^{2x}-\\cos(x) \\)",
+      "options": [
+        "\\( e^{2x}(1+2x)+\\sin(x) \\)",
+        "\\( e^{2x}(1+2x)-\\sin(x) \\)",
+        "\\( e^{2x}(2x-1)+\\sin(x) \\)",
+        "\\( e^{2x}(1+2x)+\\cos(x) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Derivamos \\(x\\,e^{2x}\\) usando la regla del producto: \\(e^{2x}+2xe^{2x}\\) y \\(-\\cos(x)\\) se deriva a \\(\\sin(x)\\). La suma es \\(e^{2x}(1+2x)+\\sin(x)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Aplicar la regla del producto en \\(x\\,e^{2x}\\).",
+        "Derivar \\(-\\cos(x)\\) a \\(\\sin(x)\\).",
+        "Sumar ambos resultados."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=7x^3+4x-9 \\).",
+      "formula": "\\( f(x)=7x^3+4x-9 \\)",
+      "options": [
+        "\\( 21x^2+4 \\)",
+        "\\( 21x^2-4 \\)",
+        "\\( 7x^2+4 \\)",
+        "\\( 21x^3+4 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Derivamos cada término: \\(\\frac{d}{dx}(7x^3)=21x^2\\) y \\(\\frac{d}{dx}(4x)=4\\). La constante se anula.",
+      "difficulty": "medium",
+      "procedure": [
+        "Derivar \\(7x^3\\): \\(7\\cdot3x^2=21x^2\\).",
+        "Derivar \\(4x\\): 4.",
+        "La derivada de la constante -9 es 0.",
+        "Sumar los resultados: \\(21x^2+4\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\frac{2x^3-5}{3x+1} \\).",
+      "formula": "\\( f(x)=\\frac{2x^3-5}{3x+1} \\)",
+      "options": [
+        "\\( \\frac{12x^3+6x^2+15}{(3x+1)^2} \\)",
+        "\\( \\frac{6x^2(3x+1)-3(2x^3-5)}{(3x+1)^2} \\)",
+        "\\( \\frac{12x^3-6x^2+15}{(3x+1)^2} \\)",
+        "\\( \\frac{2x^3-5}{3x+1} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sea \\(u=2x^3-5\\) con \\(u'=6x^2\\) y \\(v=3x+1\\) con \\(v'=3\\). Aplicando la regla del cociente: \\(f'(x)=\\frac{6x^2(3x+1)-3(2x^3-5)}{(3x+1)^2}\\). Al simplificar, se obtiene \\(\\frac{12x^3+6x^2+15}{(3x+1)^2}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar \\(u=2x^3-5\\) y \\(v=3x+1\\).",
+        "Calcular \\(u'=6x^2\\) y \\(v'=3\\).",
+        "Aplicar la fórmula: \\(\\frac{u'v-uv'}{v^2}\\).",
+        "Simplificar el numerador para obtener \\(12x^3+6x^2+15\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\sqrt{2x+3} \\).",
+      "formula": "\\( f(x)=\\sqrt{2x+3} \\)",
+      "options": [
+        "\\( \\frac{1}{\\sqrt{2x+3}} \\)",
+        "\\( \\frac{2}{\\sqrt{2x+3}} \\)",
+        "\\( \\sqrt{2x+3} \\)",
+        "\\( \\frac{1}{2\\sqrt{2x+3}} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reescribiendo la función como \\((2x+3)^{1/2}\\), su derivada es \\(\\frac{1}{2}(2x+3)^{-1/2}\\cdot2=\\frac{1}{\\sqrt{2x+3}}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expresar \\(\\sqrt{2x+3}\\) como \\((2x+3)^{1/2}\\).",
+        "Aplicar la regla del poder y la cadena.",
+        "Simplificar para obtener \\(\\frac{1}{\\sqrt{2x+3}}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\ln(3x^2+1) \\).",
+      "formula": "\\( f(x)=\\ln(3x^2+1) \\)",
+      "options": [
+        "\\( \\frac{6x}{3x^2+1} \\)",
+        "\\( \\frac{3x^2}{3x^2+1} \\)",
+        "\\( \\frac{6x}{x^2+1} \\)",
+        "\\( \\frac{3x}{3x^2+1} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\ln(u)\\) es \\(u'/u\\) con \\(u=3x^2+1\\) y \\(u'=6x\\), resultando en \\(\\frac{6x}{3x^2+1}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar \\(u=3x^2+1\\) y calcular \\(u'=6x\\).",
+        "Aplicar la fórmula \\(\\frac{u'}{u}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=e^{4x} \\).",
+      "formula": "\\( f(x)=e^{4x} \\)",
+      "options": [
+        "\\( 4e^{4x} \\)",
+        "\\( e^{4x} \\)",
+        "\\( 4e^{x} \\)",
+        "\\( e^{x} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(e^{4x}\\) es \\(e^{4x}\\) multiplicado por la derivada de \\(4x\\), que es 4, dando \\(4e^{4x}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar la función interna \\(4x\\) y su derivada, 4.",
+        "Multiplicar \\(e^{4x}\\) por 4."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\sin(x)+\\cos(x) \\).",
+      "formula": "\\( f(x)=\\sin(x)+\\cos(x) \\)",
+      "options": [
+        "\\( \\cos(x)-\\sin(x) \\)",
+        "\\( \\cos(x)+\\sin(x) \\)",
+        "\\( \\sin(x)-\\cos(x) \\)",
+        "\\( -\\cos(x)-\\sin(x) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\sin(x)\\) es \\(\\cos(x)\\) y la de \\(\\cos(x)\\) es \\(-\\sin(x)\\), resultando en \\(\\cos(x)-\\sin(x)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Derivar \\(\\sin(x)\\) a \\(\\cos(x)\\).",
+        "Derivar \\(\\cos(x)\\) a \\(-\\sin(x)\\).",
+        "Sumar los resultados."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\tan(2x) \\).",
+      "formula": "\\( f(x)=\\tan(2x) \\)",
+      "options": [
+        "\\( 2\\sec^2(2x) \\)",
+        "\\( \\sec^2(2x) \\)",
+        "\\( 2\\tan(2x) \\)",
+        "\\( \\tan(2x) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando la regla de la cadena: la derivada de \\(\\tan(u)\\) es \\(\\sec^2(u)\\cdot u'\\) con \\(u=2x\\) y \\(u'=2\\), dando \\(2\\sec^2(2x)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar \\(u=2x\\) y calcular \\(u'=2\\).",
+        "Aplicar \\(\\sec^2(u)\\cdot u'\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=x^2\\cos(x) \\).",
+      "formula": "\\( f(x)=x^2\\cos(x) \\)",
+      "options": [
+        "\\( 2x\\cos(x)-x^2\\sin(x) \\)",
+        "\\( 2x\\cos(x)+x^2\\sin(x) \\)",
+        "\\( 2x\\sin(x)-x^2\\cos(x) \\)",
+        "\\( 2\\cos(x)-2x\\sin(x) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usamos la regla del producto: \\(\\frac{d}{dx}(x^2)=2x\\) y \\(\\frac{d}{dx}(\\cos(x))=-\\sin(x)\\), resultando en \\(2x\\cos(x)-x^2\\sin(x)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Aplicar la regla del producto: derivar \\(x^2\\) y \\(\\cos(x)\\).",
+        "Multiplicar y sumar los términos obtenidos."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\frac{\\sin(x)}{x^2} \\).",
+      "formula": "\\( f(x)=\\frac{\\sin(x)}{x^2} \\)",
+      "options": [
+        "\\( \\frac{x\\cos(x)-2\\sin(x)}{x^3} \\)",
+        "\\( \\frac{x\\cos(x)+2\\sin(x)}{x^3} \\)",
+        "\\( \\frac{\\cos(x)-2\\sin(x)}{x^2} \\)",
+        "\\( \\frac{x\\cos(x)-\\sin(x)}{x^2} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla del cociente con \\(u=\\sin(x)\\) y \\(v=x^2\\): \\(u'=\\cos(x)\\), \\(v'=2x\\). Se obtiene \\(\\frac{\\cos(x)x^2-2x\\sin(x)}{x^4}=\\frac{x\\cos(x)-2\\sin(x)}{x^3}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar \\(u=\\sin(x)\\) y \\(v=x^2\\) y calcular \\(u'\\) y \\(v'\\).",
+        "Aplicar la fórmula del cociente y simplificar."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\ln(\\sqrt{x+1}) \\).",
+      "formula": "\\( f(x)=\\ln(\\sqrt{x+1}) \\)",
+      "options": [
+        "\\( \\frac{1}{2(x+1)} \\)",
+        "\\( \\frac{1}{x+1} \\)",
+        "\\( \\frac{1}{2\\sqrt{x+1}} \\)",
+        "\\( \\frac{1}{\\sqrt{x+1}} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Como \\(\\ln(\\sqrt{x+1})=\\frac{1}{2}\\ln(x+1)\\), su derivada es \\(\\frac{1}{2}\\cdot\\frac{1}{x+1}=\\frac{1}{2(x+1)}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Usar la propiedad logarítmica para simplificar la función.",
+        "Derivar \\(\\ln(x+1)\\) a \\(\\frac{1}{x+1}\\) y multiplicar por \\(1/2\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=e^{x}\\sin(x) \\).",
+      "formula": "\\( f(x)=e^{x}\\sin(x) \\)",
+      "options": [
+        "\\( e^{x}(\\sin(x)+\\cos(x)) \\)",
+        "\\( e^{x}(\\sin(x)-\\cos(x)) \\)",
+        "\\( e^{x}(\\cos(x)-\\sin(x)) \\)",
+        "\\( e^{x}(\\sin(x)+2\\cos(x)) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla del producto: \\(\\frac{d}{dx}(e^{x})=e^{x}\\) y \\(\\frac{d}{dx}(\\sin(x))=\\cos(x)\\). La derivada es \\(e^{x}\\sin(x)+e^{x}\\cos(x)=e^{x}(\\sin(x)+\\cos(x))\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Derivar \\(e^{x}\\) y \\(\\sin(x)\\) por separado.",
+        "Aplicar la regla del producto y factorizar \\(e^{x}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\cos(3x)+x^2 \\).",
+      "formula": "\\( f(x)=\\cos(3x)+x^2 \\)",
+      "options": [
+        "\\( -3\\sin(3x)+2x \\)",
+        "\\( -3\\cos(3x)+2x \\)",
+        "\\( 3\\sin(3x)+2x \\)",
+        "\\( 3\\sin(3x)-2x \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\cos(3x)\\) es \\(-3\\sin(3x)\\) y la derivada de \\(x^2\\) es \\(2x\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Aplicar la regla de la cadena a \\(\\cos(3x)\\).",
+        "Derivar \\(x^2\\) y sumar los resultados."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\frac{1}{1+x^2} \\).",
+      "formula": "\\( f(x)=\\frac{1}{1+x^2} \\)",
+      "options": [
+        "\\( -\\frac{2x}{(1+x^2)^2} \\)",
+        "\\( \\frac{2x}{(1+x^2)^2} \\)",
+        "\\( -\\frac{1}{(1+x^2)^2} \\)",
+        "\\( \\frac{1}{(1+x^2)^2} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reescribiendo \\(\\frac{1}{1+x^2}\\) como \\((1+x^2)^{-1}\\), su derivada es \\(-1\\cdot(1+x^2)^{-2}\\cdot2x=-\\frac{2x}{(1+x^2)^2}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Usar la regla del poder para funciones en forma inversa.",
+        "Aplicar la regla de la cadena."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\sqrt{x^2+4} \\).",
+      "formula": "\\( f(x)=\\sqrt{x^2+4} \\)",
+      "options": [
+        "\\( \\frac{x}{\\sqrt{x^2+4}} \\)",
+        "\\( \\frac{2x}{\\sqrt{x^2+4}} \\)",
+        "\\( \\frac{x^2}{\\sqrt{x^2+4}} \\)",
+        "\\( \\frac{1}{\\sqrt{x^2+4}} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reescribiendo \\(\\sqrt{x^2+4}\\) como \\((x^2+4)^{1/2}\\), la derivada es \\(\\frac{1}{2}(x^2+4)^{-1/2} \\cdot 2x=\\frac{x}{\\sqrt{x^2+4}}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expresar la función como potencia.",
+        "Aplicar la regla de la cadena."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=(x^2+1)^{1/3} \\).",
+      "formula": "\\( f(x)=(x^2+1)^{1/3} \\)",
+      "options": [
+        "\\( \\frac{2x}{3(x^2+1)^{2/3}} \\)",
+        "\\( \\frac{x}{3(x^2+1)^{2/3}} \\)",
+        "\\( \\frac{2x}{(x^2+1)^{2/3}} \\)",
+        "\\( \\frac{1}{3(x^2+1)^{2/3}} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usamos la regla del poder y la cadena: \\(\\frac{1}{3}(x^2+1)^{-2/3}\\cdot2x=\\frac{2x}{3(x^2+1)^{2/3}}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Reescribir la función en forma de potencia.",
+        "Aplicar la derivada usando la regla del poder y la cadena."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\ln\\left(\\frac{x+2}{x-2}\\right) \\).",
+      "formula": "\\( f(x)=\\ln\\left(\\frac{x+2}{x-2}\\right) \\)",
+      "options": [
+        "\\( -\\frac{4}{x^2-4} \\)",
+        "\\( \\frac{4}{x^2-4} \\)",
+        "\\( \\frac{1}{x+2}-\\frac{1}{x-2} \\)",
+        "\\( \\frac{1}{x+2}+\\frac{1}{x-2} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando la propiedad \\(\\ln(a/b)=\\ln(a)-\\ln(b)\\), se deriva: \\(\\frac{1}{x+2}-\\frac{1}{x-2}\\). Simplificando se obtiene \\(\\frac{-4}{x^2-4}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Separar \\(\\ln\\left(\\frac{x+2}{x-2}\\right)\\) en \\(\\ln(x+2)-\\ln(x-2)\\).",
+        "Derivar cada término y simplificar la diferencia."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\arcsin(x) \\).",
+      "formula": "\\( f(x)=\\arcsin(x) \\)",
+      "options": [
+        "\\( \\frac{1}{\\sqrt{1-x^2}} \\)",
+        "\\( \\frac{-1}{\\sqrt{1-x^2}} \\)",
+        "\\( \\sqrt{1-x^2} \\)",
+        "\\( \\frac{1}{1-x^2} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\arcsin(x)\\) es \\(\\frac{1}{\\sqrt{1-x^2}}\\).",
+      "difficulty": "medium",
+      "procedure": ["Recordar la derivada estándar de \\(\\arcsin(x)\\)."]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\arctan(3x) \\).",
+      "formula": "\\( f(x)=\\arctan(3x) \\)",
+      "options": [
+        "\\( \\frac{3}{1+9x^2} \\)",
+        "\\( \\frac{3}{1+3x} \\)",
+        "\\( \\frac{1}{1+9x^2} \\)",
+        "\\( \\frac{3x}{1+9x^2} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\arctan(u)\\) es \\(\\frac{u'}{1+u^2}\\) con \\(u=3x\\) y \\(u'=3\\), resultando en \\(\\frac{3}{1+9x^2}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar \\(u=3x\\) y calcular \\(u'=3\\).",
+        "Aplicar la fórmula \\(\\frac{u'}{1+u^2}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\sec(x) \\).",
+      "formula": "\\( f(x)=\\sec(x) \\)",
+      "options": [
+        "\\( \\sec(x)\\tan(x) \\)",
+        "\\( \\sec(x)\\cot(x) \\)",
+        "\\( \\tan(x) \\)",
+        "\\( \\sec(x) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\sec(x)\\) es \\(\\sec(x)\\tan(x)\\).",
+      "difficulty": "medium",
+      "procedure": ["Recordar la fórmula de la derivada de \\(\\sec(x)\\)."]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=x\\,e^{-x} \\).",
+      "formula": "\\( f(x)=x\\,e^{-x} \\)",
+      "options": [
+        "\\( e^{-x}(1-x) \\)",
+        "\\( e^{-x}(1+x) \\)",
+        "\\( xe^{-x} \\)",
+        "\\( -e^{-x}(1-x) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicamos la regla del producto: \\(\\frac{d}{dx}(x)=1\\) y \\(\\frac{d}{dx}(e^{-x})=-e^{-x}\\). La derivada es \\(e^{-x}-xe^{-x}=e^{-x}(1-x)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Derivar \\(x\\) y \\(e^{-x}\\) por separado.",
+        "Aplicar la regla del producto y factorizar \\(e^{-x}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\frac{2x+3}{x^2} \\).",
+      "formula": "\\( f(x)=\\frac{2x+3}{x^2} \\)",
+      "options": [
+        "\\( -\\frac{2(x+3)}{x^3} \\)",
+        "\\( \\frac{2(x+3)}{x^3} \\)",
+        "\\( \\frac{2-3x}{x^3} \\)",
+        "\\( -\\frac{2-3x}{x^3} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla del cociente o simplificando \\(\\frac{2x+3}{x^2}\\) y derivando, se obtiene \\( -\\frac{2(x+3)}{x^3} \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Escribir \\(\\frac{2x+3}{x^2}\\) como \\((2x+3)x^{-2}\\).",
+        "Aplicar la regla del producto y simplificar."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\ln(x^3+1) \\).",
+      "formula": "\\( f(x)=\\ln(x^3+1) \\)",
+      "options": [
+        "\\( \\frac{3x^2}{x^3+1} \\)",
+        "\\( \\frac{x^2}{x^3+1} \\)",
+        "\\( \\frac{3x}{x^3+1} \\)",
+        "\\( \\frac{1}{x^3+1} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\ln(u)\\) es \\(\\frac{u'}{u}\\) con \\(u=x^3+1\\) y \\(u'=3x^2\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar \\(u=x^3+1\\) y calcular \\(u'=3x^2\\).",
+        "Aplicar \\(\\frac{u'}{u}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=e^{\\ln(x)} \\).",
+      "formula": "\\( f(x)=e^{\\ln(x)} \\)",
+      "options": [
+        "\\( 1 \\)",
+        "\\( e^{\\ln(x)} \\)",
+        "\\( \\ln(x) \\)",
+        "\\( x \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Como \\(e^{\\ln(x)}=x\\), su derivada es \\(1\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Reconocer la identidad \\(e^{\\ln(x)}=x\\).",
+        "Derivar \\(x\\), cuyo resultado es 1."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\sqrt[3]{2x-5} \\).",
+      "formula": "\\( f(x)=\\sqrt[3]{2x-5} \\)",
+      "options": [
+        "\\( \\frac{2}{3(2x-5)^{2/3}} \\)",
+        "\\( \\frac{1}{3(2x-5)^{2/3}} \\)",
+        "\\( \\frac{2}{3(2x-5)^{1/3}} \\)",
+        "\\( \\frac{2}{(2x-5)^{2/3}} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reescribiendo \\(\\sqrt[3]{2x-5}\\) como \\((2x-5)^{1/3}\\), su derivada es \\(\\frac{1}{3}(2x-5)^{-2/3}\\cdot2=\\frac{2}{3(2x-5)^{2/3}}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expresar la raíz cúbica como potencia.",
+        "Aplicar la regla del poder y la cadena."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=(3x-1)(x^2+2) \\).",
+      "formula": "\\( f(x)=(3x-1)(x^2+2) \\)",
+      "options": [
+        "\\( 9x^2-2x+6 \\)",
+        "\\( 3x^2+2x+6 \\)",
+        "\\( 6x^2-2x+6 \\)",
+        "\\( 9x^2+2x-6 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicamos la regla del producto: \\( (3x-1)'=3 \\) y \\( (x^2+2)'=2x \\). La derivada es \\(3(x^2+2)+ (3x-1)2x=9x^2-2x+6\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Derivar cada factor: \\( (3x-1)' \\) y \\( (x^2+2)' \\).",
+        "Aplicar la regla del producto y simplificar."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\frac{x^2}{\\sqrt{x+4}} \\).",
+      "formula": "\\( f(x)=\\frac{x^2}{\\sqrt{x+4}} \\)",
+      "options": [
+        "\\( \\frac{2x}{\\sqrt{x+4}}-\\frac{x^2}{2(x+4)^{3/2}} \\)",
+        "\\( \\frac{2x}{\\sqrt{x+4}}+\\frac{x^2}{2(x+4)^{3/2}} \\)",
+        "\\( \\frac{2x}{\\sqrt{x+4}}-\\frac{2x^2}{(x+4)^{3/2}} \\)",
+        "\\( \\frac{2x}{\\sqrt{x+4}} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se escribe \\(f(x)=x^2(x+4)^{-1/2}\\). Aplicando la regla del producto y la cadena, se obtiene \\(\\frac{2x}{\\sqrt{x+4}}-\\frac{x^2}{2(x+4)^{3/2}}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Reescribir \\(\\sqrt{x+4}\\) como \\((x+4)^{1/2}\\) y luego como \\((x+4)^{-1/2}\\) en el producto.",
+        "Aplicar la regla del producto y simplificar."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\sin(x)\\cos(x) \\).",
+      "formula": "\\( f(x)=\\sin(x)\\cos(x) \\)",
+      "options": [
+        "\\( \\cos^2(x)-\\sin^2(x) \\)",
+        "\\( \\sin^2(x)-\\cos^2(x) \\)",
+        "\\( \\sin(2x) \\)",
+        "\\( 2\\sin(x)\\cos(x) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla del producto se obtiene \\(\\cos(x)\\cos(x)-\\sin(x)\\sin(x)=\\cos^2(x)-\\sin^2(x)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Derivar \\(\\sin(x)\\) y \\(\\cos(x)\\) separadamente.",
+        "Aplicar la regla del producto y combinar los términos."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\ln(5x-7) \\).",
+      "formula": "\\( f(x)=\\ln(5x-7) \\)",
+      "options": [
+        "\\( \\frac{5}{5x-7} \\)",
+        "\\( \\frac{7}{5x-7} \\)",
+        "\\( \\frac{5}{x-7} \\)",
+        "\\( \\frac{1}{5x-7} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\ln(u)\\) es \\(\\frac{u'}{u}\\) con \\(u=5x-7\\) y \\(u'=5\\), resultando en \\(\\frac{5}{5x-7}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar \\(u=5x-7\\) y calcular \\(u'=5\\).",
+        "Aplicar \\(\\frac{u'}{u}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\frac{e^x}{1+e^x} \\).",
+      "formula": "\\( f(x)=\\frac{e^x}{1+e^x} \\)",
+      "options": [
+        "\\( \\frac{e^x}{(1+e^x)^2} \\)",
+        "\\( \\frac{e^x(1+e^x)-e^x}{(1+e^x)^2} \\)",
+        "\\( \\frac{e^x(1-e^x)}{(1+e^x)^2} \\)",
+        "\\( \\frac{1}{(1+e^x)^2} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla del cociente con \\(u=e^x\\) y \\(v=1+e^x\\) se obtiene \\( \\frac{e^x(1+e^x)-e^x\\cdot e^x}{(1+e^x)^2} = \\frac{e^x}{(1+e^x)^2} \\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar \\(u=e^x\\) y \\(v=1+e^x\\) y sus derivadas.",
+        "Aplicar la fórmula del cociente y simplificar."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\( f(x)=\\arccos(x) \\).",
+      "formula": "\\( f(x)=\\arccos(x) \\)",
+      "options": [
+        "\\( -\\frac{1}{\\sqrt{1-x^2}} \\)",
+        "\\( \\frac{1}{\\sqrt{1-x^2}} \\)",
+        "\\( -\\sqrt{1-x^2} \\)",
+        "\\( \\sqrt{1-x^2} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\arccos(x)\\) es \\(-\\frac{1}{\\sqrt{1-x^2}}\\).",
+      "difficulty": "medium",
+      "procedure": ["Recordar la derivada estándar de \\(\\arccos(x)\\)."]
+    }
+  ]
+}

@@ -1,0 +1,1268 @@
+{
+  "vectores_espacios_media": [
+    {
+      "question": "¿Cuál de las siguientes propiedades es parte de la definición axiomática de un espacio vectorial?",
+      "formula": "\\(V \\text{ es un espacio vectorial si cumple, entre otros, la cerradura bajo la suma.}\\)",
+      "options": [
+        "Cerradura bajo la suma",
+        "Existencia de inverso multiplicativo para cada vector",
+        "Conmutatividad de la multiplicación escalar",
+        "Existencia de elemento neutro en la multiplicación"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La cerradura bajo la suma es uno de los axiomas fundamentales que debe cumplir cualquier espacio vectorial.",
+      "difficulty": "medium",
+      "procedure": [
+        "Recordar los axiomas de un espacio vectorial.",
+        "Identificar cuál de las opciones corresponde a uno de esos axiomas."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un conjunto no vacío con suma y producto por escalar. ¿Cuál de las siguientes condiciones es indispensable para que \\(V\\) sea un espacio vectorial?",
+      "formula": "\\(\\forall u,v \\in V, \\; u+v \\in V\\)",
+      "options": [
+        "Existencia de inversos multiplicativos",
+        "Cerradura bajo la suma",
+        "Distributividad de la suma respecto a la multiplicación escalar",
+        "Existencia de un elemento neutro en la multiplicación"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La cerradura bajo la suma es necesaria para definir la suma de vectores en un espacio vectorial.",
+      "difficulty": "medium",
+      "procedure": [
+        "Revisar la definición de espacio vectorial.",
+        "Determinar cuál de las propiedades listadas corresponde a un axioma básico."
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes opciones describe correctamente el axioma de la existencia del elemento neutro en un espacio vectorial?",
+      "formula": "\\(\\exists \\; 0 \\in V \\; \\text{tal que} \\; u + 0 = u \\; \\forall u \\in V\\)",
+      "options": [
+        "Existe un vector cero que anula cualquier suma.",
+        "Todo vector tiene un inverso aditivo.",
+        "La suma de dos vectores es conmutativa.",
+        "La suma de vectores es asociativa."
+      ],
+      "correctAnswer": 0,
+      "explanation": "El axioma del elemento neutro establece que existe un vector cero que, al sumarlo con cualquier vector, no lo modifica.",
+      "difficulty": "medium",
+      "procedure": [
+        "Recordar la definición del vector cero en un espacio vectorial.",
+        "Comparar la opción con la definición formal del axioma."
+      ]
+    },
+    {
+      "question": "Considera el conjunto \\(W = \\{(x,y) \\in \\mathbb{R}^2 : x-y=0\\}\\). ¿Es \\(W\\) un subespacio de \\(\\mathbb{R}^2\\)?",
+      "formula": "\\(W = \\{(x,y) \\in \\mathbb{R}^2 : x = y\\}\\)",
+      "options": [
+        "Sí, porque es cerrado bajo la suma y la multiplicación escalar",
+        "No, porque no contiene el vector cero",
+        "No, porque no es cerrado bajo la suma",
+        "No, porque no es cerrado bajo la multiplicación escalar"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El conjunto \\(W\\) es un subespacio ya que cumple con la cerradura bajo la suma, la multiplicación escalar y contiene el vector cero.",
+      "difficulty": "medium",
+      "procedure": [
+        "Verificar que \\(W\\) contenga el vector cero.",
+        "Comprobar la cerradura bajo la suma y la multiplicación escalar para cualquier par de vectores en \\(W\\)."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial y \\(u, v \\in V\\). ¿Qué propiedad describe la conmutatividad de la suma?",
+      "formula": "\\(u+v = v+u\\)",
+      "options": [
+        "Asociatividad",
+        "Cerradura",
+        "Elemento neutro",
+        "Conmutatividad"
+      ],
+      "correctAnswer": 3,
+      "explanation": "La conmutatividad establece que el orden de los sumandos no altera el resultado de la suma.",
+      "difficulty": "medium",
+      "procedure": [
+        "Revisar el axioma de conmutatividad en la definición de espacio vectorial.",
+        "Comparar con la fórmula dada."
+      ]
+    },
+    {
+      "question": "Determina si el conjunto \\(S = \\{(x,y,z) \\in \\mathbb{R}^3 : x+2y+3z = 0\\}\\) es un subespacio de \\(\\mathbb{R}^3\\).",
+      "formula": "\\(S = \\{(x,y,z) \\in \\mathbb{R}^3 : x+2y+3z = 0\\}\\)",
+      "options": [
+        "Sí, porque es cerrado bajo la suma y la multiplicación escalar",
+        "No, porque no contiene el vector cero",
+        "No, porque no es cerrado bajo la suma",
+        "No, porque no es cerrado bajo la multiplicación escalar"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El conjunto \\(S\\) es un subespacio ya que el vector cero satisface \\(0+2\\cdot0+3\\cdot0=0\\) y las operaciones de suma y multiplicación escalar se mantienen dentro del conjunto.",
+      "difficulty": "medium",
+      "procedure": [
+        "Verificar que el vector cero pertenezca a \\(S\\).",
+        "Demostrar que la suma de dos vectores en \\(S\\) y la multiplicación de un vector de \\(S\\) por un escalar permanece en \\(S\\)."
+      ]
+    },
+    {
+      "question": "En un espacio vectorial, ¿qué significa que dos vectores sean linealmente independientes?",
+      "formula": "\\(\\alpha u + \\beta v = 0 \\Rightarrow \\alpha=\\beta=0\\)",
+      "options": [
+        "Que ninguno es múltiplo del otro",
+        "Que forman una base del espacio",
+        "Que la única combinación lineal que da el vector cero es la trivial",
+        "Que tienen la misma magnitud"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Dos vectores son linealmente independientes si la única combinación lineal que resulta en el vector cero es aquella en la que todos los coeficientes son cero.",
+      "difficulty": "medium",
+      "procedure": [
+        "Recordar la definición de independencia lineal.",
+        "Analizar la implicación de la combinación lineal igual a cero."
+      ]
+    },
+    {
+      "question": "Sea \\(B = \\{v_1, v_2, v_3\\}\\) un conjunto de vectores en \\(\\mathbb{R}^3\\). ¿Qué condición debe cumplir \\(B\\) para ser una base de \\(\\mathbb{R}^3\\)?",
+      "formula": "\\(\\text{Los vectores deben ser linealmente independientes y generar } \\mathbb{R}^3\\)",
+      "options": [
+        "Deben ser ortogonales entre sí",
+        "Deben tener la misma magnitud",
+        "Deben ser linealmente independientes y su combinación lineal debe generar \\(\\mathbb{R}^3\\)",
+        "Deben satisfacer \\(v_1+v_2=v_3\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Para que un conjunto de vectores sea base, es necesario que sean linealmente independientes y que cualquier vector del espacio pueda expresarse como combinación lineal de ellos.",
+      "difficulty": "medium",
+      "procedure": [
+        "Verificar la independencia lineal de los vectores en \\(B\\).",
+        "Comprobar que cualquier vector de \\(\\mathbb{R}^3\\) se pueda representar como combinación lineal de \\(v_1, v_2, v_3\\)."
+      ]
+    },
+    {
+      "question": "Si \\(v_1, v_2, v_3\\) son vectores de \\(\\mathbb{R}^3\\) y se sabe que \\(v_1\\) y \\(v_2\\) son linealmente independientes, ¿cuál de las siguientes afirmaciones es verdadera para que \\(\\{v_1,v_2,v_3\\}\\) sea una base?",
+      "formula": "\\(v_3 \\notin \\text{span}\\{v_1,v_2\\}\\)",
+      "options": [
+        "\\(v_3\\) debe pertenecer a \\(\\text{span}\\{v_1,v_2\\}\\)",
+        "\\(v_3\\) puede ser cualquier vector de \\(\\mathbb{R}^3\\)",
+        "\\(v_3\\) debe ser combinación lineal de \\(v_1\\) y \\(v_2\\)",
+        "\\(v_3\\) no puede ser escrito como combinación lineal de \\(v_1\\) y \\(v_2\\)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Para que \\(\\{v_1,v_2,v_3\\}\\) sea una base, \\(v_3\\) debe aportar una nueva dirección, es decir, \\(v_3\\) no puede pertenecer al subespacio generado por \\(v_1\\) y \\(v_2\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Determinar el span de \\(\\{v_1,v_2\\}\\).",
+        "Verificar que \\(v_3\\) no se pueda expresar como combinación lineal de \\(v_1\\) y \\(v_2\\)."
+      ]
+    },
+    {
+      "question": "En la definición axiomática de espacio vectorial, ¿qué propiedad garantiza que la suma de vectores es independiente del orden de los sumandos?",
+      "formula": "\\(u+v = v+u\\)",
+      "options": [
+        "Cerradura",
+        "Conmutatividad",
+        "Asociatividad",
+        "Distributividad"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La propiedad de conmutatividad establece que el orden en la suma de vectores no afecta el resultado.",
+      "difficulty": "medium",
+      "procedure": [
+        "Revisar los axiomas básicos de un espacio vectorial.",
+        "Identificar la propiedad que hace posible cambiar el orden de la suma."
+      ]
+    },
+    {
+      "question": "Sea \\(W = \\{(a,b,c) \\in \\mathbb{R}^3 : a-2b+c=0\\}\\). ¿Cuál de las siguientes afirmaciones es correcta?",
+      "formula": "\\(W = \\{(a,b,c) \\in \\mathbb{R}^3 : a-2b+c=0\\}\\)",
+      "options": [
+        "W es un subespacio de \\(\\mathbb{R}^3\\)",
+        "W no es un subespacio de \\(\\mathbb{R}^3\\) porque no es cerrado bajo la suma",
+        "W no es un subespacio de \\(\\mathbb{R}^3\\) porque no contiene al vector cero",
+        "W no es un subespacio de \\(\\mathbb{R}^3\\) porque no es cerrado bajo la multiplicación escalar"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El conjunto \\(W\\) cumple con los axiomas necesarios para ser un subespacio, incluyendo la inclusión del vector cero y la cerradura bajo suma y multiplicación escalar.",
+      "difficulty": "medium",
+      "procedure": [
+        "Verificar que \\(\\vec{0} \\in W\\).",
+        "Comprobar la cerradura bajo la suma y la multiplicación por escalares."
+      ]
+    },
+    {
+      "question": "¿Qué significa que un conjunto de vectores \\(\\{v_1, v_2, v_3\\}\\) en \\(\\mathbb{R}^3\\) sea una base?",
+      "formula": "\\(\\text{span}\\{v_1, v_2, v_3\\} = \\mathbb{R}^3 \\; \\text{y} \\; v_1, v_2, v_3 \\text{ son linealmente independientes}\\)",
+      "options": [
+        "Que los vectores son ortogonales entre sí",
+        "Que cualquier vector de \\(\\mathbb{R}^3\\) se puede escribir como combinación lineal única de \\(v_1, v_2, v_3\\)",
+        "Que los vectores tienen la misma norma",
+        "Que los vectores están en el mismo plano"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La definición de base exige que el conjunto de vectores sea linealmente independiente y que genere todo \\(\\mathbb{R}^3\\), lo que permite una representación única de cada vector.",
+      "difficulty": "medium",
+      "procedure": [
+        "Recordar la definición formal de base en un espacio vectorial.",
+        "Asegurarse de que ambas condiciones, independencia y generación, se cumplan."
+      ]
+    },
+    {
+      "question": "En un espacio vectorial, ¿cuál es el papel de la propiedad distributiva de la multiplicación escalar respecto a la suma de vectores?",
+      "formula": "\\(a(u+v) = au+av\\)",
+      "options": [
+        "Permite factorizar escalar común",
+        "Garantiza la existencia del vector cero",
+        "Establece la independencia lineal",
+        "Asegura la cerradura bajo la suma"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La propiedad distributiva permite distribuir el escalar a cada vector de la suma, lo que es esencial en muchas operaciones algebraicas en espacios vectoriales.",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar la fórmula de la distributividad.",
+        "Analizar su papel en la estructura del espacio vectorial."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial y \\(u, v, w \\in V\\). ¿Qué establece la propiedad asociativa de la suma?",
+      "formula": "\\((u+v)+w = u+(v+w)\\)",
+      "options": [
+        "El resultado de la suma es independiente del orden de los factores",
+        "El vector cero actúa como elemento neutro",
+        "La suma de vectores se puede agrupar de cualquier manera",
+        "Cada vector tiene un inverso aditivo"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La propiedad asociativa permite agrupar los vectores de distintas maneras sin cambiar el resultado final de la suma.",
+      "difficulty": "medium",
+      "procedure": [
+        "Recordar la definición de asociatividad en la suma de vectores.",
+        "Aplicar la propiedad a la suma \\((u+v)+w\\) y \\(u+(v+w)\\)."
+      ]
+    },
+    {
+      "question": "Sea \\(S = \\{(x,y) \\in \\mathbb{R}^2 : x \\geq 0 \\}\\). ¿Es \\(S\\) un subespacio de \\(\\mathbb{R}^2\\)?",
+      "formula": "\\(S = \\{(x,y) \\in \\mathbb{R}^2 : x \\geq 0\\}\\)",
+      "options": [
+        "Sí, cumple con todos los axiomas de subespacio",
+        "No, porque no es cerrado bajo la multiplicación escalar",
+        "No, porque no es cerrado bajo la suma",
+        "No, porque no contiene el vector cero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El conjunto \\(S\\) falla en la cerradura bajo la multiplicación escalar, ya que multiplicar un vector de \\(S\\) por un escalar negativo puede dar una componente \\(x\\) negativa.",
+      "difficulty": "medium",
+      "procedure": [
+        "Verificar si el vector cero pertenece a \\(S\\).",
+        "Analizar el efecto de la multiplicación escalar sobre un vector en \\(S\\)."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial y \\(u \\in V\\). ¿Qué implica la existencia del inverso aditivo de \\(u\\)?",
+      "formula": "\\(u + (-u) = 0\\)",
+      "options": [
+        "Que \\(u\\) puede ser escalado a cero",
+        "Que para cada \\(u\\) existe un vector \\(-u\\) tal que su suma es el vector cero",
+        "Que \\(u\\) es ortogonal a \\(-u\\)",
+        "Que \\(u\\) y \\(-u\\) tienen la misma norma"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El axioma del inverso aditivo establece que existe un vector \\(-u\\) para cada \\(u\\) en \\(V\\) de modo que \\(u + (-u) = 0\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Recordar el axioma de existencia del inverso aditivo en un espacio vectorial.",
+        "Aplicar la definición para el vector \\(u\\) dado."
+      ]
+    },
+    {
+      "question": "Sea \\(B = \\{v_1,v_2\\}\\) un conjunto de vectores en \\(\\mathbb{R}^2\\). ¿Qué condición es necesaria para que \\(B\\) sea una base de \\(\\mathbb{R}^2\\)?",
+      "formula": "\\(\\text{span}\\{v_1,v_2\\} = \\mathbb{R}^2 \\; \\text{y} \\; v_1,v_2 \\text{ son linealmente independientes}\\)",
+      "options": [
+        "Que \\(v_1\\) y \\(v_2\\) sean ortogonales",
+        "Que \\(v_1\\) y \\(v_2\\) sean linealmente independientes y generen \\(\\mathbb{R}^2\\)",
+        "Que \\(v_1\\) y \\(v_2\\) tengan la misma magnitud",
+        "Que \\(v_1\\) sea múltiplo escalar de \\(v_2\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Una base en \\(\\mathbb{R}^2\\) requiere que los vectores sean linealmente independientes y que generen todo el espacio.",
+      "difficulty": "medium",
+      "procedure": [
+        "Verificar la independencia lineal de \\(v_1\\) y \\(v_2\\).",
+        "Comprobar que cualquier vector en \\(\\mathbb{R}^2\\) se puede expresar como combinación lineal de \\(v_1\\) y \\(v_2\\)."
+      ]
+    },
+    {
+      "question": "Sea \\(S = \\{(x,y,z) \\in \\mathbb{R}^3 : x+y+z=1\\}\\). ¿Por qué \\(S\\) no puede ser un subespacio de \\(\\mathbb{R}^3\\)?",
+      "formula": "\\(x+y+z=1\\)",
+      "options": [
+        "Porque \\(S\\) no es cerrado bajo la suma",
+        "Porque \\(S\\) no es cerrado bajo la multiplicación escalar",
+        "Porque \\(S\\) no contiene al vector cero",
+        "Todas las anteriores"
+      ],
+      "correctAnswer": 2,
+      "explanation": "El vector cero \\((0,0,0)\\) no satisface \\(x+y+z=1\\), por lo que \\(S\\) no puede ser un subespacio.",
+      "difficulty": "medium",
+      "procedure": [
+        "Comprobar si el vector cero pertenece a \\(S\\).",
+        "Determinar que la condición \\(x+y+z=1\\) impide la inclusión del vector cero."
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes afirmaciones sobre la combinación lineal de vectores es correcta?",
+      "formula": "\\(w = \\alpha u + \\beta v\\)",
+      "options": [
+        "Si \\(u\\) y \\(v\\) son linealmente independientes, entonces \\(w\\) siempre es distinto de cero.",
+        "Si \\(w\\) se puede expresar como combinación lineal de \\(u\\) y \\(v\\), entonces \\(\\{u,v\\}\\) es una base.",
+        "Una combinación lineal trivial es aquella en la que \\(\\alpha=\\beta=0\\).",
+        "La combinación lineal de vectores depende de la norma de los vectores."
+      ],
+      "correctAnswer": 2,
+      "explanation": "La combinación lineal trivial, en la que todos los coeficientes son cero, es la única forma de obtener el vector cero si los vectores son linealmente independientes.",
+      "difficulty": "medium",
+      "procedure": [
+        "Recordar la definición de combinación lineal trivial.",
+        "Identificar que la única solución trivial es \\(\\alpha=\\beta=0\\) cuando los vectores son linealmente independientes."
+      ]
+    },
+    {
+      "question": "En el contexto de espacios vectoriales, ¿qué implica que dos vectores sean ortogonales?",
+      "formula": "\\(u \\cdot v = 0\\)",
+      "options": [
+        "Que son linealmente independientes",
+        "Que tienen la misma dirección",
+        "Que pertenecen a bases diferentes",
+        "Que tienen la misma norma"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Si dos vectores son ortogonales, su producto interno es cero, lo que implica que son linealmente independientes (en un espacio euclidiano).",
+      "difficulty": "medium",
+      "procedure": [
+        "Recordar la definición de ortogonalidad en espacios vectoriales.",
+        "Relacionar el producto interno nulo con la independencia lineal."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial y \\(u,v \\in V\\). ¿Qué asegura la propiedad distributiva de la suma respecto a la multiplicación escalar?",
+      "formula": "\\(a(u+v)=au+av\\)",
+      "options": [
+        "Que la suma de vectores es conmutativa",
+        "Que se puede distribuir el escalar en la suma",
+        "Que \\(u\\) y \\(v\\) son ortogonales",
+        "Que existe un inverso aditivo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La propiedad distributiva permite aplicar el escalar a cada uno de los sumandos por separado.",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar la propiedad distributiva en la definición de espacio vectorial.",
+        "Aplicar la propiedad a la suma \\(u+v\\) multiplicada por un escalar \\(a\\)."
+      ]
+    },
+    {
+      "question": "Determina la dimensión del subespacio \\(W = \\{(x,y,z) \\in \\mathbb{R}^3: x-y+2z=0\\}\\).",
+      "formula": "\\(x-y+2z=0\\)",
+      "options": ["1", "2", "3", "No es un subespacio"],
+      "correctAnswer": 1,
+      "explanation": "La ecuación lineal reduce el grado de libertad de \\(\\mathbb{R}^3\\) en uno, por lo que la dimensión del subespacio es 2.",
+      "difficulty": "medium",
+      "procedure": [
+        "Interpretar la ecuación como una restricción lineal.",
+        "Concluir que la dimensión es \\(3-1=2\\)."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial real. ¿Cuál de las siguientes afirmaciones sobre bases es verdadera?",
+      "formula": "\\(\\text{Si } B \\text{ es una base de } V, \\text{entonces todo } v \\in V \\text{ se puede escribir de forma única como combinación lineal de los vectores de } B.\\)",
+      "options": [
+        "La representación de \\(v\\) puede ser no única.",
+        "No se puede garantizar la unicidad de la combinación lineal.",
+        "Cada vector en \\(V\\) tiene infinitas representaciones.",
+        "La representación es única si y solo si \\(B\\) es linealmente independiente."
+      ],
+      "correctAnswer": 3,
+      "explanation": "La unicidad de la representación es una consecuencia directa de la independencia lineal de los vectores de la base.",
+      "difficulty": "medium",
+      "procedure": [
+        "Recordar que la base de un espacio vectorial garantiza una representación única.",
+        "Relacionar la unicidad con la independencia lineal."
+      ]
+    },
+    {
+      "question": "Sea \\(B = \\{(1,0,0), (0,1,0), (1,1,1)\\}\\) en \\(\\mathbb{R}^3\\). ¿Son estos vectores linealmente independientes?",
+      "formula": "",
+      "options": [
+        "Sí, son linealmente independientes",
+        "No, porque \\((1,1,1)\\) es combinación de los otros dos",
+        "No, porque la suma de los dos primeros da el tercero",
+        "No se puede determinar sin más información"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se puede verificar que la única combinación lineal que da el vector cero es la trivial, por lo que son linealmente independientes.",
+      "difficulty": "medium",
+      "procedure": [
+        "Plantear la ecuación \\(\\alpha(1,0,0)+\\beta(0,1,0)+\\gamma(1,1,1)=(0,0,0)\\).",
+        "Determinar que \\(\\alpha=\\beta=\\gamma=0\\) es la única solución."
+      ]
+    },
+    {
+      "question": "En la teoría de espacios vectoriales, ¿qué se entiende por \"generar\" un espacio?",
+      "formula": "\\(\\text{span}\\{S\\} = \\{\\text{todas las combinaciones lineales de los vectores en } S\\}\\)",
+      "options": [
+        "Que \\(S\\) contiene el vector cero",
+        "Que todo vector en el espacio se puede escribir como combinación lineal de los vectores de \\(S\\)",
+        "Que los vectores de \\(S\\) son ortogonales",
+        "Que \\(S\\) es un subconjunto propio del espacio"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Un conjunto \\(S\\) genera un espacio vectorial si todas las combinaciones lineales de los vectores en \\(S\\) llenan todo el espacio.",
+      "difficulty": "medium",
+      "procedure": [
+        "Recordar la definición del span de un conjunto de vectores.",
+        "Concluir que generar el espacio significa que cualquier vector del espacio es combinación lineal de \\(S\\)."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial y \\(S \\subset V\\). ¿Cuál de las siguientes condiciones es necesaria para que \\(S\\) sea un subespacio de \\(V\\)?",
+      "formula": "",
+      "options": [
+        "Que \\(S\\) sea finito",
+        "Que \\(S\\) sea no vacío y cerrado bajo la suma y la multiplicación escalar",
+        "Que \\(S\\) contenga una base de \\(V\\)",
+        "Que \\(S\\) sea un conjunto ordenado"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Para que \\(S\\) sea un subespacio, debe ser no vacío y estar cerrado bajo las operaciones de suma y multiplicación escalar.",
+      "difficulty": "medium",
+      "procedure": [
+        "Verificar la inclusión del vector cero en \\(S\\).",
+        "Comprobar la cerradura de \\(S\\) bajo las operaciones del espacio vectorial."
+      ]
+    },
+    {
+      "question": "Determina si el siguiente conjunto es linealmente independiente: \\(\\{(1,2), (2,4)\\}\\) en \\(\\mathbb{R}^2\\).",
+      "formula": "",
+      "options": [
+        "Sí, son linealmente independientes",
+        "No, son linealmente dependientes",
+        "No se puede determinar",
+        "Depende del campo de escalares"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El segundo vector es múltiplo del primero, por lo que el conjunto es linealmente dependiente.",
+      "difficulty": "medium",
+      "procedure": [
+        "Observar que \\((2,4)=2\\cdot(1,2)\\).",
+        "Concluir que existe dependencia lineal entre los vectores."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial y \\(S = \\{v_1, v_2, v_3, v_4\\}\\) un conjunto de vectores en \\(V\\). Si la dimensión de \\(V\\) es 3, ¿qué se puede concluir sobre \\(S\\)?",
+      "formula": "",
+      "options": [
+        "Todos los vectores de \\(S\\) son linealmente independientes",
+        "Al menos uno de los vectores en \\(S\\) es combinación lineal de los otros",
+        "La suma de los vectores es el vector cero",
+        "Ningún vector de \\(S\\) puede pertenecer a una base"
+      ],
+      "correctAnswer": 1,
+      "explanation": "En un espacio de dimensión 3, cualquier conjunto con más de 3 vectores debe ser linealmente dependiente.",
+      "difficulty": "medium",
+      "procedure": [
+        "Recordar que la máxima cantidad de vectores linealmente independientes en \\(V\\) es la dimensión de \\(V\\).",
+        "Concluir que en un conjunto de 4 vectores, al menos uno es combinación lineal de los otros."
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes afirmaciones sobre los subespacios es correcta?",
+      "formula": "",
+      "options": [
+        "La intersección de dos subespacios de \\(V\\) es siempre un subespacio de \\(V\\)",
+        "La unión de dos subespacios de \\(V\\) siempre es un subespacio",
+        "Todo subconjunto de \\(V\\) es un subespacio",
+        "La diferencia de dos subespacios es un subespacio"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La intersección de subespacios siempre cumple los axiomas de subespacio, mientras que la unión generalmente no.",
+      "difficulty": "medium",
+      "procedure": [
+        "Analizar las propiedades de la intersección de subespacios.",
+        "Verificar que se mantienen los axiomas de espacio vectorial en la intersección."
+      ]
+    },
+    {
+      "question": "Sea \\(B = \\{v_1,v_2,v_3\\}\\) una base de \\(\\mathbb{R}^3\\). ¿Qué se puede afirmar acerca de cualquier vector \\(v \\in \\mathbb{R}^3\\)?",
+      "formula": "\\(v = \\alpha v_1+\\beta v_2+\\gamma v_3\\)",
+      "options": [
+        "La representación de \\(v\\) es única",
+        "La representación de \\(v\\) puede ser múltiple",
+        "Solo algunos vectores se pueden representar",
+        "La representación depende del orden de \\(v_1, v_2, v_3\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La unicidad de la representación es una propiedad fundamental de cualquier base en un espacio vectorial.",
+      "difficulty": "medium",
+      "procedure": [
+        "Recordar que la base permite expresar de forma única cualquier vector en \\(\\mathbb{R}^3\\).",
+        "Concluir que la representación única es consecuencia de la independencia lineal."
+      ]
+    },
+    {
+      "question": "Sea \\(S = \\{(x,y) \\in \\mathbb{R}^2 : y = 2x\\}\\). ¿Cuál es la dimensión del subespacio generado por \\(S\\)?",
+      "formula": "\\(y=2x\\)",
+      "options": ["0", "1", "2", "Infinita"],
+      "correctAnswer": 1,
+      "explanation": "La ecuación lineal \\(y=2x\\) describe una recta en \\(\\mathbb{R}^2\\), la cual es un subespacio unidimensional.",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar que \\(S\\) representa una recta que pasa por el origen.",
+        "Concluir que la dimensión del subespacio es 1."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial y \\(u,v\\in V\\). Si \\(u\\) y \\(v\\) son linealmente independientes, ¿cuál es la dimensión del subespacio generado por \\(\\{u,v\\}\\)?",
+      "formula": "",
+      "options": ["1", "2", "3", "Depende de \\(V\\)"],
+      "correctAnswer": 1,
+      "explanation": "Si \\(u\\) y \\(v\\) son linealmente independientes, entonces el subespacio generado por ellos es bidimensional.",
+      "difficulty": "medium",
+      "procedure": [
+        "Utilizar la definición de independencia lineal.",
+        "Concluir que el span de dos vectores linealmente independientes tiene dimensión 2."
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes condiciones NO es requerida en la definición de espacio vectorial?",
+      "formula": "",
+      "options": [
+        "Existencia de inverso aditivo para cada vector",
+        "Cerradura bajo la multiplicación escalar",
+        "Existencia de inverso multiplicativo para cada vector",
+        "Distributividad del producto escalar sobre la suma de vectores"
+      ],
+      "correctAnswer": 2,
+      "explanation": "No se requiere la existencia de un inverso multiplicativo para los vectores, ya que dicha operación no está definida en la estructura de espacio vectorial.",
+      "difficulty": "medium",
+      "procedure": [
+        "Revisar los axiomas de un espacio vectorial.",
+        "Identificar la condición que no forma parte de dichos axiomas."
+      ]
+    },
+    {
+      "question": "Sea \\(B = \\{(1,2), (3,6)\\}\\) en \\(\\mathbb{R}^2\\). ¿Qué se concluye acerca de \\(B\\)?",
+      "formula": "",
+      "options": [
+        "Es una base de \\(\\mathbb{R}^2\\)",
+        "Es un conjunto linealmente independiente",
+        "Es un conjunto linealmente dependiente",
+        "No se puede determinar"
+      ],
+      "correctAnswer": 2,
+      "explanation": "El segundo vector es múltiplo del primero, lo que implica que el conjunto es linealmente dependiente y, por tanto, no puede ser una base.",
+      "difficulty": "medium",
+      "procedure": [
+        "Observar la relación de proporcionalidad entre los dos vectores.",
+        "Concluir la dependencia lineal a partir de dicha relación."
+      ]
+    },
+    {
+      "question": "Sea \\(S = \\{(x,y,z) \\in \\mathbb{R}^3: 2x-y+z=0\\}\\). ¿Cuál es la dimensión del subespacio \\(S\\)?",
+      "formula": "\\(2x-y+z=0\\)",
+      "options": ["1", "2", "3", "No es un subespacio"],
+      "correctAnswer": 1,
+      "explanation": "La ecuación lineal impone una restricción que reduce la dimensión de \\(\\mathbb{R}^3\\) en uno, dando un subespacio bidimensional.",
+      "difficulty": "medium",
+      "procedure": [
+        "Interpretar la ecuación como una restricción lineal.",
+        "Concluir que la dimensión del subespacio es 2 (ya que \\(3-1=2\\))."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial. ¿Qué implica la propiedad de existencia del inverso aditivo para cualquier vector \\(u \\in V\\)?",
+      "formula": "\\(u + (-u) = 0\\)",
+      "options": [
+        "Que \\(u\\) se anula al sumarlo consigo mismo",
+        "Que para cada vector existe otro que lo suma para dar el vector cero",
+        "Que \\(u\\) es el vector cero",
+        "Que \\(u\\) es ortogonal a \\(-u\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cada vector debe tener un inverso aditivo que, sumado al vector original, dé el vector cero.",
+      "difficulty": "medium",
+      "procedure": [
+        "Recordar el axioma del inverso aditivo en espacios vectoriales.",
+        "Identificar que \\(u + (-u) = 0\\) representa esta propiedad."
+      ]
+    },
+    {
+      "question": "Sea \\(W = \\{(x,y) \\in \\mathbb{R}^2 : x = 2y\\}\\). ¿Es \\(W\\) un subespacio de \\(\\mathbb{R}^2\\)?",
+      "formula": "\\(x=2y\\)",
+      "options": [
+        "Sí, \\(W\\) es un subespacio de \\(\\mathbb{R}^2\\)",
+        "No, porque \\(W\\) no es cerrado bajo la suma",
+        "No, porque \\(W\\) no contiene al vector cero",
+        "No, porque \\(W\\) no es cerrado bajo la multiplicación escalar"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El conjunto cumple con contener el vector cero y ser cerrado tanto bajo suma como bajo multiplicación escalar.",
+      "difficulty": "medium",
+      "procedure": [
+        "Verificar que \\((0,0)\\) pertenece a \\(W\\).",
+        "Comprobar que la suma de dos vectores de \\(W\\) y su multiplicación por un escalar sigue cumpliendo \\(x=2y\\)."
+      ]
+    },
+    {
+      "question": "Sea \\(S = \\{(x,y,z) \\in \\mathbb{R}^3 : 3x - y + 4z = 0\\}\\). ¿Qué dimensión tiene el subespacio \\(S\\)?",
+      "formula": "\\(3x-y+4z=0\\)",
+      "options": ["1", "2", "3", "0"],
+      "correctAnswer": 1,
+      "explanation": "Una única ecuación lineal en \\(\\mathbb{R}^3\\) reduce la dimensión en 1, resultando en un subespacio bidimensional.",
+      "difficulty": "medium",
+      "procedure": [
+        "Reconocer que la ecuación impone una restricción.",
+        "Concluir que la dimensión es \\(3-1=2\\)."
+      ]
+    },
+    {
+      "question": "En un espacio vectorial, ¿cuál de las siguientes propiedades se cumple para la multiplicación escalar?",
+      "formula": "\\(a(bu)=(ab)u\\)",
+      "options": [
+        "Conmutatividad de la multiplicación escalar",
+        "Asociatividad de la multiplicación escalar",
+        "Distributividad respecto a la suma",
+        "Existencia del inverso escalar"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La propiedad asociativa de la multiplicación escalar establece que \\(a(bu)=(ab)u\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Revisar las propiedades de la multiplicación escalar en un espacio vectorial.",
+        "Identificar la asociatividad en la ecuación dada."
+      ]
+    },
+    {
+      "question": "Sea \\(B = \\{(1,0), (0,1)\\}\\) una base de \\(\\mathbb{R}^2\\). ¿Qué podemos afirmar sobre cualquier vector \\(v = (a,b)\\) en \\(\\mathbb{R}^2\\)?",
+      "formula": "\\(v = a(1,0)+b(0,1)\\)",
+      "options": [
+        "La representación de \\(v\\) es única",
+        "\\(v\\) puede tener múltiples representaciones",
+        "La base \\(B\\) no es válida para \\(\\mathbb{R}^2\\)",
+        "La representación depende de la norma de \\(v\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La base canónica de \\(\\mathbb{R}^2\\) garantiza una representación única para cada vector.",
+      "difficulty": "medium",
+      "procedure": [
+        "Recordar la definición de base y la unicidad de la representación.",
+        "Aplicar la representación a \\(v=(a,b)\\) usando la base \\(B\\)."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial y \\(u,v \\in V\\). ¿Cuál es la propiedad que relaciona la suma de vectores con la multiplicación escalar?",
+      "formula": "\\(a(u+v)=au+av\\)",
+      "options": [
+        "Propiedad distributiva",
+        "Propiedad asociativa",
+        "Propiedad conmutativa",
+        "Propiedad inversa"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La propiedad distributiva permite distribuir el escalar sobre la suma de vectores.",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar la ecuación que muestra la distribución del escalar.",
+        "Relacionar esta ecuación con la propiedad distributiva."
+      ]
+    },
+    {
+      "question": "Sea \\(B = \\{(1,2,3), (4,5,6), (7,8,9)\\}\\) en \\(\\mathbb{R}^3\\). ¿Son estos vectores linealmente independientes?",
+      "formula": "",
+      "options": [
+        "Sí, son linealmente independientes",
+        "No, son linealmente dependientes",
+        "No se puede determinar",
+        "Depende del sistema de referencia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Estos vectores son linealmente dependientes ya que se pueden expresar de forma lineal entre sí (por ejemplo, la tercera fila es combinación de las dos primeras).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular el determinante de la matriz formada por los vectores o analizar sus combinaciones lineales.",
+        "Concluir la dependencia si el determinante es cero o existe una combinación no trivial que da cero."
+      ]
+    },
+    {
+      "question": "En el contexto de espacios vectoriales, ¿qué significa que un conjunto \\(S\\) genere un espacio vectorial \\(V\\)?",
+      "formula": "\\(\\text{span}(S)=V\\)",
+      "options": [
+        "Que \\(S\\) es una base de \\(V\\)",
+        "Que \\(S\\) es linealmente independiente",
+        "Que todo vector en \\(V\\) se puede expresar como combinación lineal de los vectores de \\(S\\)",
+        "Que \\(S\\) contiene el vector cero"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Generar un espacio significa que cualquier vector en \\(V\\) se puede escribir como combinación lineal de los vectores en \\(S\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Recordar la definición de \\(\\text{span}(S)\\).",
+        "Verificar que la combinación lineal de los elementos de \\(S\\) abarca todo \\(V\\)."
+      ]
+    },
+    {
+      "question": "Sea \\(S = \\{(x,y) \\in \\mathbb{R}^2 : y = -x\\}\\). ¿Cuál es la dimensión del subespacio generado por \\(S\\)?",
+      "formula": "\\(y=-x\\)",
+      "options": ["0", "1", "2", "Infinita"],
+      "correctAnswer": 1,
+      "explanation": "La ecuación representa una recta a través del origen, la cual es un subespacio unidimensional.",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar que \\(S\\) es una recta que pasa por el origen.",
+        "Concluir que la dimensión es 1."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial y \\(u,v,w \\in V\\). ¿Cuál es el efecto de la propiedad asociativa en la suma de vectores?",
+      "formula": "\\((u+v)+w=u+(v+w)\\)",
+      "options": [
+        "Permite reordenar los vectores",
+        "Permite agrupar los vectores sin cambiar el resultado",
+        "Garantiza la existencia de inversos",
+        "Impone la linealidad de la suma"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La asociatividad permite agrupar la suma de vectores de distintas maneras sin alterar el resultado final.",
+      "difficulty": "medium",
+      "procedure": [
+        "Comparar \\((u+v)+w\\) con \\(u+(v+w)\\).",
+        "Concluir que el orden de agrupación no afecta la suma."
+      ]
+    },
+    {
+      "question": "Sea \\(S = \\{(x,y,z) \\in \\mathbb{R}^3: x+3y-2z=0\\}\\). ¿Es \\(S\\) un subespacio de \\(\\mathbb{R}^3\\)?",
+      "formula": "\\(x+3y-2z=0\\)",
+      "options": [
+        "Sí, cumple con los axiomas de subespacio",
+        "No, porque no contiene al vector cero",
+        "No, porque no es cerrado bajo la suma",
+        "No, porque no es cerrado bajo la multiplicación escalar"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El conjunto \\(S\\) cumple con la inclusión del vector cero y es cerrado bajo suma y multiplicación escalar, por lo que es un subespacio.",
+      "difficulty": "medium",
+      "procedure": [
+        "Verificar que \\((0,0,0)\\) pertenece a \\(S\\).",
+        "Comprobar la cerradura bajo las operaciones vectoriales."
+      ]
+    },
+    {
+      "question": "Sea \\(B = \\{(1,1), (1,-1)\\}\\) en \\(\\mathbb{R}^2\\). ¿Son estos vectores ortogonales?",
+      "formula": "\\((1,1) \\cdot (1,-1)=0\\)",
+      "options": [
+        "Sí, porque su producto interno es cero",
+        "No, porque tienen la misma magnitud",
+        "No, porque no son linealariamente independientes",
+        "No se puede determinar"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El producto interno de \\((1,1)\\) y \\((1,-1)\\) es \\(1\\cdot1+1\\cdot(-1)=0\\), lo que indica que son ortogonales.",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular el producto interno de los vectores.",
+        "Concluir que son ortogonales si el resultado es cero."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial y \\(S\\) un subconjunto de \\(V\\). ¿Qué condiciones debe cumplir \\(S\\) para ser un subespacio?",
+      "formula": "",
+      "options": [
+        "Ser no vacío y cerrado bajo suma y multiplicación escalar",
+        "Ser finito y linealmente independiente",
+        "Contener una base de \\(V\\)",
+        "Tener un número par de elementos"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Un subespacio debe ser no vacío y cerrado bajo las operaciones de suma y multiplicación escalar.",
+      "difficulty": "medium",
+      "procedure": [
+        "Revisar la definición de subespacio en un espacio vectorial.",
+        "Identificar las condiciones requeridas para \\(S\\)."
+      ]
+    },
+    {
+      "question": "Sea \\(B = \\{v_1, v_2, v_3\\}\\) una base de \\(\\mathbb{R}^3\\). ¿Qué relación existe entre el número de elementos de \\(B\\) y la dimensión de \\(\\mathbb{R}^3\\)?",
+      "formula": "",
+      "options": [
+        "El número de elementos de \\(B\\) es mayor que la dimensión de \\(\\mathbb{R}^3\\)",
+        "El número de elementos de \\(B\\) es menor que la dimensión de \\(\\mathbb{R}^3\\)",
+        "El número de elementos de \\(B\\) es igual a la dimensión de \\(\\mathbb{R}^3\\)",
+        "No existe relación"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La cardinalidad de una base de un espacio vectorial es igual a la dimensión del espacio.",
+      "difficulty": "medium",
+      "procedure": [
+        "Recordar que la dimensión es el número de vectores en cualquier base.",
+        "Aplicar esta propiedad a \\(\\mathbb{R}^3\\)."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial real. ¿Qué representa la ecuación \\(\\alpha u + \\beta v = 0\\) en términos de independencia lineal?",
+      "formula": "",
+      "options": [
+        "Que \\(u\\) y \\(v\\) son linealmente independientes si \\(\\alpha=\\beta=0\\) es la única solución",
+        "Que \\(u\\) y \\(v\\) son ortogonales",
+        "Que \\(u\\) y \\(v\\) son proporcionales",
+        "Que \\(u\\) y \\(v\\) generan \\(V\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La única solución trivial \\(\\alpha=\\beta=0\\) garantiza la independencia lineal de \\(u\\) y \\(v\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Analizar la ecuación \\(\\alpha u + \\beta v = 0\\).",
+        "Concluir que la independencia lineal se verifica si la única solución es trivial."
+      ]
+    },
+    {
+      "question": "Sea \\(S = \\{(x,y) \\in \\mathbb{R}^2 : x^2+y^2=0\\}\\). ¿Qué se puede afirmar sobre \\(S\\)?",
+      "formula": "\\(x^2+y^2=0\\)",
+      "options": [
+        "Es un subespacio de \\(\\mathbb{R}^2\\)",
+        "Es un conjunto vacío",
+        "Contiene sólo al vector cero",
+        "No es cerrado bajo la suma"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La única solución de \\(x^2+y^2=0\\) es \\(x=0, y=0\\), por lo que \\(S\\) contiene solo el vector cero, siendo un subespacio trivial.",
+      "difficulty": "medium",
+      "procedure": [
+        "Resolver la ecuación \\(x^2+y^2=0\\).",
+        "Concluir que el único vector es \\((0,0)\\) y por lo tanto es el subespacio trivial."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial y \\(u, v \\in V\\). ¿Cuál es la propiedad que garantiza la existencia de un elemento neutro en la suma?",
+      "formula": "\\(u+0=u\\)",
+      "options": [
+        "Propiedad conmutativa",
+        "Propiedad distributiva",
+        "Existencia del vector cero",
+        "Existencia del inverso aditivo"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La existencia de un elemento neutro, o vector cero, es uno de los axiomas fundamentales de un espacio vectorial.",
+      "difficulty": "medium",
+      "procedure": [
+        "Recordar que debe existir un vector \\(0\\) tal que \\(u+0=u\\) para todo \\(u\\in V\\).",
+        "Relacionar esta propiedad con la existencia del vector cero."
+      ]
+    },
+    {
+      "question": "Sea \\(S = \\{(x,y,z) \\in \\mathbb{R}^3 : x-y=0\\}\\). ¿Cuál es el subespacio generado por \\(S\\)?",
+      "formula": "\\(x-y=0\\)",
+      "options": [
+        "Un plano en \\(\\mathbb{R}^3\\)",
+        "Una recta en \\(\\mathbb{R}^3\\)",
+        "Todo \\(\\mathbb{R}^3\\)",
+        "El subespacio trivial"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La ecuación \\(x-y=0\\) define una recta que pasa por el origen en \\(\\mathbb{R}^3\\), la cual es un subespacio unidimensional.",
+      "difficulty": "medium",
+      "procedure": [
+        "Interpretar la ecuación como la condición de una recta en \\(\\mathbb{R}^3\\).",
+        "Concluir que el subespacio generado es unidimensional."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial y \\(\\{u,v\\}\\) un conjunto de vectores. ¿Cuál de las siguientes afirmaciones es verdadera para que \\(\\{u,v\\}\\) sea linealmente independiente?",
+      "formula": "",
+      "options": [
+        "Existe \\(\\alpha, \\beta\\) no ambos cero tales que \\(\\alpha u+\\beta v=0\\)",
+        "La única solución de \\(\\alpha u+\\beta v=0\\) es \\(\\alpha=\\beta=0\\)",
+        "Se cumple \\(u=v\\)",
+        "Siempre que \\(u\\) y \\(v\\) sean ortogonales"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La definición de independencia lineal exige que la única solución a \\(\\alpha u+\\beta v=0\\) sea trivial, es decir, \\(\\alpha=\\beta=0\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Revisar la definición formal de independencia lineal.",
+        "Verificar que la única solución trivial implica independencia lineal."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial y \\(S\\) un conjunto finito de vectores en \\(V\\). ¿Qué se necesita para que \\(S\\) sea una base de \\(V\\)?",
+      "formula": "",
+      "options": [
+        "Que \\(S\\) sea maximalmente linealmente independiente",
+        "Que \\(S\\) contenga el vector cero",
+        "Que \\(S\\) sea ortogonal",
+        "Que \\(S\\) sea finito"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Un conjunto de vectores es base si es linealmente independiente y maximal, es decir, no se puede agregar ningún vector sin perder la independencia.",
+      "difficulty": "medium",
+      "procedure": [
+        "Recordar que una base debe ser linealmente independiente y generar todo el espacio.",
+        "Concluir que la maximalidad es esencial para ser base."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial y \\(u,v,w \\in V\\) tales que \\(u+v+w=0\\). Si \\(u\\) y \\(v\\) son linealmente independientes, ¿qué se puede afirmar sobre \\(w\\)?",
+      "formula": "",
+      "options": [
+        "\\(w=0\\)",
+        "\\(w\\) es combinación lineal de \\(u\\) y \\(v\\)",
+        "No se puede determinar",
+        "\\(w\\) es ortogonal a \\(u\\) y \\(v\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Si \\(u\\) y \\(v\\) son linealmente independientes y \\(u+v+w=0\\), entonces \\(w\\) debe ser la combinación lineal \\(-u-v\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expresar \\(w\\) en función de \\(u\\) y \\(v\\) usando la ecuación \\(u+v+w=0\\).",
+        "Concluir que \\(w=-u-v\\) es una combinación lineal de \\(u\\) y \\(v\\)."
+      ]
+    },
+    {
+      "question": "Sea \\(S = \\{(x,y) \\in \\mathbb{R}^2 : x-y=3\\}\\). ¿Por qué \\(S\\) no es un subespacio de \\(\\mathbb{R}^2\\)?",
+      "formula": "\\(x-y=3\\)",
+      "options": [
+        "Porque \\(S\\) no es cerrado bajo la suma",
+        "Porque \\(S\\) no es cerrado bajo la multiplicación escalar",
+        "Porque \\(S\\) no contiene el vector cero",
+        "Todas las anteriores"
+      ],
+      "correctAnswer": 2,
+      "explanation": "El vector cero \\((0,0)\\) no satisface \\(x-y=3\\), lo que impide que \\(S\\) sea un subespacio.",
+      "difficulty": "medium",
+      "procedure": [
+        "Verificar si \\((0,0)\\) satisface la ecuación \\(x-y=3\\).",
+        "Concluir que al no contener el vector cero, \\(S\\) no es un subespacio."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial y \\(u, v \\in V\\). ¿Qué propiedad permite afirmar que \\(u+v=v+u\\)?",
+      "formula": "\\(u+v=v+u\\)",
+      "options": [
+        "Asociatividad de la suma",
+        "Conmutatividad de la suma",
+        "Distributividad de la multiplicación escalar",
+        "Existencia del vector cero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La propiedad de conmutatividad establece que el orden de la suma no altera el resultado.",
+      "difficulty": "medium",
+      "procedure": [
+        "Revisar los axiomas de un espacio vectorial.",
+        "Identificar la propiedad que permite cambiar el orden de los sumandos."
+      ]
+    },
+    {
+      "question": "Sea \\(W = \\{(x,y) \\in \\mathbb{R}^2 : x+y=0\\}\\). ¿Es \\(W\\) un subespacio de \\(\\mathbb{R}^2\\)?",
+      "formula": "\\(x+y=0\\)",
+      "options": [
+        "Sí, \\(W\\) es un subespacio",
+        "No, \\(W\\) no es cerrado bajo la suma",
+        "No, \\(W\\) no es cerrado bajo la multiplicación escalar",
+        "No, \\(W\\) no contiene al vector cero"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El conjunto \\(W\\) contiene al vector cero y es cerrado bajo las operaciones vectoriales.",
+      "difficulty": "medium",
+      "procedure": [
+        "Verificar que \\((0,0)\\) satisface \\(x+y=0\\).",
+        "Comprobar la cerradura bajo suma y multiplicación escalar."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial real y \\(u \\in V\\). ¿Cuál es el resultado de la suma \\(u + (-u)\\)?",
+      "formula": "\\(u+(-u)=0\\)",
+      "options": [
+        "\\(u\\)",
+        "El vector opuesto de \\(u\\)",
+        "El vector cero",
+        "No está definido"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Por definición del inverso aditivo, \\(u + (-u)=0\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Recordar la propiedad del inverso aditivo en espacios vectoriales.",
+        "Aplicar la definición a \\(u\\)."
+      ]
+    },
+    {
+      "question": "Sea \\(B = \\{(2,0), (0,3)\\}\\) un conjunto en \\(\\mathbb{R}^2\\). ¿Es \\(B\\) una base de \\(\\mathbb{R}^2\\)?",
+      "formula": "",
+      "options": [
+        "Sí, siempre que los vectores sean linealmente independientes",
+        "No, porque no son ortogonales",
+        "No, porque no contienen el vector cero",
+        "Sí, pero sólo si son de norma 1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El conjunto \\(B\\) es una base si es linealmente independiente y genera \\(\\mathbb{R}^2\\). En este caso, \\((2,0)\\) y \\((0,3)\\) lo hacen.",
+      "difficulty": "medium",
+      "procedure": [
+        "Verificar la independencia lineal de \\((2,0)\\) y \\((0,3)\\).",
+        "Confirmar que cualquier vector en \\(\\mathbb{R}^2\\) se puede expresar como combinación lineal de \\(B\\)."
+      ]
+    },
+    {
+      "question": "Sea \\(S = \\{(x,y) \\in \\mathbb{R}^2 : y=3x\\}\\). ¿Cuál es la dimensión del subespacio generado por \\(S\\)?",
+      "formula": "\\(y=3x\\)",
+      "options": ["0", "1", "2", "Infinita"],
+      "correctAnswer": 1,
+      "explanation": "La ecuación define una recta a través del origen, la cual es un subespacio unidimensional.",
+      "difficulty": "medium",
+      "procedure": [
+        "Determinar que \\(S\\) es una recta que pasa por el origen.",
+        "Concluir que la dimensión es 1."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial y \\(a\\) un escalar. ¿Qué propiedad se cumple en \\(a(u+v)\\)?",
+      "formula": "\\(a(u+v)=au+av\\)",
+      "options": [
+        "Asociatividad",
+        "Conmutatividad",
+        "Distributividad",
+        "Existencia de inverso aditivo"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La propiedad distributiva permite distribuir el escalar \\(a\\) a cada vector de la suma.",
+      "difficulty": "medium",
+      "procedure": [
+        "Escribir la ecuación de la distributividad.",
+        "Verificar la aplicación sobre cada vector."
+      ]
+    },
+    {
+      "question": "En \\(\\mathbb{R}^3\\), ¿cuál es la dimensión de un plano que pasa por el origen?",
+      "formula": "",
+      "options": ["1", "2", "3", "0"],
+      "correctAnswer": 1,
+      "explanation": "Un plano en \\(\\mathbb{R}^3\\) que pasa por el origen es un subespacio bidimensional.",
+      "difficulty": "medium",
+      "procedure": [
+        "Recordar que un plano es de dimensión 2.",
+        "Confirmar que pasa por el origen para ser subespacio."
+      ]
+    },
+    {
+      "question": "Sea \\(S = \\{(x,y,z) \\in \\mathbb{R}^3: x+2y- z = 0\\}\\). ¿Qué se puede decir del vector \\((1,1,3)\\)?",
+      "formula": "\\(1+2\\cdot1-3=0\\)",
+      "options": [
+        "Pertenece a \\(S\\)",
+        "No pertenece a \\(S\\)",
+        "Pertenece a \\(S\\) sólo si es nulo",
+        "No se puede determinar"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sustituyendo \\((1,1,3)\\) en la ecuación se cumple la igualdad, por lo que pertenece a \\(S\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Sustituir los valores en la ecuación.",
+        "Verificar que se cumpla \\(1+2-3=0\\)."
+      ]
+    },
+    {
+      "question": "Sea \\(B = \\{(1,0,0), (0,1,0), (0,0,1)\\}\\) la base canónica de \\(\\mathbb{R}^3\\). ¿Qué representa cualquier vector \\(v=(a,b,c)\\) en \\(\\mathbb{R}^3\\)?",
+      "formula": "\\(v=a(1,0,0)+b(0,1,0)+c(0,0,1)\\)",
+      "options": [
+        "Una combinación lineal única de \\(B\\)",
+        "Una combinación lineal múltiple de \\(B\\)",
+        "Una representación ambigua",
+        "Ninguna de las anteriores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cada vector en \\(\\mathbb{R}^3\\) tiene una representación única en la base canónica.",
+      "difficulty": "medium",
+      "procedure": [
+        "Aplicar la propiedad de base canónica.",
+        "Concluir la unicidad de la representación."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial y \\(\\{u,v\\}\\) un conjunto de vectores en \\(V\\). ¿Cuál es la condición para que \\(\\{u,v\\}\\) sea linealmente dependiente?",
+      "formula": "",
+      "options": [
+        "Que \\(u\\) y \\(v\\) sean ortogonales",
+        "Que exista una combinación no trivial \\(\\alpha u+\\beta v=0\\)",
+        "Que \\(u\\) y \\(v\\) sean iguales",
+        "Que \\(u+v=0\\) únicamente"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La dependencia lineal se verifica si existe una combinación lineal no trivial que de cero.",
+      "difficulty": "medium",
+      "procedure": [
+        "Definir la dependencia lineal.",
+        "Identificar que la existencia de coeficientes no nulos que satisfacen \\(\\alpha u+\\beta v=0\\) implica dependencia."
+      ]
+    },
+    {
+      "question": "Sea \\(S = \\{(x,y) \\in \\mathbb{R}^2: x-4y=0\\}\\). ¿Qué subespacio genera \\(S\\)?",
+      "formula": "\\(x-4y=0\\)",
+      "options": [
+        "Una recta",
+        "Un plano",
+        "Todo \\(\\mathbb{R}^2\\)",
+        "El subespacio trivial"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La ecuación representa una recta que pasa por el origen, generando un subespacio unidimensional en \\(\\mathbb{R}^2\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Interpretar la ecuación como una recta.",
+        "Concluir que la dimensión es 1."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial y \\(S\\) un conjunto no vacío de \\(V\\) cerrado bajo suma y producto escalar. ¿Qué se dice de \\(S\\)?",
+      "formula": "",
+      "options": [
+        "Es un subespacio de \\(V\\)",
+        "Es una base de \\(V\\)",
+        "Es linealmente dependiente",
+        "Es finito"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La definición de subespacio requiere que el conjunto sea no vacío y cerrado bajo las operaciones vectoriales.",
+      "difficulty": "medium",
+      "procedure": [
+        "Revisar la definición de subespacio.",
+        "Confirmar las propiedades dadas en \\(S\\)."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial. ¿Qué garantiza la existencia de un vector cero en \\(V\\)?",
+      "formula": "\\(u+0=u\\)",
+      "options": [
+        "La conmutatividad de la suma",
+        "La existencia del inverso aditivo",
+        "El axioma del elemento neutro",
+        "La distributividad de la multiplicación"
+      ],
+      "correctAnswer": 2,
+      "explanation": "El axioma del elemento neutro establece la existencia del vector cero que no afecta la suma.",
+      "difficulty": "medium",
+      "procedure": [
+        "Recordar el axioma del elemento neutro en espacios vectoriales.",
+        "Aplicar la propiedad a un vector \\(u\\)."
+      ]
+    },
+    {
+      "question": "Sea \\(S = \\{(x,y,z) \\in \\mathbb{R}^3: 2x+3y- z=0\\}\\). ¿Qué dimensión tiene \\(S\\)?",
+      "formula": "\\(2x+3y-z=0\\)",
+      "options": ["1", "2", "3", "0"],
+      "correctAnswer": 1,
+      "explanation": "La ecuación reduce la libertad en una dimensión, generando un subespacio bidimensional en \\(\\mathbb{R}^3\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Interpretar la restricción impuesta por la ecuación.",
+        "Concluir que la dimensión es \\(3-1=2\\)."
+      ]
+    },
+    {
+      "question": "Sea \\(u=(1,2)\\) y \\(v=(3,6)\\) en \\(\\mathbb{R}^2\\). ¿Qué relación existe entre \\(u\\) y \\(v\\)?",
+      "formula": "",
+      "options": [
+        "Son linealmente independientes",
+        "Son ortogonales",
+        "Son linealmente dependientes",
+        "No se puede determinar"
+      ],
+      "correctAnswer": 2,
+      "explanation": "El vector \\(v\\) es múltiplo escalar de \\(u\\) (\\(v=3u\\)), por lo que son linealmente dependientes.",
+      "difficulty": "medium",
+      "procedure": [
+        "Comparar los componentes de \\(u\\) y \\(v\\).",
+        "Concluir que la existencia de un escalar común implica dependencia lineal."
+      ]
+    },
+    {
+      "question": "Sea \\(B = \\{(1,2,3), (0,1,4)\\}\\) un conjunto de vectores en \\(\\mathbb{R}^3\\). ¿Puede \\(B\\) ser extendido a una base de \\(\\mathbb{R}^3\\)?",
+      "formula": "",
+      "options": [
+        "Sí, si se añade un vector que no esté en el span de \\(B\\)",
+        "No, \\(B\\) ya es una base",
+        "Sí, añadiendo cualquier vector de \\(\\mathbb{R}^3\\)",
+        "No, porque \\(B\\) es linealmente dependiente"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Si \\(B\\) es linealmente independiente, se puede extender a una base añadiendo un vector fuera del span de \\(B\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Verificar la independencia lineal de \\(B\\).",
+        "Determinar que basta con agregar un vector no en \\(span(B)\\) para formar una base de \\(\\mathbb{R}^3\\)."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial y \\(S\\) un subconjunto de \\(V\\). ¿Qué significa que \\(S\\) sea denso en \\(V\\)?",
+      "formula": "",
+      "options": [
+        "Que \\(S\\) es un subespacio",
+        "Que todo vector en \\(V\\) se puede aproximar arbitrariamente por vectores de \\(S\\)",
+        "Que \\(S\\) es finito",
+        "Que \\(S\\) es una base"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La densidad implica que para cualquier vector en \\(V\\) y cualquier tolerancia, existe un vector en \\(S\\) cercano a él.",
+      "difficulty": "medium",
+      "procedure": [
+        "Definir el concepto de densidad en el contexto de espacios vectoriales.",
+        "Relacionarlo con la aproximación de cualquier vector en \\(V\\) por elementos de \\(S\\)."
+      ]
+    },
+    {
+      "question": "Sea \\(u=(1,0,0)\\), \\(v=(0,1,0)\\) y \\(w=(1,1,0)\\) en \\(\\mathbb{R}^3\\). ¿Cuál de los siguientes conjuntos es una base de \\(\\mathbb{R}^3\\)?",
+      "formula": "",
+      "options": [
+        "El conjunto \\(\\{u,v,w\\}\\)",
+        "El conjunto \\(\\{u,v,(0,0,1)\\}\\)",
+        "El conjunto \\(\\{u,w,(0,0,1)\\}\\)",
+        "Ninguno de los anteriores"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El conjunto \\(\\{u,v,(0,0,1)\\}\\) es linealmente independiente y genera \\(\\mathbb{R}^3\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Verificar la independencia lineal de los vectores dados.",
+        "Confirmar que \\((0,0,1)\\) añade la dimensión faltante."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial y \\(u, v \\in V\\) tales que \\(2u+3v=0\\). ¿Qué se puede concluir si \\(u\\) y \\(v\\) son linealmente independientes?",
+      "formula": "",
+      "options": [
+        "Que \\(2u+3v\\) es el vector cero solo trivialmente",
+        "Que \\(u\\) y \\(v\\) deben ser cero",
+        "Que existe una combinación no trivial",
+        "Que \\(u\\) y \\(v\\) son proporcionales"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Si \\(u\\) y \\(v\\) son linealmente independientes, la única combinación que da cero es la trivial, por lo que los coeficientes deben satisfacer la ecuación trivialmente.",
+      "difficulty": "medium",
+      "procedure": [
+        "Revisar la definición de independencia lineal.",
+        "Concluir que \\(2u+3v=0\\) implica que los coeficientes son tales que la combinación es trivial."
+      ]
+    },
+    {
+      "question": "Sea \\(S = \\{(x,y) \\in \\mathbb{R}^2 : 2x-3y=0\\}\\). ¿Cuál de las siguientes afirmaciones es verdadera sobre \\(S\\)?",
+      "formula": "\\(2x-3y=0\\)",
+      "options": [
+        "\\(S\\) es un subespacio de \\(\\mathbb{R}^2\\)",
+        "\\(S\\) no es un subespacio porque no es cerrado bajo suma",
+        "\\(S\\) no es un subespacio porque no contiene el vector cero",
+        "\\(S\\) es un subespacio pero de dimensión 0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La ecuación \\(2x-3y=0\\) define una recta que pasa por el origen, lo que la convierte en un subespacio unidimensional.",
+      "difficulty": "medium",
+      "procedure": [
+        "Verificar que \\((0,0)\\) satisface la ecuación.",
+        "Concluir que \\(S\\) es un subespacio por ser cerrado bajo las operaciones vectoriales."
+      ]
+    }
+  ]
+}

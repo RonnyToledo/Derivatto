@@ -1,0 +1,1390 @@
+{
+  "matrices_operaciones_basicas_dificil": [
+    {
+      "question": "Calcula la suma de las siguientes matrices A y B.",
+      "formula": "\\(A = \\begin{pmatrix} 1 & 3 \\\\ 2 & 4 \\end{pmatrix}, \\; B = \\begin{pmatrix} 5 & 7 \\\\ 6 & 8 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 6 & 10 \\\\ 8 & 12 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 5 & 10 \\\\ 8 & 11 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 6 & 10 \\\\ 8 & 12 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 7 & 11 \\\\ 9 & 13 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Se suman elemento a elemento: 1+5, 3+7, 2+6 y 4+8.",
+      "difficulty": "hard",
+      "procedure": [
+        "Escribir las matrices A y B.",
+        "Sumar cada elemento correspondiente: (1+5), (3+7), (2+6) y (4+8).",
+        "Obtener la matriz resultante: \\(\\begin{pmatrix} 6 & 10 \\\\ 8 & 12 \\end{pmatrix}\\)."
+      ]
+    },
+    {
+      "question": "Realiza la suma de las siguientes matrices 3x3.",
+      "formula": "\\(A = \\begin{pmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\\\ 7 & 8 & 9 \\end{pmatrix}, \\; B = \\begin{pmatrix} 9 & 8 & 7 \\\\ 6 & 5 & 4 \\\\ 3 & 2 & 1 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 10 & 10 & 10 \\\\ 10 & 10 & 10 \\\\ 10 & 10 & 10 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 8 & 10 & 12 \\\\ 10 & 10 & 10 \\\\ 12 & 10 & 8 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 11 & 10 & 9 \\\\ 10 & 10 & 10 \\\\ 9 & 10 & 11 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 10 & 9 & 8 \\\\ 7 & 10 & 13 \\\\ 12 & 11 & 10 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cada elemento se suma individualmente, dando como resultado una matriz con todos los elementos iguales a 10.",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar cada elemento de las matrices A y B.",
+        "Sumar: 1+9, 2+8, 3+7, etc.",
+        "La suma en cada posición es 10, formando la matriz resultante."
+      ]
+    },
+    {
+      "question": "Calcula la resta de las matrices A y B.",
+      "formula": "\\(A = \\begin{pmatrix} 8 & 5 \\\\ 7 & 6 \\end{pmatrix}, \\; B = \\begin{pmatrix} 3 & 2 \\\\ 1 & 4 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 6 & 3 \\\\ 5 & 2 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 5 & 4 \\\\ 7 & 3 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 4 & 3 \\\\ 6 & 2 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 5 & 3 \\\\ 6 & 2 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Se resta cada elemento de B al correspondiente de A: 8-3, 5-2, 7-1 y 6-4.",
+      "difficulty": "hard",
+      "procedure": [
+        "Escribir las matrices A y B.",
+        "Restar elemento a elemento: (8-3), (5-2), (7-1) y (6-4).",
+        "Obtener la matriz resultante: \\(\\begin{pmatrix} 5 & 3 \\\\ 6 & 2 \\end{pmatrix}\\)."
+      ]
+    },
+    {
+      "question": "Resuelve la resta de las matrices A y B de dimensión 3x3.",
+      "formula": "\\(A = \\begin{pmatrix} 10 & 20 & 30 \\\\ 40 & 50 & 60 \\\\ 70 & 80 & 90 \\end{pmatrix}, \\; B = \\begin{pmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\\\ 7 & 8 & 9 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 9 & 18 & 27 \\\\ 36 & 45 & 54 \\\\ 63 & 72 & 81 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 9 & 18 & 27 \\\\ 36 & 45 & 54 \\\\ 63 & 72 & 81 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 11 & 18 & 27 \\\\ 36 & 45 & 54 \\\\ 63 & 72 & 81 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 9 & 18 & 27 \\\\ 35 & 45 & 55 \\\\ 63 & 72 & 81 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Se resta cada elemento de B al correspondiente de A, dando como resultado la matriz indicada.",
+      "difficulty": "hard",
+      "procedure": [
+        "Listar cada elemento de las matrices A y B.",
+        "Realizar la operación: 10-1, 20-2, 30-3, etc.",
+        "Construir la matriz resultante con los resultados obtenidos."
+      ]
+    },
+    {
+      "question": "Realiza la suma de las siguientes matrices que contienen números negativos.",
+      "formula": "\\(A = \\begin{pmatrix} -1 & 2 \\\\ 3 & -4 \\end{pmatrix}, \\; B = \\begin{pmatrix} 4 & -2 \\\\ -3 & 5 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 3 & 0 \\\\ 0 & 1 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 5 & -4 \\\\ 0 & 1 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 3 & 0 \\\\ 0 & 1 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} -5 & 4 \\\\ 6 & -9 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Se suman: (-1+4), (2+(-2)), (3+(-3)) y (-4+5), resultando en \\(\\begin{pmatrix} 3 & 0 \\\\ 0 & 1 \\end{pmatrix}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar los elementos de cada matriz.",
+        "Realizar la suma: (-1+4), (2-2), (3-3) y (-4+5).",
+        "Formar la matriz resultado."
+      ]
+    },
+    {
+      "question": "Determina la resta de las siguientes matrices de tamaño 2x2 que incluyen números negativos.",
+      "formula": "\\(A = \\begin{pmatrix} -5 & -6 \\\\ 7 & 8 \\end{pmatrix}, \\; B = \\begin{pmatrix} -1 & 2 \\\\ 3 & -4 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} -4 & -8 \\\\ 4 & 12 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} -6 & -8 \\\\ 10 & 4 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} -4 & -4 \\\\ 4 & 12 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} -4 & -8 \\\\ 4 & 12 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se resta elemento a elemento: (-5)-(-1), (-6)-2, 7-3 y 8-(-4).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular: (-5)+1 = -4, (-6)-2 = -8, 7-3 = 4 y 8+4 = 12.",
+        "Organizar los resultados en una matriz 2x2."
+      ]
+    },
+    {
+      "question": "Suma las siguientes matrices de dimensión 2x3.",
+      "formula": "\\(A = \\begin{pmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\end{pmatrix}, \\; B = \\begin{pmatrix} 6 & 5 & 4 \\\\ 3 & 2 & 1 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 7 & 7 & 7 \\\\ 7 & 7 & 7 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 7 & 7 & 7 \\\\ 7 & 7 & 7 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 6 & 7 & 8 \\\\ 7 & 7 & 7 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 7 & 7 & 7 \\\\ 8 & 8 & 8 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Se suman los elementos correspondientes de cada fila, dando como resultado matrices de elementos iguales a 7.",
+      "difficulty": "hard",
+      "procedure": [
+        "Sumar: 1+6, 2+5, 3+4 para la primera fila.",
+        "Sumar: 4+3, 5+2, 6+1 para la segunda fila.",
+        "Obtener la matriz: \\(\\begin{pmatrix} 7 & 7 & 7 \\\\ 7 & 7 & 7 \\end{pmatrix}\\)."
+      ]
+    },
+    {
+      "question": "Realiza la resta de las siguientes matrices de dimensión 2x3.",
+      "formula": "\\(A = \\begin{pmatrix} 9 & 8 & 7 \\\\ 6 & 5 & 4 \\end{pmatrix}, \\; B = \\begin{pmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 8 & 6 & 4 \\\\ 2 & 0 & -2 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 7 & 6 & 4 \\\\ 2 & 0 & -2 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 8 & 6 & 4 \\\\ 3 & 0 & -2 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 8 & 6 & 4 \\\\ 2 & 0 & -2 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Se resta cada elemento de B al correspondiente de A: 9-1, 8-2, 7-3, etc.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular: 9-1, 8-2, 7-3 para la primera fila.",
+        "Calcular: 6-4, 5-5, 4-6 para la segunda fila.",
+        "Formar la matriz: \\(\\begin{pmatrix} 8 & 6 & 4 \\\\ 2 & 0 & -2 \\end{pmatrix}\\)."
+      ]
+    },
+    {
+      "question": "Suma las siguientes matrices de dimensión 3x2.",
+      "formula": "\\(A = \\begin{pmatrix} 2 & 4 \\\\ 6 & 8 \\\\ 10 & 12 \\end{pmatrix}, \\; B = \\begin{pmatrix} 1 & 3 \\\\ 5 & 7 \\\\ 9 & 11 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 3 & 7 \\\\ 11 & 15 \\\\ 19 & 23 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 2 & 4 \\\\ 6 & 8 \\\\ 10 & 12 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 3 & 7 \\\\ 11 & 15 \\\\ 19 & 23 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 4 & 8 \\\\ 12 & 16 \\\\ 20 & 24 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Se suman elemento a elemento: (2+1), (4+3), etc.",
+      "difficulty": "hard",
+      "procedure": [
+        "Sumar: 2+1, 4+3 para la primera fila.",
+        "Sumar: 6+5, 8+7 para la segunda fila.",
+        "Sumar: 10+9, 12+11 para la tercera fila.",
+        "La matriz resultante es: \\(\\begin{pmatrix} 3 & 7 \\\\ 11 & 15 \\\\ 19 & 23 \\end{pmatrix}\\)."
+      ]
+    },
+    {
+      "question": "Realiza la resta de las siguientes matrices de dimensión 3x2.",
+      "formula": "\\(A = \\begin{pmatrix} 5 & 7 \\\\ 9 & 11 \\\\ 13 & 15 \\end{pmatrix}, \\; B = \\begin{pmatrix} 2 & 3 \\\\ 4 & 5 \\\\ 6 & 7 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 3 & 4 \\\\ 5 & 6 \\\\ 7 & 8 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 2 & 4 \\\\ 5 & 6 \\\\ 7 & 8 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 3 & 4 \\\\ 6 & 6 \\\\ 7 & 8 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 3 & 4 \\\\ 5 & 6 \\\\ 7 & 8 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se resta cada elemento: 5-2, 7-3, 9-4, 11-5, 13-6 y 15-7.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular la resta para cada posición: 5-2=3, 7-3=4, etc.",
+        "Formar la matriz resultante: \\(\\begin{pmatrix} 3 & 4 \\\\ 5 & 6 \\\\ 7 & 8 \\end{pmatrix}\\)."
+      ]
+    },
+    {
+      "question": "Multiplica la matriz A por el escalar 3.",
+      "formula": "\\(A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 3 & 6 \\\\ 9 & 12 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 3 & 6 \\\\ 9 & 12 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 4 & 6 \\\\ 8 & 10 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiplicamos cada elemento de A por 3: 1×3, 2×3, 3×3 y 4×3.",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar cada elemento de la matriz A.",
+        "Multiplicar cada elemento por 3.",
+        "Obtener la matriz resultante: \\(\\begin{pmatrix} 3 & 6 \\\\ 9 & 12 \\end{pmatrix}\\)."
+      ]
+    },
+    {
+      "question": "Multiplica la siguiente matriz 3x3 por el escalar -2.",
+      "formula": "\\(A = \\begin{pmatrix} 1 & -1 & 2 \\\\ 0 & 3 & -3 \\\\ 4 & 2 & 1 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} -2 & 2 & -4 \\\\ 0 & -6 & 6 \\\\ -8 & -4 & -2 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} -2 & 2 & -4 \\\\ 0 & -6 & 6 \\\\ -8 & -4 & -2 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 2 & -2 & 4 \\\\ 0 & 6 & -6 \\\\ 8 & 4 & 2 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} -2 & 2 & -4 \\\\ 0 & -6 & 6 \\\\ -8 & -4 & -2 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Se multiplica cada componente de la matriz A por -2.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplicar: 1×(-2), (-1)×(-2), 2×(-2), etc.",
+        "Obtener la matriz resultante: \\(\\begin{pmatrix} -2 & 2 & -4 \\\\ 0 & -6 & 6 \\\\ -8 & -4 & -2 \\end{pmatrix}\\)."
+      ]
+    },
+    {
+      "question": "Multiplica la matriz 2x3 por el escalar 0 y determina el resultado.",
+      "formula": "\\(A = \\begin{pmatrix} 2 & 4 & 6 \\\\ 1 & 3 & 5 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 0 & 0 & 0 \\\\ 0 & 0 & 0 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 2 & 4 & 6 \\\\ 1 & 3 & 5 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 0 & 0 & 0 \\\\ 0 & 0 & 0 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 1 & 2 & 3 \\\\ 0.5 & 1.5 & 2.5 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiplicar cualquier número por 0 resulta en 0, por lo tanto, toda la matriz se convierte en la matriz cero.",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la propiedad multiplicativa del 0.",
+        "Multiplicar cada elemento de A por 0.",
+        "Obtener la matriz: \\(\\begin{pmatrix} 0 & 0 & 0 \\\\ 0 & 0 & 0 \\end{pmatrix}\\)."
+      ]
+    },
+    {
+      "question": "Multiplica la matriz 2x2 por el escalar \\(\\frac{1}{3}\\).",
+      "formula": "\\(A = \\begin{pmatrix} 3 & 6 \\\\ 9 & 12 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 3 & 6 \\\\ 9 & 12 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 0.5 & 1 & \\\\ 1.5 & 2 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cada elemento se multiplica por \\(\\frac{1}{3}\\): por ejemplo, 3×\\(\\frac{1}{3}\\)=1, 6×\\(\\frac{1}{3}\\)=2, etc.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplicar cada elemento de A por \\(\\frac{1}{3}\\).",
+        "Obtener: 3×\\(\\frac{1}{3}\\)=1, 6×\\(\\frac{1}{3}\\)=2, 9×\\(\\frac{1}{3}\\)=3, 12×\\(\\frac{1}{3}\\)=4.",
+        "La matriz resultante es: \\(\\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}\\)."
+      ]
+    },
+    {
+      "question": "Multiplica la siguiente matriz 3x2 por el escalar -1.",
+      "formula": "\\(A = \\begin{pmatrix} -2 & 4 \\\\ 5 & -7 \\\\ 0 & 3 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 2 & -4 \\\\ -5 & 7 \\\\ 0 & -3 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 2 & -4 \\\\ -5 & 7 \\\\ 0 & -3 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} -2 & 4 \\\\ 5 & -7 \\\\ 0 & 3 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 2 & -4 \\\\ -5 & 7 \\\\ 0 & -3 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiplicar por -1 cambia el signo de cada elemento de la matriz.",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la multiplicación: cada número se multiplica por -1.",
+        "Obtener la matriz con todos los signos invertidos."
+      ]
+    },
+    {
+      "question": "Multiplica la matriz 2x2 que contiene números negativos por el escalar 2.",
+      "formula": "\\(A = \\begin{pmatrix} -3 & -5 \\\\ 7 & 2 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} -6 & -10 \\\\ 14 & 4 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} -6 & -10 \\\\ 14 & 4 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} -3 & -5 \\\\ 7 & 2 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 6 & 10 \\\\ -14 & -4 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se multiplica cada elemento de A por 2, respetando el signo de cada número.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplicar: (-3)×2, (-5)×2, 7×2 y 2×2.",
+        "Obtener: -6, -10, 14 y 4, que forman la matriz resultante."
+      ]
+    },
+    {
+      "question": "Multiplica la siguiente matriz 3x3 por el escalar 5.",
+      "formula": "\\(A = \\begin{pmatrix} 2 & 2 & 2 \\\\ 3 & 3 & 3 \\\\ 4 & 4 & 4 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 10 & 10 & 10 \\\\ 15 & 15 & 15 \\\\ 20 & 20 & 20 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 10 & 10 & 10 \\\\ 15 & 15 & 15 \\\\ 20 & 20 & 20 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 2 & 2 & 2 \\\\ 3 & 3 & 3 \\\\ 4 & 4 & 4 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 12 & 12 & 12 \\\\ 18 & 18 & 18 \\\\ 24 & 24 & 24 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se multiplica cada elemento por 5, obteniéndose la matriz resultante.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular: 2×5=10, 3×5=15, 4×5=20 para cada elemento.",
+        "Formar la matriz: \\(\\begin{pmatrix} 10 & 10 & 10 \\\\ 15 & 15 & 15 \\\\ 20 & 20 & 20 \\end{pmatrix}\\)."
+      ]
+    },
+    {
+      "question": "Multiplica la matriz 1) de operaciones básicas: Multiplicación de matrices 2x2. Sea A y B las siguientes matrices.",
+      "formula": "\\(A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}, \\; B = \\begin{pmatrix} 2 & 0 \\\\ 1 & 3 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 4 & 6 \\\\ 10 & 12 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 4 & 6 \\\\ 10 & 12 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 5 & 6 \\\\ 11 & 12 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 4 & 6 \\\\ 10 & 12 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Se utiliza la regla fila-columna para multiplicar las matrices A y B.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular: fila 1 de A por columna 1 de B: 1×2 + 2×1 = 4.",
+        "Calcular: fila 1 de A por columna 2 de B: 1×0 + 2×3 = 6.",
+        "Calcular las demás entradas de forma similar para obtener \\(\\begin{pmatrix} 4 & 6 \\\\ 10 & 12 \\end{pmatrix}\\)."
+      ]
+    },
+    {
+      "question": "Multiplica la siguiente pareja de matrices: una matriz 2x3 y una 3x2.",
+      "formula": "\\(A = \\begin{pmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\end{pmatrix}, \\; B = \\begin{pmatrix} 7 & 8 \\\\ 9 & 10 \\\\ 11 & 12 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 58 & 64 \\\\ 139 & 154 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 58 & 64 \\\\ 139 & 154 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 60 & 66 \\\\ 140 & 156 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 58 & 64 \\\\ 139 & 154 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se multiplican A (2x3) y B (3x2) obteniéndose una matriz 2x2. Por ejemplo, 1×7+2×9+3×11=58.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular la entrada (1,1): 1×7 + 2×9 + 3×11 = 58.",
+        "Calcular la entrada (1,2): 1×8 + 2×10 + 3×12 = 64.",
+        "Calcular las entradas de la segunda fila de manera similar.",
+        "La matriz resultante es \\(\\begin{pmatrix} 58 & 64 \\\\ 139 & 154 \\end{pmatrix}\\)."
+      ]
+    },
+    {
+      "question": "Multiplica dos matrices 3x3.",
+      "formula": "\\(A = \\begin{pmatrix} 1 & 0 & 2 \\\\ -1 & 3 & 1 \\\\ 2 & 1 & 0 \\end{pmatrix}, \\; B = \\begin{pmatrix} 3 & 1 & 2 \\\\ 2 & 1 & 0 \\\\ 1 & 4 & 5 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 5 & 9 & 12 \\\\ 4 & 6 & 3 \\\\ 8 & 3 & 4 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 5 & 9 & 12 \\\\ 4 & 6 & 3 \\\\ 8 & 3 & 4 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 5 & 9 & 12 \\\\ 4 & 6 & 3 \\\\ 8 & 3 & 4 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 6 & 8 & 10 \\\\ 4 & 6 & 3 \\\\ 8 & 3 & 4 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Se aplica la multiplicación de matrices usando la regla fila-columna para cada entrada.",
+      "difficulty": "hard",
+      "procedure": [
+        "Para la entrada (1,1): 1×3 + 0×2 + 2×1 = 5.",
+        "Calcular las demás entradas de manera similar.",
+        "El resultado final es \\(\\begin{pmatrix} 5 & 9 & 12 \\\\ 4 & 6 & 3 \\\\ 8 & 3 & 4 \\end{pmatrix}\\)."
+      ]
+    },
+    {
+      "question": "Multiplica dos matrices 2x2 con elementos negativos.",
+      "formula": "\\(A = \\begin{pmatrix} -2 & 3 \\\\ 4 & -1 \\end{pmatrix}, \\; B = \\begin{pmatrix} 1 & -4 \\\\ 2 & 5 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 4 & 23 \\\\ 2 & -21 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 4 & 23 \\\\ 2 & -21 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 3 & 20 \\\\ 2 & -21 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 4 & 23 \\\\ 2 & -21 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se realiza la multiplicación: (-2×1+3×2, -2×(-4)+3×5, 4×1+(-1)×2, 4×(-4)+(-1)×5).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular la primera entrada: (-2×1)+(3×2)= -2+6=4.",
+        "Calcular la segunda entrada: (-2×-4)+(3×5)=8+15=23.",
+        "Calcular la tercera entrada: (4×1)+(-1×2)=4-2=2.",
+        "Calcular la cuarta entrada: (4×-4)+(-1×5)= -16-5=-21."
+      ]
+    },
+    {
+      "question": "Multiplica las siguientes matrices A (3x2) y B (2x3).",
+      "formula": "\\(A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\\\ 5 & 6 \\end{pmatrix}, \\; B = \\begin{pmatrix} 7 & 8 & 9 \\\\ 10 & 11 & 12 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 27 & 30 & 33 \\\\ 61 & 68 & 75 \\\\ 95 & 106 & 117 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 27 & 30 & 33 \\\\ 61 & 68 & 75 \\\\ 95 & 106 & 117 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 26 & 29 & 32 \\\\ 60 & 67 & 74 \\\\ 94 & 105 & 116 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 27 & 30 & 33 \\\\ 61 & 68 & 75 \\\\ 95 & 106 & 117 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se multiplica la matriz A (3x2) por la matriz B (2x3) usando la regla de multiplicación de matrices, obteniéndose una matriz 3x3.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular la entrada (1,1): 1×7 + 2×10 = 27.",
+        "Calcular la entrada (1,2): 1×8 + 2×11 = 30.",
+        "Calcular la entrada (1,3): 1×9 + 2×12 = 33.",
+        "Realizar cálculos similares para las filas 2 y 3, obteniendo la matriz resultante."
+      ]
+    },
+    {
+      "question": "Multiplica las siguientes matrices 3x3 con números fraccionarios y decimales.",
+      "formula": "\\(A = \\begin{pmatrix} \\frac{1}{2} & 1 & 0 \\\\ 0 & -1 & 2 \\\\ 3 & 0 & 1 \\end{pmatrix}, \\; B = \\begin{pmatrix} 2 & 0 & 1 \\\\ 1 & 3 & -1 \\\\ 4 & 2 & 0 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 2 & 3 & -0.5 \\\\ 7 & 1 & 1 \\\\ 10 & 2 & 3 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 2 & 3 & -0.5 \\\\ 7 & 1 & 1 \\\\ 10 & 2 & 3 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 2 & 3 & -0.5 \\\\ 7 & 1 & 1 \\\\ 10 & 2 & 3 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 2 & 3 & -0.5 \\\\ 7 & 1 & 1 \\\\ 10 & 2 & 3 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Multiplicando A por B se obtiene, por ejemplo, en la primera fila: \\(0.5\\times2 + 1\\times1 + 0\\times4 = 2\\), y se procede de forma similar con el resto de los elementos.",
+      "difficulty": "hard",
+      "procedure": [
+        "Realizar la multiplicación fila por columna para cada elemento.",
+        "Verificar que la primera fila da: 0.5×2+1×1+0×4=2, 0.5×0+1×3+0×2=3, 0.5×1+1×(-1)+0×0=-0.5.",
+        "Completar el cálculo para las filas restantes, obteniendo la matriz final."
+      ]
+    },
+    {
+      "question": "Multiplica dos matrices 2x2 con elementos fraccionarios.",
+      "formula": "\\(A = \\begin{pmatrix} \\frac{1}{3} & \\frac{2}{3} \\\\ \\frac{3}{4} & \\frac{1}{4} \\end{pmatrix}, \\; B = \\begin{pmatrix} 4 & 0 \\\\ 0 & 4 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} \\frac{4}{3} & \\frac{8}{3} \\\\ 3 & 1 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} \\frac{4}{3} & \\frac{8}{3} \\\\ 3 & 1 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} \\frac{4}{3} & \\frac{8}{3} \\\\ 3 & 1 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 4 & 8 \\\\ 3 & 1 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cada elemento de la matriz A se multiplica por 4 (por B es diagonal), dando: \\(\\frac{1}{3}\\times4 = \\frac{4}{3}\\) y \\(\\frac{2}{3}\\times4 = \\frac{8}{3}\\), etc.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplicar cada elemento de A por el factor correspondiente de B.",
+        "Obtener: \\(\\frac{1}{3}\\times4 = \\frac{4}{3}\\), \\(\\frac{2}{3}\\times4 = \\frac{8}{3}\\), \\(\\frac{3}{4}\\times4 = 3\\) y \\(\\frac{1}{4}\\times4 = 1\\).",
+        "La matriz resultante es: \\(\\begin{pmatrix} \\frac{4}{3} & \\frac{8}{3} \\\\ 3 & 1 \\end{pmatrix}\\)."
+      ]
+    },
+    {
+      "question": "Multiplica las siguientes matrices 2x2 con ceros y números negativos.",
+      "formula": "\\(A = \\begin{pmatrix} 0 & 5 \\\\ -3 & 2 \\end{pmatrix}, \\; B = \\begin{pmatrix} 7 & -1 \\\\ 0 & 4 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 0 & 20 \\\\ -21 & 11 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 0 & 20 \\\\ -21 & 11 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 0 & 18 \\\\ -21 & 11 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 1 & 20 \\\\ -21 & 11 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se multiplica A y B: por ejemplo, la primera entrada es 0×7 + 5×0 = 0, y se realizan los cálculos para las demás entradas.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular: (0×7)+(5×0)=0, (0×-1)+(5×4)=20.",
+        "Calcular: (-3×7)+(2×0)=-21, (-3×-1)+(2×4)=3+8=11.",
+        "La matriz resultante es \\(\\begin{pmatrix} 0 & 20 \\\\ -21 & 11 \\end{pmatrix}\\)."
+      ]
+    },
+    {
+      "question": "Multiplica las siguientes matrices: A (2x3) y B (3x2).",
+      "formula": "\\(A = \\begin{pmatrix} 2 & 0 & 1 \\\\ 3 & 4 & 5 \\end{pmatrix}, \\; B = \\begin{pmatrix} 1 & 2 \\\\ 0 & -1 \\\\ 4 & 3 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 6 & 7 \\\\ 23 & 17 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 6 & 7 \\\\ 23 & 17 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 5 & 7 \\\\ 23 & 17 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 6 & 7 \\\\ 22 & 17 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Se multiplica A (2x3) por B (3x2): por ejemplo, la primera entrada es 2×1+0×0+1×4 = 6, y se realizan los cálculos correspondientes.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular la entrada (1,1): 2×1 + 0×0 + 1×4 = 6.",
+        "Calcular la entrada (1,2): 2×2 + 0×(-1) + 1×3 = 7.",
+        "Calcular las entradas de la segunda fila para obtener \\(\\begin{pmatrix} 6 & 7 \\\\ 23 & 17 \\end{pmatrix}\\)."
+      ]
+    },
+    {
+      "question": "Multiplica dos matrices 3x3 con elementos negativos.",
+      "formula": "\\(A = \\begin{pmatrix} -1 & 2 & 0 \\\\ 3 & -4 & 1 \\\\ 2 & 1 & -3 \\end{pmatrix}, \\; B = \\begin{pmatrix} 2 & 0 & -1 \\\\ 1 & 3 & 4 \\\\ 0 & -2 & 5 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 0 & 6 & 9 \\\\ 2 & -14 & -14 \\\\ 5 & 9 & -13 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 0 & 6 & 9 \\\\ 2 & -14 & -14 \\\\ 5 & 9 & -13 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 1 & 6 & 9 \\\\ 2 & -14 & -14 \\\\ 5 & 9 & -13 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 0 & 6 & 9 \\\\ 2 & -14 & -14 \\\\ 5 & 9 & -13 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Aplicando la regla de multiplicación fila-columna se obtiene, por ejemplo, para la primera entrada: (-1)×2+2×1+0×0=0, y se procede para el resto de las entradas.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular cada entrada utilizando la suma de productos de la fila de A y la columna de B.",
+        "Verificar que la primera fila es: 0, 6 y 9.",
+        "Completar el cálculo para obtener la matriz: \\(\\begin{pmatrix} 0 & 6 & 9 \\\\ 2 & -14 & -14 \\\\ 5 & 9 & -13 \\end{pmatrix}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la suma de las siguientes matrices.",
+      "formula": "\\( A = \\begin{pmatrix}1 & 2 \\\\ 3 & 4\\end{pmatrix}, \\quad B = \\begin{pmatrix}5 & 6 \\\\ 7 & 8\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}6 & 8 \\\\ 10 & 12\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}5 & 8 \\\\ 10 & 12\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}6 & 7 \\\\ 10 & 11\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}7 & 9 \\\\ 11 & 13\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se suman los elementos correspondientes: 1+5, 2+6, 3+7 y 4+8.",
+      "difficulty": "hard",
+      "procedure": [
+        "Suma A[1,1] + B[1,1]: 1 + 5 = 6.",
+        "Suma A[1,2] + B[1,2]: 2 + 6 = 8.",
+        "Suma A[2,1] + B[2,1]: 3 + 7 = 10.",
+        "Suma A[2,2] + B[2,2]: 4 + 8 = 12."
+      ]
+    },
+    {
+      "question": "Calcula la resta de las siguientes matrices.",
+      "formula": "\\( A = \\begin{pmatrix}9 & 5 \\\\ 4 & 7\\end{pmatrix}, \\quad B = \\begin{pmatrix}2 & 3 \\\\ 1 & 6\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}7 & 2 \\\\ 3 & 1\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}8 & 2 \\\\ 4 & 1\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}7 & 3 \\\\ 4 & 1\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}7 & 2 \\\\ 4 & 1\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se resta cada elemento: 9-2, 5-3, 4-1 y 7-6.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula 9 - 2 = 7.",
+        "Calcula 5 - 3 = 2.",
+        "Calcula 4 - 1 = 3.",
+        "Calcula 7 - 6 = 1."
+      ]
+    },
+    {
+      "question": "Calcula la suma de las siguientes matrices 3x3.",
+      "formula": "\\( A = \\begin{pmatrix}1 & 2 & 3 \\\\ 4 & 5 & 6 \\\\ 7 & 8 & 9\\end{pmatrix}, \\quad B = \\begin{pmatrix}9 & 8 & 7 \\\\ 6 & 5 & 4 \\\\ 3 & 2 & 1\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}10 & 10 & 10 \\\\ 10 & 10 & 10 \\\\ 10 & 10 & 10\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}10 & 10 & 10 \\\\ 10 & 11 & 10 \\\\ 10 & 10 & 10\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}10 & 10 & 10 \\\\ 10 & 10 & 9 \\\\ 10 & 10 & 10\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}9 & 10 & 10 \\\\ 10 & 10 & 10 \\\\ 10 & 10 & 10\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se suman elemento a elemento: por ejemplo, 1+9=10, 2+8=10, etc.",
+      "difficulty": "hard",
+      "procedure": [
+        "Suma cada par: (1+9, 2+8, 3+7), (4+6, 5+5, 6+4) y (7+3, 8+2, 9+1)."
+      ]
+    },
+    {
+      "question": "Calcula la resta de las siguientes matrices 3x3.",
+      "formula": "\\( A = \\begin{pmatrix}9 & 8 & 7 \\\\ 6 & 5 & 4 \\\\ 3 & 2 & 1\\end{pmatrix}, \\quad B = \\begin{pmatrix}1 & 2 & 3 \\\\ 4 & 5 & 6 \\\\ 7 & 8 & 9\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}8 & 6 & 4 \\\\ 2 & 0 & -2 \\\\ -4 & -6 & -8\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}8 & 6 & 4 \\\\ 2 & 0 & -2 \\\\ -4 & -6 & -7\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}8 & 7 & 4 \\\\ 2 & 0 & -2 \\\\ -4 & -6 & -8\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}9 & 6 & 4 \\\\ 2 & 0 & -2 \\\\ -4 & -6 & -8\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se resta cada elemento: 9-1, 8-2, 7-3, etc.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula: 9-1=8, 8-2=6, 7-3=4, 6-4=2, 5-5=0, 4-6=-2, 3-7=-4, 2-8=-6, 1-9=-8."
+      ]
+    },
+    {
+      "question": "Calcula la suma de las siguientes matrices con números negativos.",
+      "formula": "\\( A = \\begin{pmatrix}-2 & 3 \\\\ 4 & -5\\end{pmatrix}, \\quad B = \\begin{pmatrix}5 & -3 \\\\ -4 & 2\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}3 & 0 \\\\ 0 & -3\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}3 & 6 \\\\ 0 & -3\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}3 & 0 \\\\ 8 & -3\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}7 & 0 \\\\ 0 & -7\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se suman: (-2+5, 3+(-3), 4+(-4), -5+2).",
+      "difficulty": "hard",
+      "procedure": ["Calcula: -2+5=3, 3-3=0, 4-4=0, -5+2=-3."]
+    },
+    {
+      "question": "Calcula la resta de las siguientes matrices con números negativos.",
+      "formula": "\\( A = \\begin{pmatrix}-3 & 4 \\\\ -2 & 5\\end{pmatrix}, \\quad B = \\begin{pmatrix}1 & -4 \\\\ 2 & -5\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}-4 & 8 \\\\ -4 & 10\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}-2 & 8 \\\\ -4 & 10\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}-4 & 0 \\\\ -4 & 0\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}-4 & 8 \\\\ -2 & 10\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Resta cada elemento: -3-1, 4-(-4), -2-2 y 5-(-5).",
+      "difficulty": "hard",
+      "procedure": ["Calcula: -3-1=-4, 4+4=8, -2-2=-4, 5+5=10."]
+    },
+    {
+      "question": "Calcula la suma de las siguientes matrices que contienen ceros.",
+      "formula": "\\( A = \\begin{pmatrix}0 & 2 \\\\ 3 & 0\\end{pmatrix}, \\quad B = \\begin{pmatrix}1 & 0 \\\\ 0 & 4\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}1 & 2 \\\\ 3 & 4\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}1 & 2 \\\\ 3 & 0\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}0 & 2 \\\\ 3 & 4\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}1 & 0 \\\\ 0 & 4\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se suman los elementos: 0+1, 2+0, 3+0 y 0+4.",
+      "difficulty": "hard",
+      "procedure": ["Calcula: 0+1=1, 2+0=2, 3+0=3, 0+4=4."]
+    },
+    {
+      "question": "Calcula la resta de las siguientes matrices con decimales.",
+      "formula": "\\( A = \\begin{pmatrix}3.5 & 2.5 \\\\ 4.5 & 6.5\\end{pmatrix}, \\quad B = \\begin{pmatrix}1.5 & 0.5 \\\\ 2.5 & 3.5\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}2 & 2 \\\\ 2 & 3\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}2 & 2 \\\\ 2 & 2\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}2 & 3 \\\\ 2 & 3\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}2 & 2 \\\\ 3 & 3\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Realiza la resta: 3.5-1.5=2, 2.5-0.5=2, 4.5-2.5=2 y 6.5-3.5=3.",
+      "difficulty": "hard",
+      "procedure": ["Resta cada elemento correspondiente de las matrices."]
+    },
+    {
+      "question": "Calcula la suma de las siguientes matrices 2x3.",
+      "formula": "\\( A = \\begin{pmatrix}1 & 2 & 3 \\\\ 4 & 5 & 6\\end{pmatrix}, \\quad B = \\begin{pmatrix}6 & 5 & 4 \\\\ 3 & 2 & 1\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}7 & 7 & 7 \\\\ 7 & 7 & 7\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}7 & 7 & 7 \\\\ 7 & 8 & 7\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}6 & 7 & 8 \\\\ 7 & 7 & 7\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}7 & 7 & 7 \\\\ 8 & 7 & 7\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Suma cada elemento: (1+6, 2+5, 3+4, 4+3, 5+2, 6+1) da una matriz de 7's.",
+      "difficulty": "hard",
+      "procedure": ["Suma cada par de elementos correspondientes de A y B."]
+    },
+    {
+      "question": "Calcula la resta de las siguientes matrices 2x3.",
+      "formula": "\\( A = \\begin{pmatrix}8 & 7 & 6 \\\\ 5 & 4 & 3\\end{pmatrix}, \\quad B = \\begin{pmatrix}1 & 2 & 3 \\\\ 4 & 5 & 6\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}7 & 5 & 3 \\\\ 1 & -1 & -3\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}7 & 5 & 3 \\\\ 1 & -1 & -2\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}7 & 5 & 3 \\\\ 2 & -1 & -3\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}8 & 5 & 3 \\\\ 1 & -1 & -3\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Resta: 8-1=7, 7-2=5, 6-3=3, 5-4=1, 4-5=-1, 3-6=-3.",
+      "difficulty": "hard",
+      "procedure": [
+        "Resta elemento a elemento para obtener la matriz resultado."
+      ]
+    },
+    {
+      "question": "Multiplica la siguiente matriz por el escalar.",
+      "formula": "\\( A = \\begin{pmatrix}2 & 3 \\\\ 4 & 5\\end{pmatrix}, \\quad k = 3 \\)",
+      "options": [
+        "\\(\\begin{pmatrix}6 & 9 \\\\ 12 & 15\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}5 & 8 \\\\ 11 & 14\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}6 & 8 \\\\ 12 & 15\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}3 & 6 \\\\ 9 & 12\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cada elemento se multiplica por 3.",
+      "difficulty": "hard",
+      "procedure": ["Multiplica: 2×3=6, 3×3=9, 4×3=12, 5×3=15."]
+    },
+    {
+      "question": "Multiplica la siguiente matriz 3x3 por el escalar.",
+      "formula": "\\( A = \\begin{pmatrix}1 & 0 & -1 \\\\ 2 & 3 & 4 \\\\ -2 & 5 & 6\\end{pmatrix}, \\quad k = -2 \\)",
+      "options": [
+        "\\(\\begin{pmatrix}-2 & 0 & 2 \\\\ -4 & -6 & -8 \\\\ 4 & -10 & -12\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}-2 & 0 & 2 \\\\ 4 & 6 & 8 \\\\ -4 & 10 & 12\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}2 & 0 & -2 \\\\ -4 & -6 & -8 \\\\ 4 & -10 & -12\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}-1 & 0 & 1 \\\\ -2 & -3 & -4 \\\\ 2 & -5 & -6\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiplica cada elemento de la matriz por -2.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula: 1×(-2)=-2, 0×(-2)=0, (-1)×(-2)=2, 2×(-2)=-4, 3×(-2)=-6, 4×(-2)=-8, (-2)×(-2)=4, 5×(-2)=-10, 6×(-2)=-12."
+      ]
+    },
+    {
+      "question": "Multiplica la siguiente matriz por el escalar fraccionario.",
+      "formula": "\\( A = \\begin{pmatrix}6 & 8 \\\\ 4 & 10\\end{pmatrix}, \\quad k = \\frac{1}{2} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}3 & 4 \\\\ 2 & 5\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}3 & 4 \\\\ 2 & 6\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}3 & 5 \\\\ 2 & 5\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}2 & 4 \\\\ 2 & 5\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cada elemento se multiplica por 1/2.",
+      "difficulty": "hard",
+      "procedure": ["Calcula: 6/2=3, 8/2=4, 4/2=2, 10/2=5."]
+    },
+    {
+      "question": "Multiplica la siguiente matriz 2x3 por el escalar.",
+      "formula": "\\( A = \\begin{pmatrix}2 & 3 & 4 \\\\ 5 & 6 & 7\\end{pmatrix}, \\quad k = 2 \\)",
+      "options": [
+        "\\(\\begin{pmatrix}4 & 6 & 8 \\\\ 10 & 12 & 14\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}4 & 6 & 8 \\\\ 10 & 12 & 13\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}2 & 3 & 4 \\\\ 5 & 6 & 7\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}2 & 6 & 8 \\\\ 10 & 12 & 14\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiplica cada elemento por 2.",
+      "difficulty": "hard",
+      "procedure": ["Calcula: 2×2=4, 3×2=6, 4×2=8, 5×2=10, 6×2=12, 7×2=14."]
+    },
+    {
+      "question": "Multiplica la siguiente matriz por cero.",
+      "formula": "\\( A = \\begin{pmatrix}3 & 5 \\\\ 7 & 9\\end{pmatrix}, \\quad k = 0 \\)",
+      "options": [
+        "\\(\\begin{pmatrix}0 & 0 \\\\ 0 & 0\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}3 & 5 \\\\ 7 & 9\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}0 & 5 \\\\ 7 & 9\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}3 & 0 \\\\ 0 & 9\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiplicar cualquier número por 0 resulta en 0.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplica cada elemento por 0 para obtener la matriz nula."
+      ]
+    },
+    {
+      "question": "Multiplica la siguiente matriz 3x2 por el escalar.",
+      "formula": "\\( A = \\begin{pmatrix}1 & 2 \\\\ 3 & 4 \\\\ 5 & 6\\end{pmatrix}, \\quad k = 4 \\)",
+      "options": [
+        "\\(\\begin{pmatrix}4 & 8 \\\\ 12 & 16 \\\\ 20 & 24\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}4 & 8 \\\\ 12 & 16 \\\\ 20 & 23\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}1 & 2 \\\\ 3 & 4 \\\\ 5 & 6\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}4 & 8 \\\\ 12 & 16 \\\\ 20 & 22\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cada elemento se multiplica por 4.",
+      "difficulty": "hard",
+      "procedure": ["Calcula: 1×4=4, 2×4=8, 3×4=12, 4×4=16, 5×4=20, 6×4=24."]
+    },
+    {
+      "question": "Multiplica la siguiente matriz por un escalar decimal.",
+      "formula": "\\( A = \\begin{pmatrix}2 & 4 \\\\ 6 & 8\\end{pmatrix}, \\quad k = 1.5 \\)",
+      "options": [
+        "\\(\\begin{pmatrix}3 & 6 \\\\ 9 & 12\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}3 & 6 \\\\ 9 & 11\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}2 & 4 \\\\ 6 & 8\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}4 & 6 \\\\ 9 & 12\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiplica cada elemento por 1.5.",
+      "difficulty": "hard",
+      "procedure": ["Calcula: 2×1.5=3, 4×1.5=6, 6×1.5=9, 8×1.5=12."]
+    },
+    {
+      "question": "Multiplica la siguiente matriz 2x2 por el escalar negativo.",
+      "formula": "\\( A = \\begin{pmatrix}-1 & 2 \\\\ 3 & -4\\end{pmatrix}, \\quad k = -2 \\)",
+      "options": [
+        "\\(\\begin{pmatrix}2 & -4 \\\\ -6 & 8\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}-2 & 4 \\\\ -6 & 8\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}2 & -4 \\\\ 6 & -8\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}-2 & 4 \\\\ 6 & -8\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiplica cada elemento por -2 teniendo en cuenta los signos.",
+      "difficulty": "hard",
+      "procedure": ["Calcula: (-1)×(-2)=2, 2×(-2)=-4, 3×(-2)=-6, (-4)×(-2)=8."]
+    },
+    {
+      "question": "Multiplica la siguiente matriz 3x3 por un escalar fraccionario.",
+      "formula": "\\( A = \\begin{pmatrix}3 & 6 & 9 \\\\ 2 & 4 & 6 \\\\ 1 & 2 & 3\\end{pmatrix}, \\quad k = \\frac{1}{3} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}1 & 2 & 3 \\\\ \\frac{2}{3} & \\frac{4}{3} & 2 \\\\ \\frac{1}{3} & \\frac{2}{3} & 1\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}1 & 2 & 3 \\\\ 1 & 2 & 3 \\\\ 1 & 2 & 3\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}1 & 2 & 3 \\\\ \\frac{2}{3} & \\frac{4}{3} & 2 \\\\ \\frac{1}{3} & \\frac{1}{3} & 1\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}1 & 2 & 3 \\\\ \\frac{2}{3} & \\frac{4}{3} & 2 \\\\ \\frac{1}{3} & \\frac{2}{3} & 1\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Se multiplica cada elemento por 1/3, dividiéndolo entre 3.",
+      "difficulty": "hard",
+      "procedure": [
+        "Divide cada elemento de la matriz por 3 para obtener el resultado."
+      ]
+    },
+    {
+      "question": "Calcula el producto de las siguientes matrices 2x2.",
+      "formula": "\\( A = \\begin{pmatrix}1 & 2 \\\\ 3 & 4\\end{pmatrix}, \\quad B = \\begin{pmatrix}2 & 0 \\\\ 1 & 2\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}4 & 4 \\\\ 10 & 8\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}4 & 4 \\\\ 11 & 8\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}5 & 4 \\\\ 10 & 8\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}4 & 5 \\\\ 10 & 8\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se multiplica cada fila de A por cada columna de B: 1×2+2×1=4, 1×0+2×2=4, 3×2+4×1=10 y 3×0+4×2=8.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula el producto fila-columna para cada posición de la matriz resultante."
+      ]
+    },
+    {
+      "question": "Calcula el producto de una matriz 2x3 por una 3x2.",
+      "formula": "\\( A = \\begin{pmatrix}1 & 2 & 3 \\\\ 4 & 5 & 6\\end{pmatrix}, \\quad B = \\begin{pmatrix}7 & 8 \\\\ 9 & 10 \\\\ 11 & 12\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}58 & 64 \\\\ 139 & 154\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}58 & 64 \\\\ 138 & 154\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}57 & 64 \\\\ 139 & 154\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}58 & 63 \\\\ 139 & 154\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se realiza el producto fila por columna: 1×7+2×9+3×11=58, etc.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula: (1×7+2×9+3×11, 1×8+2×10+3×12) para la primera fila y similar para la segunda."
+      ]
+    },
+    {
+      "question": "Calcula el producto de las siguientes matrices 3x3.",
+      "formula": "\\( A = \\begin{pmatrix}1 & 2 & 3 \\\\ 0 & 1 & 4 \\\\ 5 & 6 & 0\\end{pmatrix}, \\quad B = \\begin{pmatrix}-1 & 0 & 2 \\\\ 3 & 1 & 0 \\\\ 0 & 4 & 5\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}5 & 16 & 17 \\\\ 12 & 17 & 22 \\\\ 13 & 6 & 10\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}5 & 16 & 17 \\\\ 12 & 17 & 22 \\\\ 15 & 6 & 10\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}5 & 16 & 17 \\\\ 12 & 18 & 22 \\\\ 13 & 6 & 10\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}5 & 16 & 17 \\\\ 12 & 17 & 22 \\\\ 13 & 6 & 11\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiplica cada fila de A por cada columna de B aplicando la regla de producto de matrices.",
+      "difficulty": "hard",
+      "procedure": [
+        "Realiza la multiplicación fila por columna para obtener cada elemento de la matriz resultante."
+      ]
+    },
+    {
+      "question": "Determina el producto de las siguientes matrices y demuestra que la multiplicación no es conmutativa.",
+      "formula": "\\( A = \\begin{pmatrix}2 & 1 \\\\ 0 & 3\\end{pmatrix}, \\quad B = \\begin{pmatrix}1 & 4 \\\\ 2 & 5\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}4 & 13 \\\\ 6 & 15\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}4 & 13 \\\\ 5 & 15\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}3 & 12 \\\\ 6 & 15\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}4 & 12 \\\\ 6 & 15\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se calcula A×B y se observa que B×A arroja un resultado diferente, demostrando la no conmutatividad.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula: primera fila: (2×1+1×2, 2×4+1×5) y segunda fila: (0×1+3×2, 0×4+3×5)."
+      ]
+    },
+    {
+      "question": "Calcula el producto de las siguientes matrices 2x2 con elementos negativos.",
+      "formula": "\\( A = \\begin{pmatrix}-1 & 2 \\\\ 3 & -4\\end{pmatrix}, \\quad B = \\begin{pmatrix}2 & -3 \\\\ -1 & 4\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}-4 & 11 \\\\ 10 & -25\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}-4 & 10 \\\\ 10 & -25\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}-5 & 11 \\\\ 10 & -24\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}-4 & 11 \\\\ 9 & -25\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiplica elemento a elemento teniendo en cuenta los signos: (-1×2 + 2×(-1), etc.).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula: (-1×2)+(2×-1)=-4; ( -1×-3)+(2×4)=11; (3×2)+(-4×-1)=10; (3×-3)+(-4×4)=-25."
+      ]
+    },
+    {
+      "question": "Calcula el producto de una matriz 3x2 por una 2x4.",
+      "formula": "\\( A = \\begin{pmatrix}1 & 2 \\\\ 3 & 4 \\\\ 5 & 6\\end{pmatrix}, \\quad B = \\begin{pmatrix}7 & 8 & 9 & 10 \\\\ 11 & 12 & 13 & 14\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}29 & 32 & 35 & 38 \\\\ 65 & 72 & 79 & 86 \\\\ 101 & 112 & 123 & 134\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}29 & 32 & 35 & 38 \\\\ 64 & 72 & 79 & 86 \\\\ 101 & 112 & 123 & 134\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}30 & 32 & 35 & 38 \\\\ 65 & 72 & 79 & 86 \\\\ 101 & 112 & 123 & 134\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}29 & 32 & 35 & 38 \\\\ 65 & 72 & 79 & 86 \\\\ 101 & 112 & 123 & 133\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se obtiene cada elemento sumando el producto de la fila de A por la columna de B.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula cada elemento: por ejemplo, primer elemento: 1×7 + 2×11 = 29, y así sucesivamente."
+      ]
+    },
+    {
+      "question": "Calcula el producto de las siguientes matrices que contienen ceros.",
+      "formula": "\\( A = \\begin{pmatrix}0 & 2 \\\\ 3 & 0\\end{pmatrix}, \\quad B = \\begin{pmatrix}4 & 0 \\\\ 0 & 5\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}0 & 10 \\\\ 12 & 0\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}8 & 0 \\\\ 0 & 15\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}0 & 10 \\\\ 12 & 15\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}0 & 10 \\\\ 12 & 12\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiplica considerando que los ceros anulan algunos productos: 0×4+2×0=0, 0×0+2×5=10, etc.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula: fila 1, columna 1: 0×4+2×0=0; fila 1, columna 2: 0×0+2×5=10; fila 2, columna 1: 3×4+0×0=12; fila 2, columna 2: 3×0+0×5=0."
+      ]
+    },
+    {
+      "question": "Calcula el producto de las siguientes matrices con fracciones.",
+      "formula": "\\( A = \\begin{pmatrix}\\frac{1}{2} & 1 \\\\ 2 & \\frac{3}{2}\\end{pmatrix}, \\quad B = \\begin{pmatrix}2 & 0 \\\\ 0 & 4\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}1+0 & 0+4 \\\\ 4+0 & 0+6\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}1 & 4 \\\\ 4 & 6\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}1 & 4 \\\\ 4 & 6.5\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}1 & 4 \\\\ 4 & 6\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Multiplica: (1/2×2 + 1×0, 1/2×0 + 1×4, 2×2 + 3/2×0, 2×0 + 3/2×4) que da (1,4,4,6).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula: (1/2)*2=1, 1*0=0, 1/2*0=0, 1*4=4, 2*2=4, (3/2)*0=0, 2*0=0, (3/2)*4=6."
+      ]
+    },
+    {
+      "question": "Calcula el producto de una matriz 2x3 por una 3x3.",
+      "formula": "\\( A = \\begin{pmatrix}1 & 2 & 3 \\\\ 4 & 5 & 6\\end{pmatrix}, \\quad B = \\begin{pmatrix}1 & 0 & 2 \\\\ 0 & 1 & 3 \\\\ 4 & 5 & 6\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}15 & 17 & 29 \\\\ 36 & 39 & 66\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}15 & 17 & 29 \\\\ 36 & 38 & 66\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}14 & 17 & 29 \\\\ 36 & 39 & 66\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}15 & 17 & 29 \\\\ 35 & 39 & 66\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplica la regla de multiplicación de matrices sumando los productos de cada fila por cada columna.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula cada elemento: por ejemplo, para (1,1): 1×1+2×0+3×4=15; sigue de forma similar para los demás elementos."
+      ]
+    },
+    {
+      "question": "Calcula el producto de las siguientes matrices con números decimales.",
+      "formula": "\\( A = \\begin{pmatrix}1.5 & 2.5 \\\\ 3.5 & 4.5\\end{pmatrix}, \\quad B = \\begin{pmatrix}2.0 & 1.0 \\\\ 0.5 & 3.0\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}4.25 & 9.0 \\\\ 9.25 & 17.0\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}4.0 & 9.0 \\\\ 9.25 & 17.0\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}4.25 & 9.0 \\\\ 9.25 & 16.5\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}4.25 & 9.0 \\\\ 7.75 & 17.0\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiplica: para la primera fila, (1.5×2.0 + 2.5×0.5 = 4.25) y (1.5×1.0 + 2.5×3.0 = 9.0); para la segunda fila, (3.5×2.0 + 4.5×0.5 = 9.25) y (3.5×1.0 + 4.5×3.0 = 17.0).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula: 1.5×2.0=3.0, 2.5×0.5=1.25, 1.5×1.0=1.5, 2.5×3.0=7.5, 3.5×2.0=7.0, 4.5×0.5=2.25, 3.5×1.0=3.5, 4.5×3.0=13.5."
+      ]
+    },
+    {
+      "question": "Calcula la suma de las siguientes matrices 2x2 con fracciones.",
+      "formula": "\\( A = \\begin{pmatrix}\\frac{1}{2} & \\frac{2}{3} \\\\ \\frac{3}{4} & \\frac{4}{5}\\end{pmatrix}, \\quad B = \\begin{pmatrix}\\frac{1}{2} & \\frac{1}{3} \\\\ \\frac{1}{4} & \\frac{1}{5}\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}1 & 1 \\\\ 1 & 1\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}\\frac{1}{2} & 1 \\\\ 1 & 1\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}1 & \\frac{2}{3} \\\\ 1 & 1\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}\\frac{1}{2} & \\frac{1}{3} \\\\ \\frac{1}{4} & \\frac{1}{5}\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se suman elemento a elemento: \\(\\frac{1}{2}+\\frac{1}{2}=1\\), \\(\\frac{2}{3}+\\frac{1}{3}=1\\), etc.",
+      "difficulty": "hard",
+      "procedure": [
+        "Suma cada par: (1/2 + 1/2, 2/3 + 1/3, 3/4 + 1/4, 4/5 + 1/5)."
+      ]
+    },
+    {
+      "question": "Calcula la resta de las siguientes matrices 2x2 con números decimales.",
+      "formula": "\\( A = \\begin{pmatrix}5.5 & 3.3 \\\\ 7.7 & 6.6\\end{pmatrix}, \\quad B = \\begin{pmatrix}1.1 & 2.2 \\\\ 3.3 & 4.4\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}4.4 & 1.1 \\\\ 4.4 & 2.2\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}4.4 & 2.2 \\\\ 4.4 & 1.1\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}5.5 & 3.3 \\\\ 7.7 & 6.6\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}1.1 & 2.2 \\\\ 3.3 & 4.4\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se resta cada elemento: 5.5-1.1=4.4, 3.3-2.2=1.1, etc.",
+      "difficulty": "hard",
+      "procedure": ["Realiza la resta elemento a elemento entre A y B."]
+    },
+    {
+      "question": "Calcula la suma de las siguientes matrices 3x2.",
+      "formula": "\\( A = \\begin{pmatrix}1 & 2 \\\\ 3 & 4 \\\\ 5 & 6\\end{pmatrix}, \\quad B = \\begin{pmatrix}6 & 5 \\\\ 4 & 3 \\\\ 2 & 1\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}7 & 7 \\\\ 7 & 7 \\\\ 7 & 7\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}6 & 7 \\\\ 7 & 7 \\\\ 7 & 8\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}7 & 8 \\\\ 7 & 6 \\\\ 8 & 7\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}6 & 6 \\\\ 6 & 6 \\\\ 6 & 6\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se suman cada par correspondiente: 1+6, 2+5, etc., dando una matriz de 7's.",
+      "difficulty": "hard",
+      "procedure": ["Suma cada elemento de A con su correspondiente en B."]
+    },
+    {
+      "question": "Calcula la diferencia de las siguientes matrices 3x2.",
+      "formula": "\\( A = \\begin{pmatrix}7 & 8 \\\\ 9 & 10 \\\\ 11 & 12\\end{pmatrix}, \\quad B = \\begin{pmatrix}1 & 2 \\\\ 3 & 4 \\\\ 5 & 6\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}6 & 6 \\\\ 6 & 6 \\\\ 6 & 6\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}7 & 6 \\\\ 6 & 6 \\\\ 6 & 6\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}6 & 7 \\\\ 6 & 7 \\\\ 6 & 7\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}7 & 7 \\\\ 7 & 7 \\\\ 7 & 7\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se calcula: 7-1=6, 8-2=6, etc.",
+      "difficulty": "hard",
+      "procedure": [
+        "Resta cada elemento correspondiente de A y B para obtener una matriz de 6's."
+      ]
+    },
+    {
+      "question": "Calcula la suma de las siguientes matrices 2x3 con números negativos.",
+      "formula": "\\( A = \\begin{pmatrix}-1 & 2 & -3 \\\\ 4 & -5 & 6\\end{pmatrix}, \\quad B = \\begin{pmatrix}1 & -2 & 3 \\\\ -4 & 5 & -6\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}0 & 0 & 0 \\\\ 0 & 0 & 0\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}-2 & 4 & -6 \\\\ 8 & -10 & 12\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}0 & -4 & 0 \\\\ 0 & 10 & 0\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}2 & 0 & 0 \\\\ 0 & 0 & 0\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La suma de cada elemento anula al otro, resultando en ceros.",
+      "difficulty": "hard",
+      "procedure": [
+        "Suma cada elemento: (-1+1, 2+(-2), -3+3, 4+(-4), -5+5, 6+(-6))."
+      ]
+    },
+    {
+      "question": "Calcula la resta de las siguientes matrices 2x3 con números negativos.",
+      "formula": "\\( A = \\begin{pmatrix}-2 & 3 & -4 \\\\ 5 & -6 & 7\\end{pmatrix}, \\quad B = \\begin{pmatrix}-1 & -1 & -1 \\\\ 1 & 1 & 1\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}-1 & 4 & -3 \\\\ 4 & -7 & 6\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}-1 & 2 & -5 \\\\ 6 & -7 & 8\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}1 & 4 & -3 \\\\ 4 & -7 & 6\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}-1 & 4 & -3 \\\\ 4 & -5 & 6\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se resta elemento a elemento: \\(-2-(-1)=-1\\), 3-(-1)=4, etc.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula: (-2+1, 3+1, -4+1) para la primera fila y (5-1, -6-1, 7-1) para la segunda."
+      ]
+    },
+    {
+      "question": "Multiplica la siguiente matriz 3x3 por el escalar 4.",
+      "formula": "\\( A = \\begin{pmatrix}1 & 2 & 3 \\\\ 0 & -1 & 2 \\\\ 4 & 0 & 1\\end{pmatrix}, \\quad k = 4 \\)",
+      "options": [
+        "\\(\\begin{pmatrix}4 & 8 & 12 \\\\ 0 & -4 & 8 \\\\ 16 & 0 & 4\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}4 & 8 & 12 \\\\ 0 & -1 & 2 \\\\ 16 & 0 & 4\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}1 & 2 & 3 \\\\ 0 & -4 & 8 \\\\ 16 & 0 & 4\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}4 & 8 & 12 \\\\ 0 & -4 & 2 \\\\ 16 & 0 & 4\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cada elemento se multiplica por 4.",
+      "difficulty": "hard",
+      "procedure": ["Multiplica cada elemento de A por 4."]
+    },
+    {
+      "question": "Multiplica la siguiente matriz 2x2 por el escalar -3.",
+      "formula": "\\( A = \\begin{pmatrix}2 & -1 \\\\ -4 & 5\\end{pmatrix}, \\quad k = -3 \\)",
+      "options": [
+        "\\(\\begin{pmatrix}-6 & 3 \\\\ 12 & -15\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}6 & -3 \\\\ -12 & 15\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}-6 & -3 \\\\ 12 & 15\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}6 & 3 \\\\ -12 & -15\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiplica cada elemento: 2×(-3)=-6, -1×(-3)=3, etc.",
+      "difficulty": "hard",
+      "procedure": ["Calcula: 2×(-3), -1×(-3), -4×(-3), 5×(-3)."]
+    },
+    {
+      "question": "Calcula el producto de la siguiente matriz 2x3 por la siguiente matriz 3x2.",
+      "formula": "\\( A = \\begin{pmatrix}1 & 2 & 3 \\\\ 4 & 5 & 6\\end{pmatrix}, \\quad B = \\begin{pmatrix}7 & 8 \\\\ 9 & 10 \\\\ 11 & 12\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}58 & 64 \\\\ 139 & 154\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}57 & 64 \\\\ 139 & 154\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}58 & 63 \\\\ 138 & 154\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}59 & 64 \\\\ 139 & 154\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se realiza el producto fila-columna: 1×7+2×9+3×11=58, etc.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplica cada fila de A por cada columna de B para obtener el resultado."
+      ]
+    },
+    {
+      "question": "Calcula el producto de la siguiente matriz 3x2 por la siguiente matriz 2x3.",
+      "formula": "\\( A = \\begin{pmatrix}1 & 2 \\\\ 3 & 4 \\\\ 5 & 6\\end{pmatrix}, \\quad B = \\begin{pmatrix}7 & 8 & 9 \\\\ 10 & 11 & 12\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}27 & 30 & 33 \\\\ 61 & 68 & 75 \\\\ 95 & 106 & 117\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}28 & 30 & 33 \\\\ 61 & 68 & 75 \\\\ 95 & 106 & 117\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}27 & 30 & 33 \\\\ 62 & 68 & 75 \\\\ 95 & 106 & 117\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}27 & 31 & 33 \\\\ 61 & 68 & 75 \\\\ 95 & 106 & 117\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Realiza la multiplicación fila por columna para cada elemento.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula cada entrada: por ejemplo, 1×7+2×10, 1×8+2×11, etc."
+      ]
+    },
+    {
+      "question": "Calcula el producto de las siguientes matrices 3x3 que contienen ceros.",
+      "formula": "\\( A = \\begin{pmatrix}0 & 2 & 0 \\\\ 1 & 0 & 3 \\\\ 0 & 4 & 0\\end{pmatrix}, \\quad B = \\begin{pmatrix}1 & 0 & 2 \\\\ 0 & 1 & 0 \\\\ 3 & 0 & 1\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}0 & 2 & 0 \\\\ 10 & 0 & 5 \\\\ 0 & 4 & 0\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}2 & 0 & 4 \\\\ 10 & 0 & 5 \\\\ 0 & 4 & 0\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}0 & 2 & 0 \\\\ 10 & 0 & 6 \\\\ 0 & 4 & 0\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}0 & 2 & 0 \\\\ 10 & 0 & 5 \\\\ 0 & 5 & 0\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se multiplica cada fila por cada columna; por ejemplo, para la posición (2,1): 1×1+0×0+3×3=10.",
+      "difficulty": "hard",
+      "procedure": [
+        "Realiza la multiplicación fila-columna teniendo en cuenta los ceros."
+      ]
+    },
+    {
+      "question": "Calcula el producto de las siguientes matrices 2x2 con fracciones.",
+      "formula": "\\( A = \\begin{pmatrix}\\frac{1}{2} & \\frac{1}{3} \\\\ \\frac{1}{4} & \\frac{1}{5}\\end{pmatrix}, \\quad B = \\begin{pmatrix}2 & 0 \\\\ 0 & 3\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}1 & 1 \\\\ 0.5 & 0.6\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}1 & 0 \\\\ 0.5 & 0.6\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}\\frac{1}{2} & 1 \\\\ \\frac{1}{4} & 1\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}1 & 1 \\\\ 1 & 1\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se calcula: (1/2)*2 + (1/3)*0=1 y (1/2)*0+(1/3)*3=1, etc.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplica y suma: fila 1, columna 1; fila 1, columna 2; etc."
+      ]
+    },
+    {
+      "question": "Calcula el producto de las siguientes matrices 2x2 con números decimales.",
+      "formula": "\\( A = \\begin{pmatrix}1.2 & 3.4 \\\\ 5.6 & 7.8\\end{pmatrix}, \\quad B = \\begin{pmatrix}0.5 & 1.0 \\\\ 1.5 & 2.0\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}5.7 & 8.0 \\\\ 14.5 & 21.2\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}5.7 & 8.1 \\\\ 14.5 & 21.2\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}5.6 & 8.0 \\\\ 14.5 & 21.1\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}5.7 & 8.0 \\\\ 14.6 & 21.2\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se calcula: 1.2×0.5+3.4×1.5=5.7, 1.2×1.0+3.4×2.0=8.0, etc.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplica y suma cada par de elementos para obtener la matriz resultante."
+      ]
+    },
+    {
+      "question": "Calcula el producto de las siguientes matrices 3x3 con números negativos.",
+      "formula": "\\( A = \\begin{pmatrix}-1 & 2 & -3 \\\\ 4 & -5 & 6 \\\\ -7 & 8 & -9\\end{pmatrix}, \\quad B = \\begin{pmatrix}1 & -1 & 2 \\\\ -2 & 3 & -4 \\\\ 5 & -6 & 7\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}-20 & 25 & -31 \\\\ 44 & -55 & 70 \\\\ -68 & 85 & -109\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}-20 & 25 & -30 \\\\ 44 & -55 & 70 \\\\ -68 & 85 & -109\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}-19 & 25 & -31 \\\\ 44 & -55 & 70 \\\\ -68 & 85 & -109\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}-20 & 25 & -31 \\\\ 44 & -56 & 70 \\\\ -68 & 85 & -109\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiplica fila por columna en cada posición teniendo en cuenta los signos.",
+      "difficulty": "hard",
+      "procedure": [
+        "Realiza el producto para cada elemento de la matriz resultante."
+      ]
+    },
+    {
+      "question": "Demuestra que la multiplicación de matrices no es conmutativa usando las siguientes matrices 2x2.",
+      "formula": "\\( A = \\begin{pmatrix}1 & 2 \\\\ 3 & 4\\end{pmatrix}, \\quad B = \\begin{pmatrix}5 & 6 \\\\ 7 & 8\\end{pmatrix} \\)",
+      "options": [
+        "\\( A \\times B = \\begin{pmatrix}19 & 22 \\\\ 43 & 50\\end{pmatrix}\\)",
+        "\\( A \\times B = \\begin{pmatrix}23 & 34 \\\\ 31 & 46\\end{pmatrix}\\)",
+        "\\( A \\times B = \\begin{pmatrix}19 & 22 \\\\ 43 & 50\\end{pmatrix}\\) y \\( B \\times A = \\begin{pmatrix}23 & 34 \\\\ 31 & 46\\end{pmatrix}\\)",
+        "\\( A \\times B = \\begin{pmatrix}23 & 34 \\\\ 31 & 46\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se calcula A×B y se compara con B×A, observándose resultados distintos.",
+      "difficulty": "hard",
+      "procedure": ["Calcula A×B: 1×5+2×7, 1×6+2×8, etc. y compara con B×A."]
+    },
+    {
+      "question": "Calcula la suma de las siguientes matrices 4x4.",
+      "formula": "\\( A = \\begin{pmatrix}1 & 2 & 3 & 4 \\\\ 5 & 6 & 7 & 8 \\\\ 9 & 10 & 11 & 12 \\\\ 13 & 14 & 15 & 16\\end{pmatrix}, \\quad B = \\begin{pmatrix}16 & 15 & 14 & 13 \\\\ 12 & 11 & 10 & 9 \\\\ 8 & 7 & 6 & 5 \\\\ 4 & 3 & 2 & 1\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}17 & 17 & 17 & 17 \\\\ 17 & 17 & 17 & 17 \\\\ 17 & 17 & 17 & 17 \\\\ 17 & 17 & 17 & 17\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}15 & 15 & 15 & 15 \\\\ 15 & 15 & 15 & 15 \\\\ 15 & 15 & 15 & 15 \\\\ 15 & 15 & 15 & 15\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}16 & 16 & 16 & 16 \\\\ 16 & 16 & 16 & 16 \\\\ 16 & 16 & 16 & 16 \\\\ 16 & 16 & 16 & 16\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}17 & 17 & 17 & 17 \\\\ 16 & 16 & 16 & 16 \\\\ 17 & 17 & 17 & 17 \\\\ 17 & 17 & 17 & 17\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cada elemento de A se suma con el correspondiente de B, dando 17 en cada posición.",
+      "difficulty": "hard",
+      "procedure": ["Suma cada entrada de A con la correspondiente de B."]
+    },
+    {
+      "question": "Calcula la resta de las siguientes matrices 4x4.",
+      "formula": "\\( A = \\begin{pmatrix}20 & 21 & 22 & 23 \\\\ 24 & 25 & 26 & 27 \\\\ 28 & 29 & 30 & 31 \\\\ 32 & 33 & 34 & 35\\end{pmatrix}, \\quad B = \\begin{pmatrix}1 & 2 & 3 & 4 \\\\ 5 & 6 & 7 & 8 \\\\ 9 & 10 & 11 & 12 \\\\ 13 & 14 & 15 & 16\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}19 & 19 & 19 & 19 \\\\ 19 & 19 & 19 & 19 \\\\ 19 & 19 & 19 & 19 \\\\ 19 & 19 & 19 & 19\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}20 & 20 & 20 & 20 \\\\ 20 & 20 & 20 & 20 \\\\ 20 & 20 & 20 & 20 \\\\ 20 & 20 & 20 & 20\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}18 & 18 & 18 & 18 \\\\ 18 & 18 & 18 & 18 \\\\ 18 & 18 & 18 & 18 \\\\ 18 & 18 & 18 & 18\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}19 & 19 & 19 & 19 \\\\ 18 & 18 & 18 & 18 \\\\ 19 & 19 & 19 & 19 \\\\ 19 & 19 & 19 & 19\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La resta se realiza elemento a elemento, dando 19 en cada posición.",
+      "difficulty": "hard",
+      "procedure": ["Resta cada elemento de B a su correspondiente en A."]
+    },
+    {
+      "question": "Multiplica la siguiente matriz 4x4 por el escalar 3.",
+      "formula": "\\( A = \\begin{pmatrix}1 & 0 & 2 & 3 \\\\ 4 & 5 & 6 & 7 \\\\ 8 & 9 & 10 & 11 \\\\ 12 & 13 & 14 & 15\\end{pmatrix}, \\quad k = 3 \\)",
+      "options": [
+        "\\(\\begin{pmatrix}3 & 0 & 6 & 9 \\\\ 12 & 15 & 18 & 21 \\\\ 24 & 27 & 30 & 33 \\\\ 36 & 39 & 42 & 45\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}3 & 0 & 6 & 9 \\\\ 12 & 15 & 18 & 21 \\\\ 24 & 27 & 30 & 33 \\\\ 36 & 39 & 42 & 44\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}3 & 0 & 6 & 9 \\\\ 12 & 15 & 18 & 21 \\\\ 24 & 27 & 30 & 33 \\\\ 36 & 39 & 42 & 46\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}3 & 0 & 6 & 9 \\\\ 12 & 15 & 18 & 21 \\\\ 24 & 27 & 30 & 33 \\\\ 36 & 38 & 42 & 45\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cada elemento de la matriz A se multiplica por 3.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplica cada elemento de A por 3 para obtener el resultado."
+      ]
+    },
+    {
+      "question": "Calcula el producto de la siguiente matriz 2x4 por la siguiente matriz 4x2.",
+      "formula": "\\( A = \\begin{pmatrix}1 & 2 & 3 & 4 \\\\ 5 & 6 & 7 & 8\\end{pmatrix}, \\quad B = \\begin{pmatrix}1 & 0 \\\\ 0 & 1 \\\\ 1 & 0 \\\\ 0 & 1\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}4 & 6 \\\\ 12 & 14\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}4 & 6 \\\\ 11 & 13\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}4 & 5 \\\\ 12 & 14\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}5 & 6 \\\\ 12 & 14\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se calcula: fila1, col1: 1+3=4; fila1, col2: 2+4=6; fila2: 5+7=12, 6+8=14.",
+      "difficulty": "hard",
+      "procedure": [
+        "Realiza la multiplicación fila-columna para obtener cada elemento de la matriz resultado."
+      ]
+    },
+    {
+      "question": "Calcula el producto de la siguiente matriz 3x2 por la siguiente matriz 2x4.",
+      "formula": "\\( A = \\begin{pmatrix}1 & 2 \\\\ 3 & 4 \\\\ 5 & 6\\end{pmatrix}, \\quad B = \\begin{pmatrix}7 & 8 & 9 & 10 \\\\ 11 & 12 & 13 & 14\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}29 & 32 & 35 & 38 \\\\ 65 & 72 & 79 & 86 \\\\ 101 & 112 & 123 & 134\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}28 & 32 & 35 & 38 \\\\ 65 & 72 & 79 & 86 \\\\ 101 & 112 & 123 & 134\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}29 & 31 & 35 & 38 \\\\ 65 & 72 & 79 & 86 \\\\ 101 & 112 & 123 & 134\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}29 & 32 & 35 & 38 \\\\ 65 & 72 & 79 & 86 \\\\ 101 & 111 & 123 & 134\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se realiza el producto fila-columna de A y B de forma estándar.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplica cada fila de A por cada columna de B para obtener el resultado."
+      ]
+    },
+    {
+      "question": "Calcula el producto de las siguientes matrices 2x2 formadas por 1's.",
+      "formula": "\\( A = \\begin{pmatrix}1 & 1 \\\\ 1 & 1\\end{pmatrix}, \\quad B = \\begin{pmatrix}1 & 1 \\\\ 1 & 1\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}2 & 2 \\\\ 2 & 2\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}1 & 1 \\\\ 1 & 1\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}0 & 0 \\\\ 0 & 0\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}3 & 3 \\\\ 3 & 3\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cada elemento se calcula sumando 1+1, dando 2 en cada posición.",
+      "difficulty": "hard",
+      "procedure": ["Multiplica A por B: (1+1, 1+1; 1+1, 1+1)."]
+    },
+    {
+      "question": "Calcula la suma de las siguientes matrices 3x3 con elementos mixtos (fracciones y decimales).",
+      "formula": "\\( A = \\begin{pmatrix}0.5 & \\frac{1}{3} & 2.5 \\\\ 3 & 4.5 & 5 \\\\ 6 & 7 & 8.5\\end{pmatrix}, \\quad B = \\begin{pmatrix}0.5 & \\frac{2}{3} & 1.5 \\\\ 1 & 0.5 & 5 \\\\ 4 & 3 & 1.5\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}1 & 1 & 4 \\\\ 4 & 5 & 10 \\\\ 10 & 10 & 10\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}1 & 1 & 4 \\\\ 4 & 5 & 10 \\\\ 10 & 9 & 10\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}1 & 1 & 4 \\\\ 4 & 5 & 10 \\\\ 9 & 10 & 10\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}1 & 1 & 4 \\\\ 4 & 6 & 10 \\\\ 10 & 10 & 10\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se suman: 0.5+0.5=1, 1/3+2/3=1, 2.5+1.5=4, etc.",
+      "difficulty": "hard",
+      "procedure": [
+        "Suma cada elemento correspondiente para obtener la matriz resultante."
+      ]
+    },
+    {
+      "question": "Calcula la resta de las siguientes matrices 3x3 con elementos mixtos.",
+      "formula": "\\( A = \\begin{pmatrix}5 & 6 & 7 \\\\ 8 & 9 & 10 \\\\ 11 & 12 & 13\\end{pmatrix}, \\quad B = \\begin{pmatrix}1 & 2 & 3 \\\\ 4 & 5 & 6 \\\\ 7 & 8 & 9\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}4 & 4 & 4 \\\\ 4 & 4 & 4 \\\\ 4 & 4 & 4\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}5 & 5 & 5 \\\\ 5 & 5 & 5 \\\\ 5 & 5 & 5\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}4 & 3 & 4 \\\\ 4 & 4 & 4 \\\\ 4 & 4 & 4\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}4 & 4 & 4 \\\\ 3 & 4 & 4 \\\\ 4 & 4 & 4\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La resta elemento a elemento da 4 en todas las posiciones.",
+      "difficulty": "hard",
+      "procedure": ["Resta cada entrada de B de la correspondiente en A."]
+    },
+    {
+      "question": "Multiplica la siguiente matriz 3x2 por el escalar \\(\\frac{1}{2}\\).",
+      "formula": "\\( A = \\begin{pmatrix}2 & 4 \\\\ 6 & 8 \\\\ 10 & 12\\end{pmatrix}, \\quad k = \\frac{1}{2} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}1 & 2 \\\\ 3 & 4 \\\\ 5 & 6\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}1 & 2 \\\\ 3 & 5 \\\\ 5 & 6\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}2 & 4 \\\\ 6 & 8 \\\\ 10 & 12\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}0.5 & 2 \\\\ 3 & 4 \\\\ 5 & 6\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiplica cada elemento de A por 1/2.",
+      "difficulty": "hard",
+      "procedure": ["Calcula: 2×0.5, 4×0.5, etc., para cada elemento."]
+    },
+    {
+      "question": "Calcula el producto de la siguiente matriz 2x3 por la siguiente matriz 3x3.",
+      "formula": "\\( A = \\begin{pmatrix}1 & 0 & 2 \\\\ 3 & 4 & 5\\end{pmatrix}, \\quad B = \\begin{pmatrix}1 & 2 & 3 \\\\ 0 & 1 & 0 \\\\ 4 & 5 & 6\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}9 & 12 & 15 \\\\ 23 & 35 & 39\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}9 & 12 & 15 \\\\ 23 & 34 & 39\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}9 & 12 & 14 \\\\ 23 & 35 & 39\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}9 & 12 & 15 \\\\ 22 & 35 & 39\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se realiza la multiplicación fila por columna: por ejemplo, 1×1+0×0+2×4=9, etc.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplica cada fila de A por cada columna de B para obtener la matriz resultante."
+      ]
+    },
+    {
+      "question": "Calcula el producto de las siguientes matrices 2x2 con ceros.",
+      "formula": "\\( A = \\begin{pmatrix}0 & 3 \\\\ 4 & 0\\end{pmatrix}, \\quad B = \\begin{pmatrix}0 & 5 \\\\ 6 & 0\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}18 & 0 \\\\ 0 & 20\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}0 & 15 \\\\ 24 & 0\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}18 & 0 \\\\ 0 & 15\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}0 & 15 \\\\ 24 & 5\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se calcula: 0×0+3×6=18, 0×5+3×0=0, etc.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplica cada elemento correspondiente y suma para cada posición."
+      ]
+    },
+    {
+      "question": "Calcula la suma de las siguientes matrices 2x2 con elementos mixtos (negativos y positivos).",
+      "formula": "\\( A = \\begin{pmatrix}-3 & 5 \\\\ 7 & -9\\end{pmatrix}, \\quad B = \\begin{pmatrix}4 & -2 \\\\ -6 & 8\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}1 & 3 \\\\ 1 & -1\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}1 & -3 \\\\ 13 & -1\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}-7 & 3 \\\\ 1 & -17\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}7 & 3 \\\\ 1 & -1\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se suman: -3+4=1, 5+(-2)=3, 7+(-6)=1, -9+8=-1.",
+      "difficulty": "hard",
+      "procedure": ["Suma cada par de elementos de A y B."]
+    },
+    {
+      "question": "Calcula la resta de las siguientes matrices 2x3 con ceros.",
+      "formula": "\\( A = \\begin{pmatrix}0 & 2 & 0 \\\\ 3 & 0 & 4\\end{pmatrix}, \\quad B = \\begin{pmatrix}0 & 1 & 0 \\\\ 1 & 0 & 1\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}0 & 1 & 0 \\\\ 2 & 0 & 3\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}0 & 1 & 0 \\\\ 3 & 0 & 4\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}0 & 2 & 0 \\\\ 2 & 0 & 3\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}0 & 1 & 0 \\\\ 2 & 0 & 4\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se resta elemento a elemento: 0-0, 2-1, 0-0, 3-1, 0-0, 4-1.",
+      "difficulty": "hard",
+      "procedure": ["Realiza la resta: fila 1: (0, 1, 0) y fila 2: (2, 0, 3)."]
+    },
+    {
+      "question": "Multiplica la siguiente matriz 3x3 por el escalar 0.5.",
+      "formula": "\\( A = \\begin{pmatrix}2 & 4 & 6 \\\\ 8 & 10 & 12 \\\\ 14 & 16 & 18\\end{pmatrix}, \\quad k = 0.5 \\)",
+      "options": [
+        "\\(\\begin{pmatrix}1 & 2 & 3 \\\\ 4 & 5 & 6 \\\\ 7 & 8 & 9\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}1 & 2 & 3 \\\\ 4 & 5 & 7\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}2 & 4 & 6 \\\\ 8 & 10 & 12 \\\\ 14 & 16 & 18\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}0.5 & 2 & 3 \\\\ 4 & 5 & 6 \\\\ 7 & 8 & 9\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiplicar cada elemento de A por 0.5 da la matriz resultante.",
+      "difficulty": "hard",
+      "procedure": ["Calcula: 2×0.5=1, 4×0.5=2, etc."]
+    },
+    {
+      "question": "Calcula el producto de las siguientes matrices 2x3 por 3x2 con números decimales.",
+      "formula": "\\( A = \\begin{pmatrix}1.1 & 2.2 & 3.3 \\\\ 4.4 & 5.5 & 6.6\\end{pmatrix}, \\quad B = \\begin{pmatrix}7.7 & 8.8 \\\\ 9.9 & 10.1 \\\\ 11.0 & 12.2\\end{pmatrix} \\)",
+      "options": [
+        "\\(\\begin{pmatrix}66.55 & 72.16 \\\\ 160.93 & 174.79\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}66.55 & 72.00 \\\\ 160.93 & 174.79\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}66.00 & 72.16 \\\\ 160.93 & 174.79\\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix}66.55 & 72.16 \\\\ 160.00 & 174.79\\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se realiza el producto fila-columna, por ejemplo: 1.1×7.7+2.2×9.9+3.3×11.0≈66.55 y así para los demás elementos.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula cada elemento: fila1, col1; fila1, col2; fila2, col1; fila2, col2."
+      ]
+    }
+  ]
+}

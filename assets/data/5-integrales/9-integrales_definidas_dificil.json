@@ -1,0 +1,1382 @@
+{
+  "integrales_definidas_dificil": [
+    {
+      "question": "Calcula la integral definida de la función dada.",
+      "formula": "\\(\\int_{0}^{2} (3x^2 - 2x + 1)\\,dx\\)",
+      "options": ["\\(8\\)", "\\(6\\)", "\\(7\\)", "\\(5\\)"],
+      "correctAnswer": 1,
+      "explanation": "La antiderivada de \\(3x^2 - 2x + 1\\) es \\(x^3 - x^2 + x\\). Evaluándola entre 0 y 2: \\( (8 - 4 + 2) - 0 = 6\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Determinar la antiderivada: \\(\\int (3x^2 - 2x + 1)dx = x^3 - x^2 + x + C\\).",
+        "Evaluar en los extremos: en 2 se tiene \\(8 - 4 + 2 = 6\\) y en 0 es 0.",
+        "Aplicar el teorema fundamental del cálculo: \\(6 - 0 = 6\\)."
+      ]
+    },
+    {
+      "question": "Aplica el teorema fundamental del cálculo para evaluar la integral.",
+      "formula": "\\(\\int_{1}^{3} \\frac{1}{x}\\,dx\\)",
+      "options": [
+        "\\(\\ln(2)\\)",
+        "\\(\\ln(3)\\)",
+        "\\(\\ln(4)\\)",
+        "\\(\\ln(5)\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La antiderivada de \\(1/x\\) es \\(\\ln|x|\\). Al evaluar de 1 a 3 se obtiene \\(\\ln(3) - \\ln(1)=\\ln(3)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Obtener la antiderivada: \\(\\ln|x| + C\\).",
+        "Evaluar en los extremos: \\(\\ln(3) - \\ln(1)=\\ln(3)\\).",
+        "Concluir que el resultado es \\(\\ln(3)\\)."
+      ]
+    },
+    {
+      "question": "Calcula el área bajo la curva de \\(f(x)=x^3-4x\\) en el intervalo \\([-2, 2]\\).",
+      "formula": "\\(\\int_{-2}^{2} |x^3-4x|\\,dx\\)",
+      "options": ["\\(4\\)", "\\(6\\)", "\\(8\\)", "\\(10\\)"],
+      "correctAnswer": 2,
+      "explanation": "La función se anula en \\(x=-2, 0, 2\\) y cambia de signo. Calculando el área en cada tramo y sumando se obtiene un total de 8 unidades.",
+      "difficulty": "hard",
+      "procedure": [
+        "Determinar las raíces: \\(x(x^2-4)=0\\) da \\(x=-2, 0, 2\\).",
+        "Dividir el intervalo en \\([-2,0]\\) y \\([0,2]\\) y calcular el valor absoluto de la integral en cada uno.",
+        "Sumar ambas áreas: \\(4+4=8\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la siguiente integral definida.",
+      "formula": "\\(\\int_{0}^{\\pi} \\sin(x)\\,dx\\)",
+      "options": ["\\(1\\)", "\\(2\\)", "\\(3\\)", "\\(0\\)"],
+      "correctAnswer": 1,
+      "explanation": "La antiderivada de \\(\\sin(x)\\) es \\(-\\cos(x)\\). Evaluando en \\(0\\) y \\(\\pi\\) se obtiene: \\(-(-1) - (-1)=2\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Encontrar la antiderivada: \\(-\\cos(x)\\).",
+        "Evaluar en los límites: \\(-\\cos(\\pi)+\\cos(0)=1+1=2\\).",
+        "Concluir que la integral es 2."
+      ]
+    },
+    {
+      "question": "Determina el valor de la integral definida.",
+      "formula": "\\(\\int_{1}^{e} \\frac{1}{x}\\,dx\\)",
+      "options": ["\\(0\\)", "\\(1\\)", "\\(1.5\\)", "\\(2\\)"],
+      "correctAnswer": 1,
+      "explanation": "La antiderivada de \\(1/x\\) es \\(\\ln|x|\\). Así, \\(\\ln(e)-\\ln(1)=1-0=1\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar la antiderivada: \\(\\ln|x|+C\\).",
+        "Evaluar en \\(x=e\\) y \\(x=1\\).",
+        "Restar: \\(\\ln(e)-\\ln(1)=1\\)."
+      ]
+    },
+    {
+      "question": "Calcula la siguiente integral definida.",
+      "formula": "\\(\\int_{0}^{1} \\sqrt{x}\\,dx\\)",
+      "options": [
+        "\\(\\frac{1}{2}\\)",
+        "\\(\\frac{2}{3}\\)",
+        "\\(\\frac{3}{4}\\)",
+        "\\(1\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La antiderivada de \\(\\sqrt{x}=x^{1/2}\\) es \\(\\frac{2}{3}x^{3/2}\\). Evaluada entre 0 y 1 da \\(\\frac{2}{3}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Expresar \\(\\sqrt{x}\\) como \\(x^{1/2}\\).",
+        "Encontrar la antiderivada: \\(\\frac{2}{3}x^{3/2}\\).",
+        "Evaluar en 1 y 0: \\(\\frac{2}{3}(1)-0=\\frac{2}{3}\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la integral definida de la función.",
+      "formula": "\\(\\int_{-1}^{1} (1-x^2)\\,dx\\)",
+      "options": [
+        "\\(\\frac{4}{3}\\)",
+        "\\(1\\)",
+        "\\(2\\)",
+        "\\(\\frac{5}{3}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada es \\(x-\\frac{x^3}{3}\\). Al evaluar en 1 y -1, la diferencia es \\(\\frac{4}{3}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular la antiderivada: \\(x-\\frac{x^3}{3}+C\\).",
+        "Evaluar en 1: \\(1-\\frac{1}{3}=\\frac{2}{3}\\) y en -1: \\(-1-\\frac{-1}{3}=-\\frac{2}{3}\\).",
+        "Restar: \\(\\frac{2}{3}-(-\\frac{2}{3})=\\frac{4}{3}\\)."
+      ]
+    },
+    {
+      "question": "Determina el área entre las curvas \\(f(x)=e^x\\) y \\(g(x)=e^{-x}\\) en \\(x\\in[-1,1]\\).",
+      "formula": "\\(\\text{Área} = \\int_{-1}^{1} |e^x-e^{-x}|\\,dx\\)",
+      "options": [
+        "\\(2(e+e^{-1}-2)\\)",
+        "\\(e+e^{-1}-2\\)",
+        "\\(2(e-e^{-1})\\)",
+        "\\(e-e^{-1}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La función cambia de orden en \\(x=0\\). Calculando las dos integrales en los subintervalos y sumándolas se obtiene \\(2(e+e^{-1}-2)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Determinar que \\(e^x=e^{-x}\\) cuando \\(x=0\\).",
+        "Dividir el intervalo \\([-1,0]\\) y \\([0,1]\\) y calcular \\(\\int (e^{-x}-e^x)dx\\) y \\(\\int (e^x-e^{-x})dx\\).",
+        "Sumar ambas áreas para obtener el total."
+      ]
+    },
+    {
+      "question": "Calcula la siguiente integral definida.",
+      "formula": "\\(\\int_{0}^{4} 2\\sqrt{x}\\,dx\\)",
+      "options": [
+        "\\(\\frac{32}{3}\\)",
+        "\\(\\frac{16}{3}\\)",
+        "\\(10\\)",
+        "\\(\\frac{64}{3}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se extrae la constante: \\(2\\int_{0}^{4} x^{1/2}dx\\). La antiderivada es \\(\\frac{2}{3}x^{3/2}\\) y evaluándola en 4 se obtiene \\(\\frac{32}{3}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Reescribir la integral: \\(2\\int_{0}^{4} x^{1/2}dx\\).",
+        "Calcular la antiderivada: \\(\\frac{2}{3}x^{3/2}\\).",
+        "Evaluar en 4: \\(\\frac{2}{3}(8)=\\frac{16}{3}\\) y multiplicar por 2 da \\(\\frac{32}{3}\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la siguiente integral definida.",
+      "formula": "\\(\\int_{0}^{\\pi/2} \\cos(x)\\,dx\\)",
+      "options": ["\\(0\\)", "\\(1\\)", "\\(\\frac{1}{2}\\)", "\\(2\\)"],
+      "correctAnswer": 1,
+      "explanation": "La antiderivada de \\(\\cos(x)\\) es \\(\\sin(x)\\). Evaluando en \\(\\pi/2\\) y 0 se obtiene \\(1-0=1\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Encontrar la antiderivada: \\(\\sin(x)\\).",
+        "Evaluar en los extremos: \\(\\sin(\\pi/2)=1\\) y \\(\\sin(0)=0\\).",
+        "Restar para obtener el resultado."
+      ]
+    },
+    {
+      "question": "Encuentra el valor de la integral definida.",
+      "formula": "\\(\\int_{1}^{2} \\frac{2}{x^2}\\,dx\\)",
+      "options": ["\\(1\\)", "\\(2\\)", "\\(\\frac{1}{2}\\)", "\\(0\\)"],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada de \\(2x^{-2}\\) es \\(-2x^{-1}\\). Evaluando de 1 a 2 se obtiene \\(-2(1/2)+2(1)=1\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Reescribir la integral: \\(2\\int_{1}^{2} x^{-2}dx\\).",
+        "Obtener la antiderivada: \\(-2x^{-1}\\).",
+        "Evaluar en 2 y 1 y calcular la diferencia."
+      ]
+    },
+    {
+      "question": "Evalúa la siguiente integral definida.",
+      "formula": "\\(\\int_{0}^{1} (4x^3-3x^2+2x-1)\\,dx\\)",
+      "options": ["\\(0\\)", "\\(1\\)", "\\(-1\\)", "\\(2\\)"],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada es \\(x^4-x^3+x^2-x\\). Evaluada de 0 a 1 da \\(1-1+1-1=0\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular la antiderivada de cada término.",
+        "Evaluar la función en 1 y en 0.",
+        "Restar los resultados para obtener 0."
+      ]
+    },
+    {
+      "question": "Determina el valor de la siguiente integral definida.",
+      "formula": "\\(\\int_{1}^{3} \\frac{1}{x+1}\\,dx\\)",
+      "options": [
+        "\\(\\ln(2)\\)",
+        "\\(\\ln(3)\\)",
+        "\\(\\ln(4)\\)",
+        "\\(\\ln(6)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada de \\(1/(x+1)\\) es \\(\\ln|x+1|\\). Evaluando de 1 a 3: \\(\\ln(4)-\\ln(2)=\\ln(2)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Obtener la antiderivada: \\(\\ln|x+1|+C\\).",
+        "Evaluar en \\(x=3\\) y \\(x=1\\).",
+        "Calcular la diferencia: \\(\\ln(4)-\\ln(2)=\\ln(2)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida de la función cuadrática.",
+      "formula": "\\(\\int_{0}^{2} (x^2+2x+1)\\,dx\\)",
+      "options": [
+        "\\(\\frac{26}{3}\\)",
+        "\\(9\\)",
+        "\\(8\\)",
+        "\\(\\frac{27}{3}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reconociendo \\(x^2+2x+1=(x+1)^2\\), se integra obteniéndose \\((x+1)^3/3\\). Evaluando de 0 a 2: \\((3^3-1^3)/3=\\frac{26}{3}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar la forma factorizada: \\((x+1)^2\\).",
+        "Calcular la antiderivada: \\((x+1)^3/3\\).",
+        "Evaluar en los límites y restar para obtener \\(\\frac{26}{3}\\)."
+      ]
+    },
+    {
+      "question": "Determina el valor de la integral definida.",
+      "formula": "\\(\\int_{-\\pi}^{\\pi} \\cos^2(x)\\,dx\\)",
+      "options": [
+        "\\(\\pi\\)",
+        "\\(2\\pi\\)",
+        "\\(\\frac{\\pi}{2}\\)",
+        "\\(0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Utilizando la identidad \\(\\cos^2(x)=\\frac{1+\\cos(2x)}{2}\\), la integral se resuelve y da \\(\\pi\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Expresar \\(\\cos^2(x)\\) en términos de \\(\\cos(2x)\\).",
+        "Integrar cada término por separado.",
+        "Usar la simetría en el intervalo para simplificar la integral."
+      ]
+    },
+    {
+      "question": "Calcula la siguiente integral definida utilizando integración por partes.",
+      "formula": "\\(\\int_{0}^{2} \\ln(x+1)\\,dx\\)",
+      "options": [
+        "\\(3\\ln(3)-2\\)",
+        "\\(2\\ln(3)-3\\)",
+        "\\(\\ln(3)-2\\)",
+        "\\(3\\ln(3)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Con integración por partes y simplificando, se obtiene \\(3\\ln(3)-2\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Sea \\(u=\\ln(x+1)\\) y \\(dv=dx\\).",
+        "Calcular \\(du=\\frac{1}{x+1}dx\\) y \\(v=x\\).",
+        "Aplicar la fórmula de integración por partes y resolver la integral resultante."
+      ]
+    },
+    {
+      "question": "Evalúa la integral definida de la función inversa de la raíz.",
+      "formula": "\\(\\int_{1}^{4} \\frac{1}{\\sqrt{x}}\\,dx\\)",
+      "options": ["\\(2\\)", "\\(3\\)", "\\(4\\)", "\\(1\\)"],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada de \\(x^{-1/2}\\) es \\(2\\sqrt{x}\\). Evaluada de 1 a 4: \\(2(2-1)=2\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Reescribir la función como \\(x^{-1/2}\\).",
+        "Obtener la antiderivada: \\(2\\sqrt{x}\\).",
+        "Evaluar en 4 y 1 y restar: \\(2(2)-2(1)=2\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida de la función racional.",
+      "formula": "\\(\\int_{0}^{1} \\frac{1}{1+x^2}\\,dx\\)",
+      "options": [
+        "\\(\\frac{\\pi}{4}\\)",
+        "\\(\\frac{\\pi}{2}\\)",
+        "\\(1\\)",
+        "\\(\\frac{\\pi}{6}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada de \\(1/(1+x^2)\\) es \\(\\arctan(x)\\). Evaluando de 0 a 1 se obtiene \\(\\arctan(1)-\\arctan(0)=\\frac{\\pi}{4}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar la antiderivada: \\(\\arctan(x)\\).",
+        "Evaluar en los extremos: \\(\\arctan(1)=\\frac{\\pi}{4}\\) y \\(\\arctan(0)=0\\).",
+        "Obtener la diferencia."
+      ]
+    },
+    {
+      "question": "Determina el valor de la integral definida.",
+      "formula": "\\(\\int_{2}^{3} (3x^2-6x+2)\\,dx\\)",
+      "options": ["\\(6\\)", "\\(4\\)", "\\(5\\)", "\\(7\\)"],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada es \\(x^3-3x^2+2x\\). Evaluándola en 3 y en 2 se obtiene \\(6\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular la antiderivada: \\(x^3-3x^2+2x\\).",
+        "Evaluar en \\(x=3\\) y \\(x=2\\).",
+        "Restar los valores para obtener el resultado."
+      ]
+    },
+    {
+      "question": "Evalúa la integral definida usando integración por partes.",
+      "formula": "\\(\\int_{0}^{\\pi} x\\sin(x)\\,dx\\)",
+      "options": [
+        "\\(\\pi\\)",
+        "\\(\\frac{\\pi}{2}\\)",
+        "\\(2\\pi\\)",
+        "\\(0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando integración por partes (\\(u=x\\) y \\(dv=\\sin(x)dx\\)) se llega a que la integral es \\(\\pi\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Sea \\(u=x\\) y \\(dv=\\sin(x)dx\\).",
+        "Calcular \\(du=dx\\) y \\(v=-\\cos(x)\\).",
+        "Aplicar la fórmula de integración por partes y evaluar en los extremos."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida de la función exponencial.",
+      "formula": "\\(\\int_{0}^{1} e^x\\,dx\\)",
+      "options": ["\\(e-1\\)", "\\(1-e\\)", "\\(e\\)", "\\(1\\)"],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada de \\(e^x\\) es \\(e^x\\). Evaluada de 0 a 1 da \\(e-1\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar la antiderivada: \\(e^x\\).",
+        "Evaluar en 1 y en 0.",
+        "Restar: \\(e-1\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la siguiente integral definida utilizando integración por partes.",
+      "formula": "\\(\\int_{0}^{2} xe^x\\,dx\\)",
+      "options": ["\\(e^2+1\\)", "\\(e^2-1\\)", "\\(2e^2-1\\)", "\\(2e^2+1\\)"],
+      "correctAnswer": 0,
+      "explanation": "Con \\(u=x\\) y \\(dv=e^x dx\\), la integral se reduce a \\(xe^x-e^x\\) evaluada de 0 a 2, dando \\(e^2+1\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Elegir \\(u=x\\) y \\(dv=e^x dx\\).",
+        "Calcular \\(du=dx\\) y \\(v=e^x\\).",
+        "Aplicar integración por partes y evaluar en los límites."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida de la función polinómica.",
+      "formula": "\\(\\int_{0}^{1} (x^4-2x^3+x^2)\\,dx\\)",
+      "options": [
+        "\\(\\frac{1}{30}\\)",
+        "\\(\\frac{1}{6}\\)",
+        "\\(\\frac{1}{5}\\)",
+        "\\(\\frac{1}{2}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Integrando cada término se obtiene la antiderivada \\(\\frac{x^5}{5}-\\frac{x^4}{2}+\\frac{x^3}{3}\\). Al evaluar en 1 se llega a \\(\\frac{1}{30}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Integrar término a término la función.",
+        "Evaluar la antiderivada en 1 y 0.",
+        "Simplificar la expresión resultante."
+      ]
+    },
+    {
+      "question": "Determina el valor de la siguiente integral definida mediante sustitución.",
+      "formula": "\\(\\int_{0}^{1} \\frac{x}{\\sqrt{1-x^2}}\\,dx\\)",
+      "options": ["1", "\\(\\frac{1}{2}\\)", "2", "0"],
+      "correctAnswer": 0,
+      "explanation": "Mediante la sustitución \\(u=1-x^2\\), la integral se transforma y se evalúa dando como resultado 1.",
+      "difficulty": "hard",
+      "procedure": [
+        "Realizar el cambio de variable \\(u=1-x^2\\) y calcular \\(du=-2x dx\\).",
+        "Ajustar los límites de integración y la constante.",
+        "Integrar y evaluar en los nuevos límites."
+      ]
+    },
+    {
+      "question": "Evalúa la siguiente integral definida utilizando sustitución logarítmica.",
+      "formula": "\\(\\int_{1}^{2} \\frac{\\ln(x)}{x}\\,dx\\)",
+      "options": [
+        "\\(\\frac{(\\ln2)^2}{2}\\)",
+        "\\(\\ln2\\)",
+        "\\(\\frac{(\\ln2)^2}{4}\\)",
+        "\\(\\ln(2)^2\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mediante la sustitución \\(u=\\ln(x)\\) se llega a integrar \\(u\\) y se obtiene \\(\\frac{(\\ln2)^2}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Sea \\(u=\\ln(x)\\) de modo que \\(du=\\frac{1}{x}dx\\).",
+        "La integral se convierte en \\(\\int u\\,du\\).",
+        "Calcular \\(\\frac{u^2}{2}\\) y evaluar en los límites correspondientes."
+      ]
+    },
+    {
+      "question": "Calcula la siguiente integral definida de la función tangente.",
+      "formula": "\\(\\int_{0}^{\\pi/4} \\tan(x)\\,dx\\)",
+      "options": [
+        "\\(\\frac{1}{2}\\ln2\\)",
+        "\\(\\ln2\\)",
+        "\\(\\frac{1}{4}\\ln2\\)",
+        "\\(\\ln\\frac{1}{\\sqrt{2}}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada de \\(\\tan(x)\\) es \\(-\\ln|\\cos(x)|\\). Evaluada de 0 a \\(\\pi/4\\) da \\(\\frac{1}{2}\\ln2\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Reconocer que \\(\\int \\tan(x)dx=-\\ln|\\cos(x)|+C\\).",
+        "Evaluar en \\(x=\\pi/4\\) y en \\(x=0\\).",
+        "Calcular la diferencia y simplificar."
+      ]
+    },
+    {
+      "question": "Encuentra el valor de la siguiente integral definida.",
+      "formula": "\\(\\int_{-1}^{1} (1+x^2)\\,dx\\)",
+      "options": [
+        "\\(\\frac{8}{3}\\)",
+        "\\(\\frac{4}{3}\\)",
+        "2",
+        "\\(\\frac{10}{3}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada es \\(x+\\frac{x^3}{3}\\). Evaluada en 1 y -1, la diferencia da \\(\\frac{8}{3}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular la antiderivada: \\(x+\\frac{x^3}{3}\\).",
+        "Evaluar en \\(x=1\\) y \\(x=-1\\).",
+        "Restar y simplificar para obtener \\(\\frac{8}{3}\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la siguiente integral definida mediante sustitución.",
+      "formula": "\\(\\int_{0}^{3} \\sqrt{3x+1}\\,dx\\)",
+      "options": [
+        "\\(\\frac{2}{9}(10^{3/2}-1)\\)",
+        "\\(\\frac{2}{3}(10^{3/2}-1)\\)",
+        "\\(\\frac{1}{9}(10^{3/2}-1)\\)",
+        "\\(\\frac{2}{9}(10-1)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Con la sustitución \\(u=3x+1\\) se transforma la integral, y al evaluarla se obtiene \\(\\frac{2}{9}(10^{3/2}-1)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Realizar el cambio de variable \\(u=3x+1\\) y ajustar \\(dx=du/3\\).",
+        "Modificar los límites: de \\(x=0\\) a \\(u=1\\) y de \\(x=3\\) a \\(u=10\\).",
+        "Integrar \\(\\sqrt{u}\\) y evaluar la expresión resultante."
+      ]
+    },
+    {
+      "question": "Calcula la siguiente integral definida de la función racional.",
+      "formula": "\\(\\int_{0}^{1} \\frac{1}{(x+2)^2}\\,dx\\)",
+      "options": [
+        "\\(\\frac{1}{6}\\)",
+        "\\(\\frac{1}{3}\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(\\frac{1}{4}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada de \\(1/(x+2)^2\\) es \\(-1/(x+2)\\). Evaluándola de 0 a 1 se obtiene \\(-1/3+1/2=1/6\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular la antiderivada: \\(-1/(x+2)+C\\).",
+        "Evaluar en \\(x=1\\) y \\(x=0\\).",
+        "Restar los valores para obtener \\(1/6\\)."
+      ]
+    },
+    {
+      "question": "Determina el valor de la integral definida mediante sustitución.",
+      "formula": "\\(\\int_{1}^{3} \\frac{2x}{x^2+1}\\,dx\\)",
+      "options": [
+        "\\(\\ln(5)\\)",
+        "\\(\\ln(10)\\)",
+        "\\(\\ln(2)\\)",
+        "\\(\\ln(4)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Con la sustitución \\(u=x^2+1\\) se tiene \\(du=2xdx\\), y la integral se convierte en \\(\\int \\frac{1}{u}du\\). Evaluándola se obtiene \\(\\ln(10)-\\ln(2)=\\ln(5)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Realizar el cambio de variable \\(u=x^2+1\\) con \\(du=2x\\,dx\\).",
+        "Modificar los límites: para \\(x=1, u=2\\) y para \\(x=3, u=10\\).",
+        "Integrar \\(1/u\\) y evaluar la diferencia de logaritmos."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida de la función lineal.",
+      "formula": "\\(\\int_{0}^{3} (2x+1)\\,dx\\)",
+      "options": ["\\(12\\)", "\\(10\\)", "\\(11\\)", "\\(13\\)"],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada de \\(2x+1\\) es \\(x^2+x\\). Evaluando de 0 a 3: \\( (9+3)-0=12\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular la antiderivada: \\(\\int (2x+1)dx=x^2+x+C\\).",
+        "Evaluar en \\(x=3\\): \\(3^2+3=9+3=12\\) y en \\(x=0\\): 0.",
+        "Restar: \\(12-0=12\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la integral definida de la función exponencial.",
+      "formula": "\\(\\int_{0}^{1} e^{2x}\\,dx\\)",
+      "options": [
+        "\\(\\frac{e^2-1}{2}\\)",
+        "\\(e^2-1\\)",
+        "\\(\\frac{e^2+1}{2}\\)",
+        "\\(e-1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada de \\(e^{2x}\\) es \\(\\frac{e^{2x}}{2}\\). Evaluada de 0 a 1: \\(\\frac{e^2-1}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Encontrar la antiderivada: \\(\\int e^{2x}dx=\\frac{e^{2x}}{2}+C\\).",
+        "Evaluar en \\(x=1\\): \\(\\frac{e^2}{2}\\) y en \\(x=0\\): \\(\\frac{1}{2}\\).",
+        "Calcular la diferencia: \\(\\frac{e^2-1}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida de la función logarítmica.",
+      "formula": "\\(\\int_{1}^{e} \\ln(x)\\,dx\\)",
+      "options": ["\\(1\\)", "\\(e-1\\)", "\\(\\ln(e)\\)", "\\(e\\)"],
+      "correctAnswer": 0,
+      "explanation": "Usando integración por partes, la antiderivada de \\(\\ln(x)\\) es \\(x\\ln(x)-x\\). Al evaluar de 1 a \\(e\\) se obtiene: \\((e\\cdot1-e)-(1\\cdot0-1)=1\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Sea \\(u=\\ln(x)\\) y \\(dv=dx\\) para aplicar integración por partes.",
+        "Obtener la antiderivada: \\(x\\ln(x)-x+C\\).",
+        "Evaluar en \\(x=e\\) y \\(x=1\\) y restar los resultados."
+      ]
+    },
+    {
+      "question": "Determina el valor de la integral definida de la función raíz.",
+      "formula": "\\(\\int_{1}^{4} \\frac{1}{\\sqrt{x}}\\,dx\\)",
+      "options": ["\\(2\\)", "\\(3\\)", "\\(4\\)", "\\(\\sqrt{3}\\)"],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada de \\(\\frac{1}{\\sqrt{x}}=x^{-1/2}\\) es \\(2\\sqrt{x}\\). Evaluada de 1 a 4: \\(2(2)-2(1)=4-2=2\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Expresar la función como \\(x^{-1/2}\\).",
+        "Calcular la antiderivada: \\(\\int x^{-1/2}dx=2\\sqrt{x}+C\\).",
+        "Evaluar en \\(x=4\\) y \\(x=1\\) y restar: \\(4-2=2\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida de la función trigonométrica.",
+      "formula": "\\(\\int_{0}^{\\pi/4} \\cos(2x)\\,dx\\)",
+      "options": [
+        "\\(\\frac{1}{2}\\)",
+        "\\(\\frac{1}{4}\\)",
+        "\\(\\frac{\\sqrt{2}}{2}\\)",
+        "\\(\\frac{1}{\\sqrt{2}}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada de \\(\\cos(2x)\\) es \\(\\frac{\\sin(2x)}{2}\\). Evaluando: \\(\\frac{\\sin(\\pi/2)}{2}-0=\\frac{1}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Encontrar la antiderivada: \\(\\int \\cos(2x)dx=\\frac{\\sin(2x)}{2}+C\\).",
+        "Evaluar en \\(x=\\pi/4\\): \\(\\frac{\\sin(\\pi/2)}{2}=\\frac{1}{2}\\) y en \\(x=0\\): 0.",
+        "Calcular la diferencia."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida utilizando integración por partes.",
+      "formula": "\\(\\int_{0}^{1} xe^x\\,dx\\)",
+      "options": ["\\(1\\)", "\\(e-1\\)", "\\(e\\)", "\\(\\frac{e}{2}\\)"],
+      "correctAnswer": 0,
+      "explanation": "Con \\(u=x\\) y \\(dv=e^x dx\\), se obtiene la antiderivada \\(e^x(x-1)\\). Evaluada de 0 a 1: \\(e(0)-[1(-1)]=1\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Seleccionar \\(u=x\\) y \\(dv=e^x dx\\).",
+        "Obtener \\(du=dx\\) y \\(v=e^x\\).",
+        "Aplicar la fórmula de integración por partes: \\(xe^x-e^x\\), evaluar en 1 y 0 y restar."
+      ]
+    },
+    {
+      "question": "Evalúa la integral definida de la función trigonométrica.",
+      "formula": "\\(\\int_{0}^{\\pi/4} \\sec^2(x)\\,dx\\)",
+      "options": [
+        "\\(1\\)",
+        "\\(\\frac{\\pi}{4}\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(\\sqrt{2}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada de \\(\\sec^2(x)\\) es \\(\\tan(x)\\). Evaluando en \\(\\pi/4\\) y 0: \\(\\tan(\\pi/4)-\\tan(0)=1-0=1\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Determinar la antiderivada: \\(\\tan(x)+C\\).",
+        "Evaluar en \\(x=\\pi/4\\): 1 y en \\(x=0\\): 0.",
+        "Calcular la diferencia: 1."
+      ]
+    },
+    {
+      "question": "Determina el valor de la integral definida de la función racional.",
+      "formula": "\\(\\int_{0}^{\\sqrt{3}} \\frac{1}{1+x^2}\\,dx\\)",
+      "options": [
+        "\\(\\frac{\\pi}{3}\\)",
+        "\\(\\frac{\\pi}{4}\\)",
+        "\\(\\frac{\\pi}{6}\\)",
+        "\\(\\frac{\\pi}{2}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada de \\(1/(1+x^2)\\) es \\(\\arctan(x)\\). Evaluando de 0 a \\(\\sqrt{3}\\): \\(\\arctan(\\sqrt{3})-\\arctan(0)=\\frac{\\pi}{3}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Obtener la antiderivada: \\(\\arctan(x)+C\\).",
+        "Evaluar en \\(x=\\sqrt{3}\\): \\(\\frac{\\pi}{3}\\) y en \\(x=0\\): 0.",
+        "Restar para obtener \\(\\frac{\\pi}{3}\\)."
+      ]
+    },
+    {
+      "question": "Determina el valor de la integral definida de la función cuadrática.",
+      "formula": "\\(\\int_{1}^{3} (x^2-4x+3)\\,dx\\)",
+      "options": [
+        "\\(-\\frac{4}{3}\\)",
+        "\\(\\frac{4}{3}\\)",
+        "\\(0\\)",
+        "\\(\\frac{2}{3}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada de \\(x^2-4x+3\\) es \\(\\frac{x^3}{3}-2x^2+3x\\). Al evaluar en 3 y 1 se obtiene \\(-\\frac{4}{3}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular la antiderivada: \\(\\frac{x^3}{3}-2x^2+3x+C\\).",
+        "Evaluar en \\(x=3\\) y \\(x=1\\).",
+        "Restar los valores para obtener \\(-\\frac{4}{3}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida que representa el área de un cuarto de círculo.",
+      "formula": "\\(\\int_{0}^{1} \\sqrt{1-x^2}\\,dx\\)",
+      "options": [
+        "\\(\\frac{\\pi}{4}\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(\\frac{\\pi}{2}\\)",
+        "\\(1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La integral \\(\\int_{0}^{1} \\sqrt{1-x^2}dx\\) representa el área de un cuarto de círculo de radio 1, que es \\(\\frac{\\pi}{4}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Reconocer que la integral corresponde al área de un cuarto de círculo.",
+        "Utilizar el resultado geométrico: \\(\\frac{\\pi r^2}{4}\\) con \\(r=1\\).",
+        "Concluir que el resultado es \\(\\frac{\\pi}{4}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida de la función exponencial decreciente.",
+      "formula": "\\(\\int_{0}^{1} e^{-x}\\,dx\\)",
+      "options": ["\\(1-e^{-1}\\)", "\\(e^{-1}\\)", "\\(1\\)", "\\(e-1\\)"],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada de \\(e^{-x}\\) es \\(-e^{-x}\\). Evaluada de 0 a 1: \\(-e^{-1}+e^{0}=1-e^{-1}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular la antiderivada: \\(\\int e^{-x}dx=-e^{-x}+C\\).",
+        "Evaluar en \\(x=1\\) y en \\(x=0\\).",
+        "Obtener la diferencia: \\(1-e^{-1}\\)."
+      ]
+    },
+    {
+      "question": "Determina el valor de la integral definida utilizando sustitución logarítmica.",
+      "formula": "\\(\\int_{e}^{e^2} \\frac{1}{x\\ln(x)}\\,dx\\)",
+      "options": ["\\(\\ln(2)\\)", "\\(1\\)", "\\(\\ln(e)\\)", "\\(e\\)"],
+      "correctAnswer": 0,
+      "explanation": "Con la sustitución \\(u=\\ln(x)\\), se tiene \\(du=\\frac{dx}{x}\\). La integral se transforma en \\(\\int_{1}^{2} \\frac{1}{u}du=\\ln(2)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Realizar el cambio de variable: \\(u=\\ln(x)\\), de donde \\(du=\\frac{dx}{x}\\).",
+        "Modificar los límites: para \\(x=e, u=1\\) y para \\(x=e^2, u=2\\).",
+        "Integrar \\(\\frac{1}{u}\\) y evaluar: \\(\\ln2\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la integral definida de la función trigonométrica al cuadrado.",
+      "formula": "\\(\\int_{0}^{\\pi} \\sin^2(x)\\,dx\\)",
+      "options": [
+        "\\(\\frac{\\pi}{2}\\)",
+        "\\(\\pi\\)",
+        "\\(\\frac{\\pi}{4}\\)",
+        "\\(\\frac{\\pi}{3}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Utilizando la identidad \\(\\sin^2(x)=\\frac{1-\\cos(2x)}{2}\\), la integral se resuelve y da \\(\\frac{\\pi}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Expresar \\(\\sin^2(x)\\) como \\(\\frac{1-\\cos(2x)}{2}\\).",
+        "Integrar: \\(\\int_{0}^{\\pi} \\frac{1}{2}dx - \\frac{1}{2}\\int_{0}^{\\pi} \\cos(2x)dx\\).",
+        "Obtener el resultado: \\(\\frac{\\pi}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida de la función hiperbólica.",
+      "formula": "\\(\\int_{0}^{1} \\cosh(x)\\,dx\\)",
+      "options": [
+        "\\(\\sinh(1)\\)",
+        "\\(\\cosh(1)\\)",
+        "\\(\\cosh(1)-1\\)",
+        "\\(1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada de \\(\\cosh(x)\\) es \\(\\sinh(x)\\). Evaluada de 0 a 1: \\(\\sinh(1)-0=\\sinh(1)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Determinar la antiderivada: \\(\\int \\cosh(x)dx=\\sinh(x)+C\\).",
+        "Evaluar en \\(x=1\\) y \\(x=0\\).",
+        "Restar para obtener \\(\\sinh(1)\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la integral definida de la función hiperbólica inversa.",
+      "formula": "\\(\\int_{0}^{1} \\frac{1}{\\cosh^2(x)}\\,dx\\)",
+      "options": [
+        "\\(\\tanh(1)\\)",
+        "\\(\\cosh(1)\\)",
+        "\\(\\sinh(1)\\)",
+        "\\(1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada de \\(1/\\cosh^2(x)\\) es \\(\\tanh(x)\\). Evaluada de 0 a 1: \\(\\tanh(1)-0=\\tanh(1)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar que \\(\\int \\frac{dx}{\\cosh^2(x)}=\\tanh(x)+C\\).",
+        "Evaluar en \\(x=1\\) y en \\(x=0\\).",
+        "Restar los valores para obtener \\(\\tanh(1)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida usando sustitución.",
+      "formula": "\\(\\int_{0}^{1} \\frac{x}{x^2+1}\\,dx\\)",
+      "options": [
+        "\\(\\frac{1}{2}\\ln(2)\\)",
+        "\\(\\ln(2)\\)",
+        "\\(\\frac{1}{4}\\ln(2)\\)",
+        "\\(1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Con la sustitución \\(u=x^2+1\\) y \\(du=2x dx\\), la integral se reduce a \\(\\frac{1}{2}\\int \\frac{du}{u}=\\frac{1}{2}\\ln(u)\\) evaluada de 1 a 2, resultando en \\(\\frac{1}{2}\\ln2\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Realizar el cambio de variable: \\(u=x^2+1\\) y \\(du=2x dx\\).",
+        "Ajustar la constante y los límites: cuando \\(x=0, u=1\\) y cuando \\(x=1, u=2\\).",
+        "Integrar \\(\\frac{1}{u}\\) y evaluar: \\(\\frac{1}{2}\\ln2\\)."
+      ]
+    },
+    {
+      "question": "Determina el valor de la integral definida de la función logarítmica modificada.",
+      "formula": "\\(\\int_{0}^{1} \\ln(1+x)\\,dx\\)",
+      "options": [
+        "\\(2\\ln2-1\\)",
+        "\\(\\ln2\\)",
+        "\\(1\\)",
+        "\\(\\ln(1+x)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada de \\(\\ln(1+x)\\) es \\((1+x)\\ln(1+x)-x\\). Evaluando de 0 a 1 se obtiene \\(2\\ln2-1\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular la antiderivada: \\(\\int \\ln(1+x)dx=(1+x)\\ln(1+x)-x+C\\).",
+        "Evaluar en \\(x=1\\) y \\(x=0\\).",
+        "Restar para obtener \\(2\\ln2-1\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la integral definida de la función racional con parámetro.",
+      "formula": "\\(\\int_{0}^{2} \\frac{1}{x^2+4}\\,dx\\)",
+      "options": [
+        "\\(\\frac{1}{2}\\arctan\\left(\\frac{x}{2}\\right)\\Big|_0^2\\)",
+        "\\(\\arctan\\left(\\frac{x}{2}\\right)\\Big|_0^2\\)",
+        "\\(\\frac{1}{4}\\ln\\left(\\frac{x^2+4}{4}\\right)\\Big|_0^2\\)",
+        "\\(\\ln(2)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada de \\(1/(x^2+4)\\) es \\(\\frac{1}{2}\\arctan(x/2)\\). Evaluando de 0 a 2 se obtiene \\(\\frac{1}{2}(\\arctan(1)-0)=\\frac{\\pi}{8}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Utilizar la fórmula estándar: \\(\\int \\frac{dx}{x^2+a^2}=\\frac{1}{a}\\arctan(x/a)+C\\) con \\(a=2\\).",
+        "Evaluar en \\(x=2\\) y \\(x=0\\).",
+        "Obtener el resultado: \\(\\frac{1}{2}\\arctan(1)=\\frac{\\pi}{8}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida de la función potencia.",
+      "formula": "\\(\\int_{-1}^{1} x^3\\,dx\\)",
+      "options": ["0", "1", "-1", "\\(\\frac{1}{2}\\)"],
+      "correctAnswer": 0,
+      "explanation": "La función \\(x^3\\) es impar y el intervalo es simétrico respecto a 0, por lo que la integral es 0.",
+      "difficulty": "hard",
+      "procedure": [
+        "Observar que \\(x^3\\) es una función impar.",
+        "Utilizar la propiedad de simetría: la integral de una función impar en \\([-a,a]\\) es 0.",
+        "Concluir que la respuesta es 0."
+      ]
+    },
+    {
+      "question": "Determina el área bajo la curva de la función valor absoluto.",
+      "formula": "\\(\\int_{-2}^{2} |x|\\,dx\\)",
+      "options": ["4", "2", "0", "8"],
+      "correctAnswer": 0,
+      "explanation": "El área se obtiene calculando dos veces la integral de \\(x\\) en \\([0,2]\\): \\(2\\times\\frac{2^2}{2}=4\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Dividir el intervalo en \\([-2,0]\\) y \\([0,2]\\) aprovechando la simetría.",
+        "Calcular \\(\\int_{0}^{2} x\\,dx=\\frac{2^2}{2}=2\\).",
+        "Multiplicar por 2: \\(2\\times2=4\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida de la función semicírculo.",
+      "formula": "\\(\\int_{0}^{2} \\sqrt{4-x^2}\\,dx\\)",
+      "options": ["\\(\\pi\\)", "\\(\\frac{\\pi}{2}\\)", "\\(2\\)", "\\(4\\)"],
+      "correctAnswer": 0,
+      "explanation": "La integral representa el área de un cuarto de círculo de radio 2, que es \\(\\frac{\\pi\\cdot4}{4}=\\pi\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar que la función corresponde a la semicírculo \\(y=\\sqrt{4-x^2}\\).",
+        "Recordar que el área de un cuarto de círculo es \\(\\frac{\\pi r^2}{4}\\).",
+        "Con \\(r=2\\), se tiene \\(\\frac{\\pi\\cdot4}{4}=\\pi\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la integral definida de la función producto de senos.",
+      "formula": "\\(\\int_{0}^{\\pi/2} \\cos(x)\\sin(x)\\,dx\\)",
+      "options": [
+        "\\(\\frac{1}{2}\\)",
+        "1",
+        "\\(\\frac{\\pi}{4}\\)",
+        "\\(\\frac{1}{4}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mediante la sustitución \\(u=\\sin(x)\\) se llega a que la integral es \\(\\frac{1}{2}\\sin^2(x)\\) evaluada de 0 a \\(\\pi/2\\), dando \\(\\frac{1}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Utilizar la identidad o realizar la sustitución \\(u=\\sin(x)\\) con \\(du=\\cos(x)dx\\).",
+        "Integrar y evaluar: \\(\\frac{1}{2}\\sin^2(x)\\) de 0 a \\(\\pi/2\\).",
+        "Obtener \\(\\frac{1}{2}(1-0)=\\frac{1}{2}\\)."
+      ]
+    },
+    {
+      "question": "Determina el valor de la integral definida usando derivadas inversas.",
+      "formula": "\\(\\int_{0}^{\\pi/4} \\sec(x)\\tan(x)\\,dx\\)",
+      "options": [
+        "\\(\\sqrt{2}-1\\)",
+        "\\(\\tan(\\pi/4)\\)",
+        "\\(\\sec(\\pi/4)-1\\)",
+        "\\(1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada de \\(\\sec(x)\\tan(x)\\) es \\(\\sec(x)\\). Evaluando de 0 a \\(\\pi/4\\): \\(\\sec(\\pi/4)-\\sec(0)=\\sqrt{2}-1\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Reconocer que \\(\\frac{d}{dx}\\sec(x)=\\sec(x)\\tan(x)\\).",
+        "Evaluar \\(\\sec(\\pi/4)=\\sqrt{2}\\) y \\(\\sec(0)=1\\).",
+        "Restar: \\(\\sqrt{2}-1\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida de la función racional.",
+      "formula": "\\(\\int_{1}^{3} \\frac{1}{(1+x)^2}\\,dx\\)",
+      "options": [
+        "\\(\\frac{1}{4}\\)",
+        "\\(\\frac{1}{3}\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(\\frac{1}{5}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada de \\(1/(1+x)^2\\) es \\(-\\frac{1}{1+x}\\). Evaluada de 1 a 3: \\(-\\frac{1}{4}+\\frac{1}{2}=\\frac{1}{4}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Encontrar la antiderivada: \\(\\int \\frac{dx}{(1+x)^2}=-\\frac{1}{1+x}+C\\).",
+        "Evaluar en \\(x=3\\) y \\(x=1\\).",
+        "Restar los valores para obtener \\(\\frac{1}{4}\\)."
+      ]
+    },
+    {
+      "question": "Determina el valor de la integral definida usando integración por partes.",
+      "formula": "\\(\\int_{0}^{1} x^2e^x\\,dx\\)",
+      "options": ["\\(e-2\\)", "\\(2e-3\\)", "\\(e-1\\)", "\\(2-e\\)"],
+      "correctAnswer": 0,
+      "explanation": "Aplicando integración por partes dos veces se obtiene la antiderivada \\(e^x(x^2-2x+2)\\). Evaluando de 0 a 1 se deduce que el resultado es \\(e-2\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar integración por partes con \\(u=x^2\\) y \\(dv=e^x dx\\).",
+        "Repetir el proceso con el término resultante hasta obtener la antiderivada cerrada.",
+        "Evaluar la expresión en los límites y simplificar para obtener \\(e-2\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la integral definida de la función recíproca de la raíz.",
+      "formula": "\\(\\int_{0}^{1} \\frac{1}{\\sqrt{1-x^2}}\\,dx\\)",
+      "options": [
+        "\\(\\frac{\\pi}{2}\\)",
+        "\\(1\\)",
+        "\\(\\frac{\\pi}{4}\\)",
+        "\\(\\frac{1}{2}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada de \\(1/\\sqrt{1-x^2}\\) es \\(\\arcsin(x)\\). Evaluando de 0 a 1 se obtiene \\(\\frac{\\pi}{2}-0=\\frac{\\pi}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar la antiderivada: \\(\\arcsin(x)+C\\).",
+        "Evaluar en \\(x=1\\) y en \\(x=0\\).",
+        "Restar: \\(\\frac{\\pi}{2}\\)."
+      ]
+    },
+    {
+      "question": "Determina el valor de la integral definida de la función hiperbólica.",
+      "formula": "\\(\\int_{0}^{1} \\sinh(x)\\,dx\\)",
+      "options": [
+        "\\(\\cosh(1)-1\\)",
+        "\\(\\sinh(1)\\)",
+        "\\(1\\)",
+        "\\(\\cosh(1)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada de \\(\\sinh(x)\\) es \\(\\cosh(x)\\). Evaluando en 0 y 1: \\(\\cosh(1)-\\cosh(0)=\\cosh(1)-1\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular la antiderivada: \\(\\int \\sinh(x)dx=\\cosh(x)+C\\).",
+        "Evaluar en \\(x=1\\) y \\(x=0\\).",
+        "Restar: \\(\\cosh(1)-1\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida de \\(x^2\\) en el intervalo [0, 1].",
+      "formula": "\\(\\int_{0}^{1} x^2\\,dx\\)",
+      "options": [
+        "\\(\\frac{1}{2}\\)",
+        "\\(\\frac{1}{4}\\)",
+        "\\(\\frac{1}{3}\\)",
+        "\\(\\frac{1}{6}\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Aplicamos la regla de potencias: \\(\\int x^2 dx = \\frac{x^3}{3}\\). Evaluando de 0 a 1 obtenemos \\(\\frac{1^3}{3} - \\frac{0^3}{3} = \\frac{1}{3}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordamos que \\(\\int x^n dx = \\frac{x^{n+1}}{n+1}\\).",
+        "Aplicamos la fórmula con \\(n=2\\): \\(\\frac{x^3}{3}\\).",
+        "Evaluamos la primitiva en los límites: \\(\\frac{1^3}{3} - \\frac{0^3}{3}\\).",
+        "Obtenemos el resultado: \\(\\frac{1}{3}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida de \\(3x\\) en el intervalo [-1, 1].",
+      "formula": "\\(\\int_{-1}^{1} 3x\\,dx\\)",
+      "options": ["\\(0\\)", "\\(3\\)", "\\(-3\\)", "\\(6\\)"],
+      "correctAnswer": 0,
+      "explanation": "La función \\(3x\\) es impar, por lo que su integral simétrica en [-1, 1] es 0.",
+      "difficulty": "hard",
+      "procedure": [
+        "Notamos que \\(3x\\) es una función impar.",
+        "La integral de una función impar en un intervalo simétrico respecto al origen se anula.",
+        "Por lo tanto, \\(\\int_{-1}^{1} 3x\\,dx = 0\\)."
+      ]
+    },
+    {
+      "question": "Calcula el área bajo la curva \\(f(x)=x^2\\) entre 0 y 2.",
+      "formula": "\\(\\int_{0}^{2} x^2\\,dx\\)",
+      "options": [
+        "\\(4\\)",
+        "\\(\\frac{8}{3}\\)",
+        "\\(\\frac{2}{3}\\)",
+        "\\(\\frac{16}{3}\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La antiderivada de \\(x^2\\) es \\(\\frac{x^3}{3}\\). Evaluando de 0 a 2: \\(\\frac{8}{3} - 0 = \\frac{8}{3}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Encontramos la antiderivada: \\(\\frac{x^3}{3}\\).",
+        "Evaluamos en 2: \\(\\frac{2^3}{3} = \\frac{8}{3}\\).",
+        "Evaluamos en 0 y restamos: \\(\\frac{8}{3} - 0 = \\frac{8}{3}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida de \\(2x\\) en el intervalo [1, 4].",
+      "formula": "\\(\\int_{1}^{4} 2x\\,dx\\)",
+      "options": ["\\(15\\)", "\\(14\\)", "\\(12\\)", "\\(16\\)"],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada de \\(2x\\) es \\(x^2\\). Evaluamos en 4 y 1: \\(4^2 - 1^2 = 16 - 1 = 15\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Integramos: \\(\\int 2x dx = x^2\\).",
+        "Evaluamos en el límite superior: \\(4^2 = 16\\).",
+        "Evaluamos en el límite inferior: \\(1^2 = 1\\).",
+        "Restamos: \\(16 - 1 = 15\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida de \\(\\sin x\\) en el intervalo [0, \\(\\pi\\)].",
+      "formula": "\\(\\int_{0}^{\\pi} \\sin x\\,dx\\)",
+      "options": ["\\(2\\)", "\\(0\\)", "\\(\\pi\\)", "\\(1\\)"],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada de \\(\\sin x\\) es \\(-\\cos x\\). Evaluando de 0 a \\(\\pi\\): \\(-\\cos \\pi + \\cos 0 = 1 + 1 = 2\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordamos que \\(\\int \\sin x dx = -\\cos x\\).",
+        "Evaluamos en \\(x=\\pi\\): \\(-\\cos \\pi = 1\\).",
+        "Evaluamos en \\(x=0\\): \\(-\\cos 0 = -1\\).",
+        "Calculamos la diferencia: \\(1 - (-1) = 2\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida de \\(\\cos x\\) en el intervalo [0, \\(\\pi/2\\)].",
+      "formula": "\\(\\int_{0}^{\\pi/2} \\cos x\\,dx\\)",
+      "options": [
+        "\\(\\frac{\\pi}{2}\\)",
+        "\\(1\\)",
+        "\\(0\\)",
+        "\\(\\frac{1}{2}\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La antiderivada de \\(\\cos x\\) es \\(\\sin x\\). Evaluando: \\(\\sin (\\pi/2) - \\sin 0 = 1 - 0 = 1\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Integramos: \\(\\int \\cos x dx = \\sin x\\).",
+        "Evaluamos en \\(\\pi/2\\): \\(\\sin(\\pi/2) = 1\\).",
+        "Evaluamos en 0: \\(\\sin 0 = 0\\).",
+        "La diferencia es \\(1 - 0 = 1\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida de \\(3x^2 + 2x + 1\\) en el intervalo [0, 1].",
+      "formula": "\\(\\int_{0}^{1} (3x^2 + 2x + 1)\\,dx\\)",
+      "options": ["\\(2\\)", "\\(3\\)", "\\(\\frac{5}{2}\\)", "\\(4\\)"],
+      "correctAnswer": 1,
+      "explanation": "Integrando término a término: \\(\\int 3x^2 dx = x^3\\), \\(\\int 2x dx = x^2\\) y \\(\\int 1 dx = x\\). Al evaluar de 0 a 1 se obtiene \\(1+1+1 = 3\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calculamos la antiderivada de cada término.",
+        "Sumamos: \\(x^3 + x^2 + x\\).",
+        "Evaluamos en 1 y 0: \\(1+1+1 - 0 = 3\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida de \\(2x+3\\) en el intervalo [0, 2].",
+      "formula": "\\(\\int_{0}^{2} (2x+3)\\,dx\\)",
+      "options": ["\\(8\\)", "\\(10\\)", "\\(12\\)", "\\(14\\)"],
+      "correctAnswer": 1,
+      "explanation": "La antiderivada es \\(x^2+3x\\). Evaluando en 2: \\(4+6=10\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Integramos: \\(\\int 2x dx = x^2\\) y \\(\\int 3 dx = 3x\\).",
+        "Sumamos la primitiva: \\(x^2+3x\\).",
+        "Evaluamos en 2: \\(2^2+3\\times2 = 4+6 = 10\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida de \\(4\\) en el intervalo [0, 4].",
+      "formula": "\\(\\int_{0}^{4} 4\\,dx\\)",
+      "options": ["\\(12\\)", "\\(16\\)", "\\(8\\)", "\\(20\\)"],
+      "correctAnswer": 1,
+      "explanation": "La integral de una constante es el producto de la constante por la longitud del intervalo: \\(4\\times4=16\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordamos que \\(\\int_{a}^{b} c\\,dx = c(b-a)\\).",
+        "Calculamos: \\(4(4-0)=16\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida de \\(\\frac{1}{x}\\) en el intervalo [1, e].",
+      "formula": "\\(\\int_{1}^{e} \\frac{1}{x}\\,dx\\)",
+      "options": ["\\(1\\)", "\\(e-1\\)", "\\(\\ln 2\\)", "\\(\\frac{1}{e}\\)"],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada de \\(1/x\\) es \\(\\ln|x|\\). Evaluando de 1 a e: \\(\\ln e - \\ln 1 = 1 - 0 = 1\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Utilizamos que \\(\\int \\frac{1}{x}dx = \\ln|x|\\).",
+        "Evaluamos: \\(\\ln(e)-\\ln(1)=1-0=1\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida de \\(x e^x\\) en el intervalo [0, 2].",
+      "formula": "\\(\\int_{0}^{2} x e^x\\,dx\\)",
+      "options": ["\\(e^2 - 1\\)", "\\(e^2 + 1\\)", "\\(2e^2\\)", "\\(e^2\\)"],
+      "correctAnswer": 1,
+      "explanation": "Utilizando integración por partes, se obtiene que \\(\\int x e^x dx = e^x(x-1) + C\\). Evaluando de 0 a 2: \\(e^2(2-1)-[e^0(0-1)] = e^2+1\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicamos integración por partes con \\(u=x\\) y \\(dv=e^x dx\\).",
+        "Obtenemos: \\(\\int x e^x dx = e^x(x-1)+C\\).",
+        "Evaluamos en 2 y 0: \\(e^2(2-1) - (e^0(0-1)) = e^2+1\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida de \\((1-x)^2\\) en el intervalo [0, 1].",
+      "formula": "\\(\\int_{0}^{1} (1-x)^2\\,dx\\)",
+      "options": [
+        "\\(\\frac{1}{3}\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(\\frac{2}{3}\\)",
+        "\\(1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Expandimos \\((1-x)^2=1-2x+x^2\\) e integramos: \\(x - x^2 + \\frac{x^3}{3}\\). Evaluando de 0 a 1 da \\(1-1+\\frac{1}{3}=\\frac{1}{3}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Expandimos la expresión: \\(1-2x+x^2\\).",
+        "Integramos cada término: \\(\\int 1 dx = x\\), \\(\\int -2x dx = -x^2\\) y \\(\\int x^2 dx = \\frac{x^3}{3}\\).",
+        "Sumamos y evaluamos en [0,1]: \\(1-1+\\frac{1}{3}=\\frac{1}{3}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida de \\(x^3\\) en el intervalo [-2, 2].",
+      "formula": "\\(\\int_{-2}^{2} x^3\\,dx\\)",
+      "options": ["\\(0\\)", "\\(8\\)", "\\(-8\\)", "\\(16\\)"],
+      "correctAnswer": 0,
+      "explanation": "La función \\(x^3\\) es impar, por lo que su integral en un intervalo simétrico es 0.",
+      "difficulty": "hard",
+      "procedure": [
+        "Se reconoce que \\(x^3\\) es una función impar.",
+        "La integral de una función impar en \\([-a,a]\\) es 0.",
+        "Por ello, \\(\\int_{-2}^{2} x^3 dx = 0\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida de \\(\\sqrt{x}\\) en el intervalo [0, 1].",
+      "formula": "\\(\\int_{0}^{1} \\sqrt{x}\\,dx\\)",
+      "options": [
+        "\\(\\frac{2}{3}\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(1\\)",
+        "\\(\\frac{3}{2}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada de \\(\\sqrt{x}\\) es \\(\\frac{2}{3}x^{3/2}\\). Evaluando de 0 a 1 se obtiene \\(\\frac{2}{3}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Convertimos \\(\\sqrt{x}\\) en \\(x^{1/2}\\).",
+        "Integramos: \\(\\int x^{1/2} dx = \\frac{2}{3}x^{3/2}\\).",
+        "Evaluamos en 1: \\(\\frac{2}{3}\\) y en 0: 0, resultando en \\(\\frac{2}{3}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida de \\(\\frac{1}{1+x^2}\\) en el intervalo [0, 1].",
+      "formula": "\\(\\int_{0}^{1} \\frac{1}{1+x^2}\\,dx\\)",
+      "options": [
+        "\\(\\frac{\\pi}{4}\\)",
+        "\\(\\frac{\\pi}{2}\\)",
+        "\\(1\\)",
+        "\\(\\frac{1}{2}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada de \\(\\frac{1}{1+x^2}\\) es \\(\\arctan x\\). Evaluando de 0 a 1: \\(\\arctan(1)-\\arctan(0)=\\frac{\\pi}{4}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordamos que \\(\\int \\frac{1}{1+x^2}dx = \\arctan x\\).",
+        "Evaluamos: \\(\\arctan(1)=\\frac{\\pi}{4}\\) y \\(\\arctan(0)=0\\).",
+        "La diferencia es \\(\\frac{\\pi}{4}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida de \\(\\tan x\\) en el intervalo [0, \\(\\pi/4\\)].",
+      "formula": "\\(\\int_{0}^{\\pi/4} \\tan x\\,dx\\)",
+      "options": [
+        "\\(\\frac{1}{2}\\ln 2\\)",
+        "\\(\\ln 2\\)",
+        "\\(0\\)",
+        "\\(\\frac{\\ln 2}{4}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se utiliza la fórmula de la antiderivada de \\(\\tan x\\): \\(-\\ln |\\cos x|\\). Evaluando en \\(\\pi/4\\) y 0 se obtiene \\(-\\ln(\\frac{\\sqrt{2}}{2}) = \\frac{1}{2}\\ln2\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordamos que \\(\\int \\tan x dx = -\\ln|\\cos x|\\).",
+        "Evaluamos en \\(x=\\pi/4\\): \\(-\\ln(\\frac{\\sqrt{2}}{2})\\).",
+        "Utilizando propiedades logarítmicas, se simplifica a \\(\\frac{1}{2}\\ln2\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida de \\(2x^3 - x\\) en el intervalo [0, 1].",
+      "formula": "\\(\\int_{0}^{1} (2x^3 - x)\\,dx\\)",
+      "options": [
+        "\\(0\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(1\\)",
+        "\\(-\\frac{1}{2}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Integrando: \\(\\int 2x^3 dx = \\frac{x^4}{2}\\) y \\(\\int x dx = \\frac{x^2}{2}\\). Al evaluar en [0,1] se obtiene \\(\\frac{1}{2}-\\frac{1}{2}=0\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Integramos cada término: \\(\\frac{x^4}{2}\\) y \\(\\frac{x^2}{2}\\).",
+        "Evaluamos en 1: \\(\\frac{1}{2} - \\frac{1}{2} = 0\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida de \\(x+1\\) en el intervalo [0, 3].",
+      "formula": "\\(\\int_{0}^{3} (x+1)\\,dx\\)",
+      "options": [
+        "\\(\\frac{15}{2}\\)",
+        "\\(\\frac{13}{2}\\)",
+        "\\(7\\)",
+        "\\(8\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada de \\(x+1\\) es \\(\\frac{x^2}{2}+x\\). Evaluando en 3: \\(\\frac{9}{2}+3=\\frac{15}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calculamos la primitiva: \\(\\frac{x^2}{2}+x\\).",
+        "Evaluamos en \\(x=3\\): \\(\\frac{9}{2}+3 = \\frac{15}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida de \\(3x^2\\) en el intervalo [0, 2].",
+      "formula": "\\(\\int_{0}^{2} 3x^2\\,dx\\)",
+      "options": ["\\(6\\)", "\\(8\\)", "\\(4\\)", "\\(10\\)"],
+      "correctAnswer": 1,
+      "explanation": "La antiderivada de \\(3x^2\\) es \\(x^3\\). Evaluando en 2: \\(2^3=8\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Integramos: \\(\\int 3x^2 dx = x^3\\).",
+        "Evaluamos en \\(x=2\\): \\(2^3 = 8\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida de \\(\\frac{1}{x^2}\\) en el intervalo [1, 2].",
+      "formula": "\\(\\int_{1}^{2} \\frac{1}{x^2}\\,dx\\)",
+      "options": [
+        "\\(\\frac{1}{2}\\)",
+        "\\(-\\frac{1}{2}\\)",
+        "\\(1\\)",
+        "\\(\\frac{3}{2}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reescribimos \\(\\frac{1}{x^2}\\) como \\(x^{-2}\\). Su antiderivada es \\(-x^{-1}\\). Evaluando de 1 a 2: \\(-\\frac{1}{2}+1=\\frac{1}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Convertimos la función: \\(\\frac{1}{x^2} = x^{-2}\\).",
+        "Integramos: \\(\\int x^{-2} dx = -x^{-1}\\).",
+        "Evaluamos en 2 y 1: \\(-\\frac{1}{2} - (-1) = \\frac{1}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida de \\(\\cos^2 x\\) en el intervalo [0, \\(\\pi\\)].",
+      "formula": "\\(\\int_{0}^{\\pi} \\cos^2 x\\,dx\\)",
+      "options": [
+        "\\(\\frac{\\pi}{2}\\)",
+        "\\(\\frac{\\pi}{4}\\)",
+        "\\(\\pi\\)",
+        "\\(\\frac{\\pi}{3}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Utilizando la identidad \\(\\cos^2 x=\\frac{1+\\cos2x}{2}\\), la integral se convierte en \\(\\frac{1}{2}\\int_0^\\pi (1+\\cos2x)dx = \\frac{1}{2}(\\pi+0)=\\frac{\\pi}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicamos la identidad: \\(\\cos^2 x=\\frac{1+\\cos2x}{2}\\).",
+        "Integramos: \\(\\frac{1}{2}\\left[\\int_0^\\pi 1 dx + \\int_0^\\pi \\cos2x dx\\right]\\).",
+        "Calculamos: \\(\\frac{1}{2}(\\pi+0)=\\frac{\\pi}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida de \\(4x-1\\) en el intervalo [0, 2].",
+      "formula": "\\(\\int_{0}^{2} (4x-1)\\,dx\\)",
+      "options": ["\\(6\\)", "\\(5\\)", "\\(7\\)", "\\(8\\)"],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada de \\(4x-1\\) es \\(2x^2-x\\). Evaluando en 2: \\(8-2=6\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Integramos cada término: \\(\\int 4x dx = 2x^2\\) y \\(\\int -1 dx = -x\\).",
+        "Evaluamos en 2: \\(2(4)-2=8-2=6\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida de \\(e^x\\) en el intervalo [0, 1].",
+      "formula": "\\(\\int_{0}^{1} e^x\\,dx\\)",
+      "options": ["\\(e-1\\)", "\\(e\\)", "\\(1\\)", "\\(e+1\\)"],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada de \\(e^x\\) es \\(e^x\\). Evaluando en 0 y 1: \\(e^1-e^0=e-1\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Sabemos que \\(\\int e^x dx = e^x\\).",
+        "Evaluamos en 1 y 0: \\(e-1\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida de \\((x+2)^2\\) en el intervalo [0, 2].",
+      "formula": "\\(\\int_{0}^{2} (x+2)^2\\,dx\\)",
+      "options": [
+        "\\(\\frac{56}{3}\\)",
+        "\\(18\\)",
+        "\\(\\frac{50}{3}\\)",
+        "\\(\\frac{60}{3}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Expandimos \\((x+2)^2=x^2+4x+4\\) e integramos: \\(\\frac{x^3}{3}+2x^2+4x\\). Evaluando en 2: \\(\\frac{8}{3}+8+8=\\frac{56}{3}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Expandimos la expresión: \\(x^2+4x+4\\).",
+        "Integramos cada término: \\(\\frac{x^3}{3}\\), \\(2x^2\\) y \\(4x\\).",
+        "Evaluamos en 2 y sumamos para obtener \\(\\frac{56}{3}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida de \\(\\frac{2}{x}\\) en el intervalo [1, 3].",
+      "formula": "\\(\\int_{1}^{3} \\frac{2}{x}\\,dx\\)",
+      "options": [
+        "\\(2\\ln 3\\)",
+        "\\(\\ln 3\\)",
+        "\\(2\\ln 2\\)",
+        "\\(\\ln 2\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada de \\(\\frac{2}{x}\\) es \\(2\\ln|x|\\). Evaluando de 1 a 3 se obtiene \\(2\\ln3-2\\ln1=2\\ln3\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Integramos: \\(\\int \\frac{2}{x}dx = 2\\ln|x|\\).",
+        "Evaluamos en 3 y 1: \\(2\\ln3 - 2\\ln1=2\\ln3\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida de \\(3-2x\\) en el intervalo [0, 1].",
+      "formula": "\\(\\int_{0}^{1} (3-2x)\\,dx\\)",
+      "options": ["\\(2\\)", "\\(1\\)", "\\(3\\)", "\\(0\\)"],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada de \\(3-2x\\) es \\(3x-x^2\\). Evaluando en 1: \\(3-1=2\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Integramos: \\(\\int 3 dx = 3x\\) y \\(\\int -2x dx = -x^2\\).",
+        "Evaluamos en 1: \\(3-1=2\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida de \\(x^2+1\\) en el intervalo [0, 2].",
+      "formula": "\\(\\int_{0}^{2} (x^2+1)\\,dx\\)",
+      "options": [
+        "\\(\\frac{14}{3}\\)",
+        "\\(4\\)",
+        "\\(5\\)",
+        "\\(\\frac{16}{3}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada de \\(x^2\\) es \\(\\frac{x^3}{3}\\) y de 1 es \\(x\\). Evaluando en 2: \\(\\frac{8}{3}+2=\\frac{14}{3}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calculamos la primitiva: \\(\\frac{x^3}{3}+x\\).",
+        "Evaluamos en 2: \\(\\frac{8}{3}+2=\\frac{14}{3}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el área bajo la curva \\(1-x^2\\) en el intervalo [-1, 1].",
+      "formula": "\\(\\int_{-1}^{1} (1-x^2)\\,dx\\)",
+      "options": [
+        "\\(\\frac{4}{3}\\)",
+        "\\(\\frac{2}{3}\\)",
+        "\\(1\\)",
+        "\\(\\frac{8}{3}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada de \\(1-x^2\\) es \\(x-\\frac{x^3}{3}\\). Evaluando en 1 y -1, la diferencia es \\(\\frac{4}{3}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Integramos: \\(\\int (1-x^2)dx = x-\\frac{x^3}{3}\\).",
+        "Evaluamos en 1 y -1 y calculamos la diferencia para obtener \\(\\frac{4}{3}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida de \\(x\\) en el intervalo [0, 4].",
+      "formula": "\\(\\int_{0}^{4} x\\,dx\\)",
+      "options": ["\\(6\\)", "\\(8\\)", "\\(10\\)", "\\(4\\)"],
+      "correctAnswer": 1,
+      "explanation": "La antiderivada de \\(x\\) es \\(\\frac{x^2}{2}\\). Evaluando en 4: \\(\\frac{16}{2}=8\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Integramos: \\(\\int x dx = \\frac{x^2}{2}\\).",
+        "Evaluamos en 4: \\(\\frac{16}{2}=8\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral definida de \\(\\sin^2 x\\) en el intervalo [0, \\(\\pi/2\\)].",
+      "formula": "\\(\\int_{0}^{\\pi/2} \\sin^2 x\\,dx\\)",
+      "options": [
+        "\\(\\frac{\\pi}{4}\\)",
+        "\\(\\frac{\\pi}{2}\\)",
+        "\\(\\frac{\\pi}{8}\\)",
+        "\\(\\frac{\\pi}{6}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Utilizando la identidad \\(\\sin^2 x=\\frac{1-\\cos2x}{2}\\), la integral se simplifica y se obtiene \\(\\frac{\\pi}{4}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicamos la identidad: \\(\\sin^2 x=\\frac{1-\\cos2x}{2}\\).",
+        "Integramos para obtener: \\(\\frac{x}{2}-\\frac{\\sin2x}{4}\\).",
+        "Evaluamos en [0, \\(\\pi/2\\)] para obtener \\(\\frac{\\pi}{4}\\)."
+      ]
+    }
+  ]
+}

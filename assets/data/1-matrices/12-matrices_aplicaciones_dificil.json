@@ -1,0 +1,1445 @@
+{
+  "matrices_aplicaciones_dificil": [
+    {
+      "question": "Resuelve el siguiente sistema de ecuaciones usando la representación matricial (Ax = b): 2x + 3y = 5 y 4x - y = 3.",
+      "formula": "\\(\\begin{pmatrix} 2 & 3 \\\\ 4 & -1 \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\end{pmatrix}=\\begin{pmatrix} 5 \\\\ 3 \\end{pmatrix}\\)",
+      "options": [
+        "\\(x=2,\\; y=0\\)",
+        "\\(x=0,\\; y=3\\)",
+        "\\(x=1,\\; y=1\\)",
+        "\\(x=-1,\\; y=4\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Despejando y sustituyendo se obtiene: de la segunda ecuación, y = 4x - 3; sustituyendo en la primera: 2x + 3(4x-3) = 5, lo que lleva a x = 1 y posteriormente y = 1.",
+      "difficulty": "hard",
+      "procedure": [
+        "Aísla una variable en una de las ecuaciones (por ejemplo, de 4x - y = 3 se obtiene y = 4x - 3).",
+        "Sustituye esta expresión en la otra ecuación: 2x + 3(4x - 3) = 5.",
+        "Resuelve la ecuación resultante para encontrar x y luego sustituye para hallar y.",
+        "Verifica que la solución satisface ambas ecuaciones."
+      ]
+    },
+    {
+      "question": "Determina la solución del sistema representado en forma matricial: 3x - y = 2 y 5x + 2y = 9.",
+      "formula": "\\(\\begin{pmatrix} 3 & -1 \\\\ 5 & 2 \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\end{pmatrix}=\\begin{pmatrix} 2 \\\\ 9 \\end{pmatrix}\\)",
+      "options": [
+        "\\(x=1,\\; y=2\\)",
+        "\\(x=2,\\; y=1\\)",
+        "\\(x=1,\\; y=-1\\)",
+        "\\(x=0,\\; y=3\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Resolviendo el sistema se obtiene x = 1 y y = 2, comprobable sustituyendo en ambas ecuaciones.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplica la primera ecuación para eliminar y y combina con la segunda.",
+        "Despeja x y luego sustituye en una de las ecuaciones para encontrar y.",
+        "Verifica la solución en ambas ecuaciones."
+      ]
+    },
+    {
+      "question": "Resuelve el siguiente sistema de 3 ecuaciones: x + y + z = 6, 2x - y + 3z = 14, y - z = -1, utilizando la forma matricial Ax = b.",
+      "formula": "\\(\\begin{pmatrix} 1 & 1 & 1 \\\\ 2 & -1 & 3 \\\\ 0 & 1 & -1 \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix}=\\begin{pmatrix} 6 \\\\ 14 \\\\ -1 \\end{pmatrix}\\)",
+      "options": [
+        "\\(x=2,\\; y=3,\\; z=1\\)",
+        "\\(x=3,\\; y=2,\\; z=1\\)",
+        "\\(x=1,\\; y=2,\\; z=3\\)",
+        "\\(x=2,\\; y=1,\\; z=3\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando eliminación gaussiana se obtiene la solución única: x=2, y=3, z=1.",
+      "difficulty": "hard",
+      "procedure": [
+        "Forma la matriz aumentada del sistema.",
+        "Aplica eliminación gaussiana para triangular la matriz.",
+        "Realiza la sustitución regresiva para obtener las variables."
+      ]
+    },
+    {
+      "question": "Utiliza el método de la matriz aumentada para resolver el sistema: x - 2y = -1 y 3x + y = 10.",
+      "formula": "\\(\\left[\\begin{array}{cc|c} 1 & -2 & -1 \\\\ 3 & 1 & 10 \\end{array}\\right]\\)",
+      "options": [
+        "\\(x=2,\\; y=1.5\\)",
+        "\\(x=3,\\; y=2\\)",
+        "\\(x=2,\\; y=2\\)",
+        "\\(x=3,\\; y=1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mediante eliminación se llega a x = 2 y y = 1.5, comprobable sustituyendo en las ecuaciones originales.",
+      "difficulty": "hard",
+      "procedure": [
+        "Escribe la matriz aumentada del sistema.",
+        "Realiza operaciones elementales para obtener un cero en la posición (2,1).",
+        "Resuelve la ecuación resultante para y y luego para x."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema de ecuaciones: 4x + 2y = 10 y 2x - 3y = -1, usando la representación Ax = b.",
+      "formula": "\\(\\begin{pmatrix} 4 & 2 \\\\ 2 & -3 \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\end{pmatrix}=\\begin{pmatrix} 10 \\\\ -1 \\end{pmatrix}\\)",
+      "options": [
+        "\\(x=2,\\; y=1\\)",
+        "\\(x=1,\\; y=3\\)",
+        "\\(x=2,\\; y=2\\)",
+        "\\(x=3,\\; y=1\\)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Al resolver el sistema se obtiene x = 3 y y = 1, cumpliendo ambas ecuaciones.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplica o divide las ecuaciones si es necesario para igualar coeficientes.",
+        "Sustrae una ecuación de la otra para eliminar una variable.",
+        "Resuelve para la variable restante y sustituye para encontrar la otra."
+      ]
+    },
+    {
+      "question": "Encuentra la solución del sistema usando la inversa de la matriz A: A = \\(\\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}\\), b = \\(\\begin{pmatrix} 5 \\\\ 11 \\end{pmatrix}\\).",
+      "formula": "\\(Ax=b\\)",
+      "options": [
+        "\\(x=\\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix}\\)",
+        "\\(x=\\begin{pmatrix} 2 \\\\ 1 \\end{pmatrix}\\)",
+        "\\(x=\\begin{pmatrix} 3 \\\\ -1 \\end{pmatrix}\\)",
+        "\\(x=\\begin{pmatrix} -1 \\\\ 3 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se calcula la inversa de A y se multiplica por b, obteniendo la solución x = [1, 2]^T.",
+      "difficulty": "hard",
+      "procedure": [
+        "Determina la inversa de la matriz A.",
+        "Multiplica la inversa de A por el vector b.",
+        "Verifica el resultado sustituyendo en la ecuación Ax = b."
+      ]
+    },
+    {
+      "question": "Determina si el siguiente sistema tiene solución única, infinitas soluciones o ninguna: x + 2y = 4 y 2x + 4y = 8.",
+      "formula": "\\(\\begin{pmatrix} 1 & 2 \\\\ 2 & 4 \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\end{pmatrix}=\\begin{pmatrix} 4 \\\\ 8 \\end{pmatrix}\\)",
+      "options": [
+        "\\(Solución\\;única\\)",
+        "\\(Infinitas\\;soluciones\\)",
+        "\\(Ninguna\\;solución\\)",
+        "\\(Depende\\;del\\;método\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las ecuaciones son múltiplos entre sí, lo que indica que hay infinitas soluciones.",
+      "difficulty": "hard",
+      "procedure": [
+        "Observa que la segunda ecuación es el doble de la primera.",
+        "Concluye que ambas representan la misma recta.",
+        "Determina que el sistema es compatible indeterminado."
+      ]
+    },
+    {
+      "question": "Dada la transformación lineal T: \\(\\mathbb{R}^2 \\to \\mathbb{R}^2\\) definida por \\(T(x,y)= (2x - y, x + 3y)\\), calcula la imagen del vector \\((1,2)\\).",
+      "formula": "\\(T(1,2)= (2(1)-2, 1+3(2))\\)",
+      "options": [
+        "\\(T(1,2)=(0,7)\\)",
+        "\\(T(1,2)=(1,8)\\)",
+        "\\(T(1,2)=(2,7)\\)",
+        "\\(T(1,2)=(0,8)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Calculando se obtiene: 2(1)-2 = 0 y 1+6 = 7, por lo tanto la imagen es (0,7).",
+      "difficulty": "hard",
+      "procedure": [
+        "Sustituye las coordenadas del vector en la función T.",
+        "Realiza las operaciones correspondientes.",
+        "Obtén el vector imagen."
+      ]
+    },
+    {
+      "question": "Determina la imagen del vector \\((0,1)\\) bajo la transformación lineal de rotación de 90° en el plano.",
+      "formula": "\\(T(x,y)= (-y, x)\\)",
+      "options": [
+        "\\(T(0,1)=(-1,0)\\)",
+        "\\(T(0,1)=(1,0)\\)",
+        "\\(T(0,1)=(0,-1)\\)",
+        "\\(T(0,1)=(0,1)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Una rotación de 90° transforma \\((0,1)\\) en \\((-1,0)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Utiliza la matriz de rotación para 90°, que es \\(\\begin{pmatrix}0 & -1\\\\ 1 & 0\\end{pmatrix}\\).",
+        "Multiplica esta matriz por el vector \\((0,1)\\).",
+        "El resultado es \\((-1,0)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la imagen del vector \\((3, -2)\\) mediante la transformación de reflexión respecto al eje x.",
+      "formula": "\\(T(x,y)= (x, -y)\\)",
+      "options": [
+        "\\(T(3,-2)=(3,2)\\)",
+        "\\(T(3,-2)=(-3,2)\\)",
+        "\\(T(3,-2)=(3,-2)\\)",
+        "\\(T(3,-2)=(-3,-2)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La reflexión respecto al eje x cambia el signo de la componente y, por lo que \\((3,-2)\\) se transforma en \\((3,2)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identifica la transformación de reflexión respecto al eje x.",
+        "Aplica la transformación: la componente x se mantiene y la componente y cambia de signo.",
+        "Obtén la imagen del vector."
+      ]
+    },
+    {
+      "question": "Resuelve el siguiente sistema de 3 ecuaciones por el método de la matriz aumentada: x + y + z = 3, 2x - y + z = 2, x + 2y - z = 0.",
+      "formula": "\\(\\left[\\begin{array}{ccc|c} 1 & 1 & 1 & 3 \\\\ 2 & -1 & 1 & 2 \\\\ 1 & 2 & -1 & 0 \\end{array}\\right]\\)",
+      "options": [
+        "\\(x=1,\\; y=1,\\; z=1\\)",
+        "\\(x=0,\\; y=2,\\; z=1\\)",
+        "\\(x=1,\\; y=0,\\; z=2\\)",
+        "\\(x=2,\\; y=-1,\\; z=2\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mediante eliminación se determina que la solución es x=1, y=0 y z=2.",
+      "difficulty": "hard",
+      "procedure": [
+        "Construye la matriz aumentada del sistema.",
+        "Aplica operaciones elementales para triangular la matriz.",
+        "Utiliza sustitución regresiva para obtener cada variable."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la matriz de coeficientes y resuelve el sistema: 3x + 2y = 8, x - y = 1.",
+      "formula": "\\(\\begin{pmatrix} 3 & 2 \\\\ 1 & -1 \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\end{pmatrix}=\\begin{pmatrix} 8 \\\\ 1 \\end{pmatrix}\\)",
+      "options": [
+        "\\(det=-5,\\; x=2,\\; y=1\\)",
+        "\\(det=5,\\; x=2,\\; y=1\\)",
+        "\\(det=-5,\\; x=1,\\; y=2\\)",
+        "\\(det=5,\\; x=1,\\; y=2\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El determinante es \\(-5\\) y aplicando la fórmula de la inversa se llega a la solución x=2, y=1.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula el determinante de la matriz: 3×(-1) - 2×1 = -5.",
+        "Verifica que el determinante es distinto de 0, lo que garantiza solución única.",
+        "Utiliza la inversa de la matriz para hallar x y y."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema de ecuaciones utilizando la regla de Cramer: 2x + 3y = 7, 4x - y = 5.",
+      "formula": "\\(Ax=b\\) con \\(A=\\begin{pmatrix} 2 & 3 \\\\ 4 & -1 \\end{pmatrix}\\) y \\(b=\\begin{pmatrix} 7 \\\\ 5 \\end{pmatrix}\\)",
+      "options": [
+        "\\(x=2,\\; y=1\\)",
+        "\\(x=1,\\; y=2\\)",
+        "\\(x=3,\\; y=0\\)",
+        "\\(x=0,\\; y=3\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla de Cramer se obtiene x=2 y y=1, calculando los determinantes correspondientes.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula el determinante de A.",
+        "Sustituye la columna de b para encontrar los determinantes de A_x y A_y.",
+        "Aplica la fórmula de Cramer: x = det(A_x)/det(A) y y = det(A_y)/det(A)."
+      ]
+    },
+    {
+      "question": "Resuelve el siguiente sistema con coeficientes fraccionarios: \\(\\frac{1}{2}x + \\frac{3}{4}y = 2\\) y \\(\\frac{2}{3}x - \\frac{1}{2}y = 1\\).",
+      "formula": "\\(\\begin{pmatrix} \\frac{1}{2} & \\frac{3}{4} \\\\ \\frac{2}{3} & -\\frac{1}{2} \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\end{pmatrix}=\\begin{pmatrix} 2 \\\\ 1 \\end{pmatrix}\\)",
+      "options": [
+        "\\(x=2,\\; y=\\frac{4}{3}\\)",
+        "\\(x=3,\\; y=1\\)",
+        "\\(x=2,\\; y=1\\)",
+        "\\(x=1,\\; y=2\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiplicando para eliminar fracciones y aplicando eliminación se obtiene la solución x=2 y y=4/3.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplica las ecuaciones por el mínimo común múltiplo de los denominadores para eliminar fracciones.",
+        "Resuelve el sistema resultante por el método de eliminación o sustitución.",
+        "Obtén los valores de x y y."
+      ]
+    },
+    {
+      "question": "Determina la imagen del vector \\((4,3)\\) bajo la transformación lineal de escalado por un factor 2 en el eje x y 3 en el eje y.",
+      "formula": "\\(T(x,y)= (2x, 3y)\\)",
+      "options": [
+        "\\(T(4,3)=(8,9)\\)",
+        "\\(T(4,3)=(6,9)\\)",
+        "\\(T(4,3)=(8,7)\\)",
+        "\\(T(4,3)=(7,9)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiplicando la componente x por 2 y la componente y por 3 se obtiene la imagen (8,9).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identifica la matriz de transformación: \\(\\begin{pmatrix} 2 & 0 \\\\ 0 & 3 \\end{pmatrix}\\).",
+        "Multiplica esta matriz por el vector \\((4,3)\\).",
+        "El resultado es \\((8,9)\\)."
+      ]
+    },
+    {
+      "question": "Determina la composición de dos transformaciones lineales: \\(T_1(x,y)=(x+2y, y)\\) y \\(T_2(x,y)=(2x, x-y)\\). ¿Cuál es la imagen de \\((1,0)\\) bajo \\(T_2 \\circ T_1\\)?",
+      "formula": "\\(T_1(1,0)=(1,0)\\) y luego \\(T_2(1,0)=(2,1)\\)",
+      "options": [
+        "\\(T_2 \\circ T_1(1,0)=(2,1)\\)",
+        "\\(T_2 \\circ T_1(1,0)=(3,1)\\)",
+        "\\(T_2 \\circ T_1(1,0)=(2,0)\\)",
+        "\\(T_2 \\circ T_1(1,0)=(1,2)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Primero se aplica T₁ obteniéndose (1,0), luego T₂ sobre (1,0) da (2,1).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula T₁(1,0) sustituyendo en la definición de T₁.",
+        "Utiliza el resultado como entrada para T₂.",
+        "Determina la imagen final del vector."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema de ecuaciones con coeficientes negativos: -x + 4y = 7 y 3x - 2y = -5.",
+      "formula": "\\(\\begin{pmatrix} -1 & 4 \\\\ 3 & -2 \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\end{pmatrix}=\\begin{pmatrix} 7 \\\\ -5 \\end{pmatrix}\\)",
+      "options": [
+        "\\(x=-1,\\; y=2\\)",
+        "\\(x=1,\\; y=2\\)",
+        "\\(x=-2,\\; y=1\\)",
+        "\\(x=2,\\; y=-1\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Aplicando eliminación gaussiana se obtiene la solución x = 1 y y = 2.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplica la primera ecuación por un escalar si es necesario para igualar coeficientes.",
+        "Suma o resta las ecuaciones para eliminar una variable.",
+        "Resuelve para la variable restante y sustituye para obtener la otra."
+      ]
+    },
+    {
+      "question": "Resuelve el siguiente sistema realizando un intercambio de filas: 2x + y = 5 y 4x - 3y = 1.",
+      "formula": "\\(\\left[\\begin{array}{cc|c} 2 & 1 & 5 \\\\ 4 & -3 & 1 \\end{array}\\right]\\)",
+      "options": [
+        "\\(x=2,\\; y=1\\)",
+        "\\(x=1,\\; y=3\\)",
+        "\\(x=2,\\; y=\\frac{1}{2}\\)",
+        "\\(x=\\frac{3}{2},\\; y=2\\)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Intercambiando filas y aplicando eliminación se obtiene la solución x = 3/2 y y = 2.",
+      "difficulty": "hard",
+      "procedure": [
+        "Intercambia las filas si conviene para evitar ceros en el pivote.",
+        "Aplica eliminación gaussiana para triangular la matriz.",
+        "Resuelve mediante sustitución regresiva."
+      ]
+    },
+    {
+      "question": "Encuentra la solución del sistema homogéneo: 3x - y + 2z = 0, -x + 4y - z = 0, 2x - 3y + z = 0.",
+      "formula": "\\(\\begin{pmatrix} 3 & -1 & 2 \\\\ -1 & 4 & -1 \\\\ 2 & -3 & 1 \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix}=\\begin{pmatrix} 0 \\\\ 0 \\\\ 0 \\end{pmatrix}\\)",
+      "options": [
+        "\\(x=0,\\; y=0,\\; z=0\\)",
+        "\\(x=t,\\; y=2t,\\; z=-t\\)",
+        "\\(x=t,\\; y=-t,\\; z=t\\)",
+        "\\(x=1,\\; y=1,\\; z=1\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El sistema homogéneo admite infinitas soluciones; se expresa en función de un parámetro t.",
+      "difficulty": "hard",
+      "procedure": [
+        "Forma la matriz aumentada homogénea.",
+        "Realiza eliminación para encontrar las relaciones entre las variables.",
+        "Expresa las soluciones en función de un parámetro libre."
+      ]
+    },
+    {
+      "question": "Determina la consistencia del siguiente sistema: x + y = 2 y 2x + 2y = 5.",
+      "formula": "\\(\\begin{pmatrix} 1 & 1 \\\\ 2 & 2 \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\end{pmatrix}=\\begin{pmatrix} 2 \\\\ 5 \\end{pmatrix}\\)",
+      "options": [
+        "\\(Sistema\\;compatible\\;determinado\\)",
+        "\\(Sistema\\;compatible\\;indeterminado\\)",
+        "\\(Sistema\\;incompatible\\)",
+        "\\(Sistema\\;sobredeterminado\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Las ecuaciones son proporcionales en los coeficientes pero no en los términos independientes, por lo que el sistema es incompatible.",
+      "difficulty": "hard",
+      "procedure": [
+        "Compara las proporciones de las ecuaciones.",
+        "Observa la discrepancia en los términos independientes.",
+        "Concluye que no existe solución que satisfaga ambas ecuaciones."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema con parámetro: x + y = 4 y 2x + ky = 7. Determina para qué valor de k hay solución única y halla la solución.",
+      "formula": "\\(\\begin{pmatrix} 1 & 1 \\\\ 2 & k \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\end{pmatrix}=\\begin{pmatrix} 4 \\\\ 7 \\end{pmatrix}\\)",
+      "options": [
+        "\\(k\\neq2,\\; x=\\frac{7-k}{k-2},\\; y=\\frac{2k-7}{k-2}\\)",
+        "\\(k=2,\\; x=1,\\; y=3\\)",
+        "\\(k\\neq2,\\; x=3,\\; y=1\\)",
+        "\\(k=2,\\; sistema\\;incompatible\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Para solución única se requiere k distinto de 2; resolviendo se expresa la solución en función de k.",
+      "difficulty": "hard",
+      "procedure": [
+        "Determina la condición de unicidad: el determinante de la matriz debe ser distinto de cero, es decir, k - 2 \\(\\neq 0\\).",
+        "Resuelve el sistema mediante métodos de sustitución o eliminación.",
+        "Expresa x e y en función de k."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema con números decimales: 1.5x + 2.5y = 7.5 y 3.0x - 1.0y = 4.0.",
+      "formula": "\\(\\begin{pmatrix} 1.5 & 2.5 \\\\ 3.0 & -1.0 \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\end{pmatrix}=\\begin{pmatrix} 7.5 \\\\ 4.0 \\end{pmatrix}\\)",
+      "options": [
+        "\\(x=2,\\; y=2.5\\)",
+        "\\(x=1.5,\\; y=3\\)",
+        "\\(x=2,\\; y=3\\)",
+        "\\(x=3,\\; y=1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Resolviendo el sistema se obtiene la solución x = 2 y y = 2.5, tras ajustar las ecuaciones para trabajar con decimales.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplica las ecuaciones si es necesario para eliminar decimales.",
+        "Utiliza eliminación o sustitución para resolver el sistema.",
+        "Verifica la solución en ambas ecuaciones."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema donde la matriz de coeficientes es triangular: x + 2y + z = 6, 0x + y - z = 1, 0x + 0y + z = 2.",
+      "formula": "\\(\\begin{pmatrix} 1 & 2 & 1 \\\\ 0 & 1 & -1 \\\\ 0 & 0 & 2 \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix}=\\begin{pmatrix} 6 \\\\ 1 \\\\ 2 \\end{pmatrix}\\)",
+      "options": [
+        "\\(x=1,\\; y=2,\\; z=2\\)",
+        "\\(x=2,\\; y=1,\\; z=2\\)",
+        "\\(x=2,\\; y=2,\\; z=2\\)",
+        "\\(x=1,\\; y=3,\\; z=2\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se resuelve de abajo hacia arriba: z = 2, luego y = 1+2 = 3 (verificando que la ecuación intermedia se cumple) y finalmente se halla x.",
+      "difficulty": "hard",
+      "procedure": [
+        "Resuelve la ecuación de la última fila: z = 2.",
+        "Sustituye z en la segunda fila para hallar y.",
+        "Utiliza ambos valores en la primera fila para resolver x."
+      ]
+    },
+    {
+      "question": "Calcula la imagen del vector \\((2, -1)\\) mediante la transformación lineal definida por la matriz \\(\\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}\\).",
+      "formula": "\\(T(2,-1)=\\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}\\begin{pmatrix} 2 \\\\ -1 \\end{pmatrix}\\)",
+      "options": [
+        "\\(T(2,-1)=(-1,2)\\)",
+        "\\(T(2,-1)=(1,2)\\)",
+        "\\(T(2,-1)=(2,-1)\\)",
+        "\\(T(2,-1)=(1,-2)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La matriz intercambia las componentes, por lo que \\((2,-1)\\) se transforma en \\((-1,2)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplica la matriz de transformación por el vector dado.",
+        "Observa que las componentes se intercambian.",
+        "Obtén la imagen del vector."
+      ]
+    },
+    {
+      "question": "Determina la matriz que representa la reflexión respecto a la recta y = x en \\(\\mathbb{R}^2\\).",
+      "formula": "\\(R=\\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}\\)",
+      "options": [
+        "\\(R=\\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}\\)",
+        "\\(R=\\begin{pmatrix} 1 & 0 \\\\ 0 & -1 \\end{pmatrix}\\)",
+        "\\(R=\\begin{pmatrix} -1 & 0 \\\\ 0 & 1 \\end{pmatrix}\\)",
+        "\\(R=\\begin{pmatrix} 0 & -1 \\\\ -1 & 0 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La reflexión respecto a la recta y = x se representa con la matriz que intercambia las componentes.",
+      "difficulty": "hard",
+      "procedure": [
+        "Conoce la matriz de reflexión respecto a la recta y = x.",
+        "Verifica que la matriz intercambia las coordenadas de cualquier vector.",
+        "Confirma la representación mediante ejemplos."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema dependiente: x + y = 2 y 2x + 2y = 4, y expresa la solución en términos de un parámetro.",
+      "formula": "\\(\\begin{pmatrix} 1 & 1 \\\\ 2 & 2 \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\end{pmatrix}=\\begin{pmatrix} 2 \\\\ 4 \\end{pmatrix}\\)",
+      "options": [
+        "\\(x=t,\\; y=2-t\\)",
+        "\\(x=t,\\; y=t\\)",
+        "\\(x=1+t,\\; y=1-t\\)",
+        "\\(x=2-t,\\; y=t\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Las dos ecuaciones son equivalentes, por lo que la solución es de la forma: x = t, y = 2 - t, para cualquier t.",
+      "difficulty": "hard",
+      "procedure": [
+        "Observa que ambas ecuaciones son proporcionales.",
+        "Expresa una variable en función de la otra.",
+        "Presenta la solución en forma paramétrica."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema por sustitución regresiva: 3x + y - z = 4, 0x + 2y + z = 5, 0x + 0y + z = 3.",
+      "formula": "\\(\\begin{pmatrix} 3 & 1 & -1 \\\\ 0 & 2 & 1 \\\\ 0 & 0 & 3 \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix}=\\begin{pmatrix} 4 \\\\ 5 \\\\ 3 \\end{pmatrix}\\)",
+      "options": [
+        "\\(x=1,\\; y=1,\\; z=3\\)",
+        "\\(x=0,\\; y=1,\\; z=3\\)",
+        "\\(x=1,\\; y=2,\\; z=3\\)",
+        "\\(x=2,\\; y=1,\\; z=3\\)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Se despeja z de la última ecuación, se sustituye en la segunda para hallar y y finalmente se resuelve para x.",
+      "difficulty": "hard",
+      "procedure": [
+        "Obtén z directamente de la última ecuación: z = 3.",
+        "Sustituye z en la segunda ecuación para encontrar y.",
+        "Utiliza los valores hallados en la primera ecuación para resolver x."
+      ]
+    },
+    {
+      "question": "Utilizando el método de la matriz aumentada, resuelve el sistema de 3 variables: x - y + z = 2, 2x + y - z = 1, -x + 3y + 2z = 4.",
+      "formula": "\\(\\left[\\begin{array}{ccc|c} 1 & -1 & 1 & 2 \\\\ 2 & 1 & -1 & 1 \\\\ -1 & 3 & 2 & 4 \\end{array}\\right]\\)",
+      "options": [
+        "\\(x=1,\\; y=1,\\; z=2\\)",
+        "\\(x=2,\\; y=0,\\; z=0\\)",
+        "\\(x=0,\\; y=2,\\; z=1\\)",
+        "\\(x=1,\\; y=2,\\; z=1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mediante operaciones elementales se obtiene la solución x = 1, y = 1, z = 2.",
+      "difficulty": "hard",
+      "procedure": [
+        "Forma la matriz aumentada a partir del sistema.",
+        "Aplica eliminación gaussiana para triangular la matriz.",
+        "Realiza sustitución regresiva para determinar las variables."
+      ]
+    },
+    {
+      "question": "Determina el efecto de la transformación lineal representada por la matriz \\(\\begin{pmatrix} 1 & 0 \\\\ 0 & -1 \\end{pmatrix}\\) sobre los vectores de la base canónica de \\(\\mathbb{R}^2\\).",
+      "formula": "Para \\(e_1=(1,0)\\): \\(T(e_1)=(1,0)\\) y para \\(e_2=(0,1)\\): \\(T(e_2)=(0,-1)\\)",
+      "options": [
+        "\\(T(e_1)=(1,0),\\; T(e_2)=(0,-1)\\)",
+        "\\(T(e_1)=(0,1),\\; T(e_2)=(1,0)\\)",
+        "\\(T(e_1)=(1,0),\\; T(e_2)=(0,1)\\)",
+        "\\(T(e_1)=(0,-1),\\; T(e_2)=(1,0)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La matriz deja invariante a \\(e_1\\) y refleja \\(e_2\\) respecto al eje x, invirtiendo su signo.",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplica la matriz de transformación a cada vector de la base.",
+        "Calcula el resultado de la multiplicación matricial.",
+        "Interpreta el resultado en términos geométricos."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema de ecuaciones: 5x - 3y = 7 y 2x + 4y = 10 utilizando representación matricial (Ax = b).",
+      "formula": "\\(\\begin{pmatrix} 5 & -3 \\\\ 2 & 4 \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\end{pmatrix}=\\begin{pmatrix} 7 \\\\ 10 \\end{pmatrix}\\)",
+      "options": [
+        "\\(x=2,\\; y=1\\)",
+        "\\(x=1,\\; y=2\\)",
+        "\\(x=2,\\; y=\\frac{3}{2}\\)",
+        "\\(x=3,\\; y=1\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Aplicando métodos de eliminación se obtiene x=2 y y=3/2, comprobable al sustituir en ambas ecuaciones.",
+      "difficulty": "hard",
+      "procedure": [
+        "Forma la matriz de coeficientes y el vector b.",
+        "Usa eliminación para despejar x e y.",
+        "Verifica la solución sustituyendo en ambas ecuaciones."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema de 3 ecuaciones: x + 3y - z = 2, 2x - y + z = 3 y -x + 2y + 4z = 1 utilizando la representación matricial.",
+      "formula": "\\(\\begin{pmatrix} 1 & 3 & -1 \\\\ 2 & -1 & 1 \\\\ -1 & 2 & 4 \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix}=\\begin{pmatrix} 2 \\\\ 3 \\\\ 1 \\end{pmatrix}\\)",
+      "options": [
+        "\\(x=1,\\; y=0,\\; z=-1\\)",
+        "\\(x=0,\\; y=1,\\; z=2\\)",
+        "\\(x=1,\\; y=1,\\; z=0\\)",
+        "\\(x=2,\\; y=-1,\\; z=1\\)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Mediante eliminación gaussiana se llega a la solución única: x=2, y=-1, z=1.",
+      "difficulty": "hard",
+      "procedure": [
+        "Construye la matriz aumentada del sistema.",
+        "Aplica eliminación gaussiana para triangular la matriz.",
+        "Realiza sustitución regresiva para determinar cada variable."
+      ]
+    },
+    {
+      "question": "Utiliza el método de la matriz aumentada para resolver: 3x + y - 2z = 4, x - y + z = 0 y 2x + 4y - 3z = 5.",
+      "formula": "\\(\\left[\\begin{array}{ccc|c} 3 & 1 & -2 & 4 \\\\ 1 & -1 & 1 & 0 \\\\ 2 & 4 & -3 & 5 \\end{array}\\right]\\)",
+      "options": [
+        "\\(x=1,\\; y=1,\\; z=2\\)",
+        "\\(x=2,\\; y=0,\\; z=1\\)",
+        "\\(x=1,\\; y=0,\\; z=1\\)",
+        "\\(x=0,\\; y=2,\\; z=1\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El proceso de eliminación gaussiana determina que la solución del sistema es x=2, y=0 y z=1.",
+      "difficulty": "hard",
+      "procedure": [
+        "Forma la matriz aumentada y usa operaciones elementales.",
+        "Triangular la matriz y aplica sustitución regresiva.",
+        "Verifica la solución en cada ecuación."
+      ]
+    },
+    {
+      "question": "Dada la matriz A = \\(\\begin{pmatrix} 2 & 1 \\\\ 3 & 4 \\end{pmatrix}\\), encuentra su inversa y utiliza el resultado para resolver Ax = b con b = \\(\\begin{pmatrix} 5 \\\\ 11 \\end{pmatrix}\\).",
+      "formula": "\\(Ax=b\\)",
+      "options": [
+        "\\(x=\\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix}\\)",
+        "\\(x=\\begin{pmatrix} 2 \\\\ 1 \\end{pmatrix}\\)",
+        "\\(x=\\begin{pmatrix} 0 \\\\ 3 \\end{pmatrix}\\)",
+        "\\(x=\\begin{pmatrix} 3 \\\\ 1 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Calculando la inversa de A y multiplicándola por b se obtiene la solución x = [1, 2]^T.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula el determinante de A y verifica que es no nulo.",
+        "Obtén la inversa de A usando la fórmula para 2x2.",
+        "Multiplica la inversa por b para hallar x."
+      ]
+    },
+    {
+      "question": "Dada la transformación lineal T: \\(\\mathbb{R}^2 \\to \\mathbb{R}^2\\) definida por \\(T(x,y)= (x-y, 2x+y)\\), calcula la imagen del vector \\((3,-1)\\).",
+      "formula": "\\(T(3,-1)= (3-(-1), 2\\times3+(-1))\\)",
+      "options": [
+        "\\(T(3,-1)=(4,5)\\)",
+        "\\(T(3,-1)=(2,5)\\)",
+        "\\(T(3,-1)=(4,6)\\)",
+        "\\(T(3,-1)=(3,5)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sustituyendo se obtiene: 3-(-1)=4 y 2×3+(-1)=5, por lo que la imagen es (4,5).",
+      "difficulty": "hard",
+      "procedure": [
+        "Sustituye las coordenadas del vector en T.",
+        "Realiza las operaciones: resta y multiplicación.",
+        "Obtén el vector imagen."
+      ]
+    },
+    {
+      "question": "Determina la imagen del vector \\((2,3)\\) bajo la transformación de reflexión respecto al eje y.",
+      "formula": "\\(T(x,y)= (-x, y)\\)",
+      "options": [
+        "\\(T(2,3)=(-2,3)\\)",
+        "\\(T(2,3)=(2,-3)\\)",
+        "\\(T(2,3)=(-2,-3)\\)",
+        "\\(T(2,3)=(2,3)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La reflexión respecto al eje y cambia el signo de la componente x, por lo que la imagen es (-2,3).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identifica la transformación que invierte la componente x.",
+        "Aplica la transformación al vector (2,3).",
+        "Obtén el resultado: (-2,3)."
+      ]
+    },
+    {
+      "question": "Determina la imagen del vector \\((1,-4)\\) mediante la transformación de rotación de 180° en el plano.",
+      "formula": "\\(T(x,y)= (-x, -y)\\)",
+      "options": [
+        "\\(T(1,-4)=(-1,4)\\)",
+        "\\(T(1,-4)=(1,4)\\)",
+        "\\(T(1,-4)=(-1,-4)\\)",
+        "\\(T(1,-4)=(1,-4)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Una rotación de 180° invierte ambas componentes: (1,-4) se transforma en (-1,4).",
+      "difficulty": "hard",
+      "procedure": [
+        "Utiliza la fórmula de rotación de 180°: T(x,y)=(-x,-y).",
+        "Aplica la transformación al vector dado.",
+        "Obtén el vector imagen."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema: 4x + 5y = 9 y 7x - 2y = 3 mediante métodos matriciales.",
+      "formula": "\\(\\begin{pmatrix} 4 & 5 \\\\ 7 & -2 \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\end{pmatrix}=\\begin{pmatrix} 9 \\\\ 3 \\end{pmatrix}\\)",
+      "options": [
+        "\\(x=2,\\; y=\\frac{1}{2}\\)",
+        "\\(x=1,\\; y=1\\)",
+        "\\(x=\\frac{3}{2},\\; y=1\\)",
+        "\\(x=2,\\; y=1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando el método de la inversa o eliminación se obtiene x=2 y y=1/2, validando la solución en ambas ecuaciones.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula el determinante de la matriz de coeficientes.",
+        "Si es distinto de cero, calcula la inversa de la matriz.",
+        "Multiplica la inversa por el vector b para hallar x e y."
+      ]
+    },
+    {
+      "question": "Resuelve el siguiente sistema homogéneo: 2x - y + z = 0, -x + 3y - 2z = 0 y 4x - 5y + 3z = 0.",
+      "formula": "\\(\\begin{pmatrix} 2 & -1 & 1 \\\\ -1 & 3 & -2 \\\\ 4 & -5 & 3 \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix}=\\begin{pmatrix} 0 \\\\ 0 \\\\ 0 \\end{pmatrix}\\)",
+      "options": [
+        "\\(x=0,\\; y=0,\\; z=0\\)",
+        "\\(x=t,\\; y=2t,\\; z=t\\)",
+        "\\(x=t,\\; y=t,\\; z=0\\)",
+        "\\(x=t,\\; y=0,\\; z=t\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El sistema homogéneo tiene infinitas soluciones, expresables en función de un parámetro t.",
+      "difficulty": "hard",
+      "procedure": [
+        "Forma la matriz aumentada homogénea.",
+        "Realiza eliminación gaussiana para identificar variables libres.",
+        "Expresa la solución en función del parámetro t."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema con coeficientes fraccionarios: \\(\\frac{2}{3}x + \\frac{1}{4}y = 3\\) y \\(\\frac{1}{2}x - \\frac{1}{3}y = 1\\).",
+      "formula": "\\(\\begin{pmatrix} \\frac{2}{3} & \\frac{1}{4} \\\\ \\frac{1}{2} & -\\frac{1}{3} \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\end{pmatrix}=\\begin{pmatrix} 3 \\\\ 1 \\end{pmatrix}\\)",
+      "options": [
+        "\\(x=3,\\; y=2\\)",
+        "\\(x=\\frac{12}{5},\\; y=-\\frac{6}{5}\\)",
+        "\\(x=2,\\; y=1\\)",
+        "\\(x=\\frac{9}{4},\\; y=\\frac{3}{2}\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Multiplicando las ecuaciones por los denominadores comunes y resolviendo se obtiene x=12/5 e y=-6/5.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplica cada ecuación por el mínimo común múltiplo de los denominadores.",
+        "Resuelve el sistema resultante por eliminación o sustitución.",
+        "Simplifica la solución obtenida."
+      ]
+    },
+    {
+      "question": "Determina la matriz que representa una rotación de 90° en el plano \\(\\mathbb{R}^2\\).",
+      "formula": "\\(R=\\begin{pmatrix} 0 & -1 \\\\ 1 & 0 \\end{pmatrix}\\)",
+      "options": [
+        "\\(R=\\begin{pmatrix} 0 & -1 \\\\ 1 & 0 \\end{pmatrix}\\)",
+        "\\(R=\\begin{pmatrix} 0 & 1 \\\\ -1 & 0 \\end{pmatrix}\\)",
+        "\\(R=\\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}\\)",
+        "\\(R=\\begin{pmatrix} -1 & 0 \\\\ 0 & -1 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La matriz de rotación de 90° en sentido antihorario es \\(\\begin{pmatrix} 0 & -1 \\\\ 1 & 0 \\end{pmatrix}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Recuerda la fórmula de la matriz de rotación en \\(\\mathbb{R}^2\\).",
+        "Verifica que al aplicarla a \\((1,0)\\) se obtiene \\((0,1)\\).",
+        "Confirma que la forma coincide con la presentada."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema usando la regla de Cramer: 3x + 4y = 10 y 5x - 2y = 3.",
+      "formula": "\\(A=\\begin{pmatrix} 3 & 4 \\\\ 5 & -2 \\end{pmatrix}, \\quad b=\\begin{pmatrix} 10 \\\\ 3 \\end{pmatrix}\\)",
+      "options": [
+        "\\(x=2,\\; y=1\\)",
+        "\\(x=1,\\; y=2\\)",
+        "\\(x=3,\\; y=-1\\)",
+        "\\(x=2,\\; y=-1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Calcula los determinantes de A, A_x y A_y para aplicar la fórmula de Cramer y obtener x=2 e y=1.",
+      "difficulty": "hard",
+      "procedure": [
+        "Determina el determinante de A.",
+        "Reemplaza la columna correspondiente por b para A_x y A_y.",
+        "Aplica la fórmula de Cramer: x = det(A_x)/det(A) y y = det(A_y)/det(A)."
+      ]
+    },
+    {
+      "question": "Determina la transformación lineal T definida por \\(T(x,y)= (3x+y, 2x- y)\\) y calcula la imagen del vector \\((0,2)\\).",
+      "formula": "\\(T(0,2)= (3\\times0+2, 2\\times0-2)\\)",
+      "options": [
+        "\\(T(0,2)=(2,-2)\\)",
+        "\\(T(0,2)=(0,2)\\)",
+        "\\(T(0,2)=(2,0)\\)",
+        "\\(T(0,2)=(-2,2)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sustituyendo se obtiene: 3×0+2=2 y 2×0-2=-2, por lo que la imagen es (2,-2).",
+      "difficulty": "hard",
+      "procedure": [
+        "Sustituye el vector (0,2) en la función T.",
+        "Realiza las operaciones correspondientes.",
+        "Obtén el resultado."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema con parámetro: 3x + 2y = 8 y 6x + ky = 15, determinando el valor de k para solución única y encuentra la solución.",
+      "formula": "\\(\\begin{pmatrix} 3 & 2 \\\\ 6 & k \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\end{pmatrix}=\\begin{pmatrix} 8 \\\\ 15 \\end{pmatrix}\\)",
+      "options": [
+        "\\(k\\neq6,\\; x=\\frac{8k-30}{3k-12},\\; y=\\frac{15-6x}{k}\\)",
+        "\\(k=6,\\; sistema\\;indeterminado\\)",
+        "\\(k\\neq6,\\; x=2,\\; y=1\\)",
+        "\\(k=6,\\; sistema\\;incompatible\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Para solución única se requiere que el determinante (3k - 12) sea distinto de cero, es decir, k \\(\\neq 6\\); la solución se expresa en función de k.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula el determinante: 3k - 12.",
+        "Establece la condición k \\(\\neq 6\\).",
+        "Resuelve el sistema expresando x e y en función de k."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema: x - 4y + 2z = 1, 3x + y - z = 4 y 2x - y + 3z = 5 mediante eliminación gaussiana.",
+      "formula": "\\(\\left[\\begin{array}{ccc|c} 1 & -4 & 2 & 1 \\\\ 3 & 1 & -1 & 4 \\\\ 2 & -1 & 3 & 5 \\end{array}\\right]\\)",
+      "options": [
+        "\\(x=1,\\; y=-1,\\; z=1\\)",
+        "\\(x=0,\\; y=1,\\; z=2\\)",
+        "\\(x=1,\\; y=0,\\; z=1\\)",
+        "\\(x=2,\\; y=-1,\\; z=0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando eliminación gaussiana se obtiene la solución única: x=1, y=-1 y z=1.",
+      "difficulty": "hard",
+      "procedure": [
+        "Forma la matriz aumentada.",
+        "Realiza operaciones elementales para triangular la matriz.",
+        "Usa sustitución regresiva para resolver las variables."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la matriz \\(\\begin{pmatrix} 2 & 3 & 1 \\\\ 4 & 0 & -1 \\\\ 1 & -2 & 5 \\end{pmatrix}\\) y comenta si el sistema Ax=b tiene solución única.",
+      "formula": "Matriz A: \\(\\begin{pmatrix} 2 & 3 & 1 \\\\ 4 & 0 & -1 \\\\ 1 & -2 & 5 \\end{pmatrix}\\)",
+      "options": [
+        "\\(det=20,\\; solución\\;única\\)",
+        "\\(det=0,\\; no\\; tiene\\; solución\\)",
+        "\\(det=-20,\\; solución\\;única\\)",
+        "\\(det=0,\\; infinitas\\; soluciones\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "El determinante calculado es -20, distinto de cero, lo que garantiza una solución única para cualquier b.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula el determinante utilizando la regla de Sarrus o cofactores.",
+        "Verifica que el resultado es distinto de cero.",
+        "Concluye que el sistema tiene solución única."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema mediante el método de inversión de matrices: 2x + y = 5 y 3x - y = 4.",
+      "formula": "\\(\\begin{pmatrix} 2 & 1 \\\\ 3 & -1 \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\end{pmatrix}=\\begin{pmatrix} 5 \\\\ 4 \\end{pmatrix}\\)",
+      "options": [
+        "\\(x=2,\\; y=1\\)",
+        "\\(x=1,\\; y=3\\)",
+        "\\(x=2,\\; y=-1\\)",
+        "\\(x=3,\\; y=-1\\)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Calculando la inversa de la matriz de coeficientes y multiplicándola por b se obtiene x=3 e y=-1.",
+      "difficulty": "hard",
+      "procedure": [
+        "Determina la inversa de la matriz de coeficientes.",
+        "Multiplica la inversa por el vector b.",
+        "Verifica la solución obtenida."
+      ]
+    },
+    {
+      "question": "Utiliza el método de eliminación para resolver: 2x + y = 5 y 4x - 3y = -1.",
+      "formula": "\\(\\begin{pmatrix} 2 & 1 \\\\ 4 & -3 \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\end{pmatrix}=\\begin{pmatrix} 5 \\\\ -1 \\end{pmatrix}\\)",
+      "options": [
+        "\\(x=2,\\; y=\\frac{1}{2}\\)",
+        "\\(x=1,\\; y=3\\)",
+        "\\(x=2,\\; y=1\\)",
+        "\\(x=3,\\; y=0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Por eliminación se obtiene la solución x=2 y y=1/2, comprobable al sustituir en ambas ecuaciones.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplica la primera ecuación para igualar coeficientes.",
+        "Resta o suma las ecuaciones para eliminar una variable.",
+        "Resuelve para la otra variable y retro-sustituye."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema: \\(\\frac{1}{3}x + \\frac{1}{2}y = 3\\) y \\(\\frac{2}{3}x - \\frac{1}{4}y = 1\\) utilizando representación matricial.",
+      "formula": "\\(\\begin{pmatrix} \\frac{1}{3} & \\frac{1}{2} \\\\ \\frac{2}{3} & -\\frac{1}{4} \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\end{pmatrix}=\\begin{pmatrix} 3 \\\\ 1 \\end{pmatrix}\\)",
+      "options": [
+        "\\(x=3,\\; y=2\\)",
+        "\\(x=2,\\; y=3\\)",
+        "\\(x=\\frac{9}{2},\\; y=-1\\)",
+        "\\(x=\\frac{8}{3},\\; y=1\\)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Tras eliminar fracciones y resolver, se obtiene x=8/3 e y=1.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplica cada ecuación por el mínimo común múltiplo de los denominadores.",
+        "Resuelve el sistema resultante usando eliminación.",
+        "Simplifica la solución obtenida."
+      ]
+    },
+    {
+      "question": "Determina la matriz que representa la proyección ortogonal sobre el eje x en \\(\\mathbb{R}^2\\).",
+      "formula": "\\(P=\\begin{pmatrix} 1 & 0 \\\\ 0 & 0 \\end{pmatrix}\\)",
+      "options": [
+        "\\(P=\\begin{pmatrix} 1 & 0 \\\\ 0 & 0 \\end{pmatrix}\\)",
+        "\\(P=\\begin{pmatrix} 0 & 0 \\\\ 0 & 1 \\end{pmatrix}\\)",
+        "\\(P=\\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}\\)",
+        "\\(P=\\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La proyección sobre el eje x conserva la componente x y anula la y, representada por la matriz dada.",
+      "difficulty": "hard",
+      "procedure": [
+        "Analiza la definición de proyección ortogonal sobre el eje x.",
+        "Determina cómo se comportan las componentes del vector.",
+        "Expresa la operación en forma matricial."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema: x + 2y + 3z = 6, 2x + 3y + z = 7 y 3x + y + 2z = 8 mediante eliminación gaussiana.",
+      "formula": "\\(\\left[\\begin{array}{ccc|c} 1 & 2 & 3 & 6 \\\\ 2 & 3 & 1 & 7 \\\\ 3 & 1 & 2 & 8 \\end{array}\\right]\\)",
+      "options": [
+        "\\(x=1,\\; y=2,\\; z=1\\)",
+        "\\(x=2,\\; y=1,\\; z=1\\)",
+        "\\(x=1,\\; y=1,\\; z=2\\)",
+        "\\(x=2,\\; y=2,\\; z=0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La aplicación de eliminación gaussiana determina la solución: x=1, y=2 y z=1.",
+      "difficulty": "hard",
+      "procedure": [
+        "Forma la matriz aumentada del sistema.",
+        "Realiza operaciones elementales para triangular la matriz.",
+        "Utiliza sustitución regresiva para hallar las variables."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema: 5x - 2y + z = 4, -x + 3y - 2z = 1 y 2x - y + 4z = 7 utilizando métodos matriciales.",
+      "formula": "\\(\\begin{pmatrix} 5 & -2 & 1 \\\\ -1 & 3 & -2 \\\\ 2 & -1 & 4 \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix}=\\begin{pmatrix} 4 \\\\ 1 \\\\ 7 \\end{pmatrix}\\)",
+      "options": [
+        "\\(x=1,\\; y=2,\\; z=1\\)",
+        "\\(x=2,\\; y=1,\\; z=1\\)",
+        "\\(x=1,\\; y=1,\\; z=2\\)",
+        "\\(x=2,\\; y=2,\\; z=0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mediante eliminación y verificación se obtiene la solución x=1, y=2, z=1.",
+      "difficulty": "hard",
+      "procedure": [
+        "Forma la matriz aumentada a partir del sistema.",
+        "Aplica eliminación gaussiana para triangular la matriz.",
+        "Resuelve mediante sustitución regresiva."
+      ]
+    },
+    {
+      "question": "Determina la transformación lineal T: \\(\\mathbb{R}^2 \\to \\mathbb{R}^2\\) definida por escalado y cizallamiento: \\(T(x,y)= (2x+y, x+3y)\\). Calcula T(1,2).",
+      "formula": "\\(T(1,2)= (2\\times1+2, 1+3\\times2)\\)",
+      "options": [
+        "\\(T(1,2)=(4,7)\\)",
+        "\\(T(1,2)=(3,7)\\)",
+        "\\(T(1,2)=(4,8)\\)",
+        "\\(T(1,2)=(3,8)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sustituyendo se obtiene: 2+2=4 y 1+6=7, por lo que T(1,2)=(4,7).",
+      "difficulty": "hard",
+      "procedure": [
+        "Sustituye el vector (1,2) en la función T.",
+        "Realiza las operaciones indicadas.",
+        "Obtén el vector imagen."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema: 7x + 5y = 2 y 3x - 2y = 4 mediante métodos de representación matricial.",
+      "formula": "\\(\\begin{pmatrix} 7 & 5 \\\\ 3 & -2 \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\end{pmatrix}=\\begin{pmatrix} 2 \\\\ 4 \\end{pmatrix}\\)",
+      "options": [
+        "\\(x=1,\\; y=-1\\)",
+        "\\(x=\\frac{4}{7},\\; y=\\frac{-2}{5}\\)",
+        "\\(x=2,\\; y=-2\\)",
+        "\\(x=\\frac{6}{7},\\; y=\\frac{-4}{5}\\)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Aplicando métodos de inversión o eliminación se obtiene la solución x=6/7 e y=-4/5.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula el determinante de la matriz de coeficientes.",
+        "Usa la fórmula de la inversa o elimina una variable.",
+        "Resuelve para la otra variable y verifica la solución."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema de 3 variables: x+y+z=3, 2x-y+2z=4 y -x+3y+z=5 mediante eliminación Gauss-Jordan.",
+      "formula": "\\(\\left[\\begin{array}{ccc|c} 1 & 1 & 1 & 3 \\\\ 2 & -1 & 2 & 4 \\\\ -1 & 3 & 1 & 5 \\end{array}\\right]\\)",
+      "options": [
+        "\\(x=1,\\; y=1,\\; z=1\\)",
+        "\\(x=2,\\; y=0,\\; z=1\\)",
+        "\\(x=1,\\; y=2,\\; z=0\\)",
+        "\\(x=0,\\; y=2,\\; z=1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando Gauss-Jordan se obtiene la solución única: x=1, y=1, z=1.",
+      "difficulty": "hard",
+      "procedure": [
+        "Forma la matriz aumentada del sistema.",
+        "Aplica operaciones elementales para reducir la matriz a la forma reducida por filas.",
+        "Lee la solución del sistema resultante."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema: 4x - y + z = 0, 2x + y - z = 3 y -x + 2y + 3z = 7 utilizando el método de sustitución.",
+      "formula": "\\(\\left[\\begin{array}{ccc|c} 4 & -1 & 1 & 0 \\\\ 2 & 1 & -1 & 3 \\\\ -1 & 2 & 3 & 7 \\end{array}\\right]\\)",
+      "options": [
+        "\\(x=1,\\; y=2,\\; z=1\\)",
+        "\\(x=2,\\; y=1,\\; z=0\\)",
+        "\\(x=1,\\; y=1,\\; z=2\\)",
+        "\\(x=0,\\; y=2,\\; z=3\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Utilizando sustitución se obtiene la solución: x=1, y=2 y z=1, que satisface todas las ecuaciones.",
+      "difficulty": "hard",
+      "procedure": [
+        "Despeja una variable de la primera ecuación.",
+        "Sustituye en las otras ecuaciones y resuelve el sistema resultante.",
+        "Verifica la solución en todas las ecuaciones."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema de ecuaciones: x + 2y = 3 y 3x - 4y = 5 utilizando métodos matriciales.",
+      "formula": "\\(\\begin{pmatrix} 1 & 2 \\\\ 3 & -4 \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\end{pmatrix}=\\begin{pmatrix} 3 \\\\ 5 \\end{pmatrix}\\)",
+      "options": [
+        "\\(x=2,\\; y=\\frac{1}{2}\\)",
+        "\\(x=1,\\; y=1\\)",
+        "\\(x=\\frac{11}{7},\\; y=\\frac{5}{7}\\)",
+        "\\(x=\\frac{7}{5},\\; y=\\frac{4}{5}\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Aplicando eliminación se obtiene x = 11/7 y y = 5/7, comprobable sustituyendo en ambas ecuaciones.",
+      "difficulty": "hard",
+      "procedure": [
+        "Forma la matriz de coeficientes y el vector b.",
+        "Utiliza eliminación para despejar una variable.",
+        "Resuelve para la otra variable y verifica la solución."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema: 2x + y - z = 0, -x + 3y + 2z = 7, 4x - y + z = 3 mediante métodos matriciales.",
+      "formula": "\\(\\begin{pmatrix} 2 & 1 & -1 \\\\ -1 & 3 & 2 \\\\ 4 & -1 & 1 \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix}=\\begin{pmatrix} 0 \\\\ 7 \\\\ 3 \\end{pmatrix}\\)",
+      "options": [
+        "\\(x=1,\\; y=2,\\; z=3\\)",
+        "\\(x=2,\\; y=1,\\; z=0\\)",
+        "\\(x=0,\\; y=2,\\; z=-1\\)",
+        "\\(x=1,\\; y=1,\\; z=2\\)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Mediante eliminación gaussiana se llega a la solución única: x=1, y=1, z=2.",
+      "difficulty": "hard",
+      "procedure": [
+        "Forma la matriz aumentada del sistema.",
+        "Aplica eliminación gaussiana para triangular la matriz.",
+        "Utiliza sustitución regresiva para hallar cada variable."
+      ]
+    },
+    {
+      "question": "Utiliza la regla de Cramer para resolver el sistema: 2x - y = 4 y 3x + 4y = 11.",
+      "formula": "\\(A=\\begin{pmatrix} 2 & -1 \\\\ 3 & 4 \\end{pmatrix}, \\quad b=\\begin{pmatrix} 4 \\\\ 11 \\end{pmatrix}\\)",
+      "options": [
+        "\\(x=2,\\; y=1\\)",
+        "\\(x=\\frac{18}{11},\\; y=\\frac{7}{11}\\)",
+        "\\(x=3,\\; y=1\\)",
+        "\\(x=1,\\; y=2\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Calcula los determinantes de A, A_x y A_y; se obtiene x = 18/11 y y = 7/11.",
+      "difficulty": "hard",
+      "procedure": [
+        "Determina det(A).",
+        "Reemplaza la columna de x por b para obtener det(A_x) y la columna de y para det(A_y).",
+        "Aplica x = det(A_x)/det(A) y y = det(A_y)/det(A)."
+      ]
+    },
+    {
+      "question": "Dada la matriz \\(A=\\begin{pmatrix} 4 & 2 \\\\ 3 & 1 \\end{pmatrix}\\), encuentra su inversa y resuelve Ax = b con \\(b=\\begin{pmatrix} 10 \\\\ 9 \\end{pmatrix}\\).",
+      "formula": "\\(Ax=b\\)",
+      "options": [
+        "\\(x=\\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix}\\)",
+        "\\(x=\\begin{pmatrix} 2 \\\\ 1 \\end{pmatrix}\\)",
+        "\\(x=\\begin{pmatrix} 0 \\\\ 3 \\end{pmatrix}\\)",
+        "\\(x=\\begin{pmatrix} 3 \\\\ 0 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Calculando la inversa de A y multiplicándola por b se obtiene x = [1, 2]^T.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula el determinante de A.",
+        "Obtén la inversa de A utilizando la fórmula para matrices 2x2.",
+        "Multiplica la inversa por b para hallar el vector solución."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema homogéneo: x - 2y + z = 0 y 2x - 4y + 2z = 0.",
+      "formula": "\\(\\begin{pmatrix} 1 & -2 & 1 \\\\ 2 & -4 & 2 \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix}=\\begin{pmatrix} 0 \\\\ 0 \\end{pmatrix}\\)",
+      "options": [
+        "\\(x=t,\\; y=\\frac{t}{2},\\; z=0\\)",
+        "\\(x=t,\\; y=2t,\\; z=t\\)",
+        "\\(x=t,\\; y=2t,\\; z=0\\)",
+        "\\(x=0,\\; y=0,\\; z=0\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "El sistema es dependiente; la segunda ecuación es múltiplo de la primera, por lo que la solución es expresable en términos de un parámetro.",
+      "difficulty": "hard",
+      "procedure": [
+        "Observa que las dos ecuaciones son proporcionales.",
+        "Elige un parámetro libre para una variable.",
+        "Expresa las otras variables en función de dicho parámetro."
+      ]
+    },
+    {
+      "question": "Determina la consistencia del sistema: x + 3y = 6 y 2x + 6y = 12.",
+      "formula": "\\(\\begin{pmatrix} 1 & 3 \\\\ 2 & 6 \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\end{pmatrix}=\\begin{pmatrix} 6 \\\\ 12 \\end{pmatrix}\\)",
+      "options": [
+        "\\(Sistema\\;compatible\\;determinado\\)",
+        "\\(Sistema\\;compatible\\;indeterminado\\)",
+        "\\(Sistema\\;incompatible\\)",
+        "\\(Sistema\\;sobredeterminado\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ambas ecuaciones son proporcionales, lo que implica infinitas soluciones (compatible indeterminado).",
+      "difficulty": "hard",
+      "procedure": [
+        "Observa la relación entre las dos ecuaciones.",
+        "Verifica que los coeficientes y términos independientes son proporcionales.",
+        "Concluye que el sistema tiene infinitas soluciones."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema de 3 ecuaciones: x + 0y + z = 2, 2x + y - z = 3, -x + 2y + 3z = 1 utilizando el método de la matriz aumentada.",
+      "formula": "\\(\\left[\\begin{array}{ccc|c} 1 & 0 & 1 & 2 \\\\ 2 & 1 & -1 & 3 \\\\ -1 & 2 & 3 & 1 \\end{array}\\right]\\)",
+      "options": [
+        "\\(x=1,\\; y=2,\\; z=1\\)",
+        "\\(x=0,\\; y=1,\\; z=2\\)",
+        "\\(x=1,\\; y=1,\\; z=1\\)",
+        "\\(x=2,\\; y=0,\\; z=0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando eliminación gaussiana se obtiene la solución: x = 1, y = 2 y z = 1.",
+      "difficulty": "hard",
+      "procedure": [
+        "Forma la matriz aumentada.",
+        "Realiza operaciones elementales para triangular la matriz.",
+        "Emplea sustitución regresiva para hallar las variables."
+      ]
+    },
+    {
+      "question": "Determina la imagen del vector (2, -3) mediante la transformación lineal definida por \\(T(x,y)= (x + y, 2x - y)\\).",
+      "formula": "\\(T(2,-3)= (2+(-3), 2\\times2-(-3))\\)",
+      "options": [
+        "\\(T(2,-3)=(-1,7)\\)",
+        "\\(T(2,-3)=(1,7)\\)",
+        "\\(T(2,-3)=(-1,1)\\)",
+        "\\(T(2,-3)=(1,1)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Calculando se obtiene: 2+(-3) = -1 y 2×2-(-3) = 4+3 = 7.",
+      "difficulty": "hard",
+      "procedure": [
+        "Sustituye (2, -3) en la función T.",
+        "Realiza la suma y la multiplicación indicadas.",
+        "Obtén el vector resultado."
+      ]
+    },
+    {
+      "question": "Determina la imagen del vector (1,1) tras una rotación de 45° en sentido antihorario.",
+      "formula": "\\(T(x,y)= \\begin{pmatrix} \\cos 45° & -\\sin 45° \\\\ \\sin 45° & \\cos 45° \\end{pmatrix}\\begin{pmatrix} 1 \\\\ 1 \\end{pmatrix}\\)",
+      "options": [
+        "\\(T(1,1)=\\left(0,\\sqrt{2}\\right)\\)",
+        "\\(T(1,1)=\\left(\\sqrt{2},0\\right)\\)",
+        "\\(T(1,1)=\\left(0,0\\right)\\)",
+        "\\(T(1,1)=\\left(\\frac{\\sqrt{2}}{2},\\frac{\\sqrt{2}}{2}\\right)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la matriz de rotación con \\(\\cos45°=\\sin45°=\\frac{\\sqrt{2}}{2}\\), se obtiene la imagen \\((0,\\sqrt{2})\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Escribe la matriz de rotación para 45°.",
+        "Multiplica la matriz por el vector (1,1).",
+        "Simplifica los términos para obtener el resultado."
+      ]
+    },
+    {
+      "question": "Determina la matriz que representa la reflexión respecto al eje x.",
+      "formula": "\\(R=\\begin{pmatrix} 1 & 0 \\\\ 0 & -1 \\end{pmatrix}\\)",
+      "options": [
+        "\\(R=\\begin{pmatrix} 1 & 0 \\\\ 0 & -1 \\end{pmatrix}\\)",
+        "\\(R=\\begin{pmatrix} -1 & 0 \\\\ 0 & 1 \\end{pmatrix}\\)",
+        "\\(R=\\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}\\)",
+        "\\(R=\\begin{pmatrix} 0 & -1 \\\\ -1 & 0 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La reflexión respecto al eje x mantiene la componente x y cambia el signo de la componente y.",
+      "difficulty": "hard",
+      "procedure": [
+        "Recuerda la definición de reflexión respecto al eje x.",
+        "Construye la matriz que deja invariante la componente x y anula o invierte la y.",
+        "Verifica el resultado con un vector de ejemplo."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema con fracciones: \\(\\frac{1}{2}x + \\frac{1}{3}y = 2\\) y \\(\\frac{1}{4}x - \\frac{1}{2}y = 1\\) utilizando métodos matriciales.",
+      "formula": "\\(\\begin{pmatrix} \\frac{1}{2} & \\frac{1}{3} \\\\ \\frac{1}{4} & -\\frac{1}{2} \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\end{pmatrix}=\\begin{pmatrix} 2 \\\\ 1 \\end{pmatrix}\\)",
+      "options": [
+        "\\(x=4,\\; y=2\\)",
+        "\\(x=2,\\; y=3\\)",
+        "\\(x=\\frac{20}{7},\\; y=-\\frac{6}{7}\\)",
+        "\\(x=3,\\; y=1\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Multiplicando por el mínimo común múltiplo y resolviendo se obtiene \\(x=20/7\\) e \\(y=-6/7\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplica cada ecuación por el mcm de los denominadores para eliminar fracciones.",
+        "Resuelve el sistema resultante mediante eliminación.",
+        "Simplifica la solución final."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema: 3x + y = 8 y 2x - y = 3 mediante métodos de eliminación.",
+      "formula": "\\(\\begin{pmatrix} 3 & 1 \\\\ 2 & -1 \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\end{pmatrix}=\\begin{pmatrix} 8 \\\\ 3 \\end{pmatrix}\\)",
+      "options": [
+        "\\(x=2,\\; y=2\\)",
+        "\\(x=1,\\; y=5\\)",
+        "\\(x=2,\\; y=2\\)",
+        "\\(x=2,\\; y=\\frac{2}{5}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Por eliminación se obtiene la solución: x = 2 y y = 2.",
+      "difficulty": "hard",
+      "procedure": [
+        "Suma o resta las ecuaciones para eliminar y.",
+        "Resuelve para x y posteriormente para y.",
+        "Verifica la solución en ambas ecuaciones."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema por eliminación: 5x - 3y = 2 y 4x + y = 9.",
+      "formula": "\\(\\begin{pmatrix} 5 & -3 \\\\ 4 & 1 \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\end{pmatrix}=\\begin{pmatrix} 2 \\\\ 9 \\end{pmatrix}\\)",
+      "options": [
+        "\\(x=2,\\; y=1\\)",
+        "\\(x=1,\\; y=2\\)",
+        "\\(x=\\frac{3}{2},\\; y=2\\)",
+        "\\(x=2,\\; y=\\frac{1}{2}\\)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Aplicando eliminación se obtiene x = 2 y y = 1/2.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplica las ecuaciones para igualar coeficientes de y.",
+        "Resta las ecuaciones para eliminar y.",
+        "Resuelve para x y luego para y."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema: x + 2y = 5 y 3x - y = 4 utilizando el método de sustitución.",
+      "formula": "\\(\\begin{pmatrix} 1 & 2 \\\\ 3 & -1 \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\end{pmatrix}=\\begin{pmatrix} 5 \\\\ 4 \\end{pmatrix}\\)",
+      "options": [
+        "\\(x=2,\\; y=\\frac{3}{2}\\)",
+        "\\(x=1,\\; y=2\\)",
+        "\\(x=2,\\; y=1.5\\)",
+        "\\(x=3,\\; y=1\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Despejando x de la primera ecuación y sustituyendo en la segunda se obtiene la solución x=2, y=1.5.",
+      "difficulty": "hard",
+      "procedure": [
+        "Despeja x en la primera ecuación: x = 5 - 2y.",
+        "Sustituye en la segunda ecuación.",
+        "Resuelve para y y retro-sustituye para obtener x."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de \\(A=\\begin{pmatrix} 1 & 2 & 3 \\\\ 0 & 4 & 5 \\\\ 1 & 0 & 6 \\end{pmatrix}\\) y comenta si el sistema Ax=b tiene solución única.",
+      "formula": "Matriz A: \\(\\begin{pmatrix} 1 & 2 & 3 \\\\ 0 & 4 & 5 \\\\ 1 & 0 & 6 \\end{pmatrix}\\)",
+      "options": [
+        "\\(det=22,\\; solución\\;única\\)",
+        "\\(det=0,\\; no\\; tiene\\; solución\\)",
+        "\\(det=-22,\\; solución\\;única\\)",
+        "\\(det=0,\\; infinitas\\; soluciones\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "El determinante es -22, distinto de cero, lo que garantiza solución única para cualquier vector b.",
+      "difficulty": "hard",
+      "procedure": [
+        "Utiliza la regla de cofactores para calcular el determinante de A.",
+        "Verifica que el resultado es diferente de cero.",
+        "Concluye que Ax=b tiene solución única."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema con parámetro: x + y = 3 y 2x + ky = 7, determinando para qué valor de k existe solución única y encuentra la solución en función de k.",
+      "formula": "\\(\\begin{pmatrix} 1 & 1 \\\\ 2 & k \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\end{pmatrix}=\\begin{pmatrix} 3 \\\\ 7 \\end{pmatrix}\\)",
+      "options": [
+        "\\(k\\neq2,\\; x=\\frac{7-k}{k-2},\\; y=\\frac{3k-7}{k-2}\\)",
+        "\\(k=2,\\; sistema\\;indeterminado\\)",
+        "\\(k\\neq2,\\; x=2,\\; y=1\\)",
+        "\\(k=2,\\; sistema\\;incompatible\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Para solución única se requiere que el determinante (k - 2) sea distinto de cero; la solución se expresa en función de k.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula el determinante: 1×k - 1×2 = k - 2.",
+        "Establece la condición k ≠ 2.",
+        "Resuelve el sistema expresando x e y en función de k."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema utilizando Gauss-Jordan: 2x - y + z = 4, x + y + z = 6, -x + 2y + 3z = 5.",
+      "formula": "\\(\\left[\\begin{array}{ccc|c} 2 & -1 & 1 & 4 \\\\ 1 & 1 & 1 & 6 \\\\ -1 & 2 & 3 & 5 \\end{array}\\right]\\)",
+      "options": [
+        "\\(x=1,\\; y=2,\\; z=3\\)",
+        "\\(x=2,\\; y=1,\\; z=2\\)",
+        "\\(x=1,\\; y=3,\\; z=2\\)",
+        "\\(x=2,\\; y=2,\\; z=2\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando el método Gauss-Jordan se obtiene la solución única: x=1, y=2 y z=3.",
+      "difficulty": "hard",
+      "procedure": [
+        "Forma la matriz aumentada del sistema.",
+        "Aplica operaciones elementales hasta obtener la forma reducida por filas.",
+        "Lee la solución directamente de la matriz resultante."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema: 4x + 2y = 10 y 6x - 3y = 9 mediante inversión de matrices.",
+      "formula": "\\(\\begin{pmatrix} 4 & 2 \\\\ 6 & -3 \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\end{pmatrix}=\\begin{pmatrix} 10 \\\\ 9 \\end{pmatrix}\\)",
+      "options": [
+        "\\(x=2,\\; y=1\\)",
+        "\\(x=1,\\; y=2\\)",
+        "\\(x=3,\\; y=-1\\)",
+        "\\(x=2,\\; y=-1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Calculando la inversa de la matriz de coeficientes y multiplicándola por b se obtiene la solución x=2 e y=1.",
+      "difficulty": "hard",
+      "procedure": [
+        "Determina la inversa de la matriz de coeficientes.",
+        "Multiplica la inversa por el vector b.",
+        "Verifica que la solución satisface ambas ecuaciones."
+      ]
+    },
+    {
+      "question": "Determina la transformación lineal T definida por \\(T(x,y)= (3x - y, x+ 2y)\\) y calcula T(0,1).",
+      "formula": "\\(T(0,1)= (3\\times0-1, 0+2\\times1)\\)",
+      "options": [
+        "\\(T(0,1)=( -1, 2)\\)",
+        "\\(T(0,1)=(1, 2)\\)",
+        "\\(T(0,1)=( -1, -2)\\)",
+        "\\(T(0,1)=(0,2)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sustituyendo se obtiene: 3×0-1 = -1 y 0+2 = 2, por lo que T(0,1)=(-1,2).",
+      "difficulty": "hard",
+      "procedure": [
+        "Sustituye el vector (0,1) en la función T.",
+        "Realiza las operaciones indicadas para cada componente.",
+        "Obtén el vector resultado."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema: 2x + 3y + z = 7, x - y + 2z = 4 y 3x + y + 4z = 10 utilizando métodos matriciales.",
+      "formula": "\\(\\begin{pmatrix} 2 & 3 & 1 \\\\ 1 & -1 & 2 \\\\ 3 & 1 & 4 \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix}=\\begin{pmatrix} 7 \\\\ 4 \\\\ 10 \\end{pmatrix}\\)",
+      "options": [
+        "\\(x=1,\\; y=2,\\; z=1\\)",
+        "\\(x=2,\\; y=1,\\; z=1\\)",
+        "\\(x=1,\\; y=1,\\; z=2\\)",
+        "\\(x=2,\\; y=2,\\; z=0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mediante eliminación se obtiene la solución única: x=1, y=2, z=1.",
+      "difficulty": "hard",
+      "procedure": [
+        "Forma la matriz aumentada del sistema.",
+        "Aplica eliminación gaussiana para triangular la matriz.",
+        "Resuelve el sistema por sustitución regresiva."
+      ]
+    },
+    {
+      "question": "Determina la imagen del vector (4, -1) mediante una transformación de cizallamiento definida por \\(T(x,y)= (x+2y, y)\\).",
+      "formula": "\\(T(4,-1)= (4+2(-1), -1)\\)",
+      "options": [
+        "\\(T(4,-1)=(2,-1)\\)",
+        "\\(T(4,-1)=(6,-1)\\)",
+        "\\(T(4,-1)=(4,-1)\\)",
+        "\\(T(4,-1)=(0,-1)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se tiene: 4+2(-1)=2 y la componente y permanece igual: -1.",
+      "difficulty": "hard",
+      "procedure": [
+        "Sustituye (4,-1) en la transformación T.",
+        "Calcula la suma en la primera componente.",
+        "Mantén la segunda componente sin cambio."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema: 3x - y + 2z = 7, 2x + y - z = 4 y -x + 3y + z = 3 utilizando métodos de eliminación.",
+      "formula": "\\(\\begin{pmatrix} 3 & -1 & 2 \\\\ 2 & 1 & -1 \\\\ -1 & 3 & 1 \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix}=\\begin{pmatrix} 7 \\\\ 4 \\\\ 3 \\end{pmatrix}\\)",
+      "options": [
+        "\\(x=1,\\; y=2,\\; z=1\\)",
+        "\\(x=2,\\; y=1,\\; z=0\\)",
+        "\\(x=1,\\; y=1,\\; z=2\\)",
+        "\\(x=2,\\; y=2,\\; z=1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mediante eliminación gaussiana se llega a la solución: x=1, y=2, z=1.",
+      "difficulty": "hard",
+      "procedure": [
+        "Forma la matriz aumentada.",
+        "Aplica operaciones elementales para triangular la matriz.",
+        "Utiliza sustitución regresiva para hallar x, y y z."
+      ]
+    },
+    {
+      "question": "Determina la inversa de \\(A=\\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}\\) y verifica que \\(A\\times A^{-1}\\) es la matriz identidad.",
+      "formula": "\\(A\\times A^{-1}= I\\)",
+      "options": [
+        "\\(A^{-1}=\\begin{pmatrix} -2 & 1 \\\\ \\frac{3}{2} & -\\frac{1}{2} \\end{pmatrix}\\)",
+        "\\(A^{-1}=\\begin{pmatrix} -4 & 2 \\\\ 3 & -1 \\end{pmatrix}\\)",
+        "\\(A^{-1}=\\begin{pmatrix} 4 & -2 \\\\ -3 & 1 \\end{pmatrix}\\)",
+        "\\(A^{-1}=\\begin{pmatrix} 2 & -1 \\\\ -\\frac{3}{2} & \\frac{1}{2} \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La inversa de A es \\(\\frac{1}{(1*4-2*3)}\\begin{pmatrix} 4 & -2 \\\\ -3 & 1 \\end{pmatrix} = \\begin{pmatrix} -2 & 1 \\\\ 1.5 & -0.5 \\end{pmatrix}\\). La verificación se realiza multiplicando A por su inversa y comprobando que se obtiene la identidad.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcula el determinante de A: 1×4 - 2×3.",
+        "Utiliza la fórmula para la inversa de una matriz 2x2.",
+        "Multiplica A por A^{-1} y verifica que el resultado es la matriz identidad."
+      ]
+    },
+    {
+      "question": "Determina la transformación T: \\(T(x,y)= (3x- y, x+ 2y)\\) y calcula T(0, -2).",
+      "formula": "\\(T(0,-2)= (3\\times0-(-2), 0+2(-2))\\)",
+      "options": [
+        "\\(T(0,-2)=(2,-4)\\)",
+        "\\(T(0,-2)=(-2,-4)\\)",
+        "\\(T(0,-2)=(2,4)\\)",
+        "\\(T(0,-2)=(-2,4)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sustituyendo se obtiene: 3×0-(-2)=2 y 0+2(-2)=-4, por lo que T(0,-2) = (2,-4).",
+      "difficulty": "hard",
+      "procedure": [
+        "Sustituye (0,-2) en la función T.",
+        "Realiza las operaciones indicadas en cada componente.",
+        "Obtén el vector imagen."
+      ]
+    },
+    {
+      "question": "Determina la matriz de proyección sobre el eje y en \\(\\mathbb{R}^2\\).",
+      "formula": "\\(P=\\begin{pmatrix} 0 & 0 \\\\ 0 & 1 \\end{pmatrix}\\)",
+      "options": [
+        "\\(P=\\begin{pmatrix} 0 & 0 \\\\ 0 & 1 \\end{pmatrix}\\)",
+        "\\(P=\\begin{pmatrix} 1 & 0 \\\\ 0 & 0 \\end{pmatrix}\\)",
+        "\\(P=\\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}\\)",
+        "\\(P=\\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La proyección sobre el eje y conserva la componente y y anula la componente x.",
+      "difficulty": "hard",
+      "procedure": [
+        "Analiza la definición de proyección sobre el eje y.",
+        "Determina la acción sobre un vector arbitrario (x,y).",
+        "Construye la matriz que produce el resultado (0,y)."
+      ]
+    }
+  ]
+}

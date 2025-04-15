@@ -1,0 +1,1282 @@
+{
+  "derivadas_aplicaciones_optimizacion_media": [
+    {
+      "question": "Calcula la tasa de cambio instantánea de la función \\(f(x)=x^2\\) en \\(x=3\\).",
+      "formula": "\\(f(x)=x^2\\)",
+      "options": ["\\(6\\)", "\\(9\\)", "\\(3\\)", "\\(12\\)"],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(f(x)=x^2\\) es \\(f'(x)=2x\\), y evaluándola en \\(x=3\\) se obtiene \\(6\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Deriva la función: \\(f'(x)=2x\\).",
+        "Sustituye \\(x=3\\): \\(2 \\times 3 = 6\\)."
+      ]
+    },
+    {
+      "question": "Determina la tasa de cambio instantánea de \\(f(x)=\\sin(x)\\) en \\(x=\\frac{\\pi}{2}\\).",
+      "formula": "\\(f(x)=\\sin(x)\\)",
+      "options": ["\\(0\\)", "\\(1\\)", "\\(-1\\)", "\\(\\frac{1}{2}\\)"],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\sin(x)\\) es \\(\\cos(x)\\), y \\(\\cos(\\frac{\\pi}{2})=0\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula la derivada: \\(f'(x)=\\cos(x)\\).",
+        "Evalúa en \\(x=\\frac{\\pi}{2}\\): \\(\\cos(\\frac{\\pi}{2})=0\\)."
+      ]
+    },
+    {
+      "question": "Calcula la tasa de cambio instantánea de \\(f(x)=e^x\\) en \\(x=0\\).",
+      "formula": "\\(f(x)=e^x\\)",
+      "options": ["\\(0\\)", "\\(1\\)", "\\(e\\)", "\\(2\\)"],
+      "correctAnswer": 1,
+      "explanation": "La derivada de \\(e^x\\) es \\(e^x\\), y en \\(x=0\\) se tiene \\(e^0=1\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Deriva la función: \\(f'(x)=e^x\\).",
+        "Evalúa en \\(x=0\\): \\(e^0=1\\)."
+      ]
+    },
+    {
+      "question": "Calcula la tasa de cambio instantánea de \\(f(x)=\\ln(x)\\) en \\(x=e\\).",
+      "formula": "\\(f(x)=\\ln(x)\\)",
+      "options": ["\\(1\\)", "\\(e\\)", "\\(\\frac{1}{e}\\)", "\\(0\\)"],
+      "correctAnswer": 2,
+      "explanation": "La derivada de \\(\\ln(x)\\) es \\(1/x\\), y en \\(x=e\\) se obtiene \\(\\frac{1}{e}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Deriva la función: \\(f'(x)=1/x\\).",
+        "Evalúa en \\(x=e\\): \\(1/e\\)."
+      ]
+    },
+    {
+      "question": "Calcula la tasa de cambio instantánea de \\(f(x)=3x^3\\) en \\(x=2\\).",
+      "formula": "\\(f(x)=3x^3\\)",
+      "options": ["\\(24\\)", "\\(36\\)", "\\(18\\)", "\\(12\\)"],
+      "correctAnswer": 1,
+      "explanation": "La derivada de \\(3x^3\\) es \\(9x^2\\); evaluada en \\(x=2\\) se tiene \\(9 \\times 4 = 36\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Deriva la función: \\(f'(x)=9x^2\\).",
+        "Sustituye \\(x=2\\): \\(9 \\times 2^2 = 36\\)."
+      ]
+    },
+    {
+      "question": "Determina la tasa de cambio instantánea de \\(f(x)=\\cos(x)\\) en \\(x=0\\).",
+      "formula": "\\(f(x)=\\cos(x)\\)",
+      "options": ["\\(1\\)", "\\(0\\)", "\\(-1\\)", "\\(\\frac{1}{2}\\)"],
+      "correctAnswer": 1,
+      "explanation": "La derivada de \\(\\cos(x)\\) es \\(-\\sin(x)\\), y en \\(x=0\\) se tiene \\(-\\sin(0)=0\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula la derivada: \\(f'(x)=-\\sin(x)\\).",
+        "Evalúa en \\(x=0\\): \\(-\\sin(0)=0\\)."
+      ]
+    },
+    {
+      "question": "Calcula la tasa de cambio instantánea de \\(f(x)=x^3-2x\\) en \\(x=1\\).",
+      "formula": "\\(f(x)=x^3-2x\\)",
+      "options": ["\\(1\\)", "\\(0\\)", "\\(3\\)", "\\(-1\\)"],
+      "correctAnswer": 0,
+      "explanation": "La derivada es \\(f'(x)=3x^2-2\\); en \\(x=1\\) se obtiene \\(3-2=1\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Deriva la función: \\(f'(x)=3x^2-2\\).",
+        "Sustituye \\(x=1\\): \\(3 \\times 1^2 - 2 = 1\\)."
+      ]
+    },
+    {
+      "question": "Determina la tasa de cambio instantánea de \\(f(x)=\\sqrt{x}\\) en \\(x=16\\).",
+      "formula": "\\(f(x)=\\sqrt{x}\\)",
+      "options": [
+        "\\(\\frac{1}{8}\\)",
+        "\\(\\frac{1}{4}\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(\\frac{1}{16}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\sqrt{x}\\) es \\(\\frac{1}{2\\sqrt{x}}\\); evaluada en \\(x=16\\) se tiene \\(\\frac{1}{2 \\times 4} = \\frac{1}{8}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Deriva la función: \\(f'(x)=\\frac{1}{2\\sqrt{x}}\\).",
+        "Evalúa en \\(x=16\\): \\(\\frac{1}{2 \\times 4}=\\frac{1}{8}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la tasa de cambio instantánea de \\(f(x)=\\frac{1}{x}\\) en \\(x=2\\).",
+      "formula": "\\(f(x)=\\frac{1}{x}\\)",
+      "options": [
+        "\\(-\\frac{1}{4}\\)",
+        "\\(\\frac{1}{4}\\)",
+        "\\(-2\\)",
+        "\\(2\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\frac{1}{x}\\) es \\(-\\frac{1}{x^2}\\); en \\(x=2\\) se obtiene \\(-\\frac{1}{4}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Reescribe \\(\\frac{1}{x}\\) como \\(x^{-1}\\) y deriva para obtener \\(-x^{-2}\\).",
+        "Evalúa en \\(x=2\\): \\(-\\frac{1}{2^2}=-\\frac{1}{4}\\)."
+      ]
+    },
+    {
+      "question": "Determina la tasa de cambio instantánea de \\(f(x)=4x-7\\) en cualquier punto.",
+      "formula": "\\(f(x)=4x-7\\)",
+      "options": ["\\(4\\)", "\\(7\\)", "\\(-4\\)", "\\(0\\)"],
+      "correctAnswer": 0,
+      "explanation": "La derivada de una función lineal es la pendiente; para \\(4x-7\\) es \\(4\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Reconoce que la derivada de \\(4x-7\\) es la constante \\(4\\)."
+      ]
+    },
+    {
+      "question": "Calcula la tasa de cambio instantánea de \\(f(x)=\\frac{x}{x+1}\\) en \\(x=1\\).",
+      "formula": "\\(f(x)=\\frac{x}{x+1}\\)",
+      "options": [
+        "\\(\\frac{1}{4}\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(\\frac{1}{3}\\)",
+        "\\(1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla del cociente se obtiene \\(f'(x)=\\frac{1}{(x+1)^2}\\); evaluada en \\(x=1\\) da \\(\\frac{1}{4}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Aplica la regla del cociente: \\(f'(x)=\\frac{(x+1)(1)-x(1)}{(x+1)^2}=\\frac{1}{(x+1)^2}\\).",
+        "Evalúa en \\(x=1\\): \\(f'(1)=\\frac{1}{4}\\)."
+      ]
+    },
+    {
+      "question": "Determina la tasa de cambio instantánea de \\(f(x)=\\tan(x)\\) en \\(x=\\frac{\\pi}{4}\\).",
+      "formula": "\\(f(x)=\\tan(x)\\)",
+      "options": [
+        "\\(1\\)",
+        "\\(2\\)",
+        "\\(\\sqrt{2}\\)",
+        "\\(\\frac{1}{2}\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La derivada de \\(\\tan(x)\\) es \\(\\sec^2(x)\\); en \\(x=\\frac{\\pi}{4}\\), \\(\\sec(\\frac{\\pi}{4})=\\sqrt{2}\\) y por tanto \\(\\sec^2(\\frac{\\pi}{4})=2\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula la derivada: \\(f'(x)=\\sec^2(x)\\).",
+        "Evalúa en \\(x=\\frac{\\pi}{4}\\): \\(\\sec^2(\\frac{\\pi}{4})=2\\)."
+      ]
+    },
+    {
+      "question": "Calcula la tasa de cambio instantánea de \\(f(x)=5\\) en cualquier punto.",
+      "formula": "\\(f(x)=5\\)",
+      "options": ["\\(5\\)", "\\(0\\)", "\\(1\\)", "\\(-5\\)"],
+      "correctAnswer": 1,
+      "explanation": "La derivada de una función constante es \\(0\\).",
+      "difficulty": "medium",
+      "procedure": ["Reconoce que la derivada de una constante es \\(0\\)."]
+    },
+    {
+      "question": "Determina la tasa de cambio instantánea de \\(f(x)=x^2\\sin(x)\\) en \\(x=0\\).",
+      "formula": "\\(f(x)=x^2\\sin(x)\\)",
+      "options": ["\\(0\\)", "\\(1\\)", "\\(2\\)", "\\(\\sin(0)\\)"],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla del producto se obtiene \\(f'(x)=2x\\sin(x)+x^2\\cos(x)\\), y en \\(x=0\\) se tiene \\(0\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Aplica la regla del producto: \\(f'(x)=2x\\sin(x)+x^2\\cos(x)\\).",
+        "Evalúa en \\(x=0\\): ambos términos se anulan, dando \\(0\\)."
+      ]
+    },
+    {
+      "question": "Calcula la tasa de cambio instantánea de \\(f(x)=\\cos^2(x)\\) en \\(x=\\frac{\\pi}{3}\\).",
+      "formula": "\\(f(x)=\\cos^2(x)\\)",
+      "options": [
+        "\\(-\\frac{\\sqrt{3}}{2}\\)",
+        "\\(\\frac{\\sqrt{3}}{2}\\)",
+        "\\(-\\sqrt{3}\\)",
+        "\\(\\frac{1}{2}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Derivando \\(\\cos^2(x)\\) mediante la regla de la cadena se obtiene \\(-2\\cos(x)\\sin(x)\\); en \\(x=\\frac{\\pi}{3}\\), con \\(\\cos(\\frac{\\pi}{3})=\\frac{1}{2}\\) y \\(\\sin(\\frac{\\pi}{3})=\\frac{\\sqrt{3}}{2}\\), se tiene \\(-2\\times\\frac{1}{2}\\times\\frac{\\sqrt{3}}{2}=-\\frac{\\sqrt{3}}{2}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Utiliza la regla de la cadena para derivar \\(\\cos^2(x)\\): \\(f'(x)=-2\\cos(x)\\sin(x)\\).",
+        "Evalúa en \\(x=\\frac{\\pi}{3}\\): sustituye \\(\\cos(\\frac{\\pi}{3})\\) y \\(\\sin(\\frac{\\pi}{3})\\)."
+      ]
+    },
+    {
+      "question": "Encuentra el valor de \\(x\\) que maximiza \\(f(x)=-x^2+4x+1\\).",
+      "formula": "\\(f(x)=-x^2+4x+1\\)",
+      "options": ["\\(2\\)", "\\(1\\)", "\\(3\\)", "\\(0\\)"],
+      "correctAnswer": 0,
+      "explanation": "El vértice de una parábola \\(ax^2+bx+c\\) se encuentra en \\(x=-\\frac{b}{2a}\\). Con \\(a=-1\\) y \\(b=4\\), se obtiene \\(x=2\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Aplica la fórmula del vértice: \\(x=-\\frac{b}{2a}\\).",
+        "Sustituye \\(a=-1\\) y \\(b=4\\): \\(x=2\\)."
+      ]
+    },
+    {
+      "question": "Determina el máximo de \\(f(x)=-2x^2+8x\\) y el valor de \\(x\\) donde se alcanza.",
+      "formula": "\\(f(x)=-2x^2+8x\\)",
+      "options": [
+        "\\(\\text{Máximo }8 \\text{ en } x=2\\)",
+        "\\(\\text{Máximo }4 \\text{ en } x=1\\)",
+        "\\(\\text{Máximo }8 \\text{ en } x=4\\)",
+        "\\(\\text{Máximo }16 \\text{ en } x=2\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El vértice de la parábola se halla en \\(x=-\\frac{b}{2a}\\). Con \\(a=-2\\) y \\(b=8\\), se obtiene \\(x=2\\) y \\(f(2)=8\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula el vértice usando \\(x=-\\frac{8}{2(-2)}=2\\).",
+        "Evalúa \\(f(2)=-2(2)^2+8(2)=8\\)."
+      ]
+    },
+    {
+      "question": "Encuentra el mínimo de \\(f(x)=x^2-6x+10\\).",
+      "formula": "\\(f(x)=x^2-6x+10\\)",
+      "options": [
+        "\\(\\text{Mínimo }1 \\text{ en } x=3\\)",
+        "\\(\\text{Mínimo }4 \\text{ en } x=2\\)",
+        "\\(\\text{Mínimo }-1 \\text{ en } x=3\\)",
+        "\\(\\text{Mínimo }0 \\text{ en } x=0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El vértice se encuentra en \\(x=3\\) y \\(f(3)=1\\), que es el valor mínimo de la función.",
+      "difficulty": "medium",
+      "procedure": [
+        "Utiliza \\(x=-\\frac{-6}{2\\times1}=3\\).",
+        "Calcula \\(f(3)=9-18+10=1\\)."
+      ]
+    },
+    {
+      "question": "Una empresa fabrica cajas con volumen fijo y quiere minimizar el costo del material. Si la función de costo es \\(C(x)=x^2+\\frac{100}{x}\\), encuentra el valor de \\(x\\) que minimiza el costo.",
+      "formula": "\\(C(x)=x^2+\\frac{100}{x}\\)",
+      "options": [
+        "\\(\\sqrt[3]{50}\\)",
+        "\\(\\sqrt[3]{100}\\)",
+        "\\(5\\)",
+        "\\(10\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Derivando \\(C(x)\\) se obtiene \\(C'(x)=2x-\\frac{100}{x^2}\\). Igualando a cero se deduce que \\(x^3=50\\), es decir, \\(x=\\sqrt[3]{50}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Deriva la función: \\(C'(x)=2x-100/x^2\\).",
+        "Iguala a cero: \\(2x=100/x^2\\) y resuelve \\(x^3=50\\)."
+      ]
+    },
+    {
+      "question": "Maximiza el área de un rectángulo inscrito en una circunferencia de radio 5. ¿Cuál es el área máxima?",
+      "formula": "\\(A=\\text{área del rectángulo}\\)",
+      "options": ["\\(50\\)", "\\(25\\)", "\\(75\\)", "\\(100\\)"],
+      "correctAnswer": 0,
+      "explanation": "El área máxima de un rectángulo inscrito en una circunferencia de radio \\(r\\) es \\(2r^2\\); con \\(r=5\\), se tiene \\(A=50\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Utiliza la fórmula \\(A=2r^2\\).",
+        "Sustituye \\(r=5\\): \\(2 \\times 25=50\\)."
+      ]
+    },
+    {
+      "question": "Determina el número de unidades \\(x\\) que minimiza el costo si \\(C(x)=\\frac{1}{3}x^3-12x^2+60x+500\\).",
+      "formula": "\\(C(x)=\\frac{1}{3}x^3-12x^2+60x+500\\)",
+      "options": [
+        "\\(x\\approx2.84\\)",
+        "\\(x\\approx21.17\\)",
+        "\\(x=0\\)",
+        "\\(x\\approx10\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Derivando \\(C(x)\\) se obtiene \\(C'(x)=x^2-24x+60\\). La solución que minimiza el costo es \\(x\\approx2.84\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Deriva la función: \\(C'(x)=x^2-24x+60\\).",
+        "Resuelve \\(x^2-24x+60=0\\) y selecciona la solución menor."
+      ]
+    },
+    {
+      "question": "Maximiza el ingreso si \\(I(x)=x(100-2x)\\). ¿Cuál es el valor de \\(x\\) que maximiza el ingreso?",
+      "formula": "\\(I(x)=x(100-2x)\\)",
+      "options": ["\\(25\\)", "\\(50\\)", "\\(20\\)", "\\(30\\)"],
+      "correctAnswer": 0,
+      "explanation": "Expresada como cuadrática \\(I(x)=100x-2x^2\\), el vértice se halla en \\(x=-\\frac{100}{2(-2)}=25\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Reescribe \\(I(x)\\) como \\(100x-2x^2\\).",
+        "Calcula el vértice usando \\(x=-\\frac{b}{2a}\\): \\(x=25\\)."
+      ]
+    },
+    {
+      "question": "Una tienda desea maximizar su ganancia dada por \\(G(x)=-5x^2+300x-2000\\). ¿Cuántas unidades \\(x\\) se deben vender para maximizar \\(G(x)\\)?",
+      "formula": "\\(G(x)=-5x^2+300x-2000\\)",
+      "options": ["\\(30\\)", "\\(20\\)", "\\(40\\)", "\\(25\\)"],
+      "correctAnswer": 0,
+      "explanation": "El vértice de la parábola ocurre en \\(x=-\\frac{300}{2(-5)}=30\\), que maximiza la ganancia.",
+      "difficulty": "medium",
+      "procedure": [
+        "Utiliza la fórmula del vértice: \\(x=-\\frac{b}{2a}\\).",
+        "Con \\(a=-5\\) y \\(b=300\\), se obtiene \\(x=30\\)."
+      ]
+    },
+    {
+      "question": "Optimiza el volumen de una lata de conserva con área de superficie fija \\(A=150\\) cm². Si \\(V=\\pi r^2h\\) y \\(A=2\\pi r(h+r)\\), ¿cuál es el radio \\(r\\) que maximiza el volumen?",
+      "formula": "\\(r=\\frac{5}{\\sqrt{\\pi}}\\)",
+      "options": [
+        "\\(\\frac{5}{\\sqrt{\\pi}}\\)",
+        "\\(\\sqrt{\\frac{150}{2\\pi}}\\)",
+        "\\(5\\)",
+        "\\(\\frac{150}{\\pi}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La optimización conduce a \\(r=\\sqrt{\\frac{A}{6\\pi}}\\); con \\(A=150\\), se obtiene \\(r=\\frac{5}{\\sqrt{\\pi}}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Utiliza la restricción del área para expresar \\(h\\) en función de \\(r\\).",
+        "Expresa el volumen en función de \\(r\\) y optimiza derivando y resolviendo \\(V'(r)=0\\)."
+      ]
+    },
+    {
+      "question": "Maximiza el área de un rectángulo inscrito en la parábola \\(y=16-x^2\\). ¿Cuál es el área máxima?",
+      "formula": "\\(A(x)=2x(16-x^2)\\)",
+      "options": [
+        "\\(\\frac{256}{3\\sqrt{3}}\\)",
+        "\\(\\frac{128}{\\sqrt{3}}\\)",
+        "\\(\\frac{256}{\\sqrt{3}}\\)",
+        "\\(\\frac{128}{3\\sqrt{3}}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Optimizando \\(A(x)=2x(16-x^2)\\) se encuentra que \\(x=\\frac{4}{\\sqrt{3}}\\) y el área máxima es \\(\\frac{256}{3\\sqrt{3}}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Plantea el área del rectángulo en función de \\(x\\).",
+        "Deriva \\(A(x)\\) y encuentra \\(x\\) que maximiza el área, luego evalúa \\(A(x)\\)."
+      ]
+    },
+    {
+      "question": "Encuentra el punto de máximo beneficio para \\(P(x)=-x^2+40x-300\\).",
+      "formula": "\\(P(x)=-x^2+40x-300\\)",
+      "options": ["\\(x=20\\)", "\\(x=10\\)", "\\(x=30\\)", "\\(x=40\\)"],
+      "correctAnswer": 0,
+      "explanation": "El vértice de la función se halla en \\(x=-\\frac{40}{2(-1)}=20\\), lo que maximiza el beneficio.",
+      "difficulty": "medium",
+      "procedure": [
+        "Utiliza la fórmula del vértice \\(x=-\\frac{b}{2a}\\).",
+        "Con \\(a=-1\\) y \\(b=40\\), se obtiene \\(x=20\\)."
+      ]
+    },
+    {
+      "question": "Maximiza el área de un triángulo con base \\(b\\) y altura \\(h\\) sujeto a la restricción \\(b+h=20\\). ¿Cuál es el área máxima?",
+      "formula": "\\(A(b)=\\frac{1}{2}b(20-b)\\)",
+      "options": ["\\(50\\)", "\\(40\\)", "\\(100\\)", "\\(60\\)"],
+      "correctAnswer": 0,
+      "explanation": "Sustituyendo \\(h=20-b\\) en \\(A=\\frac{1}{2}bh\\) se obtiene \\(A(b)=10b-0.5b^2\\), que se maximiza en \\(b=10\\) dando \\(A=50\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expresa \\(h\\) en función de \\(b\\): \\(h=20-b\\).",
+        "Deriva \\(A(b)=10b-0.5b^2\\) y encuentra que \\(b=10\\) maximiza el área, luego calcula \\(A=50\\)."
+      ]
+    },
+    {
+      "question": "Minimiza el costo de construcción de una carretera dada por \\(C(x)=200x+\\frac{5000}{x}\\). ¿Cuál es el valor de \\(x\\) que minimiza el costo?",
+      "formula": "\\(C(x)=200x+\\frac{5000}{x}\\)",
+      "options": ["\\(x=5\\)", "\\(x=10\\)", "\\(x=2.5\\)", "\\(x=7\\)"],
+      "correctAnswer": 0,
+      "explanation": "Derivando \\(C(x)\\) se obtiene \\(C'(x)=200-\\frac{5000}{x^2}=0\\), lo que implica \\(x^2=25\\) y por tanto \\(x=5\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Deriva la función: \\(C'(x)=200-5000/x^2\\).",
+        "Iguala a cero y resuelve: \\(200=5000/x^2\\) dando \\(x^2=25\\) y \\(x=5\\)."
+      ]
+    },
+    {
+      "question": "Maximiza el volumen de una caja sin tapa construida a partir de un rectángulo de área \\(A=120\\) cm², cortando cuadrados de lado \\(x\\) en cada esquina. La función del volumen es \\(V(x)=x(\\sqrt{120}-2x)^2\\). ¿Cuál es el valor óptimo de \\(x\\)?",
+      "formula": "\\(V(x)=x(\\sqrt{120}-2x)^2\\)",
+      "options": [
+        "\\(x=\\frac{\\sqrt{120}}{6}\\)",
+        "\\(x=\\frac{\\sqrt{120}}{4}\\)",
+        "\\(x=\\frac{\\sqrt{120}}{8}\\)",
+        "\\(x=\\sqrt{120}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La optimización de \\(V(x)=x(\\sqrt{120}-2x)^2\\) conduce, al derivar e igualar a cero, a \\(x=\\frac{\\sqrt{120}}{6}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Deriva \\(V(x)\\) respecto a \\(x\\) e iguala a cero para hallar los puntos críticos.",
+        "Resuelve la ecuación resultante para obtener \\(x=\\frac{\\sqrt{120}}{6}\\)."
+      ]
+    },
+    {
+      "question": "Determina el máximo de la función \\(P(x)=-3x^2+120x-1000\\), que representa el beneficio en función de \\(x\\).",
+      "formula": "\\(P(x)=-3x^2+120x-1000\\)",
+      "options": [
+        "\\(\\text{Máximo en } x=20\\)",
+        "\\(\\text{Máximo en } x=30\\)",
+        "\\(\\text{Máximo en } x=10\\)",
+        "\\(\\text{Máximo en } x=40\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El vértice de la parábola se encuentra en \\(x=-\\frac{120}{2(-3)}=20\\), lo que maximiza \\(P(x)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Utiliza la fórmula del vértice \\(x=-\\frac{b}{2a}\\).",
+        "Con \\(a=-3\\) y \\(b=120\\), se obtiene \\(x=20\\)."
+      ]
+    },
+    {
+      "question": "Calcula la tasa de cambio instantánea de \\(f(x)=x^2+2x\\) en \\(x=2\\).",
+      "formula": "\\(f(x)=x^2+2x\\)",
+      "options": ["\\(6\\)", "\\(8\\)", "\\(4\\)", "\\(5\\)"],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(f(x)=x^2+2x\\) es \\(f'(x)=2x+2\\); al evaluar en \\(x=2\\), se obtiene \\(2(2)+2=6\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Deriva la función: \\(f'(x)=2x+2\\).",
+        "Sustituye \\(x=2\\): \\(2\\times2+2=6\\)."
+      ]
+    },
+    {
+      "question": "Calcula la tasa de cambio instantánea de \\(f(x)=3\\sin(x)\\) en \\(x=\\frac{\\pi}{6}\\).",
+      "formula": "\\(f(x)=3\\sin(x)\\)",
+      "options": [
+        "\\(\\frac{3\\sqrt{3}}{2}\\)",
+        "\\(3\\)",
+        "\\(\\frac{\\sqrt{3}}{2}\\)",
+        "\\(2\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada es \\(f'(x)=3\\cos(x)\\); en \\(x=\\frac{\\pi}{6}\\), \\(\\cos(\\frac{\\pi}{6})=\\frac{\\sqrt{3}}{2}\\), de donde \\(f'(\\frac{\\pi}{6})=\\frac{3\\sqrt{3}}{2}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Deriva la función: \\(f'(x)=3\\cos(x)\\).",
+        "Evalúa en \\(x=\\frac{\\pi}{6}\\): \\(3\\times\\frac{\\sqrt{3}}{2}=\\frac{3\\sqrt{3}}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la tasa de cambio instantánea de \\(f(x)=\\cos(x)+x\\) en \\(x=0\\).",
+      "formula": "\\(f(x)=\\cos(x)+x\\)",
+      "options": ["\\(1\\)", "\\(0\\)", "\\(-1\\)", "\\(2\\)"],
+      "correctAnswer": 0,
+      "explanation": "La derivada es \\(f'(x)=-\\sin(x)+1\\); en \\(x=0\\), \\(-\\sin(0)+1=1\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula la derivada: \\(f'(x)=-\\sin(x)+1\\).",
+        "Evalúa en \\(x=0\\): \\(0+1=1\\)."
+      ]
+    },
+    {
+      "question": "Calcula la tasa de cambio instantánea de \\(f(x)=\\sqrt{x+4}\\) en \\(x=5\\).",
+      "formula": "\\(f(x)=\\sqrt{x+4}\\)",
+      "options": [
+        "\\(\\frac{1}{6}\\)",
+        "\\(\\frac{1}{3}\\)",
+        "\\(\\frac{1}{9}\\)",
+        "\\(\\frac{1}{2}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Derivando \\(f(x)=\\sqrt{x+4}\\) se obtiene \\(f'(x)=\\frac{1}{2\\sqrt{x+4}}\\); en \\(x=5\\), \\(\\sqrt{5+4}=3\\) y por tanto \\(f'(5)=\\frac{1}{6}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Deriva la función: \\(f'(x)=\\frac{1}{2\\sqrt{x+4}}\\).",
+        "Sustituye \\(x=5\\): \\(\\sqrt{9}=3\\) y \\(\\frac{1}{2\\times3}=\\frac{1}{6}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la tasa de cambio instantánea de \\(f(x)=2x^3-x\\) en \\(x=1\\).",
+      "formula": "\\(f(x)=2x^3-x\\)",
+      "options": ["\\(5\\)", "\\(6\\)", "\\(7\\)", "\\(4\\)"],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(f(x)=2x^3-x\\) es \\(f'(x)=6x^2-1\\); en \\(x=1\\), \\(f'(1)=6-1=5\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Deriva: \\(f'(x)=6x^2-1\\).",
+        "Sustituye \\(x=1\\): \\(6\\times1^2-1=5\\)."
+      ]
+    },
+    {
+      "question": "Calcula la tasa de cambio instantánea de \\(f(x)=\\ln(x+1)\\) en \\(x=1\\).",
+      "formula": "\\(f(x)=\\ln(x+1)\\)",
+      "options": [
+        "\\(\\frac{1}{2}\\)",
+        "\\(1\\)",
+        "\\(2\\)",
+        "\\(\\frac{1}{3}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\ln(x+1)\\) es \\(\\frac{1}{x+1}\\); en \\(x=1\\), se tiene \\(\\frac{1}{2}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Deriva la función: \\(f'(x)=\\frac{1}{x+1}\\).",
+        "Evalúa en \\(x=1\\): \\(\\frac{1}{1+1}=\\frac{1}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la tasa de cambio instantánea de \\(f(x)=e^{2x}\\) en \\(x=0\\).",
+      "formula": "\\(f(x)=e^{2x}\\)",
+      "options": ["\\(2\\)", "\\(1\\)", "\\(e^2\\)", "\\(0\\)"],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(e^{2x}\\) es \\(2e^{2x}\\); en \\(x=0\\), se obtiene \\(2e^0=2\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Deriva la función: \\(f'(x)=2e^{2x}\\).",
+        "Sustituye \\(x=0\\): \\(2e^0=2\\)."
+      ]
+    },
+    {
+      "question": "Calcula la tasa de cambio instantánea de \\(f(x)=\\frac{4}{x+2}\\) en \\(x=2\\).",
+      "formula": "\\(f(x)=\\frac{4}{x+2}\\)",
+      "options": [
+        "\\(-\\frac{1}{4}\\)",
+        "\\(\\frac{1}{4}\\)",
+        "\\(-\\frac{1}{2}\\)",
+        "\\(-1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reescribe la función como \\(4(x+2)^{-1}\\); su derivada es \\(-4(x+2)^{-2}\\). En \\(x=2\\), se tiene \\(-4/(4^2)=-4/16=-\\frac{1}{4}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expresa la función como \\(4(x+2)^{-1}\\) y deriva: \\(f'(x)=-4(x+2)^{-2}\\).",
+        "Evalúa en \\(x=2\\): \\(-4/(4^2)=-\\frac{1}{4}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la tasa de cambio instantánea de \\(f(x)=\\frac{x}{x^2+1}\\) en \\(x=1\\).",
+      "formula": "\\(f(x)=\\frac{x}{x^2+1}\\)",
+      "options": [
+        "\\(0\\)",
+        "\\(\\frac{1}{4}\\)",
+        "\\(-\\frac{1}{4}\\)",
+        "\\(1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando la regla del cociente, se obtiene \\(f'(x)=\\frac{(x^2+1)-2x^2}{(x^2+1)^2}=\\frac{1-x^2}{(x^2+1)^2}\\); en \\(x=1\\), el numerador es cero, de donde \\(f'(1)=0\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Aplica la regla del cociente para derivar \\(f(x)=\\frac{x}{x^2+1}\\).",
+        "Evalúa en \\(x=1\\): \\(1-1=0\\), por lo tanto, \\(f'(1)=0\\)."
+      ]
+    },
+    {
+      "question": "Calcula la tasa de cambio instantánea de \\(f(x)=\\tan(x)\\) en \\(x=\\frac{\\pi}{6}\\).",
+      "formula": "\\(f(x)=\\tan(x)\\)",
+      "options": [
+        "\\(\\frac{4}{3}\\)",
+        "\\(\\frac{3}{4}\\)",
+        "\\(2\\)",
+        "\\(1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\tan(x)\\) es \\(\\sec^2(x)\\); en \\(x=\\frac{\\pi}{6}\\), \\(\\cos(\\frac{\\pi}{6})=\\frac{\\sqrt{3}}{2}\\) y por ende \\(\\sec^2(x)=\\left(\\frac{2}{\\sqrt{3}}\\right)^2=\\frac{4}{3}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula la derivada: \\(f'(x)=\\sec^2(x)\\).",
+        "Evalúa en \\(x=\\frac{\\pi}{6}\\): \\(\\sec^2(\\frac{\\pi}{6})=\\frac{4}{3}\\)."
+      ]
+    },
+    {
+      "question": "Encuentra el valor de \\(x\\) que maximiza \\(f(x)=-x^2+10x-16\\).",
+      "formula": "\\(f(x)=-x^2+10x-16\\)",
+      "options": ["\\(5\\)", "\\(4\\)", "\\(6\\)", "\\(8\\)"],
+      "correctAnswer": 0,
+      "explanation": "La función es una parábola con \\(a=-1\\); el vértice se encuentra en \\(x=-\\frac{b}{2a}=5\\), que es el punto de máximo.",
+      "difficulty": "medium",
+      "procedure": [
+        "Identifica \\(a=-1\\) y \\(b=10\\).",
+        "Calcula el vértice: \\(x=-\\frac{10}{2(-1)}=5\\)."
+      ]
+    },
+    {
+      "question": "Minimiza el costo de \\(C(x)=x^2+\\frac{40}{x}\\). ¿Cuál es el valor de \\(x\\) que minimiza \\(C(x)\\)?",
+      "formula": "\\(C(x)=x^2+\\frac{40}{x}\\)",
+      "options": [
+        "\\(\\sqrt[3]{20}\\)",
+        "\\(\\sqrt[3]{40}\\)",
+        "\\(4\\)",
+        "\\(2\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Derivando \\(C(x)\\): \\(C'(x)=2x-\\frac{40}{x^2}=0\\) conduce a \\(2x^3=40\\) o \\(x^3=20\\), es decir, \\(x=\\sqrt[3]{20}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Deriva: \\(C'(x)=2x-40/x^2\\).",
+        "Resuelve \\(2x^3=40\\) y encuentra \\(x=\\sqrt[3]{20}\\)."
+      ]
+    },
+    {
+      "question": "Maximiza el área de un rectángulo con perímetro fijo de \\(50\\) cm. ¿Cuál es el área máxima?",
+      "formula": "\\(P=50 \\Rightarrow \\text{lado}=\\frac{50}{4}=12.5\\)",
+      "options": ["\\(156.25\\)", "\\(150\\)", "\\(125\\)", "\\(200\\)"],
+      "correctAnswer": 0,
+      "explanation": "El área máxima se alcanza en un cuadrado. Cada lado es \\(\\frac{50}{4}=12.5\\) y el área es \\(12.5^2=156.25\\) cm².",
+      "difficulty": "medium",
+      "procedure": [
+        "Determina que el cuadrado maximiza el área con perímetro fijo.",
+        "Calcula cada lado: \\(50/4=12.5\\) y el área: \\(12.5^2=156.25\\)."
+      ]
+    },
+    {
+      "question": "Minimiza el perímetro de un rectángulo con área fija de \\(64\\) cm². ¿Cuál es el perímetro mínimo?",
+      "formula": "\\(A=64\\)",
+      "options": ["\\(32\\)", "\\(30\\)", "\\(16\\)", "\\(40\\)"],
+      "correctAnswer": 0,
+      "explanation": "El perímetro mínimo se alcanza para un cuadrado de lado \\(\\sqrt{64}=8\\), por lo que el perímetro es \\(4\\times8=32\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Para área \\(64\\), lado del cuadrado es \\(8\\).",
+        "Calcula el perímetro: \\(4\\times8=32\\)."
+      ]
+    },
+    {
+      "question": "Maximiza el volumen de una caja sin tapa con área superficial fija de \\(200\\) cm², asumiendo base cuadrada. ¿Cuál es el valor óptimo del lado de la base?",
+      "formula": "\\(A= x^2+4xh=200\\)",
+      "options": ["\\(8.17\\)", "\\(10\\)", "\\(6\\)", "\\(7.5\\)"],
+      "correctAnswer": 0,
+      "explanation": "Se demuestra que el volumen \\(V(x)=x(200-x^2)/4\\) se maximiza cuando \\(200-3x^2=0\\), lo que da \\(x^2=200/3\\) y \\(x\\approx8.17\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expresa la altura en función de \\(x\\): \\(h=\\frac{200-x^2}{4x}\\).",
+        "Plantea el volumen \\(V(x)=x^2h\\) y deriva para optimizar, obteniendo \\(x^2=200/3\\)."
+      ]
+    },
+    {
+      "question": "Encuentra el mínimo de \\(f(x)=(x-3)^2+7\\).",
+      "formula": "\\(f(x)=(x-3)^2+7\\)",
+      "options": ["\\(7\\)", "\\(9\\)", "\\(3\\)", "\\(10\\)"],
+      "correctAnswer": 0,
+      "explanation": "El mínimo se alcanza cuando \\((x-3)^2=0\\), es decir, en \\(x=3\\), dando \\(f(3)=7\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Reconoce que \\((x-3)^2\\) es mínima cuando \\(x=3\\).",
+        "Sustituye \\(x=3\\) en la función: \\(0+7=7\\)."
+      ]
+    },
+    {
+      "question": "Maximiza el beneficio de \\(P(x)=-2x^2+50x-300\\). ¿Cuántas unidades \\(x\\) maximizan el beneficio?",
+      "formula": "\\(P(x)=-2x^2+50x-300\\)",
+      "options": ["\\(12.5\\)", "\\(10\\)", "\\(15\\)", "\\(20\\)"],
+      "correctAnswer": 0,
+      "explanation": "El vértice se encuentra en \\(x=-\\frac{50}{2(-2)}=12.5\\), que maximiza \\(P(x)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Utiliza la fórmula del vértice \\(x=-\\frac{b}{2a}\\) con \\(a=-2\\) y \\(b=50\\).",
+        "Obtén \\(x=12.5\\)."
+      ]
+    },
+    {
+      "question": "Encuentra el máximo de la función de ingreso \\(R(x)=-x^2+30x\\).",
+      "formula": "\\(R(x)=-x^2+30x\\)",
+      "options": ["\\(15\\)", "\\(10\\)", "\\(20\\)", "\\(30\\)"],
+      "correctAnswer": 0,
+      "explanation": "El vértice de \\(R(x)=-x^2+30x\\) se halla en \\(x=15\\), que es donde se alcanza el ingreso máximo.",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula el vértice usando \\(x=-\\frac{30}{2(-1)}=15\\).",
+        "Evalúa \\(R(15)\\) para confirmar el máximo."
+      ]
+    },
+    {
+      "question": "Minimiza \\(f(x)=x^2-8x+20\\). ¿Cuál es el valor mínimo de la función?",
+      "formula": "\\(f(x)=x^2-8x+20\\)",
+      "options": ["\\(4\\)", "\\(8\\)", "\\(6\\)", "\\(2\\)"],
+      "correctAnswer": 0,
+      "explanation": "El vértice se encuentra en \\(x=4\\); sustituyendo se obtiene \\(16-32+20=4\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Determina el vértice: \\(x=\\frac{8}{2}=4\\).",
+        "Evalúa \\(f(4)=4\\)."
+      ]
+    },
+    {
+      "question": "Maximiza el ingreso dado por \\(A(x)=x(50-2x)\\). ¿Cuál es el valor óptimo de \\(x\\)?",
+      "formula": "\\(A(x)=50x-2x^2\\)",
+      "options": ["\\(12.5\\)", "\\(10\\)", "\\(15\\)", "\\(25\\)"],
+      "correctAnswer": 0,
+      "explanation": "La función es cuadrática y se maximiza en el vértice: \\(x=\\frac{50}{4}=12.5\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Reescribe \\(A(x)=50x-2x^2\\) y calcula el vértice: \\(x=-\\frac{50}{2(-2)}=12.5\\)."
+      ]
+    },
+    {
+      "question": "Calcula la tasa de cambio instantánea de \\(f(x)=2x^3-5x+1\\) en \\(x=2\\).",
+      "formula": "\\(f(x)=2x^3-5x+1\\)",
+      "options": ["\\(19\\)", "\\(17\\)", "\\(18\\)", "\\(20\\)"],
+      "correctAnswer": 0,
+      "explanation": "Derivando, \\(f'(x)=6x^2-5\\); en \\(x=2\\), \\(6\\times4-5=24-5=19\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Deriva la función: \\(f'(x)=6x^2-5\\).",
+        "Sustituye \\(x=2\\): \\(6\\times4-5=19\\)."
+      ]
+    },
+    {
+      "question": "Calcula la tasa de cambio instantánea de \\(f(x)=\\sqrt{3x+1}\\) en \\(x=3\\).",
+      "formula": "\\(f(x)=\\sqrt{3x+1}\\)",
+      "options": [
+        "\\(\\frac{3}{2\\sqrt{10}}\\)",
+        "\\(\\frac{1}{2\\sqrt{10}}\\)",
+        "\\(\\frac{3}{\\sqrt{10}}\\)",
+        "\\(\\frac{1}{\\sqrt{10}}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada es \\(f'(x)=\\frac{3}{2\\sqrt{3x+1}}\\); en \\(x=3\\), \\(\\sqrt{10}\\) aparece en el denominador, dando \\(\\frac{3}{2\\sqrt{10}}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Deriva \\(f(x)=\\sqrt{3x+1}\\): \\(f'(x)=\\frac{3}{2\\sqrt{3x+1}}\\).",
+        "Evalúa en \\(x=3\\): \\(\\frac{3}{2\\sqrt{10}}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la tasa de cambio instantánea de \\(f(x)=\\frac{1}{x+3}\\) en \\(x=1\\).",
+      "formula": "\\(f(x)=\\frac{1}{x+3}\\)",
+      "options": [
+        "\\(-\\frac{1}{16}\\)",
+        "\\(\\frac{1}{16}\\)",
+        "\\(-\\frac{1}{4}\\)",
+        "\\(\\frac{1}{4}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada es \\(f'(x)=-\\frac{1}{(x+3)^2}\\); en \\(x=1\\), \\(f'(1)=-\\frac{1}{16}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Deriva \\(f(x)=\\frac{1}{x+3}\\) para obtener \\(f'(x)=-\\frac{1}{(x+3)^2}\\).",
+        "Evalúa en \\(x=1\\): \\(-\\frac{1}{(1+3)^2}=-\\frac{1}{16}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la tasa de cambio instantánea de \\(f(x)=\\sin(2x)\\) en \\(x=\\frac{\\pi}{4}\\).",
+      "formula": "\\(f(x)=\\sin(2x)\\)",
+      "options": ["\\(0\\)", "\\(2\\)", "\\(-2\\)", "\\(1\\)"],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\sin(2x)\\) es \\(2\\cos(2x)\\); en \\(x=\\frac{\\pi}{4}\\), \\(\\cos(\\frac{\\pi}{2})=0\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula la derivada: \\(f'(x)=2\\cos(2x)\\).",
+        "Evalúa en \\(x=\\frac{\\pi}{4}\\): \\(2\\cos(\\frac{\\pi}{2})=0\\)."
+      ]
+    },
+    {
+      "question": "Calcula la tasa de cambio instantánea de \\(f(x)=\\cos(3x)\\) en \\(x=0\\).",
+      "formula": "\\(f(x)=\\cos(3x)\\)",
+      "options": ["\\(0\\)", "\\(-3\\)", "\\(3\\)", "\\(1\\)"],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\cos(3x)\\) es \\(-3\\sin(3x)\\); en \\(x=0\\), \\(\\sin(0)=0\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Deriva \\(f(x)=\\cos(3x)\\): \\(f'(x)=-3\\sin(3x)\\).",
+        "Evalúa en \\(x=0\\): \\(-3\\sin(0)=0\\)."
+      ]
+    },
+    {
+      "question": "Maximiza la función \\(f(x)=-3x^2+24x+5\\). ¿En qué valor de \\(x\\) se alcanza el máximo?",
+      "formula": "\\(f(x)=-3x^2+24x+5\\)",
+      "options": ["\\(4\\)", "\\(3\\)", "\\(5\\)", "\\(6\\)"],
+      "correctAnswer": 0,
+      "explanation": "El vértice se encuentra en \\(x=-\\frac{24}{2(-3)}=4\\).",
+      "difficulty": "medium",
+      "procedure": ["Calcula el vértice con \\(x=-\\frac{b}{2a}\\): \\(x=4\\)."]
+    },
+    {
+      "question": "Minimiza el costo de \\(C(x)=x^2-10x+25\\). ¿Cuál es el mínimo de \\(C(x)\\)?",
+      "formula": "\\(C(x)=x^2-10x+25\\)",
+      "options": ["\\(0\\)", "\\(5\\)", "\\(10\\)", "\\(25\\)"],
+      "correctAnswer": 0,
+      "explanation": "La función se puede escribir como \\((x-5)^2\\), cuyo mínimo es 0 en \\(x=5\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Completa el cuadrado: \\(C(x)=(x-5)^2\\).",
+        "El mínimo es \\(0\\) en \\(x=5\\)."
+      ]
+    },
+    {
+      "question": "Maximiza el área de un triángulo con base \\(b\\) y altura \\(h\\) sujeto a \\(b+h=30\\). ¿Cuál es el área máxima?",
+      "formula": "\\(A=\\frac{1}{2}bh\\)",
+      "options": ["\\(112.5\\)", "\\(100\\)", "\\(120\\)", "\\(90\\)"],
+      "correctAnswer": 0,
+      "explanation": "El área se maximiza cuando \\(b=h=15\\), dando \\(A=\\frac{1}{2}(15)(15)=112.5\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Establece la restricción: \\(b+h=30\\).",
+        "Maximiza \\(A=\\frac{1}{2}b(30-b)\\) obteniendo \\(b=15\\)."
+      ]
+    },
+    {
+      "question": "Maximiza \\(f(x)=-0.5x^2+12x-20\\). ¿En qué valor de \\(x\\) se alcanza el máximo?",
+      "formula": "\\(f(x)=-0.5x^2+12x-20\\)",
+      "options": ["\\(12\\)", "\\(10\\)", "\\(14\\)", "\\(8\\)"],
+      "correctAnswer": 0,
+      "explanation": "El vértice de la parábola se halla en \\(x=-\\frac{12}{2(-0.5)}=12\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Utiliza \\(x=-\\frac{b}{2a}\\) con \\(a=-0.5\\) y \\(b=12\\)."
+      ]
+    },
+    {
+      "question": "Minimiza la distancia desde el punto \\((3,4)\\) a la recta \\(y=x+1\\). ¿Cuál es la distancia mínima?",
+      "formula": "Distancia=\\(\\frac{|3-4+1|}{\\sqrt{2}}\\)",
+      "options": ["\\(0\\)", "\\(1\\)", "\\(2\\)", "\\(3\\)"],
+      "correctAnswer": 0,
+      "explanation": "El punto \\((3,4)\\) se encuentra sobre la recta \\(y=x+1\\), por lo que la distancia mínima es \\(0\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Verifica que \\(3-4+1=0\\); por la fórmula de la distancia, se obtiene \\(0\\)."
+      ]
+    },
+    {
+      "question": "Calcula la tasa de cambio instantánea de \\(f(x)=\\sqrt{x}+\\ln(x)\\) en \\(x=4\\).",
+      "formula": "\\(f(x)=\\sqrt{x}+\\ln(x)\\)",
+      "options": [
+        "\\(\\frac{1}{4}+\\frac{1}{4}\\)",
+        "\\(\\frac{1}{4}+\\frac{1}{2}\\)",
+        "\\(\\frac{1}{4}+\\frac{1}{4\\sqrt{4}}\\)",
+        "\\(\\frac{1}{4\\sqrt{4}}+\\frac{1}{4}\\)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "La derivada es \\(f'(x)=\\frac{1}{2\\sqrt{x}}+\\frac{1}{x}\\). En \\(x=4\\), se tiene \\(\\frac{1}{2\\times2}+\\frac{1}{4}=\\frac{1}{4}+\\frac{1}{4}=\\frac{1}{2}\\). La opción 4 expresa esta suma.",
+      "difficulty": "medium",
+      "procedure": [
+        "Deriva: \\(f'(x)=\\frac{1}{2\\sqrt{x}}+\\frac{1}{x}\\).",
+        "Sustituye \\(x=4\\): \\(\\frac{1}{4}+\\frac{1}{4}=\\frac{1}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la tasa de cambio instantánea de \\(f(x)=\\tan(x)+x\\) en \\(x=\\frac{\\pi}{4}\\).",
+      "formula": "\\(f(x)=\\tan(x)+x\\)",
+      "options": [
+        "\\(1+\\sec^2(\\frac{\\pi}{4})\\)",
+        "\\(1+2\\)",
+        "\\(\\sec^2(\\frac{\\pi}{4})+1\\)",
+        "\\(2+1\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La derivada es \\(f'(x)=\\sec^2(x)+1\\). En \\(x=\\frac{\\pi}{4}\\), \\(\\sec^2(\\frac{\\pi}{4})=2\\) y por tanto \\(f'(\\frac{\\pi}{4})=2+1=3\\). La opción 3 representa la fórmula.",
+      "difficulty": "medium",
+      "procedure": [
+        "Deriva: \\(f'(x)=\\sec^2(x)+1\\).",
+        "Sustituye \\(x=\\frac{\\pi}{4}\\) con \\(\\sec^2(\\frac{\\pi}{4})=2\\) para obtener \\(3\\)."
+      ]
+    },
+    {
+      "question": "Optimiza el área de un rectángulo inscrito en un círculo de radio 6. ¿Cuál es el área máxima?",
+      "formula": "\\(A=2r^2\\)",
+      "options": ["\\(72\\)", "\\(60\\)", "\\(36\\)", "\\(108\\)"],
+      "correctAnswer": 0,
+      "explanation": "El área máxima de un rectángulo inscrito en un círculo es \\(2r^2\\). Con \\(r=6\\), se tiene \\(2\\times36=72\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Utiliza la fórmula \\(A=2r^2\\).",
+        "Sustituye \\(r=6\\): \\(2\\times36=72\\)."
+      ]
+    },
+    {
+      "question": "Minimiza la función de costo \\(C(x)=5x+\\frac{100}{x}\\). ¿Cuál es el valor de \\(x\\) que minimiza \\(C(x)\\)?",
+      "formula": "\\(C(x)=5x+\\frac{100}{x}\\)",
+      "options": [
+        "\\(x=4\\)",
+        "\\(x=5\\)",
+        "\\(x=\\sqrt{20}\\)",
+        "\\(x=\\sqrt{\\frac{100}{5}}\\)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Derivando se obtiene \\(C'(x)=5-\\frac{100}{x^2}\\). Igualando a cero, \\(5=\\frac{100}{x^2}\\) implica \\(x^2=20\\) y \\(x=\\sqrt{20}\\). La opción 4 expresa \\(\\sqrt{\\frac{100}{5}}=\\sqrt{20}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Deriva: \\(C'(x)=5-\\frac{100}{x^2}\\).",
+        "Iguala a cero y resuelve: \\(5=\\frac{100}{x^2}\\) dando \\(x^2=20\\) y \\(x=\\sqrt{20}\\)."
+      ]
+    },
+    {
+      "question": "Encuentra el máximo de \\(P(x)=-x^2+16x-50\\).",
+      "formula": "\\(P(x)=-x^2+16x-50\\)",
+      "options": [
+        "\\(x=8\\)",
+        "\\(x=16\\)",
+        "\\(x=\\frac{16}{2}\\)",
+        "\\(x=\\frac{-16}{-2}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El vértice de una parábola \\(ax^2+bx+c\\) se encuentra en \\(x=-\\frac{b}{2a}\\). Aquí, \\(a=-1\\) y \\(b=16\\), de donde \\(x=\\frac{16}{2}=8\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula el vértice: \\(x=-\\frac{16}{2(-1)}=8\\).",
+        "El máximo se alcanza en \\(x=8\\)."
+      ]
+    },
+    {
+      "question": "Encuentra el mínimo de \\(f(x)=(x-2)^2+3\\).",
+      "formula": "\\(f(x)=(x-2)^2+3\\)",
+      "options": ["\\(3\\)", "\\(2\\)", "\\(5\\)", "\\(7\\)"],
+      "correctAnswer": 0,
+      "explanation": "La función alcanza su mínimo cuando \\((x-2)^2=0\\), es decir, en \\(x=2\\), dando \\(f(2)=3\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Encuentra el vértice: \\(x=2\\).",
+        "Calcula \\(f(2)=0+3=3\\)."
+      ]
+    },
+    {
+      "question": "Optimiza el volumen de una caja sin tapa con base cuadrada, si su área total es \\(180\\) cm². ¿Cuál es la longitud del lado de la base óptima?",
+      "formula": "\\(A= x^2+4xh=180\\)",
+      "options": [
+        "\\(x=3\\)",
+        "\\(x=\\sqrt{30}\\)",
+        "\\(x=\\sqrt{45}\\)",
+        "\\(x=\\sqrt{36}\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Al optimizar el volumen sujeto a la restricción del área, se obtiene una relación que conduce a \\(x=\\sqrt{30}\\) (resultado derivado del sistema de ecuaciones).",
+      "difficulty": "medium",
+      "procedure": [
+        "Plantea la restricción: \\(x^2+4xh=180\\).",
+        "Optimiza el volumen \\(V=x^2h\\) y resuelve el sistema para encontrar \\(x=\\sqrt{30}\\)."
+      ]
+    },
+    {
+      "question": "Maximiza el ingreso de \\(R(x)=50x-2x^2\\). ¿Cuál es el número de unidades \\(x\\) que maximiza el ingreso?",
+      "formula": "\\(R(x)=50x-2x^2\\)",
+      "options": ["\\(x=12.5\\)", "\\(x=10\\)", "\\(x=15\\)", "\\(x=25\\)"],
+      "correctAnswer": 0,
+      "explanation": "El vértice de la función se encuentra en \\(x=-\\frac{50}{2(-2)}=12.5\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula el vértice: \\(x=-\\frac{b}{2a}\\) con \\(a=-2\\) y \\(b=50\\).",
+        "Se obtiene \\(x=12.5\\) como máximo."
+      ]
+    },
+    {
+      "question": "Minimiza la función \\(C(x)=x^3-12x^2+36x+5\\). ¿En qué intervalo se encuentra el mínimo local?",
+      "formula": "\\(C(x)=x^3-12x^2+36x+5\\)",
+      "options": [
+        "\\(x\\in(0,4)\\)",
+        "\\(x\\in(4,8)\\)",
+        "\\(x\\in(8,12)\\)",
+        "\\(x\\in(12,16)\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Derivando se obtiene \\(C'(x)=3x^2-24x+36\\). La solución de \\(C'(x)=0\\) es \\(x=4\\) (doble raíz) lo que indica un punto de inflexión con mínimo local en ese intervalo.",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula \\(C'(x)=3x^2-24x+36\\).",
+        "Resuelve \\(3(x-4)^2=0\\) y analiza el comportamiento para concluir que el mínimo se ubica en \\(x=4\\)."
+      ]
+    },
+    {
+      "question": "Calcula la tasa de cambio instantánea de \\(f(x)=e^{-x}\\) en \\(x=0\\).",
+      "formula": "\\(f(x)=e^{-x}\\)",
+      "options": ["\\(-1\\)", "\\(1\\)", "\\(0\\)", "\\(-e^{-x}\\)"],
+      "correctAnswer": 0,
+      "explanation": "La derivada es \\(f'(x)=-e^{-x}\\). En \\(x=0\\), \\(f'(0)=-e^0=-1\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Deriva: \\(f'(x)=-e^{-x}\\).",
+        "Sustituye \\(x=0\\): \\(-e^0=-1\\)."
+      ]
+    },
+    {
+      "question": "Determina el máximo de \\(f(x)=-0.5x^2+10x-12\\).",
+      "formula": "\\(f(x)=-0.5x^2+10x-12\\)",
+      "options": [
+        "\\(x=10\\)",
+        "\\(x=8\\)",
+        "\\(x=\\frac{10}{0.5}\\)",
+        "\\(x=10\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El vértice se halla en \\(x=-\\frac{10}{2(-0.5)}=10\\), pero al analizar la función se concluye que el máximo se alcanza en \\(x=8\\) tras evaluar la derivada y las segundas derivadas.",
+      "difficulty": "medium",
+      "procedure": [
+        "Deriva la función y encuentra \\(x\\) que anula la derivada.",
+        "Verifica el máximo evaluando la segunda derivada para confirmar que \\(x=8\\) maximiza la función."
+      ]
+    },
+    {
+      "question": "Minimiza el costo de \\(C(x)=x+\\frac{64}{x}\\). ¿Cuál es el valor de \\(x\\) que minimiza \\(C(x)\\)?",
+      "formula": "\\(C(x)=x+\\frac{64}{x}\\)",
+      "options": ["\\(x=8\\)", "\\(x=4\\)", "\\(x=16\\)", "\\(x=\\sqrt{64}\\)"],
+      "correctAnswer": 0,
+      "explanation": "Derivando se tiene \\(C'(x)=1-\\frac{64}{x^2}=0\\) lo que implica \\(x^2=64\\) y \\(x=8\\) (positivo).",
+      "difficulty": "medium",
+      "procedure": [
+        "Deriva: \\(C'(x)=1-\\frac{64}{x^2}\\).",
+        "Iguala a cero y resuelve: \\(x^2=64\\) dando \\(x=8\\)."
+      ]
+    },
+    {
+      "question": "Encuentra la tasa de cambio instantánea de \\(f(x)=\\ln(2x)\\) en \\(x=2\\).",
+      "formula": "\\(f(x)=\\ln(2x)\\)",
+      "options": [
+        "\\(\\frac{1}{2}\\)",
+        "\\(\\frac{1}{2x}\\)",
+        "\\(\\frac{1}{2}\\times\\frac{1}{x}\\)",
+        "\\(\\frac{1}{2\\times2}\\)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "La derivada es \\(f'(x)=\\frac{2}{2x}=\\frac{1}{x}\\). En \\(x=2\\), \\(f'(2)=\\frac{1}{2}\\). La opción 4 lo expresa.",
+      "difficulty": "medium",
+      "procedure": [
+        "Deriva \\(\\ln(2x)\\) usando la cadena: \\(f'(x)=\\frac{2}{2x}=\\frac{1}{x}\\).",
+        "Sustituye \\(x=2\\): \\(\\frac{1}{2}\\)."
+      ]
+    },
+    {
+      "question": "Optimiza el área de un triángulo isósceles con perímetro \\(30\\). ¿Cuál es el área máxima?",
+      "formula": "\\(A=\\frac{1}{2}bh\\)",
+      "options": ["\\(A=25\\)", "\\(A=30\\)", "\\(A=27\\)", "\\(A=28\\)"],
+      "correctAnswer": 0,
+      "explanation": "El área máxima se alcanza cuando la base es \\(10\\) y la altura \\(5\\), dando \\(A=\\frac{1}{2}\\times10\\times5=25\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Utiliza la restricción del perímetro para expresar \\(b\\) y \\(h\\).",
+        "Maximiza \\(A=\\frac{1}{2}bh\\) y resuelve para obtener \\(A=25\\)."
+      ]
+    },
+    {
+      "question": "Calcula la tasa de cambio instantánea de \\(f(x)=\\sec(x)\\) en \\(x=\\frac{\\pi}{3}\\).",
+      "formula": "\\(f(x)=\\sec(x)\\)",
+      "options": [
+        "\\(2\\)",
+        "\\(\\sec(x)\\tan(x)\\)",
+        "\\(\\sec(x)\\tan(x)\\text{ evaluado en }\\frac{\\pi}{3}\\)",
+        "\\(1\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La derivada de \\(\\sec(x)\\) es \\(\\sec(x)\\tan(x)\\). En \\(x=\\frac{\\pi}{3}\\), se debe evaluar esa expresión.",
+      "difficulty": "medium",
+      "procedure": [
+        "Deriva: \\(f'(x)=\\sec(x)\\tan(x)\\).",
+        "Evalúa en \\(x=\\frac{\\pi}{3}\\) para obtener el resultado numérico."
+      ]
+    },
+    {
+      "question": "Encuentra el máximo de \\(P(x)=-4x^2+32x-60\\).",
+      "formula": "\\(P(x)=-4x^2+32x-60\\)",
+      "options": ["\\(x=4\\)", "\\(x=8\\)", "\\(x=2\\)", "\\(x=6\\)"],
+      "correctAnswer": 0,
+      "explanation": "El vértice se halla en \\(x=-\\frac{32}{2(-4)}=4\\), que es el punto de máximo.",
+      "difficulty": "medium",
+      "procedure": ["Calcula el vértice: \\(x=-\\frac{32}{2(-4)}=4\\)."]
+    },
+    {
+      "question": "Minimiza la función \\(f(x)=x^2-4x+7\\). ¿Cuál es el valor mínimo?",
+      "formula": "\\(f(x)=x^2-4x+7\\)",
+      "options": ["\\(3\\)", "\\(2\\)", "\\(4\\)", "\\(5\\)"],
+      "correctAnswer": 0,
+      "explanation": "El mínimo se alcanza en \\(x=\\frac{4}{2}=2\\), dando \\(f(2)=4-8+7=3\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Completa el cuadrado o usa la fórmula del vértice: \\(x=2\\).",
+        "Calcula \\(f(2)=3\\)."
+      ]
+    },
+    {
+      "question": "Optimiza el volumen de un cilindro sin tapa con área superficial \\(150\\) cm². ¿Cuál es el radio óptimo?",
+      "formula": "\\(A=2\\pi rh+\\pi r^2=150\\)",
+      "options": [
+        "\\(r=3\\)",
+        "\\(r=4\\)",
+        "\\(r=\\sqrt{\\frac{150}{3\\pi}}\\)",
+        "\\(r=\\sqrt{\\frac{150}{\\pi}}\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Tras derivar y optimizar, se obtiene \\(r=\\sqrt{\\frac{150}{3\\pi}}\\) como radio que maximiza el volumen.",
+      "difficulty": "medium",
+      "procedure": [
+        "Plantea la restricción: \\(2\\pi rh+\\pi r^2=150\\).",
+        "Optimiza el volumen y resuelve para \\(r\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(f(x)=\\cos(2x)\\) en \\(x=\\frac{\\pi}{4}\\).",
+      "formula": "\\(f(x)=\\cos(2x)\\)",
+      "options": [
+        "\\(-2\\sin(2x)\\text{ evaluado en }\\frac{\\pi}{4}\\)",
+        "\\(-\\sin(2x)\\text{ evaluado en }\\frac{\\pi}{4}\\)",
+        "\\(2\\cos(2x)\\text{ evaluado en }\\frac{\\pi}{4}\\)",
+        "\\(\\sin(2x)\\text{ evaluado en }\\frac{\\pi}{4}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\cos(2x)\\) es \\(-2\\sin(2x)\\). En \\(x=\\frac{\\pi}{4}\\), se evalúa \\(-2\\sin(\\frac{\\pi}{2})=-2\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Deriva: \\(f'(x)=-2\\sin(2x)\\).",
+        "Sustituye \\(x=\\frac{\\pi}{4}\\): \\(-2\\sin(\\frac{\\pi}{2})=-2\\)."
+      ]
+    },
+    {
+      "question": "Encuentra el máximo de \\(R(x)=-3x^2+24x-15\\).",
+      "formula": "\\(R(x)=-3x^2+24x-15\\)",
+      "options": [
+        "\\(x=4\\)",
+        "\\(x=\\frac{24}{6}=4\\)",
+        "\\(x=\\frac{24}{2\\times3}=4\\)",
+        "\\(x=4\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El vértice se halla en \\(x=-\\frac{24}{2(-3)}=4\\), que maximiza la función.",
+      "difficulty": "medium",
+      "procedure": ["Calcula el vértice: \\(x=-\\frac{24}{-6}=4\\)."]
+    },
+    {
+      "question": "Minimiza la función \\(f(x)=(x+3)^2+2\\). ¿Cuál es el valor mínimo de \\(f(x)\\)?",
+      "formula": "\\(f(x)=(x+3)^2+2\\)",
+      "options": [
+        "\\(2\\)",
+        "\\(0\\)",
+        "\\(5\\)",
+        "\\(\\text{No tiene mínimo}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El mínimo se alcanza cuando \\((x+3)^2=0\\) es decir, en \\(x=-3\\), dando \\(f(-3)=2\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Encuentra el mínimo de \\((x+3)^2\\) en \\(x=-3\\).",
+        "Sustituye en la función: \\(0+2=2\\)."
+      ]
+    },
+    {
+      "question": "Calcula la tasa de cambio de \\(f(x)=\\sqrt{2x+5}\\) en \\(x=3\\).",
+      "formula": "\\(f(x)=\\sqrt{2x+5}\\)",
+      "options": [
+        "\\(\\frac{1}{\\sqrt{11}}\\)",
+        "\\(\\frac{1}{\\sqrt{11}}\\times\\frac{2}{2}\\)",
+        "\\(\\frac{1}{\\sqrt{11}}\\times\\frac{1}{2}\\)",
+        "\\(\\frac{1}{\\sqrt{11}}\\times\\frac{2}{2\\sqrt{11}}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada es \\(f'(x)=\\frac{2}{2\\sqrt{2x+5}}=\\frac{1}{\\sqrt{2x+5}}\\). En \\(x=3\\), \\(\\sqrt{11}\\) aparece en el denominador.",
+      "difficulty": "medium",
+      "procedure": [
+        "Deriva \\(\\sqrt{2x+5}\\) para obtener \\(f'(x)=\\frac{1}{\\sqrt{2x+5}}\\).",
+        "Sustituye \\(x=3\\): \\(\\frac{1}{\\sqrt{11}}\\)."
+      ]
+    },
+    {
+      "question": "Optimiza el área de un rectángulo con perímetro fijo de \\(40\\) cm. ¿Cuál es el área máxima?",
+      "formula": "\\(A=\\frac{P^2}{16}\\)",
+      "options": [
+        "\\(A=\\frac{40^2}{16}=100\\)",
+        "\\(A=\\frac{40^2}{8}\\)",
+        "\\(A=\\frac{40^2}{16}=80\\)",
+        "\\(A=\\frac{40^2}{20}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El área máxima de un rectángulo con perímetro \\(P\\) es \\(\\frac{P^2}{16}\\). Para \\(P=40\\), se tiene \\(\\frac{1600}{16}=100\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Utiliza la fórmula \\(A=\\frac{P^2}{16}\\).",
+        "Sustituye \\(P=40\\) para obtener \\(A=100\\)."
+      ]
+    },
+    {
+      "question": "Encuentra el mínimo de \\(C(x)=2x^2-16x+40\\).",
+      "formula": "\\(C(x)=2x^2-16x+40\\)",
+      "options": [
+        "\\(C_{min}=\\,\\,0\\)",
+        "\\(C_{min}=8\\)",
+        "\\(C_{min}=\\,\\,\\text{se alcanza en } x=4\\)",
+        "\\(C_{min}=\\,\\,\\text{se alcanza en } x=2\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "El vértice se encuentra en \\(x=-\\frac{-16}{2\\times2}=4\\); al evaluar \\(C(4)\\) se obtiene el mínimo.",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula el vértice: \\(x=4\\).",
+        "Evalúa \\(C(4)\\) para obtener el mínimo."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(f(x)=\\ln(x^2+1)\\) en \\(x=1\\).",
+      "formula": "\\(f(x)=\\ln(x^2+1)\\)",
+      "options": [
+        "\\(\\frac{2}{2}\\)",
+        "\\(\\frac{2x}{x^2+1}\\text{ evaluado en } x=1\\)",
+        "\\(\\frac{1}{x}\\)",
+        "\\(\\frac{2}{1+1}\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La derivada es \\(f'(x)=\\frac{2x}{x^2+1}\\). En \\(x=1\\), se obtiene \\(\\frac{2}{2}=1\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Deriva \\(\\ln(x^2+1)\\) para obtener \\(f'(x)=\\frac{2x}{x^2+1}\\).",
+        "Sustituye \\(x=1\\) para obtener \\(1\\)."
+      ]
+    },
+    {
+      "question": "Encuentra el máximo de \\(P(x)=-x^2+20x-90\\).",
+      "formula": "\\(P(x)=-x^2+20x-90\\)",
+      "options": [
+        "\\(x=10\\)",
+        "\\(x=\\frac{20}{2}=10\\)",
+        "\\(x=10\\)",
+        "\\(x=10\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El vértice de la función se encuentra en \\(x=-\\frac{20}{2(-1)}=10\\).",
+      "difficulty": "medium",
+      "procedure": ["Calcula el vértice: \\(x=10\\)."]
+    },
+    {
+      "question": "Minimiza el costo \\(C(x)=x+\\frac{81}{x}\\). ¿Cuál es el valor óptimo de \\(x\\)?",
+      "formula": "\\(C(x)=x+\\frac{81}{x}\\)",
+      "options": [
+        "\\(x=9\\)",
+        "\\(x=3\\)",
+        "\\(x=\\sqrt{81}\\)",
+        "\\(x=\\sqrt{\\frac{81}{1}}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Derivando, se tiene \\(1-\\frac{81}{x^2}=0\\) lo que da \\(x^2=81\\) y \\(x=9\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Deriva \\(C(x)=x+\\frac{81}{x}\\).",
+        "Iguala a cero: \\(1-\\frac{81}{x^2}=0\\) y resuelve \\(x=9\\)."
+      ]
+    },
+    {
+      "question": "Calcula la tasa de cambio instantánea de \\(f(x)=\\sin(x)+\\cos(x)\\) en \\(x=\\frac{\\pi}{2}\\).",
+      "formula": "\\(f(x)=\\sin(x)+\\cos(x)\\)",
+      "options": [
+        "\\(f'(x)=\\cos(x)-\\sin(x)\\text{ evaluado en }\\frac{\\pi}{2}\\)",
+        "\\(f'(x)=\\cos(x)-\\sin(x)\\text{ evaluado en }\\frac{\\pi}{2}= -1\\)",
+        "\\(f'(\\frac{\\pi}{2})= -1\\)",
+        "\\(f'(\\frac{\\pi}{2})= 0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada es \\(f'(x)=\\cos(x)-\\sin(x)\\). En \\(x=\\frac{\\pi}{2}\\), se tiene \\(0-1=-1\\). La opción 0 describe el proceso de evaluación.",
+      "difficulty": "medium",
+      "procedure": [
+        "Deriva: \\(f'(x)=\\cos(x)-\\sin(x)\\).",
+        "Evalúa en \\(x=\\frac{\\pi}{2}\\): \\(0-1=-1\\)."
+      ]
+    },
+    {
+      "question": "Optimiza el volumen de una caja con base cuadrada y área superficial fija de \\(250\\) cm². ¿Cuál es la longitud óptima del lado de la base?",
+      "formula": "\\(A=x^2+4xh=250\\)",
+      "options": [
+        "\\(x=\\sqrt{\\frac{250}{6}}\\)",
+        "\\(x=\\sqrt{\\frac{250}{4}}\\)",
+        "\\(x=\\sqrt{\\frac{250}{5}}\\)",
+        "\\(x=\\sqrt{\\frac{250}{3}}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Al optimizar el volumen sujeto a la restricción, se obtiene \\(x=\\sqrt{\\frac{250}{6}}\\) como valor óptimo.",
+      "difficulty": "medium",
+      "procedure": [
+        "Expresa la restricción y el volumen en función de \\(x\\).",
+        "Optimiza derivando y resuelve para obtener \\(x=\\sqrt{\\frac{250}{6}}\\)."
+      ]
+    },
+    {
+      "question": "Encuentra el máximo de \\(f(x)=-2x^2+18x-40\\).",
+      "formula": "\\(f(x)=-2x^2+18x-40\\)",
+      "options": [
+        "\\(x=\\frac{18}{4}=4.5\\)",
+        "\\(x=4\\)",
+        "\\(x=5\\)",
+        "\\(x=\\frac{18}{2}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El vértice se halla en \\(x=-\\frac{18}{2(-2)}=4.5\\), que es el punto de máximo.",
+      "difficulty": "medium",
+      "procedure": ["Calcula el vértice: \\(x=-\\frac{18}{-4}=4.5\\)."]
+    }
+  ]
+}

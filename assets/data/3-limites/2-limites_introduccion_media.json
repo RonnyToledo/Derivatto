@@ -1,0 +1,1225 @@
+{
+  "limites_introduccion_media": [
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 1} \\frac{x^2 - 1}{x - 1}\\)",
+      "formula": "\\(\\lim_{x \\to 1} \\frac{x^2 - 1}{x - 1}\\)",
+      "options": ["\\(1\\)", "\\(-2\\)", "\\(2\\)", "\\(0\\)"],
+      "correctAnswer": 2,
+      "explanation": "Factorizamos el numerador: \\(x^2 - 1 = (x-1)(x+1)\\) y cancelamos \\(x-1\\), obteniendo \\(\\lim_{x \\to 1}(x+1)=2\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Factorizamos el numerador: \\(x^2-1=(x-1)(x+1)\\).<br>",
+        "Cancelamos el factor común \\((x-1)\\).<br>",
+        "Sustituimos \\(x=1\\) en \\(x+1\\), obteniendo 2."
+      ]
+    },
+    {
+      "question": "Determina el límite: \\(\\lim_{x \\to \\infty} \\frac{3x+5}{x}\\)",
+      "formula": "\\(\\lim_{x \\to \\infty} \\frac{3x+5}{x}\\)",
+      "options": ["\\(5\\)", "\\(3\\)", "\\(\\infty\\)", "\\(0\\)"],
+      "correctAnswer": 1,
+      "explanation": "Dividimos numerador y denominador por \\(x\\), obteniendo \\(3+5/x\\). Al tender \\(x\\) a infinito, \\(5/x\\) tiende a 0, por lo que el límite es 3.",
+      "difficulty": "medium",
+      "procedure": [
+        "Dividimos cada término por \\(x\\): \\(\\frac{3x}{x}+\\frac{5}{x}=3+\\frac{5}{x}\\).<br>",
+        "Observamos que \\(\\frac{5}{x}\\) tiende a 0 cuando \\(x \\to \\infty\\).<br>",
+        "El límite es 3."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{\\sin(x)}{x}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\sin(x)}{x}\\)",
+      "options": ["\\(0\\)", "\\(1\\)", "\\(\\infty\\)", "\\(-1\\)"],
+      "correctAnswer": 1,
+      "explanation": "Este es un límite fundamental en cálculo, cuyo valor es 1.",
+      "difficulty": "medium",
+      "procedure": [
+        "Reconocemos el límite fundamental \\(\\lim_{x \\to 0} \\frac{\\sin(x)}{x}=1\\).<br>",
+        "Concluimos que el valor del límite es 1."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{1 - \\cos(x)}{x^2}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{1 - \\cos(x)}{x^2}\\)",
+      "options": [
+        "\\(\\frac{1}{2}\\)",
+        "\\(1\\)",
+        "\\(0\\)",
+        "\\(\\frac{1}{4}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mediante la expansión en serie de Taylor, \\(1-\\cos(x)\\) se aproxima a \\(\\frac{x^2}{2}\\) cuando \\(x\\) es pequeño, de donde se deduce que el límite es \\(\\frac{1}{2}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Utilizamos la aproximación: \\(1-\\cos(x)\\approx \\frac{x^2}{2}\\) para \\(x\\) pequeño.<br>",
+        "Sustituimos en el cociente: \\(\\frac{\\frac{x^2}{2}}{x^2}=\\frac{1}{2}\\).<br>",
+        "El límite es \\(\\frac{1}{2}\\)."
+      ]
+    },
+    {
+      "question": "Determina el límite: \\(\\lim_{x \\to \\infty} \\frac{2x^2 - x}{x^2}\\)",
+      "formula": "\\(\\lim_{x \\to \\infty} \\frac{2x^2 - x}{x^2}\\)",
+      "options": ["\\(2\\)", "\\(1\\)", "\\(\\infty\\)", "\\(0\\)"],
+      "correctAnswer": 0,
+      "explanation": "Dividimos cada término por \\(x^2\\) y obtenemos \\(2 - \\frac{1}{x}\\). Al tender \\(x\\) a infinito, \\(\\frac{1}{x}\\) se anula y el límite es 2.",
+      "difficulty": "medium",
+      "procedure": [
+        "Dividimos numerador y denominador por \\(x^2\\): \\(2 - \\frac{1}{x}\\).<br>",
+        "Al dejar \\(x \\to \\infty\\), \\(\\frac{1}{x} \\to 0\\).<br>",
+        "El límite es 2."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{e^x - 1}{x}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{e^x - 1}{x}\\)",
+      "options": ["\\(0\\)", "\\(1\\)", "\\(e\\)", "\\(-1\\)"],
+      "correctAnswer": 1,
+      "explanation": "Este límite corresponde a la derivada de \\(e^x\\) en \\(x=0\\), que es 1.",
+      "difficulty": "medium",
+      "procedure": [
+        "Reconocemos que \\(\\frac{e^x - 1}{x}\\) es la definición de la derivada de \\(e^x\\) en 0.<br>",
+        "Sabemos que \\(\\frac{d}{dx}e^x|_{x=0}=e^0=1\\).<br>",
+        "Por lo tanto, el límite es 1."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2}\\)",
+      "formula": "\\(\\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2}\\)",
+      "options": ["\\(2\\)", "\\(4\\)", "\\(0\\)", "\\(6\\)"],
+      "correctAnswer": 1,
+      "explanation": "Se factoriza el numerador \\(x^2-4=(x-2)(x+2)\\) y se cancela \\(x-2\\), obteniéndose \\(x+2\\). Al sustituir \\(x=2\\), se obtiene 4.",
+      "difficulty": "medium",
+      "procedure": [
+        "Factorizamos: \\(x^2-4=(x-2)(x+2)\\).<br>",
+        "Cancelamos \\(x-2\\) en numerador y denominador.<br>",
+        "Sustituimos \\(x=2\\) en \\(x+2\\) para obtener 4."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{\\tan(x)}{x}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\tan(x)}{x}\\)",
+      "options": ["\\(1\\)", "\\(0\\)", "\\(\\infty\\)", "\\(-1\\)"],
+      "correctAnswer": 0,
+      "explanation": "Utilizando la aproximación para \\(x\\) pequeño, \\(\\tan(x)\\approx x\\), por lo tanto el límite es 1.",
+      "difficulty": "medium",
+      "procedure": [
+        "Aproximamos \\(\\tan(x) \\approx x\\) para valores pequeños de \\(x\\).<br>",
+        "El cociente se aproxima a \\(\\frac{x}{x}=1\\).<br>",
+        "El límite es 1."
+      ]
+    },
+    {
+      "question": "Determina el límite: \\(\\lim_{x \\to \\infty} \\frac{5x-7}{2x+3}\\)",
+      "formula": "\\(\\lim_{x \\to \\infty} \\frac{5x-7}{2x+3}\\)",
+      "options": [
+        "\\(\\frac{5}{2}\\)",
+        "\\(\\frac{7}{3}\\)",
+        "\\(2\\)",
+        "\\(\\frac{5}{3}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dividimos numerador y denominador por \\(x\\) y obtenemos \\(\\frac{5-7/x}{2+3/x}\\). Al tender \\(x\\) a infinito, los términos con \\(1/x\\) se anulan, dando \\(\\frac{5}{2}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Dividimos cada término por \\(x\\): \\(\\frac{5-7/x}{2+3/x}\\).<br>",
+        "Al dejar \\(x\\) tender a infinito, \\(7/x\\) y \\(3/x\\) se aproximan a 0.<br>",
+        "El límite es \\(\\frac{5}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{\\ln(1+x)}{x}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\ln(1+x)}{x}\\)",
+      "options": ["\\(0\\)", "\\(1\\)", "\\(\\infty\\)", "\\(-1\\)"],
+      "correctAnswer": 1,
+      "explanation": "Este límite es conocido y corresponde a la derivada de \\(\\ln(1+x)\\) en 0, que es 1.",
+      "difficulty": "medium",
+      "procedure": [
+        "Se reconoce que el límite define la derivada de \\(\\ln(1+x)\\) en \\(x=0\\).<br>",
+        "Calculamos la derivada: \\(\\frac{d}{dx}\\ln(1+x)=\\frac{1}{1+x}\\).<br>",
+        "Evaluando en \\(x=0\\), obtenemos 1."
+      ]
+    },
+    {
+      "question": "Determina el límite: \\(\\lim_{x \\to 3} \\frac{x^3 - 27}{x - 3}\\)",
+      "formula": "\\(\\lim_{x \\to 3} \\frac{x^3 - 27}{x - 3}\\)",
+      "options": ["\\(27\\)", "\\(9\\)", "\\(18\\)", "\\(36\\)"],
+      "correctAnswer": 0,
+      "explanation": "Factorizando el numerador: \\(x^3-27=(x-3)(x^2+3x+9)\\). Cancelamos \\(x-3\\) y evaluamos \\(x^2+3x+9\\) en \\(x=3\\) obteniendo 27.",
+      "difficulty": "medium",
+      "procedure": [
+        "Factorizamos: \\(x^3-27=(x-3)(x^2+3x+9)\\).<br>",
+        "Cancelamos el factor común \\(x-3\\).<br>",
+        "Sustituimos \\(x=3\\) en \\(x^2+3x+9\\) para obtener 27."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{\\sqrt{1+x} - 1}{x}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\sqrt{1+x} - 1}{x}\\)",
+      "options": [
+        "\\(1\\)",
+        "\\(0\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(\\frac{1}{4}\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Utilizando la aproximación de la raíz, o derivada, se obtiene \\(\\frac{1}{2\\sqrt{1+x}}\\) evaluado en \\(x=0\\), dando \\(\\frac{1}{2}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Aplicamos la fórmula de la derivada de \\(\\sqrt{1+x}\\), que es \\(\\frac{1}{2\\sqrt{1+x}}\\).<br>",
+        "Evaluamos en \\(x=0\\): \\(\\frac{1}{2}\\).<br>",
+        "El límite es \\(\\frac{1}{2}\\)."
+      ]
+    },
+    {
+      "question": "Determina el límite: \\(\\lim_{x \\to \\infty} \\frac{3x^2+2}{x^2-5}\\)",
+      "formula": "\\(\\lim_{x \\to \\infty} \\frac{3x^2+2}{x^2-5}\\)",
+      "options": ["\\(3\\)", "\\(1\\)", "\\(2\\)", "\\(\\frac{3}{2}\\)"],
+      "correctAnswer": 0,
+      "explanation": "Dividimos el numerador y el denominador por \\(x^2\\) para obtener \\(\\frac{3+2/x^2}{1-5/x^2}\\). Al tender \\(x\\) a infinito, los términos con \\(1/x^2\\) se anulan y el límite es 3.",
+      "difficulty": "medium",
+      "procedure": [
+        "Dividimos cada término por \\(x^2\\): \\(\\frac{3+2/x^2}{1-5/x^2}\\).<br>",
+        "Al dejar \\(x \\to \\infty\\), \\(2/x^2\\) y \\(5/x^2\\) tienden a 0.<br>",
+        "El límite es 3."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{\\sin(2x)}{x}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\sin(2x)}{x}\\)",
+      "options": ["\\(1\\)", "\\(2\\)", "\\(0\\)", "\\(\\frac{1}{2}\\)"],
+      "correctAnswer": 1,
+      "explanation": "Se utiliza la identidad y el límite fundamental \\(\\lim_{x\\to0}\\frac{\\sin(2x)}{2x}=1\\). Multiplicando por 2, el límite es 2.",
+      "difficulty": "medium",
+      "procedure": [
+        "Escribimos \\(\\frac{\\sin(2x)}{x}=2\\frac{\\sin(2x)}{2x}\\).<br>",
+        "Usamos el límite fundamental \\(\\lim_{x\\to0}\\frac{\\sin(2x)}{2x}=1\\).<br>",
+        "El resultado es 2."
+      ]
+    },
+    {
+      "question": "Determina el límite: \\(\\lim_{x \\to 0} \\frac{\\cos(x) - 1}{x}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\cos(x) - 1}{x}\\)",
+      "options": ["\\(0\\)", "\\(1\\)", "\\(-1\\)", "\\(\\infty\\)"],
+      "correctAnswer": 0,
+      "explanation": "El numerador se anula más rápido que el denominador; usando series de Taylor, se demuestra que el límite es 0.",
+      "difficulty": "medium",
+      "procedure": [
+        "Expandimos \\(\\cos(x)\\) en serie: \\(\\cos(x)\\approx1-\\frac{x^2}{2}\\).<br>",
+        "Sustituimos en el cociente: \\(\\frac{(1-\\frac{x^2}{2})-1}{x}=-\\frac{x}{2}\\).<br>",
+        "Al evaluar \\(x\\to0\\), el límite es 0."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 2} \\frac{\\sqrt{x+2} - 2}{x-2}\\)",
+      "formula": "\\(\\lim_{x \\to 2} \\frac{\\sqrt{x+2} - 2}{x-2}\\)",
+      "options": [
+        "\\(\\frac{1}{2}\\)",
+        "\\(\\frac{1}{4}\\)",
+        "\\(1\\)",
+        "\\(\\frac{1}{8}\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El límite se resuelve calculando la derivada de \\(\\sqrt{x+2}\\) en \\(x=2\\), que es \\(\\frac{1}{2\\sqrt{4}}=\\frac{1}{4}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calculamos la derivada de \\(\\sqrt{x+2}\\): \\(\\frac{1}{2\\sqrt{x+2}}\\).<br>",
+        "Evaluamos en \\(x=2\\): \\(\\frac{1}{2\\sqrt{4}}=\\frac{1}{4}\\).<br>",
+        "El límite es \\(\\frac{1}{4}\\)."
+      ]
+    },
+    {
+      "question": "Determina el límite: \\(\\lim_{x \\to 0} \\frac{e^{2x} - 1}{x}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{e^{2x} - 1}{x}\\)",
+      "options": ["\\(2\\)", "\\(1\\)", "\\(e^2\\)", "\\(0\\)"],
+      "correctAnswer": 0,
+      "explanation": "El límite corresponde a la derivada de \\(e^{2x}\\) en 0, que es \\(2e^{0}=2\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Reconocemos que el límite define la derivada de \\(e^{2x}\\) en 0.<br>",
+        "La derivada es \\(2e^{2x}\\) y evaluando en 0 se obtiene 2.<br>",
+        "Por lo tanto, el límite es 2."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to \\infty} \\frac{\\ln(x)}{x}\\)",
+      "formula": "\\(\\lim_{x \\to \\infty} \\frac{\\ln(x)}{x}\\)",
+      "options": ["\\(\\infty\\)", "\\(0\\)", "\\(1\\)", "\\(\\ln(\\infty)\\)"],
+      "correctAnswer": 1,
+      "explanation": "El crecimiento de \\(\\ln(x)\\) es mucho más lento que el de \\(x\\), por lo que el cociente tiende a 0.",
+      "difficulty": "medium",
+      "procedure": [
+        "Observamos que \\(\\ln(x)\\) crece lentamente comparado con \\(x\\).<br>",
+        "El cociente \\(\\frac{\\ln(x)}{x}\\) se anula al tender \\(x\\) a infinito.<br>",
+        "El límite es 0."
+      ]
+    },
+    {
+      "question": "Determina el límite: \\(\\lim_{x \\to 0} \\frac{\\tan(x) - x}{x^3}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\tan(x) - x}{x^3}\\)",
+      "options": [
+        "\\(\\frac{1}{3}\\)",
+        "\\(0\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Expandiendo \\(\\tan(x)\\) en serie, se obtiene \\(\\tan(x)=x+\\frac{x^3}{3}+\\cdots\\). Al sustraer \\(x\\) y dividir entre \\(x^3\\), el límite es \\(\\frac{1}{3}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expresamos \\(\\tan(x)=x+\\frac{x^3}{3}+\\cdots\\).<br>",
+        "Calculamos \\(\\tan(x)-x\\approx\\frac{x^3}{3}\\).<br>",
+        "Dividimos entre \\(x^3\\) y obtenemos \\(\\frac{1}{3}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 1} \\frac{\\ln(x)}{x-1}\\)",
+      "formula": "\\(\\lim_{x \\to 1} \\frac{\\ln(x)}{x-1}\\)",
+      "options": ["\\(1\\)", "\\(0\\)", "\\(\\ln(1)\\)", "\\(\\infty\\)"],
+      "correctAnswer": 0,
+      "explanation": "El límite es la definición de la derivada de \\(\\ln(x)\\) en \\(x=1\\), cuyo valor es \\(\\frac{1}{1}=1\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Reconocemos que el límite representa la derivada de \\(\\ln(x)\\) en \\(x=1\\).<br>",
+        "La derivada es \\(\\frac{1}{x}\\) y evaluando en 1 se obtiene 1.<br>",
+        "El límite es 1."
+      ]
+    },
+    {
+      "question": "Determina el límite: \\(\\lim_{x \\to 0} \\frac{\\sin^2(x)}{x}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\sin^2(x)}{x}\\)",
+      "options": ["\\(0\\)", "\\(1\\)", "\\(\\infty\\)", "\\(\\frac{1}{2}\\)"],
+      "correctAnswer": 0,
+      "explanation": "Como \\(\\sin(x)\\approx x\\) para \\(x\\) pequeño, se tiene \\(\\sin^2(x)\\approx x^2\\) y el cociente \\(\\frac{x^2}{x}=x\\) tiende a 0 cuando \\(x\\to0\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Aproximamos \\(\\sin(x)\\approx x\\) para \\(x\\) pequeño.<br>",
+        "Entonces, \\(\\sin^2(x)\\approx x^2\\).<br>",
+        "El cociente \\(\\frac{x^2}{x}=x\\) y al evaluar \\(x\\to0\\) se obtiene 0."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to \\infty} \\left(1 + \\frac{1}{x}\\right)^x\\)",
+      "formula": "\\(\\lim_{x \\to \\infty} \\left(1 + \\frac{1}{x}\\right)^x\\)",
+      "options": ["\\(e\\)", "\\(1\\)", "\\(0\\)", "\\(\\infty\\)"],
+      "correctAnswer": 0,
+      "explanation": "Este límite es la definición de la constante de Euler, \\(e\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Se reconoce que \\(\\lim_{x \\to \\infty} \\left(1+\\frac{1}{x}\\right)^x=e\\).<br>",
+        "Por lo tanto, el límite es \\(e\\)."
+      ]
+    },
+    {
+      "question": "Determina el límite: \\(\\lim_{x \\to 0} \\frac{\\ln(1+x) - x}{x^2}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\ln(1+x) - x}{x^2}\\)",
+      "options": [
+        "\\(-\\frac{1}{2}\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(0\\)",
+        "\\(-1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Utilizando la expansión en serie, \\(\\ln(1+x)\\approx x-\\frac{x^2}{2}\\). La diferencia \\(\\ln(1+x)-x\\) se aproxima a \\(-\\frac{x^2}{2}\\), y al dividir entre \\(x^2\\) se obtiene \\(-\\frac{1}{2}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expandimos \\(\\ln(1+x)\\) en serie: \\(x-\\frac{x^2}{2}+\\cdots\\).<br>",
+        "Calculamos \\(\\ln(1+x)-x\\approx -\\frac{x^2}{2}\\).<br>",
+        "Dividimos entre \\(x^2\\) para obtener \\(-\\frac{1}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{e^x - e^{-x}}{2x}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{e^x - e^{-x}}{2x}\\)",
+      "options": ["\\(1\\)", "\\(0\\)", "\\(2\\)", "\\(-1\\)"],
+      "correctAnswer": 0,
+      "explanation": "Este límite representa la función seno hiperbólico normalizada, que al evaluarse en 0 da 1.",
+      "difficulty": "medium",
+      "procedure": [
+        "Reconocemos la definición de la función hiperbólica seno: \\(\\sinh(x)=\\frac{e^x-e^{-x}}{2}\\).<br>",
+        "El límite \\(\\lim_{x\\to0}\\frac{\\sinh(x)}{x}=1\\).<br>",
+        "Por lo tanto, el resultado es 1."
+      ]
+    },
+    {
+      "question": "Determina el límite: \\(\\lim_{x \\to 0} \\frac{\\sin(3x)}{\\sin(2x)}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\sin(3x)}{\\sin(2x)}\\)",
+      "options": [
+        "\\(\\frac{3}{2}\\)",
+        "\\(\\frac{2}{3}\\)",
+        "\\(1\\)",
+        "\\(\\frac{3}{4}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando la aproximación \\(\\sin(\\theta)\\approx\\theta\\) para \\(\\theta\\) pequeño, el cociente se aproxima a \\(\\frac{3x}{2x}=\\frac{3}{2}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Aproximamos: \\(\\sin(3x)\\approx 3x\\) y \\(\\sin(2x)\\approx 2x\\).<br>",
+        "El cociente es \\(\\frac{3x}{2x}=\\frac{3}{2}\\).<br>",
+        "El límite es \\(\\frac{3}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to \\infty} \\frac{x - \\sin(x)}{x}\\)",
+      "formula": "\\(\\lim_{x \\to \\infty} \\frac{x - \\sin(x)}{x}\\)",
+      "options": ["\\(1\\)", "\\(0\\)", "\\(\\sin(x)\\)", "\\(\\infty\\)"],
+      "correctAnswer": 0,
+      "explanation": "Dado que \\(\\sin(x)\\) está acotado y \\(x\\) crece sin límite, el cociente se aproxima a 1.",
+      "difficulty": "medium",
+      "procedure": [
+        "Observamos que \\(\\sin(x)\\) es acotado entre -1 y 1.<br>",
+        "Para \\(x\\) grande, \\(x - \\sin(x)\\approx x\\).<br>",
+        "El cociente \\(\\frac{x}{x}=1\\)."
+      ]
+    },
+    {
+      "question": "Determina el límite: \\(\\lim_{x \\to 0} \\frac{\\sqrt{1+2x} - 1}{x}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\sqrt{1+2x} - 1}{x}\\)",
+      "options": ["\\(1\\)", "\\(2\\)", "\\(\\frac{1}{2}\\)", "\\(0\\)"],
+      "correctAnswer": 0,
+      "explanation": "Calculamos la derivada de \\(\\sqrt{1+2x}\\) en 0: \\(\\frac{1}{2\\sqrt{1+2x}}\\cdot2=1\\) al evaluar en \\(x=0\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calculamos la derivada de \\(\\sqrt{1+2x}\\): \\(\\frac{1}{2\\sqrt{1+2x}}\\cdot2\\).<br>",
+        "Evaluamos en \\(x=0\\): \\(\\frac{2}{2}=1\\).<br>",
+        "El límite es 1."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{\\tan(x) - \\sin(x)}{x^3}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\tan(x) - \\sin(x)}{x^3}\\)",
+      "options": [
+        "\\(\\frac{1}{2}\\)",
+        "\\(1\\)",
+        "\\(0\\)",
+        "\\(\\frac{1}{3}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mediante expansión en series de Taylor, se obtiene que \\(\\tan(x)\\approx x+\\frac{x^3}{3}\\) y \\(\\sin(x)\\approx x-\\frac{x^3}{6}\\); la diferencia es \\(\\frac{x^3}{2}\\), dividiendo entre \\(x^3\\) se obtiene \\(\\frac{1}{2}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expandimos en serie: \\(\\tan(x)=x+\\frac{x^3}{3}+\\cdots\\) y \\(\\sin(x)=x-\\frac{x^3}{6}+\\cdots\\).<br>",
+        "Calculamos la diferencia: \\(\\tan(x)-\\sin(x)\\approx \\frac{x^3}{3}+\\frac{x^3}{6}=\\frac{x^3}{2}\\).<br>",
+        "Dividimos entre \\(x^3\\) para obtener \\(\\frac{1}{2}\\)."
+      ]
+    },
+    {
+      "question": "Determina el límite: \\(\\lim_{x \\to 0} \\frac{\\ln(\\cos(x))}{x^2}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\ln(\\cos(x))}{x^2}\\)",
+      "options": [
+        "\\(-\\frac{1}{2}\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(0\\)",
+        "\\(-1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Utilizando la expansión en serie de \\(\\cos(x)\\), se tiene \\(\\cos(x)\\approx1-\\frac{x^2}{2}\\) y \\(\\ln(1-\\frac{x^2}{2})\\approx -\\frac{x^2}{2}\\). Dividiendo entre \\(x^2\\), el límite es \\(-\\frac{1}{2}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expresamos \\(\\cos(x)\\approx1-\\frac{x^2}{2}\\) para \\(x\\) pequeño.<br>",
+        "Aplicamos la aproximación \\(\\ln(1+u)\\approx u\\) con \\(u=-\\frac{x^2}{2}\\).<br>",
+        "El cociente \\(\\frac{-\\frac{x^2}{2}}{x^2}=-\\frac{1}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 1} \\frac{\\sqrt{x} - 1}{x - 1}\\)",
+      "formula": "\\(\\lim_{x \\to 1} \\frac{\\sqrt{x} - 1}{x - 1}\\)",
+      "options": [
+        "\\(\\frac{1}{2}\\)",
+        "\\(1\\)",
+        "\\(0\\)",
+        "\\(\\frac{1}{4}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El límite se obtiene mediante la derivada de \\(\\sqrt{x}\\) en \\(x=1\\), que es \\(\\frac{1}{2\\sqrt{x}}\\) evaluada en 1, dando \\(\\frac{1}{2}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Reconocemos que el límite equivale a la derivada de \\(\\sqrt{x}\\) en 1.<br>",
+        "Calculamos la derivada: \\(\\frac{1}{2\\sqrt{x}}\\).<br>",
+        "Evaluamos en \\(x=1\\) para obtener \\(\\frac{1}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{\\sin(5x)}{x}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\sin(5x)}{x}\\)",
+      "options": ["\\(5\\)", "\\(1\\)", "\\(0\\)", "\\(\\infty\\)"],
+      "correctAnswer": 0,
+      "explanation": "Usando la aproximación para \\(x\\) pequeño, \\(\\sin(5x)\\approx 5x\\), por lo que el límite es 5.",
+      "difficulty": "medium",
+      "procedure": [
+        "Aproximamos \\(\\sin(5x)\\) por \\(5x\\) para valores pequeños de \\(x\\).<br>",
+        "El cociente \\(\\frac{5x}{x}\\) se simplifica a 5.<br>",
+        "El límite es 5."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{1-\\cos(2x)}{x^2}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{1-\\cos(2x)}{x^2}\\)",
+      "options": ["\\(1\\)", "\\(2\\)", "\\(4\\)", "\\(0\\)"],
+      "correctAnswer": 1,
+      "explanation": "Utilizando la expansión de \\(\\cos(2x)\\), se tiene que \\(1-\\cos(2x)\\approx \\frac{(2x)^2}{2}=2x^2\\), dividiendo por \\(x^2\\) se obtiene 2.",
+      "difficulty": "medium",
+      "procedure": [
+        "Expresamos \\(1-\\cos(2x)\\) como \\(\\frac{(2x)^2}{2}=2x^2\\) para \\(x\\) pequeño.<br>",
+        "Dividimos \\(2x^2\\) entre \\(x^2\\) para obtener 2.<br>",
+        "El límite es 2."
+      ]
+    },
+    {
+      "question": "Determina el límite: \\(\\lim_{x \\to \\infty} \\frac{4x^3-2x}{2x^3+5}\\)",
+      "formula": "\\(\\lim_{x \\to \\infty} \\frac{4x^3-2x}{2x^3+5}\\)",
+      "options": ["\\(2\\)", "\\(4\\)", "\\(0\\)", "\\(\\infty\\)"],
+      "correctAnswer": 0,
+      "explanation": "Dividiendo numerador y denominador por \\(x^3\\) se obtiene \\(\\frac{4-2/x^2}{2+5/x^3}\\) y al dejar \\(x \\to \\infty\\), se llega a \\(\\frac{4}{2}=2\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Dividimos el numerador y el denominador por \\(x^3\\).<br>",
+        "Obtenemos \\(\\frac{4-2/x^2}{2+5/x^3}\\).<br>",
+        "Al tender \\(x\\) a infinito, los términos con \\(1/x^n\\) se anulan y el límite es 2."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{e^{3x}-1}{x}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{e^{3x}-1}{x}\\)",
+      "options": ["\\(1\\)", "\\(3\\)", "\\(e^3\\)", "\\(0\\)"],
+      "correctAnswer": 1,
+      "explanation": "El límite representa la derivada de \\(e^{3x}\\) en 0, que es \\(3e^{0}=3\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Reconocemos que el límite es la definición de la derivada de \\(e^{3x}\\) en 0.<br>",
+        "Calculamos la derivada: \\(\\frac{d}{dx}e^{3x}=3e^{3x}\\).<br>",
+        "Evaluamos en \\(x=0\\) para obtener 3."
+      ]
+    },
+    {
+      "question": "Determina el límite: \\(\\lim_{x \\to 0} \\frac{\\ln(1+4x)}{x}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\ln(1+4x)}{x}\\)",
+      "options": ["\\(4\\)", "\\(1\\)", "\\(0\\)", "\\(\\ln(5)\\)"],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\ln(1+4x)\\) en 0 es \\(\\frac{4}{1+4x}\\) evaluada en 0, resultando 4.",
+      "difficulty": "medium",
+      "procedure": [
+        "Observamos que el límite define la derivada de \\(\\ln(1+4x)\\) en 0.<br>",
+        "Calculamos \\(\\frac{d}{dx}\\ln(1+4x)=\\frac{4}{1+4x}\\).<br>",
+        "Evaluamos en \\(x=0\\) para obtener 4."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{\\tan(4x)}{x}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\tan(4x)}{x}\\)",
+      "options": ["\\(4\\)", "\\(1\\)", "\\(0\\)", "\\(\\infty\\)"],
+      "correctAnswer": 0,
+      "explanation": "Para \\(x\\) pequeño, \\(\\tan(4x)\\approx 4x\\), por lo que el límite es \\(\\frac{4x}{x}=4\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Aproximamos \\(\\tan(4x)\\) por \\(4x\\) para valores pequeños de \\(x\\).<br>",
+        "Simplificamos el cociente \\(\\frac{4x}{x}\\) a 4.<br>",
+        "El límite es 4."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{\\sin(x)-x}{x^3}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\sin(x)-x}{x^3}\\)",
+      "options": [
+        "\\(-\\frac{1}{6}\\)",
+        "\\(\\frac{1}{6}\\)",
+        "\\(0\\)",
+        "\\(-1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Utilizando la serie de Taylor: \\(\\sin(x)=x-\\frac{x^3}{6}+\\cdots\\), se tiene \\(\\sin(x)-x\\approx -\\frac{x^3}{6}\\) y dividiendo entre \\(x^3\\) se obtiene \\(-\\frac{1}{6}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expandimos \\(\\sin(x)\\) en serie: \\(x-\\frac{x^3}{6}+\\cdots\\).<br>",
+        "Restamos \\(x\\) para obtener \\(-\\frac{x^3}{6}\\).<br>",
+        "Dividimos por \\(x^3\\) para obtener \\(-\\frac{1}{6}\\)."
+      ]
+    },
+    {
+      "question": "Determina el límite: \\(\\lim_{x \\to \\infty} \\frac{5+\\sqrt{x}}{2+\\sqrt{x}\\,}\\)",
+      "formula": "\\(\\lim_{x \\to \\infty} \\frac{5+\\sqrt{x}}{2+\\sqrt{x}}\\)",
+      "options": ["\\(1\\)", "\\(\\frac{5}{2}\\)", "\\(\\infty\\)", "\\(0\\)"],
+      "correctAnswer": 0,
+      "explanation": "Para \\(x\\) grande, el término \\(\\sqrt{x}\\) domina, por lo que el cociente se aproxima a \\(\\frac{\\sqrt{x}}{\\sqrt{x}}=1\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Observamos que para \\(x\\) grande, los términos constantes se vuelven insignificantes.<br>",
+        "El cociente se reduce a \\(\\frac{\\sqrt{x}}{\\sqrt{x}}=1\\).<br>",
+        "El límite es 1."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to \\infty} \\frac{3x^2+2x+1}{5x^2-4x+3}\\)",
+      "formula": "\\(\\lim_{x \\to \\infty} \\frac{3x^2+2x+1}{5x^2-4x+3}\\)",
+      "options": [
+        "\\(\\frac{3}{5}\\)",
+        "\\(\\frac{5}{3}\\)",
+        "\\(1\\)",
+        "\\(\\infty\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dividiendo numerador y denominador por \\(x^2\\) se obtiene \\(\\frac{3+2/x+1/x^2}{5-4/x+3/x^2}\\), que tiende a \\(\\frac{3}{5}\\) al dejar \\(x \\to \\infty\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Dividimos numerador y denominador por \\(x^2\\).<br>",
+        "Obtenemos \\(\\frac{3+2/x+1/x^2}{5-4/x+3/x^2}\\).<br>",
+        "Al dejar \\(x \\to \\infty\\), los términos con \\(1/x\\) se anulan y el límite es \\(\\frac{3}{5}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{\\sin(3x)}{\\sin(7x)}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\sin(3x)}{\\sin(7x)}\\)",
+      "options": [
+        "\\(\\frac{3}{7}\\)",
+        "\\(\\frac{7}{3}\\)",
+        "\\(1\\)",
+        "\\(0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Para \\(x\\) pequeño, \\(\\sin(3x)\\approx 3x\\) y \\(\\sin(7x)\\approx 7x\\), de donde el cociente es \\(\\frac{3x}{7x}=\\frac{3}{7}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Aproximamos \\(\\sin(3x)\\) por \\(3x\\) y \\(\\sin(7x)\\) por \\(7x\\).<br>",
+        "El cociente es \\(\\frac{3x}{7x}=\\frac{3}{7}\\).<br>",
+        "El límite es \\(\\frac{3}{7}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 1} \\frac{x^3-1}{x-1}\\)",
+      "formula": "\\(\\lim_{x \\to 1} \\frac{x^3-1}{x-1}\\)",
+      "options": ["\\(3\\)", "\\(1\\)", "\\(0\\)", "\\(2\\)"],
+      "correctAnswer": 0,
+      "explanation": "El límite es equivalente a la derivada de \\(x^3\\) en 1, que es \\(3x^2\\) evaluada en 1, resultando 3.",
+      "difficulty": "medium",
+      "procedure": [
+        "Reconocemos el límite como la definición de la derivada de \\(x^3\\) en 1.<br>",
+        "Calculamos \\(\\frac{d}{dx}x^3=3x^2\\).<br>",
+        "Evaluando en \\(x=1\\) obtenemos 3."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{\\sqrt{1+x}-\\sqrt{1-x}}{x}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\sqrt{1+x}-\\sqrt{1-x}}{x}\\)",
+      "options": ["\\(1\\)", "\\(2\\)", "\\(0\\)", "\\(\\frac{1}{2}\\)"],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la aproximación en serie de la raíz cuadrada, se obtiene que el numerador es aproximadamente \\(x\\) y el cociente es 1.",
+      "difficulty": "medium",
+      "procedure": [
+        "Expandimos \\(\\sqrt{1+x}\\) y \\(\\sqrt{1-x}\\) para \\(x\\) pequeño.<br>",
+        "La diferencia se aproxima a \\(x\\).<br>",
+        "Dividiendo por \\(x\\) el límite es 1."
+      ]
+    },
+    {
+      "question": "Determina el límite: \\(\\lim_{x \\to 0} \\frac{e^{x} - e^{-x} - 2x}{x^3}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{e^{x} - e^{-x} - 2x}{x^3}\\)",
+      "options": [
+        "\\(\\frac{1}{3}\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(0\\)",
+        "\\(-\\frac{1}{3}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Expandiendo \\(e^x\\) y \\(e^{-x}\\) en series de Taylor, se obtiene que el numerador se comporta como \\(\\frac{x^3}{3}\\), por lo que el límite es \\(\\frac{1}{3}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expandimos \\(e^x\\) y \\(e^{-x}\\) en series: \\(e^x\\approx1+x+\\frac{x^2}{2}+\\frac{x^3}{6}\\) y \\(e^{-x}\\approx1-x+\\frac{x^2}{2}-\\frac{x^3}{6}\\).<br>",
+        "La diferencia \\(e^x-e^{-x}\\) da \\(2x+\\frac{x^3}{3}\\); restando 2x se obtiene \\(\\frac{x^3}{3}\\).<br>",
+        "Dividiendo entre \\(x^3\\) el límite es \\(\\frac{1}{3}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{\\ln(1+x)-\\sin(x)}{x^2}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\ln(1+x)-\\sin(x)}{x^2}\\)",
+      "options": [
+        "\\(-\\frac{1}{2}\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(0\\)",
+        "\\(-1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando las series de Taylor, \\(\\ln(1+x)\\approx x-\\frac{x^2}{2}\\) y \\(\\sin(x)\\approx x-\\frac{x^3}{6}\\); la diferencia es aproximadamente \\(-\\frac{x^2}{2}\\), dividiendo entre \\(x^2\\) da \\(-\\frac{1}{2}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expandimos \\(\\ln(1+x)\\) y \\(\\sin(x)\\) en series.<br>",
+        "Obtenemos \\(\\ln(1+x)-\\sin(x)\\approx -\\frac{x^2}{2}\\).<br>",
+        "Dividimos por \\(x^2\\) para obtener \\(-\\frac{1}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{\\cos(x)-1+\\frac{x^2}{2}}{x^4}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\cos(x)-1+\\frac{x^2}{2}}{x^4}\\)",
+      "options": [
+        "\\(\\frac{1}{24}\\)",
+        "\\(\\frac{1}{12}\\)",
+        "\\(0\\)",
+        "\\(\\frac{1}{6}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando la serie de Taylor de \\(\\cos(x)\\), se tiene \\(\\cos(x)=1-\\frac{x^2}{2}+\\frac{x^4}{24}+\\cdots\\). Al sustituir, el numerador es \\(\\frac{x^4}{24}\\) y el límite es \\(\\frac{1}{24}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expandimos \\(\\cos(x)\\) en serie: \\(1-\\frac{x^2}{2}+\\frac{x^4}{24}+\\cdots\\).<br>",
+        "Sustituimos en el numerador y cancelamos términos, obteniendo \\(\\frac{x^4}{24}\\).<br>",
+        "Dividimos entre \\(x^4\\) para obtener \\(\\frac{1}{24}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{(1+x)^{1/3}-1}{x}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{(1+x)^{1/3}-1}{x}\\)",
+      "options": [
+        "\\(\\frac{1}{3}\\)",
+        "\\(1\\)",
+        "\\(0\\)",
+        "\\(\\frac{2}{3}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El límite es la derivada de \\((1+x)^{1/3}\\) en 0, la cual es \\(\\frac{1}{3}(1+x)^{-2/3}\\) evaluada en 0, dando \\(\\frac{1}{3}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Interpretamos el límite como la derivada de \\((1+x)^{1/3}\\) en 0.<br>",
+        "Calculamos la derivada: \\(\\frac{1}{3}(1+x)^{-2/3}\\).<br>",
+        "Evaluamos en \\(x=0\\) para obtener \\(\\frac{1}{3}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{(1+2x)^{3}-1}{x}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{(1+2x)^{3}-1}{x}\\)",
+      "options": ["\\(6\\)", "\\(3\\)", "\\(2\\)", "\\(1\\)"],
+      "correctAnswer": 0,
+      "explanation": "Expandiendo \\((1+2x)^3\\) se obtiene \\(1+6x+12x^2+8x^3\\). Al restar 1 y dividir entre \\(x\\), el término principal es 6.",
+      "difficulty": "medium",
+      "procedure": [
+        "Expande \\((1+2x)^3\\) para obtener \\(1+6x+12x^2+8x^3\\).<br>",
+        "Resta 1 y divide por \\(x\\) para obtener \\(6+12x+8x^2\\).<br>",
+        "El límite cuando \\(x\\to 0\\) es 6."
+      ]
+    },
+    {
+      "question": "Determina el límite: \\(\\lim_{x \\to \\infty} \\frac{\\sqrt{x^2+4x}}{x}\\)",
+      "formula": "\\(\\lim_{x \\to \\infty} \\frac{\\sqrt{x^2+4x}}{x}\\)",
+      "options": ["\\(1\\)", "\\(2\\)", "\\(4\\)", "\\(0\\)"],
+      "correctAnswer": 0,
+      "explanation": "Factorizando \\(x^2\\) dentro de la raíz se obtiene \\(x\\sqrt{1+4/x}\\). Dividiendo por \\(x\\) y dejando \\(x\\to \\infty\\) da 1.",
+      "difficulty": "medium",
+      "procedure": [
+        "Escribimos \\(\\sqrt{x^2+4x}=x\\sqrt{1+4/x}\\).<br>",
+        "Dividimos por \\(x\\) y el límite de \\(\\sqrt{1+4/x}\\) es 1.<br>",
+        "El límite es 1."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to \\infty} \\left(\\sqrt{x^2+2x}-x\\right)\\)",
+      "formula": "\\(\\lim_{x \\to \\infty} \\left(\\sqrt{x^2+2x}-x\\right)\\)",
+      "options": ["\\(1\\)", "\\(2\\)", "\\(0\\)", "\\(\\infty\\)"],
+      "correctAnswer": 0,
+      "explanation": "Racionalizando la expresión se demuestra que el límite es 1.",
+      "difficulty": "medium",
+      "procedure": [
+        "Multiplicamos por el conjugado: \\(\\sqrt{x^2+2x}+x\\).<br>",
+        "Simplificamos y obtenemos \\(\\frac{2x}{\\sqrt{x^2+2x}+x}\\).<br>",
+        "Al dejar \\(x\\to \\infty\\), el límite es 1."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{\\tan(x)-\\sin(x)}{x^3}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\tan(x)-\\sin(x)}{x^3}\\)",
+      "options": [
+        "\\(\\frac{1}{2}\\)",
+        "\\(1\\)",
+        "\\(0\\)",
+        "\\(-\\frac{1}{2}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Expandiendo \\(\\tan(x)\\) y \\(\\sin(x)\\) en series, se obtiene que la diferencia es aproximadamente \\(\\frac{x^3}{2}\\), y dividiendo por \\(x^3\\) se obtiene \\(\\frac{1}{2}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expandimos \\(\\tan(x)\\approx x+\\frac{x^3}{3}\\) y \\(\\sin(x)\\approx x-\\frac{x^3}{6}\\).<br>",
+        "Calculamos la diferencia: \\(\\frac{x^3}{3}+\\frac{x^3}{6}=\\frac{x^3}{2}\\).<br>",
+        "Dividimos entre \\(x^3\\) para obtener \\(\\frac{1}{2}\\)."
+      ]
+    },
+    {
+      "question": "Determina el límite: \\(\\lim_{x \\to \\infty} \\frac{\\ln(x+1)}{\\ln(x)}\\)",
+      "formula": "\\(\\lim_{x \\to \\infty} \\frac{\\ln(x+1)}{\\ln(x)}\\)",
+      "options": ["\\(1\\)", "\\(0\\)", "\\(\\infty\\)", "\\(\\frac{1}{2}\\)"],
+      "correctAnswer": 0,
+      "explanation": "Para \\(x\\) grande, \\(\\ln(x+1)\\) y \\(\\ln(x)\\) son asintóticamente equivalentes, por lo que el límite es 1.",
+      "difficulty": "medium",
+      "procedure": [
+        "Notamos que para \\(x\\) grande, \\(\\ln(x+1)\\approx \\ln(x)\\).<br>",
+        "El cociente tiende a 1.<br>",
+        "El límite es 1."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{\\arctan(x)}{x}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\arctan(x)}{x}\\)",
+      "options": [
+        "\\(1\\)",
+        "\\(0\\)",
+        "\\(\\frac{\\pi}{4}\\)",
+        "\\(\\infty\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Para \\(x\\) pequeño, \\(\\arctan(x)\\approx x\\), por lo que el límite es 1.",
+      "difficulty": "medium",
+      "procedure": [
+        "Aproximamos \\(\\arctan(x)\\) por \\(x\\) para \\(x\\) pequeño.<br>",
+        "El cociente \\(\\frac{x}{x}\\) es 1.<br>",
+        "El límite es 1."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{\\arcsin(x)}{x}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\arcsin(x)}{x}\\)",
+      "options": [
+        "\\(1\\)",
+        "\\(0\\)",
+        "\\(\\frac{\\pi}{2}\\)",
+        "\\(\\infty\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Para \\(x\\) pequeño, \\(\\arcsin(x)\\approx x\\), por lo que el límite es 1.",
+      "difficulty": "medium",
+      "procedure": [
+        "Aproximamos \\(\\arcsin(x)\\) por \\(x\\) para valores pequeños.<br>",
+        "El cociente \\(\\frac{x}{x}\\) es 1.<br>",
+        "El límite es 1."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{(1+x)^{5}-1}{x}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{(1+x)^{5}-1}{x}\\)",
+      "options": ["\\(5\\)", "\\(1\\)", "\\(0\\)", "\\(10\\)"],
+      "correctAnswer": 0,
+      "explanation": "El límite es la derivada de \\((1+x)^5\\) en 0, que es \\(5(1+x)^{4}\\) evaluada en 0, dando 5.",
+      "difficulty": "medium",
+      "procedure": [
+        "Reconocemos el límite como la derivada de \\((1+x)^5\\) en 0.<br>",
+        "Calculamos la derivada: \\(5(1+x)^4\\).<br>",
+        "Evaluamos en \\(x=0\\) para obtener 5."
+      ]
+    },
+    {
+      "question": "Determina el límite: \\(\\lim_{x \\to 0} \\frac{\\cos(2x)-\\cos(3x)}{x^2}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\cos(2x)-\\cos(3x)}{x^2}\\)",
+      "options": [
+        "\\(\\frac{5}{2}\\)",
+        "\\(\\frac{3}{2}\\)",
+        "\\(1\\)",
+        "\\(0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Utilizando la expansión en serie de \\(\\cos(x)\\), se deduce que el cociente tiende a \\(\\frac{5}{2}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expandimos \\(\\cos(2x)\\approx1-2x^2\\) y \\(\\cos(3x)\\approx1-\\frac{9x^2}{2}\\).<br>",
+        "La diferencia es \\(\\frac{9x^2}{2}-2x^2=\\frac{5x^2}{2}\\).<br>",
+        "Dividiendo por \\(x^2\\), el límite es \\(\\frac{5}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{\\ln(1+7x)}{x}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\ln(1+7x)}{x}\\)",
+      "options": ["\\(7\\)", "\\(1\\)", "\\(0\\)", "\\(\\ln(7)\\)"],
+      "correctAnswer": 0,
+      "explanation": "El límite es la derivada de \\(\\ln(1+7x)\\) en 0, la cual es 7.",
+      "difficulty": "medium",
+      "procedure": [
+        "Observamos que el límite representa la derivada de \\(\\ln(1+7x)\\).<br>",
+        "Calculamos la derivada: \\(\\frac{7}{1+7x}\\).<br>",
+        "Evaluando en \\(x=0\\) obtenemos 7."
+      ]
+    },
+    {
+      "question": "Determina el límite: \\(\\lim_{x \\to \\infty} \\frac{2x-\\ln(x)}{x}\\)",
+      "formula": "\\(\\lim_{x \\to \\infty} \\frac{2x-\\ln(x)}{x}\\)",
+      "options": ["\\(2\\)", "\\(1\\)", "\\(0\\)", "\\(\\infty\\)"],
+      "correctAnswer": 0,
+      "explanation": "Para \\(x\\) grande, \\(2x\\) domina sobre \\(\\ln(x)\\), de modo que el cociente se acerca a 2.",
+      "difficulty": "medium",
+      "procedure": [
+        "Dividimos numerador y denominador por \\(x\\).<br>",
+        "Obtenemos \\(2 - \\frac{\\ln(x)}{x}\\).<br>",
+        "Al dejar \\(x \\to \\infty\\), \\(\\frac{\\ln(x)}{x} \\to 0\\), así que el límite es 2."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{e^{2x}-e^{-2x}}{x}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{e^{2x}-e^{-2x}}{x}\\)",
+      "options": ["\\(4\\)", "\\(2\\)", "\\(0\\)", "\\(e^2\\)"],
+      "correctAnswer": 0,
+      "explanation": "Utilizando las series de Taylor, \\(e^{2x}-e^{-2x}\\approx 4x\\) para \\(x\\) pequeño, dividiendo por \\(x\\) se obtiene 4.",
+      "difficulty": "medium",
+      "procedure": [
+        "Expandimos \\(e^{2x}\\) y \\(e^{-2x}\\) en series de Taylor.<br>",
+        "Obtenemos \\(e^{2x}-e^{-2x}\\approx 4x\\).<br>",
+        "Dividiendo entre \\(x\\) el límite es 4."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{e^x - 1 - x}{x^2}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{e^x - 1 - x}{x^2}\\)",
+      "options": [
+        "\\(\\frac{1}{2}\\)",
+        "\\(\\frac{1}{3}\\)",
+        "\\(1\\)",
+        "\\(0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Utilizando la serie de Taylor de \\(e^x\\): \\(e^x=1+x+\\frac{x^2}{2}+\\cdots\\), se tiene que el numerador es aproximadamente \\(\\frac{x^2}{2}\\). Al dividir por \\(x^2\\), el límite es \\(\\frac{1}{2}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expande \\(e^x\\) en serie: \\(1+x+\\frac{x^2}{2}+\\cdots\\).<br>",
+        "Resta 1 y \\(x\\) para obtener \\(\\frac{x^2}{2}+\\cdots\\).<br>",
+        "Divide entre \\(x^2\\) y deduce que el límite es \\(\\frac{1}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{\\sin(x) - x + \\frac{x^3}{6}}{x^5}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\sin(x) - x + \\frac{x^3}{6}}{x^5}\\)",
+      "options": [
+        "\\(\\frac{1}{120}\\)",
+        "\\(\\frac{1}{24}\\)",
+        "\\(\\frac{1}{6}\\)",
+        "\\(0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando la serie de Taylor: \\(\\sin(x)=x-\\frac{x^3}{6}+\\frac{x^5}{120}+\\cdots\\), la diferencia en el numerador se reduce a \\(\\frac{x^5}{120}\\). Dividiendo entre \\(x^5\\), el límite es \\(\\frac{1}{120}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expande \\(\\sin(x)\\) en serie: \\(x-\\frac{x^3}{6}+\\frac{x^5}{120}+\\cdots\\).<br>",
+        "Cancela los términos lineales y cúbicos, quedando \\(\\frac{x^5}{120}+\\cdots\\).<br>",
+        "Divide entre \\(x^5\\) para obtener \\(\\frac{1}{120}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{\\sqrt{x^2+3x} - x}{x}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\sqrt{x^2+3x} - x}{x}\\)",
+      "options": [
+        "\\(0\\)",
+        "\\(\\frac{3}{2}\\)",
+        "\\(\\frac{3}{4}\\)",
+        "\\(1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Para \\(x\\) pequeño, se tiene que \\(\\sqrt{x^2+3x}=x\\sqrt{1+\\frac{3}{x}}\\). Al evaluar el límite, el término dominante en el numerador se comporta como una constante sobre \\(x\\) y el cociente tiende a 0.",
+      "difficulty": "medium",
+      "procedure": [
+        "Observa que para \\(x\\) pequeño el término \\(3x\\) es insignificante frente a \\(x^2\\).<br>",
+        "Simplifica la expresión y deduce que el numerador se reduce a un término de orden superior en \\(x\\).<br>",
+        "Concluye que el límite es 0."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{\\tan(x)-\\sin(x)}{x^3}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\tan(x)-\\sin(x)}{x^3}\\)",
+      "options": ["\\(\\frac{1}{2}\\)", "\\(1\\)", "\\(0\\)", "\\(2\\)"],
+      "correctAnswer": 0,
+      "explanation": "Utilizando las series de Taylor: \\(\\tan(x)\\approx x+\\frac{x^3}{3}\\) y \\(\\sin(x)\\approx x-\\frac{x^3}{6}\\), la diferencia es \\(\\frac{x^3}{2}\\). Dividiendo entre \\(x^3\\), el límite es \\(\\frac{1}{2}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expande \\(\\tan(x)\\) y \\(\\sin(x)\\) en series: \\(x+\\frac{x^3}{3}\\) y \\(x-\\frac{x^3}{6}\\).<br>",
+        "Calcula la diferencia: \\(\\frac{x^3}{3}+\\frac{x^3}{6}=\\frac{x^3}{2}\\).<br>",
+        "Divide entre \\(x^3\\) para obtener \\(\\frac{1}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to \\infty} \\frac{\\ln(2x+1)}{\\ln(x)}\\)",
+      "formula": "\\(\\lim_{x \\to \\infty} \\frac{\\ln(2x+1)}{\\ln(x)}\\)",
+      "options": ["\\(1\\)", "\\(2\\)", "\\(\\ln(2)\\)", "\\(0\\)"],
+      "correctAnswer": 0,
+      "explanation": "Para \\(x\\) grande, \\(\\ln(2x+1)\\approx \\ln(2x)=\\ln(2)+\\ln(x)\\), por lo que el cociente tiende a 1.",
+      "difficulty": "medium",
+      "procedure": [
+        "Utiliza la propiedad logarítmica: \\(\\ln(2x+1)\\approx \\ln(2)+\\ln(x)\\) para \\(x\\) grande.<br>",
+        "Divide entre \\(\\ln(x)\\) y observa que el término \\(\\ln(2)/\\ln(x)\\) tiende a 0.<br>",
+        "Concluye que el límite es 1."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{(1+x)^{\\frac{1}{x}} - e}{x}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{(1+x)^{\\frac{1}{x}} - e}{x}\\)",
+      "options": [
+        "\\(-\\frac{e}{2}\\)",
+        "\\(\\frac{e}{2}\\)",
+        "\\(e\\)",
+        "\\(0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando la expansión: \\((1+x)^{1/x}=e\\Big(1-\\frac{x}{2}+\\cdots\\Big)\\), se deduce que la diferencia \\((1+x)^{1/x}-e\\) es \\(-\\frac{ex}{2}\\), y al dividir por \\(x\\), el límite es \\(-\\frac{e}{2}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expande \\((1+x)^{1/x}\\) usando la serie de Taylor.<br>",
+        "Identifica que \\((1+x)^{1/x}=e\\Big(1-\\frac{x}{2}+\\cdots\\Big)\\).<br>",
+        "Resta \\(e\\) y divide por \\(x\\) para obtener \\(-\\frac{e}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{a^x - 1}{x}\\) con \\(a=5\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{5^x - 1}{x}\\)",
+      "options": ["\\(\\ln(5)\\)", "\\(5\\)", "\\(1\\)", "\\(0\\)"],
+      "correctAnswer": 0,
+      "explanation": "El límite corresponde a la derivada de \\(5^x\\) en \\(x=0\\), que es \\(5^x\\ln(5)\\) evaluada en 0, resultando \\(\\ln(5)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Reconoce que el límite es la derivada de \\(5^x\\) en 0.<br>",
+        "Calcula \\(\\frac{d}{dx}5^x=5^x\\ln(5)\\).<br>",
+        "Evalúa en \\(x=0\\) para obtener \\(\\ln(5)\\)."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{\\cos(x) - 1 + \\frac{x^2}{2}}{x^4}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\cos(x) - 1 + \\frac{x^2}{2}}{x^4}\\)",
+      "options": [
+        "\\(\\frac{1}{24}\\)",
+        "\\(\\frac{1}{12}\\)",
+        "\\(0\\)",
+        "\\(\\frac{1}{6}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La expansión en serie de \\(\\cos(x)\\) es \\(1-\\frac{x^2}{2}+\\frac{x^4}{24}+\\cdots\\). Al sustituir en el numerador se obtiene \\(\\frac{x^4}{24}\\), y al dividir por \\(x^4\\) el límite es \\(\\frac{1}{24}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expande \\(\\cos(x)\\) en serie: \\(1-\\frac{x^2}{2}+\\frac{x^4}{24}+\\cdots\\).<br>",
+        "Resta \\(1-\\frac{x^2}{2}\\) del resultado para obtener \\(\\frac{x^4}{24}\\).<br>",
+        "Divide entre \\(x^4\\) para obtener \\(\\frac{1}{24}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to \\infty} \\left( \\sqrt{x^2+x} - x \\right)\\)",
+      "formula": "\\(\\lim_{x \\to \\infty} \\left( \\sqrt{x^2+x} - x \\right)\\)",
+      "options": ["\\(\\frac{1}{2}\\)", "\\(1\\)", "\\(0\\)", "\\(\\infty\\)"],
+      "correctAnswer": 0,
+      "explanation": "Se escribe \\(\\sqrt{x^2+x}=x\\sqrt{1+\\frac{1}{x}}\\approx x\\Big(1+\\frac{1}{2x}\\Big)=x+\\frac{1}{2}\\). Por ello, al restar \\(x\\) el límite es \\(\\frac{1}{2}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Reescribe \\(\\sqrt{x^2+x}\\) como \\(x\\sqrt{1+\\frac{1}{x}}\\).<br>",
+        "Expande \\(\\sqrt{1+\\frac{1}{x}}\\) para \\(x\\) grande: \\(1+\\frac{1}{2x}\\).<br>",
+        "Obtén \\(x+\\frac{1}{2}\\) y resta \\(x\\) para obtener \\(\\frac{1}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{\\ln(1+x) - \\sin(x)}{x^2}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\ln(1+x) - \\sin(x)}{x^2}\\)",
+      "options": [
+        "\\(-\\frac{1}{2}\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(0\\)",
+        "\\(1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Expandiendo \\(\\ln(1+x)\\) y \\(\\sin(x)\\) se tiene: \\(\\ln(1+x)=x-\\frac{x^2}{2}+\\cdots\\) y \\(\\sin(x)=x-\\frac{x^3}{6}+\\cdots\\). La diferencia principal es \\(-\\frac{x^2}{2}\\), y al dividir por \\(x^2\\) se obtiene \\(-\\frac{1}{2}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expande \\(\\ln(1+x)\\) y \\(\\sin(x)\\) en series.<br>",
+        "Resta para obtener \\(-\\frac{x^2}{2}\\).<br>",
+        "Divide entre \\(x^2\\) y deduce el resultado \\(-\\frac{1}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to \\infty} \\frac{e^x}{e^x + x}\\)",
+      "formula": "\\(\\lim_{x \\to \\infty} \\frac{e^x}{e^x + x}\\)",
+      "options": ["\\(1\\)", "\\(0\\)", "\\(\\infty\\)", "\\(\\frac{1}{2}\\)"],
+      "correctAnswer": 0,
+      "explanation": "Para \\(x \\to \\infty\\), \\(e^x\\) domina sobre \\(x\\), por lo que \\(e^x + x\\sim e^x\\) y el cociente se aproxima a 1.",
+      "difficulty": "medium",
+      "procedure": [
+        "Observa que \\(e^x\\) crece mucho más rápido que \\(x\\).<br>",
+        "Simplifica el denominador a \\(e^x\\) para \\(x\\) grande.<br>",
+        "El límite es 1."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{\\sin(2x)}{\\sin(3x)}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\sin(2x)}{\\sin(3x)}\\)",
+      "options": [
+        "\\(\\frac{2}{3}\\)",
+        "\\(\\frac{3}{2}\\)",
+        "\\(1\\)",
+        "\\(0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Para \\(x\\) pequeño, \\(\\sin(2x)\\approx 2x\\) y \\(\\sin(3x)\\approx 3x\\). Así, el cociente es \\(\\frac{2x}{3x}=\\frac{2}{3}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Aproxima \\(\\sin(2x)\\) por \\(2x\\) y \\(\\sin(3x)\\) por \\(3x\\).<br>",
+        "Divide para obtener \\(\\frac{2}{3}\\).<br>",
+        "Concluye que el límite es \\(\\frac{2}{3}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{(1+3x)^{4}-1}{x}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{(1+3x)^{4}-1}{x}\\)",
+      "options": ["12", "4", "3", "1"],
+      "correctAnswer": 0,
+      "explanation": "El límite equivale a la derivada de \\((1+3x)^4\\) en 0, la cual es \\(4(1+3x)^3 \\cdot 3\\) evaluada en 0, dando 12.",
+      "difficulty": "medium",
+      "procedure": [
+        "Identifica el límite como la derivada de \\((1+3x)^4\\) en 0.<br>",
+        "Calcula la derivada: \\(4\\cdot 3(1+3x)^3\\).<br>",
+        "Evalúa en \\(x=0\\) para obtener 12."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to \\infty} \\frac{\\sqrt{x^2+6x+9}-x}{1}\\)",
+      "formula": "\\(\\lim_{x \\to \\infty} \\frac{\\sqrt{x^2+6x+9}-x}{1}\\)",
+      "options": ["3", "6", "9", "0"],
+      "correctAnswer": 0,
+      "explanation": "Se tiene \\(\\sqrt{x^2+6x+9}=\\sqrt{(x+3)^2}=x+3\\), por lo que al restar \\(x\\) el límite es 3.",
+      "difficulty": "medium",
+      "procedure": [
+        "Observa que \\(\\sqrt{x^2+6x+9}=x+3\\).<br>",
+        "Resta \\(x\\) y deduce que el resultado es 3."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{e^{x^2}-1}{x^2}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{e^{x^2}-1}{x^2}\\)",
+      "options": ["1", "0", "2", "e"],
+      "correctAnswer": 0,
+      "explanation": "Expandiendo \\(e^{x^2}\\) se obtiene \\(1+x^2+\\cdots\\). Al restar 1 y dividir por \\(x^2\\), el límite es 1.",
+      "difficulty": "medium",
+      "procedure": [
+        "Expande \\(e^{x^2}\\) en serie: \\(1+x^2+\\cdots\\).<br>",
+        "Resta 1 para obtener \\(x^2+\\cdots\\).<br>",
+        "Divide entre \\(x^2\\) y deduce que el límite es 1."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{\\sqrt{1+3x}-\\sqrt{1-2x}}{x}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\sqrt{1+3x}-\\sqrt{1-2x}}{x}\\)",
+      "options": ["\\(\\frac{5}{2}\\)", "\\(\\frac{3}{2}\\)", "2", "1"],
+      "correctAnswer": 0,
+      "explanation": "Usando la aproximación de la raíz: \\(\\sqrt{1+3x}\\approx1+\\frac{3x}{2}\\) y \\(\\sqrt{1-2x}\\approx1-\\frac{2x}{2}\\), la diferencia es \\(\\frac{3x}{2}+x=\\frac{5x}{2}\\). Dividiendo entre \\(x\\) se obtiene \\(\\frac{5}{2}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Aproxima \\(\\sqrt{1+3x}\\) como \\(1+\\frac{3x}{2}\\) y \\(\\sqrt{1-2x}\\) como \\(1-x\\).<br>",
+        "Calcula la diferencia: \\(1+\\frac{3x}{2}-(1-x)=\\frac{5x}{2}\\).<br>",
+        "Divide entre \\(x\\) para obtener \\(\\frac{5}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{\\arctan(3x)-\\arctan(2x)}{x}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\arctan(3x)-\\arctan(2x)}{x}\\)",
+      "options": ["1", "3", "2", "0"],
+      "correctAnswer": 0,
+      "explanation": "Para \\(x\\) pequeño, \\(\\arctan(3x)\\approx 3x\\) y \\(\\arctan(2x)\\approx 2x\\). La diferencia es \\(x\\), y al dividir por \\(x\\) el límite es 1.",
+      "difficulty": "medium",
+      "procedure": [
+        "Aproxima \\(\\arctan(3x)\\) y \\(\\arctan(2x)\\) para \\(x\\) pequeño.<br>",
+        "Calcula la diferencia \\(3x-2x=x\\).<br>",
+        "Divide entre \\(x\\) y deduce que el límite es 1."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to \\infty} \\frac{x - \\ln(x)}{x}\\)",
+      "formula": "\\(\\lim_{x \\to \\infty} \\frac{x - \\ln(x)}{x}\\)",
+      "options": ["1", "0", "\\(\\infty\\)", "\\(\\ln(x)\\)"],
+      "correctAnswer": 0,
+      "explanation": "Se puede escribir el cociente como \\(1 - \\frac{\\ln(x)}{x}\\). Como \\(\\frac{\\ln(x)}{x}\\to 0\\) cuando \\(x\\to\\infty\\), el límite es 1.",
+      "difficulty": "medium",
+      "procedure": [
+        "Reescribe la expresión como \\(1 - \\frac{\\ln(x)}{x}\\).<br>",
+        "Observa que \\(\\frac{\\ln(x)}{x}\\to 0\\) al crecer \\(x\\).<br>",
+        "Concluye que el límite es 1."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{(1-x)^2 - (1-2x)}{x^2}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{(1-x)^2 - (1-2x)}{x^2}\\)",
+      "options": ["1", "2", "0", "x"],
+      "correctAnswer": 0,
+      "explanation": "Se tiene \\((1-x)^2=1-2x+x^2\\). Al restar \\(1-2x\\), el resultado es \\(x^2\\) y dividiendo entre \\(x^2\\) el límite es 1.",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula \\((1-x)^2=1-2x+x^2\\).<br>",
+        "Resta \\(1-2x\\) para obtener \\(x^2\\).<br>",
+        "Divide entre \\(x^2\\) y deduce que el límite es 1."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{\\ln(1-x)+x}{x^2}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\ln(1-x)+x}{x^2}\\)",
+      "options": ["\\(-\\frac{1}{2}\\)", "\\(\\frac{1}{2}\\)", "0", "1"],
+      "correctAnswer": 0,
+      "explanation": "Expande \\(\\ln(1-x)\\) como \\(-x-\\frac{x^2}{2}+\\cdots\\). Al sumar \\(x\\) se obtiene \\(-\\frac{x^2}{2}\\), y dividiendo por \\(x^2\\) el límite es \\(-\\frac{1}{2}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Utiliza la expansión \\(\\ln(1-x)= -x-\\frac{x^2}{2}+\\cdots\\).<br>",
+        "Suma \\(x\\) para obtener \\(-\\frac{x^2}{2}\\).<br>",
+        "Divide entre \\(x^2\\) y deduce que el límite es \\(-\\frac{1}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to \\infty} \\frac{\\sqrt{4x^2+x}-2x}{1}\\)",
+      "formula": "\\(\\lim_{x \\to \\infty} \\frac{\\sqrt{4x^2+x}-2x}{1}\\)",
+      "options": ["\\(\\frac{1}{4}\\)", "\\(\\frac{1}{2}\\)", "0", "2"],
+      "correctAnswer": 0,
+      "explanation": "Se tiene \\(\\sqrt{4x^2+x}=2x\\sqrt{1+\\frac{1}{4x}}\\approx 2x\\Big(1+\\frac{1}{8x}\\Big)=2x+\\frac{1}{4}\\). Al restar \\(2x\\), el límite es \\(\\frac{1}{4}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Reescribe \\(\\sqrt{4x^2+x}\\) como \\(2x\\sqrt{1+\\frac{1}{4x}}\\).<br>",
+        "Expande para \\(x\\) grande: \\(1+\\frac{1}{8x}\\).<br>",
+        "Resta \\(2x\\) para obtener \\(\\frac{1}{4}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{\\tan^{-1}(x)-\\sin^{-1}(x)}{x^3}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\arctan(x)-\\arcsin(x)}{x^3}\\)",
+      "options": ["\\(-\\frac{1}{2}\\)", "\\(\\frac{1}{2}\\)", "0", "1"],
+      "correctAnswer": 0,
+      "explanation": "Utilizando las expansiones: \\(\\arctan(x)=x-\\frac{x^3}{3}+\\cdots\\) y \\(\\arcsin(x)=x+\\frac{x^3}{6}+\\cdots\\), la diferencia es \\(-\\frac{x^3}{2}\\). Dividiendo por \\(x^3\\), el límite es \\(-\\frac{1}{2}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expande \\(\\arctan(x)\\) y \\(\\arcsin(x)\\) en series.<br>",
+        "Calcula la diferencia: \\(-\\frac{x^3}{3}-\\frac{x^3}{6}=-\\frac{x^3}{2}\\).<br>",
+        "Divide entre \\(x^3\\) para obtener \\(-\\frac{1}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{(1+x)^{1/x} - e + \\frac{ex}{2}}{x^2}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{(1+x)^{1/x} - e + \\frac{ex}{2}}{x^2}\\)",
+      "options": [
+        "\\(\\frac{11e}{24}\\)",
+        "\\(\\frac{e}{2}\\)",
+        "\\(\\frac{e}{3}\\)",
+        "e"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se usa la expansión: \\((1+x)^{1/x}=e\\Big(1-\\frac{x}{2}+\\frac{11x^2}{24}+\\cdots\\Big)\\). Al restar \\(e\\) y sumar \\(\\frac{ex}{2}\\), el término en \\(x^2\\) es \\(\\frac{11e}{24}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expande \\((1+x)^{1/x}\\) y escribe \\(e\\Big(1-\\frac{x}{2}+\\frac{11x^2}{24}+\\cdots\\Big)\\).<br>",
+        "Resta \\(e\\) y suma \\(\\frac{ex}{2}\\).<br>",
+        "Divide entre \\(x^2\\) y deduce que el límite es \\(\\frac{11e}{24}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to 0} \\frac{\\sqrt{1+4x}-\\sqrt{1-2x}}{x}\\)",
+      "formula": "\\(\\lim_{x \\to 0} \\frac{\\sqrt{1+4x}-\\sqrt{1-2x}}{x}\\)",
+      "options": ["3", "2", "1", "0"],
+      "correctAnswer": 0,
+      "explanation": "Para \\(x\\) pequeño, \\(\\sqrt{1+4x}\\approx 1+2x\\) y \\(\\sqrt{1-2x}\\approx 1-x\\). La diferencia es \\(3x\\) y al dividir por \\(x\\) el límite es 3.",
+      "difficulty": "medium",
+      "procedure": [
+        "Aproxima \\(\\sqrt{1+4x}\\) y \\(\\sqrt{1-2x}\\) con sus expansiones lineales.<br>",
+        "Calcula la diferencia \\((1+2x)-(1-x)=3x\\).<br>",
+        "Divide entre \\(x\\) para obtener 3."
+      ]
+    },
+    {
+      "question": "Calcula el límite: \\(\\lim_{x \\to \\infty} \\frac{3x+1}{\\sqrt{9x^2+2x+4}}\\)",
+      "formula": "\\(\\lim_{x \\to \\infty} \\frac{3x+1}{\\sqrt{9x^2+2x+4}}\\)",
+      "options": ["1", "3", "0", "\\(\\infty\\)"],
+      "correctAnswer": 0,
+      "explanation": "Para \\(x\\) grande, \\(\\sqrt{9x^2+2x+4}\\) se comporta como \\(3x\\), por lo que el límite es \\(\\frac{3x+1}{3x}\\to 1\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identifica que \\(\\sqrt{9x^2+2x+4}\\sim 3x\\) para \\(x\\) grande.<br>",
+        "Simplifica la expresión a \\(\\frac{3x+1}{3x}\\).<br>",
+        "Concluye que el límite es 1."
+      ]
+    }
+  ]
+}

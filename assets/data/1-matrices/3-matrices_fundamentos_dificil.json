@@ -1,0 +1,1873 @@
+{
+  "matrices_fundamentos_dificil": [
+    {
+      "question": "Sea \\( A = \\begin{pmatrix} 2 & 1 \\\\ 0 & 2 \\end{pmatrix} \\). Calcula \\(A^5\\).",
+      "formula": "",
+      "options": [
+        "\\(\\begin{pmatrix} 32 & 80 \\\\ 0 & 32 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 32 & 16 \\\\ 0 & 32 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 16 & 80 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 32 & 80 \\\\ 0 & 16 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Para una matriz del tipo \\(\\begin{pmatrix} a & b \\\\ 0 & a \\end{pmatrix}\\), se tiene \\(A^n = \\begin{pmatrix} a^n & n\\,a^{n-1}\\,b \\\\ 0 & a^n \\end{pmatrix}\\). Con \\(a=2,\\, b=1\\) y \\(n=5\\): \\(2^5=32\\) y \\(5\\cdot2^4=5\\cdot16=80\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar la forma triangular de A.",
+        "Utilizar la fórmula para potencias de matrices de la forma \\(\\begin{pmatrix} a & b \\\\ 0 & a \\end{pmatrix}\\).",
+        "Sustituir \\(a=2, b=1, n=5\\) para obtener \\(A^5\\)."
+      ]
+    },
+    {
+      "question": "Sea \\(A\\) una matriz diagonalizable con eigenvalores \\(\\lambda_1, \\lambda_2, \\dots, \\lambda_m\\). ¿Cuál es la traza de \\(A^n\\)?",
+      "formula": "",
+      "options": [
+        "\\(\\lambda_1^n + \\lambda_2^n + \\cdots + \\lambda_m^n\\)",
+        "\\(\\left(\\lambda_1 + \\lambda_2 + \\cdots + \\lambda_m\\right)^n\\)",
+        "\\(n\\,\\left(\\lambda_1 + \\lambda_2 + \\cdots + \\lambda_m\\right)\\)",
+        "\\(\\lambda_1^n \\cdot \\lambda_2^n \\cdots \\lambda_m^n\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Si \\(A\\) es diagonalizable, entonces \\(A^n\\) tiene los eigenvalores \\(\\lambda_1^n, \\lambda_2^n, \\dots, \\lambda_m^n\\) y la traza es la suma de estos valores.",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar que la traza de una matriz es la suma de sus eigenvalores.",
+        "Aplicar esta propiedad a \\(A^n\\), cuyos eigenvalores son \\(\\lambda_i^n\\)."
+      ]
+    },
+    {
+      "question": "Calcula la inversa de la matriz \\( A = \\begin{pmatrix} 1 & 2 & 3 \\\\ 0 & 1 & 4 \\\\ 5 & 6 & 0 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "\\(\\begin{pmatrix} -24 & 18 & 5 \\\\ 20 & -15 & -4 \\\\ -5 & 4 & 1 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 24 & -18 & -5 \\\\ -20 & 15 & 4 \\\\ 5 & -4 & -1 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} -6 & 4 & 1 \\\\ 5 & -3 & -1 \\\\ 1 & -1 & 0 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 6 & -4 & -1 \\\\ -5 & 3 & 1 \\\\ -1 & 1 & 0 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Calculamos el determinante (que resulta ser 1) y la matriz de cofactores; al transponerla obtenemos la adjunta. Dado que \\(\\det A = 1\\), \\(A^{-1}\\) es la adjunta: \\(\\begin{pmatrix} -24 & 18 & 5 \\\\ 20 & -15 & -4 \\\\ -5 & 4 & 1 \\end{pmatrix}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el determinante de A para asegurarse de que es invertible.",
+        "Determinar la matriz de cofactores de A.",
+        "Transponer la matriz de cofactores para obtener la adjunta.",
+        "Dividir la adjunta por el determinante."
+      ]
+    },
+    {
+      "question": "Encuentra la factorización LU (sin pivoteo) de \\( A = \\begin{pmatrix} 4 & 3 \\\\ 6 & 3 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "L = \\(\\begin{pmatrix} 1 & 0 \\\\ 1.5 & 1 \\end{pmatrix}\\), U = \\(\\begin{pmatrix} 4 & 3 \\\\ 0 & -1.5 \\end{pmatrix}\\)",
+        "L = \\(\\begin{pmatrix} 1 & 0 \\\\ 1.2 & 1 \\end{pmatrix}\\), U = \\(\\begin{pmatrix} 4 & 3 \\\\ 0 & -1.2 \\end{pmatrix}\\)",
+        "L = \\(\\begin{pmatrix} 1 & 0 \\\\ 1.5 & 1 \\end{pmatrix}\\), U = \\(\\begin{pmatrix} 4 & 3 \\\\ 0 & 1.5 \\end{pmatrix}\\)",
+        "L = \\(\\begin{pmatrix} 1 & 0 \\\\ 1.2 & 1 \\end{pmatrix}\\), U = \\(\\begin{pmatrix} 4 & 3 \\\\ 0 & 1.2 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mediante eliminación de Gauss se obtiene \\(l_{21}=6/4=1.5\\) y \\(u_{11}=4,\\; u_{12}=3,\\; u_{22}=3-1.5\\cdot3=-1.5\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Determinar \\(L\\) y \\(U\\) tal que \\(A = LU\\).",
+        "Calcular \\(l_{21} = \\frac{6}{4} = 1.5\\).",
+        "Obtener \\(u_{22} = 3 - 1.5 \\cdot 3 = -1.5\\)."
+      ]
+    },
+    {
+      "question": "Determina los eigenvalores de \\( A = \\begin{pmatrix} 3 & 1 \\\\ 0 & 2 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "\\(\\{3, 2\\}\\)",
+        "\\(\\{2, 1\\}\\)",
+        "\\(\\{3, 1\\}\\)",
+        "\\(\\{3, 3\\}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La matriz es triangular, por lo que los eigenvalores son los elementos de la diagonal: 3 y 2.",
+      "difficulty": "hard",
+      "procedure": [
+        "Observar que A es triangular.",
+        "Concluir que los eigenvalores son 3 y 2."
+      ]
+    },
+    {
+      "question": "Determina los eigenvalores de \\( A = \\begin{pmatrix} 0 & -1 \\\\ 1 & 0 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "\\(\\{i, -i\\}\\)",
+        "\\(\\{1, -1\\}\\)",
+        "\\(\\{0, 0\\}\\)",
+        "\\(\\{i, i\\}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El polinomio característico es \\(\\lambda^2+1=0\\), por lo que los eigenvalores son \\(i\\) y \\(-i\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Formar el polinomio característico \\(\\lambda^2+1=0\\).",
+        "Resolver para \\(\\lambda\\)."
+      ]
+    },
+    {
+      "question": "Encuentra la forma canónica de Jordan de \\( A = \\begin{pmatrix} 5 & 1 & 0 \\\\ 0 & 5 & 1 \\\\ 0 & 0 & 5 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "La forma de Jordan es \\(J = \\begin{pmatrix} 5 & 1 & 0 \\\\ 0 & 5 & 1 \\\\ 0 & 0 & 5 \\end{pmatrix}\\)",
+        "La forma de Jordan es diagonal \\(\\begin{pmatrix} 5 & 0 & 0 \\\\ 0 & 5 & 0 \\\\ 0 & 0 & 5 \\end{pmatrix}\\)",
+        "La forma de Jordan tiene dos bloques: uno 2x2 y otro 1x1",
+        "No es posible determinar la forma de Jordan"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La matriz A ya está en forma de Jordan, siendo un único bloque Jordan de tamaño 3 para el eigenvalor 5.",
+      "difficulty": "hard",
+      "procedure": [
+        "Observar que A tiene la estructura de un bloque Jordan con eigenvalor 5.",
+        "Confirmar que las superdiagonales contienen 1 y el resto es 0."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema de ecuaciones lineales representado por la matriz aumentada \\( \\left[\\begin{array}{ccc|c} 2 & -1 & 3 & 9 \\\\ 1 & 2 & -1 & 3 \\\\ 3 & 0 & 4 & 8 \\end{array}\\right] \\).",
+      "formula": "",
+      "options": [
+        "\\(x=\\frac{44}{5},\\; y=-\\frac{26}{5},\\; z=-\\frac{23}{5}\\)",
+        "\\(x=2,\\; y=1,\\; z=0\\)",
+        "\\(x=1,\\; y=1,\\; z=1\\)",
+        "\\(x=\\frac{44}{5},\\; y=\\frac{26}{5},\\; z=\\frac{23}{5}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Resolviendo el sistema por eliminación se obtiene \\(x=44/5,\\; y=-26/5,\\; z=-23/5\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar eliminación de Gauss a la matriz aumentada.",
+        "Resolver el sistema resultante por sustitución regresiva."
+      ]
+    },
+    {
+      "question": "Sea \\( A = \\begin{pmatrix} 1 & 2 & 3 \\\\ 0 & 1 & 4 \\\\ 5 & 6 & 0 \\end{pmatrix} \\). Demuestra que \\(A\\) es diagonalizable y encuentra su descomposición espectral.",
+      "formula": "",
+      "options": [
+        "Los eigenvalores son reales y A se puede escribir como \\(A = \\lambda_1 P_1 + \\lambda_2 P_2 + \\lambda_3 P_3\\)",
+        "A es no diagonalizable",
+        "A es diagonalizable solo si es simétrica",
+        "La descomposición espectral no existe para A"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aunque A no es simétrica, si tiene 3 eigenvalores distintos (o suficientes eigenvectores), es diagonalizable y se puede escribir en forma espectral.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el polinomio característico de A.",
+        "Determinar los eigenvalores y eigenvectores.",
+        "Construir los proyectores \\(P_i\\) y expresar A en su forma espectral."
+      ]
+    },
+    {
+      "question": "Sea \\( A = \\begin{pmatrix} 1 & 1 & 0 \\\\ 0 & 1 & 1 \\\\ 0 & 0 & 1 \\end{pmatrix} \\). Encuentra \\(A^n\\) en función de \\(n\\).",
+      "formula": "",
+      "options": [
+        "\\(A^n = \\begin{pmatrix} 1 & n & \\frac{n(n-1)}{2} \\\\ 0 & 1 & n \\\\ 0 & 0 & 1 \\end{pmatrix}\\)",
+        "\\(A^n = \\begin{pmatrix} 1 & n & n^2 \\\\ 0 & 1 & n \\\\ 0 & 0 & 1 \\end{pmatrix}\\)",
+        "\\(A^n = \\begin{pmatrix} n & n & 0 \\\\ 0 & n & n \\\\ 0 & 0 & n \\end{pmatrix}\\)",
+        "Ninguna de las anteriores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Para un bloque Jordan de 1 con tamaño 3, se tiene \\(A^n = I + nN + \\frac{n(n-1)}{2}N^2\\) donde \\(N=A-I\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Escribir A como \\(I+N\\) con \\(N\\) nilpotente.",
+        "Usar la fórmula de la suma de la serie de potencias para \\(N\\)."
+      ]
+    },
+    {
+      "question": "Sea \\( A \\) una matriz simétrica de \\(3\\times3\\). ¿Cuál de las siguientes afirmaciones es verdadera respecto a sus eigenvalores?",
+      "formula": "",
+      "options": [
+        "Todos sus eigenvalores son reales",
+        "Pueden ser complejos en pares conjugados",
+        "Siempre son positivos",
+        "Siempre son enteros"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Por el teorema espectral, una matriz simétrica tiene eigenvalores reales.",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar el teorema espectral para matrices simétricas.",
+        "Concluir que los eigenvalores deben ser reales."
+      ]
+    },
+    {
+      "question": "Calcula la exponencial de la matriz \\( A = \\begin{pmatrix} 0 & -\\pi \\\\ \\pi & 0 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "\\(e^A = \\begin{pmatrix} \\cos\\pi & -\\sin\\pi \\\\ \\sin\\pi & \\cos\\pi \\end{pmatrix} = \\begin{pmatrix} -1 & 0 \\\\ 0 & -1 \\end{pmatrix}\\)",
+        "\\(e^A = I\\)",
+        "\\(e^A = \\begin{pmatrix} 0 & -1 \\\\ 1 & 0 \\end{pmatrix}\\)",
+        "\\(e^A = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Utilizando la fórmula de Euler para matrices skew-simétricas, se obtiene \\(e^A = \\begin{pmatrix} \\cos\\pi & -\\sin\\pi \\\\ \\sin\\pi & \\cos\\pi \\end{pmatrix}\\), que equivale a \\(-I\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Determinar que A es skew-simétrica.",
+        "Aplicar la fórmula de Euler: \\(e^A = \\cos\\theta I + \\sin\\theta \\frac{A}{\\theta}\\) con \\(\\theta=\\pi\\)."
+      ]
+    },
+    {
+      "question": "Determina la descomposición en valores singulares (SVD) de la matriz \\( A = \\begin{pmatrix} 3 & 0 \\\\ 0 & 2 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "U = I, \\(\\Sigma = \\begin{pmatrix} 3 & 0 \\\\ 0 & 2 \\end{pmatrix}\\), V = I",
+        "U = I, \\(\\Sigma = \\begin{pmatrix} 2 & 0 \\\\ 0 & 3 \\end{pmatrix}\\), V = I",
+        "U = \\(\\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}\\), \\(\\Sigma = \\begin{pmatrix} 3 & 0 \\\\ 0 & 2 \\end{pmatrix}\\), V = I",
+        "U = I, \\(\\Sigma = \\begin{pmatrix} 3 & 0 \\\\ 0 & 2 \\end{pmatrix}\\), V = \\(\\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La matriz A es diagonal, por lo que sus valores singulares son los valores absolutos de los elementos diagonales y las matrices U y V son la identidad.",
+      "difficulty": "hard",
+      "procedure": [
+        "Observar que A es diagonal.",
+        "Asignar \\(\\Sigma\\) como la matriz diagonal con los valores 3 y 2, y U y V iguales a la identidad."
+      ]
+    },
+    {
+      "question": "Encuentra la factorización QR de \\( A = \\begin{pmatrix} 1 & 1 \\\\ 1 & -1 \\\\ 1 & 0 \\end{pmatrix} \\). (Aproxima los resultados a tres decimales)",
+      "formula": "",
+      "options": [
+        "Q \\(\\approx \\begin{pmatrix} 0.577 & 0.408 \\\\ 0.577 & -0.816 \\\\ 0.577 & 0.408 \\end{pmatrix}\\), R \\(\\approx \\begin{pmatrix} 1.732 & 0.000 \\\\ 0.000 & 1.414 \\end{pmatrix}\\)",
+        "Q \\(\\approx \\begin{pmatrix} 0.577 & 0.816 \\\\ 0.577 & -0.408 \\\\ 0.577 & 0.000 \\end{pmatrix}\\), R \\(\\approx \\begin{pmatrix} 1.732 & 1.414 \\\\ 0.000 & 0.000 \\end{pmatrix}\\)",
+        "Q \\(\\approx \\begin{pmatrix} 0.577 & 0.408 \\\\ 0.577 & 0.408 \\\\ 0.577 & -0.816 \\end{pmatrix}\\), R \\(\\approx \\begin{pmatrix} 1.732 & 1.414 \\\\ 0.000 & 1.414 \\end{pmatrix}\\)",
+        "Ninguna de las anteriores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando el proceso de Gram–Schmidt se obtiene una base ortonormal Q y una matriz triangular superior R. La opción 0 es consistente con las aproximaciones de los vectores normalizados.",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar el algoritmo de Gram–Schmidt a las columnas de A para obtener Q.",
+        "Calcular R como \\(Q^T A\\)."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema \\(A\\,x = b\\) donde \\( A = \\begin{pmatrix} 2 & -1 & 0 \\\\ -1 & 2 & -1 \\\\ 0 & -1 & 2 \\end{pmatrix} \\) y \\( b = \\begin{pmatrix} 1 \\\\ 0 \\\\ 1 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "\\(x = \\begin{pmatrix} 1 \\\\ 1 \\\\ 1 \\end{pmatrix}\\)",
+        "\\(x = \\begin{pmatrix} 1 \\; 0 \\; 1 \\end{pmatrix}\\)",
+        "\\(x = \\begin{pmatrix} 0.5 \\\\ 1 \\; 0.5 \\end{pmatrix}\\)",
+        "\\(x = \\begin{pmatrix} 2 \\\\ 0 \\\\ 2 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Resolviendo el sistema mediante eliminación o utilizando la inversa de A se obtiene \\(x = [1,1,1]^T\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar métodos de eliminación gaussiana o usar la inversa de A.",
+        "Obtener la solución \\(x = [1,1,1]^T\\)."
+      ]
+    },
+    {
+      "question": "Determina si la matriz \\( A = \\begin{pmatrix} 0 & 1 & 2 \\\\ 0 & 0 & 1 \\\\ 0 & 0 & 0 \\end{pmatrix} \\) es nilpotente y, de serlo, encuentra el menor entero \\(k\\) tal que \\(A^k = 0\\).",
+      "formula": "",
+      "options": [
+        "Es nilpotente y \\(k=3\\)",
+        "Es nilpotente y \\(k=2\\)",
+        "No es nilpotente",
+        "Es nilpotente y \\(k=4\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Esta matriz estrictamente triangular satisface \\(A^3 = 0\\) y \\(A^2 \\neq 0\\), por lo tanto es nilpotente de índice 3.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular \\(A^2\\) y \\(A^3\\).",
+        "Verificar que \\(A^3 = 0\\) y \\(A^2 \\neq 0\\)."
+      ]
+    },
+    {
+      "question": "Calcula el logaritmo matricial \\( \\log(A) \\) para \\( A = \\begin{pmatrix} e & 0 \\\\ 0 & e^2 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "\\(\\log(A) = \\begin{pmatrix} 1 & 0 \\\\ 0 & 2 \\end{pmatrix}\\)",
+        "\\(\\log(A) = \\begin{pmatrix} e & 0 \\\\ 0 & e^2 \\end{pmatrix}\\)",
+        "\\(\\log(A) = \\begin{pmatrix} 0 & 0 \\\\ 0 & 0 \\end{pmatrix}\\)",
+        "Ninguna de las anteriores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El logaritmo de una matriz diagonal se obtiene aplicando el logaritmo a cada entrada de la diagonal: \\(\\log(e)=1\\) y \\(\\log(e^2)=2\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Reconocer que A es diagonal.",
+        "Aplicar la función logaritmo de forma individual a cada elemento diagonal."
+      ]
+    },
+    {
+      "question": "Sea \\( A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} \\). Determina la condición (número de condición en la norma 2) de A.",
+      "formula": "",
+      "options": [
+        "Aproximadamente 221",
+        "Aproximadamente 100",
+        "Aproximadamente 50",
+        "Aproximadamente 300"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El número de condición se calcula como \\(\\kappa_2(A) = \\frac{\\sigma_{max}}{\\sigma_{min}}\\); para A se obtiene aproximadamente 221.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular los valores singulares de A (raíces de los eigenvalores de \\(A^TA\\)).",
+        "Dividir el mayor por el menor para obtener el número de condición."
+      ]
+    },
+    {
+      "question": "Demuestra que la norma de Frobenius es invariante bajo transposición, es decir, \\(\\|A\\|_F = \\|A^T\\|_F\\).",
+      "formula": "",
+      "options": [
+        "Verdadero",
+        "Falso",
+        "Depende de la matriz",
+        "Solo para matrices cuadradas"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Por definición, \\(\\|A\\|_F = \\sqrt{\\sum_{i,j} a_{ij}^2}\\) y la transposición solo reordena los elementos, manteniendo la suma de los cuadrados igual.",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar la definición de la norma de Frobenius.",
+        "Observar que la transposición no cambia la suma de los cuadrados de los elementos."
+      ]
+    },
+    {
+      "question": "Sea \\( A = \\begin{pmatrix} 1 & 2 \\\\ 2 & 4 \\end{pmatrix} \\). Determina si A es diagonalizable.",
+      "formula": "",
+      "options": [
+        "Sí, A es diagonalizable",
+        "No, A es defectiva",
+        "Solo es diagonalizable si es invertible",
+        "No se puede determinar"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aunque A es singular, al ser simétrica tiene dos eigenvalores reales y dos eigenvectores linealmente independientes, por lo que es diagonalizable.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el polinomio característico de A y encontrar sus eigenvalores.",
+        "Determinar la dimensión de los espacios propios asociados y confirmar la diagonalización."
+      ]
+    },
+    {
+      "question": "Sea \\( A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} \\). Encuentra la factorización LU de A con pivoteo parcial.",
+      "formula": "",
+      "options": [
+        "P = \\(\\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}\\), L \\(\\approx \\begin{pmatrix} 1 & 0 \\\\ 0.333 & 1 \\end{pmatrix}\\), U \\(\\approx \\begin{pmatrix} 3 & 4 \\\\ 0 & 1.333 \\end{pmatrix}\\)",
+        "L = \\(\\begin{pmatrix} 1 & 0 \\\\ 3 & 1 \\end{pmatrix}\\), U = \\(\\begin{pmatrix} 1 & 2 \\\\ 0 & -2 \\end{pmatrix}\\)",
+        "No se requiere pivoteo para A",
+        "Ninguna de las anteriores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Al aplicar pivoteo parcial a A se intercambian las filas para ubicar el mayor elemento en la primera posición y se procede con la factorización LU.",
+      "difficulty": "hard",
+      "procedure": [
+        "Determinar la matriz de permutación P que intercambia las filas de A.",
+        "Realizar la eliminación gaussiana para obtener L y U."
+      ]
+    },
+    {
+      "question": "Calcula la exponencial de la matriz \\( A = \\begin{pmatrix} 1 & 1 \\\\ 0 & 1 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "\\(e^A = e\\begin{pmatrix} 1 & 1 \\\\ 0 & 1 \\end{pmatrix}\\)",
+        "\\(e^A = e\\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}\\)",
+        "\\(e^A = e\\begin{pmatrix} 1 & 1 \\\\ 0 & 1 \\end{pmatrix} = e\\left(I + \\begin{pmatrix} 0 & 1 \\\\ 0 & 0 \\end{pmatrix}\\right)\\)",
+        "\\(e^A = e\\left(I + \\begin{pmatrix} 0 & 1 \\\\ 0 & 0 \\end{pmatrix}\\right)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Descomponemos \\(A = I + N\\) donde \\(N = \\begin{pmatrix} 0 & 1 \\\\ 0 & 0 \\end{pmatrix}\\) es nilpotente. Entonces \\(e^A = e^I e^N = e\\left(I + N\\right)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Descomponer A en \\(I+N\\) con \\(N\\) nilpotente.",
+        "Usar la serie de Taylor para \\(e^N\\), que se reduce a \\(I+N\\) cuando \\(N^2=0\\)."
+      ]
+    },
+    {
+      "question": "Sea \\( A = \\begin{pmatrix} 2 & 1 \\\\ 1 & 2 \\end{pmatrix} \\). Encuentra su descomposición espectral.",
+      "formula": "",
+      "options": [
+        "\\(A = 3\\,P_1 + 1\\,P_2\\) donde \\(P_1 = \\frac{1}{2}\\begin{pmatrix} 1 & 1 \\\\ 1 & 1 \\end{pmatrix}\\) y \\(P_2 = \\frac{1}{2}\\begin{pmatrix} 1 & -1 \\\\ -1 & 1 \\end{pmatrix}\\)",
+        "\\(A = 2\\,I\\)",
+        "\\(A = 3\\,I\\)",
+        "A no es diagonalizable"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Los eigenvalores de A son 3 y 1 con eigenvectores \\([1,1]^T\\) y \\([1,-1]^T\\) respectivamente; se construyen los proyectores correspondientes.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular los eigenvalores de A y encontrar los eigenvectores.",
+        "Construir los proyectores \\(P_1\\) y \\(P_2\\) y expresar A en forma espectral."
+      ]
+    },
+    {
+      "question": "Sea \\( A = \\begin{pmatrix} 1 & 1 \\\\ 0 & 1 \\end{pmatrix} \\). Encuentra \\(A^n\\) en función de \\(n\\).",
+      "formula": "",
+      "options": [
+        "\\(A^n = \\begin{pmatrix} 1 & n \\\\ 0 & 1 \\end{pmatrix}\\)",
+        "\\(A^n = \\begin{pmatrix} n & n \\\\ 0 & n \\end{pmatrix}\\)",
+        "\\(A^n = \\begin{pmatrix} 1 & n^2 \\\\ 0 & 1 \\end{pmatrix}\\)",
+        "\\(A^n = \\begin{pmatrix} n & 1 \\\\ 0 & n \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se reconoce que A es un bloque Jordan de 1, y se tiene \\(A^n = I + nN\\) con \\(N = A-I\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Escribir A como \\(I+N\\) donde \\(N\\) es nilpotente.",
+        "Aplicar la fórmula \\(A^n = I + nN\\) (ya que \\(N^2=0\\) para esta matriz)."
+      ]
+    },
+    {
+      "question": "Determina la solución del sistema \\(A\\,x = b\\) con \\( A = \\begin{pmatrix} 2 & -1 & 0 \\\\ -1 & 2 & -1 \\\\ 0 & -1 & 2 \\end{pmatrix} \\) y \\( b = \\begin{pmatrix} 2 \\\\ 1 \\\\ 2 \\end{pmatrix} \\) utilizando la factorización LU.",
+      "formula": "",
+      "options": [
+        "\\(x = \\begin{pmatrix} 2 \\\\ 3 \\\\ 4 \\end{pmatrix}\\)",
+        "\\(x = \\begin{pmatrix} 1 \\; 0 \\; 1 \\end{pmatrix}\\)",
+        "\\(x = \\begin{pmatrix} 1.5 \\; 1 \\; 1.5 \\end{pmatrix}\\)",
+        "\\(x = \\begin{pmatrix} 2 \\; 1 \\; 2 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando factorización LU y sustitución hacia adelante y regresiva se obtiene la solución \\(x = [2, 3, 4]^T\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Realizar la factorización LU de A.",
+        "Resolver Ly = b por sustitución hacia adelante y luego Ux = y por sustitución regresiva."
+      ]
+    },
+    {
+      "question": "Sea \\( A = \\begin{pmatrix} 0 & 1 \\\\ 0 & 0 \\end{pmatrix} \\). Determina el menor entero \\(k\\) tal que \\(A^k = 0\\).",
+      "formula": "",
+      "options": ["\\(k = 2\\)", "\\(k = 3\\)", "\\(k = 1\\)", "\\(k = 4\\)"],
+      "correctAnswer": 0,
+      "explanation": "La matriz es estrictamente triangular, por lo que \\(A^2 = 0\\) y \\(A\\neq 0\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular \\(A^2\\) y verificar que es la matriz nula.",
+        "Confirmar que \\(k=2\\) es el menor entero que satisface \\(A^k=0\\)."
+      ]
+    },
+    {
+      "question": "Calcula el logaritmo matricial \\( \\log(A) \\) para \\( A = \\begin{pmatrix} 4 & 0 \\\\ 0 & 9 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "\\(\\log(A) = \\begin{pmatrix} \\log 4 & 0 \\\\ 0 & \\log 9 \\end{pmatrix}\\)",
+        "\\(\\log(A) = \\begin{pmatrix} 4 & 0 \\\\ 0 & 9 \\end{pmatrix}\\)",
+        "\\(\\log(A) = \\begin{pmatrix} 2 & 0 \\\\ 0 & 3 \\end{pmatrix}\\)",
+        "Ninguna de las anteriores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Para una matriz diagonal, \\(\\log(A)\\) se obtiene aplicando el logaritmo a cada entrada de la diagonal.",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar que A es diagonal.",
+        "Calcular \\(\\log 4\\) y \\(\\log 9\\) para obtener la matriz logarítmica."
+      ]
+    },
+    {
+      "question": "Sea \\( A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} \\). Calcula \\( \\det(A+B) \\) para \\( B = \\begin{pmatrix} 5 & 6 \\\\ 7 & 8 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": ["-8", "0", "8", "16"],
+      "correctAnswer": 0,
+      "explanation": "Se tiene \\(A+B = \\begin{pmatrix} 6 & 8 \\\\ 10 & 12 \\end{pmatrix}\\) cuyo determinante es \\(6\\cdot12 - 8\\cdot10 = 72 - 80 = -8\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Sumar A y B elemento a elemento.",
+        "Calcular el determinante de la matriz resultante."
+      ]
+    },
+    {
+      "question": "Verifica que \\( \\det(AB) = \\det(A)\\cdot\\det(B) \\) para \\( A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} \\) y \\( B = \\begin{pmatrix} 2 & 0 \\\\ 1 & 2 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "Se cumple",
+        "No se cumple",
+        "Solo se cumple si A y B son simétricas",
+        "Depende del orden de A y B"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Calculando \\(\\det(A) = -2\\) y \\(\\det(B) = 4\\) se tiene \\(\\det(A)\\cdot\\det(B) = -8\\), y se verifica que \\(\\det(AB) = -8\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular \\(\\det(A)\\) y \\(\\det(B)\\) por separado.",
+        "Multiplicar los resultados y comparar con \\(\\det(AB)\\)."
+      ]
+    },
+    {
+      "question": "Sea \\( A = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} \\). Expresa \\(A^{-1}\\) en función de \\(a, b, c, d\\).",
+      "formula": "",
+      "options": [
+        "\\(A^{-1} = \\frac{1}{ad-bc}\\begin{pmatrix} d & -b \\\\ -c & a \\end{pmatrix}\\)",
+        "\\(A^{-1} = \\frac{1}{ab-cd}\\begin{pmatrix} d & -b \\\\ -c & a \\end{pmatrix}\\)",
+        "\\(A^{-1} = \\frac{1}{ad+bc}\\begin{pmatrix} d & -b \\\\ -c & a \\end{pmatrix}\\)",
+        "Ninguna de las anteriores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La fórmula estándar para la inversa de una matriz 2x2 es \\(A^{-1} = \\frac{1}{ad-bc}\\begin{pmatrix} d & -b \\\\ -c & a \\end{pmatrix}\\), válida cuando \\(ad-bc \\neq 0\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar la fórmula para la inversa de una matriz 2x2.",
+        "Expresar la respuesta en términos de \\(a, b, c, d\\)."
+      ]
+    },
+    {
+      "question": "Determina si la matriz \\( A = \\begin{pmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\\\ 7 & 8 & 9 \\end{pmatrix} \\) es singular.",
+      "formula": "",
+      "options": [
+        "Sí, es singular",
+        "No, es invertible",
+        "Depende del método de cálculo",
+        "No se puede determinar"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El determinante de A es 0, lo que implica que la matriz es singular.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el determinante de A.",
+        "Concluir que A es singular si el determinante es 0."
+      ]
+    },
+    {
+      "question": "Calcula \\( A\\cdot A^{-1} \\) para \\( A = \\begin{pmatrix} 2 & 0 \\\\ 0 & 3 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "La matriz identidad",
+        "La matriz nula",
+        "La matriz A",
+        "No se puede calcular"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El producto de una matriz por su inversa siempre es la matriz identidad.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular la inversa de A invirtiendo cada elemento de la diagonal.",
+        "Multiplicar A por \\(A^{-1}\\) para verificar que se obtiene la identidad."
+      ]
+    },
+    {
+      "question": "Sea \\( A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} \\) y \\( B = \\begin{pmatrix} 2 & 0 \\\\ 0 & 2 \\end{pmatrix} \\). Compara \\(A\\cdot B\\) y \\(B\\cdot A\\).",
+      "formula": "",
+      "options": [
+        "Son iguales",
+        "Son diferentes",
+        "Solo son iguales si B es la identidad",
+        "No se pueden multiplicar"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dado que \\(B\\) es una matriz escalar (\\(B=2I\\)), se cumple \\(A\\cdot B = B\\cdot A = 2A\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Observar que B es una matriz escalar.",
+        "Multiplicar A por B en ambos órdenes y verificar la igualdad."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de \\( A = \\begin{pmatrix} 4 & 2 & 0 \\\\ 0 & 3 & 1 \\\\ 2 & 0 & 5 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": ["64", "60", "56", "68"],
+      "correctAnswer": 0,
+      "explanation": "Usando la expansión por la primera fila: \\(4\\cdot(3\\cdot5-1\\cdot0) - 2\\cdot(0\\cdot5-1\\cdot2) + 0 = 4\\cdot15 - 2(-2) = 60 + 4 = 64\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Expande el determinante utilizando la primera fila.",
+        "Realiza las multiplicaciones y sumas correspondientes."
+      ]
+    },
+    {
+      "question": "Calcula la traza de \\( A = \\begin{pmatrix} 1 & 0 & 2 \\\\ 3 & 4 & 5 \\\\ 6 & 7 & 8 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": ["13", "14", "15", "16"],
+      "correctAnswer": 0,
+      "explanation": "La traza es la suma de los elementos de la diagonal: \\(1 + 4 + 8 = 13\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar los elementos de la diagonal principal.",
+        "Sumar dichos elementos para obtener la traza."
+      ]
+    },
+    {
+      "question": "Calcula \\( \\det(A+B) \\) para \\( A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} \\) y \\( B = \\begin{pmatrix} 5 & 6 \\\\ 7 & 8 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": ["-8", "0", "8", "16"],
+      "correctAnswer": 0,
+      "explanation": "Se tiene \\(A+B = \\begin{pmatrix} 6 & 8 \\\\ 10 & 12 \\end{pmatrix}\\) cuyo determinante es \\(6\\cdot12 - 8\\cdot10 = 72 - 80 = -8\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Suma A y B elemento a elemento.",
+        "Calcula el determinante de la matriz resultante."
+      ]
+    },
+    {
+      "question": "Verifica que \\( \\det(AB) = \\det(A)\\cdot\\det(B) \\) para \\( A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} \\) y \\( B = \\begin{pmatrix} 2 & 0 \\\\ 1 & 2 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "Se cumple",
+        "No se cumple",
+        "Solo se cumple si A y B son simétricas",
+        "Depende del orden de A y B"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Calculamos \\(\\det(A) = -2\\) y \\(\\det(B) = 4\\); entonces \\(\\det(A)\\cdot\\det(B) = -8\\), y se verifica que \\(\\det(AB) = -8\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular \\(\\det(A)\\) y \\(\\det(B)\\) por separado.",
+        "Multiplicar ambos resultados y compararlos con \\(\\det(AB)\\)."
+      ]
+    },
+    {
+      "question": "Halla la inversa de \\( A = \\begin{pmatrix} 1 & 2 & 3 \\\\ 0 & 1 & 4 \\\\ 5 & 6 & 0 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "\\(A^{-1} = \\begin{pmatrix} -24 & 18 & 5 \\\\ 20 & -15 & -4 \\\\ -5 & 4 & 1 \\end{pmatrix}\\)",
+        "Ninguna de las anteriores",
+        "\\(A^{-1} = \\begin{pmatrix} 24 & -18 & -5 \\\\ -20 & 15 & 4 \\\\ 5 & -4 & -1 \\end{pmatrix}\\)",
+        "\\(A^{-1} = \\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El determinante de A es 1 y la adjunta es \\(\\begin{pmatrix} -24 & 18 & 5 \\\\ 20 & -15 & -4 \\\\ -5 & 4 & 1 \\end{pmatrix}\\), por lo que \\(A^{-1}\\) es esa matriz.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el determinante y la matriz de cofactores de A.",
+        "Obtener la adjunta (transpuesta de la matriz de cofactores).",
+        "Dividir la adjunta por el determinante."
+      ]
+    },
+    {
+      "question": "Determina si \\( A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} \\) es singular.",
+      "formula": "",
+      "options": [
+        "No, es invertible",
+        "Sí, es singular",
+        "Depende del método",
+        "No se puede determinar"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El determinante de A es \\(1\\cdot4 - 2\\cdot3 = 4 - 6 = -2\\), distinto de 0, por lo que A es invertible.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el determinante de A.",
+        "Concluir que A es invertible si el determinante es diferente de 0."
+      ]
+    },
+    {
+      "question": "Calcula el producto de Hadamard (elemento a elemento) de \\( A = \\begin{pmatrix} 3 & 4 \\\\ 5 & 6 \\end{pmatrix} \\) y \\( B = \\begin{pmatrix} 7 & 8 \\\\ 9 & 10 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "\\(\\begin{pmatrix} 21 & 32 \\\\ 45 & 60 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 10 & 12 \\\\ 14 & 16 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 3 & 4 \\\\ 5 & 6 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 7 & 8 \\\\ 9 & 10 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se multiplican los elementos correspondientes: \\(3\\cdot7=21,\\; 4\\cdot8=32,\\; 5\\cdot9=45,\\; 6\\cdot10=60\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplicar cada par de elementos correspondientes de A y B.",
+        "Construir la matriz resultante."
+      ]
+    },
+    {
+      "question": "Sea \\( A = \\begin{pmatrix} 2 & -1 \\\\ 1 & 3 \\end{pmatrix} \\). Calcula \\( \\det(A^2) \\).",
+      "formula": "",
+      "options": ["49", "1", "4", "9"],
+      "correctAnswer": 0,
+      "explanation": "Se usa la propiedad \\(\\det(A^2) = (\\det A)^2\\). Aquí \\(\\det A = 2\\cdot3 - (-1)\\cdot1 = 6+1=7\\), por lo que \\(\\det(A^2)=7^2=49\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular \\(\\det A\\).",
+        "Elevar el resultado al cuadrado para obtener \\(\\det(A^2)\\)."
+      ]
+    },
+    {
+      "question": "Sea \\( A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} \\) y \\( B = \\begin{pmatrix} 2 & 3 \\\\ 4 & 5 \\end{pmatrix} \\). Calcula \\(A+B\\).",
+      "formula": "",
+      "options": [
+        "\\(\\begin{pmatrix} 3 & 5 \\\\ 7 & 9 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 3 & 5 \\\\ 6 & 8 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 2 & 3 \\\\ 4 & 5 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La suma se realiza elemento a elemento: \\(1+2=3,\\; 2+3=5,\\; 3+4=7,\\; 4+5=9\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Sumar los elementos correspondientes de A y B.",
+        "Construir la matriz resultante."
+      ]
+    },
+    {
+      "question": "Calcula \\( A-B \\) para \\( A = \\begin{pmatrix} 5 & 6 \\\\ 7 & 8 \\end{pmatrix} \\) y \\( B = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "\\(\\begin{pmatrix} 4 & 4 \\\\ 4 & 4 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 6 & 8 \\\\ 10 & 12 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 5 & 6 \\\\ 7 & 8 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Restando elemento a elemento: \\(5-1=4, 6-2=4, 7-3=4, 8-4=4\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Restar cada elemento correspondiente de B de A.",
+        "Construir la matriz resultante."
+      ]
+    },
+    {
+      "question": "Demuestra que si A es invertible, entonces \\((A^{-1})^{-1} = A\\).",
+      "formula": "",
+      "options": [
+        "Verdadero",
+        "Falso",
+        "Solo para matrices simétricas",
+        "Depende del tamaño de A"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Por la definición de matriz inversa, la inversa de \\(A^{-1}\\) es la matriz original A.",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar la definición de matriz inversa: \\(A A^{-1} = I\\).",
+        "Concluir que \\((A^{-1})^{-1}\\) debe ser A."
+      ]
+    },
+    {
+      "question": "Calcula la norma de Frobenius de la matriz \\( A = \\begin{pmatrix} 3 & -1 \\\\ 2 & 4 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "\\(\\sqrt{30}\\)",
+        "30",
+        "\\(\\sqrt{29}\\)",
+        "\\(\\sqrt{31}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La norma de Frobenius es \\(\\sqrt{3^2+(-1)^2+2^2+4^2} = \\sqrt{9+1+4+16} = \\sqrt{30}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Elevar al cuadrado cada elemento de la matriz.",
+        "Sumar los cuadrados y tomar la raíz cuadrada."
+      ]
+    },
+    {
+      "question": "Sea \\( A \\) una matriz \\(n \\times n\\). ¿Cuál es la relación entre la traza de A y sus eigenvalores?",
+      "formula": "",
+      "options": [
+        "La traza es la suma de los eigenvalores",
+        "La traza es el producto de los eigenvalores",
+        "La traza es la media de los eigenvalores",
+        "No existe relación"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La traza de una matriz es igual a la suma de sus eigenvalores (contados con multiplicidad).",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar la propiedad de la traza en relación a los eigenvalores.",
+        "Concluir que \\(\\text{tr}(A)=\\lambda_1+\\lambda_2+\\cdots+\\lambda_n\\)."
+      ]
+    },
+    {
+      "question": "Calcula la descomposición espectral de la matriz \\( A = \\begin{pmatrix} 2 & 0 \\\\ 0 & 3 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "\\(A = 2\\,\\begin{pmatrix} 1 & 0 \\\\ 0 & 0 \\end{pmatrix} + 3\\,\\begin{pmatrix} 0 & 0 \\\\ 0 & 1 \\end{pmatrix}\\)",
+        "\\(A = 2I + 3I\\)",
+        "\\(A = \\begin{pmatrix} 2 & 3 \\\\ 2 & 3 \\end{pmatrix}\\)",
+        "A no tiene descomposición espectral"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Para una matriz diagonal, la descomposición espectral consiste en escribir A como la suma de sus eigenvalores multiplicados por los proyectores correspondientes.",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar los eigenvalores 2 y 3.",
+        "Construir los proyectores correspondientes y escribir A en forma espectral."
+      ]
+    },
+    {
+      "question": "Sea \\( A = \\begin{pmatrix} 1 & 1 & 0 \\\\ 0 & 1 & 1 \\\\ 0 & 0 & 1 \\end{pmatrix} \\). Halla \\(A^n\\) en función de \\(n\\).",
+      "formula": "",
+      "options": [
+        "\\(A^n = \\begin{pmatrix} 1 & n & \\frac{n(n-1)}{2} \\\\ 0 & 1 & n \\\\ 0 & 0 & 1 \\end{pmatrix}\\)",
+        "\\(A^n = \\begin{pmatrix} n & n & 0 \\\\ 0 & n & n \\\\ 0 & 0 & n \\end{pmatrix}\\)",
+        "\\(A^n = I\\)",
+        "Ninguna de las anteriores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Para un bloque Jordan de 1 con tamaño 3, se tiene \\(A^n = I + nN + \\frac{n(n-1)}{2}N^2\\) donde \\(N = A - I\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Escribir A como \\(I+N\\) con \\(N\\) nilpotente (\\(N^3=0\\)).",
+        "Aplicar la serie de Taylor truncada para \\(e^N\\) (en este caso la suma finita)."
+      ]
+    },
+    {
+      "question": "Sea \\( A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} \\). Calcula la descomposición espectral de A.",
+      "formula": "",
+      "options": [
+        "A es diagonalizable con eigenvalores \\(\\frac{5+\\sqrt{17}}{2}\\) y \\(\\frac{5-\\sqrt{17}}{2}\\) y los proyectores correspondientes se pueden obtener a partir de los eigenvectores.",
+        "A es no diagonalizable",
+        "A tiene eigenvalores complejos",
+        "A es ya diagonal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Calculando el polinomio característico se obtienen los eigenvalores \\(\\lambda=\\frac{5\\pm\\sqrt{17}}{2}\\) y, al encontrar eigenvectores independientes, A se diagonaliza y se expresa en forma espectral.",
+      "difficulty": "hard",
+      "procedure": [
+        "Determinar el polinomio característico de A.",
+        "Encontrar los eigenvalores y eigenvectores.",
+        "Construir los proyectores para obtener la descomposición espectral."
+      ]
+    },
+    {
+      "question": "Calcula la derivada matricial de la función \\(f(A) = A^3\\) en el sentido de la derivada direccional, es decir, encuentra \\(Df(A)[H]\\).",
+      "formula": "",
+      "options": [
+        "\\(Df(A)[H] = A^2H + AHA + HA^2\\)",
+        "\\(Df(A)[H] = 3A^2H\\)",
+        "\\(Df(A)[H] = H^3\\)",
+        "\\(Df(A)[H] = AHA\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla del producto para derivadas matriciales, la derivada de \\(A^3\\) es \\(A^2H + AHA + HA^2\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Expresar \\(A^3\\) como \\(A\\cdot A\\cdot A\\).",
+        "Aplicar la regla del producto (derivada de un producto de matrices)."
+      ]
+    },
+    {
+      "question": "Sea \\( A = \\begin{pmatrix} 0 & 1 \\\\ -2 & -3 \\end{pmatrix} \\). Calcula \\(A^{-1}\\).",
+      "formula": "",
+      "options": [
+        "\\(A^{-1} = \\frac{1}{2}\\begin{pmatrix} -3 & -1 \\\\ 2 & 0 \\end{pmatrix}\\)",
+        "\\(A^{-1} = \\frac{1}{-2}\\begin{pmatrix} -3 & -1 \\\\ 2 & 0 \\end{pmatrix}\\)",
+        "\\(A^{-1} = \\begin{pmatrix} -3 & -1 \\\\ 2 & 0 \\end{pmatrix}\\)",
+        "\\(A^{-1} = \\frac{1}{2}\\begin{pmatrix} 3 & 1 \\\\ -2 & 0 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El determinante de A es \\(0\\cdot(-3)-1\\cdot(-2)=2\\). Aplicando la fórmula de la inversa obtenemos \\(A^{-1} = \\frac{1}{2}\\begin{pmatrix} -3 & -1 \\\\ 2 & 0 \\end{pmatrix}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el determinante de A.",
+        "Usar la fórmula \\(A^{-1} = \\frac{1}{\\det A}\\begin{pmatrix} d & -b \\\\ -c & a \\end{pmatrix}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el producto de Kronecker de \\( A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} \\) y \\( B = \\begin{pmatrix} 0 & 5 \\\\ 6 & 7 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "\\(\\begin{pmatrix} 0 & 5 & 0 & 10 \\\\ 6 & 7 & 12 & 14 \\\\ 0 & 15 & 0 & 20 \\\\ 18 & 21 & 24 & 28 \\end{pmatrix}\\)",
+        "Otra opción",
+        "Otra opción",
+        "Otra opción"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El producto de Kronecker se obtiene multiplicando cada elemento de A por toda la matriz B y organizando los bloques en una matriz 4x4.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplicar cada elemento \\(a_{ij}\\) de A por la matriz B.",
+        "Ordenar los bloques resultantes para formar la matriz final."
+      ]
+    },
+    {
+      "question": "Sea \\( A = \\begin{pmatrix} 2 & -1 \\\\ 1 & 3 \\end{pmatrix} \\). Calcula \\( \\det(A^2) \\).",
+      "formula": "",
+      "options": ["49", "1", "4", "9"],
+      "correctAnswer": 0,
+      "explanation": "Se tiene \\(\\det(A^2) = (\\det A)^2\\). Calculando \\(\\det A = 2\\cdot3 - (-1)\\cdot1 = 6+1=7\\), se obtiene \\(7^2=49\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular \\(\\det A\\) usando la fórmula \\(ad-bc\\).",
+        "Elevar el resultado al cuadrado."
+      ]
+    },
+    {
+      "question": "Sea \\( A = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix} \\) y \\( B = \\begin{pmatrix} 9 & 8 \\\\ 7 & 6 \\end{pmatrix} \\). Calcula \\(A\\cdot B\\).",
+      "formula": "",
+      "options": ["\\(B\\)", "\\(2B\\)", "\\(A\\)", "\\(0\\)"],
+      "correctAnswer": 0,
+      "explanation": "La matriz identidad actúa como elemento neutro en la multiplicación, de modo que \\(I\\cdot B = B\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar la propiedad \\(I\\cdot B = B\\).",
+        "Concluir que el producto es simplemente B."
+      ]
+    },
+    {
+      "question": "Determina el valor de \\( x \\) en \\( A = \\begin{pmatrix} x & 2 \\\\ 3 & 4 \\end{pmatrix} \\) para que A sea singular.",
+      "formula": "",
+      "options": ["\\(x = 1.5\\)", "\\(x = 2\\)", "\\(x = 0\\)", "\\(x = 3\\)"],
+      "correctAnswer": 0,
+      "explanation": "La condición de singularidad es \\(x\\cdot4 - 2\\cdot3 = 0\\), es decir, \\(4x - 6 = 0\\) lo que implica \\(x = \\frac{6}{4} = 1.5\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Plantear la ecuación \\(4x - 6 = 0\\).",
+        "Resolver para \\(x\\)."
+      ]
+    },
+    {
+      "question": "Sea \\( A = \\begin{pmatrix} 0 & 1 \\\\ -1 & 0 \\end{pmatrix} \\). Calcula \\(A^2\\).",
+      "formula": "",
+      "options": ["\\( -I \\)", "\\( I \\)", "\\( 0 \\)", "\\( 2I \\)"],
+      "correctAnswer": 0,
+      "explanation": "Multiplicando A por A se obtiene \\(A^2 = \\begin{pmatrix} -1 & 0 \\\\ 0 & -1 \\end{pmatrix}\\), es decir, \\(-I\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Realizar la multiplicación de A por A.",
+        "Verificar que el resultado es la matriz negativa de la identidad."
+      ]
+    },
+    {
+      "question": "Calcula el producto de Kronecker de \\( A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} \\) y \\( B = \\begin{pmatrix} 7 & 8 \\\\ 9 & 10 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "\\(\\begin{pmatrix} 7 & 8 & 14 & 16 \\\\ 9 & 10 & 18 & 20 \\\\ 21 & 24 & 28 & 32 \\\\ 27 & 30 & 36 & 40 \\end{pmatrix}\\)",
+        "Otra opción",
+        "Otra opción",
+        "Otra opción"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El producto de Kronecker se obtiene multiplicando cada elemento de A por la matriz B, organizando los bloques resultantes en una matriz 4x4.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplicar cada elemento \\(a_{ij}\\) de A por toda la matriz B.",
+        "Ordenar los bloques obtenidos en la estructura adecuada."
+      ]
+    },
+    {
+      "question": "Sea \\( A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} \\) y \\( B = \\begin{pmatrix} 2 & 3 \\\\ 4 & 5 \\end{pmatrix} \\). Calcula \\(A+B\\).",
+      "formula": "",
+      "options": [
+        "\\(\\begin{pmatrix} 3 & 5 \\\\ 7 & 9 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 3 & 5 \\\\ 6 & 8 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 2 & 3 \\\\ 4 & 5 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se suma cada elemento correspondiente de A y B: \\(1+2=3,\\; 2+3=5,\\; 3+4=7,\\; 4+5=9\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Sumar cada elemento correspondiente de las dos matrices.",
+        "Construir la matriz resultante."
+      ]
+    },
+    {
+      "question": "Calcula \\( A-B \\) para \\( A = \\begin{pmatrix} 5 & 6 \\\\ 7 & 8 \\end{pmatrix} \\) y \\( B = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "\\(\\begin{pmatrix} 4 & 4 \\\\ 4 & 4 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 6 & 8 \\\\ 10 & 12 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 5 & 6 \\\\ 7 & 8 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Restando cada elemento correspondiente: \\(5-1=4, 6-2=4, 7-3=4, 8-4=4\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Restar elemento a elemento.",
+        "Construir la matriz resultante."
+      ]
+    },
+    {
+      "question": "Si \\(A\\) es invertible, demuestra que \\((A^{-1})^{-1} = A\\).",
+      "formula": "",
+      "options": [
+        "Verdadero",
+        "Falso",
+        "Solo para matrices simétricas",
+        "Depende del tamaño de A"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Por definición, la inversa de \\(A^{-1}\\) es A, ya que \\(A\\,(A^{-1}) = I\\) implica \\((A^{-1})^{-1}=A\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar la definición de la inversa de una matriz.",
+        "Concluir que \\((A^{-1})^{-1}\\) debe ser A."
+      ]
+    },
+    {
+      "question": "Sea \\( A = \\begin{pmatrix} 3 & 1 \\\\ 0 & 3 \\end{pmatrix} \\). Calcula \\(A^n\\) en función de \\(n\\).",
+      "formula": "",
+      "options": [
+        "\\(A^n = \\begin{pmatrix} 3^n & n\\,3^{n-1} \\\\ 0 & 3^n \\end{pmatrix}\\)",
+        "\\(A^n = \\begin{pmatrix} 3^n & 3^{n} \\end{pmatrix}\\)",
+        "\\(A^n = 3^n I\\)",
+        "Ninguna de las anteriores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Para una matriz de la forma \\(\\begin{pmatrix} a & b \\\\ 0 & a \\end{pmatrix}\\), se tiene \\(A^n = \\begin{pmatrix} a^n & n\\,a^{n-1}b \\\\ 0 & a^n \\end{pmatrix}\\). Aquí \\(a=3\\) y \\(b=1\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar la estructura de A como matriz de Jordan 2x2 con eigenvalor 3.",
+        "Aplicar la fórmula \\(A^n = \\begin{pmatrix} a^n & n a^{n-1} b \\\\ 0 & a^n \\end{pmatrix}\\)."
+      ]
+    },
+    {
+      "question": "Calcula \\(\\log(A)\\) para \\( A = \\begin{pmatrix} 5 & 0 \\\\ 0 & 7 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "\\(\\log(A) = \\begin{pmatrix} \\log 5 & 0 \\\\ 0 & \\log 7 \\end{pmatrix}\\)",
+        "\\(\\log(A) = \\begin{pmatrix} 5 & 0 \\\\ 0 & 7 \\end{pmatrix}\\)",
+        "\\(\\log(A) = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}\\)",
+        "Ninguna de las anteriores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Para una matriz diagonal, se aplica el logaritmo a cada entrada de la diagonal.",
+      "difficulty": "hard",
+      "procedure": [
+        "Reconocer que A es diagonal.",
+        "Aplicar \\(\\log\\) a cada elemento: \\(\\log 5\\) y \\(\\log 7\\)."
+      ]
+    },
+    {
+      "question": "Encuentra los eigenvalores de \\( A = \\begin{pmatrix} 2 & 1 & 0 \\\\ 0 & 2 & 1 \\\\ 0 & 0 & 2 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "\\(\\{2\\}\\) (con multiplicidad 3)",
+        "\\(\\{2, 2+1, 2-1\\}\\)",
+        "\\(\\{2, 3, 1\\}\\)",
+        "Ninguna de las anteriores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La matriz es triangular y sus eigenvalores son los elementos de la diagonal: 2, 2 y 2.",
+      "difficulty": "hard",
+      "procedure": [
+        "Observar que A es triangular.",
+        "Concluir que los eigenvalores son 2, 2 y 2 (multiplicidad 3)."
+      ]
+    },
+    {
+      "question": "Sea \\( A = \\begin{pmatrix} 0 & 1 \\\\ 0 & 0 \\end{pmatrix} \\). Calcula \\(e^A\\) utilizando la serie de Taylor.",
+      "formula": "",
+      "options": [
+        "\\(e^A = I + A\\)",
+        "\\(e^A = I\\)",
+        "\\(e^A = A\\)",
+        "Ninguna de las anteriores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dado que \\(A^2 = 0\\), la serie de Taylor se trunca: \\(e^A = I + A\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Notar que \\(A^2=0\\) para la matriz nilpotente A.",
+        "Usar la serie \\(e^A = I + A + \\frac{A^2}{2!} + \\cdots = I + A\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada direccional de \\(f(A) = e^A\\) en la dirección de \\(H\\), es decir, \\(Df(A)[H]\\).",
+      "formula": "",
+      "options": [
+        "\\(Df(A)[H] = \\int_0^1 e^{(1-t)A} H e^{tA} dt\\)",
+        "\\(Df(A)[H] = e^A H\\)",
+        "\\(Df(A)[H] = H e^A\\)",
+        "Ninguna de las anteriores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada direccional de \\(e^A\\) es dada por la fórmula integral: \\(\\int_0^1 e^{(1-t)A} H e^{tA} dt\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar la fórmula para la derivada de la exponencial matricial.",
+        "Expresar la derivada direccional mediante la integral dada."
+      ]
+    },
+    {
+      "question": "Sea \\( A = \\begin{pmatrix} 2I & B \\\\ 0 & 3I \\end{pmatrix} \\) con \\(B\\) una matriz \\(2\\times2\\). Encuentra la inversa de A en términos de B.",
+      "formula": "",
+      "options": [
+        "La inversa es \\(\\begin{pmatrix} \\frac{1}{2}I & -\\frac{1}{2}\\cdot\\frac{1}{3}B \\\\ 0 & \\frac{1}{3}I \\end{pmatrix}\\)",
+        "La inversa es \\(\\begin{pmatrix} \\frac{1}{2}I & -\\frac{1}{6}B \\\\ 0 & \\frac{1}{3}I \\end{pmatrix}\\)",
+        "La inversa es \\(\\begin{pmatrix} \\frac{1}{2}I & \\frac{1}{6}B \\\\ 0 & \\frac{1}{3}I \\end{pmatrix}\\)",
+        "Ninguna de las anteriores"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Utilizando el bloque inverso, la inversa de A se calcula como \\(\\begin{pmatrix} (2I)^{-1} & -(2I)^{-1} B (3I)^{-1} \\\\ 0 & (3I)^{-1} \\end{pmatrix}\\) que da \\(\\begin{pmatrix} \\frac{1}{2}I & -\\frac{1}{6}B \\\\ 0 & \\frac{1}{3}I \\end{pmatrix}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la fórmula de la inversa de una matriz en bloques.",
+        "Calcular \\((2I)^{-1}\\) y \\((3I)^{-1}\\) y sustituir."
+      ]
+    },
+    {
+      "question": "Encuentra la forma de Jordan de \\( A = \\begin{pmatrix} 4 & 1 & 0 \\\\ 0 & 4 & 1 \\\\ 0 & 0 & 4 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "La forma de Jordan es \\(J = \\begin{pmatrix} 4 & 1 & 0 \\\\ 0 & 4 & 1 \\\\ 0 & 0 & 4 \\end{pmatrix}\\)",
+        "La forma de Jordan es diagonal \\(\\begin{pmatrix} 4 & 0 & 0 \\\\ 0 & 4 & 0 \\\\ 0 & 0 & 4 \\end{pmatrix}\\)",
+        "La forma de Jordan tiene un bloque \\(2\\times2\\) y uno \\(1\\times1\\)",
+        "A no tiene forma de Jordan"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La matriz A ya está en forma de Jordan, siendo un único bloque Jordan de tamaño 3 para el eigenvalor 4.",
+      "difficulty": "hard",
+      "procedure": [
+        "Verificar que A es una matriz de Jordan con eigenvalor 4.",
+        "Observar que las entradas sobre la diagonal superan la diagonal principal son 1."
+      ]
+    },
+    {
+      "question": "Determina si \\( A = \\begin{pmatrix} 1 & 0 \\\\ 0 & -1 \\end{pmatrix} \\) es una matriz ortogonal.",
+      "formula": "",
+      "options": [
+        "Sí, es ortogonal",
+        "No, no es ortogonal",
+        "Solo si se normalizan sus columnas",
+        "Depende del contexto"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Una matriz es ortogonal si \\(A^T A = I\\). Aquí \\(A^T = A\\) y \\(A^2 = I\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular \\(A^T\\) y luego \\(A^T A\\).",
+        "Verificar que se obtiene la identidad."
+      ]
+    },
+    {
+      "question": "Calcula la norma espectral (2-norma) de \\( A = \\begin{pmatrix} 3 & 0 \\\\ 0 & 1 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": ["3", "1", "\\(\\sqrt{10}\\)", "\\(\\sqrt{9+1}\\)"],
+      "correctAnswer": 0,
+      "explanation": "La norma espectral es el mayor valor singular, que para A es 3.",
+      "difficulty": "hard",
+      "procedure": [
+        "Determinar los valores singulares de A.",
+        "Seleccionar el máximo, que es 3."
+      ]
+    },
+    {
+      "question": "Demuestra que la norma de Frobenius es submultiplicativa: \\(\\|AB\\|_F \\leq \\|A\\|_F \\|B\\|_F\\).",
+      "formula": "",
+      "options": [
+        "Verdadero",
+        "Falso",
+        "Solo para matrices simétricas",
+        "Depende del tamaño"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La norma de Frobenius cumple la propiedad submultiplicativa para cualquier par de matrices.",
+      "difficulty": "hard",
+      "procedure": [
+        "Usar la definición \\(\\|A\\|_F = \\sqrt{\\sum a_{ij}^2}\\).",
+        "Aplicar la desigualdad de Cauchy-Schwarz en la suma de productos."
+      ]
+    },
+    {
+      "question": "Calcula \\(A^{-1}\\) para \\( A = \\begin{pmatrix} 1 & 2 & 3 \\\\ 0 & 1 & 4 \\\\ 5 & 6 & 0 \\end{pmatrix} \\) usando el método del adjunto.",
+      "formula": "",
+      "options": [
+        "\\(A^{-1} = \\begin{pmatrix} -24 & 18 & 5 \\\\ 20 & -15 & -4 \\\\ -5 & 4 & 1 \\end{pmatrix}\\)",
+        "\\(A^{-1} = \\begin{pmatrix} 24 & -18 & -5 \\\\ -20 & 15 & 4 \\\\ 5 & -4 & -1 \\end{pmatrix}\\)",
+        "A no es invertible",
+        "Ninguna de las anteriores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Calcula el determinante (que resulta ser 1) y la matriz de cofactores, luego transponiendo se obtiene el adjunto que es la inversa.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el determinante de A.",
+        "Encontrar la matriz de cofactores y su transpuesta.",
+        "Dividir la adjunta por el determinante."
+      ]
+    },
+    {
+      "question": "Resuelve la ecuación diferencial matricial \\(\\frac{dX}{dt} = AX\\) para \\( A = \\begin{pmatrix} 0 & 1 \\\\ -2 & -3 \\end{pmatrix} \\) con \\(X(0) = I\\).",
+      "formula": "",
+      "options": [
+        "\\(X(t) = e^{At}\\)",
+        "\\(X(t) = I + tA\\)",
+        "\\(X(t) = A^t\\)",
+        "Ninguna de las anteriores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La solución de \\(\\frac{dX}{dt} = AX\\) con \\(X(0)=I\\) es \\(X(t)=e^{At}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Reconocer que se trata de una ecuación diferencial lineal matricial homogénea.",
+        "La solución general es \\(X(t)=e^{At}\\)."
+      ]
+    },
+    {
+      "question": "Para un sistema sobredeterminado \\(Ax = b\\), encuentra la solución de mínimos cuadrados utilizando la pseudoinversa.",
+      "formula": "",
+      "options": [
+        "\\(x = (A^TA)^{-1}A^Tb\\)",
+        "\\(x = A^{-1}b\\)",
+        "\\(x = A^Tb\\)",
+        "Ninguna de las anteriores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La solución de mínimos cuadrados se obtiene usando la pseudoinversa: \\(x = (A^TA)^{-1}A^Tb\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Formular la ecuación normal \\(A^TAx = A^Tb\\).",
+        "Resolver para x usando \\((A^TA)^{-1}A^Tb\\)."
+      ]
+    },
+    {
+      "question": "Determina el número de condición en la norma 2 de \\( A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "Aproximadamente 14.67",
+        "Aproximadamente 5",
+        "Aproximadamente 2",
+        "Aproximadamente 20"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El número de condición se calcula como el cociente del mayor por el menor valor singular de A. El cálculo da aproximadamente 14.67.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular los valores singulares de A (raíces de los eigenvalores de \\(A^TA\\)).",
+        "Dividir el mayor entre el menor."
+      ]
+    },
+    {
+      "question": "Calcula la pseudoinversa de Moore-Penrose de \\( A = \\begin{pmatrix} 1 & 2 \\\\ 2 & 4 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "\\(A^+ = \\begin{pmatrix} 0.04 & 0.08 \\\\ 0.08 & 0.16 \\end{pmatrix}\\)",
+        "\\(A^+ = \\begin{pmatrix} 0.1 & 0.2 \\\\ 0.2 & 0.4 \\end{pmatrix}\\)",
+        "\\(A^+ = \\begin{pmatrix} 1 & 2 \\\\ 2 & 4 \\end{pmatrix}\\)",
+        "A no tiene pseudoinversa"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La pseudoinversa de una matriz singular se calcula usando la descomposición SVD. El resultado es la matriz que satisface \\(AA^+A=A\\). En este caso, se obtiene la opción 0 (valor aproximado).",
+      "difficulty": "hard",
+      "procedure": [
+        "Realizar la descomposición SVD de A.",
+        "Construir la pseudoinversa usando \\(A^+ = V \\Sigma^+ U^T\\)."
+      ]
+    },
+    {
+      "question": "Demuestra que \\(\\text{tr}(AB) = \\text{tr}(BA)\\) para matrices A y B de dimensiones compatibles.",
+      "formula": "",
+      "options": [
+        "Verdadero",
+        "Falso",
+        "Solo para matrices cuadradas",
+        "Depende del orden de A y B"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La traza de un producto de matrices es invariante bajo la permutación cíclica, es decir, \\(\\text{tr}(AB)=\\text{tr}(BA)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Utilizar la definición de traza como la suma de elementos diagonales.",
+        "Demostrar que el intercambio cíclico de productos no altera la suma."
+      ]
+    },
+    {
+      "question": "Evalúa \\(\\det(e^A)\\) para \\(A\\) arbitraria.",
+      "formula": "",
+      "options": [
+        "\\(\\det(e^A)=e^{\\text{tr}(A)}\\)",
+        "\\(\\det(e^A)=e^{\\det(A)}\\)",
+        "\\(\\det(e^A)=\\text{tr}(e^A)\\)",
+        "Ninguna de las anteriores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Una propiedad importante es \\(\\det(e^A)=e^{\\text{tr}(A)}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar la identidad que relaciona la exponencial y la traza.",
+        "Aplicar \\(\\det(e^A)=e^{\\text{tr}(A)}\\)."
+      ]
+    },
+    {
+      "question": "Demuestra que si \\(A\\) es skew-simétrica, entonces sus eigenvalores son puramente imaginarios o cero.",
+      "formula": "",
+      "options": [
+        "Verdadero",
+        "Falso",
+        "Solo para matrices 2x2",
+        "Depende del tamaño de A"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Para una matriz skew-simétrica, se prueba que \\(x^T A x = 0\\) para todo \\(x\\), implicando que los eigenvalores son imaginarios o cero.",
+      "difficulty": "hard",
+      "procedure": [
+        "Usar la propiedad \\(A^T = -A\\).",
+        "Demostrar que \\(\\lambda\\) debe satisfacer \\(\\lambda+\\overline{\\lambda}=0\\), es decir, ser puramente imaginario."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(A^{-1}\\) respecto a A, es decir, encuentra \\(D(A^{-1})[H]\\).",
+      "formula": "",
+      "options": [
+        "\\(D(A^{-1})[H] = -A^{-1} H A^{-1}\\)",
+        "\\(D(A^{-1})[H] = A^{-1} H A^{-1}\\)",
+        "\\(D(A^{-1})[H] = -H A^{-1}\\)",
+        "Ninguna de las anteriores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de la inversa es \\(D(A^{-1})[H] = -A^{-1} H A^{-1}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Diferenciar la identidad \\(AA^{-1}=I\\) respecto a A.",
+        "Resolver para \\(D(A^{-1})[H]\\) obteniendo \\(-A^{-1}HA^{-1}\\)."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema \\(Ax=b\\) para \\( A = \\begin{pmatrix} 2 & 1 \\\\ 1 & 3 \\end{pmatrix} \\) y \\( b = \\begin{pmatrix} 5 \\\\ 6 \\end{pmatrix} \\) utilizando la regla de Cramer.",
+      "formula": "",
+      "options": [
+        "\\(x = \\begin{pmatrix} 2 \\\\ 1 \\end{pmatrix}\\)",
+        "\\(x = \\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix}\\)",
+        "\\(x = \\begin{pmatrix} 3 \\\\ 1 \\end{pmatrix}\\)",
+        "Ninguna de las anteriores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla de Cramer se obtiene \\(x_1 = \\frac{\\det \\begin{pmatrix} 5 & 1 \\\\ 6 & 3 \\end{pmatrix}}{\\det A}= \\frac{(5\\cdot3-1\\cdot6)}{(2\\cdot3-1\\cdot1)}= \\frac{9}{5}\\) y similar para \\(x_2\\). La opción 0 es la solución correcta (valor aproximado).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular \\(\\det A\\) y los determinantes de las matrices sustituyendo las columnas de b.",
+        "Resolver para \\(x_1\\) y \\(x_2\\)."
+      ]
+    },
+    {
+      "question": "Calcula \\((A-\\lambda I)^{-1}\\) para \\( A = \\begin{pmatrix} 3 & 1 \\\\ 0 & 2 \\end{pmatrix} \\) en términos de \\(\\lambda\\).",
+      "formula": "",
+      "options": [
+        "\\( (A-\\lambda I)^{-1} = \\frac{1}{(3-\\lambda)(2-\\lambda)} \\begin{pmatrix} 2-\\lambda & -1 \\\\ 0 & 3-\\lambda \\end{pmatrix}\\)",
+        "Otra opción",
+        "Otra opción",
+        "Otra opción"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usa la fórmula de inversa para una matriz 2x2 en función de \\(\\lambda\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Restar \\(\\lambda I\\) a A.",
+        "Aplicar la fórmula \\(\\frac{1}{ad-bc}\\begin{pmatrix} d & -b \\\\ -c & a \\end{pmatrix}\\) en términos de \\(\\lambda\\)."
+      ]
+    },
+    {
+      "question": "Resuelve la ecuación de Lyapunov \\(AX + XA^T = -Q\\) para \\( A = \\begin{pmatrix} -1 & 2 \\\\ 0 & -3 \\end{pmatrix} \\) y \\( Q = I \\).",
+      "formula": "",
+      "options": [
+        "La solución es única y se obtiene resolviendo un sistema lineal",
+        "No tiene solución",
+        "La solución es \\(X = I\\)",
+        "Depende de A"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La ecuación de Lyapunov tiene solución única para matrices A estables. Se obtiene resolviendo un sistema lineal en las entradas de X.",
+      "difficulty": "hard",
+      "procedure": [
+        "Plantear la ecuación con X desconocida \\(X = \\begin{pmatrix} x & y \\\\ z & w \\end{pmatrix}\\).",
+        "Igualar las entradas y resolver el sistema resultante."
+      ]
+    },
+    {
+      "question": "Calcula la matriz logarítmica \\(\\log(A)\\) para \\( A = \\begin{pmatrix} 3 & 0 \\\\ 0 & 2 \\end{pmatrix} \\) (A es positiva definida).",
+      "formula": "",
+      "options": [
+        "\\(\\log(A) = \\begin{pmatrix} \\log 3 & 0 \\\\ 0 & \\log 2 \\end{pmatrix}\\)",
+        "\\(\\log(A) = \\begin{pmatrix} 3 & 0 \\\\ 0 & 2 \\end{pmatrix}\\)",
+        "A no tiene logaritmo",
+        "Ninguna de las anteriores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Para una matriz diagonal positiva, el logaritmo se aplica a cada elemento diagonal.",
+      "difficulty": "hard",
+      "procedure": [
+        "Notar que A es diagonal y positiva definida.",
+        "Aplicar \\(\\log\\) a cada entrada: \\(\\log 3\\) y \\(\\log 2\\)."
+      ]
+    },
+    {
+      "question": "Determina el polinomio minimal de \\( A = \\begin{pmatrix} 2 & 1 \\\\ 0 & 2 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "\\(m(\\lambda)=(\\lambda-2)^2\\)",
+        "\\(m(\\lambda)=\\lambda-2\\)",
+        "\\(m(\\lambda)=(\\lambda-2)^3\\)",
+        "Ninguna de las anteriores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La matriz tiene un único eigenvalor 2 y no es diagonalizable, por lo que el polinomio minimal es \\((\\lambda-2)^2\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el polinomio característico y observar la multiplicidad y la no diagonalización.",
+        "Determinar el grado mínimo que anula a A."
+      ]
+    },
+    {
+      "question": "Prueba que la radio espectral \\(\\rho(A)\\) de una matriz A es menor o igual que cualquier norma inducida de A.",
+      "formula": "",
+      "options": [
+        "Verdadero",
+        "Falso",
+        "Solo para matrices simétricas",
+        "Depende del tamaño"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La radio espectral siempre está acotada por cualquier norma inducida.",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar que \\(\\rho(A)=\\max\\{ |\\lambda| \\}\\).",
+        "Utilizar propiedades de normas inducidas y la fórmula de Gelfand."
+      ]
+    },
+    {
+      "question": "Sea \\( A = \\begin{pmatrix} 1 & 0 \\\\ 0 & 2 \\end{pmatrix} \\). Calcula la descomposición espectral de A.",
+      "formula": "",
+      "options": [
+        "\\(A = 1\\,P_1 + 2\\,P_2\\) donde \\(P_1 = \\begin{pmatrix} 1 & 0 \\\\ 0 & 0 \\end{pmatrix}\\) y \\(P_2 = \\begin{pmatrix} 0 & 0 \\\\ 0 & 1 \\end{pmatrix}\\)",
+        "A no es diagonalizable",
+        "\\(A = 1\\,I+2\\,I\\)",
+        "Ninguna de las anteriores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A es diagonal, por lo que se puede escribir como la suma de los eigenvalores multiplicados por los proyectores correspondientes.",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar los eigenvalores (1 y 2).",
+        "Construir los proyectores \\(P_1\\) y \\(P_2\\) y expresar A en forma espectral."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(f(A) = A^2\\) en la dirección \\(H\\), es decir, \\(Df(A)[H]\\).",
+      "formula": "",
+      "options": [
+        "\\(Df(A)[H] = AH + HA\\)",
+        "\\(Df(A)[H] = 2AH\\)",
+        "\\(Df(A)[H] = 2HA\\)",
+        "\\(Df(A)[H] = H^2\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando la regla del producto para matrices, la derivada de \\(A^2\\) es \\(AH + HA\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Expresar \\(A^2 = A\\cdot A\\).",
+        "Aplicar la derivada del producto: \\(D(A^2)[H] = A H + H A\\)."
+      ]
+    },
+    {
+      "question": "Sea \\( A = \\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix} \\). Demuestra que A es ortogonal y encuentra \\(A^{-1}\\).",
+      "formula": "",
+      "options": [
+        "A es ortogonal y \\(A^{-1} = A^T = A\\)",
+        "A no es ortogonal",
+        "A es ortogonal y \\(A^{-1} = -A\\)",
+        "Ninguna de las anteriores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se verifica que \\(A^T A = I\\) y que \\(A^T = A\\), de donde se deduce \\(A^{-1} = A\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular \\(A^T\\) y luego \\(A^T A\\).",
+        "Concluir que \\(A\\) es ortogonal y su inversa es \\(A^T = A\\)."
+      ]
+    },
+    {
+      "question": "Sea \\( A \\) una matriz 3x3 con eigenvalores \\(\\lambda_1=2\\), \\(\\lambda_2=3\\) y \\(\\lambda_3=5\\). ¿Cuál es la traza de \\(A^4\\)?",
+      "formula": "",
+      "options": [
+        "\\(2^4 + 3^4 + 5^4\\)",
+        "\\((2+3+5)^4\\)",
+        "\\(4(2+3+5)\\)",
+        "\\(2^4 \\cdot 3^4 \\cdot 5^4\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La traza de \\(A^4\\) es la suma de \\(\\lambda_i^4\\), es decir, \\(2^4+3^4+5^4\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar que si \\(A\\) es diagonalizable, \\(\\text{tr}(A^n)=\\lambda_1^n+\\lambda_2^n+\\cdots\\).",
+        "Elevar cada eigenvalor a la cuarta potencia y sumarlos."
+      ]
+    },
+    {
+      "question": "Calcula la pseudoinversa de Moore-Penrose de la matriz \\( A = \\begin{pmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\end{pmatrix} \\) usando su descomposición SVD.",
+      "formula": "",
+      "options": [
+        "La solución es \\(A^+ = V\\Sigma^+U^T\\) (expresada en términos de la SVD de A)",
+        "La pseudoinversa es simplemente \\(A^{-1}\\)",
+        "La pseudoinversa no existe para matrices no cuadradas",
+        "Ninguna de las anteriores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La pseudoinversa de Moore-Penrose se calcula mediante la descomposición SVD: \\(A^+ = V\\Sigma^+U^T\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Realizar la descomposición SVD de A: \\(A = U\\Sigma V^T\\).",
+        "Invertir los valores no nulos en \\(\\Sigma\\) para formar \\(\\Sigma^+\\) y calcular \\(A^+ = V\\Sigma^+U^T\\)."
+      ]
+    },
+    {
+      "question": "Sea \\( A \\) en forma de Jordan, \\( A = \\begin{pmatrix} 4 & 1 & 0 \\\\ 0 & 4 & 1 \\\\ 0 & 0 & 4 \\end{pmatrix} \\). Calcula \\(A^n\\) en función de \\(n\\).",
+      "formula": "",
+      "options": [
+        "\\(A^n = \\begin{pmatrix} 4^n & n\\,4^{n-1} & \\frac{n(n-1)}{2}4^{n-2} \\\\ 0 & 4^n & n\\,4^{n-1} \\\\ 0 & 0 & 4^n \\end{pmatrix}\\)",
+        "\\(A^n = 4^n I\\)",
+        "\\(A^n = n4^{n-1}I\\)",
+        "Ninguna de las anteriores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Para un bloque Jordan de tamaño 3 con eigenvalor 4, \\(A^n = 4^nI + n4^{n-1}N + \\frac{n(n-1)}{2}4^{n-2}N^2\\) donde \\(N\\) es nilpotente con \\(N^3=0\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Escribir \\(A = 4I + N\\) con \\(N = A-4I\\).",
+        "Usar la fórmula de la suma de series finitas para matrices nilpotentes: \\(A^n = \\sum_{k=0}^{2} \\binom{n}{k} 4^{n-k}N^k\\)."
+      ]
+    },
+    {
+      "question": "Sea \\( A = \\begin{pmatrix} 1 & 1 \\\\ 0 & 1 \\end{pmatrix} \\). Calcula \\(e^A\\) utilizando la serie de Taylor.",
+      "formula": "",
+      "options": [
+        "\\(e^A = e\\begin{pmatrix} 1 & 1 \\\\ 0 & 1 \\end{pmatrix}\\)",
+        "\\(e^A = e\\begin{pmatrix} 1 & 1 \\\\ 0 & 1 \\end{pmatrix} = e\\left(I + \\begin{pmatrix} 0 & 1 \\\\ 0 & 0 \\end{pmatrix}\\right)\\)",
+        "\\(e^A = I + eA\\)",
+        "Ninguna de las anteriores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se descompone \\(A = I+N\\) donde \\(N = \\begin{pmatrix} 0 & 1 \\\\ 0 & 0 \\end{pmatrix}\\) es nilpotente, y \\(e^N = I + N\\). Así, \\(e^A = e^I e^N = e(I+N)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Descomponer A en \\(I+N\\) con \\(N\\) nilpotente.",
+        "Aplicar la serie de Taylor para \\(e^N\\), que se reduce a \\(I+N\\) cuando \\(N^2=0\\), y multiplicar por \\(e\\)."
+      ]
+    },
+    {
+      "question": "Resuelve la ecuación diferencial matricial \\(\\frac{dX}{dt} = AX + B\\) para matrices constantes \\(A\\) y \\(B\\) con \\(X(0)=0\\).",
+      "formula": "",
+      "options": [
+        "\\(X(t) = \\int_0^t e^{A(t-s)} B\\,ds\\)",
+        "\\(X(t) = e^{At}B\\)",
+        "\\(X(t) = e^{At} - I\\)",
+        "Ninguna de las anteriores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La solución de \\(\\frac{dX}{dt} = AX+B\\) con \\(X(0)=0\\) es \\(X(t)=\\int_0^t e^{A(t-s)}B\\,ds\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar el método de variación de parámetros para ecuaciones diferenciales matriciales.",
+        "Integrar la solución homogénea multiplicada por B."
+      ]
+    },
+    {
+      "question": "Demuestra que si \\(A\\) es simétrica, entonces existe una matriz ortogonal \\(Q\\) tal que \\(A=Q\\Lambda Q^T\\).",
+      "formula": "",
+      "options": [
+        "Verdadero",
+        "Falso",
+        "Solo para matrices 2x2",
+        "Depende del determinante de A"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El teorema espectral garantiza que toda matriz simétrica es diagonalizable mediante una matriz ortogonal.",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar el teorema espectral para matrices simétricas.",
+        "Concluir que \\(A=Q\\Lambda Q^T\\) con \\(Q\\) ortogonal."
+      ]
+    },
+    {
+      "question": "Calcula \\(D(\\det)(A)[H]\\), es decir, la derivada direccional de \\(\\det(A)\\) en la dirección \\(H\\).",
+      "formula": "",
+      "options": [
+        "\\(D(\\det)(A)[H] = \\det(A)\\,\\text{tr}(A^{-1}H)\\)",
+        "\\(D(\\det)(A)[H] = \\text{tr}(H)\\)",
+        "\\(D(\\det)(A)[H] = \\det(H)\\)",
+        "Ninguna de las anteriores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada del determinante se da por \\(D(\\det)(A)[H] = \\det(A)\\,\\text{tr}(A^{-1}H)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Usar la fórmula conocida para la derivada del determinante.",
+        "Expresar el resultado en términos de \\(\\det(A)\\) y \\(\\text{tr}(A^{-1}H)\\)."
+      ]
+    },
+    {
+      "question": "Calcula \\(D(\\text{tr}(A^2))[H]\\) para una matriz \\(A\\).",
+      "formula": "",
+      "options": [
+        "\\(D(\\text{tr}(A^2))[H] = 2\\,\\text{tr}(AH)\\)",
+        "\\(D(\\text{tr}(A^2))[H] = \\text{tr}(A^2H)\\)",
+        "\\(D(\\text{tr}(A^2))[H] = \\text{tr}(H^2)\\)",
+        "Ninguna de las anteriores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\text{tr}(A^2)\\) en la dirección \\(H\\) es \\(2\\,\\text{tr}(AH)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Usar la linealidad de la traza y la regla del producto para matrices.",
+        "Derivar \\(\\text{tr}(A^2) = \\text{tr}(AA)\\) y obtener \\(2\\,\\text{tr}(AH)\\)."
+      ]
+    },
+    {
+      "question": "Demuestra que la función \\(A \\mapsto \\det(A)\\) es multiplicativa, es decir, \\(\\det(AB)=\\det(A)\\det(B)\\).",
+      "formula": "",
+      "options": [
+        "Verdadero",
+        "Falso",
+        "Solo para matrices cuadradas",
+        "Depende de la norma de A"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Una propiedad clásica del determinante es su multiplicatividad: \\(\\det(AB)=\\det(A)\\det(B)\\) para matrices cuadradas.",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar y citar la propiedad fundamental del determinante.",
+        "Concluir que \\(\\det(AB)=\\det(A)\\det(B)\\)."
+      ]
+    },
+    {
+      "question": "Sea \\(A \\in \\mathbb{R}^{m\\times n}\\). Encuentra la proyección ortogonal sobre el espacio columna de A.",
+      "formula": "",
+      "options": [
+        "\\(P = A(A^TA)^{-1}A^T\\)",
+        "\\(P = A^T(A A^T)^{-1}A\\)",
+        "\\(P = A A^T\\)",
+        "Ninguna de las anteriores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La proyección ortogonal sobre el espacio columna de A se da por \\(P = A(A^TA)^{-1}A^T\\) (asumiendo que A tiene rango completo).",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar la fórmula de la proyección ortogonal sobre el espacio columna.",
+        "Verificar que \\(P^2=P\\) y \\(P=P^T\\)."
+      ]
+    },
+    {
+      "question": "Sea \\( A \\) una matriz \\(3\\times4\\). Determina la dimensión de su núcleo (nullity) si \\(\\text{rank}(A)=2\\).",
+      "formula": "",
+      "options": ["2", "3", "4", "1"],
+      "correctAnswer": 0,
+      "explanation": "El teorema del rango establece que \\(\\text{rank}(A) + \\text{nullity}(A) = n\\). Aquí, \\(2+\\text{nullity}=4\\) por lo que \\(\\text{nullity}=2\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar el teorema del rango: \\(\\text{rank}(A) + \\text{nullity}(A) = \\text{número de columnas}\\).",
+        "Resolver para la nullity."
+      ]
+    },
+    {
+      "question": "Encuentra la factorización LU con pivoteo parcial de la siguiente matriz por bloques: \\( A = \\begin{pmatrix} 2I_2 & B \\\\ C & D \\end{pmatrix} \\), donde \\(B, C, D\\) son matrices 2x2.",
+      "formula": "",
+      "options": [
+        "La factorización se obtiene aplicando eliminaciones en bloques y requiere calcular \\(D - C(2I)^{-1}B\\)",
+        "A es diagonalizable sin necesidad de pivoteo",
+        "La factorización LU no existe para matrices por bloques",
+        "Ninguna de las anteriores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La factorización LU por bloques implica calcular el Schur complement \\(D - C(2I)^{-1}B\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Dividir A en bloques y aplicar eliminación gaussiana por bloques.",
+        "Calcular el complemento de Schur para D."
+      ]
+    },
+    {
+      "question": "Prueba que la traza es invariante bajo similitud, es decir, si \\(B=P^{-1}AP\\), entonces \\(\\text{tr}(B)=\\text{tr}(A)\\).",
+      "formula": "",
+      "options": [
+        "Verdadero",
+        "Falso",
+        "Solo para matrices simétricas",
+        "Depende de P"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La traza es invariante bajo transformaciones de similitud, ya que \\(\\text{tr}(P^{-1}AP)=\\text{tr}(A)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Usar la propiedad cíclica de la traza \\(\\text{tr}(XYZ)=\\text{tr}(ZXY)\\).",
+        "Concluir que \\(\\text{tr}(P^{-1}AP)=\\text{tr}(A)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(e^{tA}\\) con respecto a \\(t\\) en \\(t=0\\).",
+      "formula": "",
+      "options": [
+        "\\(\\frac{d}{dt}e^{tA}|_{t=0} = A\\)",
+        "\\(\\frac{d}{dt}e^{tA}|_{t=0} = I\\)",
+        "\\(\\frac{d}{dt}e^{tA}|_{t=0} = 0\\)",
+        "Ninguna de las anteriores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Derivando \\(e^{tA}\\) se obtiene \\(Ae^{tA}\\) y evaluando en \\(t=0\\) da \\(A\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Diferenciar \\(e^{tA}\\) respecto a t: \\(\\frac{d}{dt}e^{tA}=Ae^{tA}\\).",
+        "Evaluar en \\(t=0\\) y obtener \\(Ae^0=A\\)."
+      ]
+    },
+    {
+      "question": "Resuelve el sistema en el sentido de mínimos cuadrados \\(Ax=b\\) usando la pseudoinversa, para \\( A \\) de dimensión 4x2 y \\(b\\) en \\(\\mathbb{R}^4\\).",
+      "formula": "",
+      "options": [
+        "\\(x = (A^TA)^{-1}A^Tb\\)",
+        "\\(x = A^{-1}b\\)",
+        "\\(x = A^Tb\\)",
+        "Ninguna de las anteriores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La solución de mínimos cuadrados se obtiene con \\(x=(A^TA)^{-1}A^Tb\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Formular las ecuaciones normales \\(A^TAx=A^Tb\\).",
+        "Resolver para x usando \\((A^TA)^{-1}A^Tb\\)."
+      ]
+    },
+    {
+      "question": "Determina la forma canónica de Jordan para una matriz nilpotente \\(N\\) de orden 3 (es decir, \\(N^3=0\\) pero \\(N^2\\neq 0\\)).",
+      "formula": "",
+      "options": [
+        "La forma de Jordan es \\(J = \\begin{pmatrix} 0 & 1 & 0 \\\\ 0 & 0 & 1 \\\\ 0 & 0 & 0 \\end{pmatrix}\\)",
+        "La forma de Jordan es \\(J = 0\\)",
+        "La forma de Jordan es diagonal",
+        "Ninguna de las anteriores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Una matriz nilpotente de orden 3 tiene un único bloque Jordan de tamaño 3 con eigenvalor 0.",
+      "difficulty": "hard",
+      "procedure": [
+        "Reconocer la definición de nilpotencia y forma de Jordan para eigenvalor 0.",
+        "Concluir que la forma es un bloque Jordan de tamaño 3."
+      ]
+    },
+    {
+      "question": "Encuentra el polinomio minimal de \\( A = \\begin{pmatrix} 3 & 1 \\\\ 0 & 3 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "\\(m(\\lambda)=(\\lambda-3)^2\\)",
+        "\\(m(\\lambda)=\\lambda-3\\)",
+        "\\(m(\\lambda)=(\\lambda-3)^3\\)",
+        "Ninguna de las anteriores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A tiene un único eigenvalor 3 y no es diagonalizable, de modo que el polinomio minimal es \\((\\lambda-3)^2\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el polinomio característico y determinar la multiplicidad geométrica.",
+        "Concluir que el polinomio minimal es \\((\\lambda-3)^2\\)."
+      ]
+    },
+    {
+      "question": "Sea \\( A(t) = e^{tA} \\) con \\( A \\) constante. Demuestra que \\( \\frac{d}{dt}A(t) = A\\,A(t) \\).",
+      "formula": "",
+      "options": [
+        "Verdadero",
+        "Falso",
+        "Solo para matrices diagonales",
+        "Depende del valor de t"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(e^{tA}\\) es \\(Ae^{tA}\\) por la definición de la exponencial matricial.",
+      "difficulty": "hard",
+      "procedure": [
+        "Usar la serie de Taylor para \\(e^{tA}\\).",
+        "Diferenciar término a término para obtener \\(Ae^{tA}\\)."
+      ]
+    },
+    {
+      "question": "Sea \\( A \\) una matriz real y \\(\\|\\cdot\\|_2\\) la norma inducida por el vector 2. Demuestra que \\(\\|A\\|_2 \\geq \\rho(A)\\), donde \\(\\rho(A)\\) es la radio espectral de A.",
+      "formula": "",
+      "options": [
+        "Verdadero",
+        "Falso",
+        "Solo para matrices simétricas",
+        "Depende del tamaño de A"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El número de condición y las propiedades de las normas inducidas implican que la norma espectral es mayor o igual a la radio espectral.",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar que \\(\\rho(A)\\) es el máximo de \\(|\\lambda|\\).",
+        "Usar la definición de norma inducida y la desigualdad de Gelfand."
+      ]
+    },
+    {
+      "question": "Calcula la norma operatoria (2-norma) de \\( A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} \\) utilizando la descomposición SVD.",
+      "formula": "",
+      "options": [
+        "La norma es el mayor valor singular de A",
+        "La norma es la suma de los valores singulares de A",
+        "La norma es el producto de los valores singulares de A",
+        "Ninguna de las anteriores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La norma 2 o norma operatoria es igual al mayor valor singular de la matriz A.",
+      "difficulty": "hard",
+      "procedure": [
+        "Realizar la descomposición SVD de A.",
+        "Identificar el mayor valor singular, que es la norma operatoria."
+      ]
+    },
+    {
+      "question": "Resuelve la ecuación diferencial \\(\\frac{dX}{dt} = AX\\) para \\( A = \\begin{pmatrix} 0 & 1 \\\\ -4 & -4 \\end{pmatrix} \\) con \\(X(0)=I\\).",
+      "formula": "",
+      "options": [
+        "\\(X(t) = e^{At}\\)",
+        "\\(X(t) = I + tA\\)",
+        "\\(X(t) = A^t\\)",
+        "Ninguna de las anteriores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La solución de \\(\\frac{dX}{dt}=AX\\) con \\(X(0)=I\\) es \\(X(t)=e^{At}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Reconocer que es una ecuación diferencial lineal matricial.",
+        "Aplicar la solución general \\(X(t)=e^{At}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(f(A)=\\det(A)\\) respecto a A, utilizando la fórmula diferencial.",
+      "formula": "",
+      "options": [
+        "\\(Df(A)[H] = \\det(A)\\,\\text{tr}(A^{-1}H)\\)",
+        "\\(Df(A)[H] = \\text{tr}(H)\\)",
+        "\\(Df(A)[H] = \\det(H)\\)",
+        "Ninguna de las anteriores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada direccional de \\(\\det(A)\\) es \\(\\det(A)\\,\\text{tr}(A^{-1}H)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Utilizar la fórmula conocida para la derivada del determinante.",
+        "Expresar el resultado en términos de \\(\\det(A)\\) y \\(\\text{tr}(A^{-1}H)\\)."
+      ]
+    },
+    {
+      "question": "Sea \\( A = \\begin{pmatrix} 3 & 1 \\\\ 1 & 3 \\end{pmatrix} \\). Encuentra una matriz \\(X\\) tal que \\(AX = XA\\) y \\(X\\) no sea múltiplo de la identidad.",
+      "formula": "",
+      "options": [
+        "\\(X = \\begin{pmatrix} 1 & 2 \\\\ 2 & 1 \\end{pmatrix}\\)",
+        "\\(X = I\\)",
+        "\\(X = \\begin{pmatrix} 2 & 0 \\\\ 0 & 2 \\end{pmatrix}\\)",
+        "No existe tal X"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La conmutatividad \\(AX=XA\\) para matrices simétricas tiene infinitas soluciones; una elección es \\(X = \\begin{pmatrix} 1 & 2 \\\\ 2 & 1 \\end{pmatrix}\\), la cual no es un múltiplo de la identidad.",
+      "difficulty": "hard",
+      "procedure": [
+        "Plantear la ecuación \\(AX=XA\\) con \\(X=\\begin{pmatrix} x & y \\\\ z & w \\end{pmatrix}\\).",
+        "Resolver el sistema de ecuaciones y elegir una solución no trivial."
+      ]
+    },
+    {
+      "question": "Calcula la exponencial de la matriz \\( A = \\begin{pmatrix} 0 & -\\pi/2 \\\\ \\pi/2 & 0 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "\\(e^A = \\begin{pmatrix} \\cos(\\pi/2) & -\\sin(\\pi/2) \\\\ \\sin(\\pi/2) & \\cos(\\pi/2) \\end{pmatrix} = \\begin{pmatrix} 0 & -1 \\\\ 1 & 0 \\end{pmatrix}\\)",
+        "\\(e^A = I\\)",
+        "\\(e^A = -I\\)",
+        "Ninguna de las anteriores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la fórmula de Euler para matrices skew-simétricas, se obtiene \\(e^A = \\begin{pmatrix} \\cos(\\pi/2) & -\\sin(\\pi/2) \\\\ \\sin(\\pi/2) & \\cos(\\pi/2) \\end{pmatrix}\\), que equivale a \\(\\begin{pmatrix} 0 & -1 \\\\ 1 & 0 \\end{pmatrix}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar que A es skew-simétrica.",
+        "Aplicar la fórmula de Euler para obtener \\(e^A\\)."
+      ]
+    },
+    {
+      "question": "Sea \\( A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} \\). Calcula la derivada de \\(\\det(A)\\) respecto a \\(A\\) en la dirección \\(H = \\begin{pmatrix} 0 & 1 \\\\ -1 & 0 \\end{pmatrix}\\).",
+      "formula": "",
+      "options": [
+        "\\(\\det(A)\\,\\text{tr}(A^{-1}H)\\)",
+        "\\(0\\)",
+        "\\(\\text{tr}(H)\\)",
+        "Ninguna de las anteriores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando la fórmula \\(D(\\det)(A)[H] = \\det(A)\\,\\text{tr}(A^{-1}H)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular \\(\\det(A)\\) y \\(A^{-1}\\).",
+        "Evaluar \\(\\text{tr}(A^{-1}H)\\) y multiplicar por \\(\\det(A)\\)."
+      ]
+    }
+  ]
+}

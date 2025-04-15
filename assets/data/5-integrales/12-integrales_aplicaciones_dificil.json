@@ -1,0 +1,1487 @@
+{
+  "integrales_aplicaciones_dificil": [
+    {
+      "question": "Calcula el área encerrada entre las curvas \\(y=x^2\\) y \\(y=2x+3\\).",
+      "formula": "\\(\\int_{-1}^{3} \\Big[(2x+3) - x^2\\Big] dx\\)",
+      "options": [
+        "\\(\\frac{32}{3}\\)",
+        "\\(\\frac{28}{3}\\)",
+        "\\(10\\)",
+        "\\(\\frac{34}{3}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se determinan los puntos de intersección resolviendo \\(x^2=2x+3\\), lo que da \\(x=-1\\) y \\(x=3\\). Se integra la diferencia \\((2x+3)-x^2\\) en el intervalo \\([-1,3]\\), obteniéndose \\(\\frac{32}{3}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Encontrar los puntos de intersección resolviendo \\(x^2=2x+3\\) y obteniendo \\(x=-1\\) y \\(x=3\\).",
+        "Formular la integral del área: \\(\\int_{-1}^{3} [(2x+3)-x^2] dx\\).",
+        "Calcular la integral y simplificar para obtener \\(\\frac{32}{3}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el volumen del sólido generado al rotar la región limitada por \\(y=x^2\\) y \\(y=4\\) alrededor del eje x.",
+      "formula": "\\(V=\\pi\\int_{-2}^{2} \\Big[(4)^2 - (x^2)^2\\Big] dx\\)",
+      "options": [
+        "\\(\\frac{256\\pi}{5}\\)",
+        "\\(\\frac{128\\pi}{5}\\)",
+        "\\(\\frac{512\\pi}{5}\\)",
+        "\\(\\frac{200\\pi}{5}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Los puntos de intersección se obtienen de \\(x^2=4\\) (\\(x=-2\\) y \\(x=2\\)). Se aplica el método de discos, integrando \\(\\pi[(4)^2-(x^2)^2]\\) en \\([-2,2]\\), lo que resulta en \\(\\frac{256\\pi}{5}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Determinar los límites de integración a partir de \\(x^2=4\\): \\(x=-2\\) y \\(x=2\\).",
+        "Plantear la integral para el volumen con el método de discos: \\(V=\\pi\\int_{-2}^{2} \\Big[16-x^4\\Big] dx\\).",
+        "Evaluar la integral y simplificar para obtener \\(\\frac{256\\pi}{5}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el volumen del sólido obtenido al rotar la región acotada por \\(y=\\sqrt{x}\\) y \\(y=x\\) alrededor del eje y.",
+      "formula": "\\(V=2\\pi\\int_{0}^{1} x\\Big[\\sqrt{x}-x\\Big] dx\\)",
+      "options": [
+        "\\(\\frac{2\\pi}{15}\\)",
+        "\\(\\frac{\\pi}{15}\\)",
+        "\\(\\frac{2\\pi}{5}\\)",
+        "\\(\\frac{\\pi}{5}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Las curvas se intersecan en \\(x=0\\) y \\(x=1\\). Aplicando el método de cilindros (shells) para la rotación alrededor del eje y, la integral resulta en \\(\\frac{2\\pi}{15}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Determinar la intersección de \\(y=\\sqrt{x}\\) y \\(y=x\\) en \\(x=0\\) y \\(x=1\\).",
+        "Plantear la integral con el método de cascarones: \\(V=2\\pi\\int_{0}^{1} x(\\sqrt{x}-x) dx\\).",
+        "Resolver la integral y simplificar para obtener \\(\\frac{2\\pi}{15}\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la integral impropia \\(\\int_{1}^{\\infty} \\frac{1}{x^2} dx\\).",
+      "formula": "\\(\\int_{1}^{\\infty} \\frac{1}{x^2} dx\\)",
+      "options": ["\\(1\\)", "\\(0\\)", "\\(\\infty\\)", "\\(\\frac{1}{2}\\)"],
+      "correctAnswer": 0,
+      "explanation": "La integral se evalúa como \\(\\left[-\\frac{1}{x}\\right]_{1}^{\\infty}=0-(-1)=1\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la antiderivada de \\(1/x^2\\), que es \\(-1/x\\).",
+        "Evaluar la expresión en los límites de integración y restar.",
+        "Obtener el resultado final de 1."
+      ]
+    },
+    {
+      "question": "Determina el área encerrada entre \\(y=\\sin(x)\\) y \\(y=\\cos(x)\\) en el intervalo \\(\\left[0,\\frac{\\pi}{4}\\right]\\).",
+      "formula": "\\(A=\\int_{0}^{\\frac{\\pi}{4}} \\Big[\\cos(x)-\\sin(x)\\Big] dx\\)",
+      "options": [
+        "\\(\\sqrt{2}-1\\)",
+        "\\(1-\\sqrt{2}\\)",
+        "\\(\\sqrt{2}+1\\)",
+        "\\(2-\\sqrt{2}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "En \\(\\left[0,\\frac{\\pi}{4}\\right]\\), \\(\\cos(x)\\) es mayor que \\(\\sin(x)\\). Al integrar la diferencia se obtiene \\(\\sqrt{2}-1\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar que en \\(\\left[0,\\frac{\\pi}{4}\\right]\\) la función \\(\\cos(x)\\) es la superior.",
+        "Plantear la integral \\(\\int_{0}^{\\frac{\\pi}{4}} \\Big[\\cos(x)-\\sin(x)\\Big] dx\\).",
+        "Evaluar la integral y simplificar para obtener \\(\\sqrt{2}-1\\)."
+      ]
+    },
+    {
+      "question": "Calcula el volumen del sólido obtenido al rotar la región bajo \\(y=\\sqrt{x}\\) desde \\(x=0\\) hasta \\(x=4\\) alrededor del eje x.",
+      "formula": "\\(V=\\pi\\int_{0}^{4} \\Big[\\sqrt{x}\\Big]^2 dx\\)",
+      "options": ["\\(8\\pi\\)", "\\(4\\pi\\)", "\\(16\\pi\\)", "\\(2\\pi\\)"],
+      "correctAnswer": 0,
+      "explanation": "Al rotar la región, se utiliza el método de discos. Dado que \\((\\sqrt{x})^2=x\\), la integral se simplifica a \\(\\pi\\int_{0}^{4} x dx\\), dando como resultado \\(8\\pi\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Notar que \\((\\sqrt{x})^2=x\\).",
+        "Plantear la integral \\(\\pi\\int_{0}^{4} x dx\\).",
+        "Calcular la integral y multiplicar por \\(\\pi\\) para obtener \\(8\\pi\\)."
+      ]
+    },
+    {
+      "question": "Determina el valor de \\(\\int_{0}^{1} \\frac{1}{\\sqrt{x}} dx\\).",
+      "formula": "\\(\\int_{0}^{1} \\frac{1}{\\sqrt{x}} dx\\)",
+      "options": ["\\(2\\)", "\\(1\\)", "\\(\\frac{1}{2}\\)", "\\(\\infty\\)"],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada de \\(1/\\sqrt{x}\\) es \\(2\\sqrt{x}\\). Evaluando de 0 a 1 se obtiene 2.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular la antiderivada: \\(\\int x^{-1/2} dx = 2\\sqrt{x}\\).",
+        "Evaluar en \\(x=1\\) y \\(x=0\\).",
+        "Obtener \\(2\\sqrt{1}-2\\sqrt{0}=2\\)."
+      ]
+    },
+    {
+      "question": "Encuentra el área entre \\(y=e^x\\) y \\(y=e^{-x}\\) para \\(x \\in [-1,1]\\).",
+      "formula": "\\(A=2\\int_{0}^{1} \\Big(e^x-e^{-x}\\Big) dx\\)",
+      "options": [
+        "\\(2\\Big(e+e^{-1}-2\\Big)\\)",
+        "\\(e+e^{-1}-2\\)",
+        "\\(2(e-e^{-1})\\)",
+        "\\(e-e^{-1}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Debido a la simetría, se integra de 0 a 1 y se multiplica por 2. La integral da \\(e+e^{-1}-2\\), de donde se obtiene el área total \\(2(e+e^{-1}-2)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Observar que las curvas son simétricas respecto al eje y.",
+        "Integrar \\(e^x-e^{-x}\\) de 0 a 1.",
+        "Multiplicar el resultado por 2 para obtener el área total."
+      ]
+    },
+    {
+      "question": "Calcula el volumen del sólido generado al rotar la región entre \\(y=x\\) y \\(y=x^2\\) alrededor del eje x.",
+      "formula": "\\(V=\\pi\\int_{0}^{1} \\Big[(x)^2-(x^2)^2\\Big] dx\\)",
+      "options": [
+        "\\(\\frac{2\\pi}{15}\\)",
+        "\\(\\frac{\\pi}{15}\\)",
+        "\\(\\frac{2\\pi}{5}\\)",
+        "\\(\\frac{\\pi}{5}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Las curvas se intersecan en \\(x=0\\) y \\(x=1\\). Con el método de discos, se forma la integral \\(\\pi\\int_{0}^{1} (x^2-x^4)dx\\), que al evaluarse da \\(\\frac{2\\pi}{15}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Determinar los límites de integración a partir de la intersección en \\(x=0\\) y \\(x=1\\).",
+        "Plantear la integral usando el método de discos.",
+        "Evaluar la integral y simplificar para obtener \\(\\frac{2\\pi}{15}\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la integral impropia \\(\\int_{1}^{\\infty} \\frac{1}{x} dx\\).",
+      "formula": "\\(\\int_{1}^{\\infty} \\frac{1}{x} dx\\)",
+      "options": [
+        "\\(\\infty\\)",
+        "\\(1\\)",
+        "\\(0\\)",
+        "\\(\\text{No converge}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La integral \\(\\int_{1}^{\\infty} \\frac{1}{x} dx\\) diverge, ya que su antiderivada \\(\\ln|x|\\) tiende a infinito al evaluar en el límite superior.",
+      "difficulty": "hard",
+      "procedure": [
+        "Obtener la antiderivada: \\(\\ln|x|\\).",
+        "Evaluar en \\(x=1\\) y en el límite \\(x\\rightarrow\\infty\\).",
+        "Concluir que la integral diverge."
+      ]
+    },
+    {
+      "question": "Determina el área limitada por \\(y=\\ln(x)\\), \\(y=0\\) y las rectas verticales \\(x=1\\) y \\(x=e\\).",
+      "formula": "\\(A=\\int_{1}^{e} \\ln(x) dx\\)",
+      "options": ["\\(1\\)", "\\(e-1\\)", "\\(e\\)", "\\(\\ln(e)\\)"],
+      "correctAnswer": 0,
+      "explanation": "La integral de \\(\\ln(x)\\) es \\(x\\ln(x)-x\\). Evaluándola de 1 a \\(e\\) se obtiene \\(\\big[e\\cdot1-e\\big] - \\big[1\\cdot0-1\\big]=1\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular la antiderivada de \\(\\ln(x)\\): \\(x\\ln(x)-x\\).",
+        "Evaluar en \\(x=e\\) y \\(x=1\\).",
+        "Restar los resultados para obtener el área igual a 1."
+      ]
+    },
+    {
+      "question": "Calcula el volumen del sólido formado al rotar la curva \\(y=\\sqrt{1-x^2}\\) (semicírculo) alrededor del eje x.",
+      "formula": "\\(V=\\pi\\int_{-1}^{1} \\Big(1-x^2\\Big) dx\\)",
+      "options": [
+        "\\(\\frac{4\\pi}{3}\\)",
+        "\\(\\frac{2\\pi}{3}\\)",
+        "\\(\\frac{8\\pi}{3}\\)",
+        "\\(\\pi\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Rotar el semicírculo \\(y=\\sqrt{1-x^2}\\) alrededor del eje x genera un sólido cuyo volumen se obtiene integrando \\(1-x^2\\) de \\(-1\\) a \\(1\\), dando \\(\\frac{4\\pi}{3}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar la función del semicírculo \\(y=\\sqrt{1-x^2}\\).",
+        "Plantear la integral con el método de discos: \\(V=\\pi\\int_{-1}^{1} (1-x^2) dx\\).",
+        "Evaluar la integral y multiplicar por \\(\\pi\\) para obtener \\(\\frac{4\\pi}{3}\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la integral impropia \\(\\int_{0}^{1} \\frac{1}{\\sqrt{1-x}} dx\\).",
+      "formula": "\\(\\int_{0}^{1} \\frac{1}{\\sqrt{1-x}} dx\\)",
+      "options": ["\\(2\\)", "\\(1\\)", "\\(\\sqrt{2}\\)", "\\(\\infty\\)"],
+      "correctAnswer": 0,
+      "explanation": "Con la sustitución \\(u=1-x\\), la integral se transforma en \\(\\int_{0}^{1} u^{-1/2} du\\), cuyo resultado es 2.",
+      "difficulty": "hard",
+      "procedure": [
+        "Realizar la sustitución \\(u=1-x\\) con \\(du=-dx\\).",
+        "Transformar la integral a \\(\\int_{0}^{1} u^{-1/2} du\\).",
+        "Evaluar la integral y obtener el resultado 2."
+      ]
+    },
+    {
+      "question": "Calcula el área entre \\(y=\\cos(x)\\) y \\(y=\\sin(x)\\) en el intervalo \\(\\left[0,\\frac{\\pi}{2}\\right]\\).",
+      "formula": "\\(A=2\\int_{0}^{\\frac{\\pi}{4}} \\Big[\\cos(x)-\\sin(x)\\Big] dx\\)",
+      "options": [
+        "\\(2\\sqrt{2}-2\\)",
+        "\\(\\sqrt{2}-1\\)",
+        "\\(2-\\sqrt{2}\\)",
+        "\\(2\\sqrt{2}+2\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Las curvas se intersectan en \\(x=\\frac{\\pi}{4}\\). Debido a la simetría se integra de 0 a \\(\\frac{\\pi}{4}\\) y se multiplica el resultado por 2, obteniéndose \\(2\\sqrt{2}-2\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Determinar el punto de intersección \\(x=\\frac{\\pi}{4}\\).",
+        "Plantear la integral en el intervalo \\(\\left[0,\\frac{\\pi}{4}\\right]\\) de \\(\\cos(x)-\\sin(x)\\).",
+        "Multiplicar el resultado por 2 para obtener el área total."
+      ]
+    },
+    {
+      "question": "Calcula el volumen del sólido generado al rotar la región limitada por \\(y=\\sqrt{x}\\) y \\(y=x\\) alrededor del eje y (método de cilindros).",
+      "formula": "\\(V=2\\pi\\int_{0}^{1} x\\Big[\\sqrt{x}-x\\Big] dx\\)",
+      "options": [
+        "\\(\\frac{2\\pi}{15}\\)",
+        "\\(\\frac{\\pi}{15}\\)",
+        "\\(\\frac{2\\pi}{5}\\)",
+        "\\(\\frac{\\pi}{5}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Utilizando el método de cascarones para la rotación alrededor del eje y, se integra \\(2\\pi x(\\sqrt{x}-x)\\) desde 0 hasta 1, resultando en \\(\\frac{2\\pi}{15}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar la región acotada por \\(y=\\sqrt{x}\\) y \\(y=x\\) entre \\(x=0\\) y \\(x=1\\).",
+        "Plantear la integral con el método de cascarones: \\(V=2\\pi\\int_{0}^{1} x(\\sqrt{x}-x) dx\\).",
+        "Evaluar la integral para obtener \\(\\frac{2\\pi}{15}\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la integral impropia \\(\\int_{0}^{\\infty} e^{-x} dx\\).",
+      "formula": "\\(\\int_{0}^{\\infty} e^{-x} dx\\)",
+      "options": ["\\(1\\)", "\\(e^{-1}\\)", "\\(0\\)", "\\(\\infty\\)"],
+      "correctAnswer": 0,
+      "explanation": "La integral de \\(e^{-x}\\) desde 0 hasta infinito converge y su valor es 1.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular la antiderivada de \\(e^{-x}\\), que es \\(-e^{-x}\\).",
+        "Evaluar la expresión en 0 y en el límite cuando \\(x\\rightarrow\\infty\\).",
+        "Obtener el resultado: \\(0-(-1)=1\\)."
+      ]
+    },
+    {
+      "question": "Determina el área encerrada entre \\(y=\\sqrt{x}\\) y \\(y=\\ln(x+1)\\) en el intervalo \\([0,1]\\).",
+      "formula": "\\(A=\\int_{0}^{1} \\Big[\\sqrt{x}-\\ln(x+1)\\Big] dx\\)",
+      "options": [
+        "\\(\\frac{5}{3}-2\\ln2\\)",
+        "\\(\\frac{5}{3}+2\\ln2\\)",
+        "\\(2\\ln2-\\frac{5}{3}\\)",
+        "\\(\\frac{2}{3}-2\\ln2\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se calcula el área restando \\(\\ln(x+1)\\) de \\(\\sqrt{x}\\) y evaluando la integral en \\([0,1]\\). La solución analítica resulta en \\(\\frac{5}{3}-2\\ln2\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Plantear la integral del área entre las dos funciones en el intervalo \\([0,1]\\).",
+        "Calcular \\(\\int_{0}^{1} \\sqrt{x}\\,dx\\) y \\(\\int_{0}^{1} \\ln(x+1)\\,dx\\) por separado.",
+        "Restar ambos resultados para obtener \\(\\frac{5}{3}-2\\ln2\\)."
+      ]
+    },
+    {
+      "question": "Calcula el volumen del sólido obtenido al rotar la región limitada por \\(y=x^2\\) y \\(y=4\\) alrededor del eje y usando el método de cascarones.",
+      "formula": "\\(V=2\\pi\\int_{0}^{2} x\\Big[4-x^2\\Big] dx\\)",
+      "options": ["\\(8\\pi\\)", "\\(4\\pi\\)", "\\(16\\pi\\)", "\\(2\\pi\\)"],
+      "correctAnswer": 0,
+      "explanation": "Considerando la parte positiva de \\(x\\) (de 0 a 2), se utiliza el método de cascarones para obtener \\(V=2\\pi\\int_{0}^{2} x(4-x^2)dx\\), lo que da \\(8\\pi\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Determinar el intervalo de integración de \\(x\\) de 0 a 2 (pues \\(x^2=4\\) da \\(x=2\\)).",
+        "Plantear la integral con el método de cascarones: \\(V=2\\pi\\int_{0}^{2} x(4-x^2) dx\\).",
+        "Evaluar la integral y multiplicar por \\(2\\pi\\) para obtener \\(8\\pi\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la integral impropia \\(\\int_{-\\infty}^{0} e^{x} dx\\).",
+      "formula": "\\(\\int_{-\\infty}^{0} e^{x} dx\\)",
+      "options": ["\\(1\\)", "\\(e^{-1}\\)", "\\(0\\)", "\\(\\infty\\)"],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada de \\(e^x\\) es \\(e^x\\). Evaluada desde \\(-\\infty\\) a 0, se obtiene \\(e^0-0=1\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular la antiderivada de \\(e^x\\), que es \\(e^x\\).",
+        "Evaluar en el límite inferior \\(x\\rightarrow -\\infty\\) y en 0.",
+        "Obtener \\(1-0=1\\)."
+      ]
+    },
+    {
+      "question": "Calcula el área encerrada entre \\(y=x\\) y \\(y=\\sqrt{x}\\) en \\(x \\in [0,1]\\).",
+      "formula": "\\(A=\\int_{0}^{1} \\Big[\\sqrt{x}-x\\Big] dx\\)",
+      "options": [
+        "\\(\\frac{1}{6}\\)",
+        "\\(\\frac{1}{3}\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(\\frac{1}{4}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "En el intervalo \\([0,1]\\), \\(\\sqrt{x}\\) es mayor que \\(x\\). La integral \\(\\int_{0}^{1} (\\sqrt{x}-x)dx\\) se evalúa dando \\(\\frac{1}{6}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Observar que en \\([0,1]\\), \\(\\sqrt{x} \\geq x\\).",
+        "Plantear la integral \\(\\int_{0}^{1} (\\sqrt{x}-x) dx\\).",
+        "Evaluar la integral para obtener \\(\\frac{1}{6}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el volumen del sólido obtenido al rotar la región bajo \\(y=\\ln(x)\\) entre \\(x=1\\) y \\(x=e\\) alrededor del eje x.",
+      "formula": "\\(V=\\pi\\int_{1}^{e} \\Big[\\ln(x)\\Big]^2 dx\\)",
+      "options": [
+        "\\(\\pi(e-2)\\)",
+        "\\(\\pi(e-1)\\)",
+        "\\(\\pi(2-e)\\)",
+        "\\(\\pi(e-3)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Al rotar la curva \\(y=\\ln(x)\\) se forma un sólido cuyo volumen se expresa como \\(\\pi\\int_{1}^{e} (\\ln x)^2dx\\). Mediante un cambio de variable se demuestra que el resultado es \\(\\pi(e-2)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Plantear la integral para el volumen usando el método de discos: \\(V=\\pi\\int_{1}^{e} (\\ln(x))^2dx\\).",
+        "Realizar el cambio de variable \\(u=\\ln(x)\\) y ajustar los límites de integración.",
+        "Evaluar la integral resultante y simplificar para obtener \\(\\pi(e-2)\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la integral impropia \\(\\int_{2}^{\\infty} \\frac{1}{x^3} dx\\).",
+      "formula": "\\(\\int_{2}^{\\infty} \\frac{1}{x^3} dx\\)",
+      "options": [
+        "\\(\\frac{1}{8}\\)",
+        "\\(\\frac{1}{4}\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(\\frac{1}{16}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada de \\(1/x^3\\) es \\(-\\frac{1}{2x^2}\\). Evaluada de 2 a infinito, se obtiene \\(\\frac{1}{8}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular la antiderivada: \\(\\int x^{-3} dx = -\\frac{1}{2x^2}\\).",
+        "Evaluar en \\(x=\\infty\\) y \\(x=2\\).",
+        "Obtener el resultado \\(\\frac{1}{8}\\)."
+      ]
+    },
+    {
+      "question": "Determina el área encerrada por \\(y=x^2\\) y \\(y=2-x\\).",
+      "formula": "\\(A=\\int_{-2}^{1} \\Big[(2-x)-x^2\\Big] dx\\)",
+      "options": [
+        "\\(\\frac{9}{2}\\)",
+        "\\(\\frac{7}{2}\\)",
+        "\\(5\\)",
+        "\\(4\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Los puntos de intersección se obtienen de \\(x^2=2-x\\), lo que da \\(x=-2\\) y \\(x=1\\). Al integrar la diferencia se obtiene un área de \\(\\frac{9}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Resolver \\(x^2=2-x\\) para encontrar \\(x=-2\\) y \\(x=1\\).",
+        "Plantear la integral \\(\\int_{-2}^{1} [(2-x)-x^2] dx\\).",
+        "Calcular la integral y simplificar para obtener \\(\\frac{9}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el volumen del sólido generado al rotar la región bajo \\(y=\\sqrt{x}\\) de \\(x=0\\) a \\(x=9\\) alrededor del eje y.",
+      "formula": "\\(V=2\\pi\\int_{0}^{9} x\\Big(\\sqrt{x}\\Big) dx\\)",
+      "options": [
+        "\\(\\frac{972\\pi}{5}\\)",
+        "\\(\\frac{486\\pi}{5}\\)",
+        "\\(\\frac{972\\pi}{10}\\)",
+        "\\(\\frac{243\\pi}{5}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando el método de cascarones para la rotación alrededor del eje y, se tiene \\(V=2\\pi\\int_{0}^{9} x\\sqrt{x} dx=2\\pi\\int_{0}^{9} x^{3/2} dx\\), lo que al evaluar da \\(\\frac{972\\pi}{5}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Plantear la integral usando el método de cascarones: \\(V=2\\pi\\int_{0}^{9} x\\sqrt{x}dx\\).",
+        "Reescribir \\(x\\sqrt{x}\\) como \\(x^{3/2}\\) y calcular la integral.",
+        "Multiplicar el resultado por \\(2\\pi\\) para obtener \\(\\frac{972\\pi}{5}\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la integral impropia \\(\\int_{1}^{\\infty} \\frac{\\ln(x)}{x^2} dx\\).",
+      "formula": "\\(\\int_{1}^{\\infty} \\frac{\\ln(x)}{x^2} dx\\)",
+      "options": ["\\(1\\)", "\\(0\\)", "\\(\\ln(2)\\)", "\\(\\frac{1}{2}\\)"],
+      "correctAnswer": 0,
+      "explanation": "Mediante integración por partes se demuestra que \\(\\int_{1}^{\\infty} \\frac{\\ln(x)}{x^2} dx=1\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar integración por partes eligiendo \\(u=\\ln(x)\\) y \\(dv=1/x^2\\,dx\\).",
+        "Obtener la antiderivada y evaluar en los límites de integración.",
+        "Simplificar para obtener el resultado 1."
+      ]
+    },
+    {
+      "question": "Calcula el área encerrada entre \\(y=|x|\\) y \\(y=x^2\\).",
+      "formula": "\\(A=\\int_{-1}^{0} \\Big[-x-x^2\\Big] dx + \\int_{0}^{1} \\Big[x-x^2\\Big] dx\\)",
+      "options": [
+        "\\(\\frac{1}{3}\\)",
+        "\\(\\frac{1}{6}\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(\\frac{2}{3}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Las intersecciones se dan en \\(x=-1,0,1\\). Al calcular el área en cada intervalo y sumar se obtiene \\(\\frac{1}{3}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Dividir el intervalo en \\([-1,0]\\) y \\([0,1]\\) considerando la definición de valor absoluto.",
+        "Plantear las integrales \\(\\int_{-1}^{0} ( -x-x^2)dx\\) y \\(\\int_{0}^{1} (x-x^2)dx\\).",
+        "Evaluar ambas integrales y sumarlas para obtener \\(\\frac{1}{3}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el volumen del sólido obtenido al rotar la región acotada por \\(y=1-x^2\\) y \\(y=0\\) alrededor del eje x.",
+      "formula": "\\(V=\\pi\\int_{-1}^{1} \\Big[(1-x^2)^2\\Big] dx\\)",
+      "options": [
+        "\\(\\frac{16\\pi}{15}\\)",
+        "\\(\\frac{8\\pi}{15}\\)",
+        "\\(\\frac{16\\pi}{5}\\)",
+        "\\(\\frac{32\\pi}{15}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La integral simétrica de \\((1-x^2)^2\\) en \\([-1,1]\\) se evalúa y da \\(\\frac{16}{15}\\); al multiplicar por \\(\\pi\\) se obtiene \\(\\frac{16\\pi}{15}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Expander \\((1-x^2)^2\\) a \\(1-2x^2+x^4\\).",
+        "Integrar cada término en el intervalo \\([-1,1]\\) y sumar los resultados.",
+        "Multiplicar por \\(\\pi\\) para obtener \\(\\frac{16\\pi}{15}\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la integral impropia \\(\\int_{0}^{\\infty} \\frac{x}{(1+x^2)^2} dx\\).",
+      "formula": "\\(\\int_{0}^{\\infty} \\frac{x}{(1+x^2)^2} dx\\)",
+      "options": [
+        "\\(\\frac{1}{2}\\)",
+        "\\(\\frac{1}{4}\\)",
+        "\\(1\\)",
+        "\\(\\frac{2}{3}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mediante una sustitución adecuada se demuestra que la integral converge y su valor es \\(\\frac{1}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Realizar la sustitución \\(u=x^2\\) para simplificar la integral.",
+        "Evaluar la integral resultante y aplicar los límites de integración.",
+        "Concluir que el valor de la integral es \\(\\frac{1}{2}\\)."
+      ]
+    },
+    {
+      "question": "Determina el área encerrada por \\(y=\\sqrt{1-x^2}\\) y \\(y=\\frac{1}{2}\\) para \\(x\\) en \\(\\left[-\\frac{\\sqrt{3}}{2},\\frac{\\sqrt{3}}{2}\\right]\\).",
+      "formula": "\\(A=\\int_{-\\frac{\\sqrt{3}}{2}}^{\\frac{\\sqrt{3}}{2}} \\Big[\\sqrt{1-x^2}-\\frac{1}{2}\\Big] dx\\)",
+      "options": [
+        "\\(\\frac{\\pi}{3}-\\frac{\\sqrt{3}}{2}\\)",
+        "\\(\\frac{\\pi}{3}+\\frac{\\sqrt{3}}{2}\\)",
+        "\\(\\frac{\\pi}{2}-\\frac{\\sqrt{3}}{2}\\)",
+        "\\(\\frac{\\pi}{6}-\\frac{\\sqrt{3}}{2}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La integral representa el área del segmento circular resultante de la intersección entre el semicírculo \\(\\sqrt{1-x^2}\\) y la línea \\(y=\\frac{1}{2}\\), cuyo resultado es \\(\\frac{\\pi}{3}-\\frac{\\sqrt{3}}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Determinar los puntos de intersección: \\(x=\\pm\\frac{\\sqrt{3}}{2}\\).",
+        "Plantear la integral del área entre la curva y la línea.",
+        "Evaluar la integral para obtener el área exacta."
+      ]
+    },
+    {
+      "question": "Calcula el volumen del sólido generado al rotar la región bajo \\(y=\\sqrt{x}\\) desde \\(x=0\\) hasta \\(x=1\\) alrededor del eje y utilizando el método de cascarones.",
+      "formula": "\\(V=2\\pi\\int_{0}^{1} x\\Big(\\sqrt{x}\\Big) dx\\)",
+      "options": [
+        "\\(\\frac{4\\pi}{5}\\)",
+        "\\(\\frac{2\\pi}{5}\\)",
+        "\\(\\frac{4\\pi}{3}\\)",
+        "\\(\\frac{2\\pi}{3}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Utilizando el método de cascarones para la rotación alrededor del eje y, se obtiene \\(V=2\\pi\\int_{0}^{1} x\\sqrt{x}dx=2\\pi\\int_{0}^{1} x^{3/2}dx\\), cuyo resultado es \\(\\frac{4\\pi}{5}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Plantear la integral con el método de cascarones: \\(V=2\\pi\\int_{0}^{1} x\\sqrt{x}dx\\).",
+        "Convertir \\(x\\sqrt{x}\\) en \\(x^{3/2}\\) y evaluar la integral.",
+        "Multiplicar por \\(2\\pi\\) para obtener \\(\\frac{4\\pi}{5}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el área entre las curvas \\(y = x^2\\) y \\(y = 2x + 3\\).",
+      "formula": "\\(y = x^2, \\; y = 2x + 3\\)",
+      "options": [
+        "\\(\\frac{28}{3}\\)",
+        "\\(\\frac{32}{3}\\)",
+        "\\(10\\)",
+        "\\(\\frac{30}{3}\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Se determina el intervalo de intersección resolviendo \\(x^2 = 2x+3\\), lo que da \\(x = -1\\) y \\(x = 3\\). El área se calcula mediante \\(\\int_{-1}^{3}[2x+3-x^2]dx\\), que da como resultado \\(\\frac{32}{3}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Encontrar los puntos de intersección resolviendo \\(x^2 = 2x+3\\).",
+        "Determinar el intervalo de integración \\([-1,3]\\).",
+        "Plantear la integral \\(\\int_{-1}^{3}[2x+3-x^2]dx\\).",
+        "Evaluar la integral para obtener el área, \\(\\frac{32}{3}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el volumen de un sólido de revolución obtenido al rotar la región limitada por \\(y = \\sqrt{x}\\) y \\(y = x\\) alrededor del eje x.",
+      "formula": "\\(y = \\sqrt{x}, \\; y = x\\)",
+      "options": [
+        "\\(\\frac{\\pi}{4}\\)",
+        "\\(\\frac{\\pi}{6}\\)",
+        "\\(\\frac{\\pi}{3}\\)",
+        "\\(\\frac{\\pi}{8}\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Las curvas se intersecan en \\(x=0\\) y \\(x=1\\). Usando el método de arandelas, el volumen es \\(\\pi \\int_{0}^{1} [(\\sqrt{x})^2 - x^2]dx = \\pi\\int_{0}^{1} (x-x^2)dx = \\pi/6\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Determinar los puntos de intersección: \\(x=0\\) y \\(x=1\\).",
+        "Identificar la función exterior \\(y=\\sqrt{x}\\) y la interior \\(y=x\\).",
+        "Aplicar el método de arandelas: \\(V=\\pi\\int_{0}^{1} [(\\sqrt{x})^2-x^2]dx\\).",
+        "Evaluar la integral para obtener \\(\\pi/6\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la integral impropia \\(\\int_{1}^{\\infty} \\frac{1}{x^2} dx\\).",
+      "formula": "\\(\\int_{1}^{\\infty} \\frac{1}{x^2}dx\\)",
+      "options": ["\\(1\\)", "\\(0\\)", "\\(\\infty\\)", "\\(\\frac{1}{2}\\)"],
+      "correctAnswer": 0,
+      "explanation": "La integral \\(\\int_{1}^{\\infty} \\frac{1}{x^2}dx\\) converge y su valor es \\(1\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Determinar la forma antiderivada de \\(\\frac{1}{x^2}\\) que es \\(-1/x\\).",
+        "Evaluar el límite: \\(\\lim_{b\\to\\infty} (-1/b + 1) = 1\\)."
+      ]
+    },
+    {
+      "question": "Calcula el área entre las curvas \\(y = \\sin(x)\\) y \\(y = \\cos(x)\\) en el intervalo \\(\\left[0, \\frac{\\pi}{2}\\right]\\).",
+      "formula": "\\(y = \\sin(x), \\; y = \\cos(x)\\)",
+      "options": [
+        "\\(2(\\sqrt{2}-1)\\)",
+        "\\(\\sqrt{2}-1\\)",
+        "\\(1\\)",
+        "\\(\\frac{\\pi}{4}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Las curvas se intersecan en \\(x=\\pi/4\\). Se calcula el área en dos partes, de \\(0\\) a \\(\\pi/4\\) y de \\(\\pi/4\\) a \\(\\pi/2\\), sumando ambas se obtiene \\(2(\\sqrt{2}-1)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Encontrar el punto de intersección: \\(x=\\pi/4\\).",
+        "Plantear dos integrales: una de \\(0\\) a \\(\\pi/4\\) y otra de \\(\\pi/4\\) a \\(\\pi/2\\).",
+        "Evaluar ambas integrales y sumar los resultados."
+      ]
+    },
+    {
+      "question": "Calcula el volumen del sólido obtenido al rotar la región bajo la curva \\(y = e^{-x}\\) en \\(x \\in [0, \\infty)\\) alrededor del eje x utilizando el método de discos.",
+      "formula": "\\(y = e^{-x}\\)",
+      "options": [
+        "\\(\\frac{\\pi}{2}\\)",
+        "\\(\\pi\\)",
+        "\\(\\frac{\\pi}{4}\\)",
+        "\\(0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El volumen se obtiene como \\(V=\\pi\\int_{0}^{\\infty} (e^{-x})^2dx=\\pi\\int_{0}^{\\infty} e^{-2x}dx\\). Al evaluar la integral se obtiene \\(\\pi/2\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Plantear la integral de volumen usando discos: \\(V=\\pi\\int_{0}^{\\infty} (e^{-x})^2dx\\).",
+        "Simplificar a \\(\\pi\\int_{0}^{\\infty} e^{-2x}dx\\).",
+        "Evaluar la integral y multiplicar por \\(\\pi\\) para obtener \\(\\pi/2\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la integral \\(\\int_{0}^{\\infty} e^{-x} dx\\).",
+      "formula": "\\(\\int_{0}^{\\infty} e^{-x}dx\\)",
+      "options": ["\\(1\\)", "\\(0\\)", "\\(\\infty\\)", "\\(e^{-1}\\)"],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada de \\(e^{-x}\\) es \\(-e^{-x}\\). Al evaluar el límite de 0 a \\(\\infty\\) se obtiene \\(1\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Determinar la antiderivada de \\(e^{-x}\\): \\(-e^{-x}\\).",
+        "Evaluar en los límites y obtener \\(1\\)."
+      ]
+    },
+    {
+      "question": "Calcula el área limitada por la parábola \\(y = x^2\\) y la recta \\(y = 4\\).",
+      "formula": "\\(y = x^2, \\; y = 4\\)",
+      "options": [
+        "\\(\\frac{32}{3}\\)",
+        "\\(16\\)",
+        "\\(\\frac{28}{3}\\)",
+        "\\(\\frac{30}{3}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Las curvas se intersecan cuando \\(x^2=4\\), es decir, \\(x=-2\\) y \\(x=2\\). El área se calcula mediante \\(\\int_{-2}^{2}[4-x^2]dx\\) y al evaluarla se obtiene \\(\\frac{32}{3}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Determinar los puntos de intersección: \\(x=-2\\) y \\(x=2\\).",
+        "Plantear la integral \\(\\int_{-2}^{2}[4-x^2]dx\\).",
+        "Evaluar la integral para obtener el área \\(\\frac{32}{3}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el volumen generado al rotar la región limitada por \\(y = \\sqrt{x}\\) y \\(y = 0\\) en \\(x \\in [0, 4]\\) alrededor del eje y.",
+      "formula": "\\(y = \\sqrt{x}\\)",
+      "options": [
+        "\\(\\frac{128\\pi}{5}\\)",
+        "\\(\\frac{64\\pi}{5}\\)",
+        "\\(\\frac{128\\pi}{3}\\)",
+        "\\(\\frac{256\\pi}{5}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando el método de cilindros, el volumen se expresa como \\(V=2\\pi\\int_{0}^{4} x\\sqrt{x}dx\\). Al evaluar la integral se obtiene \\(\\frac{128\\pi}{5}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar el método de cilindros con radio \\(x\\) y altura \\(\\sqrt{x}\\).",
+        "Plantear la integral \\(2\\pi\\int_{0}^{4} x^{3/2}dx\\).",
+        "Evaluar la integral para obtener el volumen \\(\\frac{128\\pi}{5}\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la integral impropia \\(\\int_{0}^{1} \\frac{1}{\\sqrt{x}} dx\\).",
+      "formula": "\\(\\int_{0}^{1} \\frac{1}{\\sqrt{x}}dx\\)",
+      "options": ["1", "2", "0.5", "\\(\\infty\\)"],
+      "correctAnswer": 1,
+      "explanation": "La integral \\(\\int_{0}^{1} x^{-1/2}dx\\) converge y su valor es \\(2\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Expresar la integral como \\(\\int_{0}^{1} x^{-1/2}dx\\).",
+        "Aplicar la regla de potencias para integrar, obteniendo \\(2x^{1/2}\\).",
+        "Evaluar en \\(0\\) y \\(1\\) para obtener \\(2\\)."
+      ]
+    },
+    {
+      "question": "Calcula el área entre las curvas \\(y = \\ln(x)\\) y \\(y = 0\\) en el intervalo \\(x \\in [1, e]\\).",
+      "formula": "\\(y = \\ln(x)\\)",
+      "options": ["1", "\\(e-1\\)", "0", "\\(\\ln(e)\\)"],
+      "correctAnswer": 0,
+      "explanation": "El área se calcula mediante \\(\\int_{1}^{e}\\ln(x)dx\\), que al evaluarse da \\(1\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Determinar la antiderivada de \\(\\ln(x)\\): \\(x\\ln(x)-x\\).",
+        "Evaluar en los límites \\(1\\) y \\(e\\) para obtener \\(1\\)."
+      ]
+    },
+    {
+      "question": "Calcula el volumen del sólido de revolución al rotar la región bajo \\(y = \\sqrt{1-x^2}\\) en \\(x \\in [-1, 1]\\) alrededor del eje x.",
+      "formula": "\\(y = \\sqrt{1-x^2}\\)",
+      "options": [
+        "\\(\\frac{4\\pi}{3}\\)",
+        "\\(\\pi\\)",
+        "\\(\\frac{2\\pi}{3}\\)",
+        "0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La curva representa la semicircunferencia de radio 1. El volumen se calcula con \\(\\pi\\int_{-1}^{1}(1-x^2)dx\\) y da \\(\\frac{4\\pi}{3}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar que \\(y=\\sqrt{1-x^2}\\) describe una semicircunferencia.",
+        "Plantear la integral de volumen \\(\\pi\\int_{-1}^{1}(1-x^2)dx\\).",
+        "Evaluar la integral para obtener \\(\\frac{4\\pi}{3}\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la integral \\(\\int_{2}^{\\infty} \\frac{1}{x^3} dx\\).",
+      "formula": "\\(\\int_{2}^{\\infty} \\frac{1}{x^3}dx\\)",
+      "options": [
+        "\\(\\frac{1}{8}\\)",
+        "\\(\\frac{1}{4}\\)",
+        "\\(\\frac{1}{2}\\)",
+        "0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La integral de \\(x^{-3}\\) es \\(-\\frac{1}{2x^2}\\). Al evaluar de \\(2\\) a \\(\\infty\\) se obtiene \\(\\frac{1}{8}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Determinar la antiderivada de \\(x^{-3}\\): \\(-\\frac{1}{2x^2}\\).",
+        "Evaluar en los límites y obtener \\(\\frac{1}{8}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el área entre las curvas \\(y = e^x\\) y \\(y = e^{-x}\\) en \\(x \\in [0, 1]\\).",
+      "formula": "\\(y = e^x, \\; y = e^{-x}\\)",
+      "options": ["\\(e+e^{-1}-2\\)", "\\(e-e^{-1}\\)", "\\(e+e^{-1}\\)", "2"],
+      "correctAnswer": 0,
+      "explanation": "El área se obtiene integrando \\(e^x-e^{-x}\\) de \\(0\\) a \\(1\\), lo que resulta en \\(e+e^{-1}-2\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Plantear la integral \\(\\int_{0}^{1}(e^x-e^{-x})dx\\).",
+        "Calcular las antiderivadas de \\(e^x\\) y \\(e^{-x}\\).",
+        "Evaluar en los límites para obtener \\(e+e^{-1}-2\\)."
+      ]
+    },
+    {
+      "question": "Calcula el volumen del sólido obtenido al rotar la región limitada por \\(y = x\\) y \\(y = x^2\\) alrededor del eje x.",
+      "formula": "\\(y = x, \\; y = x^2\\)",
+      "options": [
+        "\\(\\frac{2\\pi}{15}\\)",
+        "\\(\\frac{2\\pi}{5}\\)",
+        "\\(\\frac{\\pi}{15}\\)",
+        "\\(\\frac{\\pi}{3}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Las curvas se intersecan en \\(x=0\\) y \\(x=1\\). Usando el método de arandelas se obtiene \\(V=\\pi\\int_{0}^{1}(x^2-x^4)dx=\\frac{2\\pi}{15}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Determinar el intervalo de integración \\([0,1]\\).",
+        "Identificar la función exterior \\(y=x\\) y la interior \\(y=x^2\\).",
+        "Plantear y evaluar la integral \\(\\pi\\int_{0}^{1}(x^2-x^4)dx\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la integral \\(\\int_{1}^{\\infty} \\frac{\\ln(x)}{x^2} dx\\).",
+      "formula": "\\(\\int_{1}^{\\infty} \\frac{\\ln(x)}{x^2}dx\\)",
+      "options": ["1", "0", "\\(\\infty\\)", "\\(\\frac{1}{2}\\)"],
+      "correctAnswer": 0,
+      "explanation": "Mediante integración por partes se demuestra que \\(\\int_{1}^{\\infty} \\frac{\\ln(x)}{x^2}dx = 1\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar integración por partes: \\(u=\\ln(x)\\), \\(dv=1/x^2 dx\\).",
+        "Obtener la antiderivada y evaluar los límites.",
+        "Concluir que el resultado es 1."
+      ]
+    },
+    {
+      "question": "Calcula el área de la región limitada por \\(y = \\cos(x)\\) y \\(y = \\sin(x)\\) entre \\(x = 0\\) y \\(x = \\frac{\\pi}{2}\\).",
+      "formula": "\\(y = \\cos(x), \\; y = \\sin(x)\\)",
+      "options": ["\\(2(\\sqrt{2}-1)\\)", "\\(\\sqrt{2}-1\\)", "1", "2"],
+      "correctAnswer": 0,
+      "explanation": "La región se divide en dos partes en \\(x=\\pi/4\\). La suma de las áreas de ambas partes resulta en \\(2(\\sqrt{2}-1)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Determinar el punto de intersección \\(x=\\pi/4\\).",
+        "Plantear las integrales en \\([0,\\pi/4]\\) y \\([\\pi/4,\\pi/2]\\).",
+        "Calcular y sumar las áreas para obtener \\(2(\\sqrt{2}-1)\\)."
+      ]
+    },
+    {
+      "question": "Calcula el volumen de revolución al girar la región bajo \\(y = \\ln(x)\\) en \\(x \\in [1, e]\\) alrededor del eje x.",
+      "formula": "\\(y = \\ln(x)\\)",
+      "options": ["\\(\\pi(e-2)\\)", "\\(\\pi(e-1)\\)", "\\(\\pi(e-3)\\)", "0"],
+      "correctAnswer": 0,
+      "explanation": "El volumen se obtiene mediante \\(V=\\pi\\int_{1}^{e}(\\ln(x))^2dx\\). Tras evaluar la integral se llega a \\(\\pi(e-2)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Plantear la integral de volumen \\(V=\\pi\\int_{1}^{e}(\\ln(x))^2dx\\).",
+        "Calcular la antiderivada de \\((\\ln(x))^2\\).",
+        "Evaluar en los límites para obtener \\(\\pi(e-2)\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la integral impropia \\(\\int_{0}^{\\infty} \\frac{1}{1+x^2} dx\\).",
+      "formula": "\\(\\int_{0}^{\\infty} \\frac{1}{1+x^2}dx\\)",
+      "options": ["\\(\\frac{\\pi}{2}\\)", "1", "\\(\\pi\\)", "0"],
+      "correctAnswer": 0,
+      "explanation": "La integral se evalúa como \\(\\arctan(x)\\) de \\(0\\) a \\(\\infty\\), resultando en \\(\\frac{\\pi}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar la antiderivada \\(\\arctan(x)\\).",
+        "Evaluar en los límites \\(0\\) y \\(\\infty\\) para obtener \\(\\frac{\\pi}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el área entre la curva \\(y = \\frac{1}{x}\\) y el eje x en \\(x \\in [1, 4]\\).",
+      "formula": "\\(y = \\frac{1}{x}\\)",
+      "options": ["\\(\\ln(4)\\)", "4", "\\(\\frac{3}{4}\\)", "\\(\\ln(2)\\)"],
+      "correctAnswer": 0,
+      "explanation": "El área se calcula con \\(\\int_{1}^{4}\\frac{1}{x}dx = \\ln(4)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Plantear la integral \\(\\int_{1}^{4}\\frac{1}{x}dx\\).",
+        "Calcular la antiderivada \\(\\ln|x|\\).",
+        "Evaluar en \\(1\\) y \\(4\\) para obtener \\(\\ln(4)\\)."
+      ]
+    },
+    {
+      "question": "Calcula el volumen del sólido obtenido al rotar la región limitada por \\(y = \\sqrt{x}\\) y \\(y = x\\) alrededor de la línea \\(y = -1\\).",
+      "formula": "\\(y = \\sqrt{x}, \\; y = x\\)",
+      "options": [
+        "\\(\\frac{\\pi}{2}\\)",
+        "\\(\\pi\\)",
+        "\\(\\frac{\\pi}{4}\\)",
+        "0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Utilizando el método de arandelas con radios medidos desde la línea \\(y=-1\\), se obtiene que el volumen es \\(\\pi\\int_{0}^{1}[(\\sqrt{x}+1)^2-(x+1)^2]dx = \\frac{\\pi}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Determinar el intervalo de intersección \\([0,1]\\).",
+        "Calcular los radios externos e internos respecto a \\(y=-1\\).",
+        "Plantear y evaluar la integral de volumen para obtener \\(\\frac{\\pi}{2}\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la integral \\(\\int_{0}^{1} \\ln(1+x) dx\\).",
+      "formula": "\\(\\int_{0}^{1} \\ln(1+x)dx\\)",
+      "options": ["\\(2\\ln(2)-1\\)", "\\(\\ln(2)\\)", "1", "0"],
+      "correctAnswer": 0,
+      "explanation": "Se utiliza la integración por partes para obtener la antiderivada de \\(\\ln(1+x)\\) y evaluando se obtiene \\(2\\ln(2)-1\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar integración por partes con \\(u=\\ln(1+x)\\) y \\(dv=dx\\).",
+        "Obtener la antiderivada y evaluarla entre \\(0\\) y \\(1\\)."
+      ]
+    },
+    {
+      "question": "Calcula el área entre las curvas \\(y = x^3\\) y \\(y = x\\) en \\(x \\in [0, 1]\\).",
+      "formula": "\\(y = x^3, \\; y = x\\)",
+      "options": [
+        "\\(\\frac{1}{4}\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(\\frac{1}{3}\\)",
+        "0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El área se obtiene integrando \\(x-x^3\\) en el intervalo \\([0,1]\\): \\(\\int_{0}^{1}(x-x^3)dx = \\frac{1}{4}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Determinar cuál función es mayor en \\([0,1]\\).",
+        "Plantear la integral \\(\\int_{0}^{1}(x-x^3)dx\\).",
+        "Evaluar la integral para obtener \\(\\frac{1}{4}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el volumen del sólido de revolución al rotar la región bajo \\(y = \\sqrt{1+x}\\) en \\(x \\in [0, 3]\\) alrededor del eje x.",
+      "formula": "\\(y = \\sqrt{1+x}\\)",
+      "options": [
+        "\\(\\frac{15\\pi}{2}\\)",
+        "\\(\\frac{15\\pi}{3}\\)",
+        "\\(\\frac{9\\pi}{2}\\)",
+        "\\(\\frac{15\\pi}{4}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Al rotar la región, se usa el método de discos: \\(V=\\pi\\int_{0}^{3}(1+x)dx\\). Evaluando la integral se obtiene \\(\\frac{15\\pi}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Expresar \\((\\sqrt{1+x})^2\\) como \\(1+x\\).",
+        "Plantear la integral \\(\\pi\\int_{0}^{3}(1+x)dx\\).",
+        "Evaluar para obtener \\(\\frac{15\\pi}{2}\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la integral impropia \\(\\int_{3}^{\\infty} \\frac{2}{x^2} dx\\).",
+      "formula": "\\(\\int_{3}^{\\infty} \\frac{2}{x^2}dx\\)",
+      "options": ["\\(\\frac{2}{3}\\)", "\\(\\frac{1}{3}\\)", "0", "1"],
+      "correctAnswer": 0,
+      "explanation": "Se factoriza la constante y se integra \\(\\int_{3}^{\\infty}\\frac{1}{x^2}dx\\), cuyo resultado es \\(\\frac{1}{3}\\). Multiplicado por 2 da \\(\\frac{2}{3}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Extraer la constante 2 y calcular \\(\\int_{3}^{\\infty} x^{-2}dx\\).",
+        "Evaluar la antiderivada \\(-1/x\\) en los límites y multiplicar por 2."
+      ]
+    },
+    {
+      "question": "Calcula el área entre la curva \\(y = \\sqrt{4-x^2}\\) y el eje x.",
+      "formula": "\\(y = \\sqrt{4-x^2}\\)",
+      "options": [
+        "\\(2\\pi\\)",
+        "\\(\\pi\\)",
+        "\\(4\\pi\\)",
+        "\\(\\frac{\\pi}{2}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La curva representa la semicircunferencia de radio 2. El área limitada por ella y el eje x es el área de la semicircunferencia, que es \\(2\\pi\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Reconocer que \\(y=\\sqrt{4-x^2}\\) describe una semicircunferencia de radio 2.",
+        "Calcular el área total de un círculo de radio 2 y dividirlo entre 2 para obtener \\(2\\pi\\)."
+      ]
+    },
+    {
+      "question": "Calcula el volumen del sólido obtenido al rotar la región entre \\(y = \\sin(x)\\) y \\(y = \\cos(x)\\) en \\(x \\in [0, \\frac{\\pi}{4}]\\) alrededor del eje x.",
+      "formula": "\\(y = \\sin(x), \\; y = \\cos(x)\\)",
+      "options": [
+        "\\(\\frac{\\pi}{2}\\)",
+        "\\(\\pi\\)",
+        "\\(\\frac{\\pi}{4}\\)",
+        "0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Utilizando el método de arandelas, se forma una integral con la diferencia de cuadrados de las funciones. Al evaluar \\(\\pi\\int_{0}^{\\pi/4}[\\cos^2(x)-\\sin^2(x)]dx\\) se obtiene \\(\\frac{\\pi}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Plantear la integral de volumen usando arandelas.",
+        "Simplificar la diferencia a \\(\\cos(2x)\\).",
+        "Evaluar la integral y multiplicar por \\(\\pi\\) para obtener \\(\\frac{\\pi}{2}\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la integral \\(\\int_{1}^{e} \\frac{1}{x \\ln(x)} dx\\).",
+      "formula": "\\(\\int_{1}^{e} \\frac{1}{x \\ln(x)}dx\\)",
+      "options": [
+        "Diverge",
+        "Converge a 1",
+        "Converge a 0",
+        "Converge a \\(\\ln(e)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mediante el cambio de variable \\(u=\\ln(x)\\), la integral se transforma en \\(\\int_{0}^{1}\\frac{1}{u}du\\), la cual diverge.",
+      "difficulty": "hard",
+      "procedure": [
+        "Realizar el cambio de variable \\(u=\\ln(x)\\), de modo que \\(du=\\frac{1}{x}dx\\).",
+        "Observar que la integral se convierte en \\(\\int_{0}^{1}\\frac{1}{u}du\\), que es divergente."
+      ]
+    },
+    {
+      "question": "Calcula el área entre \\(y = x^2\\) y \\(y = \\sqrt{x}\\) en \\(x \\in [0,1]\\).",
+      "formula": "\\(y = x^2, \\; y = \\sqrt{x}\\)",
+      "options": [
+        "\\(\\frac{1}{3}\\)",
+        "\\(\\frac{1}{4}\\)",
+        "\\(\\frac{1}{2}\\)",
+        "0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Las curvas se intersecan en \\(x=0\\) y \\(x=1\\). El área se calcula como \\(\\int_{0}^{1}(\\sqrt{x}-x^2)dx = \\frac{1}{3}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Determinar el intervalo de intersección \\([0,1]\\).",
+        "Plantear la integral \\(\\int_{0}^{1}(\\sqrt{x}-x^2)dx\\).",
+        "Evaluar la integral para obtener \\(\\frac{1}{3}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el volumen del sólido obtenido al rotar la región limitada por \\(y = \\sqrt{1-x^2}\\) y el eje x en \\(x \\in [0, 1]\\) alrededor del eje y.",
+      "formula": "\\(y = \\sqrt{1-x^2}\\)",
+      "options": [
+        "\\(\\frac{2\\pi}{3}\\)",
+        "\\(\\pi\\)",
+        "\\(\\frac{\\pi}{3}\\)",
+        "\\(\\frac{2\\pi}{5}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando el método de cilindros (capas) para la rotación alrededor del eje y, se tiene \\(V=2\\pi\\int_{0}^{1}x\\sqrt{1-x^2}dx\\), cuyo resultado es \\(\\frac{2\\pi}{3}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Utilizar el método de capas para configurar la integral de volumen.",
+        "Realizar el cambio de variable \\(u=1-x^2\\) para simplificar la integral.",
+        "Evaluar la integral para obtener \\(\\frac{2\\pi}{3}\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la integral \\(\\int_{0}^{1} \\frac{1}{1+x} dx\\).",
+      "formula": "\\(\\int_{0}^{1} \\frac{1}{1+x}dx\\)",
+      "options": ["\\(\\ln(2)\\)", "1", "0", "\\(\\frac{1}{2}\\)"],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada de \\(\\frac{1}{1+x}\\) es \\(\\ln|1+x|\\). Evaluando en \\(0\\) y \\(1\\) se obtiene \\(\\ln(2)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Encontrar la antiderivada \\(\\ln|1+x|\\).",
+        "Evaluar en los límites \\(0\\) y \\(1\\) para obtener \\(\\ln(2)\\)."
+      ]
+    },
+    {
+      "question": "Calcula el área entre las curvas \\(y = x + 2\\) y \\(y = x^2\\) en el intervalo de intersección.",
+      "formula": "\\(y = x+2, \\; y = x^2\\)",
+      "options": [
+        "\\(\\frac{9}{2}\\)",
+        "\\(4\\)",
+        "\\(\\frac{7}{2}\\)",
+        "\\(5\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Primero se encuentran los puntos de intersección resolviendo \\(x+2=x^2\\) lo que da \\(x=-1 y x=2\\). Luego se integra la diferencia \\((x+2)-x^2\\) en \\([-1,2]\\) para obtener \\(\\frac{9}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Resolver \\(x^2-x-2=0\\) y hallar \\(x=-1,\\,2\\).",
+        "Plantear la integral \\(\\int_{-1}^{2}[(x+2)-x^2]dx\\).",
+        "Evaluar la integral y obtener \\(\\frac{9}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el volumen de revolución obtenido al rotar la región limitada por \\(y = \\sqrt{x+1}\\) y \\(y = x\\) alrededor del eje x.",
+      "formula": "\\(y = \\sqrt{x+1}, \\; y = x\\)",
+      "options": [
+        "\\(\\frac{\\pi}{3}\\)",
+        "\\(\\frac{\\pi}{2}\\)",
+        "\\(\\frac{\\pi}{4}\\)",
+        "\\(\\pi\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Se determinan los puntos de intersección y se usa el método de discos para la región de integración, dando como resultado \\(\\frac{\\pi}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Encontrar la intersección resolviendo \\(\\sqrt{x+1}=x\\).",
+        "Determinar la integral de discos: \\(V=\\pi\\int[ (\\sqrt{x+1})^2 - x^2]dx\\).",
+        "Evaluar la integral para obtener \\(\\frac{\\pi}{2}\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la integral impropia \\(\\int_{0}^{\\infty} \\frac{\\sin(x)}{x} dx\\).",
+      "formula": "\\(\\int_{0}^{\\infty} \\frac{\\sin(x)}{x}dx\\)",
+      "options": ["\\(\\frac{\\pi}{2}\\)", "\\(\\pi\\)", "\\(1\\)", "\\(0\\)"],
+      "correctAnswer": 0,
+      "explanation": "La integral de sinc converge y su valor es conocido como \\(\\frac{\\pi}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Reconocer la función sinc.",
+        "Aplicar el resultado conocido de la integral \\(\\int_{0}^{\\infty} \\frac{\\sin(x)}{x}dx = \\frac{\\pi}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el área de la región limitada por \\(y = \\tan(x)\\) y \\(y = \\cot(x)\\) en \\(x \\in \\left(0, \\frac{\\pi}{2}\\right)\\).",
+      "formula": "\\(y = \\tan(x), \\; y = \\cot(x)\\)",
+      "options": [
+        "\\(\\ln(\\sqrt{2})\\)",
+        "\\(\\ln(2)\\)",
+        "\\(\\sqrt{2}-1\\)",
+        "\\(1\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Se determinan los puntos de intersección y se integra la diferencia de funciones. El resultado de la integral es \\(\\ln(2)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Encontrar el punto de intersección donde \\(\\tan(x)=\\cot(x)\\).",
+        "Plantear la integral de la diferencia en el intervalo determinado.",
+        "Evaluar la integral y simplificar a \\(\\ln(2)\\)."
+      ]
+    },
+    {
+      "question": "Calcula el volumen del sólido de revolución al rotar la región limitada por \\(y = \\ln(x)\\) y \\(y = 0\\) en \\(x \\in [1,e]\\) alrededor del eje y.",
+      "formula": "\\(y = \\ln(x)\\)",
+      "options": [
+        "\\(\\pi(e-2)\\)",
+        "\\(\\pi(e-1)\\)",
+        "\\(\\pi(e-3)\\)",
+        "\\(\\pi\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se utiliza el método de cilindros para rotar la región alrededor del eje y, resultando en \\(V=\\pi\\int_{1}^{e}(\\ln(x))^2dx = \\pi(e-2)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Expresar la integral de volumen usando el método de cilindros.",
+        "Evaluar la integral \\(\\int_{1}^{e}(\\ln(x))^2dx\\).",
+        "Obtener el resultado \\(\\pi(e-2)\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la integral \\(\\int_{1}^{\\infty} \\frac{\\sqrt{x}}{x^2} dx\\).",
+      "formula": "\\(\\int_{1}^{\\infty} \\frac{\\sqrt{x}}{x^2}dx\\)",
+      "options": [
+        "\\(1\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(\\frac{1}{3}\\)",
+        "\\(\\frac{1}{\\sqrt{2}}\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Simplificando la integral se tiene \\(\\int_{1}^{\\infty} x^{-3/2}dx\\), cuya evaluación da \\(\\frac{1}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Reescribir \\(\\frac{\\sqrt{x}}{x^2}\\) como \\(x^{-3/2}\\).",
+        "Determinar la antiderivada de \\(x^{-3/2}\\).",
+        "Evaluar en \\([1,\\infty)\\) y obtener \\(\\frac{1}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el área entre las curvas \\(y = \\cosh(x)\\) y \\(y = 1\\) en \\(x \\in [-1,1]\\).",
+      "formula": "\\(y = \\cosh(x), \\; y = 1\\)",
+      "options": [
+        "\\(2\\sinh(1)\\)",
+        "\\(\\cosh(1)-1\\)",
+        "\\(2\\cosh(1)\\)",
+        "\\(2(\\cosh(1)-1)\\)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "El área se obtiene integrando \\(\\cosh(x)-1\\) de \\(-1\\) a \\(1\\), lo que da \\(2(\\cosh(1)-1)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Plantear la integral \\(\\int_{-1}^{1}[\\cosh(x)-1]dx\\).",
+        "Utilizar la simetría de la función para multiplicar por 2 la integral de 0 a 1.",
+        "Evaluar la integral y simplificar el resultado."
+      ]
+    },
+    {
+      "question": "Calcula el volumen del sólido obtenido al rotar la región limitada por \\(y = x^2 + 1\\) y \\(y = 4\\) alrededor del eje y.",
+      "formula": "\\(y = x^2+1, \\; y = 4\\)",
+      "options": [
+        "\\(\\frac{8\\pi}{3}\\)",
+        "\\(\\pi\\)",
+        "\\(2\\pi\\)",
+        "\\(\\frac{4\\pi}{3}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se determinan los límites en x a partir de \\(x^2+1=4\\) (\\(x=\\pm\\sqrt{3}\\)) y se utiliza el método de arandelas para obtener \\(V=\\frac{8\\pi}{3}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Resolver \\(x^2+1=4\\) y hallar \\(x=\\pm\\sqrt{3}\\).",
+        "Plantear la integral de arandelas para la rotación alrededor del eje y.",
+        "Evaluar la integral para obtener \\(\\frac{8\\pi}{3}\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la integral \\(\\int_{0}^{1} \\frac{\\ln(1+x)}{x} dx\\).",
+      "formula": "\\(\\int_{0}^{1} \\frac{\\ln(1+x)}{x}dx\\)",
+      "options": [
+        "\\(\\frac{\\pi^2}{12}\\)",
+        "\\(\\frac{\\pi^2}{6}\\)",
+        "\\(1\\)",
+        "\\(\\ln(2)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Esta integral se evalúa utilizando series de Taylor y se obtiene el resultado \\(\\frac{\\pi^2}{12}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Expandir \\(\\ln(1+x)\\) en serie de Taylor.",
+        "Intercambiar suma e integral y reconocer la serie resultante.",
+        "Identificar el resultado conocido \\(\\frac{\\pi^2}{12}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el área entre las curvas \\(y = e^{-x}\\) y \\(y = e^{-2x}\\) en \\(x \\in [0, \\infty)\\).",
+      "formula": "\\(y = e^{-x}, \\; y = e^{-2x}\\)",
+      "options": [
+        "\\(\\frac{1}{2}\\)",
+        "\\(\\frac{1}{3}\\)",
+        "\\(1\\)",
+        "\\(\\frac{1}{4}\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El área se obtiene integrando \\(e^{-x}-e^{-2x}\\) de 0 a \\(\\infty\\), cuyo valor es \\(\\frac{1}{3}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Plantear la integral \\(\\int_{0}^{\\infty}(e^{-x}-e^{-2x})dx\\).",
+        "Calcular las antiderivadas correspondientes.",
+        "Evaluar los límites y simplificar para obtener \\(\\frac{1}{3}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el volumen del sólido de revolución al rotar la región bajo \\(y = \\sqrt{4-x^2}\\) en \\(x \\in [0,2]\\) alrededor del eje y.",
+      "formula": "\\(y = \\sqrt{4-x^2}\\)",
+      "options": [
+        "\\(\\frac{8\\pi}{3}\\)",
+        "\\(\\frac{4\\pi}{3}\\)",
+        "\\(2\\pi\\)",
+        "\\(\\pi\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mediante el método de cilindros (capas) se configura la integral en función de x para la rotación alrededor del eje y, resultando en \\(\\frac{4\\pi}{3}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Plantear la integral de volumen usando el método de capas.",
+        "Realizar el cambio de variable adecuado para integrar.",
+        "Evaluar la integral y obtener \\(\\frac{4\\pi}{3}\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la integral impropia \\(\\int_{2}^{\\infty} \\frac{1}{x\\sqrt{x}} dx\\).",
+      "formula": "\\(\\int_{2}^{\\infty} \\frac{1}{x\\sqrt{x}}dx\\)",
+      "options": [
+        "\\(\\frac{2}{\\sqrt{2}}\\)",
+        "\\(\\frac{2}{3\\sqrt{2}}\\)",
+        "\\(\\frac{1}{3\\sqrt{2}}\\)",
+        "\\(\\frac{1}{\\sqrt{2}}\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Simplificando la función se tiene \\(x^{-3/2}\\) y la integral evaluada en \\([2,\\infty)\\) da \\(\\frac{2}{3\\sqrt{2}}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Reescribir \\(\\frac{1}{x\\sqrt{x}}\\) como \\(x^{-3/2}\\).",
+        "Determinar la antiderivada de \\(x^{-3/2}\\).",
+        "Evaluar en los límites y simplificar para obtener \\(\\frac{2}{3\\sqrt{2}}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el área de la región limitada por \\(y = x^3\\) y \\(y = 8x\\) en el intervalo determinado por sus intersecciones.",
+      "formula": "\\(y = x^3, \\; y = 8x\\)",
+      "options": ["\\(12\\)", "\\(16\\)", "\\(8\\)", "\\(10\\)"],
+      "correctAnswer": 0,
+      "explanation": "Se hallan las intersecciones resolviendo \\(x^3=8x\\) lo que da \\(x=0\\) y \\(x=\\pm 2\\). Integrando la diferencia de funciones en el intervalo apropiado se obtiene \\(12\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Resolver \\(x^3-8x=0\\) y obtener \\(x=0,\\,\\pm 2\\).",
+        "Determinar el intervalo de integración (por ejemplo, [0,2]).",
+        "Integrar la diferencia \\(8x-x^3\\) y evaluar la integral."
+      ]
+    },
+    {
+      "question": "Calcula el volumen del sólido obtenido al rotar la región limitada por \\(y = \\sqrt{x}\\) y \\(y = \\frac{x}{2}\\) alrededor del eje x.",
+      "formula": "\\(y = \\sqrt{x}, \\; y = \\frac{x}{2}\\)",
+      "options": [
+        "\\(\\frac{\\pi}{5}\\)",
+        "\\(\\frac{\\pi}{3}\\)",
+        "\\(\\frac{\\pi}{4}\\)",
+        "\\(\\frac{\\pi}{6}\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Se determinan los puntos de intersección y se aplica el método de discos para la rotación alrededor del eje x, resultando en \\(\\frac{\\pi}{4}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Encontrar el punto de intersección de \\(\\sqrt{x}=\\frac{x}{2}\\).",
+        "Plantear la integral de discos con la diferencia de los cuadrados de ambas funciones.",
+        "Evaluar la integral para obtener \\(\\frac{\\pi}{4}\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la integral \\(\\int_{0}^{\\infty} e^{-ax} dx\\) para \\(a>0\\).",
+      "formula": "\\(\\int_{0}^{\\infty} e^{-ax}dx\\)",
+      "options": [
+        "\\(\\frac{1}{a}\\)",
+        "\\(a\\)",
+        "\\(\\frac{1}{a^2}\\)",
+        "\\(0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La integral de \\(e^{-ax}\\) en \\([0,\\infty)\\) converge a \\(\\frac{1}{a}\\) para \\(a>0\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular la antiderivada de \\(e^{-ax}\\).",
+        "Evaluar en \\(0\\) y \\(\\infty\\) para obtener \\(\\frac{1}{a}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el área entre las curvas \\(y = \\sin(2x)\\) y \\(y = \\cos(2x)\\) en el intervalo donde se intersectan en \\(x \\in \\left[0,\\frac{\\pi}{2}\\right]\\).",
+      "formula": "\\(y = \\sin(2x), \\; y = \\cos(2x)\\)",
+      "options": [
+        "\\(\\frac{1}{2}\\)",
+        "\\(\\frac{\\sqrt{2}}{2}\\)",
+        "\\(\\frac{\\sqrt{2}}{4}\\)",
+        "\\(\\frac{1}{\\sqrt{2}}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se halla el punto de intersección y se integra la diferencia de las funciones, obteniéndose un área de \\(\\frac{1}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Determinar el punto de intersección de \\(\\sin(2x)=\\cos(2x)\\).",
+        "Plantear la integral de la diferencia de funciones en el intervalo correspondiente.",
+        "Evaluar la integral y simplificar para obtener \\(\\frac{1}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el volumen del sólido de revolución al rotar la región limitada por \\(y = \\sqrt{4+x}\\) y \\(y = 0\\) en \\(x \\in [0,5]\\) alrededor del eje x.",
+      "formula": "\\(y = \\sqrt{4+x}\\)",
+      "options": [
+        "\\(\\frac{7\\pi}{2}\\)",
+        "\\(\\frac{5\\pi}{2}\\)",
+        "\\(\\frac{9\\pi}{2}\\)",
+        "\\(\\pi\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se usa el método de discos para la rotación alrededor del eje x. La integral \\(\\pi\\int_{0}^{5}(4+x)dx\\) se evalúa y se obtiene \\(\\frac{7\\pi}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Elevar al cuadrado \\(\\sqrt{4+x}\\) para obtener \\(4+x\\).",
+        "Plantear la integral \\(\\pi\\int_{0}^{5}(4+x)dx\\).",
+        "Evaluar la integral para obtener \\(\\frac{7\\pi}{2}\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la integral impropia \\(\\int_{0}^{\\infty} \\frac{x}{(1+x^2)^2} dx\\).",
+      "formula": "\\(\\int_{0}^{\\infty} \\frac{x}{(1+x^2)^2}dx\\)",
+      "options": [
+        "\\(\\frac{1}{2}\\)",
+        "\\(\\frac{1}{4}\\)",
+        "\\(\\frac{1}{3}\\)",
+        "\\(\\frac{1}{\\pi}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mediante un cambio de variable se demuestra que la integral converge a \\(\\frac{1}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Realizar el cambio de variable \\(u=1+x^2\\) con \\(du=2x dx\\).",
+        "Reescribir la integral y evaluarla en los nuevos límites.",
+        "Simplificar para obtener \\(\\frac{1}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el área entre las curvas \\(y = \\ln(x)\\) y \\(y = \\sqrt{x}\\) en el intervalo determinado por su intersección.",
+      "formula": "\\(y = \\ln(x), \\; y = \\sqrt{x}\\)",
+      "options": [
+        "\\(\\frac{1}{2}\\)",
+        "\\(1\\)",
+        "\\(\\ln(2)\\)",
+        "\\(\\frac{3}{2}\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Se encuentra el punto de intersección y se integra la diferencia \\(\\sqrt{x}-\\ln(x)\\) en el intervalo determinado, resultando en un área de 1.",
+      "difficulty": "hard",
+      "procedure": [
+        "Resolver \\(\\sqrt{x}=\\ln(x)\\) para determinar el intervalo de integración.",
+        "Plantear la integral \\(\\int (\\sqrt{x}-\\ln(x))dx\\) en dicho intervalo.",
+        "Evaluar la integral y obtener el área."
+      ]
+    },
+    {
+      "question": "Calcula el volumen del sólido obtenido al rotar la región limitada por \\(y = e^{-x}\\) y \\(y = 0\\) en \\(x \\in [0, \\infty)\\) alrededor del eje y.",
+      "formula": "\\(y = e^{-x}\\)",
+      "options": [
+        "\\(\\frac{\\pi}{2}\\)",
+        "\\(\\pi\\)",
+        "\\(\\frac{\\pi}{4}\\)",
+        "\\(0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mediante el método de cilindros para la rotación alrededor del eje y, la integral se configura y se evalúa obteniéndose \\(\\frac{\\pi}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Plantear la integral de volumen usando el método de capas.",
+        "Configurar la integral con la función \\(e^{-x}\\) y sus límites.",
+        "Evaluar la integral y obtener \\(\\frac{\\pi}{2}\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la integral \\(\\int_{1}^{\\infty} \\frac{\\arctan(x)}{x^2} dx\\).",
+      "formula": "\\(\\int_{1}^{\\infty} \\frac{\\arctan(x)}{x^2}dx\\)",
+      "options": [
+        "\\(\\frac{\\pi}{4}\\)",
+        "\\(1\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(\\frac{\\pi}{2}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando integración por partes se demuestra que la integral converge a \\(\\frac{\\pi}{4}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Utilizar integración por partes con \\(u=\\arctan(x)\\) y \\(dv=x^{-2}dx\\).",
+        "Evaluar la antiderivada resultante en los límites.",
+        "Simplificar para obtener \\(\\frac{\\pi}{4}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el área entre las curvas \\(y = x^2+1\\) y \\(y = 2x+1\\) en el intervalo de intersección.",
+      "formula": "\\(y = x^2+1, \\; y = 2x+1\\)",
+      "options": [
+        "\\(\\frac{4}{3}\\)",
+        "\\(1\\)",
+        "\\(\\frac{5}{3}\\)",
+        "\\(\\frac{3}{2}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Resolviendo \\(x^2+1=2x+1\\) se obtiene \\(x=0\\) y \\(x=2\\). La integral \\(\\int_{0}^{2}[(2x+1)-(x^2+1)]dx\\) da \\(\\frac{4}{3}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Encontrar los puntos de intersección resolviendo \\(x^2=2x\\).",
+        "Plantear la integral \\(\\int_{0}^{2}(2x - x^2)dx\\).",
+        "Evaluar la integral y obtener \\(\\frac{4}{3}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el volumen del sólido obtenido al rotar la región limitada por \\(y = \\sqrt{3-x}\\) y \\(y = 0\\) en \\(x \\in [0,3]\\) alrededor del eje x.",
+      "formula": "\\(y = \\sqrt{3-x}\\)",
+      "options": [
+        "\\(\\pi\\)",
+        "\\(\\frac{3\\pi}{2}\\)",
+        "\\(\\frac{\\pi}{2}\\)",
+        "\\(2\\pi\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Usando el método de discos, se eleva \\(\\sqrt{3-x}\\) al cuadrado y se integra de 0 a 3, obteniéndose \\(\\frac{3\\pi}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Elevar al cuadrado \\(\\sqrt{3-x}\\) para obtener \\(3-x\\).",
+        "Plantear la integral \\(\\pi\\int_{0}^{3}(3-x)dx\\).",
+        "Evaluar la integral para obtener \\(\\frac{3\\pi}{2}\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la integral \\(\\int_{0}^{1} \\frac{1}{(1-x)^{2/3}} dx\\).",
+      "formula": "\\(\\int_{0}^{1} \\frac{1}{(1-x)^{2/3}}dx\\)",
+      "options": ["\\(3\\)", "\\(\\frac{3}{2}\\)", "\\(2\\)", "\\(1\\)"],
+      "correctAnswer": 1,
+      "explanation": "Mediante un cambio de variable y aplicando la regla de potencias se obtiene el valor \\(\\frac{3}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Realizar el cambio de variable \\(u=1-x\\).",
+        "Reescribir la integral en función de \\(u\\) y aplicar la regla de potencias.",
+        "Evaluar la integral y simplificar para obtener \\(\\frac{3}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el área de la región limitada por \\(y = \\sin(x)\\) y \\(y = \\sin(2x)\\) en \\(x \\in [0,\\pi]\\).",
+      "formula": "\\(y = \\sin(x), \\; y = \\sin(2x)\\)",
+      "options": [
+        "\\(\\frac{\\pi}{4}\\)",
+        "\\(\\frac{\\pi}{2}\\)",
+        "\\(\\frac{\\pi}{6}\\)",
+        "\\(\\frac{\\pi}{3}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se halla el área integrando la diferencia absoluta de las funciones en el intervalo dado, resultando en \\(\\frac{\\pi}{4}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Determinar los puntos de intersección entre \\(\\sin(x)\\) y \\(\\sin(2x)\\).",
+        "Plantear la integral de la diferencia absoluta de las funciones.",
+        "Evaluar la integral para obtener \\(\\frac{\\pi}{4}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el volumen del sólido obtenido al rotar la región limitada por \\(y = x\\) y \\(y = \\sqrt{x}\\) alrededor de la línea \\(x = 1\\).",
+      "formula": "\\(y = x, \\; y = \\sqrt{x}\\)",
+      "options": [
+        "\\(\\frac{\\pi}{3}\\)",
+        "\\(\\frac{\\pi}{4}\\)",
+        "\\(\\frac{\\pi}{6}\\)",
+        "\\(\\frac{\\pi}{2}\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Utilizando el método de arandelas con radios medidos desde la línea \\(x=1\\), la integral se configura y se evalúa, obteniéndose \\(\\frac{\\pi}{4}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Determinar la distancia desde la línea \\(x=1\\) a cada función.",
+        "Plantear la integral de arandelas con los radios calculados.",
+        "Evaluar la integral para obtener \\(\\frac{\\pi}{4}\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la integral \\(\\int_{0}^{\\infty} \\frac{\\cos(x)}{x^2+1} dx\\).",
+      "formula": "\\(\\int_{0}^{\\infty} \\frac{\\cos(x)}{x^2+1}dx\\)",
+      "options": [
+        "\\(\\frac{\\pi}{2e}\\)",
+        "\\(\\frac{\\pi}{2}\\)",
+        "\\(\\frac{\\pi}{4}\\)",
+        "\\(1\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Esta integral es un resultado conocido en análisis, cuyo valor es \\(\\frac{\\pi}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Reconocer el resultado clásico de la integral de \\(\\frac{\\cos(x)}{x^2+1}\\) en \\([0,\\infty)\\).",
+        "Utilizar la simetría de la función para justificar el resultado."
+      ]
+    },
+    {
+      "question": "Calcula el área entre las curvas \\(y = x\\) y \\(y = \\ln(x+1)\\) en el intervalo determinado por su intersección.",
+      "formula": "\\(y = x, \\; y = \\ln(x+1)\\)",
+      "options": [
+        "\\(\\frac{1}{2}\\)",
+        "\\(1\\)",
+        "\\(\\ln(2)\\)",
+        "\\(\\frac{3}{2}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se encuentra el punto de intersección y se integra la diferencia \\(x-\\ln(x+1)\\) en el intervalo correspondiente, resultando en un área de \\(\\frac{1}{2}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Determinar el punto de intersección de \\(x=\\ln(x+1)\\).",
+        "Plantear la integral \\(\\int (x-\\ln(x+1))dx\\) en el intervalo encontrado.",
+        "Evaluar la integral para obtener \\(\\frac{1}{2}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el volumen del sólido obtenido al rotar la región limitada por \\(y = e^{-x}\\) y \\(y = e^{-2x}\\) alrededor del eje x.",
+      "formula": "\\(y = e^{-x}, \\; y = e^{-2x}\\)",
+      "options": [
+        "\\(\\frac{\\pi}{3}\\)",
+        "\\(\\frac{\\pi}{4}\\)",
+        "\\(\\frac{\\pi}{2}\\)",
+        "\\(\\pi\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Aplicando el método de arandelas, se integra la diferencia de cuadrados de \\(e^{-x}\\) y \\(e^{-2x}\\) en \\([0,\\infty)\\), dando \\(\\frac{\\pi}{4}\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Configurar la integral de volumen usando el método de arandelas.",
+        "Elevar al cuadrado las funciones \\(e^{-x}\\) y \\(e^{-2x}\\).",
+        "Evaluar la integral en \\([0,\\infty)\\) para obtener \\(\\frac{\\pi}{4}\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la integral impropia \\(\\int_{1}^{\\infty} \\frac{1}{x(\\ln(x))^2} dx\\).",
+      "formula": "\\(\\int_{1}^{\\infty} \\frac{1}{x(\\ln(x))^2}dx\\)",
+      "options": [
+        "Converge a 1",
+        "Diverge",
+        "Converge a 0",
+        "Converge a \\(\\frac{1}{2}\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mediante el cambio de variable \\(u=\\ln(x)\\), la integral se transforma en \\(\\int_{0}^{\\infty} \\frac{1}{u^2}du\\), la cual diverge.",
+      "difficulty": "hard",
+      "procedure": [
+        "Realizar el cambio de variable \\(u=\\ln(x)\\) con \\(du=\\frac{1}{x}dx\\).",
+        "Observar que la nueva integral \\(\\int_{0}^{\\infty} \\frac{1}{u^2}du\\) diverge."
+      ]
+    }
+  ]
+}

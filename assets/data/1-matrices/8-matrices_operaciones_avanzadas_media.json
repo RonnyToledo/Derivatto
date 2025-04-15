@@ -1,0 +1,1259 @@
+{
+  "matrices_operaciones_avanzadas_media": [
+    {
+      "question": "Calcula el determinante de la matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} 3 & 4 \\\\ 2 & 5 \\end{pmatrix}\\)",
+      "options": ["\\(8\\)", "\\(7\\)", "\\(9\\)", "\\(6\\)"],
+      "correctAnswer": 1,
+      "explanation": "El determinante se calcula como 3×5 - 4×2 = 15 - 8 = 7.",
+      "difficulty": "medium",
+      "procedure": [
+        "Identifica los elementos: a=3, b=4, c=2, d=5.",
+        "Aplica la fórmula del determinante: a×d - b×c.",
+        "Calcula: 3×5 - 4×2 = 15 - 8 = 7."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} -2 & 3 \\\\ 4 & 1 \\end{pmatrix}\\)",
+      "options": ["\\(10\\)", "\\(-14\\)", "\\(14\\)", "\\(-10\\)"],
+      "correctAnswer": 1,
+      "explanation": "Se calcula (-2)×1 - 3×4 = -2 - 12 = -14.",
+      "difficulty": "medium",
+      "procedure": [
+        "Identifica: a=-2, b=3, c=4, d=1.",
+        "Usa la fórmula: a×d - b×c.",
+        "Calcula: (-2)×1 - 3×4 = -2 - 12 = -14."
+      ]
+    },
+    {
+      "question": "Halla el determinante de la matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} 7 & 2 \\\\ 3 & 5 \\end{pmatrix}\\)",
+      "options": ["\\(31\\)", "\\(29\\)", "\\(27\\)", "\\(26\\)"],
+      "correctAnswer": 1,
+      "explanation": "El determinante es 7×5 - 2×3 = 35 - 6 = 29.",
+      "difficulty": "medium",
+      "procedure": [
+        "Identifica los valores: a=7, b=2, c=3, d=5.",
+        "Aplica: a×d - b×c.",
+        "Calcula: 7×5 - 2×3 = 35 - 6 = 29."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 3x3 utilizando el método de Sarrus.",
+      "formula": "\\(\\begin{pmatrix} 1 & 2 & 3 \\\\ 0 & -1 & 4 \\\\ 5 & 2 & 0 \\end{pmatrix}\\)",
+      "options": ["\\(42\\)", "\\(47\\)", "\\(50\\)", "\\(39\\)"],
+      "correctAnswer": 1,
+      "explanation": "Aplicando el método de Sarrus se obtiene: 1×(-1×0 - 4×2) - 2×(0×0 - 4×5) + 3×(0×2 - (-1)×5) = -8 + 40 + 15 = 47.",
+      "difficulty": "medium",
+      "procedure": [
+        "Extiende la matriz para aplicar Sarrus y calcula las diagonales descendentes y ascendentes.",
+        "Suma las multiplicaciones de las diagonales descendentes y réstale las de las ascendentes.",
+        "Obtienes: -8 + 40 + 15 = 47."
+      ]
+    },
+    {
+      "question": "Determina el valor del determinante para la siguiente matriz 3x3.",
+      "formula": "\\(\\begin{pmatrix} 2 & 0 & 1 \\\\ 3 & -1 & 2 \\\\ 1 & 4 & 0 \\end{pmatrix}\\)",
+      "options": ["\\(-3\\)", "\\(3\\)", "\\(-5\\)", "\\(5\\)"],
+      "correctAnswer": 0,
+      "explanation": "El determinante es: 2×((-1)×0 - 2×4) - 0 + 1×(3×4 - (-1)×1) = 2×(-8) + 13 = -16 + 13 = -3.",
+      "difficulty": "medium",
+      "procedure": [
+        "Aplica la fórmula para determinantes 3x3: suma de productos de diagonales menos productos opuestos.",
+        "Realiza las multiplicaciones y sumas correspondientes.",
+        "Obtienes: -16 + 13 = -3."
+      ]
+    },
+    {
+      "question": "Calcula el área del paralelogramo formado por los vectores representados en la siguiente matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} 4 & 2 \\\\ 1 & 3 \\end{pmatrix}\\)",
+      "options": ["\\(12\\)", "\\(10\\)", "\\(6\\)", "\\(8\\)"],
+      "correctAnswer": 1,
+      "explanation": "El área es el valor absoluto del determinante: |4×3 - 2×1| = |12 - 2| = 10.",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula el determinante: 4×3 - 2×1 = 12 - 2.",
+        "Toma el valor absoluto: |10| = 10.",
+        "El resultado es el área del paralelogramo."
+      ]
+    },
+    {
+      "question": "Calcula el volumen del paralelepípedo definido por la siguiente matriz 3x3.",
+      "formula": "\\(\\begin{pmatrix} 1 & 0 & 2 \\\\ 3 & -1 & 4 \\\\ 2 & 1 & 0 \\end{pmatrix}\\)",
+      "options": ["\\(8\\)", "\\(6\\)", "\\(10\\)", "\\(5\\)"],
+      "correctAnswer": 1,
+      "explanation": "El volumen es el valor absoluto del determinante: se obtiene 6, por lo que el volumen es 6.",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula el determinante de la matriz 3x3.",
+        "Se obtiene: 6.",
+        "El volumen es el valor absoluto: |6| = 6."
+      ]
+    },
+    {
+      "question": "Calcula la inversa de la matriz 2x2 utilizando el método de Gauss-Jordan.",
+      "formula": "\\(\\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 2 & -1 \\\\ -3/2 & 1/2 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} -2 & 1 \\\\ 3/2 & -1/2 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} -2 & -1 \\\\ -3/2 & 1/2 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 2 & 1 \\\\ 3/2 & 1/2 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El determinante es 1×4 - 2×3 = -2, de modo que la inversa es (1/(-2)) por la matriz adjunta, resultando en \\(\\begin{pmatrix} -2 & 1 \\\\ 3/2 & -1/2 \\end{pmatrix}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula el determinante: 1×4 - 2×3 = -2.",
+        "Intercambia y cambia de signo los elementos correspondientes para formar la adjunta.",
+        "Multiplica por 1/determinante para obtener la inversa."
+      ]
+    },
+    {
+      "question": "Halla la inversa de la siguiente matriz 2x2 mediante Gauss-Jordan.",
+      "formula": "\\(\\begin{pmatrix} 4 & 7 \\\\ 2 & 6 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 0.4 & -0.2 \\\\ -0.7 & 0.6 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 0.6 & -0.7 \\\\ -0.2 & 0.4 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 0.7 & -0.6 \\\\ -0.2 & 0.4 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 0.6 & 0.7 \\\\ 0.2 & 0.4 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El determinante es 4×6 - 7×2 = 10, y la inversa es \\(1/10 \\begin{pmatrix} 6 & -7 \\\\ -2 & 4 \\end{pmatrix}\\) lo que equivale a \\(\\begin{pmatrix} 0.6 & -0.7 \\\\ -0.2 & 0.4 \\end{pmatrix}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula el determinante: 4×6 - 7×2 = 24 - 14 = 10.",
+        "Forma la matriz adjunta intercambiando y cambiando de signo según corresponda.",
+        "Multiplica por 1/10 para obtener la inversa."
+      ]
+    },
+    {
+      "question": "Determina el valor del determinante de la matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} 6 & 3 \\\\ 2 & 1 \\end{pmatrix}\\)",
+      "options": ["\\(3\\)", "\\(0\\)", "\\(12\\)", "\\(6\\)"],
+      "correctAnswer": 1,
+      "explanation": "El determinante es 6×1 - 3×2 = 6 - 6 = 0.",
+      "difficulty": "medium",
+      "procedure": [
+        "Identifica: a=6, b=3, c=2, d=1.",
+        "Aplica: a×d - b×c = 6×1 - 3×2.",
+        "Resultado: 6 - 6 = 0."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 3x3.",
+      "formula": "\\(\\begin{pmatrix} 2 & 3 & 1 \\\\ 4 & 0 & -1 \\\\ -2 & 5 & 3 \\end{pmatrix}\\)",
+      "options": ["\\(10\\)", "\\(-5\\)", "\\(0\\)", "\\(5\\)"],
+      "correctAnswer": 2,
+      "explanation": "Aplicando la regla de Sarrus o cofactores se obtiene un determinante igual a 0.",
+      "difficulty": "medium",
+      "procedure": [
+        "Usa la fórmula para el determinante de una matriz 3x3.",
+        "Realiza las multiplicaciones de diagonales y sus sumas/restas.",
+        "El resultado final es 0."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la matriz 2x2 siguiente.",
+      "formula": "\\(\\begin{pmatrix} -3 & 5 \\\\ 7 & -2 \\end{pmatrix}\\)",
+      "options": ["\\(29\\)", "\\(-29\\)", "\\(35\\)", "\\(-35\\)"],
+      "correctAnswer": 1,
+      "explanation": "El determinante es (-3)×(-2) - 5×7 = 6 - 35 = -29.",
+      "difficulty": "medium",
+      "procedure": [
+        "Identifica: a=-3, b=5, c=7, d=-2.",
+        "Calcula: a×d - b×c = (-3)×(-2) - 5×7.",
+        "Obtienes: 6 - 35 = -29."
+      ]
+    },
+    {
+      "question": "Halla el determinante de la siguiente matriz 3x3.",
+      "formula": "\\(\\begin{pmatrix} 3 & 1 & 2 \\\\ 2 & 3 & 1 \\\\ 1 & 2 & 3 \\end{pmatrix}\\)",
+      "options": ["\\(16\\)", "\\(18\\)", "\\(20\\)", "\\(17\\)"],
+      "correctAnswer": 1,
+      "explanation": "Calculando el determinante se obtiene: 3×(3×3-1×2) - 1×(2×3-1×1) + 2×(2×2-3×1) = 21 - 5 + 2 = 18.",
+      "difficulty": "medium",
+      "procedure": [
+        "Aplica la fórmula de cofactores para matrices 3x3.",
+        "Realiza las operaciones correspondientes en cada término.",
+        "La suma de los términos da 18."
+      ]
+    },
+    {
+      "question": "Calcula la inversa de la siguiente matriz 2x2 usando el método de Gauss-Jordan.",
+      "formula": "\\(\\begin{pmatrix} 5 & 3 \\\\ 2 & 1 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 1 & -3 \\\\ -2 & 5 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} -1 & 3 \\\\ 2 & -5 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} -1 & -3 \\\\ -2 & 5 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 1 & 3 \\\\ 2 & 5 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El determinante es 5×1 - 3×2 = 5 - 6 = -1, de modo que la inversa es 1/(-1) multiplicado por la matriz adjunta, dando \\(\\begin{pmatrix} -1 & 3 \\\\ 2 & -5 \\end{pmatrix}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula el determinante: 5×1 - 3×2 = -1.",
+        "Obtén la matriz adjunta intercambiando y cambiando de signo los elementos.",
+        "Multiplica por -1 para obtener la inversa."
+      ]
+    },
+    {
+      "question": "Calcula la inversa de la siguiente matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} 3 & -1 \\\\ 4 & 2 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 0.3 & 0.1 \\\\ -0.4 & 0.2 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 0.2 & 0.1 \\\\ -0.4 & 0.3 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 0.2 & -0.1 \\\\ 0.4 & 0.3 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 0.3 & -0.1 \\\\ 0.4 & 0.2 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El determinante es 3×2 - (-1)×4 = 6 + 4 = 10, por lo que la inversa es \\(1/10 \\begin{pmatrix} 2 & 1 \\\\ -4 & 3 \\end{pmatrix}\\) = \\(\\begin{pmatrix} 0.2 & 0.1 \\\\ -0.4 & 0.3 \\end{pmatrix}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula el determinante: 3×2 - (-1)×4 = 10.",
+        "Forma la matriz adjunta: intercambia y cambia de signo según corresponda.",
+        "Multiplica por 1/10 para obtener la inversa."
+      ]
+    },
+    {
+      "question": "Determina el determinante de la siguiente matriz 3x3.",
+      "formula": "\\(\\begin{pmatrix} 0 & 2 & 1 \\\\ 3 & 0 & -1 \\\\ 2 & 1 & 4 \\end{pmatrix}\\)",
+      "options": ["\\(-25\\)", "\\(23\\)", "\\(-23\\)", "\\(25\\)"],
+      "correctAnswer": 0,
+      "explanation": "El cálculo da: 0 - 2×(3×4 - (-1)×2) + 1×(3×1 - 0×2) = -28 + 3 = -25.",
+      "difficulty": "medium",
+      "procedure": [
+        "Utiliza la regla de cofactores para una matriz 3x3.",
+        "Realiza las multiplicaciones y sumas correspondientes.",
+        "El resultado final es -25."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 3x3.",
+      "formula": "\\(\\begin{pmatrix} 1 & 4 & 2 \\\\ 0 & -3 & 5 \\\\ 2 & 1 & 0 \\end{pmatrix}\\)",
+      "options": ["\\(42\\)", "\\(47\\)", "\\(49\\)", "\\(45\\)"],
+      "correctAnswer": 1,
+      "explanation": "El determinante se obtiene como: 1×((-3)×0-5×1) - 4×(0×0-5×2) + 2×(0×1-(-3)×2) = -5 + 40 + 12 = 47.",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula cada término usando la expansión por cofactores.",
+        "Suma los resultados parciales: -5 + 40 + 12.",
+        "El total es 47."
+      ]
+    },
+    {
+      "question": "Calcula la inversa de la siguiente matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} 2 & 5 \\\\ 1 & 3 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 3 & -5 \\\\ -1 & 2 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} -3 & 5 \\\\ 1 & -2 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 2 & -5 \\\\ -1 & 3 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 3 & 5 \\\\ 1 & 2 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El determinante es 2×3 - 5×1 = 1, por lo que la inversa es la matriz adjunta, que es \\(\\begin{pmatrix} 3 & -5 \\\\ -1 & 2 \\end{pmatrix}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula el determinante: 2×3 - 5×1 = 1.",
+        "Forma la matriz adjunta.",
+        "La inversa es la adjunta, ya que el determinante es 1."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} 9 & 3 \\\\ 4 & 2 \\end{pmatrix}\\)",
+      "options": ["\\(7\\)", "\\(6\\)", "\\(8\\)", "\\(5\\)"],
+      "correctAnswer": 1,
+      "explanation": "El determinante es 9×2 - 3×4 = 18 - 12 = 6.",
+      "difficulty": "medium",
+      "procedure": [
+        "Identifica los elementos: a=9, b=3, c=4, d=2.",
+        "Calcula: a×d - b×c = 9×2 - 3×4.",
+        "Obtienes 18 - 12 = 6."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 3x3.",
+      "formula": "\\(\\begin{pmatrix} 4 & 0 & 2 \\\\ 1 & 3 & 5 \\\\ 2 & 1 & 4 \\end{pmatrix}\\)",
+      "options": ["\\(18\\)", "\\(20\\)", "\\(16\\)", "\\(17\\)"],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla de determinantes se obtiene 18.",
+      "difficulty": "medium",
+      "procedure": [
+        "Expande la matriz 3x3 usando cofactores.",
+        "Realiza las multiplicaciones correspondientes.",
+        "El resultado final es 18."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} 8 & -3 \\\\ 5 & 2 \\end{pmatrix}\\)",
+      "options": ["\\(29\\)", "\\(30\\)", "\\(32\\)", "\\(31\\)"],
+      "correctAnswer": 3,
+      "explanation": "El determinante es 8×2 - (-3)×5 = 16 + 15 = 31.",
+      "difficulty": "medium",
+      "procedure": [
+        "Identifica: a=8, b=-3, c=5, d=2.",
+        "Calcula: a×d - b×c = 8×2 - (-3)×5.",
+        "Obtienes: 16 + 15 = 31."
+      ]
+    },
+    {
+      "question": "Halla el determinante de la siguiente matriz 3x3.",
+      "formula": "\\(\\begin{pmatrix} 0 & 1 & 2 \\\\ 3 & 4 & 5 \\\\ 6 & 7 & 8 \\end{pmatrix}\\)",
+      "options": ["\\(1\\)", "\\(0\\)", "\\(-1\\)", "\\(2\\)"],
+      "correctAnswer": 1,
+      "explanation": "Esta matriz es singular; su determinante es 0.",
+      "difficulty": "medium",
+      "procedure": [
+        "Expande la matriz usando cofactores.",
+        "Observa que las filas son linealmente dependientes.",
+        "El determinante resulta ser 0."
+      ]
+    },
+    {
+      "question": "Calcula la inversa de la siguiente matriz 3x3 diagonal.",
+      "formula": "\\(\\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & 2 & 0 \\\\ 0 & 0 & 3 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & 1/3 & 0 \\\\ 0 & 0 & 1/2 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & 1/2 & 0 \\\\ 0 & 0 & 1/3 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & 2 & 0 \\\\ 0 & 0 & 3 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & 1/2 & 0 \\\\ 0 & 0 & 1/2 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La inversa de una matriz diagonal es la diagonal de los inversos: 1, 1/2 y 1/3.",
+      "difficulty": "medium",
+      "procedure": [
+        "Identifica que la matriz es diagonal.",
+        "Calcula los inversos de cada elemento diagonal.",
+        "Forma la nueva matriz diagonal con 1, 1/2 y 1/3."
+      ]
+    },
+    {
+      "question": "Calcula la inversa de la siguiente matriz 3x3.",
+      "formula": "\\(\\begin{pmatrix} 2 & 1 & 0 \\\\ 0 & 3 & 1 \\\\ 4 & 0 & 1 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} -0.3 & 0.1 & 0.1 \\\\ 0.4 & 0.2 & -0.2 \\\\ -1.2 & 0.4 & 0.6 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 0.3 & -0.1 & 0.1 \\\\ 0.4 & 0.2 & -0.2 \\\\ -1.2 & 0.4 & 0.6 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 0.3 & -0.1 & 0.1 \\\\ 0.4 & 0.2 & 0.2 \\\\ -1.2 & 0.4 & -0.6 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 0.3 & 0.1 & -0.1 \\\\ -0.4 & 0.2 & 0.2 \\\\ 1.2 & -0.4 & 0.6 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Calculando la inversa se obtiene 1/10 por la matriz adjunta, resultando en \\(\\begin{pmatrix} 0.3 & -0.1 & 0.1 \\\\ 0.4 & 0.2 & -0.2 \\\\ -1.2 & 0.4 & 0.6 \\end{pmatrix}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula el determinante de la matriz (resulta ser 10).",
+        "Obtén la matriz de cofactores y luego su traspuesta (adjugado).",
+        "Multiplica por 1/10 para obtener la inversa final."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} 0 & -4 \\\\ 3 & 5 \\end{pmatrix}\\)",
+      "options": ["\\(15\\)", "\\(12\\)", "\\(10\\)", "\\(8\\)"],
+      "correctAnswer": 1,
+      "explanation": "El determinante es 0×5 - (-4)×3 = 12.",
+      "difficulty": "medium",
+      "procedure": [
+        "Identifica: a=0, b=-4, c=3, d=5.",
+        "Calcula: a×d - b×c = 0 - (-4×3).",
+        "El resultado es 12."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 3x3.",
+      "formula": "\\(\\begin{pmatrix} 1 & -2 & 3 \\\\ 2 & 0 & -1 \\\\ 4 & 1 & 2 \\end{pmatrix}\\)",
+      "options": ["\\(22\\)", "\\(23\\)", "\\(24\\)", "\\(21\\)"],
+      "correctAnswer": 1,
+      "explanation": "El cálculo del determinante da: 23.",
+      "difficulty": "medium",
+      "procedure": [
+        "Aplica la regla de Sarrus o cofactores para la matriz 3x3.",
+        "Realiza las multiplicaciones correspondientes.",
+        "La suma de términos da 23."
+      ]
+    },
+    {
+      "question": "Calcula la inversa de la siguiente matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} 7 & 2 \\\\ 3 & 1 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 7 & -2 \\\\ -3 & 1 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 1 & -2 \\\\ -3 & 7 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} -1 & 2 \\\\ 3 & -7 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 1 & 2 \\\\ 3 & 7 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El determinante es 7×1 - 2×3 = 1, así que la inversa es la matriz adjunta: \\(\\begin{pmatrix} 1 & -2 \\\\ -3 & 7 \\end{pmatrix}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula el determinante: 7×1 - 2×3 = 1.",
+        "Forma la matriz adjunta intercambiando y cambiando de signo los elementos.",
+        "La inversa es la matriz adjunta, ya que el determinante es 1."
+      ]
+    },
+    {
+      "question": "Calcula la inversa de la siguiente matriz 3x3 utilizando el método de Gauss-Jordan.",
+      "formula": "\\(\\begin{pmatrix} 3 & 0 & 2 \\\\ 2 & 0 & -2 \\\\ 0 & 1 & 1 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 0.2 & 0.1 & 0 \\\\ -0.2 & 0.3 & -1 \\\\ 0.2 & -0.3 & 0 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 0.2 & 0.2 & 0 \\\\ -0.2 & 0.3 & 1 \\\\ 0.2 & -0.3 & 0 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 0.3 & 0.2 & 0 \\\\ -0.2 & 0.2 & 1 \\\\ 0.2 & -0.3 & 0 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 0.2 & 0.1 & 0 \\\\ -0.2 & 0.3 & 1 \\\\ 0.2 & -0.3 & 0 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El determinante de la matriz es 10. Calculando la matriz adjunta y multiplicando por 1/10 se obtiene la inversa: \\(\\begin{pmatrix} 0.2 & 0.2 & 0 \\\\ -0.2 & 0.3 & 1 \\\\ 0.2 & -0.3 & 0 \\end{pmatrix}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula el determinante: 10.",
+        "Obtén la matriz de cofactores y transpón para formar el adjugado.",
+        "Multiplica el adjugado por 1/10 para obtener la inversa."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} 5 & 6 \\\\ 3 & 2 \\end{pmatrix}\\)",
+      "options": ["\\(-8\\)", "\\(8\\)", "\\(-10\\)", "\\(10\\)"],
+      "correctAnswer": 0,
+      "explanation": "El determinante se obtiene como 5×2 - 6×3 = 10 - 18 = -8.",
+      "difficulty": "medium",
+      "procedure": [
+        "Identifica los elementos: a=5, b=6, c=3, d=2.",
+        "Aplica la fórmula del determinante: a×d - b×c.",
+        "Calcula: 5×2 - 6×3 = 10 - 18 = -8."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} -4 & 7 \\\\ 3 & 1 \\end{pmatrix}\\)",
+      "options": ["\\(-25\\)", "\\(25\\)", "\\(-21\\)", "\\(21\\)"],
+      "correctAnswer": 0,
+      "explanation": "El determinante se calcula como (-4)×1 - 7×3 = -4 - 21 = -25.",
+      "difficulty": "medium",
+      "procedure": [
+        "Identifica los elementos: a=-4, b=7, c=3, d=1.",
+        "Aplica la fórmula: a×d - b×c.",
+        "Calcula: (-4)×1 - 7×3 = -4 - 21 = -25."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 3x3 utilizando la expansión por cofactores.",
+      "formula": "\\(\\begin{pmatrix} 1 & 2 & 3 \\\\ 0 & 1 & 4 \\\\ 5 & 6 & 0 \\end{pmatrix}\\)",
+      "options": ["\\(1\\)", "\\(0\\)", "\\(-1\\)", "\\(2\\)"],
+      "correctAnswer": 0,
+      "explanation": "Expandiendo se tiene: 1×(1×0 - 4×6) - 2×(0×0 - 4×5) + 3×(0×6 - 1×5) = 1×(-24) -2×(-20) + 3×(-5) = -24 + 40 -15 = 1.",
+      "difficulty": "medium",
+      "procedure": [
+        "Utiliza la expansión por cofactores en la primera fila.",
+        "Calcula cada término: 1×(0-24), 2×(0-(-20)) y 3×(0-5).",
+        "Suma los resultados: -24 + 40 - 15 = 1."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 3x3.",
+      "formula": "\\(\\begin{pmatrix} 2 & 0 & 1 \\\\ 3 & 5 & 2 \\\\ 1 & 4 & 3 \\end{pmatrix}\\)",
+      "options": ["\\(21\\)", "\\(14\\)", "\\(28\\)", "\\(7\\)"],
+      "correctAnswer": 0,
+      "explanation": "El determinante se calcula como 2×(5×3 - 2×4) - 0 + 1×(3×4 - 5×1) = 2×(15-8) + (12-5) = 2×7 + 7 = 21.",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula el primer término: 2×(15-8) = 2×7 = 14.",
+        "Calcula el tercer término: 1×(12-5) = 7.",
+        "Suma: 14 + 7 = 21."
+      ]
+    },
+    {
+      "question": "Calcula el área del paralelogramo formado por los vectores representados en la siguiente matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} 3 & 5 \\\\ 2 & 7 \\end{pmatrix}\\)",
+      "options": ["\\(11\\)", "\\(10\\)", "\\(12\\)", "\\(13\\)"],
+      "correctAnswer": 0,
+      "explanation": "El área se obtiene como el valor absoluto del determinante: |3×7 - 5×2| = |21 - 10| = 11.",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula el determinante: 3×7 - 5×2 = 21 - 10 = 11.",
+        "Toma el valor absoluto: |11| = 11."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} 0 & 8 \\\\ 4 & -3 \\end{pmatrix}\\)",
+      "options": ["\\(-32\\)", "\\(32\\)", "\\(-12\\)", "\\(12\\)"],
+      "correctAnswer": 0,
+      "explanation": "El determinante es 0×(-3) - 8×4 = 0 - 32 = -32.",
+      "difficulty": "medium",
+      "procedure": [
+        "Identifica: a=0, b=8, c=4, d=-3.",
+        "Aplica: a×d - b×c = 0×(-3) - 8×4 = -32."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 3x3.",
+      "formula": "\\(\\begin{pmatrix} 3 & 1 & 4 \\\\ 2 & 0 & -1 \\\\ 5 & 2 & 1 \\end{pmatrix}\\)",
+      "options": ["\\(15\\)", "\\(16\\)", "\\(14\\)", "\\(13\\)"],
+      "correctAnswer": 0,
+      "explanation": "El determinante se obtiene como 3×(0×1 - (-1)×2) - 1×(2×1 - (-1)×5) + 4×(2×2 - 0×5) = 3×2 - 1×(2+5) + 4×4 = 6 - 7 + 16 = 15.",
+      "difficulty": "medium",
+      "procedure": [
+        "Aplica la expansión por cofactores en la primera fila.",
+        "Calcula cada producto y suma: 3×2, -1×7, y 4×4.",
+        "Suma los términos: 6 - 7 + 16 = 15."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 3x3.",
+      "formula": "\\(\\begin{pmatrix} 1 & 0 & 2 \\\\ -1 & 3 & 1 \\\\ 4 & 2 & 0 \\end{pmatrix}\\)",
+      "options": ["\\(-30\\)", "\\(30\\)", "\\(-28\\)", "\\(28\\)"],
+      "correctAnswer": 0,
+      "explanation": "El determinante se calcula como 1×(3×0 - 1×2) - 0 + 2×((-1)×2 - 3×4) = 1×(-2) + 2×(-2-12) = -2 + 2×(-14) = -2 - 28 = -30.",
+      "difficulty": "medium",
+      "procedure": [
+        "Expande el determinante usando cofactores.",
+        "Calcula: 1×(0-2) y 2×((-2)-12).",
+        "Suma: -2 - 28 = -30."
+      ]
+    },
+    {
+      "question": "Calcula la inversa de la siguiente matriz 2x2 utilizando el método de Gauss-Jordan.",
+      "formula": "\\(\\begin{pmatrix} 4 & 3 \\\\ 2 & 1 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} -1/2 & 3/2 \\\\ 1 & -2 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 1/2 & -3/2 \\\\ -1 & 2 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 1/2 & 3/2 \\\\ 1 & 2 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} -1/2 & -3/2 \\\\ -1 & -2 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El determinante es 4×1 - 3×2 = 4 - 6 = -2. La inversa se obtiene como 1/(-2) por la matriz adjunta: \\(\\begin{pmatrix} 1 & -3 \\\\ -2 & 4 \\end{pmatrix}\\), resultando en \\(\\begin{pmatrix} -1/2 & 3/2 \\\\ 1 & -2 \\end{pmatrix}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula el determinante: 4×1 - 3×2 = -2.",
+        "Forma la matriz adjunta intercambiando a y d, y cambiando el signo de b y c.",
+        "Multiplica por 1/(-2) para obtener la inversa."
+      ]
+    },
+    {
+      "question": "Calcula la inversa de la siguiente matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} 6 & 2 \\\\ 5 & 3 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 3/8 & -1/4 \\\\ -5/8 & 3/4 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 1/2 & -1/4 \\\\ -1/2 & 3/4 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 3/8 & 1/4 \\\\ 5/8 & 3/4 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 1/2 & 1/4 \\\\ 1/2 & 3/4 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El determinante es 6×3 - 2×5 = 18 - 10 = 8. La inversa se obtiene como 1/8 multiplicado por \\(\\begin{pmatrix} 3 & -2 \\\\ -5 & 6 \\end{pmatrix}\\), dando \\(\\begin{pmatrix} 3/8 & -1/4 \\\\ -5/8 & 3/4 \\end{pmatrix}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula el determinante: 6×3 - 2×5 = 8.",
+        "Forma la matriz adjunta: \\(\\begin{pmatrix} 3 & -2 \\\\ -5 & 6 \\end{pmatrix}\\).",
+        "Multiplica por 1/8 para obtener la inversa."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} 6 & 3 \\\\ 2 & 1 \\end{pmatrix}\\)",
+      "options": ["\\(3\\)", "\\(0\\)", "\\(12\\)", "\\(6\\)"],
+      "correctAnswer": 1,
+      "explanation": "El determinante se obtiene como 6×1 - 3×2 = 6 - 6 = 0.",
+      "difficulty": "medium",
+      "procedure": [
+        "Identifica: a=6, b=3, c=2, d=1.",
+        "Calcula: a×d - b×c = 6 - 6 = 0."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 3x3.",
+      "formula": "\\(\\begin{pmatrix} 2 & 3 & 1 \\\\ 4 & 0 & -1 \\\\ -2 & 5 & 3 \\end{pmatrix}\\)",
+      "options": ["\\(10\\)", "\\(-5\\)", "\\(0\\)", "\\(5\\)"],
+      "correctAnswer": 2,
+      "explanation": "Mediante la regla de Sarrus o cofactores se obtiene que el determinante de la matriz es 0.",
+      "difficulty": "medium",
+      "procedure": [
+        "Expande la matriz usando la regla de Sarrus o cofactores.",
+        "Realiza las multiplicaciones de las diagonales.",
+        "El resultado final es 0."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} -3 & 5 \\\\ 7 & -2 \\end{pmatrix}\\)",
+      "options": ["\\(29\\)", "\\(-29\\)", "\\(35\\)", "\\(-35\\)"],
+      "correctAnswer": 1,
+      "explanation": "El determinante se calcula como (-3)×(-2) - 5×7 = 6 - 35 = -29.",
+      "difficulty": "medium",
+      "procedure": [
+        "Identifica: a=-3, b=5, c=7, d=-2.",
+        "Aplica: a×d - b×c = 6 - 35 = -29."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 3x3.",
+      "formula": "\\(\\begin{pmatrix} 3 & 1 & 2 \\\\ 2 & 3 & 1 \\\\ 1 & 2 & 3 \\end{pmatrix}\\)",
+      "options": ["\\(16\\)", "\\(18\\)", "\\(20\\)", "\\(17\\)"],
+      "correctAnswer": 1,
+      "explanation": "Aplicando la expansión por cofactores se obtiene: 3×(3×3-1×2) - 1×(2×3-1×1) + 2×(2×2-3×1) = 21 - 5 + 2 = 18.",
+      "difficulty": "medium",
+      "procedure": [
+        "Expande la matriz usando cofactores.",
+        "Realiza las multiplicaciones en cada término.",
+        "Suma los resultados para obtener 18."
+      ]
+    },
+    {
+      "question": "Calcula la inversa de la siguiente matriz 2x2 utilizando Gauss-Jordan.",
+      "formula": "\\(\\begin{pmatrix} 5 & 3 \\\\ 2 & 1 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} -1 & 3 \\\\ 2 & -5 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 1 & -3 \\\\ -2 & 5 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} -1 & -3 \\\\ -2 & 5 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 1 & 3 \\\\ 2 & 5 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El determinante es 5×1 - 3×2 = 5 - 6 = -1. La inversa es 1/(-1) multiplicado por la matriz adjunta \\(\\begin{pmatrix} 1 & -3 \\\\ -2 & 5 \\end{pmatrix}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula el determinante: 5×1 - 3×2 = -1.",
+        "Forma la matriz adjunta intercambiando y cambiando de signo.",
+        "Multiplica por 1/(-1) para obtener la inversa."
+      ]
+    },
+    {
+      "question": "Calcula la inversa de la siguiente matriz 3x3 utilizando el método de Gauss-Jordan.",
+      "formula": "\\(\\begin{pmatrix} 2 & 1 & 0 \\\\ 0 & 3 & 1 \\\\ 0 & 0 & 4 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 1/2 & -1/6 & 1/24 \\\\ 0 & 1/3 & -1/12 \\\\ 0 & 0 & 1/4 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 1/2 & 1/6 & 1/24 \\\\ 0 & 1/3 & 1/12 \\\\ 0 & 0 & 1/4 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 2 & -1 & 0 \\\\ 0 & 3 & -1 \\\\ 0 & 0 & 4 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 1/2 & -1/3 & 1/24 \\\\ 0 & 1/3 & -1/12 \\\\ 0 & 0 & 1/4 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La matriz es triangular superior. Su inversa tiene diagonales con los recíprocos y los elementos fuera de la diagonal se obtienen resolviendo las ecuaciones. El resultado es \\(\\begin{pmatrix} 1/2 & -1/6 & 1/24 \\\\ 0 & 1/3 & -1/12 \\\\ 0 & 0 & 1/4 \\end{pmatrix}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identifica la forma triangular de la matriz.",
+        "Calcula los inversos de los elementos diagonales: 1/2, 1/3 y 1/4.",
+        "Resuelve para los elementos fuera de la diagonal resultando en -1/6 y 1/24, -1/12."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 3x3.",
+      "formula": "\\(\\begin{pmatrix} 4 & 2 & 1 \\\\ 0 & 3 & 5 \\\\ 7 & 1 & -2 \\end{pmatrix}\\)",
+      "options": ["\\(5\\)", "\\(-5\\)", "\\(10\\)", "\\(-10\\)"],
+      "correctAnswer": 0,
+      "explanation": "El determinante se calcula como 4×(3×(-2)-5×1) - 2×(0×(-2)-5×7) + 1×(0×1-3×7) = 4×(-6-5) - 2×(0-35) - 21 = -44 + 70 - 21 = 5.",
+      "difficulty": "medium",
+      "procedure": [
+        "Aplica la expansión por cofactores en la primera fila.",
+        "Calcula cada término y suma: 4×(-11), 2×35 y -21.",
+        "El resultado final es 5."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} 10 & 4 \\\\ 3 & 7 \\end{pmatrix}\\)",
+      "options": ["\\(58\\)", "\\(-58\\)", "\\(46\\)", "\\(64\\)"],
+      "correctAnswer": 0,
+      "explanation": "El determinante se obtiene como 10×7 - 4×3 = 70 - 12 = 58.",
+      "difficulty": "medium",
+      "procedure": [
+        "Identifica: a=10, b=4, c=3, d=7.",
+        "Calcula: a×d - b×c = 70 - 12 = 58."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 3x3.",
+      "formula": "\\(\\begin{pmatrix} 0 & 2 & 1 \\\\ 1 & 0 & 3 \\\\ 4 & 5 & 6 \\end{pmatrix}\\)",
+      "options": ["\\(17\\)", "\\(-17\\)", "\\(11\\)", "\\(13\\)"],
+      "correctAnswer": 0,
+      "explanation": "El determinante se calcula como 0×(0×6-3×5) - 2×(1×6-3×4) + 1×(1×5-0×4) = 0 - 2×(6-12) + 5 = 0 + 12 + 5 = 17.",
+      "difficulty": "medium",
+      "procedure": [
+        "Utiliza la expansión por cofactores en la primera fila.",
+        "Calcula los términos correspondientes y suma: 0, -2×(-6) y 5.",
+        "El resultado es 17."
+      ]
+    },
+    {
+      "question": "Calcula la inversa de la siguiente matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} 8 & -3 \\\\ 4 & 2 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 1/14 & 3/28 \\\\ -1/7 & 2/7 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 2/7 & -1/7 \\\\ 3/14 & 1/7 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 1/7 & 3/28 \\\\ -1/14 & 2/7 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 2/7 & 1/7 \\\\ 3/14 & -1/7 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El determinante es 8×2 - (-3)×4 = 16 + 12 = 28. La inversa es 1/28 multiplicado por \\(\\begin{pmatrix} 2 & 3 \\\\ -4 & 8 \\end{pmatrix}\\), lo que equivale a \\(\\begin{pmatrix} 2/28 & 3/28 \\\\ -4/28 & 8/28 \\end{pmatrix}\\), simplificado a \\(\\begin{pmatrix} 1/14 & 3/28 \\\\ -1/7 & 2/7 \\end{pmatrix}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula el determinante: 8×2 - (-3)×4 = 28.",
+        "Forma la matriz adjunta: \\(\\begin{pmatrix} 2 & 3 \\\\ -4 & 8 \\end{pmatrix}\\).",
+        "Multiplica por 1/28 y simplifica."
+      ]
+    },
+    {
+      "question": "Calcula la inversa de la siguiente matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} -1 & 2 \\\\ 3 & -4 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 2 & 1 \\\\ 3/2 & 1/2 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} -2 & -1 \\\\ -3/2 & -1/2 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} -2 & 1 \\\\ 3/2 & -1/2 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 1 & -2 \\\\ -3/2 & 3/2 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El determinante es (-1)×(-4) - 2×3 = 4 - 6 = -2. La inversa es 1/(-2) multiplicado por la matriz adjunta \\(\\begin{pmatrix} -4 & -2 \\\\ -3 & -1 \\end{pmatrix}\\), que al simplificar resulta en \\(\\begin{pmatrix} 2 & 1 \\\\ 3/2 & 1/2 \\end{pmatrix}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula el determinante: (-1)×(-4) - 2×3 = -2.",
+        "Forma la matriz adjunta: \\(\\begin{pmatrix} -4 & -2 \\\\ -3 & -1 \\end{pmatrix}\\).",
+        "Multiplica por 1/(-2) para obtener la inversa."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} -6 & 4 \\\\ 5 & -3 \\end{pmatrix}\\)",
+      "options": ["\\(-2\\)", "\\(2\\)", "\\(-1\\)", "\\(1\\)"],
+      "correctAnswer": 0,
+      "explanation": "El determinante se obtiene como (-6)×(-3) - 4×5 = 18 - 20 = -2.",
+      "difficulty": "medium",
+      "procedure": [
+        "Identifica: a=-6, b=4, c=5, d=-3.",
+        "Calcula: a×d - b×c = 18 - 20 = -2."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 3x3.",
+      "formula": "\\(\\begin{pmatrix} 3 & 2 & 0 \\\\ 1 & -1 & 4 \\\\ 2 & 3 & 1 \\end{pmatrix}\\)",
+      "options": ["\\(-25\\)", "\\(25\\)", "\\(-20\\)", "\\(20\\)"],
+      "correctAnswer": 0,
+      "explanation": "El determinante se obtiene como 3×((-1)×1-4×3) - 2×(1×1-4×2) + 0 = 3×(-1-12) -2×(1-8) = 3×(-13) -2×(-7) = -39 + 14 = -25.",
+      "difficulty": "medium",
+      "procedure": [
+        "Expande el determinante por cofactores.",
+        "Calcula: 3×(-13) y -2×(-7).",
+        "Suma: -39 + 14 = -25."
+      ]
+    },
+    {
+      "question": "Calcula la inversa de la siguiente matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} 0 & 1 \\\\ -1 & 0 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 0 & -1 \\\\ 1 & 0 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 0 & 1 \\\\ -1 & 0 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} -1 & 0 \\\\ 0 & -1 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El determinante es 0×0 - 1×(-1) = 1. La inversa se obtiene como \\(\\begin{pmatrix} 0 & -1 \\\\ 1 & 0 \\end{pmatrix}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula el determinante: 0×0 - 1×(-1) = 1.",
+        "Aplica la fórmula de la inversa para matrices 2x2.",
+        "Obtén la matriz \\(\\begin{pmatrix} 0 & -1 \\\\ 1 & 0 \\end{pmatrix}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la inversa de la siguiente matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} 2 & -5 \\\\ 1 & -3 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 3 & -5 \\\\ 1 & -2 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} -3 & 5 \\\\ -1 & 2 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 2 & 5 \\\\ -1 & 3 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} -2 & -5 \\\\ 1 & 3 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El determinante es 2×(-3) - (-5)×1 = -6 + 5 = -1. La inversa es la matriz adjunta multiplicada por 1/(-1), resultando en \\(\\begin{pmatrix} 3 & -5 \\\\ 1 & -2 \\end{pmatrix}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula el determinante: 2×(-3) - (-5)×1 = -1.",
+        "Forma la matriz adjunta: \\(\\begin{pmatrix} -3 & 5 \\\\ -1 & 2 \\end{pmatrix}\\).",
+        "Multiplica por -1 para obtener la inversa."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 3x3.",
+      "formula": "\\(\\begin{pmatrix} 2 & 2 & 2 \\\\ 1 & 3 & 4 \\\\ 0 & 5 & 6 \\end{pmatrix}\\)",
+      "options": ["\\(-6\\)", "\\(6\\)", "\\(-4\\)", "\\(4\\)"],
+      "correctAnswer": 0,
+      "explanation": "El determinante se obtiene como 2×(3×6-4×5) - 2×(1×6-4×0) + 2×(1×5-3×0) = 2×(18-20) - 2×6 + 2×5 = 2×(-2) - 12 + 10 = -4 - 12 + 10 = -6.",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula el primer término: 2×(18-20) = 2×(-2) = -4.",
+        "Calcula el segundo término: -2×6 = -12.",
+        "Calcula el tercer término: 2×5 = 10, y suma: -4 - 12 + 10 = -6."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 3x3.",
+      "formula": "\\(\\begin{pmatrix} 0 & 1 & 2 \\\\ 3 & 4 & 5 \\\\ 6 & 7 & 8 \\end{pmatrix}\\)",
+      "options": ["\\(0\\)", "\\(1\\)", "\\(-1\\)", "\\(2\\)"],
+      "correctAnswer": 0,
+      "explanation": "Las filas son linealmente dependientes, por lo que el determinante es 0.",
+      "difficulty": "medium",
+      "procedure": [
+        "Observa que las filas son linealmente dependientes.",
+        "Concluye que el determinante es 0."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} 7 & 3 \\\\ 5 & 2 \\end{pmatrix}\\)",
+      "options": ["\\(-1\\)", "\\(1\\)", "\\(-2\\)", "\\(2\\)"],
+      "correctAnswer": 0,
+      "explanation": "El determinante es 7×2 - 3×5 = 14 - 15 = -1.",
+      "difficulty": "medium",
+      "procedure": [
+        "Identifica: a=7, b=3, c=5, d=2.",
+        "Calcula: a×d - b×c = 14 - 15 = -1."
+      ]
+    },
+    {
+      "question": "Calcula la inversa de la siguiente matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} 3 & 1 \\\\ -2 & 4 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 2/7 & -1/14 \\\\ 1/7 & 3/14 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 1/7 & -2/7 \\\\ 1/14 & 3/14 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 2/7 & 1/14 \\\\ -1/7 & 3/14 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 1/7 & 1/14 \\\\ -2/7 & 3/14 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El determinante es 3×4 - 1×(-2) = 12 + 2 = 14. La inversa es 1/14 por \\(\\begin{pmatrix} 4 & -1 \\\\ 2 & 3 \\end{pmatrix}\\), lo que se simplifica a \\(\\begin{pmatrix} 2/7 & -1/14 \\\\ 1/7 & 3/14 \\end{pmatrix}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula el determinante: 3×4 - 1×(-2) = 14.",
+        "Forma la matriz adjunta: \\(\\begin{pmatrix} 4 & -1 \\\\ -(-2) & 3 \\end{pmatrix}\\) = \\(\\begin{pmatrix} 4 & -1 \\\\ 2 & 3 \\end{pmatrix}\\).",
+        "Multiplica por 1/14 para obtener la inversa."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 3x3.",
+      "formula": "\\(\\begin{pmatrix} 1 & 3 & 2 \\\\ 2 & 1 & 0 \\\\ 4 & 5 & 6 \\end{pmatrix}\\)",
+      "options": ["\\(-18\\)", "\\(18\\)", "\\(-12\\)", "\\(12\\)"],
+      "correctAnswer": 0,
+      "explanation": "El determinante se obtiene como 1×(1×6-0×5) - 3×(2×6-0×4) + 2×(2×5-1×4) = 6 - 3×(12) + 2×(10-4) = 6 - 36 + 12 = -18.",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula el primer término: 1×(6) = 6.",
+        "Calcula el segundo término: -3×(12) = -36.",
+        "Calcula el tercer término: 2×(10-4) = 12.",
+        "Suma: 6 - 36 + 12 = -18."
+      ]
+    },
+    {
+      "question": "Calcula la inversa de la siguiente matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} -3 & 2 \\\\ 1 & -1 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} -1 & -2 \\\\ -1 & -3 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 1 & 2 \\\\ 1 & 3 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} -1 & -2 \\\\ 1 & 3 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 1 & 2 \\\\ -1 & -3 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El determinante es (-3)×(-1) - 2×1 = 3 - 2 = 1, por lo que la inversa es la matriz adjunta: \\(\\begin{pmatrix} -1 & -2 \\\\ -1 & -3 \\end{pmatrix}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula el determinante: (-3)×(-1) - 2×1 = 1.",
+        "Forma la matriz adjunta aplicando la fórmula: (d, -b; -c, a).",
+        "Obtén la inversa, que en este caso es la misma que la adjunta."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} 2 & 7 \\\\ 3 & 5 \\end{pmatrix}\\)",
+      "options": ["\\(11\\)", "\\(13\\)", "\\(-11\\)", "\\(-13\\)"],
+      "correctAnswer": 2,
+      "explanation": "El determinante se calcula como 2×5 - 7×3 = 10 - 21 = -11.",
+      "difficulty": "medium",
+      "procedure": [
+        "Identifica los elementos: a=2, b=7, c=3, d=5.",
+        "Aplica la fórmula del determinante: a×d - b×c.",
+        "Calcula: 2×5 - 7×3 = 10 - 21 = -11."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} 0 & 4 \\\\ 6 & -2 \\end{pmatrix}\\)",
+      "options": ["\\(-12\\)", "\\(-24\\)", "\\(24\\)", "\\(12\\)"],
+      "correctAnswer": 1,
+      "explanation": "El determinante es 0×(-2) - 4×6 = 0 - 24 = -24.",
+      "difficulty": "medium",
+      "procedure": [
+        "Identifica los elementos: a=0, b=4, c=6, d=-2.",
+        "Aplica la fórmula: a×d - b×c.",
+        "Calcula: 0×(-2) - 4×6 = -24."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} -1 & -2 \\\\ 3 & 4 \\end{pmatrix}\\)",
+      "options": ["\\(2\\)", "\\(-2\\)", "\\(4\\)", "\\(-4\\)"],
+      "correctAnswer": 0,
+      "explanation": "El determinante se calcula como (-1)×4 - (-2)×3 = -4 + 6 = 2.",
+      "difficulty": "medium",
+      "procedure": [
+        "Identifica: a=-1, b=-2, c=3, d=4.",
+        "Calcula: (-1)×4 - (-2)×3 = -4 + 6 = 2."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} 5 & -3 \\\\ -2 & 7 \\end{pmatrix}\\)",
+      "options": ["\\(-29\\)", "\\(23\\)", "\\(-23\\)", "\\(29\\)"],
+      "correctAnswer": 3,
+      "explanation": "El determinante es 5×7 - (-3)×(-2) = 35 - 6 = 29.",
+      "difficulty": "medium",
+      "procedure": [
+        "Identifica: a=5, b=-3, c=-2, d=7.",
+        "Calcula: a×d - b×c = 35 - 6 = 29."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 3x3.",
+      "formula": "\\(\\begin{pmatrix} 1 & 2 & 3 \\\\ 0 & 4 & 5 \\\\ 1 & 0 & 6 \\end{pmatrix}\\)",
+      "options": ["\\(22\\)", "\\(24\\)", "\\(20\\)", "\\(18\\)"],
+      "correctAnswer": 0,
+      "explanation": "El determinante se calcula como 1×(4×6-5×0) - 2×(0×6-5×1) + 3×(0×0-4×1) = 24 + 10 - 12 = 22.",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula el primer término: 1×(4×6 - 5×0) = 24.",
+        "Calcula el segundo término: -2×(0×6 - 5×1) = 10.",
+        "Calcula el tercer término: 3×(0×0 - 4×1) = -12, y suma: 24 + 10 - 12 = 22."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 3x3.",
+      "formula": "\\(\\begin{pmatrix} 2 & 0 & 1 \\\\ 3 & 1 & 4 \\\\ 0 & 5 & 2 \\end{pmatrix}\\)",
+      "options": ["\\(18\\)", "\\(21\\)", "\\(-21\\)", "\\(-18\\)"],
+      "correctAnswer": 2,
+      "explanation": "El determinante es 2×(1×2 - 4×5) - 0 + 1×(3×5 - 1×0) = 2×(2-20) + 15 = 2×(-18) + 15 = -36 + 15 = -21.",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula el primer término: 2×(1×2 - 4×5) = 2×(-18) = -36.",
+        "Calcula el tercer término: 1×(3×5 - 1×0) = 15.",
+        "Suma: -36 + 15 = -21."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 3x3.",
+      "formula": "\\(\\begin{pmatrix} 0 & 1 & 2 \\\\ 2 & 3 & 1 \\\\ 4 & 0 & 5 \\end{pmatrix}\\)",
+      "options": ["\\(-30\\)", "\\(30\\)", "\\(-24\\)", "\\(24\\)"],
+      "correctAnswer": 0,
+      "explanation": "El determinante se calcula como 0×(3×5-1×0) - 1×(2×5-1×4) + 2×(2×0-3×4) = 0 - (10-4) + 2×(-12) = -6 - 24 = -30.",
+      "difficulty": "medium",
+      "procedure": [
+        "Expande usando la primera fila: 0 - 1×(10-4) + 2×(0-12).",
+        "Calcula: -6 - 24 = -30."
+      ]
+    },
+    {
+      "question": "Calcula la inversa de la siguiente matriz 2x2 utilizando el método de Gauss-Jordan.",
+      "formula": "\\(\\begin{pmatrix} 3 & 2 \\\\ 1 & 4 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 0.4 & -0.2 \\\\ -0.1 & 0.3 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 0.3 & -0.2 \\\\ -0.1 & 0.4 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 0.4 & 0.2 \\\\ 0.1 & 0.3 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 0.4 & -0.3 \\\\ -0.1 & 0.3 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El determinante es 3×4 - 2×1 = 12 - 2 = 10. La inversa es 1/10 por la matriz adjunta: \\(\\begin{pmatrix} 4 & -2 \\\\ -1 & 3 \\end{pmatrix}\\), que da \\(\\begin{pmatrix} 0.4 & -0.2 \\\\ -0.1 & 0.3 \\end{pmatrix}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula el determinante: 10.",
+        "Forma la matriz adjunta intercambiando a y d, y cambiando de signo b y c.",
+        "Multiplica por 1/10 para obtener la inversa."
+      ]
+    },
+    {
+      "question": "Calcula la inversa de la siguiente matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} 1 & -1 \\\\ 2 & 3 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 0.6 & 0.2 \\\\ -0.4 & 0.2 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 0.6 & -0.2 \\\\ -0.4 & 0.2 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 0.6 & 0.2 \\\\ 0.4 & 0.2 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 0.6 & -0.2 \\\\ 0.4 & 0.2 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El determinante es 1×3 - (-1)×2 = 3 + 2 = 5. La inversa es 1/5 por la matriz adjunta \\(\\begin{pmatrix} 3 & 1 \\\\ -2 & 1 \\end{pmatrix}\\), resultando en \\(\\begin{pmatrix} 0.6 & 0.2 \\\\ -0.4 & 0.2 \\end{pmatrix}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula el determinante: 5.",
+        "Forma la matriz adjunta: intercambia y cambia de signo donde corresponda.",
+        "Multiplica por 1/5 para obtener la inversa."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 3x3.",
+      "formula": "\\(\\begin{pmatrix} 4 & 1 & -2 \\\\ 0 & 3 & 5 \\\\ 2 & -1 & 1 \\end{pmatrix}\\)",
+      "options": ["\\(54\\)", "\\(-54\\)", "\\(52\\)", "\\(56\\)"],
+      "correctAnswer": 0,
+      "explanation": "El determinante se calcula como 4×(3×1-5×(-1)) - 1×(0×1-5×2) + (-2)×(0×(-1)-3×2) = 4×(3+5) + 10 - 2×(-6) = 32 + 10 + 12 = 54.",
+      "difficulty": "medium",
+      "procedure": [
+        "Expande usando la primera fila y calcula cada término.",
+        "Suma los resultados para obtener 54."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 3x3.",
+      "formula": "\\(\\begin{pmatrix} -2 & 0 & 1 \\\\ 3 & -1 & 4 \\\\ 1 & 2 & 0 \\end{pmatrix}\\)",
+      "options": ["\\(23\\)", "\\(-23\\)", "\\(21\\)", "\\(19\\)"],
+      "correctAnswer": 0,
+      "explanation": "El determinante es (-2)×((-1)×0-4×2) - 0 + 1×(3×2 - (-1)×1) = (-2)×(0-8) + (6+1) = 16 + 7 = 23.",
+      "difficulty": "medium",
+      "procedure": [
+        "Expande la matriz usando la primera fila y calcula cada producto.",
+        "Suma los términos: 16 + 7 = 23."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 3x3.",
+      "formula": "\\(\\begin{pmatrix} 1 & 3 & 2 \\\\ 4 & 0 & 1 \\\\ 2 & 5 & 3 \\end{pmatrix}\\)",
+      "options": ["\\(5\\)", "\\(-5\\)", "\\(6\\)", "\\(4\\)"],
+      "correctAnswer": 0,
+      "explanation": "El determinante se calcula como 1×(0×3-1×5) - 3×(4×3-1×2) + 2×(4×5-0×2) = 1×(-5) - 3×(12-2) + 2×20 = -5 - 30 + 40 = 5.",
+      "difficulty": "medium",
+      "procedure": [
+        "Utiliza la expansión por cofactores en la primera fila.",
+        "Calcula cada término y suma: -5 - 30 + 40 = 5."
+      ]
+    },
+    {
+      "question": "Calcula la inversa de la siguiente matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} 7 & 4 \\\\ 2 & 3 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 3/13 & -4/13 \\\\ -2/13 & 7/13 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} -3/13 & 4/13 \\\\ 2/13 & -7/13 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 7/13 & 4/13 \\\\ 2/13 & 3/13 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} -7/13 & -4/13 \\\\ -2/13 & -3/13 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El determinante es 7×3 - 4×2 = 21 - 8 = 13. La inversa es 1/13 por la matriz adjunta \\(\\begin{pmatrix} 3 & -4 \\\\ -2 & 7 \\end{pmatrix}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula el determinante: 13.",
+        "Forma la matriz adjunta y multiplica por 1/13 para obtener la inversa."
+      ]
+    },
+    {
+      "question": "Calcula la inversa de la siguiente matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} -3 & 1 \\\\ 2 & 4 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} -2/7 & 1/14 \\\\ 1/7 & 3/14 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 2/7 & -1/14 \\\\ -1/7 & -3/14 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} -2/7 & -1/14 \\\\ 1/7 & 3/14 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 2/7 & 1/14 \\\\ -1/7 & 3/14 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El determinante es (-3)×4 - 1×2 = -12 - 2 = -14. La inversa es 1/(-14) por la matriz adjunta \\(\\begin{pmatrix} 4 & -1 \\\\ -2 & -3 \\end{pmatrix}\\), lo que resulta en \\(\\begin{pmatrix} -2/7 & 1/14 \\\\ 1/7 & 3/14 \\end{pmatrix}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula el determinante: -14.",
+        "Forma la matriz adjunta y multiplica por 1/(-14) para obtener la inversa."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 3x3.",
+      "formula": "\\(\\begin{pmatrix} 3 & 2 & 1 \\\\ 1 & 0 & 4 \\\\ 2 & 5 & 3 \\end{pmatrix}\\)",
+      "options": ["\\(-45\\)", "\\(45\\)", "\\(-40\\)", "\\(40\\)"],
+      "correctAnswer": 0,
+      "explanation": "El determinante se calcula como 3×(0×3-4×5) - 2×(1×3-4×2) + 1×(1×5-0×2) = 3×(-20) - 2×(-5) + 5 = -60 + 10 + 5 = -45.",
+      "difficulty": "medium",
+      "procedure": [
+        "Expande la matriz usando cofactores en la primera fila.",
+        "Calcula: 3×(-20), -2×(-5) y añade 5; finalmente, suma los términos para obtener -45."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 3x3.",
+      "formula": "\\(\\begin{pmatrix} 0 & -1 & 2 \\\\ 3 & 4 & 0 \\\\ 1 & 2 & 3 \\end{pmatrix}\\)",
+      "options": ["\\(13\\)", "\\(-13\\)", "\\(12\\)", "\\(14\\)"],
+      "correctAnswer": 0,
+      "explanation": "El determinante se calcula como 0×(4×3-0×2) - (-1)×(3×3-0×1) + 2×(3×2-4×1) = 0 + 9 + 2×(6-4) = 9 + 4 = 13.",
+      "difficulty": "medium",
+      "procedure": [
+        "Expande la matriz usando cofactores en la primera fila.",
+        "Calcula cada término y suma para obtener 13."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} 8 & -5 \\\\ 3 & 2 \\end{pmatrix}\\)",
+      "options": ["\\(31\\)", "\\(29\\)", "\\(27\\)", "\\(-31\\)"],
+      "correctAnswer": 0,
+      "explanation": "El determinante es 8×2 - (-5)×3 = 16 + 15 = 31.",
+      "difficulty": "medium",
+      "procedure": [
+        "Identifica: a=8, b=-5, c=3, d=2.",
+        "Calcula: 8×2 - (-5)×3 = 16 + 15 = 31."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} -4 & 6 \\\\ 7 & -3 \\end{pmatrix}\\)",
+      "options": ["\\(-30\\)", "\\(30\\)", "\\(-24\\)", "\\(24\\)"],
+      "correctAnswer": 0,
+      "explanation": "El determinante se calcula como (-4)×(-3) - 6×7 = 12 - 42 = -30.",
+      "difficulty": "medium",
+      "procedure": [
+        "Identifica: a=-4, b=6, c=7, d=-3.",
+        "Calcula: (-4)×(-3) - 6×7 = 12 - 42 = -30."
+      ]
+    },
+    {
+      "question": "Calcula la inversa de la siguiente matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} 2 & 3 \\\\ 1 & 4 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 4/5 & -3/5 \\\\ -1/5 & 2/5 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 2/5 & -3/5 \\\\ -1/5 & 4/5 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 4/5 & 3/5 \\\\ 1/5 & 2/5 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 2/5 & 3/5 \\\\ 1/5 & 4/5 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El determinante es 2×4 - 3×1 = 8 - 3 = 5. La inversa es 1/5 por la matriz adjunta \\(\\begin{pmatrix} 4 & -3 \\\\ -1 & 2 \\end{pmatrix}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula el determinante: 5.",
+        "Forma la matriz adjunta y multiplica por 1/5 para obtener la inversa."
+      ]
+    },
+    {
+      "question": "Calcula la inversa de la siguiente matriz 3x3 (matriz triangular inferior).",
+      "formula": "\\(\\begin{pmatrix} 1 & 0 & 0 \\\\ 2 & 3 & 0 \\\\ 4 & 5 & 6 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 1 & 0 & 0 \\\\ -2/3 & 1/3 & 0 \\\\ -1/9 & -5/18 & 1/6 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 1 & 0 & 0 \\\\ 2/3 & 1/3 & 0 \\\\ 1/9 & 5/18 & 1/6 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 1 & 0 & 0 \\\\ -2/3 & 1/3 & 0 \\\\ 1/9 & 5/18 & 1/6 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 1 & 0 & 0 \\\\ -2/3 & 1/3 & 0 \\\\ -1/9 & 5/18 & 1/6 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Resolviendo el sistema para la inversa de una matriz triangular inferior se obtiene: \\(\\begin{pmatrix} 1 & 0 & 0 \\\\ -2/3 & 1/3 & 0 \\\\ -1/9 & -5/18 & 1/6 \\end{pmatrix}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identifica que la matriz es triangular inferior.",
+        "Calcula los inversos de los elementos diagonales: 1, 1/3 y 1/6.",
+        "Resuelve los elementos fuera de la diagonal para obtener: -2/3, -1/9 y -5/18."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} 0 & 3 \\\\ -4 & 5 \\end{pmatrix}\\)",
+      "options": ["\\(12\\)", "\\(-12\\)", "\\(15\\)", "\\(-15\\)"],
+      "correctAnswer": 0,
+      "explanation": "El determinante es 0×5 - 3×(-4) = 0 + 12 = 12.",
+      "difficulty": "medium",
+      "procedure": [
+        "Identifica: a=0, b=3, c=-4, d=5.",
+        "Calcula: 0×5 - 3×(-4) = 12."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} 9 & 8 \\\\ 7 & 6 \\end{pmatrix}\\)",
+      "options": ["\\(-2\\)", "\\(2\\)", "\\(-4\\)", "\\(4\\)"],
+      "correctAnswer": 0,
+      "explanation": "El determinante es 9×6 - 8×7 = 54 - 56 = -2.",
+      "difficulty": "medium",
+      "procedure": ["Calcula: 9×6 - 8×7 = 54 - 56 = -2."]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 3x3.",
+      "formula": "\\(\\begin{pmatrix} 2 & -1 & 0 \\\\ 1 & 3 & 4 \\\\ 0 & 2 & 5 \\end{pmatrix}\\)",
+      "options": ["\\(19\\)", "\\(-19\\)", "\\(17\\)", "\\(21\\)"],
+      "correctAnswer": 0,
+      "explanation": "El determinante se calcula como 2×(3×5-4×2) - (-1)×(1×5-4×0) + 0 = 2×(15-8) + 1×5 = 2×7 + 5 = 14 + 5 = 19.",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula el primer término: 2×(15-8)=14.",
+        "Calcula el segundo término: (-1)×(5)= -5 (se suma por cambio de signo).",
+        "Suma: 14 + 5 = 19."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 3x3.",
+      "formula": "\\(\\begin{pmatrix} 1 & 4 & 2 \\\\ 0 & -3 & 1 \\\\ 2 & 5 & 0 \\end{pmatrix}\\)",
+      "options": ["\\(15\\)", "\\(-15\\)", "\\(14\\)", "\\(16\\)"],
+      "correctAnswer": 0,
+      "explanation": "El determinante se calcula como 1×((-3)×0-1×5) - 4×(0×0-1×2) + 2×(0×5-(-3)×2) = 1×(-5) - 4×(-2) + 2×(6) = -5 + 8 + 12 = 15.",
+      "difficulty": "medium",
+      "procedure": [
+        "Expande la matriz por cofactores en la primera fila.",
+        "Calcula cada término y suma para obtener 15."
+      ]
+    },
+    {
+      "question": "Calcula la inversa de la siguiente matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} 0 & 2 \\\\ -3 & 1 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 1/6 & -1/3 \\\\ 1/2 & 0 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 1/6 & 1/3 \\\\ -1/2 & 0 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 1/3 & -1/6 \\\\ 1/2 & 0 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 1/3 & 1/6 \\\\ -1/2 & 0 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El determinante es 0×1 - 2×(-3) = 6. La inversa es 1/6 por la matriz adjunta \\(\\begin{pmatrix} 1 & -2 \\\\ 3 & 0 \\end{pmatrix}\\), dando \\(\\begin{pmatrix} 1/6 & -1/3 \\\\ 1/2 & 0 \\end{pmatrix}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula el determinante: 6.",
+        "Forma la matriz adjunta y multiplica por 1/6 para obtener la inversa."
+      ]
+    },
+    {
+      "question": "Calcula la inversa de la siguiente matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} 4 & 9 \\\\ 2 & 7 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 0.7 & -0.9 \\\\ -0.2 & 0.4 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 0.9 & -0.7 \\\\ -0.2 & 0.4 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 0.7 & -0.9 \\\\ 0.2 & 0.4 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 0.7 & 0.9 \\\\ -0.2 & 0.4 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El determinante es 4×7 - 9×2 = 28 - 18 = 10. La inversa es 1/10 por la matriz adjunta \\(\\begin{pmatrix} 7 & -9 \\\\ -2 & 4 \\end{pmatrix}\\), resultando en \\(\\begin{pmatrix} 0.7 & -0.9 \\\\ -0.2 & 0.4 \\end{pmatrix}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula el determinante: 10.",
+        "Forma la matriz adjunta y multiplica por 1/10 para obtener la inversa."
+      ]
+    },
+    {
+      "question": "Calcula la inversa de la siguiente matriz 3x3 (matriz triangular inferior).",
+      "formula": "\\(\\begin{pmatrix} 3 & 0 & 0 \\\\ 1 & 2 & 0 \\\\ 4 & 5 & 6 \\end{pmatrix}\\)",
+      "options": [
+        "\\(\\begin{pmatrix} 1/3 & 0 & 0 \\\\ -1/6 & 1/2 & 0 \\\\ -1/12 & -5/12 & 1/6 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 1/3 & 0 & 0 \\\\ 1/6 & 1/2 & 0 \\\\ 1/12 & 5/12 & 1/6 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 1/3 & 0 & 0 \\\\ -1/6 & 1/2 & 0 \\\\ 1/12 & 5/12 & 1/6 \\end{pmatrix}\\)",
+        "\\(\\begin{pmatrix} 1/3 & 0 & 0 \\\\ -1/6 & 1/2 & 0 \\\\ -1/12 & 5/12 & 1/6 \\end{pmatrix}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Resolviendo para la inversa de una matriz triangular inferior se obtiene: \\(\\begin{pmatrix} 1/3 & 0 & 0 \\\\ -1/6 & 1/2 & 0 \\\\ -1/12 & -5/12 & 1/6 \\end{pmatrix}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identifica la forma triangular de la matriz.",
+        "Calcula los inversos de los elementos diagonales.",
+        "Resuelve los elementos fuera de la diagonal para obtener la inversa."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} 3 & 6 \\\\ 4 & 8 \\end{pmatrix}\\)",
+      "options": ["\\(0\\)", "\\(1\\)", "\\(-1\\)", "\\(2\\)"],
+      "correctAnswer": 0,
+      "explanation": "El determinante es 3×8 - 6×4 = 24 - 24 = 0, por lo que la matriz es singular.",
+      "difficulty": "medium",
+      "procedure": [
+        "Identifica: a=3, b=6, c=4, d=8.",
+        "Calcula: 3×8 - 6×4 = 24 - 24 = 0."
+      ]
+    },
+    {
+      "question": "Calcula el determinante de la siguiente matriz 3x3.",
+      "formula": "\\(\\begin{pmatrix} 2 & 1 & 0 \\\\ 1 & 2 & 3 \\\\ 4 & 0 & 1 \\end{pmatrix}\\)",
+      "options": ["\\(15\\)", "\\(-15\\)", "\\(13\\)", "\\(17\\)"],
+      "correctAnswer": 0,
+      "explanation": "El determinante se calcula como 2×(2×1-3×0) - 1×(1×1-3×4) + 0 = 2×2 - 1×(1-12) = 4 - (-11) = 15.",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcula el primer término: 2×(2-0)=4.",
+        "Calcula el segundo término: -1×(1-12)=11.",
+        "Suma: 4 + 11 = 15."
+      ]
+    }
+  ]
+}

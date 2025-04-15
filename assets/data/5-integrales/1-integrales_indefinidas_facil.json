@@ -1,0 +1,1584 @@
+{
+  "integrales_indefinidas_facil": [
+    {
+      "question": "Calcula la antiderivada de \\(x^8\\).",
+      "formula": "\\(\\int x^8\\, dx\\)",
+      "options": [
+        "\\(\\frac{1}{8}x^9 + C\\)",
+        "\\(\\frac{1}{9}x^9 + C\\)",
+        "\\(\\frac{1}{10}x^{10} + C\\)",
+        "\\(\\frac{1}{7}x^9 + C\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Aplicando la regla \\(\\int x^n dx = \\frac{1}{n+1}x^{n+1} + C\\) con \\(n=8\\), se obtiene \\(\\frac{1}{9}x^9 + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identifica \\(n=8\\) en \\(x^8\\).",
+        "Aplica la fórmula: \\(\\frac{1}{8+1}x^{8+1} + C\\).",
+        "Obtén: \\(\\frac{1}{9}x^9 + C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(5x\\).",
+      "formula": "\\(\\int 5x\\, dx\\)",
+      "options": [
+        "\\(\\frac{5}{2}x^2 + C\\)",
+        "\\(5x^2 + C\\)",
+        "\\(\\frac{1}{2}x^2 + C\\)",
+        "\\(2.5x^2 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se factoriza la constante y se integra \\(x\\) obteniendo \\(\\frac{1}{2}x^2\\), luego se multiplica: \\(5\\cdot\\frac{1}{2}x^2 = \\frac{5}{2}x^2 + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Extrae la constante 5.",
+        "Integra \\(x\\): \\(\\frac{1}{2}x^2\\).",
+        "Multiplica: \\(5\\times\\frac{1}{2}x^2 = \\frac{5}{2}x^2\\).",
+        "Agrega + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(2x^5\\).",
+      "formula": "\\(\\int 2x^5\\, dx\\)",
+      "options": [
+        "\\(\\frac{1}{3}x^6 + C\\)",
+        "\\(\\frac{1}{6}x^6 + C\\)",
+        "\\(\\frac{2}{6}x^6 + C\\)",
+        "\\(\\frac{2}{5}x^6 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Para \\(x^5\\) la antiderivada es \\(\\frac{1}{6}x^6\\); multiplicando por 2 se obtiene \\(\\frac{2}{6}x^6 = \\frac{1}{3}x^6 + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identifica \\(n=5\\) y aplica la fórmula \\(\\frac{1}{5+1}x^6\\).",
+        "Multiplica por 2: \\(2\\cdot\\frac{1}{6}x^6 = \\frac{1}{3}x^6\\).",
+        "Agrega la constante + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(3e^x + 2\\).",
+      "formula": "\\(\\int (3e^x + 2)\\, dx\\)",
+      "options": [
+        "\\(3e^x + 2x + C\\)",
+        "\\(e^x + 2x + C\\)",
+        "\\(3e^x + C\\)",
+        "\\(3e^x + 2 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La integral es lineal: \\(\\int 3e^x dx = 3e^x\\) y \\(\\int 2 dx = 2x\\), por lo que se obtiene \\(3e^x + 2x + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Separa la integral en dos: \\(\\int 3e^x dx\\) y \\(\\int 2 dx\\).",
+        "Integra cada término: \\(3e^x\\) y \\(2x\\).",
+        "Suma ambos resultados y agrega la constante de integración."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(4x^2 + 6\\).",
+      "formula": "\\(\\int (4x^2 + 6)\\, dx\\)",
+      "options": [
+        "\\(\\frac{4}{3}x^3 + 6x + C\\)",
+        "\\(4x^3 + 6x + C\\)",
+        "\\(\\frac{4}{2}x^3 + 6x + C\\)",
+        "\\(\\frac{2}{3}x^3 + 6x + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La integral se descompone: \\(\\int 4x^2 dx = \\frac{4}{3}x^3\\) y \\(\\int 6 dx = 6x\\); así, la respuesta es \\(\\frac{4}{3}x^3 + 6x + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Integra cada término: \\(4x^2\\) y 6.",
+        "Para \\(4x^2\\), usa \\(\\frac{4}{3}x^3\\).",
+        "Para 6, la integral es \\(6x\\).",
+        "Suma ambos resultados y agrega + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(x^2 + e^x\\).",
+      "formula": "\\(\\int (x^2 + e^x)\\, dx\\)",
+      "options": [
+        "\\(\\frac{1}{3}x^3 + e^x + C\\)",
+        "\\(x^3 + e^x + C\\)",
+        "\\(\\frac{1}{2}x^3 + e^x + C\\)",
+        "\\(\\frac{1}{3}x^3 + e^x\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se integra cada término: \\(\\int x^2 dx = \\frac{1}{3}x^3\\) y \\(\\int e^x dx = e^x\\); sumando se obtiene \\(\\frac{1}{3}x^3 + e^x + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Descompone la integral en dos partes.",
+        "Integra \\(x^2\\) obteniendo \\(\\frac{1}{3}x^3\\).",
+        "Integra \\(e^x\\) obteniendo \\(e^x\\).",
+        "Suma los resultados y agrega la constante + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(10x^4\\).",
+      "formula": "\\(\\int 10x^4\\, dx\\)",
+      "options": [
+        "\\(2x^5 + C\\)",
+        "\\(\\frac{10}{5}x^5 + C\\)",
+        "\\(\\frac{1}{5}x^5 + C\\)",
+        "\\(10x^5 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Integrando \\(x^4\\) se obtiene \\(\\frac{1}{5}x^5\\) y al multiplicar por 10 se tiene \\(10 \\cdot \\frac{1}{5}x^5 = 2x^5 + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identifica \\(n=4\\) y aplica \\(\\frac{1}{n+1}x^{n+1}\\).",
+        "Multiplica \\(\\frac{1}{5}x^5\\) por 10 para obtener \\(2x^5\\).",
+        "Agrega + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(6x^3\\).",
+      "formula": "\\(\\int 6x^3\\, dx\\)",
+      "options": [
+        "\\(\\frac{3}{2}x^4 + C\\)",
+        "\\(\\frac{6}{4}x^4 + C\\)",
+        "\\(\\frac{6}{5}x^4 + C\\)",
+        "\\(\\frac{3}{4}x^4 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La integral de \\(x^3\\) es \\(\\frac{1}{4}x^4\\); al multiplicar por 6 se obtiene \\(6 \\cdot \\frac{1}{4}x^4 = \\frac{3}{2}x^4 + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Integra \\(x^3\\) obteniendo \\(\\frac{1}{4}x^4\\).",
+        "Multiplica por 6: \\(6 \\cdot \\frac{1}{4}x^4 = \\frac{3}{2}x^4\\).",
+        "Agrega la constante de integración."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(8\\).",
+      "formula": "\\(\\int 8\\, dx\\)",
+      "options": [
+        "\\(8x + C\\)",
+        "\\(\\frac{8}{2}x^2 + C\\)",
+        "\\(8x^2 + C\\)",
+        "\\(4x + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La integral de una constante es el producto de la constante por \\(x\\): \\(8x + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Reconoce que 8 es una constante.",
+        "Multiplica por \\(x\\): \\(8x\\).",
+        "Agrega la constante de integración: + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(9e^x + x\\).",
+      "formula": "\\(\\int (9e^x + x)\\, dx\\)",
+      "options": [
+        "\\(9e^x + \\frac{1}{2}x^2 + C\\)",
+        "\\(9e^x + x^2 + C\\)",
+        "\\(e^x + \\frac{1}{2}x^2 + C\\)",
+        "\\(9e^x + \\frac{1}{3}x^2 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Integra cada término: \\(\\int 9e^x dx = 9e^x\\) y \\(\\int x dx = \\frac{1}{2}x^2\\); sumando se obtiene \\(9e^x + \\frac{1}{2}x^2 + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Descompón la integral en \\(9e^x\\) y \\(x\\).",
+        "Integra cada parte individualmente.",
+        "Suma los resultados y agrega la constante + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(11x^7\\).",
+      "formula": "\\(\\int 11x^7\\, dx\\)",
+      "options": [
+        "\\(\\frac{11}{8}x^8 + C\\)",
+        "\\(11x^8 + C\\)",
+        "\\(\\frac{11}{7}x^8 + C\\)",
+        "\\(\\frac{11}{9}x^8 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Para \\(x^7\\), la integral es \\(\\frac{1}{8}x^8\\); multiplicando por 11 se obtiene \\(\\frac{11}{8}x^8 + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identifica \\(n=7\\) y aplica la fórmula \\(\\frac{1}{n+1}x^{n+1}\\).",
+        "Multiplica el resultado por 11.",
+        "Agrega la constante de integración."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(12x^2\\).",
+      "formula": "\\(\\int 12x^2\\, dx\\)",
+      "options": [
+        "\\(4x^3 + C\\)",
+        "\\(6x^3 + C\\)",
+        "\\(\\frac{12}{3}x^3 + C\\)",
+        "\\(3x^3 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Integrando \\(x^2\\) se obtiene \\(\\frac{1}{3}x^3\\); al multiplicar por 12 se tiene \\(12\\cdot\\frac{1}{3}x^3 = 4x^3 + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Aplica la fórmula para \\(x^2\\): \\(\\frac{1}{3}x^3\\).",
+        "Multiplica el resultado por 12.",
+        "Agrega la constante + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(4e^x + 5x^2\\).",
+      "formula": "\\(\\int (4e^x + 5x^2)\\, dx\\)",
+      "options": [
+        "\\(4e^x + \\frac{5}{3}x^3 + C\\)",
+        "\\(4e^x + 5x^3 + C\\)",
+        "\\(e^x + \\frac{5}{3}x^3 + C\\)",
+        "\\(4e^x + \\frac{5}{2}x^3 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se integra \\(4e^x\\) a \\(4e^x\\) y \\(5x^2\\) a \\(\\frac{5}{3}x^3\\); la suma es \\(4e^x + \\frac{5}{3}x^3 + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Descompón la integral en dos partes.",
+        "Integra \\(4e^x\\) y \\(5x^2\\) por separado.",
+        "Suma los resultados y añade la constante de integración."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(2x^3 + 3\\).",
+      "formula": "\\(\\int (2x^3 + 3)\\, dx\\)",
+      "options": [
+        "\\(\\frac{1}{2}x^4 + 3x + C\\)",
+        "\\(\\frac{2}{3}x^4 + 3x + C\\)",
+        "\\(\\frac{1}{2}x^4 + 3 + C\\)",
+        "\\(2x^4 + 3x + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La integral de \\(2x^3\\) es \\(2\\cdot\\frac{1}{4}x^4 = \\frac{1}{2}x^4\\) y la integral de 3 es \\(3x\\); sumando se obtiene \\(\\frac{1}{2}x^4 + 3x + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Separa la integral en \\(2x^3\\) y 3.",
+        "Integra \\(2x^3\\) y obtén \\(\\frac{1}{2}x^4\\).",
+        "Integra 3 para obtener \\(3x\\).",
+        "Suma los resultados y agrega + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(3x^4 + 4e^x\\).",
+      "formula": "\\(\\int (3x^4 + 4e^x)\\, dx\\)",
+      "options": [
+        "\\(\\frac{3}{5}x^5 + 4e^x + C\\)",
+        "\\(3x^5 + 4e^x + C\\)",
+        "\\(\\frac{3}{4}x^5 + 4e^x + C\\)",
+        "\\(\\frac{3}{5}x^5 + 4xe^x + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Integra \\(x^4\\) obteniendo \\(\\frac{1}{5}x^5\\) y multiplica por 3, y \\(4e^x\\) se integra a \\(4e^x\\); la suma es \\(\\frac{3}{5}x^5 + 4e^x + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Integra \\(3x^4\\) como \\(3\\cdot\\frac{1}{5}x^5\\).",
+        "Integra \\(4e^x\\) obteniendo \\(4e^x\\).",
+        "Suma ambos términos y agrega + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(5x^2 + 2\\).",
+      "formula": "\\(\\int (5x^2 + 2)\\, dx\\)",
+      "options": [
+        "\\(\\frac{5}{3}x^3 + 2x + C\\)",
+        "\\(5x^3 + 2x + C\\)",
+        "\\(\\frac{5}{2}x^3 + 2x + C\\)",
+        "\\(\\frac{5}{3}x^3 + 2 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La integral de \\(5x^2\\) es \\(\\frac{5}{3}x^3\\) y la de 2 es \\(2x\\); sumando se obtiene \\(\\frac{5}{3}x^3 + 2x + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Separa la integral en dos términos.",
+        "Integra \\(5x^2\\) y \\(2\\) por separado.",
+        "Suma los resultados y añade + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(7x + 9\\).",
+      "formula": "\\(\\int (7x + 9)\\, dx\\)",
+      "options": [
+        "\\(\\frac{7}{2}x^2 + 9x + C\\)",
+        "\\(7x^2 + 9x + C\\)",
+        "\\(\\frac{7}{2}x^2 + 9 + C\\)",
+        "\\(7x^2 + 9 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La integral de \\(7x\\) es \\(\\frac{7}{2}x^2\\) y la de 9 es \\(9x\\); la suma es \\(\\frac{7}{2}x^2 + 9x + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Integra \\(7x\\) para obtener \\(\\frac{7}{2}x^2\\).",
+        "Integra 9 para obtener \\(9x\\).",
+        "Suma los resultados y agrega la constante + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(8x^6\\).",
+      "formula": "\\(\\int 8x^6\\, dx\\)",
+      "options": [
+        "\\(\\frac{8}{7}x^7 + C\\)",
+        "\\(8x^7 + C\\)",
+        "\\(\\frac{8}{6}x^7 + C\\)",
+        "\\(\\frac{8}{8}x^7 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La integral de \\(x^6\\) es \\(\\frac{1}{7}x^7\\); multiplicando por 8 se obtiene \\(\\frac{8}{7}x^7 + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identifica \\(n=6\\) y aplica \\(\\frac{1}{n+1}x^{n+1}\\).",
+        "Multiplica por 8: \\(8\\cdot\\frac{1}{7}x^7\\).",
+        "Agrega + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(2x + 3e^x\\).",
+      "formula": "\\(\\int (2x + 3e^x)\\, dx\\)",
+      "options": [
+        "\\(x^2 + 3e^x + C\\)",
+        "\\(2x^2 + 3e^x + C\\)",
+        "\\(x^2 + 3e^x x + C\\)",
+        "\\(2x^2 + 3xe^x + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La integral de \\(2x\\) es \\(x^2\\) y la de \\(3e^x\\) es \\(3e^x\\); sumando se obtiene \\(x^2 + 3e^x + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Descompón la integral en dos partes.",
+        "Integra \\(2x\\) para obtener \\(x^2\\).",
+        "Integra \\(3e^x\\) para obtener \\(3e^x\\).",
+        "Suma ambos resultados y agrega + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(4x^5\\).",
+      "formula": "\\(\\int 4x^5\\, dx\\)",
+      "options": [
+        "\\(\\frac{2}{3}x^6 + C\\)",
+        "\\(\\frac{4}{6}x^6 + C\\)",
+        "\\(\\frac{4}{5}x^6 + C\\)",
+        "\\(\\frac{1}{3}x^6 + C\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La integral de \\(x^5\\) es \\(\\frac{1}{6}x^6\\); multiplicando por 4 se obtiene \\(\\frac{4}{6}x^6 = \\frac{2}{3}x^6 + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Aplica la fórmula para \\(x^5\\): \\(\\frac{1}{6}x^6\\).",
+        "Multiplica el resultado por 4.",
+        "Simplifica \\(\\frac{4}{6}\\) a \\(\\frac{2}{3}\\) y agrega + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(x^3 + 2x^2\\).",
+      "formula": "\\(\\int (x^3 + 2x^2)\\, dx\\)",
+      "options": [
+        "\\(\\frac{1}{4}x^4 + \\frac{2}{3}x^3 + C\\)",
+        "\\(\\frac{1}{3}x^4 + \\frac{2}{2}x^3 + C\\)",
+        "\\(\\frac{1}{4}x^4 + 2x^3 + C\\)",
+        "\\(\\frac{1}{4}x^4 + \\frac{2}{4}x^3 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La integral de \\(x^3\\) es \\(\\frac{1}{4}x^4\\) y la de \\(2x^2\\) es \\(2\\cdot\\frac{1}{3}x^3 = \\frac{2}{3}x^3\\); sumando se obtiene \\(\\frac{1}{4}x^4 + \\frac{2}{3}x^3 + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Integra \\(x^3\\) para obtener \\(\\frac{1}{4}x^4\\).",
+        "Integra \\(2x^2\\) para obtener \\(\\frac{2}{3}x^3\\).",
+        "Suma los resultados y añade + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(3x^2 + 4\\).",
+      "formula": "\\(\\int (3x^2 + 4)\\, dx\\)",
+      "options": [
+        "\\(x^3 + 4x + C\\)",
+        "\\(\\frac{3}{3}x^3 + 4x + C\\)",
+        "\\(3x^3 + 4x + C\\)",
+        "\\(x^3 + 4 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La integral de \\(3x^2\\) es \\(x^3\\) y la de 4 es \\(4x\\); sumando se obtiene \\(x^3 + 4x + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Integra \\(3x^2\\) para obtener \\(x^3\\).",
+        "Integra 4 para obtener \\(4x\\).",
+        "Suma los dos términos y agrega + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(6e^x + 5\\).",
+      "formula": "\\(\\int (6e^x + 5)\\, dx\\)",
+      "options": [
+        "\\(6e^x + 5x + C\\)",
+        "\\(6e^x + C\\)",
+        "\\(6e^x + 5 + C\\)",
+        "\\(e^x + 5x + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Integra \\(6e^x\\) a \\(6e^x\\) y \\(5\\) a \\(5x\\); sumando se obtiene \\(6e^x + 5x + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Descompón la integral en \\(6e^x\\) y 5.",
+        "Integra cada término por separado.",
+        "Suma los resultados y añade + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(2x^7\\).",
+      "formula": "\\(\\int 2x^7\\, dx\\)",
+      "options": [
+        "\\(\\frac{1}{4}x^8 + C\\)",
+        "\\(\\frac{2}{8}x^8 + C\\)",
+        "\\(\\frac{2}{7}x^8 + C\\)",
+        "\\(\\frac{2}{9}x^8 + C\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La integral de \\(x^7\\) es \\(\\frac{1}{8}x^8\\); multiplicando por 2 se obtiene \\(\\frac{2}{8}x^8 = \\frac{1}{4}x^8 + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identifica \\(n=7\\) y aplica la fórmula: \\(\\frac{1}{8}x^8\\).",
+        "Multiplica el resultado por 2.",
+        "Simplifica \\(\\frac{2}{8}\\) a \\(\\frac{1}{4}\\) y añade + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(7e^x + 2x\\).",
+      "formula": "\\(\\int (7e^x + 2x)\\, dx\\)",
+      "options": [
+        "\\(7e^x + x^2 + C\\)",
+        "\\(7e^x + 2x^2 + C\\)",
+        "\\(e^x + x^2 + C\\)",
+        "\\(7xe^x + x^2 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La integral de \\(7e^x\\) es \\(7e^x\\) y la de \\(2x\\) es \\(x^2\\); sumando se obtiene \\(7e^x + x^2 + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Separa la integral en dos términos.",
+        "Integra \\(7e^x\\) y \\(2x\\) por separado.",
+        "Suma los resultados y agrega + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(3x + 5\\).",
+      "formula": "\\(\\int (3x + 5)\\, dx\\)",
+      "options": [
+        "\\(\\frac{3}{2}x^2 + 5x + C\\)",
+        "\\(3x^2 + 5x + C\\)",
+        "\\(\\frac{3}{2}x^2 + C\\)",
+        "\\(3x^2 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La integral de \\(3x\\) es \\(\\frac{3}{2}x^2\\) y la de 5 es \\(5x\\); sumando se obtiene \\(\\frac{3}{2}x^2 + 5x + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Integra \\(3x\\) obteniendo \\(\\frac{3}{2}x^2\\).",
+        "Integra 5 para obtener \\(5x\\).",
+        "Suma ambos resultados y agrega + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(x^9\\).",
+      "formula": "\\(\\int x^9\\, dx\\)",
+      "options": [
+        "\\(\\frac{1}{10}x^{10} + C\\)",
+        "\\(\\frac{1}{9}x^{10} + C\\)",
+        "\\(x^{10} + C\\)",
+        "\\(\\frac{1}{11}x^{10} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La integral de \\(x^9\\) es \\(\\frac{1}{10}x^{10} + C\\) aplicando la fórmula \\(\\frac{1}{n+1}x^{n+1}\\) con \\(n=9\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identifica \\(n=9\\) y aplica la fórmula: \\(\\frac{1}{10}x^{10}\\).",
+        "Agrega la constante de integración: + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(4x^3 + 6x\\).",
+      "formula": "\\(\\int (4x^3 + 6x)\\, dx\\)",
+      "options": [
+        "\\(x^4 + 3x^2 + C\\)",
+        "\\(\\frac{4}{4}x^4 + 6x^2 + C\\)",
+        "\\(4x^4 + 6x^2 + C\\)",
+        "\\(x^4 + 6x + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La integral de \\(4x^3\\) es \\(x^4\\) y la de \\(6x\\) es \\(3x^2\\); sumando se obtiene \\(x^4 + 3x^2 + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Integra \\(4x^3\\) para obtener \\(x^4\\).",
+        "Integra \\(6x\\) para obtener \\(3x^2\\).",
+        "Suma los dos resultados y añade + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(5x^6 + 3\\).",
+      "formula": "\\(\\int (5x^6 + 3)\\, dx\\)",
+      "options": [
+        "\\(\\frac{5}{7}x^7 + 3x + C\\)",
+        "\\(\\frac{5}{6}x^7 + 3x + C\\)",
+        "\\(5x^7 + 3x + C\\)",
+        "\\(\\frac{5}{7}x^7 + 3 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La integral de \\(5x^6\\) es \\(\\frac{5}{7}x^7\\) y la de 3 es \\(3x\\); sumando se obtiene \\(\\frac{5}{7}x^7 + 3x + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Integra \\(5x^6\\) aplicando la fórmula \\(\\frac{1}{6+1}x^7\\).",
+        "Multiplica el resultado por 5.",
+        "Integra la constante 3 para obtener \\(3x\\).",
+        "Suma ambos resultados y agrega + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(x\\).",
+      "formula": "\\(\\int x\\, dx\\)",
+      "options": [
+        "x^2 + C",
+        "\\(\\frac{1}{2}x^2 + C\\)",
+        "\\(\\frac{1}{3}x^3 + C\\)",
+        "ln|x| + C"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La antiderivada de \\(x\\) es \\(\\frac{1}{2}x^2 + C\\) ya que al derivar \\(\\frac{1}{2}x^2\\) se obtiene \\(x\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identifica la forma de la función: \\(x = x^1\\).",
+        "Aplica la regla: \\(\\int x^n dx = \\frac{1}{n+1}x^{n+1} + C\\).",
+        "Sustituye \\(n = 1\\): \\(\\frac{1}{1+1}x^{1+1} = \\frac{1}{2}x^2\\).",
+        "Agrega la constante de integración: + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(x^2\\).",
+      "formula": "\\(\\int x^2\\, dx\\)",
+      "options": [
+        "\\(\\frac{1}{2}x^2 + C\\)",
+        "\\(\\frac{1}{3}x^3 + C\\)",
+        "\\(\\frac{1}{4}x^4 + C\\)",
+        "x^3 + C"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Aplicando la regla de integración, \\(\\int x^2 dx = \\frac{1}{3}x^3 + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Escribe \\(x^2\\) como \\(x^n\\) con \\(n = 2\\).",
+        "Aplica la fórmula: \\(\\frac{1}{n+1}x^{n+1}\\).",
+        "Sustituye \\(n = 2\\): \\(\\frac{1}{3}x^3\\).",
+        "Agrega la constante de integración: + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(2x\\).",
+      "formula": "\\(\\int 2x\\, dx\\)",
+      "options": [
+        "\\(x^2 + C\\)",
+        "\\(\\frac{1}{2}x^2 + C\\)",
+        "\\(2x^2 + C\\)",
+        "x^2 + 2C"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La constante se puede factorizar: \\(\\int 2x\\, dx = 2\\int x\\, dx = 2\\cdot\\frac{1}{2}x^2 + C = x^2 + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Extrae la constante 2 fuera de la integral.",
+        "Integra \\(x\\) obteniendo \\(\\frac{1}{2}x^2\\).",
+        "Multiplica: \\(2 \\cdot \\frac{1}{2}x^2 = x^2\\).",
+        "Agrega la constante de integración: + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(e^x\\).",
+      "formula": "\\(\\int e^x\\, dx\\)",
+      "options": [
+        "e^x + C",
+        "\\(\\frac{1}{2}e^x + C\\)",
+        "\\(e^{x} \\cdot x + C\\)",
+        "x e^x + C"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La función exponencial se integra a sí misma: \\(\\int e^x dx = e^x + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Reconoce que \\(e^x\\) es su propia derivada.",
+        "Aplica la regla: \\(\\int e^x dx = e^x + C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(3e^x\\).",
+      "formula": "\\(\\int 3e^x\\, dx\\)",
+      "options": [
+        "3e^x + C",
+        "\\(e^x + C\\)",
+        "\\(3e^x \\cdot x + C\\)",
+        "\\(\\frac{3}{2}e^x + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La constante 3 se mantiene: \\(\\int 3e^x dx = 3\\int e^x dx = 3e^x + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Extrae la constante 3.",
+        "Integra \\(e^x\\) dando \\(e^x\\).",
+        "Multiplica por la constante: 3e^x.",
+        "Agrega la constante de integración: + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(x^3\\).",
+      "formula": "\\(\\int x^3\\, dx\\)",
+      "options": [
+        "\\(\\frac{1}{4}x^4 + C\\)",
+        "\\(\\frac{1}{3}x^3 + C\\)",
+        "\\(x^4 + C\\)",
+        "\\(\\frac{1}{2}x^4 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla, \\(\\int x^3 dx = \\frac{1}{3+1}x^{3+1} + C = \\frac{1}{4}x^4 + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identifica \\(n = 3\\) en \\(x^3\\).",
+        "Aplica la fórmula: \\(\\frac{1}{n+1}x^{n+1}\\).",
+        "Sustituye \\(n = 3\\): \\(\\frac{1}{4}x^4\\).",
+        "Agrega + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(5\\).",
+      "formula": "\\(\\int 5\\, dx\\)",
+      "options": ["5x + C", "\\(\\frac{5}{2}x^2 + C\\)", "5 + C", "x + 5C"],
+      "correctAnswer": 0,
+      "explanation": "La integral de una constante es la constante por \\(x\\): \\(\\int 5 dx = 5x + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Reconoce que 5 es una constante.",
+        "Multiplica por \\(x\\): 5x.",
+        "Agrega la constante de integración: + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(4x^4\\).",
+      "formula": "\\(\\int 4x^4\\, dx\\)",
+      "options": [
+        "\\(\\frac{4}{5}x^5 + C\\)",
+        "\\(4x^5 + C\\)",
+        "\\(\\frac{1}{5}x^5 + C\\)",
+        "\\(\\frac{4}{4}x^4 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se aplica la regla: \\(\\int x^n dx = \\frac{1}{n+1}x^{n+1}\\) con \\(n = 4\\). Así, \\(\\int 4x^4 dx = 4\\cdot\\frac{1}{5}x^5 + C = \\frac{4}{5}x^5 + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Extrae la constante 4.",
+        "Integra \\(x^4\\) usando \\(\\frac{1}{5}x^5\\).",
+        "Multiplica: \\(4 \\times \\frac{1}{5}x^5 = \\frac{4}{5}x^5\\).",
+        "Agrega + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(7x^6\\).",
+      "formula": "\\(\\int 7x^6\\, dx\\)",
+      "options": [
+        "\\(x^7 + C\\)",
+        "\\(\\frac{7}{7}x^7 + C\\)",
+        "\\(\\frac{1}{7}x^7 + C\\)",
+        "\\(7x^7 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla, \\(\\int x^6 dx = \\frac{1}{7}x^7\\) y multiplicando por 7 se obtiene \\(x^7 + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identifica \\(n = 6\\) y usa \\(\\frac{1}{7}x^7\\) para \\(x^6\\).",
+        "Multiplica por 7: \\(7 \\cdot \\frac{1}{7}x^7 = x^7\\).",
+        "Agrega la constante de integración: + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(x^5\\).",
+      "formula": "\\(\\int x^5\\, dx\\)",
+      "options": [
+        "\\(\\frac{1}{6}x^6 + C\\)",
+        "\\(\\frac{1}{5}x^5 + C\\)",
+        "\\(\\frac{1}{7}x^7 + C\\)",
+        "x^6 + C"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Para \\(x^5\\), \\(\\int x^5 dx = \\frac{1}{5+1}x^{5+1} + C = \\frac{1}{6}x^6 + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Usa la fórmula de integración para potencias de \\(x\\).",
+        "Sustituye \\(n = 5\\) en \\(\\frac{1}{n+1}x^{n+1}\\).",
+        "Obtén \\(\\frac{1}{6}x^6 + C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(2x^3\\).",
+      "formula": "\\(\\int 2x^3\\, dx\\)",
+      "options": [
+        "\\(\\frac{1}{2}x^4 + C\\)",
+        "\\(2x^4 + C\\)",
+        "\\(\\frac{2}{3}x^4 + C\\)",
+        "\\(\\frac{1}{4}x^4 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se factoriza la constante 2 y se integra \\(x^3\\): \\(2\\cdot\\frac{1}{4}x^4 = \\frac{1}{2}x^4 + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Extrae la constante 2.",
+        "Integra \\(x^3\\) usando \\(\\frac{1}{4}x^4\\).",
+        "Multiplica: \\(2 \\times \\frac{1}{4} = \\frac{1}{2}\\).",
+        "Agrega + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(6x^2\\).",
+      "formula": "\\(\\int 6x^2\\, dx\\)",
+      "options": [
+        "2x^3 + C",
+        "\\(3x^3 + C\\)",
+        "\\(\\frac{1}{3}x^3 + C\\)",
+        "\\(6x^3 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Integrando \\(x^2\\) se obtiene \\(\\frac{1}{3}x^3\\) y al multiplicar por 6 se tiene \\(6\\cdot\\frac{1}{3}x^3 = 2x^3 + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identifica \\(x^2\\) y su antiderivada \\(\\frac{1}{3}x^3\\).",
+        "Multiplica por la constante 6: \\(6 \\times \\frac{1}{3} = 2\\).",
+        "El resultado es \\(2x^3 + C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(8e^x\\).",
+      "formula": "\\(\\int 8e^x\\, dx\\)",
+      "options": [
+        "8e^x + C",
+        "\\(4e^x + C\\)",
+        "e^x + C",
+        "\\(8e^x \\cdot x + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La integral de \\(e^x\\) es \\(e^x + C\\), por lo que \\(8e^x\\) se integra como \\(8e^x + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Extrae la constante 8.",
+        "Integra \\(e^x\\) obteniendo \\(e^x\\).",
+        "Multiplica: \\(8e^x\\).",
+        "Agrega la constante de integración: + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(10\\).",
+      "formula": "\\(\\int 10\\, dx\\)",
+      "options": ["10x + C", "\\(\\frac{10}{2}x^2 + C\\)", "10 + C", "x + 10C"],
+      "correctAnswer": 0,
+      "explanation": "La integral de una constante es la constante multiplicada por \\(x\\): \\(10x + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Reconoce que 10 es una constante.",
+        "Multiplica por \\(x\\): 10x.",
+        "Agrega + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(1\\).",
+      "formula": "\\(\\int 1\\, dx\\)",
+      "options": ["x + C", "1 + C", "ln|x| + C", "x^2 + C"],
+      "correctAnswer": 0,
+      "explanation": "La integral de 1 es \\(x\\) ya que \\(\\frac{d}{dx}(x)=1\\), por lo que se tiene \\(x + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identifica que 1 es una constante.",
+        "Integra: \\(\\int 1 dx = x\\).",
+        "Agrega la constante: + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(9x\\).",
+      "formula": "\\(\\int 9x\\, dx\\)",
+      "options": [
+        "\\(\\frac{9}{2}x^2 + C\\)",
+        "9x^2 + C",
+        "\\(\\frac{9}{3}x^2 + C\\)",
+        "9 + C"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se extrae la constante 9 y se integra \\(x\\) obteniendo \\(\\frac{1}{2}x^2\\). Multiplicando: \\(9\\cdot\\frac{1}{2}x^2 = \\frac{9}{2}x^2 + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Extrae la constante 9.",
+        "Integra \\(x\\): \\(\\frac{1}{2}x^2\\).",
+        "Multiplica por 9: \\(\\frac{9}{2}x^2\\).",
+        "Agrega + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(x^4\\).",
+      "formula": "\\(\\int x^4\\, dx\\)",
+      "options": [
+        "\\(\\frac{1}{5}x^5 + C\\)",
+        "\\(\\frac{1}{4}x^4 + C\\)",
+        "x^5 + C",
+        "\\(\\frac{1}{3}x^5 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Utilizando la regla: \\(\\int x^4 dx = \\frac{1}{4+1}x^{5} + C = \\frac{1}{5}x^5 + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identifica \\(n = 4\\).",
+        "Aplica la fórmula \\(\\frac{1}{n+1}x^{n+1}\\): \\(\\frac{1}{5}x^5\\).",
+        "Agrega la constante: + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(2e^x\\).",
+      "formula": "\\(\\int 2e^x\\, dx\\)",
+      "options": [
+        "2e^x + C",
+        "e^x + C",
+        "\\(2e^x \\cdot x + C\\)",
+        "\\(\\frac{2}{e^x} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se extrae la constante 2 y se integra \\(e^x\\) obteniendo \\(e^x + C\\), resultando en \\(2e^x + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Extrae la constante 2.",
+        "Integra \\(e^x\\) que es \\(e^x\\).",
+        "Multiplica: 2e^x.",
+        "Agrega la constante de integración: + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(3x^2\\).",
+      "formula": "\\(\\int 3x^2\\, dx\\)",
+      "options": [
+        "x^3 + C",
+        "\\(\\frac{1}{3}x^3 + C\\)",
+        "\\(3x^3 + C\\)",
+        "\\(\\frac{3}{2}x^3 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Integrando \\(x^2\\) se obtiene \\(\\frac{1}{3}x^3\\) y al multiplicar por 3 se obtiene \\(x^3 + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Extrae la constante 3.",
+        "Integra \\(x^2\\): \\(\\frac{1}{3}x^3\\).",
+        "Multiplica: \\(3\\cdot\\frac{1}{3}x^3 = x^3\\).",
+        "Agrega + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(4x\\).",
+      "formula": "\\(\\int 4x\\, dx\\)",
+      "options": [
+        "2x^2 + C",
+        "4x^2 + C",
+        "\\(\\frac{4}{3}x^2 + C\\)",
+        "\\(x^2 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se integra \\(x\\) obteniendo \\(\\frac{1}{2}x^2\\) y se multiplica por 4: \\(4\\cdot\\frac{1}{2}x^2 = 2x^2 + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Extrae la constante 4.",
+        "Integra \\(x\\) para obtener \\(\\frac{1}{2}x^2\\).",
+        "Multiplica: \\(4\\times \\frac{1}{2}x^2 = 2x^2\\).",
+        "Agrega + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(5x^3\\).",
+      "formula": "\\(\\int 5x^3\\, dx\\)",
+      "options": [
+        "\\(\\frac{5}{4}x^4 + C\\)",
+        "5x^4 + C",
+        "\\(\\frac{1}{4}x^4 + C\\)",
+        "\\(x^4 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la fórmula para \\(x^3\\): \\(\\frac{1}{4}x^4\\) y multiplicando por 5 se obtiene \\(\\frac{5}{4}x^4 + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identifica \\(n = 3\\).",
+        "Integra: \\(\\frac{1}{3+1}x^{4} = \\frac{1}{4}x^4\\).",
+        "Multiplica por 5: \\(5 \\times \\frac{1}{4}x^4 = \\frac{5}{4}x^4\\).",
+        "Agrega + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(2x^2\\).",
+      "formula": "\\(\\int 2x^2\\, dx\\)",
+      "options": [
+        "\\(\\frac{2}{3}x^3 + C\\)",
+        "\\(x^3 + C\\)",
+        "\\(\\frac{1}{3}x^3 + C\\)",
+        "2x^3 + C"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Integrando \\(x^2\\) se obtiene \\(\\frac{1}{3}x^3\\); multiplicado por 2: \\(\\frac{2}{3}x^3 + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Extrae la constante 2.",
+        "Integra \\(x^2\\): \\(\\frac{1}{3}x^3\\).",
+        "Multiplica: \\(2 \\times \\frac{1}{3}x^3 = \\frac{2}{3}x^3\\).",
+        "Agrega + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(7\\).",
+      "formula": "\\(\\int 7\\, dx\\)",
+      "options": ["7x + C", "x + 7C", "7 + C", "\\(\\frac{7}{2}x^2 + C\\)"],
+      "correctAnswer": 0,
+      "explanation": "La integral de una constante es la constante multiplicada por \\(x\\): \\(7x + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Reconoce que 7 es una constante.",
+        "Multiplica por \\(x\\): 7x.",
+        "Agrega + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(4e^x\\).",
+      "formula": "\\(\\int 4e^x\\, dx\\)",
+      "options": [
+        "4e^x + C",
+        "e^x + C",
+        "\\(4xe^x + C\\)",
+        "\\(\\frac{4}{2}e^x + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se integra \\(e^x\\) a \\(e^x + C\\) y al multiplicar por 4 se obtiene \\(4e^x + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Extrae la constante 4.",
+        "Integra \\(e^x\\) para obtener \\(e^x\\).",
+        "Multiplica: 4e^x.",
+        "Agrega + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(x^7\\).",
+      "formula": "\\(\\int x^7\\, dx\\)",
+      "options": [
+        "\\(\\frac{1}{8}x^8 + C\\)",
+        "x^8 + C",
+        "\\(\\frac{1}{7}x^7 + C\\)",
+        "\\(\\frac{1}{9}x^8 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla: \\(\\int x^7 dx = \\frac{1}{7+1}x^{8} + C = \\frac{1}{8}x^8 + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identifica \\(n = 7\\).",
+        "Aplica la fórmula: \\(\\frac{1}{n+1}x^{n+1}\\).",
+        "Sustituye: \\(\\frac{1}{8}x^8 + C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(6x\\).",
+      "formula": "\\(\\int 6x\\, dx\\)",
+      "options": [
+        "3x^2 + C",
+        "6x^2 + C",
+        "\\(\\frac{6}{2}x^2 + C\\)",
+        "x^2 + C"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Integrando \\(x\\) se obtiene \\(\\frac{1}{2}x^2\\) y multiplicando por 6: \\(6\\cdot\\frac{1}{2}x^2 = 3x^2 + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Extrae la constante 6.",
+        "Integra \\(x\\): \\(\\frac{1}{2}x^2\\).",
+        "Multiplica: 3x^2.",
+        "Agrega + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(2x^4\\).",
+      "formula": "\\(\\int 2x^4\\, dx\\)",
+      "options": [
+        "\\(\\frac{2}{5}x^5 + C\\)",
+        "2x^5 + C",
+        "\\(\\frac{1}{5}x^5 + C\\)",
+        "x^5 + C"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se integra \\(x^4\\) como \\(\\frac{1}{5}x^5\\) y al multiplicar por 2 se obtiene \\(\\frac{2}{5}x^5 + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Extrae la constante 2.",
+        "Integra \\(x^4\\): \\(\\frac{1}{5}x^5\\).",
+        "Multiplica: \\(2\\times\\frac{1}{5}x^5 = \\frac{2}{5}x^5\\).",
+        "Agrega + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(3x^6\\).",
+      "formula": "\\(\\int 3x^6\\, dx\\)",
+      "options": [
+        "\\(\\frac{3}{7}x^7 + C\\)",
+        "3x^7 + C",
+        "\\(\\frac{1}{7}x^7 + C\\)",
+        "\\(\\frac{3}{6}x^7 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Integrando \\(x^6\\) se obtiene \\(\\frac{1}{7}x^7\\) y multiplicando por 3: \\(\\frac{3}{7}x^7 + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identifica \\(n = 6\\) y usa \\(\\frac{1}{7}x^7\\).",
+        "Multiplica por 3: \\(3\\times\\frac{1}{7}x^7 = \\frac{3}{7}x^7\\).",
+        "Agrega + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(2\\).",
+      "formula": "\\(\\int 2\\, dx\\)",
+      "options": ["2x + C", "\\(\\frac{2}{2}x^2 + C\\)", "x + C", "2 + C"],
+      "correctAnswer": 0,
+      "explanation": "La integral de una constante es la constante por \\(x\\): \\(2x + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Reconoce que 2 es una constante.",
+        "Multiplica por \\(x\\): 2x.",
+        "Agrega la constante de integración: + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(10x^2\\).",
+      "formula": "\\(\\int 10x^2\\, dx\\)",
+      "options": [
+        "\\(\\frac{10}{3}x^3 + C\\)",
+        "10x^3 + C",
+        "\\(\\frac{10}{2}x^3 + C\\)",
+        "\\(\\frac{1}{3}x^3 + 10C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Integrando \\(x^2\\) se tiene \\(\\frac{1}{3}x^3\\) y al multiplicar por 10 se obtiene \\(\\frac{10}{3}x^3 + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Extrae la constante 10.",
+        "Integra \\(x^2\\): \\(\\frac{1}{3}x^3\\).",
+        "Multiplica: \\(10 \\times \\frac{1}{3}x^3 = \\frac{10}{3}x^3\\).",
+        "Agrega + C."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(x^2\\).",
+      "formula": "\\(x^2\\)",
+      "options": [
+        "\\(\\frac{x^2}{2} + C\\)",
+        "\\(\\frac{2x^3}{3} + C\\)",
+        "\\(\\frac{x^3}{3} + C\\)",
+        "\\(\\frac{3x^3}{2} + C\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Se aplica la regla de potencias: \\(\\int x^n dx = \\frac{x^{n+1}}{n+1} + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identifica que n = 2.",
+        "Calcula n + 1 = 3.",
+        "Aplica la fórmula para obtener \\(\\frac{x^3}{3} + C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(e^x\\).",
+      "formula": "\\(e^x\\)",
+      "options": [
+        "\\(e^x + C\\)",
+        "\\(x e^x + C\\)",
+        "\\(\\frac{e^x}{x} + C\\)",
+        "\\(\\ln|e^x| + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La antiderivada de \\(e^x\\) es \\(e^x + C\\) ya que su derivada es la misma función.",
+      "difficulty": "easy",
+      "procedure": [
+        "Reconoce que la derivada de \\(e^x\\) es \\(e^x\\).",
+        "Aplica la regla básica de integración para funciones exponenciales."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(x^3\\).",
+      "formula": "\\(x^3\\)",
+      "options": [
+        "\\(\\frac{x^4}{4} + C\\)",
+        "\\(\\frac{x^3}{3} + C\\)",
+        "\\(\\frac{3x^4}{4} + C\\)",
+        "\\(\\frac{x^4}{3} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se utiliza la regla de potencias: \\(\\int x^3 dx = \\frac{x^{4}}{4} + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Incrementa el exponente de 3 a 4.",
+        "Divide por el nuevo exponente, 4.",
+        "Añade la constante de integración \\(C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(1\\).",
+      "formula": "\\(1\\)",
+      "options": [
+        "\\(x + C\\)",
+        "\\(\\ln|x| + C\\)",
+        "\\(e^x + C\\)",
+        "\\(\\frac{x}{2} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La integral de una constante 1 es \\(x + C\\).",
+      "difficulty": "easy",
+      "procedure": ["Reconoce que \\(\\int 1 dx = x + C\\)."]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(x\\).",
+      "formula": "\\(x\\)",
+      "options": [
+        "\\(\\frac{x^2}{2} + C\\)",
+        "\\(\\frac{x^2}{3} + C\\)",
+        "\\(x^2 + C\\)",
+        "\\(\\ln|x| + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla de potencias: \\(\\int x dx = \\frac{x^2}{2} + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Incrementa el exponente de 1 a 2.",
+        "Divide por 2 y añade \\(C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(e^{2x}\\).",
+      "formula": "\\(e^{2x}\\)",
+      "options": [
+        "\\(\\frac{e^{2x}}{2} + C\\)",
+        "\\(2e^{2x} + C\\)",
+        "\\(e^{2x} + C\\)",
+        "\\(\\frac{e^{2x}}{3} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Al integrar \\(e^{2x}\\), se divide por el coeficiente 2: \\(\\frac{e^{2x}}{2} + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Reconoce el coeficiente en el exponente (2).",
+        "Divide la función por 2 para contrarrestar la derivación interna.",
+        "Añade la constante \\(C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(x^4\\).",
+      "formula": "\\(x^4\\)",
+      "options": [
+        "\\(\\frac{x^5}{5} + C\\)",
+        "\\(\\frac{x^5}{4} + C\\)",
+        "\\(\\frac{4x^5}{5} + C\\)",
+        "\\(\\frac{x^5}{6} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se utiliza la regla de potencias: \\(\\int x^4 dx = \\frac{x^5}{5} + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Incrementa el exponente de 4 a 5.",
+        "Divide por 5 y añade \\(C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(e^{-x}\\).",
+      "formula": "\\(e^{-x}\\)",
+      "options": [
+        "\\(-e^{-x} + C\\)",
+        "\\(e^{-x} + C\\)",
+        "\\(-\\frac{e^{-x}}{2} + C\\)",
+        "\\(\\frac{e^{-x}}{2} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La integral de \\(e^{-x}\\) es \\(-e^{-x} + C\\), ya que la derivada de \\(-e^{-x}\\) es \\(e^{-x}\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Observa que al derivar \\(-e^{-x}\\) se obtiene \\(e^{-x}\\).",
+        "Añade la constante de integración \\(C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(3x^2\\).",
+      "formula": "\\(3x^2\\)",
+      "options": [
+        "\\(x^3 + C\\)",
+        "\\(\\frac{3x^3}{2} + C\\)",
+        "\\(\\frac{3x^3}{3} + C\\)",
+        "\\(\\frac{x^3}{3} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiplicando la integral de \\(x^2\\) por 3 se obtiene \\(3 \\times \\frac{x^3}{3} = x^3 + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Extrae la constante 3.",
+        "Integra \\(x^2\\) obteniendo \\(\\frac{x^3}{3}\\).",
+        "Multiplica por 3 y simplifica a \\(x^3 + C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(5e^x\\).",
+      "formula": "\\(5e^x\\)",
+      "options": [
+        "\\(5e^x + C\\)",
+        "\\(e^x + C\\)",
+        "\\(\\frac{5e^x}{2} + C\\)",
+        "\\(\\frac{e^x}{5} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se integra \\(e^x\\) y se mantiene la constante multiplicativa 5: \\(5e^x + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Extrae la constante 5.",
+        "Integra \\(e^x\\) resultando en \\(e^x\\).",
+        "Multiplica por 5 y añade \\(C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(x^5\\).",
+      "formula": "\\(x^5\\)",
+      "options": [
+        "\\(\\frac{x^6}{6} + C\\)",
+        "\\(\\frac{x^6}{5} + C\\)",
+        "\\(\\frac{5x^6}{6} + C\\)",
+        "\\(x^6 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla de potencias: \\(\\int x^5 dx = \\frac{x^6}{6} + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Incrementa el exponente de 5 a 6.",
+        "Divide por 6 y añade \\(C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(e^{3x}\\).",
+      "formula": "\\(e^{3x}\\)",
+      "options": [
+        "\\(\\frac{e^{3x}}{3} + C\\)",
+        "\\(3e^{3x} + C\\)",
+        "\\(e^{3x} + C\\)",
+        "\\(\\frac{e^{3x}}{2} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Al integrar \\(e^{3x}\\) se divide por el coeficiente 3: \\(\\frac{e^{3x}}{3} + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identifica el coeficiente 3 en el exponente.",
+        "Divide la función por 3 para ajustar la derivada interna.",
+        "Añade \\(C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(2x^3\\).",
+      "formula": "\\(2x^3\\)",
+      "options": [
+        "\\(\\frac{x^4}{4} + C\\)",
+        "\\(\\frac{2x^4}{3} + C\\)",
+        "\\(\\frac{x^4}{2} + C\\)",
+        "\\(\\frac{2x^4}{2} + C\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Extrae la constante 2 y aplica la regla de potencias: \\(\\int x^3 dx = \\frac{x^4}{4} + C\\), de modo que \\(2 \\times \\frac{x^4}{4} = \\frac{x^4}{2} + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Extrae el factor 2 de la integral.",
+        "Integra \\(x^3\\) para obtener \\(\\frac{x^4}{4}\\).",
+        "Multiplica 2 por \\(\\frac{x^4}{4}\\) y simplifica a \\(\\frac{x^4}{2} + C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(\\sin(x)\\).",
+      "formula": "\\(\\sin(x)\\)",
+      "options": [
+        "\\(-\\cos(x) + C\\)",
+        "\\(\\cos(x) + C\\)",
+        "\\(-\\sin(x) + C\\)",
+        "\\(\\sin(x) + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La integral de \\(\\sin(x)\\) es \\(-\\cos(x) + C\\), ya que la derivada de \\(\\cos(x)\\) es \\(-\\sin(x)\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identifica la derivada de \\(\\cos(x)\\).",
+        "Determina que la antiderivada de \\(\\sin(x)\\) debe ser \\(-\\cos(x)\\).",
+        "Añade \\(C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(\\cos(x)\\).",
+      "formula": "\\(\\cos(x)\\)",
+      "options": [
+        "\\(\\sin(x) + C\\)",
+        "\\(-\\sin(x) + C\\)",
+        "\\(\\cos(x) + C\\)",
+        "\\(-\\cos(x) + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La integral de \\(\\cos(x)\\) es \\(\\sin(x) + C\\), ya que la derivada de \\(\\sin(x)\\) es \\(\\cos(x)\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Observa la derivada de \\(\\sin(x)\\).",
+        "Concluye que \\(\\int \\cos(x) dx = \\sin(x) + C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(\\sec^2(x)\\).",
+      "formula": "\\(\\sec^2(x)\\)",
+      "options": [
+        "\\(\\tan(x) + C\\)",
+        "\\(\\sec(x) + C\\)",
+        "\\(\\sin(x) + C\\)",
+        "\\(\\cos(x) + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La integral de \\(\\sec^2(x)\\) es \\(\\tan(x) + C\\) porque la derivada de \\(\\tan(x)\\) es \\(\\sec^2(x)\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Recuerda que \\(\\frac{d}{dx}(\\tan(x)) = \\sec^2(x)\\).",
+        "Concluye que \\(\\int \\sec^2(x) dx = \\tan(x) + C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(\\frac{1}{x}\\).",
+      "formula": "\\(\\frac{1}{x}\\)",
+      "options": [
+        "\\(\\ln|x| + C\\)",
+        "\\(\\frac{1}{x} + C\\)",
+        "\\(x + C\\)",
+        "\\(e^x + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La integral de \\(\\frac{1}{x}\\) es \\(\\ln|x| + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Recuerda la integral logarítmica: \\(\\int \\frac{1}{x} dx = \\ln|x| + C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(\\cos^2(x)\\).",
+      "formula": "\\(\\cos^2(x)\\)",
+      "options": [
+        "\\(\\frac{x}{2} + \\frac{\\sin(2x)}{4} + C\\)",
+        "\\(\\frac{x}{2} - \\frac{\\sin(2x)}{4} + C\\)",
+        "\\(\\frac{\\sin(2x)}{2} + C\\)",
+        "\\(\\frac{x}{2} + \\frac{\\cos(2x)}{4} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Utilizando la identidad \\(\\cos^2(x) = \\frac{1+\\cos(2x)}{2}\\) se integra obteniéndose \\(\\frac{x}{2} + \\frac{\\sin(2x)}{4} + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Reescribe \\(\\cos^2(x)\\) usando la identidad de doble ángulo.",
+        "Integra cada término por separado.",
+        "Combina los resultados y añade \\(C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(\\sin^2(x)\\).",
+      "formula": "\\(\\sin^2(x)\\)",
+      "options": [
+        "\\(\\frac{x}{2} - \\frac{\\sin(2x)}{4} + C\\)",
+        "\\(\\frac{x}{2} + \\frac{\\sin(2x)}{4} + C\\)",
+        "\\(\\frac{\\sin(2x)}{2} + C\\)",
+        "\\(\\frac{x}{2} - \\frac{\\cos(2x)}{4} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Utilizando la identidad \\(\\sin^2(x) = \\frac{1-\\cos(2x)}{2}\\) se obtiene \\(\\frac{x}{2} - \\frac{\\sin(2x)}{4} + C\\) al integrar.",
+      "difficulty": "easy",
+      "procedure": [
+        "Aplica la identidad para \\(\\sin^2(x)\\).",
+        "Integra los términos resultantes.",
+        "Añade la constante \\(C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(\\frac{1}{1+x^2}\\).",
+      "formula": "\\(\\frac{1}{1+x^2}\\)",
+      "options": [
+        "\\(\\arctan(x) + C\\)",
+        "\\(\\arcsin(x) + C\\)",
+        "\\(\\ln|x| + C\\)",
+        "\\(\\frac{x}{1+x^2} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La integral de \\(\\frac{1}{1+x^2}\\) es \\(\\arctan(x) + C\\) por la derivada de \\(\\arctan(x)\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identifica la forma de la derivada de \\(\\arctan(x)\\).",
+        "Concluye que \\(\\int \\frac{1}{1+x^2} dx = \\arctan(x) + C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(\\sqrt{x}\\).",
+      "formula": "\\(\\sqrt{x}\\)",
+      "options": [
+        "\\(\\frac{2}{3}x^{3/2} + C\\)",
+        "\\(\\frac{1}{2}x^{3/2} + C\\)",
+        "\\(\\frac{3}{2}x^{1/2} + C\\)",
+        "\\(\\frac{2}{3}x^{1/2} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se reescribe \\(\\sqrt{x}\\) como \\(x^{1/2}\\) y se aplica la regla de potencias: \\(\\frac{x^{3/2}}{3/2} = \\frac{2}{3}x^{3/2} + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Convierte \\(\\sqrt{x}\\) a \\(x^{1/2}\\).",
+        "Incrementa el exponente a \\(3/2\\) y divide por \\(3/2\\).",
+        "Simplifica a \\(\\frac{2}{3}x^{3/2} + C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(\\frac{1}{\\sqrt{x}}\\).",
+      "formula": "\\(\\frac{1}{\\sqrt{x}}\\)",
+      "options": [
+        "\\(2\\sqrt{x} + C\\)",
+        "\\(\\sqrt{x} + C\\)",
+        "\\(\\frac{\\sqrt{x}}{2} + C\\)",
+        "\\(2x + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se escribe \\(\\frac{1}{\\sqrt{x}}\\) como \\(x^{-1/2}\\) y se integra: \\(\\frac{x^{1/2}}{1/2} = 2\\sqrt{x} + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Expresa \\(\\frac{1}{\\sqrt{x}}\\) en forma de potencia: \\(x^{-1/2}\\).",
+        "Incrementa el exponente a \\(1/2\\) y divide por \\(1/2\\).",
+        "Simplifica para obtener \\(2\\sqrt{x} + C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(7\\).",
+      "formula": "\\(7\\)",
+      "options": [
+        "\\(7x + C\\)",
+        "\\(x + 7 + C\\)",
+        "\\(\\frac{7x^2}{2} + C\\)",
+        "\\(7 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La integral de una constante 7 es \\(7x + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Multiplica la constante 7 por \\(x\\).",
+        "Añade la constante de integración \\(C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(\\frac{3}{x}\\).",
+      "formula": "\\(\\frac{3}{x}\\)",
+      "options": [
+        "\\(3\\ln|x| + C\\)",
+        "\\(\\ln|3x| + C\\)",
+        "\\(\\frac{3}{x} + C\\)",
+        "\\(\\frac{\\ln|x|}{3} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Extrae la constante 3 y aplica la integral de \\(\\frac{1}{x}\\): \\(3\\ln|x| + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Extrae la constante 3.",
+        "Utiliza \\(\\int \\frac{1}{x} dx = \\ln|x| + C\\).",
+        "Multiplica el resultado por 3."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(4e^{x}\\).",
+      "formula": "\\(4e^{x}\\)",
+      "options": [
+        "\\(4e^{x} + C\\)",
+        "\\(e^{x} + C\\)",
+        "\\(2e^{x} + C\\)",
+        "\\(\\frac{4e^{x}}{2} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Al integrar \\(4e^x\\), se extrae la constante 4: \\(4e^x + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Extrae la constante 4.",
+        "Integra \\(e^x\\) para obtener \\(e^x\\).",
+        "Multiplica y añade \\(C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(x^{-3}\\).",
+      "formula": "\\(x^{-3}\\)",
+      "options": [
+        "\\(-\\frac{1}{2}x^{-2} + C\\)",
+        "\\(-\\frac{1}{3}x^{-2} + C\\)",
+        "\\(\\frac{1}{2}x^{-2} + C\\)",
+        "\\(\\frac{x^{-2}}{-3} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla de potencias para exponentes negativos: \\(\\int x^{-3}dx = \\frac{x^{-2}}{-2} + C = -\\frac{1}{2}x^{-2} + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Suma -3 + 1 para obtener -2.",
+        "Divide \\(x^{-2}\\) por -2.",
+        "Añade la constante \\(C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(5\\).",
+      "formula": "\\(5\\)",
+      "options": [
+        "\\(5x + C\\)",
+        "\\(\\frac{5x^2}{2} + C\\)",
+        "\\(x + 5 + C\\)",
+        "\\(5 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La integral de la constante 5 es \\(5x + C\\).",
+      "difficulty": "easy",
+      "procedure": ["Multiplica 5 por \\(x\\).", "Añade \\(C\\)."]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(2e^{2x}\\).",
+      "formula": "\\(2e^{2x}\\)",
+      "options": [
+        "\\(e^{2x} + C\\)",
+        "\\(2e^{2x} + C\\)",
+        "\\(\\frac{2e^{2x}}{2} + C\\)",
+        "\\(\\frac{e^{2x}}{2} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Extrae la constante 2 y ajusta la integral de \\(e^{2x}\\) considerando que \\(\\frac{d}{dx}(e^{2x}) = 2e^{2x}\\), por lo que \\(\\int 2e^{2x}dx = e^{2x} + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Observa que la derivada de \\(e^{2x}\\) es 2\\(e^{2x}\\).",
+        "Divide por 2 y multiplica por 2, cancelando el factor.",
+        "Añade \\(C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(\\frac{1}{2}x^2\\).",
+      "formula": "\\(\\frac{1}{2}x^2\\)",
+      "options": [
+        "\\(\\frac{x^3}{6} + C\\)",
+        "\\(\\frac{x^3}{2} + C\\)",
+        "\\(\\frac{x^2}{3} + C\\)",
+        "\\(\\frac{x^3}{3} + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Integra \\(x^2\\) para obtener \\(\\frac{x^3}{3} + C\\) y multiplica por \\(\\frac{1}{2}\\) dando \\(\\frac{x^3}{6} + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Integra \\(x^2\\) usando la regla de potencias.",
+        "Multiplica el resultado por \\(\\frac{1}{2}\\).",
+        "Simplifica a \\(\\frac{x^3}{6} + C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la antiderivada de \\(7e^{x}\\).",
+      "formula": "\\(7e^{x}\\)",
+      "options": [
+        "\\(7e^{x} + C\\)",
+        "\\(e^{x} + C\\)",
+        "\\(\\frac{7e^{x}}{2} + C\\)",
+        "\\(7e^{x}/2 + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se integra \\(7e^{x}\\) manteniendo la constante multiplicativa, resultando en \\(7e^{x} + C\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Extrae la constante 7.",
+        "Integra \\(e^x\\) para obtener \\(e^x\\).",
+        "Multiplica y añade \\(C\\)."
+      ]
+    }
+  ]
+}

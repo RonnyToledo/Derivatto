@@ -1,0 +1,1521 @@
+{
+  "vectores_operaciones_dificil": [
+    {
+      "question": "Calcula la suma de los vectores.",
+      "formula": "\\(\\vec{u} = (2, -3), \\ \\vec{v} = (4, 5)\\)",
+      "options": [
+        "\\( (2,2) \\)",
+        "\\( (6,8) \\)",
+        "\\( (6,2) \\)",
+        "\\( (8,2) \\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Se suman las componentes: 2+4=6 y -3+5=2.",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar las componentes de cada vector.",
+        "Sumar las componentes correspondientes: primer componente con primer componente y segundo con segundo.",
+        "Obtener el vector resultante: (2+4, -3+5) = (6,2)."
+      ]
+    },
+    {
+      "question": "Realiza la resta de vectores.",
+      "formula": "\\(\\vec{a} = (7, 4), \\ \\vec{b} = (3, 6)\\)",
+      "options": [
+        "\\( (10, 10) \\)",
+        "\\( (4, -2) \\)",
+        "\\( (4, 2) \\)",
+        "\\( (0, -2) \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Se resta componente a componente: 7-3=4 y 4-6=-2.",
+      "difficulty": "hard",
+      "procedure": [
+        "Extraer las componentes de \\(\\vec{a}\\) y \\(\\vec{b}\\).",
+        "Restar cada componente: 7-3 y 4-6.",
+        "El resultado es \\( (4, -2) \\)."
+      ]
+    },
+    {
+      "question": "Encuentra el vector resultante al sumar los vectores.",
+      "formula": "\\(\\vec{p} = (-1, 8), \\ \\vec{q} = (5, -3)\\)",
+      "options": [
+        "\\( (6,5) \\)",
+        "\\( (4,-11) \\)",
+        "\\( (-6,11) \\)",
+        "\\( (4,5) \\)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "La suma es: -1+5=4 y 8+(-3)=5.",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar cada componente de los vectores.",
+        "Sumar: primer componente -1+5 y segundo 8+(-3).",
+        "El vector resultante es \\( (4,5) \\)."
+      ]
+    },
+    {
+      "question": "Suma los vectores dados en 3 dimensiones.",
+      "formula": "\\(\\vec{m} = (0, -7, 2), \\ \\vec{n} = (3, 4, -5)\\)",
+      "options": [
+        "\\( (3, -3, -3) \\)",
+        "\\( (3, -11, -3) \\)",
+        "\\( (0, -3, -3) \\)",
+        "\\( (3, -7, -3) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se suman las componentes: 0+3=3, -7+4=-3, 2+(-5)=-3.",
+      "difficulty": "hard",
+      "procedure": [
+        "Extraer las tres componentes de cada vector.",
+        "Sumar las componentes: 0+3, -7+4, 2+(-5).",
+        "Obtener \\( (3, -3, -3) \\) como resultado."
+      ]
+    },
+    {
+      "question": "Calcula \\(\\vec{a} - \\vec{b}\\) en 3D.",
+      "formula": "\\(\\vec{a} = (6, 2, 5), \\ \\vec{b} = (1, 3, 2)\\)",
+      "options": [
+        "\\( (7,-1,7) \\)",
+        "\\( (5,5,3) \\)",
+        "\\( (5,-1,3) \\)",
+        "\\( (5,-1,2) \\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La resta se realiza componente a componente: 6-1=5, 2-3=-1, 5-2=3.",
+      "difficulty": "hard",
+      "procedure": [
+        "Determinar las componentes de cada vector.",
+        "Realizar la resta: 6-1, 2-3, 5-2.",
+        "El resultado es \\( (5,-1,3) \\)."
+      ]
+    },
+    {
+      "question": "Suma los vectores en 3 dimensiones.",
+      "formula": "\\(\\vec{u} = (-2, 3, 4), \\ \\vec{v} = (2, -3, 1)\\)",
+      "options": [
+        "\\( (0,0,5) \\)",
+        "\\( (0,6,5) \\)",
+        "\\( (0,0,3) \\)",
+        "\\( (-4,6,5) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se suman las componentes: -2+2=0, 3+(-3)=0, 4+1=5.",
+      "difficulty": "hard",
+      "procedure": [
+        "Extraer las componentes de cada vector.",
+        "Sumar las correspondientes: (-2+2, 3-3, 4+1).",
+        "Obtener el vector resultante \\( (0,0,5) \\)."
+      ]
+    },
+    {
+      "question": "Realiza la resta de vectores en 3 dimensiones.",
+      "formula": "\\(\\vec{x} = (9, -2, 3), \\ \\vec{y} = (4, 1, -1)\\)",
+      "options": [
+        "\\( (5,-3,4) \\)",
+        "\\( (5,3,4) \\)",
+        "\\( (13,-3,2) \\)",
+        "\\( (5,-1,4) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La operación es: 9-4=5, -2-1=-3, 3-(-1)=4.",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar las componentes de \\(\\vec{x}\\) y \\(\\vec{y}\\).",
+        "Restar cada componente: 9-4, -2-1, 3+1.",
+        "El resultado es \\( (5,-3,4) \\)."
+      ]
+    },
+    {
+      "question": "Suma los vectores en el plano.",
+      "formula": "\\(\\vec{r} = (0, 0), \\ \\vec{s} = (7, -7)\\)",
+      "options": [
+        "\\( (0,-7) \\)",
+        "\\( (7,7) \\)",
+        "\\( (7,-7) \\)",
+        "\\( (0,0) \\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La suma es: 0+7=7 y 0+(-7)=-7.",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar las componentes de cada vector en 2D.",
+        "Sumar las componentes: 0+7 y 0+(-7).",
+        "El vector resultante es \\( (7,-7) \\)."
+      ]
+    },
+    {
+      "question": "Calcula la suma de los vectores en 3D.",
+      "formula": "\\(\\vec{a} = (-3, 2, 1), \\ \\vec{b} = (3, -2, 4)\\)",
+      "options": [
+        "\\( (0,0,5) \\)",
+        "\\( (0,0,3) \\)",
+        "\\( (6,0,5) \\)",
+        "\\( (0,0,4) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se suman las componentes: -3+3=0, 2+(-2)=0, 1+4=5.",
+      "difficulty": "hard",
+      "procedure": [
+        "Extraer cada componente de los vectores.",
+        "Sumar las componentes correspondientes.",
+        "El resultado es \\( (0,0,5) \\)."
+      ]
+    },
+    {
+      "question": "Calcula la resta de vectores en el plano.",
+      "formula": "\\(\\vec{u} = (5, 8), \\ \\vec{v} = (2, 3)\\)",
+      "options": [
+        "\\( (7,11) \\)",
+        "\\( (3,-5) \\)",
+        "\\( (2,3) \\)",
+        "\\( (3,5) \\)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "La resta se efectúa como: 5-2=3 y 8-3=5.",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar las componentes de los vectores.",
+        "Realizar la resta de cada par de componentes.",
+        "Obtener el vector \\( (3,5) \\) como resultado."
+      ]
+    },
+    {
+      "question": "Calcula el producto escalar de los vectores dados.",
+      "formula": "\\(\\vec{a} = (1, 2, 3), \\ \\vec{b} = (4, -5, 6)\\)",
+      "options": ["\\(12\\)", "\\(10\\)", "\\(14\\)", "\\(16\\)"],
+      "correctAnswer": 0,
+      "explanation": "Se calcula: 1×4 + 2×(-5) + 3×6 = 4 - 10 + 18 = 12.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplicar cada par de componentes correspondientes.",
+        "Sumar los productos: 4 + (-10) + 18.",
+        "El resultado es 12."
+      ]
+    },
+    {
+      "question": "Determina el producto escalar de los vectores.",
+      "formula": "\\(\\vec{u} = (-2, 4), \\ \\vec{v} = (3, 5)\\)",
+      "options": ["\\( 10 \\)", "\\( 12 \\)", "\\( 14 \\)", "\\( 16 \\)"],
+      "correctAnswer": 2,
+      "explanation": "Se obtiene: (-2×3) + (4×5) = -6 + 20 = 14.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplicar las componentes: -2×3 y 4×5.",
+        "Sumar los resultados para obtener el producto escalar.",
+        "El valor final es 14."
+      ]
+    },
+    {
+      "question": "Calcula el producto escalar de los siguientes vectores.",
+      "formula": "\\(\\vec{p} = (0, -3, 7), \\ \\vec{q} = (5, 2, -1)\\)",
+      "options": ["\\(-12\\)", "\\(-10\\)", "\\(13\\)", "\\(-13\\)"],
+      "correctAnswer": 3,
+      "explanation": "El cálculo es: 0×5 + (-3×2) + (7×-1) = 0 - 6 - 7 = -13.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplicar componente a componente.",
+        "Sumar los productos obtenidos.",
+        "El resultado final es -13."
+      ]
+    },
+    {
+      "question": "Determina el ángulo entre los vectores usando el producto escalar.",
+      "formula": "\\(\\vec{a} = (3, 0), \\ \\vec{b} = (0, 4)\\)",
+      "options": [
+        "\\(45^{\\circ}\\)",
+        "\\(90^{\\circ}\\)",
+        "\\(60^{\\circ}\\)",
+        "\\(120^{\\circ}\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El producto escalar es 0, lo que implica que el ángulo es de 90°.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el producto escalar: 3×0 + 0×4 = 0.",
+        "Recordar que si el producto es 0, los vectores son perpendiculares.",
+        "Concluir que el ángulo es de 90°."
+      ]
+    },
+    {
+      "question": "Calcula el producto escalar de los siguientes vectores.",
+      "formula": "\\(\\vec{m} = (2, -1, 4), \\ \\vec{n} = (0, 3, 5)\\)",
+      "options": ["\\(17\\)", "\\(15\\)", "\\(19\\)", "\\(21\\)"],
+      "correctAnswer": 0,
+      "explanation": "Se calcula: 2×0 + (-1×3) + 4×5 = 0 - 3 + 20 = 17.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplicar las componentes correspondientes.",
+        "Sumar los productos: 0 - 3 + 20.",
+        "El resultado es 17."
+      ]
+    },
+    {
+      "question": "Determina el producto escalar de los vectores.",
+      "formula": "\\(\\vec{a} = (-3, 5), \\ \\vec{b} = (7, 2)\\)",
+      "options": ["\\(11\\)", "\\(9\\)", "\\(-11\\)", "\\( -9 \\)"],
+      "correctAnswer": 2,
+      "explanation": "El cálculo es: -3×7 + 5×2 = -21 + 10 = -11.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplicar cada par de componentes.",
+        "Sumar los resultados: -21 + 10.",
+        "El producto escalar es -11."
+      ]
+    },
+    {
+      "question": "Calcula el producto escalar de los vectores en 3D.",
+      "formula": "\\(\\vec{u} = (4, 4, -2), \\ \\vec{v} = (1, -3, 5)\\)",
+      "options": ["\\(18\\)", "\\(-18\\)", "\\(16\\)", "\\(-16\\)"],
+      "correctAnswer": 1,
+      "explanation": "Se obtiene: 4×1 + 4×(-3) + (-2)×5 = 4 -12 -10 = -18.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplicar las componentes correspondientes.",
+        "Sumar los resultados: 4 - 12 - 10.",
+        "El resultado es -18."
+      ]
+    },
+    {
+      "question": "Calcula el producto escalar de los vectores en el plano.",
+      "formula": "\\(\\vec{p} = (6, -2), \\ \\vec{q} = (-3, 8)\\)",
+      "options": ["\\(-34\\)", "\\(34\\)", "\\(-32\\)", "\\(32\\)"],
+      "correctAnswer": 0,
+      "explanation": "Se realiza: 6×(-3) + (-2)×8 = -18 - 16 = -34.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplicar las componentes correspondientes.",
+        "Sumar los productos: -18 - 16.",
+        "El resultado es -34."
+      ]
+    },
+    {
+      "question": "Calcula el producto escalar de los vectores en 3D.",
+      "formula": "\\(\\vec{a} = (0, 5, 2), \\ \\vec{b} = (3, 0, -4)\\)",
+      "options": ["\\(8\\)", "\\(6\\)", "\\(0\\)", "\\(-8\\)"],
+      "correctAnswer": 3,
+      "explanation": "Se calcula: 0×3 + 5×0 + 2×(-4) = -8.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplicar las componentes de cada vector.",
+        "Sumar los resultados obtenidos.",
+        "El producto escalar es -8."
+      ]
+    },
+    {
+      "question": "Determina el producto escalar de los vectores en 3D.",
+      "formula": "\\(\\vec{m} = (2,2,2), \\ \\vec{n} = (1,0,-1)\\)",
+      "options": ["\\(2\\)", "\\(1\\)", "\\(0\\)", "\\(-1\\)"],
+      "correctAnswer": 2,
+      "explanation": "Se obtiene: 2×1 + 2×0 + 2×(-1) = 2 - 2 = 0.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplicar las componentes correspondientes.",
+        "Sumar los productos: 2 + 0 - 2.",
+        "El resultado es 0."
+      ]
+    },
+    {
+      "question": "Calcula el producto vectorial de los vectores canónicos en 3D.",
+      "formula": "\\(\\vec{a} = (1, 0, 0), \\ \\vec{b} = (0, 1, 0)\\)",
+      "options": [
+        "\\( (0,0,1) \\)",
+        "\\( (0,1,0) \\)",
+        "\\( (1,0,0) \\)",
+        "\\( (0,0,-1) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El producto vectorial de los vectores unitarios en los ejes X e Y es el vector unitario en Z: (0,0,1).",
+      "difficulty": "hard",
+      "procedure": [
+        "Utilizar la regla de la mano derecha para determinar la dirección.",
+        "Calcular el determinante de la matriz formada por los vectores base.",
+        "El resultado es \\( (0,0,1) \\)."
+      ]
+    },
+    {
+      "question": "Determina el producto vectorial de los vectores en 3D.",
+      "formula": "\\(\\vec{u} = (2, 3, 4), \\ \\vec{v} = (5, 6, 7)\\)",
+      "options": [
+        "\\( (3, -6, 3) \\)",
+        "\\( (-3, -6, 3) \\)",
+        "\\( (3, 6, 3) \\)",
+        "\\( (-3, 6, -3) \\)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Se calcula usando la fórmula: \\(\\vec{u} \\times \\vec{v} = (3*7-4*6, 4*5-2*7, 2*6-3*5) = (-3,6,-3)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la fórmula del producto vectorial en 3D.",
+        "Calcular cada componente usando determinantes 2x2.",
+        "Obtener \\( (-3,6,-3) \\) como resultado."
+      ]
+    },
+    {
+      "question": "Calcula el producto vectorial de los vectores dados.",
+      "formula": "\\(\\vec{a} = (0, 2, -1), \\ \\vec{b} = (1, 0, 3)\\)",
+      "options": [
+        "\\( (6,1,-2) \\)",
+        "\\( (6,-1,-2) \\)",
+        "\\( (-6,1,2) \\)",
+        "\\( (0,-1,-2) \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Se calcula: \\(\\vec{a} \\times \\vec{b} = (2*3 - (-1)*0, - (0*3 - (-1)*1), 0*0 - 2*1) = (6,-1,-2)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Usar la fórmula del producto vectorial para 3 componentes.",
+        "Calcular cada componente mediante determinantes 2x2.",
+        "El resultado es \\( (6,-1,-2) \\)."
+      ]
+    },
+    {
+      "question": "Encuentra el producto vectorial de los vectores dados.",
+      "formula": "\\(\\vec{u} = (3, -3, 1), \\ \\vec{v} = (4, 9, 2)\\)",
+      "options": [
+        "\\( (-15,-2,39) \\)",
+        "\\( (-15,2,39) \\)",
+        "\\( (15,-2,-39) \\)",
+        "\\( (15,2,-39) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se calcula: \\(\\vec{u} \\times \\vec{v} = ((-3)*2 - 1*9, 1*4 - 3*2, 3*9 - (-3)*4) = (-15,-2,39)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la fórmula del producto vectorial en 3D.",
+        "Calcular cada componente utilizando determinantes.",
+        "El resultado final es \\( (-15,-2,39) \\)."
+      ]
+    },
+    {
+      "question": "Calcula el producto vectorial de los vectores.",
+      "formula": "\\(\\vec{p} = (1, 2, 3), \\ \\vec{q} = (4, 5, 6)\\)",
+      "options": [
+        "\\( (3,-6,3) \\)",
+        "\\( (-3,-6,3) \\)",
+        "\\( (-3,6,-3) \\)",
+        "\\( (3,6,-3) \\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "El cálculo da: \\(\\vec{p} \\times \\vec{q} = (-3,6,-3)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la fórmula del producto vectorial para vectores en 3D.",
+        "Calcular cada componente por separado.",
+        "El resultado es \\( (-3,6,-3) \\)."
+      ]
+    },
+    {
+      "question": "Determina el producto vectorial de los vectores.",
+      "formula": "\\(\\vec{a} = (0, 1, 1), \\ \\vec{b} = (1, 0, 1)\\)",
+      "options": [
+        "\\( (1,-1,1) \\)",
+        "\\( (1,1,-1) \\)",
+        "\\( (-1,1,1) \\)",
+        "\\( (1,1,1) \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Se obtiene: \\(\\vec{a} \\times \\vec{b} = (1,1,-1)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Usar la regla del producto vectorial en 3D.",
+        "Calcular cada componente mediante determinantes.",
+        "El resultado es \\( (1,1,-1) \\)."
+      ]
+    },
+    {
+      "question": "Calcula el producto vectorial de los vectores.",
+      "formula": "\\(\\vec{u} = (2, -1, 0), \\ \\vec{v} = (0, 3, 4)\\)",
+      "options": [
+        "\\( (-4,-8,6) \\)",
+        "\\( (4,8,-6) \\)",
+        "\\( (-4,8,-6) \\)",
+        "\\( (4,-8,6) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se realiza: \\(\\vec{u} \\times \\vec{v} = ((-1)*4 - 0*3, 0*0 - 2*4, 2*3 - (-1)*0) = (-4,-8,6)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la fórmula del producto vectorial.",
+        "Calcular cada componente usando determinantes 2x2.",
+        "El resultado es \\( (-4,-8,6) \\)."
+      ]
+    },
+    {
+      "question": "Encuentra el producto vectorial de los vectores.",
+      "formula": "\\(\\vec{a} = (3, 2, 1), \\ \\vec{b} = (1, 0, -1)\\)",
+      "options": [
+        "\\( (-2,3,-2) \\)",
+        "\\( (2,-4,2) \\)",
+        "\\( (-2,-4,2) \\)",
+        "\\( (-2,4,-2) \\)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Se calcula: \\(\\vec{a} \\times \\vec{b} = (2*(-1)-1*0, 1*1-3*(-1), 3*0-2*1) = (-2,4,-2)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Usar la fórmula del producto vectorial para 3D.",
+        "Calcular cada componente mediante determinantes.",
+        "El resultado final es \\( (-2,4,-2) \\)."
+      ]
+    },
+    {
+      "question": "Calcula el producto vectorial de los vectores.",
+      "formula": "\\(\\vec{u} = (1, 4, 2), \\ \\vec{v} = (2, 0, 3)\\)",
+      "options": [
+        "\\( (12,1,8) \\)",
+        "\\( (-12,1,-8) \\)",
+        "\\( (12,1,-8) \\)",
+        "\\( (12,-1,-8) \\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Se obtiene: 4×3 - 2×0=12, 2×2 - 1×3=1, 1×0 - 4×2=-8.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular el primer componente: 4×3 - 2×0.",
+        "Calcular el segundo componente: 2×2 - 1×3.",
+        "Calcular el tercer componente: 1×0 - 4×2.",
+        "El vector resultante es \\( (12,1,-8) \\)."
+      ]
+    },
+    {
+      "question": "Determina el producto vectorial de los vectores.",
+      "formula": "\\(\\vec{a} = (0, 2, 3), \\ \\vec{b} = (1, -1, 0)\\)",
+      "options": [
+        "\\( (3, -3, -2) \\)",
+        "\\( (3,3,-2) \\)",
+        "\\( (-3,3,2) \\)",
+        "\\( (3,3,2) \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Se calcula: primer componente: 2×0 - 3×(-1)=3, segundo: 3×1 - 0×0=3, tercer: 0×(-1) - 2×1=-2.",
+      "difficulty": "hard",
+      "procedure": [
+        "Calcular cada componente usando la fórmula del producto vectorial.",
+        "Primer componente: 2×0 - 3×(-1).",
+        "Segundo componente: 3×1 - 0×0.",
+        "Tercer componente: 0×(-1) - 2×1.",
+        "El resultado es \\( (3,3,-2) \\)."
+      ]
+    },
+    {
+      "question": "Suma los vectores dados en el plano.",
+      "formula": "\\(\\vec{a} = (5, -2), \\ \\vec{b} = (-3, 7)\\)",
+      "options": [
+        "\\( (2,5) \\)",
+        "\\( (8,5) \\)",
+        "\\( (2,-9) \\)",
+        "\\( (-8,5) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se suman las componentes: 5 + (-3) = 2 y -2 + 7 = 5.",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar las componentes de \\(\\vec{a}\\) y \\(\\vec{b}\\).",
+        "Sumar cada componente: 5 + (-3) y -2 + 7.",
+        "El resultado es \\( (2,5) \\)."
+      ]
+    },
+    {
+      "question": "Realiza la resta de los vectores en el plano.",
+      "formula": "\\(\\vec{a} = (4,9), \\ \\vec{b} = (1,3)\\)",
+      "options": [
+        "\\( (3,6) \\)",
+        "\\( (5,6) \\)",
+        "\\( (3,7) \\)",
+        "\\( (4,6) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se restan las componentes: 4 - 1 = 3 y 9 - 3 = 6.",
+      "difficulty": "hard",
+      "procedure": [
+        "Determinar las componentes de ambos vectores.",
+        "Restar: primer componente 4 - 1 y segundo 9 - 3.",
+        "El resultado es \\( (3,6) \\)."
+      ]
+    },
+    {
+      "question": "Calcula el producto escalar de los vectores en el plano.",
+      "formula": "\\(\\vec{a} = (2,3), \\ \\vec{b} = (-1,4)\\)",
+      "options": ["\\( 10 \\)", "\\( 8 \\)", "\\( 6 \\)", "\\( 12 \\)"],
+      "correctAnswer": 0,
+      "explanation": "Producto escalar: 2×(-1) + 3×4 = -2 + 12 = 10.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplicar las componentes correspondientes.",
+        "Sumar los resultados: -2 + 12.",
+        "El producto escalar es 10."
+      ]
+    },
+    {
+      "question": "Determina el producto escalar de los vectores en el espacio.",
+      "formula": "\\(\\vec{a} = (1,2,3), \\ \\vec{b} = (4,0,-1)\\)",
+      "options": ["\\( 1 \\)", "\\( 4 \\)", "\\( -1 \\)", "\\( 3 \\)"],
+      "correctAnswer": 0,
+      "explanation": "Se calcula: 1×4 + 2×0 + 3×(-1) = 4 + 0 - 3 = 1.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplicar componente a componente.",
+        "Sumar: 4 + 0 - 3.",
+        "El resultado es 1."
+      ]
+    },
+    {
+      "question": "Calcula el producto vectorial de los vectores canónicos en 3D.",
+      "formula": "\\(\\vec{a} = (1,0,0), \\ \\vec{b} = (0,1,0)\\)",
+      "options": [
+        "\\( (0,0,1) \\)",
+        "\\( (0,1,0) \\)",
+        "\\( (1,0,0) \\)",
+        "\\( (0,0,-1) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El producto vectorial de \\(\\vec{i}\\) y \\(\\vec{j}\\) es \\(\\vec{k}\\), es decir, \\( (0,0,1) \\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Utilizar la regla de la mano derecha.",
+        "Identificar que el resultado es el vector unitario en Z.",
+        "El producto vectorial es \\( (0,0,1) \\)."
+      ]
+    },
+    {
+      "question": "Determina el producto vectorial de los vectores dados.",
+      "formula": "\\(\\vec{a} = (0,2,3), \\ \\vec{b} = (1,0,4)\\)",
+      "options": [
+        "\\( (8,3,-2) \\)",
+        "\\( (-8,3,2) \\)",
+        "\\( (8,-3,2) \\)",
+        "\\( (8,-3,-2) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Calculando: primer componente: 2×4 - 3×0 = 8; segundo: 3×1 - 0×4 = 3; tercer: 0×0 - 2×1 = -2.",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la fórmula del producto vectorial en 3D.",
+        "Calcular cada componente mediante determinantes 2x2.",
+        "El resultado es \\( (8,3,-2) \\)."
+      ]
+    },
+    {
+      "question": "Suma los vectores en el espacio.",
+      "formula": "\\(\\vec{a} = (-1,4,2), \\ \\vec{b} = (3,-2,5)\\)",
+      "options": [
+        "\\( (2,2,7) \\)",
+        "\\( (2,4,7) \\)",
+        "\\( (2,2,5) \\)",
+        "\\( (4,2,7) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se suma componente a componente: -1+3=2, 4+(-2)=2, 2+5=7.",
+      "difficulty": "hard",
+      "procedure": [
+        "Extraer las componentes de ambos vectores.",
+        "Sumarlas: (-1+3, 4+(-2), 2+5).",
+        "El vector resultante es \\( (2,2,7) \\)."
+      ]
+    },
+    {
+      "question": "Realiza la resta de vectores en 3D.",
+      "formula": "\\(\\vec{a} = (7,0,-3), \\ \\vec{b} = (2,5,1)\\)",
+      "options": [
+        "\\( (5,-5,-4) \\)",
+        "\\( (5,5,-4) \\)",
+        "\\( (7,-5,-4) \\)",
+        "\\( (5,-5,-3) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La resta se efectúa: 7-2=5, 0-5=-5, -3-1=-4.",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar cada componente de \\(\\vec{a}\\) y \\(\\vec{b}\\).",
+        "Realizar la resta: 7 - 2, 0 - 5, -3 - 1.",
+        "El resultado es \\( (5,-5,-4) \\)."
+      ]
+    },
+    {
+      "question": "Calcula el producto escalar de los vectores en el plano.",
+      "formula": "\\(\\vec{a} = (-3,8), \\ \\vec{b} = (6,-2)\\)",
+      "options": ["\\( -34 \\)", "\\( -26 \\)", "\\( 34 \\)", "\\( 26 \\)"],
+      "correctAnswer": 0,
+      "explanation": "Se realiza: (-3×6) + (8×-2) = -18 - 16 = -34.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplicar las componentes: -3×6 y 8×(-2).",
+        "Sumar los productos: -18 - 16.",
+        "El producto escalar es -34."
+      ]
+    },
+    {
+      "question": "Determina el producto escalar de los vectores en el espacio.",
+      "formula": "\\(\\vec{a} = (0,-1,2), \\ \\vec{b} = (3,4,-2)\\)",
+      "options": ["\\( -8 \\)", "\\( 8 \\)", "\\( -6 \\)", "\\( 6 \\)"],
+      "correctAnswer": 0,
+      "explanation": "Se calcula: 0×3 + (-1)×4 + 2×(-2) = 0 - 4 - 4 = -8.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplicar componente a componente.",
+        "Sumar los resultados: 0 - 4 - 4.",
+        "El producto escalar es -8."
+      ]
+    },
+    {
+      "question": "Calcula el producto vectorial de los vectores en 3D.",
+      "formula": "\\(\\vec{a} = (2,3,4), \\ \\vec{b} = (0,1,-1)\\)",
+      "options": [
+        "\\( (-7,2,2) \\)",
+        "\\( (7,2,2) \\)",
+        "\\( (-7,-2,2) \\)",
+        "\\( (-7,2,-2) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se calcula: primer componente: 3×(-1) - 4×1 = -3 - 4 = -7; segundo: 4×0 - 2×(-1) = 0 + 2 = 2; tercer: 2×1 - 3×0 = 2.",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la fórmula del producto vectorial en 3D.",
+        "Calcular cada componente mediante determinantes 2x2.",
+        "El resultado es \\( (-7,2,2) \\)."
+      ]
+    },
+    {
+      "question": "Calcula el producto escalar de los vectores en el plano.",
+      "formula": "\\(\\vec{a} = (7,-5), \\ \\vec{b} = (-2,3)\\)",
+      "options": ["\\( -29 \\)", "\\( 29 \\)", "\\( -17 \\)", "\\( 17 \\)"],
+      "correctAnswer": 0,
+      "explanation": "Se obtiene: 7×(-2) + (-5)×3 = -14 - 15 = -29.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplicar las componentes: 7×(-2) y -5×3.",
+        "Sumar los resultados: -14 - 15.",
+        "El producto escalar es -29."
+      ]
+    },
+    {
+      "question": "Suma los vectores en el plano.",
+      "formula": "\\(\\vec{a} = (0,0), \\ \\vec{b} = (9,-9)\\)",
+      "options": [
+        "\\( (9,-9) \\)",
+        "\\( (0,-9) \\)",
+        "\\( (9,0) \\)",
+        "\\( (-9,9) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La suma es: 0+9 = 9 y 0+(-9) = -9.",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar que el primer vector es el vector nulo.",
+        "Sumar las componentes del segundo vector.",
+        "El resultado es \\( (9,-9) \\)."
+      ]
+    },
+    {
+      "question": "Realiza la resta de los vectores en el plano.",
+      "formula": "\\(\\vec{a} = (10,-4), \\ \\vec{b} = (3,8)\\)",
+      "options": [
+        "\\( (7,-12) \\)",
+        "\\( (7,12) \\)",
+        "\\( (-7,-12) \\)",
+        "\\( (-7,12) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se calcula: 10-3 = 7 y -4-8 = -12.",
+      "difficulty": "hard",
+      "procedure": [
+        "Extraer las componentes de cada vector.",
+        "Restar: 10 - 3 y -4 - 8.",
+        "El resultado es \\( (7,-12) \\)."
+      ]
+    },
+    {
+      "question": "Calcula el producto escalar de los vectores en el espacio.",
+      "formula": "\\(\\vec{a} = (5,5,5), \\ \\vec{b} = (1,2,3)\\)",
+      "options": ["\\( 30 \\)", "\\( 20 \\)", "\\( 15 \\)", "\\( 25 \\)"],
+      "correctAnswer": 0,
+      "explanation": "Se obtiene: 5×1 + 5×2 + 5×3 = 5 + 10 + 15 = 30.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplicar cada par de componentes.",
+        "Sumar los resultados: 5 + 10 + 15.",
+        "El producto escalar es 30."
+      ]
+    },
+    {
+      "question": "Calcula el producto vectorial de los vectores en 3D.",
+      "formula": "\\(\\vec{a} = (3,-2,1), \\ \\vec{b} = (1,0,-1)\\)",
+      "options": [
+        "\\( (2,4,2) \\)",
+        "\\( (-2,4,2) \\)",
+        "\\( (2,-4,2) \\)",
+        "\\( (2,4,-2) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se calcula:  -2×(-1)-1×0 = 2; 1×1-3×(-1) = 1+3 = 4; 3×0-(-2)×1 = 2. Resultado: \\( (2,4,2) \\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la fórmula del producto vectorial.",
+        "Calcular cada componente mediante determinantes 2x2.",
+        "El resultado es \\( (2,4,2) \\)."
+      ]
+    },
+    {
+      "question": "Suma los vectores en el espacio.",
+      "formula": "\\(\\vec{a} = (4,4,4), \\ \\vec{b} = (-1,-1,-1)\\)",
+      "options": [
+        "\\( (3,3,3) \\)",
+        "\\( (4,4,4) \\)",
+        "\\( (5,3,3) \\)",
+        "\\( (3,3,4) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se obtiene: 4 + (-1) = 3 en cada componente, dando \\( (3,3,3) \\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Restar cada componente: 4 - 1 en cada coordenada.",
+        "El resultado es \\( (3,3,3) \\)."
+      ]
+    },
+    {
+      "question": "Realiza la resta de los vectores en el espacio.",
+      "formula": "\\(\\vec{a} = (-2,6,0), \\ \\vec{b} = (1,-3,4)\\)",
+      "options": [
+        "\\( (-3,9,-4) \\)",
+        "\\( (3,-9,4) \\)",
+        "\\( (-3,9,4) \\)",
+        "\\( (3,-9,-4) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se resta: -2-1 = -3, 6-(-3) = 9, 0-4 = -4.",
+      "difficulty": "hard",
+      "procedure": [
+        "Extraer las componentes de ambos vectores.",
+        "Realizar la resta componente a componente.",
+        "El resultado es \\( (-3,9,-4) \\)."
+      ]
+    },
+    {
+      "question": "Calcula el producto escalar de los vectores en el plano.",
+      "formula": "\\(\\vec{a} = (8,1), \\ \\vec{b} = (2,3)\\)",
+      "options": ["\\( 19 \\)", "\\( 17 \\)", "\\( 15 \\)", "\\( 21 \\)"],
+      "correctAnswer": 0,
+      "explanation": "Se obtiene: 8×2 + 1×3 = 16 + 3 = 19.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplicar las componentes: 8×2 y 1×3.",
+        "Sumar los resultados: 16 + 3.",
+        "El producto escalar es 19."
+      ]
+    },
+    {
+      "question": "Calcula el producto vectorial de los vectores en 3D.",
+      "formula": "\\(\\vec{a} = (0,1,2), \\ \\vec{b} = (2,3,4)\\)",
+      "options": [
+        "\\( (-2,4,-2) \\)",
+        "\\( (2,-4,2) \\)",
+        "\\( (-2,-4,2) \\)",
+        "\\( (-2,4,2) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se calcula: primer componente: 1×4 - 2×3 = 4 - 6 = -2; segundo componente: 2×2 - 0×4 = 4; tercer componente: 0×3 - 1×2 = -2.",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la fórmula del producto vectorial.",
+        "Calcular cada componente usando determinantes 2x2.",
+        "El resultado es \\( (-2,4,-2) \\)."
+      ]
+    },
+    {
+      "question": "Determina el producto escalar de los vectores en el espacio.",
+      "formula": "\\(\\vec{a} = (3,3,-1), \\ \\vec{b} = (-1,2,4)\\)",
+      "options": ["\\( -1 \\)", "\\( 1 \\)", "\\( 0 \\)", "\\( -2 \\)"],
+      "correctAnswer": 0,
+      "explanation": "Se obtiene: 3×(-1) + 3×2 + (-1)×4 = -3 + 6 - 4 = -1.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplicar cada par de componentes.",
+        "Sumar los resultados: -3 + 6 - 4.",
+        "El producto escalar es -1."
+      ]
+    },
+    {
+      "question": "Suma los vectores en el plano.",
+      "formula": "\\(\\vec{a} = (-4,7), \\ \\vec{b} = (6,-3)\\)",
+      "options": [
+        "\\( (2,4) \\)",
+        "\\( (-2,4) \\)",
+        "\\( (2,-4) \\)",
+        "\\( (-2,-4) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se suma: -4+6 = 2 y 7+(-3) = 4.",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar las componentes de ambos vectores.",
+        "Sumarlas: -4 + 6 y 7 + (-3).",
+        "El resultado es \\( (2,4) \\)."
+      ]
+    },
+    {
+      "question": "Realiza la resta de los vectores en el plano.",
+      "formula": "\\(\\vec{a} = (8,2), \\ \\vec{b} = (5,7)\\)",
+      "options": [
+        "\\( (3,-5) \\)",
+        "\\( (3,5) \\)",
+        "\\( (-3,5) \\)",
+        "\\( (-3,-5) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se obtiene: 8-5 = 3 y 2-7 = -5.",
+      "difficulty": "hard",
+      "procedure": [
+        "Restar cada componente: 8 - 5 y 2 - 7.",
+        "El vector resultante es \\( (3,-5) \\)."
+      ]
+    },
+    {
+      "question": "Calcula el producto vectorial de los vectores en el espacio.",
+      "formula": "\\(\\vec{a} = (2,-1,0), \\ \\vec{b} = (0,0,3)\\)",
+      "options": [
+        "\\( (-3,-6,0) \\)",
+        "\\( (3,6,0) \\)",
+        "\\( (-3,6,0) \\)",
+        "\\( (3,-6,0) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se calcula: primer componente: (-1)*3 - 0*0 = -3; segundo: 0*0 - 2*3 = -6; tercer componente: 2*0 - (-1)*0 = 0.",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la fórmula del producto vectorial.",
+        "Calcular cada componente usando determinantes 2x2.",
+        "El resultado es \\( (-3,-6,0) \\)."
+      ]
+    },
+    {
+      "question": "Determina el producto escalar de los vectores en el plano.",
+      "formula": "\\(\\vec{a} = (-2,-3), \\ \\vec{b} = (-4,5)\\)",
+      "options": ["\\( -7 \\)", "\\( 7 \\)", "\\( -8 \\)", "\\( 8 \\)"],
+      "correctAnswer": 0,
+      "explanation": "Se obtiene: (-2)*(-4) + (-3)*5 = 8 - 15 = -7.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplicar las componentes correspondientes.",
+        "Sumar los resultados: 8 - 15.",
+        "El producto escalar es -7."
+      ]
+    },
+    {
+      "question": "Suma los vectores en el espacio.",
+      "formula": "\\(\\vec{a} = (10,-5,3), \\ \\vec{b} = (-4,2,-1)\\)",
+      "options": [
+        "\\( (6,-3,2) \\)",
+        "\\( (6,3,2) \\)",
+        "\\( (10,-3,2) \\)",
+        "\\( (6,-3,-2) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se suma: 10+(-4)=6, -5+2=-3, 3+(-1)=2.",
+      "difficulty": "hard",
+      "procedure": [
+        "Sumar las componentes: 10 - 4, -5 + 2, 3 - 1.",
+        "El vector resultante es \\( (6,-3,2) \\)."
+      ]
+    },
+    {
+      "question": "Realiza la resta de los vectores en el espacio.",
+      "formula": "\\(\\vec{a} = (0,0,0), \\ \\vec{b} = (3,-3,3)\\)",
+      "options": [
+        "\\( (-3,3,-3) \\)",
+        "\\( (3,-3,3) \\)",
+        "\\( (-3,-3,-3) \\)",
+        "\\( (3,3,3) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La resta es: 0-3 = -3, 0-(-3) = 3, 0-3 = -3.",
+      "difficulty": "hard",
+      "procedure": [
+        "Restar cada componente del segundo vector del primero.",
+        "El resultado es \\( (-3,3,-3) \\)."
+      ]
+    },
+    {
+      "question": "Calcula el producto escalar de los vectores en el plano.",
+      "formula": "\\(\\vec{a} = (9,4), \\ \\vec{b} = (3,-2)\\)",
+      "options": ["\\( 19 \\)", "\\( 17 \\)", "\\( 21 \\)", "\\( 15 \\)"],
+      "correctAnswer": 0,
+      "explanation": "Se calcula: 9×3 + 4×(-2) = 27 - 8 = 19.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplicar las componentes: 9×3 y 4×(-2).",
+        "Sumar los resultados: 27 - 8.",
+        "El producto escalar es 19."
+      ]
+    },
+    {
+      "question": "Calcula el producto vectorial de los vectores en 3D.",
+      "formula": "\\(\\vec{a} = (1,2,3), \\ \\vec{b} = (3,2,1)\\)",
+      "options": [
+        "\\( (-4,8,-4) \\)",
+        "\\( (4,-8,4) \\)",
+        "\\( (-4,-8,-4) \\)",
+        "\\( (4,8,4) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se calcula: primer componente: 2×1 - 3×2 = 2 - 6 = -4; segundo: 3×3 - 1×1 = 9 - 1 = 8; tercer: 1×2 - 2×3 = 2 - 6 = -4.",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la fórmula del producto vectorial para 3D.",
+        "Calcular cada componente utilizando determinantes 2x2.",
+        "El resultado es \\( (-4,8,-4) \\)."
+      ]
+    },
+    {
+      "question": "Determina el producto escalar de los vectores en el espacio.",
+      "formula": "\\(\\vec{a} = (0,2,1), \\ \\vec{b} = (5,-1,2)\\)",
+      "options": ["\\( 0 \\)", "\\( 2 \\)", "\\( -2 \\)", "\\( 1 \\)"],
+      "correctAnswer": 0,
+      "explanation": "Se obtiene: 0×5 + 2×(-1) + 1×2 = 0 - 2 + 2 = 0.",
+      "difficulty": "hard",
+      "procedure": [
+        "Multiplicar las componentes correspondientes.",
+        "Sumar los productos: 0 - 2 + 2.",
+        "El producto escalar es 0."
+      ]
+    },
+    {
+      "question": "Determina la ecuación vectorial de la recta que pasa por los puntos \\(P(-2,3,1)\\) y \\(Q(0,-1,4)\\).",
+      "formula": "\\(P(-2,3,1),\\; Q(0,-1,4)\\)",
+      "options": [
+        "\\(\\vec{r}=(-2,3,1)+t(2,-4,3)\\)",
+        "\\(\\vec{r}=(0,-1,4)+t(2,4,-3)\\)",
+        "\\(\\vec{r}=(-2,3,1)+t(-2,4,-3)\\)",
+        "\\(\\vec{r}=(0,-1,4)+t(-2,-4,3)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se calcula el vector director \\(Q-P=(0-(-2), -1-3, 4-1)=(2,-4,3)\\), de modo que la recta es \\(\\vec{r}=(-2,3,1)+t(2,-4,3)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar los puntos dados: \\(P(-2,3,1)\\) y \\(Q(0,-1,4)\\).",
+        "Calcular el vector director: \\(Q-P=(2,-4,3)\\).",
+        "Formular la ecuación vectorial de la recta: \\(\\vec{r}=P+t(Q-P)\\)."
+      ]
+    },
+    {
+      "question": "Encuentra la ecuación del plano que contiene el punto \\(P(2,-1,3)\\) y es paralelo al vector normal \\(\\vec{n}=(1,2,-1)\\).",
+      "formula": "\\(P(2,-1,3),\\; \\vec{n}=(1,2,-1)\\)",
+      "options": [
+        "\\(1(x-2)+2(y+1)-1(z-3)=0\\)",
+        "\\(1(x+2)+2(y-1)-1(z-3)=0\\)",
+        "\\(1(x-2)-2(y+1)-1(z-3)=0\\)",
+        "\\(1(x-2)+2(y+1)+1(z-3)=0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando \\(\\vec{n}\\cdot(\\vec{r}-P)=0\\) se tiene \\(1(x-2)+2(y+1)-1(z-3)=0\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Utilizar la fórmula del plano: \\(\\vec{n}\\cdot(\\vec{r}-P)=0\\).",
+        "Sustituir \\(P(2,-1,3)\\) y \\(\\vec{n}=(1,2,-1)\\).",
+        "Simplificar la ecuación resultante."
+      ]
+    },
+    {
+      "question": "Calcula la distancia entre el punto \\(P(5,2,-1)\\) y el plano \\(3x-y+2z+4=0\\).",
+      "formula": "\\(P(5,2,-1),\\; 3x-y+2z+4=0\\)",
+      "options": [
+        "\\(\\frac{|3\\cdot5-2+2\\cdot(-1)+4|}{\\sqrt{3^2+(-1)^2+2^2}}\\)",
+        "\\(\\frac{|3\\cdot5+2+2\\cdot(-1)+4|}{\\sqrt{3^2+1+4}}\\)",
+        "\\(\\frac{|3\\cdot5-2+2\\cdot(-1)-4|}{\\sqrt{9+1+4}}\\)",
+        "\\(\\frac{|3\\cdot5-2+2\\cdot(-1)+4|}{\\sqrt{3+1+2}}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La distancia se calcula con \\(d=\\frac{|Ax_0+By_0+Cz_0+D|}{\\sqrt{A^2+B^2+C^2}}\\). Al sustituir se obtiene la opción A.",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar \\(A=3, B=-1, C=2, D=4\\) y el punto \\(P(5,2,-1)\\).",
+        "Aplicar la fórmula de la distancia al plano.",
+        "Simplificar el valor absoluto y la raíz."
+      ]
+    },
+    {
+      "question": "Halla el punto de intersección entre la recta \\(\\vec{r}=(0,1,2)+t(3,-1,4)\\) y el plano \\(2x+y-z=5\\).",
+      "formula": "\\(\\vec{r}=(0,1,2)+t(3,-1,4),\\; 2x+y-z=5\\)",
+      "options": [
+        "\\((3,0,6)\\)",
+        "\\((0,1,2)\\)",
+        "\\((6,-1,10)\\)",
+        "\\((9,-2,14)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se parametriza la recta y se sustituyen \\(x=3t, y=1-t, z=2+4t\\) en el plano; resolviendo se obtiene \\(t=1\\) y el punto \\((3,0,6)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Expresar la recta en forma paramétrica: \\(x=3t,\\; y=1-t,\\; z=2+4t\\).",
+        "Sustituir en la ecuación del plano: \\(2(3t)+(1-t)-(2+4t)=5\\).",
+        "Resolver para \\(t\\) y obtener el punto de intersección."
+      ]
+    },
+    {
+      "question": "Determina la magnitud del vector \\(\\vec{v}=(7,-1,-6)\\).",
+      "formula": "\\(\\vec{v}=(7,-1,-6)\\)",
+      "options": [
+        "\\(\\sqrt{7^2+(-1)^2+(-6)^2}\\)",
+        "\\(\\sqrt{7+1+6}\\)",
+        "\\(7-1-6\\)",
+        "\\(\\sqrt{7^2-1^2-6^2}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La magnitud se calcula como \\(\\sqrt{7^2+(-1)^2+(-6)^2}=\\sqrt{49+1+36}=\\sqrt{86}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Elevar al cuadrado cada componente: \\(7^2, (-1)^2, (-6)^2\\).",
+        "Sumar los cuadrados: \\(49+1+36=86\\).",
+        "Extraer la raíz cuadrada: \\(\\sqrt{86}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el trabajo realizado por la fuerza \\(\\vec{F}=(4,-2,3)\\) en el desplazamiento \\(\\vec{d}=(1,3,-1)\\).",
+      "formula": "\\(\\vec{F}=(4,-2,3),\\; \\vec{d}=(1,3,-1)\\)",
+      "options": [
+        "\\(4\\cdot1+(-2)\\cdot3+3\\cdot(-1)=4-6-3\\)",
+        "\\(4+6+3\\)",
+        "\\(4-2+3\\)",
+        "\\(4\\cdot3+(-2)\\cdot1+3\\cdot(-1)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El trabajo es el producto punto: \\(4\\times1+(-2)\\times3+3\\times(-1)=4-6-3=-5\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular el producto de cada componente.",
+        "Sumar los resultados para obtener el trabajo.",
+        "Interpretar el signo del resultado."
+      ]
+    },
+    {
+      "question": "Halla la aceleración media de un objeto que cambia su velocidad de \\(\\vec{v}_i=(0,5,2)\\) a \\(\\vec{v}_f=(6,-3,8)\\) en 4 s.",
+      "formula": "\\(\\vec{v}_i=(0,5,2),\\; \\vec{v}_f=(6,-3,8),\\; \\Delta t=4\\)",
+      "options": [
+        "\\(\\frac{(6-0, -3-5, 8-2)}{4}=\\left(1.5,-2,1.5\\right)\\)",
+        "\\(\\frac{(6, -3, 8)}{4}\\)",
+        "\\(\\frac{(6, -8, 6)}{4}\\)",
+        "\\(\\left(2, -2, 2\\right)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La aceleración media es \\((\\vec{v}_f-\\vec{v}_i)/\\Delta t=(6, -8, 6)/4=(1.5,-2,1.5)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Restar \\(\\vec{v}_i\\) de \\(\\vec{v}_f\\): \\((6-0, -3-5, 8-2)=(6,-8,6)\\).",
+        "Dividir el resultado por \\(4\\) s.",
+        "Obtener la aceleración media."
+      ]
+    },
+    {
+      "question": "Calcula el módulo del vector resultante de la suma \\(\\vec{a}=(3,-3,5)\\) y \\(\\vec{b}=(2,2,-1)\\).",
+      "formula": "\\(\\vec{a}=(3,-3,5),\\; \\vec{b}=(2,2,-1)\\)",
+      "options": [
+        "\\(\\sqrt{(3+2)^2+(-3+2)^2+(5-1)^2}=\\sqrt{5^2+(-1)^2+4^2}\\)",
+        "\\(\\sqrt{(3-2)^2+(-3-2)^2+(5+1)^2}\\)",
+        "\\(\\sqrt{(3+2)^2+(-3-2)^2+(5-1)^2}\\)",
+        "\\(\\sqrt{(3-2)^2+(-3+2)^2+(5+1)^2}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sumando: \\((3+2, -3+2, 5+(-1))=(5,-1,4)\\) y su módulo es \\(\\sqrt{5^2+(-1)^2+4^2}=\\sqrt{25+1+16}=\\sqrt{42}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Sumar las componentes de \\(\\vec{a}\\) y \\(\\vec{b}\\).",
+        "Calcular el cuadrado de cada componente del vector resultante.",
+        "Extraer la raíz cuadrada de la suma."
+      ]
+    },
+    {
+      "question": "Encuentra la forma simétrica de la recta que pasa por \\(P(1,-2,0)\\) y tiene dirección \\(\\vec{d}=(2,3,-1)\\).",
+      "formula": "\\(P(1,-2,0),\\; \\vec{d}=(2,3,-1)\\)",
+      "options": [
+        "\\(\\frac{x-1}{2}=\\frac{y+2}{3}=\\frac{z-0}{-1}\\)",
+        "\\(\\frac{x+1}{2}=\\frac{y-2}{3}=\\frac{z}{-1}\\)",
+        "\\(\\frac{x-1}{-2}=\\frac{y+2}{-3}=\\frac{z}{1}\\)",
+        "\\(\\frac{x-1}{3}=\\frac{y+2}{2}=\\frac{z}{-1}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La forma simétrica se escribe como \\(\\frac{x-x_0}{d_x}=\\frac{y-y_0}{d_y}=\\frac{z-z_0}{d_z}\\), lo que da la opción A.",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar el punto \\(P(1,-2,0)\\) y la dirección \\(\\vec{d}=(2,3,-1)\\).",
+        "Aplicar la fórmula de la forma simétrica.",
+        "Escribir la ecuación resultante."
+      ]
+    },
+    {
+      "question": "Determina el ángulo entre los vectores \\(\\vec{u}=(2,2,0)\\) y \\(\\vec{v}=(0,-2,2)\\).",
+      "formula": "\\(\\vec{u}=(2,2,0),\\; \\vec{v}=(0,-2,2)\\)",
+      "options": [
+        "\\(\\cos\\theta=\\frac{(2\\cdot0+2\\cdot(-2)+0\\cdot2)}{\\sqrt{8}\\sqrt{8}}\\)",
+        "\\(\\cos\\theta=\\frac{(2\\cdot0+2\\cdot(-2)+0\\cdot2)}{\\sqrt{4}\\sqrt{4}}\\)",
+        "\\(\\cos\\theta=\\frac{(2\\cdot0+2\\cdot2+0\\cdot2)}{\\sqrt{8}\\sqrt{8}}\\)",
+        "\\(\\cos\\theta=\\frac{(2\\cdot0+2\\cdot(-2)+0\\cdot2)}{\\sqrt{2}\\sqrt{2}}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El producto punto es \\(0-4+0=-4\\) y las magnitudes de ambos vectores son \\(\\sqrt{8}\\); por tanto, \\(\\cos\\theta=-\\frac{4}{8}=-0.5\\) lo que implica un ángulo de \\(120^\\circ\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular el producto punto \\(\\vec{u}\\cdot\\vec{v}\\).",
+        "Determinar las magnitudes de \\(\\vec{u}\\) y \\(\\vec{v}\\).",
+        "Aplicar la fórmula \\(\\cos\\theta=\\frac{\\vec{u}\\cdot\\vec{v}}{||\\vec{u}||\\,||\\vec{v}||}\\) y hallar \\(\\theta\\)."
+      ]
+    },
+    {
+      "question": "Halla la ecuación del plano que contiene la recta \\(\\vec{r}=(3,0,1)+t(0,2,3)\\) y el punto \\(Q(1,-1,4)\\).",
+      "formula": "\\(\\vec{r}=(3,0,1)+t(0,2,3),\\; Q(1,-1,4)\\)",
+      "options": [
+        "\\(\\vec{n}=(0,2,3)\\times((1,-1,4)-(3,0,1))\\) y \\(\\vec{n}\\cdot(\\vec{r}-\\vec{r}_0)=0\\)",
+        "\\(\\vec{n}=(0,2,3)\\cdot((1,-1,4)-(3,0,1))\\) y \\(\\vec{n}\\cdot(\\vec{r}-Q)=0\\)",
+        "\\(\\vec{n}=(3,0,1)+((1,-1,4)-(3,0,1))\\) y \\(\\vec{n}\\cdot(\\vec{r}-Q)=0\\)",
+        "\\(\\vec{n}=(0,2,3)\\times((1,-1,4)-(3,0,1))\\) y \\(\\vec{n}\\cdot(\\vec{r}-Q)=0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se obtiene el vector normal del plano mediante el producto vectorial entre el vector director de la recta y el vector que une un punto de la recta con Q, y luego se aplica la ecuación del plano.",
+      "difficulty": "medium",
+      "procedure": [
+        "Determinar un vector de la recta \\(\\vec{d}=(0,2,3)\\).",
+        "Calcular el vector \\(\\vec{v}=Q-P\\) con \\(P=(3,0,1)\\).",
+        "Obtener el normal \\(\\vec{n}=\\vec{d}\\times\\vec{v}\\) y escribir la ecuación del plano."
+      ]
+    },
+    {
+      "question": "Calcula el punto medio del segmento que une \\(A(-3,2,5)\\) y \\(B(1,-2,-1)\\).",
+      "formula": "\\(A(-3,2,5),\\; B(1,-2,-1)\\)",
+      "options": [
+        "\\(\\left(\\frac{-3+1}{2}, \\frac{2+(-2)}{2}, \\frac{5+(-1)}{2}\\right)=(-1,0,2)\\)",
+        "\\(\\left(\\frac{-3+1}{2}, \\frac{2+(-2)}{2}, \\frac{5+(-1)}{2}\\right)=(0,0,3)\\)",
+        "\\(\\left(\\frac{-3+1}{2}, \\frac{2+(-2)}{2}, \\frac{5+(-1)}{2}\\right)=(-2,0,1)\\)",
+        "\\(\\left(\\frac{-3+1}{2}, \\frac{2+(-2)}{2}, \\frac{5+(-1)}{2}\\right)=(1,0,2)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El punto medio se obtiene promediando cada componente: \\(\\left(\\frac{-3+1}{2}, \\frac{2+(-2)}{2}, \\frac{5+(-1)}{2}\\right)=(-1,0,2)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Sumar las componentes correspondientes de A y B.",
+        "Dividir cada suma entre 2.",
+        "Obtener el punto medio."
+      ]
+    },
+    {
+      "question": "Determina el trabajo realizado por la fuerza constante \\(\\vec{F}=(2,3,1)\\) en el desplazamiento \\(\\vec{d}=(3,0,-2)\\).",
+      "formula": "\\(\\vec{F}=(2,3,1),\\; \\vec{d}=(3,0,-2)\\)",
+      "options": [
+        "\\(2\\cdot3+3\\cdot0+1\\cdot(-2)=6+0-2=4\\)",
+        "\\(2\\cdot3+3\\cdot0+1\\cdot(-2)=6-2\\)",
+        "\\(2+3+1\\)",
+        "\\(3\\cdot2-0+(-2)\\cdot1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El trabajo se calcula como \\(\\vec{F}\\cdot\\vec{d}=2\\times3+3\\times0+1\\times(-2)=6-2=4\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Realizar el producto punto de \\(\\vec{F}\\) y \\(\\vec{d}\\).",
+        "Sumar los productos obtenidos.",
+        "Interpretar el resultado como el trabajo realizado."
+      ]
+    },
+    {
+      "question": "Encuentra la ecuación paramétrica de la recta perpendicular al plano \\(x+y-2z=3\\) que pasa por el punto \\(P(0,1,2)\\).",
+      "formula": "\\(x+y-2z=3,\\; P(0,1,2)\\)",
+      "options": [
+        "\\(\\vec{r}=(0,1,2)+t(1,1,-2)\\)",
+        "\\(\\vec{r}=(0,1,2)+t(-1,-1,2)\\)",
+        "\\(\\vec{r}=(0,1,2)+t(1,-1,2)\\)",
+        "\\(\\vec{r}=(0,1,2)+t(2,1,-1)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La dirección de la recta perpendicular es el vector normal del plano, que es \\((1,1,-2)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Obtener el vector normal del plano \\(\\vec{n}=(1,1,-2)\\).",
+        "Utilizar el punto \\(P(0,1,2)\\) para escribir la ecuación paramétrica: \\(\\vec{r}=P+t\\vec{n}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el vector resultante de la suma \\(\\vec{u}=(1,4,-2)\\) y \\(\\vec{v}=(-3,2,5)\\).",
+      "formula": "\\(\\vec{u}=(1,4,-2),\\; \\vec{v}=(-3,2,5)\\)",
+      "options": [
+        "\\((1+(-3),4+2, -2+5)=( -2,6,3)\\)",
+        "\\((1-3,4-2,-2-5)\\)",
+        "\\((1+3,4+2,-2+5)\\)",
+        "\\((1-(-3),4-2,-2-5)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La suma se efectúa componente a componente: \\((1-3,4+2,-2+5)=(-2,6,3)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Sumar las componentes correspondientes de \\(\\vec{u}\\) y \\(\\vec{v}\\).",
+        "Obtener el vector resultante."
+      ]
+    },
+    {
+      "question": "Determina la velocidad media de un objeto que se mueve de \\(\\vec{r}_i=(-1,0,3)\\) a \\(\\vec{r}_f=(5,4,7)\\) en 6 segundos.",
+      "formula": "\\(\\vec{r}_i=(-1,0,3),\\; \\vec{r}_f=(5,4,7),\\; \\Delta t=6\\)",
+      "options": [
+        "\\(\\frac{(5-(-1),4-0,7-3)}{6}=\\left(1,\\frac{2}{3},\\frac{2}{3}\\right)\\)",
+        "\\(\\frac{(6,4,4)}{6}\\)",
+        "\\(\\frac{(5,4,7)}{6}\\)",
+        "\\(\\frac{(6,4,4)}{5}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La velocidad media es \\((\\vec{r}_f-\\vec{r}_i)/6=(6,4,4)/6=(1,\\frac{2}{3},\\frac{2}{3})\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Restar \\(\\vec{r}_i\\) de \\(\\vec{r}_f\\) para obtener el desplazamiento.",
+        "Dividir el vector resultante entre 6 segundos.",
+        "Obtener la velocidad media."
+      ]
+    },
+    {
+      "question": "Halla la aceleración de un objeto si su velocidad varía de \\(\\vec{v}_i=(1,2,3)\\) a \\(\\vec{v}_f=(4,0,6)\\) en 3 s.",
+      "formula": "\\(\\vec{v}_i=(1,2,3),\\; \\vec{v}_f=(4,0,6),\\; \\Delta t=3\\)",
+      "options": [
+        "\\(\\frac{(4-1,0-2,6-3)}{3}=\\left(1, -\\frac{2}{3},1\\right)\\)",
+        "\\(\\frac{(4,0,6)}{3}\\)",
+        "\\(\\frac{(3,2,3)}{3}\\)",
+        "\\(\\left(1, -1,1\\right)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La aceleración se obtiene por \\((\\vec{v}_f-\\vec{v}_i)/3=(3,-2,3)/3=(1,-\\frac{2}{3},1)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Restar \\(\\vec{v}_i\\) de \\(\\vec{v}_f\\) para obtener el cambio en velocidad.",
+        "Dividir cada componente del cambio de velocidad entre 3 s.",
+        "Obtener el vector aceleración."
+      ]
+    },
+    {
+      "question": "Determina la ecuación de la recta que resulta de la intersección de los planos \\(x-y+2z=1\\) y \\(2x+y-z=3\\).",
+      "formula": "\\(x-y+2z=1,\\; 2x+y-z=3\\)",
+      "options": [
+        "\\(\\vec{r}=(1,0,0)+t(1,1,1)\\)",
+        "\\(\\vec{r}=(0,1,1)+t(1,-1,2)\\)",
+        "\\(\\vec{r}=(1,0,0)+t(2,-1,1)\\)",
+        "\\(\\vec{r}=(0,1,1)+t(2,1,1)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La intersección se obtiene resolviendo el sistema, lo que permite parametrizar la recta; la opción A representa una parametrización válida.",
+      "difficulty": "medium",
+      "procedure": [
+        "Resolver el sistema de ecuaciones de los dos planos.",
+        "Encontrar una parametrización que satisfaga ambas ecuaciones.",
+        "Expresar la ecuación de la recta en forma vectorial."
+      ]
+    },
+    {
+      "question": "Calcula el módulo del vector \\(\\vec{w}=(0,-5,12)\\).",
+      "formula": "\\(\\vec{w}=(0,-5,12)\\)",
+      "options": [
+        "\\(\\sqrt{0^2+(-5)^2+12^2}=\\sqrt{0+25+144}=\\sqrt{169}=13\\)",
+        "\\(\\sqrt{0+5+12}\\)",
+        "\\(\\sqrt{5^2+12^2}\\)",
+        "\\(\\sqrt{0^2+5^2+12^2}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El módulo se calcula como \\(\\sqrt{0+25+144}=\\sqrt{169}=13\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Elevar al cuadrado cada componente.",
+        "Sumar los resultados y extraer la raíz cuadrada.",
+        "Obtener el valor final."
+      ]
+    },
+    {
+      "question": "Encuentra el ángulo entre la recta \\(\\vec{r}=(2,1,0)+t(1,-1,2)\\) y el plano \\(2x-3y+z=0\\).",
+      "formula": "\\(\\vec{r}=(2,1,0)+t(1,-1,2),\\; 2x-3y+z=0\\)",
+      "options": [
+        "\\(\\theta=90^\\circ-\\alpha\\) donde \\(\\alpha\\) es el ángulo entre \\(\\vec{d}=(1,-1,2)\\) y el vector normal \\((2,-3,1)\\)",
+        "\\(\\theta=\\alpha\\)",
+        "\\(\\theta=\\alpha+90^\\circ\\)",
+        "\\(\\theta=\\alpha-90^\\circ\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El ángulo entre la recta y el plano es \\(90^\\circ-\\alpha\\), donde \\(\\alpha\\) es el ángulo entre la dirección de la recta y el vector normal del plano.",
+      "difficulty": "medium",
+      "procedure": [
+        "Determinar el vector director de la recta \\(\\vec{d}=(1,-1,2)\\).",
+        "Identificar el vector normal del plano \\((2,-3,1)\\).",
+        "Calcular el ángulo \\(\\alpha\\) entre \\(\\vec{d}\\) y el normal, y luego hallar \\(90^\\circ-\\alpha\\)."
+      ]
+    },
+    {
+      "question": "Calcula la proyección del vector \\(\\vec{a}=(5,4,0)\\) sobre \\(\\vec{b}=(3,0,4)\\).",
+      "formula": "\\(\\vec{a}=(5,4,0),\\; \\vec{b}=(3,0,4)\\)",
+      "options": [
+        "\\(\\text{proj}_{\\vec{b}}(\\vec{a})=\\frac{5\\cdot3+4\\cdot0+0\\cdot4}{3^2+0^2+4^2}\\,(3,0,4)\\)",
+        "\\(\\text{proj}_{\\vec{b}}(\\vec{a})=\\frac{5+4+0}{\\sqrt{3^2+4^2}}\\,(3,0,4)\\)",
+        "\\(\\text{proj}_{\\vec{b}}(\\vec{a})=\\frac{5\\cdot3}{3^2}\\,(3,0,4)\\)",
+        "\\(\\text{proj}_{\\vec{b}}(\\vec{a})=(5,4,0)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se calcula la proyección usando \\(\\frac{\\vec{a}\\cdot\\vec{b}}{||\\vec{b}||^2}\\vec{b}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular el producto punto \\(\\vec{a}\\cdot\\vec{b}=5\\cdot3+4\\cdot0+0\\cdot4=15\\).",
+        "Determinar \\(||\\vec{b}||^2=3^2+0^2+4^2=9+16=25\\).",
+        "Multiplicar \\(\\frac{15}{25}=\\frac{3}{5}\\) por \\(\\vec{b}\\)."
+      ]
+    },
+    {
+      "question": "Determina el vector unitario en la dirección de \\(\\vec{v}=(2,-2,1)\\).",
+      "formula": "\\(\\vec{v}=(2,-2,1)\\)",
+      "options": [
+        "\\(\\frac{(2,-2,1)}{\\sqrt{2^2+(-2)^2+1^2}}=\\frac{(2,-2,1)}{\\sqrt{4+4+1}}=\\frac{(2,-2,1)}{\\sqrt{9}}=(\\frac{2}{3},-\\frac{2}{3},\\frac{1}{3})\\)",
+        "\\(\\frac{(2,-2,1)}{2+2+1}\\)",
+        "\\(\\frac{(2,-2,1)}{2}\\)",
+        "\\(\\frac{(2,-2,1)}{\\sqrt{2}}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El vector unitario se obtiene dividiendo \\(\\vec{v}\\) por su magnitud \\(\\sqrt{9}=3\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular la magnitud de \\(\\vec{v}\\): \\(\\sqrt{2^2+(-2)^2+1^2}=3\\).",
+        "Dividir cada componente de \\(\\vec{v}\\) por 3.",
+        "Obtener el vector unitario resultante."
+      ]
+    },
+    {
+      "question": "Encuentra la ecuación del plano paralelo al plano \\(x+3y-z+2=0\\) que pasa por el punto \\(P(-1,0,3)\\).",
+      "formula": "\\(x+3y-z+2=0,\\; P(-1,0,3)\\)",
+      "options": [
+        "\\(x+3y-z+d=0\\) con \\(d\\) tal que \\(-1+0-3+d=0\\), es decir, \\(d=4\\)",
+        "\\(x+3y-z-4=0\\)",
+        "\\(x-3y+z+4=0\\)",
+        "\\(x+3y-z+2=0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El nuevo plano tiene el mismo normal; se sustituye el punto para hallar \\(d\\): \\(-1+0-3+d=0\\) da \\(d=4\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Reconocer que el plano paralelo tiene la misma normal.",
+        "Sustituir el punto \\(P(-1,0,3)\\) en la ecuación \\(x+3y-z+d=0\\).",
+        "Resolver para \\(d\\) y escribir la ecuación del plano."
+      ]
+    },
+    {
+      "question": "Calcula el área del paralelogramo formado por los vectores \\(\\vec{a}=(2,1,3)\\) y \\(\\vec{b}=(1,-4,2)\\).",
+      "formula": "\\(\\vec{a}=(2,1,3),\\; \\vec{b}=(1,-4,2)\\)",
+      "options": [
+        "\\(||\\vec{a}\\times\\vec{b}||\\)",
+        "\\(\\vec{a}\\cdot\\vec{b}\\)",
+        "\\(\\sqrt{(2-1)^2+(1+4)^2+(3-2)^2}\\)",
+        "\\(\\sqrt{2^2+1^2+3^2}+\\sqrt{1^2+(-4)^2+2^2}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El área del paralelogramo es la magnitud del producto vectorial \\(\\vec{a}\\times\\vec{b}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular el producto vectorial \\(\\vec{a}\\times\\vec{b}\\).",
+        "Determinar la magnitud del vector resultante.",
+        "Interpretar dicha magnitud como el área."
+      ]
+    },
+    {
+      "question": "Determina la componente de \\(\\vec{a}=(6,-3,2)\\) en la dirección de \\(\\vec{b}=(2,2,2)\\).",
+      "formula": "\\(\\vec{a}=(6,-3,2),\\; \\vec{b}=(2,2,2)\\)",
+      "options": [
+        "\\(\\frac{\\vec{a}\\cdot\\vec{b}}{||\\vec{b}||}=\\frac{6\\cdot2+(-3)\\cdot2+2\\cdot2}{\\sqrt{2^2+2^2+2^2}}\\)",
+        "\\(\\vec{a}\\cdot\\vec{b}\\)",
+        "\\(\\frac{\\vec{a}}{\\vec{b}}\\)",
+        "\\(\\vec{a}-\\vec{b}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La componente en la dirección de \\(\\vec{b}\\) es \\(\\frac{\\vec{a}\\cdot\\vec{b}}{||\\vec{b}||}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular el producto punto \\(\\vec{a}\\cdot\\vec{b}\\).",
+        "Determinar la magnitud de \\(\\vec{b}\\).",
+        "Dividir el producto punto por la magnitud."
+      ]
+    },
+    {
+      "question": "Halla el punto de intersección de las rectas \\(\\vec{r}_1=(1,2,3)+t(2,-1,1)\\) y \\(\\vec{r}_2=(0,0,0)+s(1,4,2)\\).",
+      "formula": "\\(\\vec{r}_1=(1,2,3)+t(2,-1,1),\\; \\vec{r}_2=(0,0,0)+s(1,4,2)\\)",
+      "options": [
+        "\\(\\text{Punto obtenido al resolver el sistema de ecuaciones paramétricas}\\)",
+        "\\((1,2,3)\\)",
+        "\\((0,0,0)\\)",
+        "\\((2,3,4)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se igualan las ecuaciones paramétricas de ambas rectas y se resuelve el sistema para hallar el punto de intersección.",
+      "difficulty": "medium",
+      "procedure": [
+        "Expresar cada recta en forma paramétrica.",
+        "Igualar las componentes correspondientes.",
+        "Resolver el sistema para \\(t\\) y \\(s\\) y obtener el punto."
+      ]
+    },
+    {
+      "question": "Calcula la proyección ortogonal del punto \\(P(3,3,3)\\) sobre la recta \\(\\vec{r}=(0,0,0)+t(1,2,2)\\).",
+      "formula": "\\(P(3,3,3),\\; \\vec{r}=(0,0,0)+t(1,2,2)\\)",
+      "options": [
+        "\\(P_{proj}=t(1,2,2)\\) con \\(t=\\frac{(3,3,3)\\cdot(1,2,2)}{|| (1,2,2)||^2}\\)",
+        "\\(P_{proj}=\\vec{P}\\)",
+        "\\(P_{proj}=(1,2,2)\\)",
+        "\\(P_{proj}=(3,3,3)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se halla el valor de \\(t\\) mediante el producto punto y la magnitud del vector director, luego se obtiene el punto de proyección.",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular \\(t=\\frac{(3,3,3)\\cdot(1,2,2)}{1^2+2^2+2^2}\\).",
+        "Multiplicar \\(t\\) por el vector director \\((1,2,2)\\).",
+        "Obtener el punto de proyección."
+      ]
+    },
+    {
+      "question": "Determina el trabajo realizado por una fuerza variable \\(\\vec{F}(t)=(2t,t+1,3)\\) en el desplazamiento \\(\\vec{d}=(0,1,0)\\), evaluado en \\(t=3\\).",
+      "formula": "\\(\\vec{F}(t)=(2t,t+1,3),\\; \\vec{d}=(0,1,0),\\; t=3\\)",
+      "options": [
+        "\\(\\vec{F}(3)=(6,4,3)\\) y el trabajo es \\(6\\cdot0+4\\cdot1+3\\cdot0=4\\)",
+        "\\(\\vec{F}(3)=(6,4,3)\\) y el trabajo es \\(6+4+3=13\\)",
+        "\\(\\vec{F}(3)=(2,2,3)\\) y el trabajo es \\(2\\)",
+        "\\(\\vec{F}(3)=(6,4,3)\\) y el trabajo es \\(6\\cdot1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se evalúa la fuerza en \\(t=3\\): \\((6,4,3)\\) y se calcula el producto punto con \\((0,1,0)\\) dando 4.",
+      "difficulty": "medium",
+      "procedure": [
+        "Sustituir \\(t=3\\) en \\(\\vec{F}(t)\\) para obtener \\(\\vec{F}(3)\\).",
+        "Calcular el producto punto con \\(\\vec{d}\\).",
+        "Obtener el trabajo realizado."
+      ]
+    },
+    {
+      "question": "Calcula la aceleración de un objeto si su velocidad cambia de \\(\\vec{v}_i=(0,2,4)\\) a \\(\\vec{v}_f=(6,8,10)\\) en 4 s.",
+      "formula": "\\(\\vec{v}_i=(0,2,4),\\; \\vec{v}_f=(6,8,10),\\; \\Delta t=4\\)",
+      "options": [
+        "\\(\\frac{(6-0,8-2,10-4)}{4}=\\left(1.5,1.5,1.5\\right)\\)",
+        "\\(\\frac{(6,8,10)}{4}\\)",
+        "\\(\\frac{(6,8,10)}{3}\\)",
+        "\\(\\left(2,2,2\\right)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La aceleración es \\((6,6,6)/4=(1.5,1.5,1.5)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Restar \\(\\vec{v}_i\\) de \\(\\vec{v}_f\\) para obtener el cambio en velocidad.",
+        "Dividir cada componente por 4 s.",
+        "Obtener la aceleración."
+      ]
+    },
+    {
+      "question": "Encuentra la ecuación general del plano perpendicular a \\(\\vec{n}=(2,-2,1)\\) que pasa por el punto \\(P(2,-1,0)\\).",
+      "formula": "\\(\\vec{n}=(2,-2,1),\\; P(2,-1,0)\\)",
+      "options": [
+        "\\(2(x-2)-2(y+1)+1(z-0)=0\\)",
+        "\\(2(x+2)-2(y-1)+1(z+0)=0\\)",
+        "\\(2(x-2)+2(y+1)-1(z-0)=0\\)",
+        "\\(2(x-2)-2(y-1)+1(z-0)=0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Utilizando la forma \\(\\vec{n}\\cdot(\\vec{r}-P)=0\\) se obtiene \\(2(x-2)-2(y+1)+1(z-0)=0\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Usar el vector normal \\(\\vec{n}=(2,-2,1)\\) y el punto \\(P(2,-1,0)\\).",
+        "Sustituir en la ecuación general del plano.",
+        "Simplificar para obtener la ecuación final."
+      ]
+    }
+  ]
+}

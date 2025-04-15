@@ -1,0 +1,1660 @@
+{
+  "integrales_tecnicas_dificil": [
+    {
+      "question": "Resuelve la integral por sustitución simple: \\(\\int x \\cos(x^2)\\,dx\\)",
+      "formula": "\\(\\int x \\cos(x^2)\\,dx\\)",
+      "options": [
+        "\\(\\cos(x^2)+C\\)",
+        "\\(\\frac{1}{2}\\sin(x^2)+C\\)",
+        "\\(\\sin(x^2)+C\\)",
+        "\\(\\frac{1}{2}\\cos(x^2)+C\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sea \\(u=x^2\\) de modo que \\(du=2x\\,dx\\). La integral se transforma en \\(\\frac{1}{2}\\int \\cos(u)\\,du = \\frac{1}{2}\\sin(u)+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Sea \\(u=x^2\\) y por tanto \\(du=2x\\,dx\\).",
+        "Reescriba la integral como \\(\\frac{1}{2}\\int \\cos(u)\\,du\\).",
+        "Integre \\(\\cos(u)\\) para obtener \\(\\sin(u)\\).",
+        "Sustituya \\(u\\) por \\(x^2\\) para obtener el resultado final."
+      ]
+    },
+    {
+      "question": "Resuelve la integral por sustitución simple: \\(\\int 2x e^{x^2}\\,dx\\)",
+      "formula": "\\(\\int 2x e^{x^2}\\,dx\\)",
+      "options": [
+        "\\(e^{x^2}+C\\)",
+        "\\(2e^{x^2}+C\\)",
+        "\\(\\frac{1}{2}e^{x^2}+C\\)",
+        "\\(e^{2x^2}+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Con \\(u=x^2\\) se tiene \\(du=2x\\,dx\\). La integral se convierte en \\(\\int e^u\\,du\\), cuyo resultado es \\(e^u+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Sea \\(u=x^2\\) y calcule \\(du=2x\\,dx\\).",
+        "Reemplace en la integral para obtener \\(\\int e^u\\,du\\).",
+        "Integre \\(e^u\\) y reemplace \\(u\\) por \\(x^2\\)."
+      ]
+    },
+    {
+      "question": "Resuelve la integral por sustitución simple: \\(\\int 3x^2 \\sqrt{x^3+1}\\,dx\\)",
+      "formula": "\\(\\int 3x^2 \\sqrt{x^3+1}\\,dx\\)",
+      "options": [
+        "\\(\\frac{2}{3}(x^3+1)^{3/2}+C\\)",
+        "\\(\\frac{3}{2}(x^3+1)^{3/2}+C\\)",
+        "\\(\\frac{1}{3}(x^3+1)^{3/2}+C\\)",
+        "\\(2(x^3+1)^{3/2}+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Con \\(u=x^3+1\\) se tiene \\(du=3x^2\\,dx\\). La integral se transforma en \\(\\int \\sqrt{u}\\,du\\), que integra a \\(\\frac{2}{3}u^{3/2}+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Defina \\(u=x^3+1\\) y obtenga \\(du=3x^2\\,dx\\).",
+        "La integral se simplifica a \\(\\int \\sqrt{u}\\,du\\).",
+        "Integre para obtener \\(\\frac{2}{3}u^{3/2}+C\\) y reemplace \\(u\\) por \\(x^3+1\\)."
+      ]
+    },
+    {
+      "question": "Resuelve la integral por sustitución simple: \\(\\int \\sin(2x)\\,dx\\)",
+      "formula": "\\(\\int \\sin(2x)\\,dx\\)",
+      "options": [
+        "\\(\\frac{-1}{2}\\cos(2x)+C\\)",
+        "\\(\\frac{1}{2}\\cos(2x)+C\\)",
+        "\\(\\cos(2x)+C\\)",
+        "\\(\\sin(2x)+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sea \\(u=2x\\) con \\(du=2dx\\), por lo que la integral se reescribe como \\(\\frac{1}{2}\\int \\sin(u)\\,du\\) y su integración da \\(-\\frac{1}{2}\\cos(u)+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Realice la sustitución \\(u=2x\\) y obtenga \\(du=2dx\\).",
+        "Reescriba la integral como \\(\\frac{1}{2}\\int \\sin(u)\\,du\\).",
+        "Integre \\(\\sin(u)\\) para obtener \\(-\\cos(u)\\).",
+        "Reemplace \\(u\\) por \\(2x\\) y escriba el resultado final."
+      ]
+    },
+    {
+      "question": "Resuelve la integral por sustitución simple: \\(\\int \\cos(3x)\\,dx\\)",
+      "formula": "\\(\\int \\cos(3x)\\,dx\\)",
+      "options": [
+        "\\(\\frac{1}{3}\\sin(3x)+C\\)",
+        "\\(3\\sin(3x)+C\\)",
+        "\\(\\cos(3x)+C\\)",
+        "\\(\\frac{1}{3}\\cos(3x)+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Con \\(u=3x\\) y \\(du=3dx\\) se obtiene \\(\\frac{1}{3}\\int \\cos(u)\\,du\\), que integra a \\(\\frac{1}{3}\\sin(u)+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Defina \\(u=3x\\) y encuentre \\(du=3dx\\).",
+        "Reescriba la integral como \\(\\frac{1}{3}\\int \\cos(u)\\,du\\).",
+        "Integre \\(\\cos(u)\\) y reemplace \\(u\\) por \\(3x\\)."
+      ]
+    },
+    {
+      "question": "Resuelve la integral por sustitución simple: \\(\\int \\frac{x}{x^2+1}\\,dx\\)",
+      "formula": "\\(\\int \\frac{x}{x^2+1}\\,dx\\)",
+      "options": [
+        "\\(\\frac{1}{2}\\ln|x^2+1|+C\\)",
+        "\\(\\ln|x^2+1|+C\\)",
+        "\\(\\frac{1}{2}\\ln\\left|\\frac{x^2+1}{x}\\right|+C\\)",
+        "\\(\\ln|x|+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sea \\(u=x^2+1\\) con \\(du=2x\\,dx\\); la integral se transforma en \\(\\frac{1}{2}\\int \\frac{du}{u}\\), dando \\(\\frac{1}{2}\\ln|u|+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Establezca \\(u=x^2+1\\) y calcule \\(du=2x\\,dx\\).",
+        "Reemplace en la integral para obtener \\(\\frac{1}{2}\\int \\frac{du}{u}\\).",
+        "Integre y obtenga \\(\\frac{1}{2}\\ln|u|+C\\), luego sustituya \\(u\\) por \\(x^2+1\\)."
+      ]
+    },
+    {
+      "question": "Resuelve la integral por sustitución simple: \\(\\int \\frac{2x}{x^2+4}\\,dx\\)",
+      "formula": "\\(\\int \\frac{2x}{x^2+4}\\,dx\\)",
+      "options": [
+        "\\(\\ln|x^2+4|+C\\)",
+        "\\(\\frac{1}{2}\\ln|x^2+4|+C\\)",
+        "\\(\\ln\\left|\\frac{x^2+4}{2}\\right|+C\\)",
+        "\\(\\ln|x+2|+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Con \\(u=x^2+4\\) se tiene \\(du=2x\\,dx\\). La integral se reduce a \\(\\int \\frac{du}{u}\\) que integra a \\(\\ln|u|+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Defina \\(u=x^2+4\\) y obtenga \\(du=2x\\,dx\\).",
+        "Reemplace en la integral para obtener \\(\\int \\frac{du}{u}\\).",
+        "Integre y reemplace \\(u\\) por \\(x^2+4\\)."
+      ]
+    },
+    {
+      "question": "Resuelve la integral por sustitución simple: \\(\\int e^{3x}\\,dx\\)",
+      "formula": "\\(\\int e^{3x}\\,dx\\)",
+      "options": [
+        "\\(\\frac{1}{3}e^{3x}+C\\)",
+        "\\(3e^{3x}+C\\)",
+        "\\(e^{3x}+C\\)",
+        "\\(\\frac{1}{2}e^{3x}+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sea \\(u=3x\\) con \\(du=3dx\\). La integral se convierte en \\(\\frac{1}{3}\\int e^u\\,du\\), cuyo resultado es \\(\\frac{1}{3}e^u+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Defina \\(u=3x\\) y obtenga \\(du=3dx\\).",
+        "Reemplace en la integral para obtener \\(\\frac{1}{3}\\int e^u\\,du\\).",
+        "Integre \\(e^u\\) y reemplace \\(u\\) por \\(3x\\)."
+      ]
+    },
+    {
+      "question": "Resuelve la integral por sustitución simple: \\(\\int \\frac{4x^3}{x^4+1}\\,dx\\)",
+      "formula": "\\(\\int \\frac{4x^3}{x^4+1}\\,dx\\)",
+      "options": [
+        "\\(\\ln|x^4+1|+C\\)",
+        "\\(\\frac{1}{4}\\ln|x^4+1|+C\\)",
+        "\\(4\\ln|x^4+1|+C\\)",
+        "\\(\\ln|x^3+1|+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Con \\(u=x^4+1\\) y \\(du=4x^3\\,dx\\) la integral se transforma en \\(\\int \\frac{du}{u}\\), dando \\(\\ln|u|+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Sea \\(u=x^4+1\\) y calcule \\(du=4x^3\\,dx\\).",
+        "La integral se simplifica a \\(\\int \\frac{du}{u}\\).",
+        "Integre y reemplace \\(u\\) por \\(x^4+1\\)."
+      ]
+    },
+    {
+      "question": "Resuelve la integral por sustitución simple: \\(\\int \\frac{1}{2x+3}\\,dx\\)",
+      "formula": "\\(\\int \\frac{1}{2x+3}\\,dx\\)",
+      "options": [
+        "\\(\\frac{1}{2}\\ln|2x+3|+C\\)",
+        "\\(\\ln|2x+3|+C\\)",
+        "\\(\\frac{1}{3}\\ln|2x+3|+C\\)",
+        "\\(2\\ln|2x+3|+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sea \\(u=2x+3\\) con \\(du=2dx\\). La integral se convierte en \\(\\frac{1}{2}\\int \\frac{du}{u}\\), que integra a \\(\\frac{1}{2}\\ln|u|+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Defina \\(u=2x+3\\) y obtenga \\(du=2dx\\).",
+        "Reescriba la integral como \\(\\frac{1}{2}\\int \\frac{du}{u}\\).",
+        "Integre y sustituya \\(u\\) por \\(2x+3\\)."
+      ]
+    },
+    {
+      "question": "Resuelve la integral por sustitución simple: \\(\\int 5e^{5x}\\,dx\\)",
+      "formula": "\\(\\int 5e^{5x}\\,dx\\)",
+      "options": [
+        "\\(e^{5x}+C\\)",
+        "\\(5e^{5x}+C\\)",
+        "\\(\\frac{1}{5}e^{5x}+C\\)",
+        "\\(e^{x}+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sea \\(u=5x\\) y \\(du=5dx\\). La integral se transforma en \\(\\int e^u\\,du\\), dando \\(e^u+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Defina \\(u=5x\\) y obtenga \\(du=5dx\\).",
+        "Reemplace en la integral para obtener \\(\\int e^u\\,du\\).",
+        "Integre \\(e^u\\) y reemplace \\(u\\) por \\(5x\\)."
+      ]
+    },
+    {
+      "question": "Resuelve la integral por sustitución simple: \\(\\int \\cos^2(x)\\sin(x)\\,dx\\)",
+      "formula": "\\(\\int \\cos^2(x)\\sin(x)\\,dx\\)",
+      "options": [
+        "\\(-\\frac{1}{3}\\cos^3(x)+C\\)",
+        "\\(\\frac{1}{3}\\cos^3(x)+C\\)",
+        "\\(-\\cos^3(x)+C\\)",
+        "\\(\\frac{1}{3}\\sin^3(x)+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sea \\(u=\\cos(x)\\) con \\(du=-\\sin(x)\\,dx\\). La integral se transforma en \\(-\\int u^2\\,du\\) y su integración da \\(-\\frac{1}{3}u^3+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Defina \\(u=\\cos(x)\\) y encuentre \\(du=-\\sin(x)\\,dx\\).",
+        "Reescriba la integral como \\(-\\int u^2\\,du\\).",
+        "Integre \\(u^2\\) para obtener \\(-\\frac{1}{3}u^3+C\\) y reemplace \\(u\\) por \\(\\cos(x)\\)."
+      ]
+    },
+    {
+      "question": "Resuelve la integral por sustitución simple: \\(\\int x e^{x^2}\\,dx\\)",
+      "formula": "\\(\\int x e^{x^2}\\,dx\\)",
+      "options": [
+        "\\(\\frac{1}{2}e^{x^2}+C\\)",
+        "\\(e^{x^2}+C\\)",
+        "\\(\\frac{1}{2}x e^{x^2}+C\\)",
+        "\\(\\frac{1}{2}e^{x}+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sea \\(u=x^2\\) y \\(du=2x\\,dx\\); la integral se convierte en \\(\\frac{1}{2}\\int e^u\\,du\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Defina \\(u=x^2\\) y calcule \\(du=2x\\,dx\\).",
+        "Reescriba la integral como \\(\\frac{1}{2}\\int e^u\\,du\\).",
+        "Integre \\(e^u\\) y sustituya \\(u\\) por \\(x^2\\)."
+      ]
+    },
+    {
+      "question": "Resuelve la integral por sustitución simple: \\(\\int \\frac{2x}{\\sqrt{x^2+1}}\\,dx\\)",
+      "formula": "\\(\\int \\frac{2x}{\\sqrt{x^2+1}}\\,dx\\)",
+      "options": [
+        "\\(2\\sqrt{x^2+1}+C\\)",
+        "\\(\\sqrt{x^2+1}+C\\)",
+        "\\(\\frac{1}{2}\\sqrt{x^2+1}+C\\)",
+        "\\(4\\sqrt{x^2+1}+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Con \\(u=x^2+1\\) y \\(du=2x\\,dx\\), la integral se convierte en \\(\\int u^{-1/2}\\,du\\) que integra a \\(2\\sqrt{u}+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Defina \\(u=x^2+1\\) y obtenga \\(du=2x\\,dx\\).",
+        "Reemplace en la integral para obtener \\(\\int u^{-1/2}\\,du\\).",
+        "Integre y obtenga \\(2\\sqrt{u}+C\\), luego sustituya \\(u\\) por \\(x^2+1\\)."
+      ]
+    },
+    {
+      "question": "Resuelve la integral por sustitución simple: \\(\\int \\frac{x}{\\sqrt{x^2+9}}\\,dx\\)",
+      "formula": "\\(\\int \\frac{x}{\\sqrt{x^2+9}}\\,dx\\)",
+      "options": [
+        "\\(\\sqrt{x^2+9}+C\\)",
+        "\\(\\frac{1}{2}\\sqrt{x^2+9}+C\\)",
+        "\\(\\ln|x+\\sqrt{x^2+9}|+C\\)",
+        "\\(2\\sqrt{x^2+9}+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sea \\(u=x^2+9\\) con \\(du=2x\\,dx\\), lo que permite reescribir la integral de forma que se integre y se obtiene \\(\\sqrt{x^2+9}+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Defina \\(u=x^2+9\\) y calcule \\(du=2x\\,dx\\).",
+        "Reemplace en la integral para obtener \\(\\frac{1}{2}\\int u^{-1/2}\\,du\\).",
+        "Integre para obtener \\(\\sqrt{u}+C\\) y sustituya \\(u\\) por \\(x^2+9\\)."
+      ]
+    },
+    {
+      "question": "Resuelve la integral por partes: \\(\\int x e^x\\,dx\\)",
+      "formula": "\\(\\int x e^x\\,dx\\)",
+      "options": [
+        "\\(x e^x - e^x +C\\)",
+        "\\(e^x(x-1)+C\\)",
+        "\\(x e^x + e^x +C\\)",
+        "\\(x e^x - 2e^x +C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Elija \\(u=x\\) y \\(dv=e^x\\,dx\\), de donde \\(du=dx\\) y \\(v=e^x\\). La fórmula de integración por partes da \\(x e^x - \\int e^x\\,dx = x e^x - e^x+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Defina \\(u=x\\) y \\(dv=e^x\\,dx\\).",
+        "Calcule \\(du=dx\\) y \\(v=e^x\\).",
+        "Aplique la fórmula \\(\\int u\\,dv = uv - \\int v\\,du\\) para obtener el resultado."
+      ]
+    },
+    {
+      "question": "Resuelve la integral por partes: \\(\\int \\ln(x)\\,dx\\)",
+      "formula": "\\(\\int \\ln(x)\\,dx\\)",
+      "options": [
+        "\\(x\\ln(x)-x+C\\)",
+        "\\(\\ln(x)-x+C\\)",
+        "\\(x\\ln(x)+x+C\\)",
+        "\\(\\frac{\\ln(x)}{x}-x+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Elija \\(u=\\ln(x)\\) y \\(dv=dx\\), luego \\(du=\\frac{1}{x}\\,dx\\) y \\(v=x\\). La integración por partes da \\(x\\ln(x)-\\int 1\\,dx = x\\ln(x)-x+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Defina \\(u=\\ln(x)\\) y \\(dv=dx\\).",
+        "Calcule \\(du=\\frac{1}{x}\\,dx\\) y \\(v=x\\).",
+        "Aplique \\(\\int u\\,dv = uv - \\int v\\,du\\) para obtener \\(x\\ln(x)-x+C\\)."
+      ]
+    },
+    {
+      "question": "Resuelve la integral por partes: \\(\\int x \\sin(x)\\,dx\\)",
+      "formula": "\\(\\int x \\sin(x)\\,dx\\)",
+      "options": [
+        "\\(-x\\cos(x)+\\sin(x)+C\\)",
+        "\\(x\\cos(x)-\\sin(x)+C\\)",
+        "\\(-x\\sin(x)-\\cos(x)+C\\)",
+        "\\(x\\sin(x)+\\cos(x)+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Elija \\(u=x\\) y \\(dv=\\sin(x)\\,dx\\). Entonces \\(du=dx\\) y \\(v=-\\cos(x)\\). Se obtiene \\(-x\\cos(x)+\\int \\cos(x)\\,dx = -x\\cos(x)+\\sin(x)+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Defina \\(u=x\\) y \\(dv=\\sin(x)\\,dx\\).",
+        "Calcule \\(du=dx\\) y \\(v=-\\cos(x)\\).",
+        "Aplique \\(uv - \\int v\\,du\\) para llegar al resultado."
+      ]
+    },
+    {
+      "question": "Resuelve la integral por partes: \\(\\int x \\cos(x)\\,dx\\)",
+      "formula": "\\(\\int x \\cos(x)\\,dx\\)",
+      "options": [
+        "\\(x\\sin(x)+\\cos(x)+C\\)",
+        "\\(x\\sin(x)-\\cos(x)+C\\)",
+        "\\(x\\cos(x)-\\sin(x)+C\\)",
+        "\\(x\\cos(x)+\\sin(x)+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Elija \\(u=x\\) y \\(dv=\\cos(x)\\,dx\\) de donde \\(du=dx\\) y \\(v=\\sin(x)\\). La integración por partes da \\(x\\sin(x)-\\int \\sin(x)\\,dx = x\\sin(x)+\\cos(x)+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Defina \\(u=x\\) y \\(dv=\\cos(x)\\,dx\\).",
+        "Calcule \\(du=dx\\) y \\(v=\\sin(x)\\).",
+        "Aplique la fórmula de integración por partes para obtener el resultado."
+      ]
+    },
+    {
+      "question": "Resuelve la integral por partes: \\(\\int x^2 e^x\\,dx\\)",
+      "formula": "\\(\\int x^2 e^x\\,dx\\)",
+      "options": [
+        "\\(x^2 e^x - 2x e^x + 2e^x +C\\)",
+        "\\(x^2 e^x - 2x e^x - 2e^x +C\\)",
+        "\\(x^2 e^x + 2x e^x - 2e^x +C\\)",
+        "\\(x^2 e^x - e^x+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando integración por partes dos veces con \\(u=x^2\\) y \\(dv=e^x\\,dx\\), se obtiene \\(x^2 e^x - 2x e^x + 2e^x+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Primero, elija \\(u=x^2\\) y \\(dv=e^x\\,dx\\).",
+        "Calcule \\(du=2x\\,dx\\) y \\(v=e^x\\).",
+        "Aplique la fórmula de integración por partes y repita el proceso para la integral resultante."
+      ]
+    },
+    {
+      "question": "Resuelve la integral por partes: \\(\\int x \\ln(x^2)\\,dx\\)",
+      "formula": "\\(\\int x \\ln(x^2)\\,dx\\)",
+      "options": [
+        "\\(x^2 \\ln(x) - \\frac{x^2}{2}+C\\)",
+        "\\(\\frac{x^2}{2} \\ln(x^2) - x^2+C\\)",
+        "\\(x^2 \\ln(x^2) - \\frac{x^2}{2}+C\\)",
+        "\\(x \\ln(x^2)-x+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Notando que \\(\\ln(x^2)=2\\ln(x)\\), elija \\(u=\\ln(x^2)\\) y \\(dv=x\\,dx\\). La integración por partes conduce a \\(x^2\\ln(x)-\\frac{x^2}{2}+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Simplifique \\(\\ln(x^2)\\) a \\(2\\ln(x)\\).",
+        "Defina \\(u=\\ln(x^2)\\) y \\(dv=x\\,dx\\).",
+        "Calcule \\(du\\) y \\(v\\) y aplique la fórmula de integración por partes."
+      ]
+    },
+    {
+      "question": "Resuelve la integral por partes: \\(\\int x \\arctan(x)\\,dx\\)",
+      "formula": "\\(\\int x \\arctan(x)\\,dx\\)",
+      "options": [
+        "\\(\\frac{x^2}{2}\\arctan(x) - \\frac{x}{2} + \\frac{\\arctan(x)}{2}+C\\)",
+        "\\(\\frac{x^2}{2}\\arctan(x) + \\frac{x}{2} - \\frac{\\arctan(x)}{2}+C\\)",
+        "\\(\\frac{x^2}{2}\\arctan(x) - x+C\\)",
+        "\\(\\frac{x^2}{2}\\arctan(x)-\\frac{1}{2}\\ln(1+x^2)+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Con \\(u=\\arctan(x)\\) y \\(dv=x\\,dx\\) se tiene \\(du=\\frac{1}{1+x^2}\\,dx\\) y \\(v=\\frac{x^2}{2}\\). La fórmula de integración por partes conduce al resultado.",
+      "difficulty": "hard",
+      "procedure": [
+        "Defina \\(u=\\arctan(x)\\) y \\(dv=x\\,dx\\).",
+        "Calcule \\(du=\\frac{1}{1+x^2}\\,dx\\) y \\(v=\\frac{x^2}{2}\\).",
+        "Aplique la fórmula \\(uv-\\int v\\,du\\) y simplifique la integral resultante."
+      ]
+    },
+    {
+      "question": "Resuelve la integral por partes: \\(\\int x \\ln(1+x)\\,dx\\)",
+      "formula": "\\(\\int x \\ln(1+x)\\,dx\\)",
+      "options": [
+        "\\(\\frac{x^2}{2}\\ln(1+x) - \\frac{x^2}{4}+\\frac{x}{2}-\\frac{1}{2}\\ln|1+x|+C\\)",
+        "\\(\\frac{x^2}{2}\\ln(1+x)-x+C\\)",
+        "\\(x^2\\ln(1+x)-\\frac{x^2}{2}+C\\)",
+        "\\(\\frac{x^2}{2}\\ln(1+x)+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Elija \\(u=\\ln(1+x)\\) y \\(dv=x\\,dx\\); la integración por partes produce una expresión que, tras simplificar, resulta en \\(\\frac{x^2}{2}\\ln(1+x) - \\frac{x^2}{4}+\\frac{x}{2}-\\frac{1}{2}\\ln|1+x|+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Defina \\(u=\\ln(1+x)\\) y \\(dv=x\\,dx\\).",
+        "Calcule \\(du=\\frac{1}{1+x}\\,dx\\) y \\(v=\\frac{x^2}{2}\\).",
+        "Aplique la fórmula de integración por partes y simplifique."
+      ]
+    },
+    {
+      "question": "Resuelve la integral por partes: \\(\\int x^2 \\ln(x)\\,dx\\)",
+      "formula": "\\(\\int x^2 \\ln(x)\\,dx\\)",
+      "options": [
+        "\\(\\frac{x^3}{3}\\ln(x) - \\frac{x^3}{9}+C\\)",
+        "\\(\\frac{x^3}{3}\\ln(x) - \\frac{x^3}{6}+C\\)",
+        "\\(\\frac{x^3}{2}\\ln(x)-\\frac{x^3}{9}+C\\)",
+        "\\(\\frac{x^3}{3}\\ln(x)+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Elija \\(u=\\ln(x)\\) y \\(dv=x^2\\,dx\\). Con \\(v=\\frac{x^3}{3}\\) se obtiene \\(\\frac{x^3}{3}\\ln(x)-\\int \\frac{x^3}{3}\\cdot\\frac{1}{x}\\,dx = \\frac{x^3}{3}\\ln(x)-\\frac{x^3}{9}+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Defina \\(u=\\ln(x)\\) y \\(dv=x^2\\,dx\\).",
+        "Calcule \\(du=\\frac{1}{x}\\,dx\\) y \\(v=\\frac{x^3}{3}\\).",
+        "Aplique la fórmula de integración por partes y simplifique."
+      ]
+    },
+    {
+      "question": "Resuelve la integral por partes: \\(\\int x e^{2x}\\,dx\\)",
+      "formula": "\\(\\int x e^{2x}\\,dx\\)",
+      "options": [
+        "\\(\\frac{x e^{2x}}{2} - \\frac{e^{2x}}{4}+C\\)",
+        "\\(\\frac{x e^{2x}}{2} + \\frac{e^{2x}}{4}+C\\)",
+        "\\(x e^{2x} - e^{2x}+C\\)",
+        "\\(\\frac{x e^{2x}}{2}-\\frac{e^{2x}}{2}+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Elija \\(u=x\\) y \\(dv=e^{2x}\\,dx\\) (de donde \\(v=\\frac{e^{2x}}{2}\\)). La integración por partes da \\(\\frac{x e^{2x}}{2} - \\frac{1}{2}\\int e^{2x}\\,dx = \\frac{x e^{2x}}{2} - \\frac{e^{2x}}{4}+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Defina \\(u=x\\) y \\(dv=e^{2x}\\,dx\\).",
+        "Calcule \\(du=dx\\) y \\(v=\\frac{e^{2x}}{2}\\).",
+        "Aplique la fórmula \\(uv-\\int v\\,du\\) y simplifique la integral restante."
+      ]
+    },
+    {
+      "question": "Resuelve la integral por partes: \\(\\int x \\cosh(x)\\,dx\\)",
+      "formula": "\\(\\int x \\cosh(x)\\,dx\\)",
+      "options": [
+        "\\(x \\sinh(x) - \\cosh(x)+C\\)",
+        "\\(x \\sinh(x) + \\cosh(x)+C\\)",
+        "\\(\\sinh(x)-x\\cosh(x)+C\\)",
+        "\\(x \\cosh(x)-\\sinh(x)+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Con \\(u=x\\) y \\(dv=\\cosh(x)\\,dx\\) se tiene \\(du=dx\\) y \\(v=\\sinh(x)\\). La fórmula de integración por partes produce \\(x\\sinh(x)-\\int \\sinh(x)\\,dx = x\\sinh(x)-\\cosh(x)+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Defina \\(u=x\\) y \\(dv=\\cosh(x)\\,dx\\).",
+        "Calcule \\(du=dx\\) y \\(v=\\sinh(x)\\).",
+        "Aplique la fórmula de integración por partes y resuelva la integral de \\(\\sinh(x)\\)."
+      ]
+    },
+    {
+      "question": "Resuelve la integral por partes: \\(\\int x \\sinh(x)\\,dx\\)",
+      "formula": "\\(\\int x \\sinh(x)\\,dx\\)",
+      "options": [
+        "\\(x \\cosh(x) - \\sinh(x)+C\\)",
+        "\\(x \\cosh(x) + \\sinh(x)+C\\)",
+        "\\(\\cosh(x)-x\\sinh(x)+C\\)",
+        "\\(x \\sinh(x)-\\cosh(x)+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Elija \\(u=x\\) y \\(dv=\\sinh(x)\\,dx\\). Entonces, \\(du=dx\\) y \\(v=\\cosh(x)\\). La fórmula de integración por partes da \\(x\\cosh(x)-\\int \\cosh(x)\\,dx = x\\cosh(x)-\\sinh(x)+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Defina \\(u=x\\) y \\(dv=\\sinh(x)\\,dx\\).",
+        "Calcule \\(du=dx\\) y \\(v=\\cosh(x)\\).",
+        "Aplique \\(uv-\\int v\\,du\\) para obtener el resultado."
+      ]
+    },
+    {
+      "question": "Resuelve la integral por partes: \\(\\int x \\arctan(x^2)\\,dx\\)",
+      "formula": "\\(\\int x \\arctan(x^2)\\,dx\\)",
+      "options": [
+        "\\(\\frac{x^2}{2}\\arctan(x^2) - \\frac{1}{4}\\ln\\left|\\frac{1+x^4}{1}\\right|+C\\)",
+        "\\(\\frac{x^2}{2}\\arctan(x^2) - \\frac{1}{2}\\ln|1+x^4|+C\\)",
+        "\\(\\frac{x^2}{2}\\arctan(x^2) + \\frac{1}{4}\\ln|1+x^4|+C\\)",
+        "\\(\\frac{x^2}{2}\\arctan(x^2)-\\frac{1}{4}\\ln|1+x^2|+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Utilizando integración por partes con \\(u=\\arctan(x^2)\\) y \\(dv=x\\,dx\\) se obtiene una expresión que involucra un logaritmo tras la integración de la parte restante.",
+      "difficulty": "hard",
+      "procedure": [
+        "Defina \\(u=\\arctan(x^2)\\) y \\(dv=x\\,dx\\).",
+        "Calcule \\(du=\\frac{2x}{1+x^4}\\,dx\\) y \\(v=\\frac{x^2}{2}\\).",
+        "Aplique la fórmula de integración por partes y simplifique la integral resultante usando una sustitución logarítmica."
+      ]
+    },
+    {
+      "question": "Resuelve la integral por partes: \\(\\int x e^x \\cos(x)\\,dx\\)",
+      "formula": "\\(\\int x e^x \\cos(x)\\,dx\\)",
+      "options": [
+        "\\(\\frac{e^x}{2}\\left(x(\\sin(x)+\\cos(x)) - \\sin(x)\\right)+C\\)",
+        "\\(\\frac{e^x}{2}\\left(x(\\sin(x)-\\cos(x)) + \\sin(x)\\right)+C\\)",
+        "\\(\\frac{e^x}{2}\\left(x(\\cos(x)-\\sin(x)) + \\cos(x)\\right)+C\\)",
+        "\\(e^x\\left(x\\sin(x)+\\cos(x)\\right)+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando integración por partes dos veces se obtiene una expresión en términos de \\(e^x\\), \\(\\sin(x)\\) y \\(\\cos(x)\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Utilice integración por partes con una elección adecuada de \\(u\\) y \\(dv\\).",
+        "Aplique la fórmula de integración por partes dos veces para obtener una ecuación en la que aparezca la integral original.",
+        "Resuelva la ecuación algebraicamente para obtener el resultado final."
+      ]
+    },
+    {
+      "question": "Resuelve la integral por partes: \\(\\int x^2 \\sin(x)\\,dx\\)",
+      "formula": "\\(\\int x^2 \\sin(x)\\,dx\\)",
+      "options": [
+        "\\(-x^2 \\cos(x) + 2x \\sin(x) + 2\\cos(x)+C\\)",
+        "\\(x^2 \\cos(x) - 2x \\sin(x) - 2\\cos(x)+C\\)",
+        "\\(x^2 \\cos(x) + 2x \\sin(x) + 2\\cos(x)+C\\)",
+        "\\(-x^2 \\cos(x) - 2x \\sin(x) + 2\\cos(x)+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se aplica integración por partes dos veces: primero con \\(u=x^2\\) y \\(dv=\\sin(x)\\,dx\\), y luego se integra la nueva integral para obtener el resultado final.",
+      "difficulty": "hard",
+      "procedure": [
+        "Elija \\(u=x^2\\) y \\(dv=\\sin(x)\\,dx\\).",
+        "Calcule \\(du=2x\\,dx\\) y \\(v=-\\cos(x)\\).",
+        "Aplique la fórmula de integración por partes y repita el proceso para la integral resultante.",
+        "Simplifique para obtener la solución final."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida: \\(\\int 3x^2\\cos(x^3)\\,dx\\).",
+      "formula": "\\(\\int 3x^2\\cos(x^3)\\,dx\\)",
+      "options": [
+        "\\(\\sin(x^3)+C\\)",
+        "\\(-\\sin(x^3)+C\\)",
+        "\\(\\cos(x^3)+C\\)",
+        "\\(-\\cos(x^3)+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se usa la sustitución \\(u=x^3\\) con \\(du=3x^2\\,dx\\). La integral se convierte en \\(\\int \\cos(u)\\,du\\) cuyo resultado es \\(\\sin(u)+C\\). Al sustituir \\(u\\) se obtiene \\(\\sin(x^3)+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Realiza la sustitución: \\(u=x^3\\) y \\(du=3x^2\\,dx\\).",
+        "Reescribe la integral como \\(\\int \\cos(u)\\,du\\).",
+        "Integra para obtener \\(\\sin(u)+C\\).",
+        "Vuelve a la variable original: \\(\\sin(x^3)+C\\)."
+      ]
+    },
+    {
+      "question": "Resuelve la integral: \\(\\int \\sin(2x)\\cos(2x)\\,dx\\).",
+      "formula": "\\(\\int \\sin(2x)\\cos(2x)\\,dx\\)",
+      "options": [
+        "\\(-\\frac{1}{8}\\cos(4x)+C\\)",
+        "\\(\\frac{1}{8}\\cos(4x)+C\\)",
+        "\\(\\frac{1}{4}\\sin(4x)+C\\)",
+        "\\(-\\frac{1}{4}\\sin(4x)+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando la identidad trigonométrica \\(\\sin(2x)\\cos(2x)=\\frac{1}{2}\\sin(4x)\\), la integral se transforma en \\(\\frac{1}{2}\\int \\sin(4x)\\,dx\\) y al integrar se obtiene \\(-\\frac{1}{8}\\cos(4x)+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplica la identidad: \\(\\sin(2x)\\cos(2x)=\\frac{1}{2}\\sin(4x)\\).",
+        "Extrae la constante: \\(\\frac{1}{2}\\int \\sin(4x)\\,dx\\).",
+        "Integra \\(\\sin(4x)\\) obteniendo \\(-\\frac{1}{4}\\cos(4x)\\).",
+        "Multiplica por \\(\\frac{1}{2}\\) para obtener \\(-\\frac{1}{8}\\cos(4x)+C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral: \\(\\int e^{3x}\\,dx\\).",
+      "formula": "\\(\\int e^{3x}\\,dx\\)",
+      "options": [
+        "\\(\\frac{1}{3}e^{3x}+C\\)",
+        "\\(3e^{3x}+C\\)",
+        "\\(e^{3x}+C\\)",
+        "\\(\\frac{1}{2}e^{3x}+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Con la sustitución \\(u=3x\\) se tiene \\(du=3\\,dx\\) y \\(dx=\\frac{du}{3}\\). La integral se convierte en \\(\\frac{1}{3}\\int e^u\\,du\\) cuyo resultado es \\(\\frac{1}{3}e^u+C\\), luego se sustituye \\(u\\) por \\(3x\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Realiza la sustitución: \\(u=3x\\) y \\(du=3\\,dx\\).",
+        "Reescribe la integral como \\(\\frac{1}{3}\\int e^u\\,du\\).",
+        "Integra \\(e^u\\) para obtener \\(e^u+C\\).",
+        "Sustituye \\(u=3x\\) para obtener \\(\\frac{1}{3}e^{3x}+C\\)."
+      ]
+    },
+    {
+      "question": "Determina la primitiva de \\(\\int \\frac{x}{\\sqrt{4x^2+1}}\\,dx\\).",
+      "formula": "\\(\\int \\frac{x}{\\sqrt{4x^2+1}}\\,dx\\)",
+      "options": [
+        "\\(\\frac{1}{4}\\sqrt{4x^2+1}+C\\)",
+        "\\(\\sqrt{4x^2+1}+C\\)",
+        "\\(\\frac{1}{2}\\sqrt{4x^2+1}+C\\)",
+        "\\(2\\sqrt{4x^2+1}+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Con la sustitución \\(u=4x^2+1\\) se tiene \\(du=8x\\,dx\\) y la integral se convierte en \\(\\frac{1}{8}\\int u^{-1/2}\\,du\\). Integrando se obtiene \\(\\frac{1}{8}\\cdot2\\sqrt{u}=\\frac{1}{4}\\sqrt{4x^2+1}+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Sustituye: \\(u=4x^2+1\\) y \\(du=8x\\,dx\\).",
+        "Reescribe la integral en términos de \\(u\\): \\(\\frac{1}{8}\\int u^{-1/2}\\,du\\).",
+        "Integra \\(u^{-1/2}\\) para obtener \\(2\\sqrt{u}\\).",
+        "Multiplica y regresa a la variable original: \\(\\frac{1}{4}\\sqrt{4x^2+1}+C\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la integral: \\(\\int \\ln(2x+1)\\,dx\\).",
+      "formula": "\\(\\int \\ln(2x+1)\\,dx\\)",
+      "options": [
+        "\\(\\left(x+\\frac{1}{2}\\right)\\ln(2x+1)-x+C\\)",
+        "\\(x\\ln(2x+1)-\\frac{x}{2}+C\\)",
+        "\\(\\frac{1}{2}\\ln(2x+1)+x+C\\)",
+        "\\(x\\ln(2x+1)+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se usa integración por partes con \\(u=\\ln(2x+1)\\) y \\(dv=dx\\). Se obtiene \\(du=\\frac{2}{2x+1}\\,dx\\) y \\(v=x\\). La integral se reduce a \\(x\\ln(2x+1)-\\int \\frac{2x}{2x+1}\\,dx\\). Tras simplificar, se llega a \\(\\left(x+\\frac{1}{2}\\right)\\ln(2x+1)-x+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Elige \\(u=\\ln(2x+1)\\) y \\(dv=dx\\).",
+        "Calcula \\(du=\\frac{2}{2x+1}\\,dx\\) y \\(v=x\\).",
+        "Aplica integración por partes: \\(u\\,v-\\int v\\,du\\).",
+        "Simplifica la integral restante y obtén la respuesta final."
+      ]
+    },
+    {
+      "question": "Resuelve la integral: \\(\\int x^3\\ln(1+x)\\,dx\\).",
+      "formula": "\\(\\int x^3\\ln(1+x)\\,dx\\)",
+      "options": [
+        "\\(\\frac{x^4}{4}\\ln(1+x)-\\frac{x^4}{16}+\\frac{x^3}{12}-\\frac{x^2}{8}+\\frac{x}{4}-\\frac{1}{4}\\ln|1+x|+C\\)",
+        "\\(\\frac{x^4}{4}\\ln(1+x)-\\frac{x^3}{3}+C\\)",
+        "\\(x^3\\ln(1+x)-\\frac{x^4}{4}+C\\)",
+        "\\(\\frac{x^4}{4}\\ln(1+x)+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se aplica integración por partes con \\(u=\\ln(1+x)\\) y \\(dv=x^3\\,dx\\) (de donde \\(v=\\frac{x^4}{4}\\)). Al efectuar la división polinomial en la integral resultante, se llega a la expresión correcta.",
+      "difficulty": "hard",
+      "procedure": [
+        "Selecciona \\(u=\\ln(1+x)\\) y \\(dv=x^3\\,dx\\) con \\(v=\\frac{x^4}{4}\\).",
+        "Aplica la fórmula \\(u\\,v-\\int v\\,du\\).",
+        "Realiza la división polinomial en la integral resultante.",
+        "Simplifica para obtener la expresión final."
+      ]
+    },
+    {
+      "question": "Calcula la integral: \\(\\int e^x\\sin(2x)\\,dx\\).",
+      "formula": "\\(\\int e^x\\sin(2x)\\,dx\\)",
+      "options": [
+        "\\(\\frac{e^x\\left(\\sin(2x)-2\\cos(2x)\\right)}{5}+C\\)",
+        "\\(\\frac{e^x\\left(2\\sin(2x)-\\cos(2x)\\right)}{5}+C\\)",
+        "\\(\\frac{e^x\\left(\\sin(2x)+2\\cos(2x)\\right)}{5}+C\\)",
+        "\\(\\frac{e^x\\left(2\\cos(2x)-\\sin(2x)\\right)}{5}+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando integración por partes dos veces se obtiene una ecuación que permite despejar la integral. El resultado final es \\(\\frac{e^x\\left(\\sin(2x)-2\\cos(2x)\\right)}{5}+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Utiliza integración por partes con elecciones apropiadas para \\(u\\) y \\(dv\\).",
+        "Aplica el proceso dos veces y organiza la ecuación resultante.",
+        "Despeja la integral y simplifica para obtener la respuesta final."
+      ]
+    },
+    {
+      "question": "Determina la integral: \\(\\int x^2\\cos(2x)\\,dx\\).",
+      "formula": "\\(\\int x^2\\cos(2x)\\,dx\\)",
+      "options": [
+        "\\(\\frac{x^2\\sin(2x)}{2}+\\frac{x\\cos(2x)}{2}-\\frac{\\sin(2x)}{4}+C\\)",
+        "\\(\\frac{x^2\\sin(2x)}{2}-\\frac{x\\cos(2x)}{2}+\\frac{\\sin(2x)}{4}+C\\)",
+        "\\(\\frac{x^2\\sin(2x)}{2}+\\frac{x\\cos(2x)}{2}+\\frac{\\sin(2x)}{4}+C\\)",
+        "\\(\\frac{x^2\\sin(2x)}{2}-\\frac{x\\cos(2x)}{2}-\\frac{\\sin(2x)}{4}+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se aplica integración por partes dos veces. La solución obtenida es \\(\\frac{x^2\\sin(2x)}{2}+\\frac{x\\cos(2x)}{2}-\\frac{\\sin(2x)}{4}+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Realiza integración por partes eligiendo \\(u=x^2\\) y \\(dv=\\cos(2x)\\,dx\\).",
+        "Calcula \\(du=2x\\,dx\\) y \\(v=\\frac{\\sin(2x)}{2}\\).",
+        "Aplica la fórmula y vuelve a integrar el término resultante.",
+        "Simplifica para obtener la respuesta final."
+      ]
+    },
+    {
+      "question": "Calcula la integral: \\(\\int \\frac{2x}{x^2+3}\\,dx\\).",
+      "formula": "\\(\\int \\frac{2x}{x^2+3}\\,dx\\)",
+      "options": [
+        "\\(\\ln|x^2+3|+C\\)",
+        "\\(\\frac{1}{2}\\ln|x^2+3|+C\\)",
+        "\\(2\\ln|x^2+3|+C\\)",
+        "\\(\\ln|x^2+3|-C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Con la sustitución \\(u=x^2+3\\) y \\(du=2x\\,dx\\), la integral se transforma en \\(\\int \\frac{1}{u}\\,du\\) y su primitiva es \\(\\ln|u|+C\\), luego se sustituye \\(u\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Sustituye \\(u=x^2+3\\) y \\(du=2x\\,dx\\).",
+        "Reescribe la integral en función de \\(u\\): \\(\\int \\frac{1}{u}\\,du\\).",
+        "Integra para obtener \\(\\ln|u|+C\\).",
+        "Reemplaza \\(u\\) por \\(x^2+3\\) y finaliza."
+      ]
+    },
+    {
+      "question": "Evalúa la integral: \\(\\int x\\cosh(2x)\\,dx\\).",
+      "formula": "\\(\\int x\\cosh(2x)\\,dx\\)",
+      "options": [
+        "\\(\\frac{x\\sinh(2x)}{2}-\\frac{\\cosh(2x)}{4}+C\\)",
+        "\\(\\frac{x\\sinh(2x)}{2}+\\frac{\\cosh(2x)}{4}+C\\)",
+        "\\(\\frac{x\\cosh(2x)}{2}-\\frac{\\sinh(2x)}{4}+C\\)",
+        "\\(\\frac{x\\cosh(2x)}{2}+\\frac{\\sinh(2x)}{4}+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se aplica integración por partes con \\(u=x\\) y \\(dv=\\cosh(2x)\\,dx\\) (de donde \\(v=\\frac{\\sinh(2x)}{2}\\)). Luego se integra el término restante para obtener \\(\\frac{x\\sinh(2x)}{2}-\\frac{\\cosh(2x)}{4}+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Elige \\(u=x\\) y \\(dv=\\cosh(2x)\\,dx\\).",
+        "Calcula \\(du=dx\\) y \\(v=\\frac{\\sinh(2x)}{2}\\).",
+        "Aplica integración por partes: \\(u\\,v-\\int v\\,du\\).",
+        "Integra \\(\\frac{\\sinh(2x)}{2}\\,dx\\) y simplifica la expresión."
+      ]
+    },
+    {
+      "question": "Resuelve la integral: \\(\\int x^2\\sinh(2x)\\,dx\\).",
+      "formula": "\\(\\int x^2\\sinh(2x)\\,dx\\)",
+      "options": [
+        "\\(\\frac{x^2\\cosh(2x)}{2}-\\frac{x\\sinh(2x)}{2}+\\frac{\\cosh(2x)}{4}+C\\)",
+        "\\(\\frac{x^2\\cosh(2x)}{2}+\\frac{x\\sinh(2x)}{2}-\\frac{\\cosh(2x)}{4}+C\\)",
+        "\\(\\frac{x^2\\sinh(2x)}{2}-\\frac{x\\cosh(2x)}{2}+\\frac{\\sinh(2x)}{4}+C\\)",
+        "\\(\\frac{x^2\\sinh(2x)}{2}+\\frac{x\\cosh(2x)}{2}+\\frac{\\sinh(2x)}{4}+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se usa integración por partes dos veces. Inicialmente, se toma \\(u=x^2\\) y \\(dv=\\sinh(2x)\\,dx\\) (donde \\(v=\\frac{\\cosh(2x)}{2}\\)). Luego se resuelve la integral resultante para obtener la respuesta final.",
+      "difficulty": "hard",
+      "procedure": [
+        "Elige \\(u=x^2\\) y \\(dv=\\sinh(2x)\\,dx\\), con \\(v=\\frac{\\cosh(2x)}{2}\\).",
+        "Aplica integración por partes para obtener \\(\\frac{x^2\\cosh(2x)}{2}-\\int \\frac{x\\cosh(2x)}{1}\\,dx\\).",
+        "Resuelve la integral \\(\\int x\\cosh(2x)\\,dx\\) (calculada previamente).",
+        "Combina los términos y simplifica la expresión final."
+      ]
+    },
+    {
+      "question": "Calcula la integral: \\(\\int e^x\\cos(x)\\,dx\\).",
+      "formula": "\\(\\int e^x\\cos(x)\\,dx\\)",
+      "options": [
+        "\\(\\frac{e^x\\left(\\sin(x)+\\cos(x)\\right)}{2}+C\\)",
+        "\\(\\frac{e^x\\left(\\sin(x)-\\cos(x)\\right)}{2}+C\\)",
+        "\\(\\frac{e^x\\left(\\cos(x)-\\sin(x)\\right)}{2}+C\\)",
+        "\\(\\frac{e^x\\left(\\cos(x)+\\sin(x)\\right)}{2}+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando integración por partes dos veces se obtiene que la integral es \\(\\frac{e^x(\\sin(x)+\\cos(x))}{2}+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Usa integración por partes con elecciones apropiadas para \\(u\\) y \\(dv\\).",
+        "Aplica el método dos veces y organiza la ecuación resultante.",
+        "Despeja la integral y simplifica para obtener la respuesta final."
+      ]
+    },
+    {
+      "question": "Determina la primitiva de \\(\\int (\\ln(x))^2\\,dx\\).",
+      "formula": "\\(\\int (\\ln(x))^2\\,dx\\)",
+      "options": [
+        "\\(x(\\ln(x))^2-2x\\ln(x)+2x+C\\)",
+        "\\(x(\\ln(x))^2+2x\\ln(x)-2x+C\\)",
+        "\\(x(\\ln(x))^2-\\frac{2x}{\\ln(x)}+C\\)",
+        "\\(x(\\ln(x))^2-2\\ln(x)+2x+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se elige \\(u=(\\ln(x))^2\\) y \\(dv=dx\\), luego \\(du=\\frac{2\\ln(x)}{x}\\,dx\\) y \\(v=x\\). Aplicando integración por partes se obtiene \\(x(\\ln(x))^2-2\\int \\ln(x)\\,dx\\), y recordando que \\(\\int \\ln(x)\\,dx=x\\ln(x)-x\\), se llega a \\(x(\\ln(x))^2-2x\\ln(x)+2x+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Define \\(u=(\\ln(x))^2\\) y \\(dv=dx\\).",
+        "Calcula \\(du=\\frac{2\\ln(x)}{x}\\,dx\\) y \\(v=x\\).",
+        "Aplica integración por partes y simplifica usando \\(\\int \\ln(x)\\,dx=x\\ln(x)-x\\)."
+      ]
+    },
+    {
+      "question": "Resuelve la integral: \\(\\int x\\ln(x^2+1)\\,dx\\).",
+      "formula": "\\(\\int x\\ln(x^2+1)\\,dx\\)",
+      "options": [
+        "\\(\\frac{x^2}{2}\\ln(x^2+1)-x+\\arctan(x)+C\\)",
+        "\\(\\frac{x^2}{2}\\ln(x^2+1)+x-\\arctan(x)+C\\)",
+        "\\(x^2\\ln(x^2+1)-\\frac{x}{2}+C\\)",
+        "\\(\\frac{x^2}{2}\\ln(x^2+1)-\\frac{x}{2}+\\arctan(x)+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se aplica integración por partes con \\(u=\\ln(x^2+1)\\) y \\(dv=x\\,dx\\) (de donde \\(v=\\frac{x^2}{2}\\)). Además, se utiliza la identidad \\(\\int \\frac{x^2}{x^2+1}\\,dx=x-\\arctan(x)\\) para simplificar la integral restante.",
+      "difficulty": "hard",
+      "procedure": [
+        "Elige \\(u=\\ln(x^2+1)\\) y \\(dv=x\\,dx\\) (con \\(v=\\frac{x^2}{2}\\)).",
+        "Aplica la fórmula de integración por partes: \\(u\\,v-\\int v\\,du\\).",
+        "Simplifica la integral resultante usando la división algebraica.",
+        "Obtén la solución final: \\(\\frac{x^2}{2}\\ln(x^2+1)-x+\\arctan(x)+C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral: \\(\\int x^2e^{-x}\\,dx\\).",
+      "formula": "\\(\\int x^2e^{-x}\\,dx\\)",
+      "options": [
+        "\\(-e^{-x}(x^2+2x+2)+C\\)",
+        "\\(e^{-x}(x^2+2x+2)+C\\)",
+        "\\(-e^{-x}(x^2-2x+2)+C\\)",
+        "\\(e^{-x}(x^2-2x+2)+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mediante integración por partes repetida se obtiene que \\(\\int x^2e^{-x}\\,dx=-e^{-x}(x^2+2x+2)+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Utiliza integración por partes tomando \\(u=x^2\\) y \\(dv=e^{-x}\\,dx\\).",
+        "Calcula \\(du=2x\\,dx\\) y \\(v=-e^{-x}\\).",
+        "Aplica el proceso de integración por partes dos veces y simplifica.",
+        "Obtén la solución final: \\(-e^{-x}(x^2+2x+2)+C\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la integral: \\(\\int \\sin(x)\\ln(\\cos(x))\\,dx\\).",
+      "formula": "\\(\\int \\sin(x)\\ln(\\cos(x))\\,dx\\)",
+      "options": [
+        "\\(-\\cos(x)\\ln(\\cos(x))+\\cos(x)+C\\)",
+        "\\(\\cos(x)\\ln(\\cos(x))-\\cos(x)+C\\)",
+        "\\(-\\cos(x)\\ln(\\cos(x))-\\cos(x)+C\\)",
+        "\\(\\cos(x)\\ln(\\cos(x))+\\cos(x)+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Con integración por partes usando \\(u=\\ln(\\cos(x))\\) y \\(dv=\\sin(x)\\,dx\\) se obtiene la primitiva \\(-\\cos(x)\\ln(\\cos(x))+\\cos(x)+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Selecciona \\(u=\\ln(\\cos(x))\\) y \\(dv=\\sin(x)\\,dx\\) (por lo tanto, \\(v=-\\cos(x)\\)).",
+        "Aplica la fórmula \\(u\\,v-\\int v\\,du\\).",
+        "Simplifica la integral resultante para obtener la respuesta final."
+      ]
+    },
+    {
+      "question": "Determina la integral: \\(\\int \\frac{x^3+1}{x^4+4x}\\,dx\\).",
+      "formula": "\\(\\int \\frac{x^3+1}{x^4+4x}\\,dx\\)",
+      "options": [
+        "\\(\\frac{1}{4}\\ln\\left|\\frac{x^3+4}{x}\\right|+C\\)",
+        "\\(\\ln\\left|\\frac{x^3+4}{x}\\right|+C\\)",
+        "\\(\\frac{1}{2}\\ln\\left|\\frac{x^3+4}{x}\\right|+C\\)",
+        "\\(\\frac{1}{4}\\ln\\left|\\frac{x^4+4x}{x^3+1}\\right|+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mediante una descomposición en fracciones parciales y simplificaciones, se llega a la expresión \\(\\frac{1}{4}\\ln\\left|\\frac{x^3+4}{x}\\right|+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Realiza la descomposición en fracciones parciales de la expresión.",
+        "Simplifica el resultado mediante logaritmos.",
+        "Obtén la forma final: \\(\\frac{1}{4}\\ln\\left|\\frac{x^3+4}{x}\\right|+C\\)."
+      ]
+    },
+    {
+      "question": "Calcula la integral: \\(\\int \\frac{x}{(1+x^2)^2}\\,dx\\).",
+      "formula": "\\(\\int \\frac{x}{(1+x^2)^2}\\,dx\\)",
+      "options": [
+        "\\(-\\frac{1}{2(1+x^2)}+C\\)",
+        "\\(\\frac{1}{2(1+x^2)}+C\\)",
+        "\\(-\\frac{1}{1+x^2}+C\\)",
+        "\\(\\frac{1}{1+x^2}+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Con la sustitución \\(u=x^2+1\\) (de donde \\(du=2x\\,dx\\)) la integral se simplifica a \\(-\\frac{1}{2(1+x^2)}+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Sustituye \\(u=1+x^2\\) y calcula \\(du=2x\\,dx\\).",
+        "Reescribe la integral en términos de \\(u\\).",
+        "Integra y vuelve a la variable original para obtener la solución."
+      ]
+    },
+    {
+      "question": "Resuelve la integral: \\(\\int \\frac{\\arctan(x)}{1+x^2}\\,dx\\).",
+      "formula": "\\(\\int \\frac{\\arctan(x)}{1+x^2}\\,dx\\)",
+      "options": [
+        "\\(\\frac{1}{2}(\\arctan(x))^2+C\\)",
+        "\\(\\arctan(x)+C\\)",
+        "\\(\\frac{(\\arctan(x))^2}{1+x^2}+C\\)",
+        "\\(\\frac{1}{2}\\ln|\\arctan(x)|+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Con la sustitución \\(u=\\arctan(x)\\) se obtiene \\(du=\\frac{1}{1+x^2}\\,dx\\). La integral se reduce a \\(\\int u\\,du\\) cuyo resultado es \\(\\frac{1}{2}u^2+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Realiza la sustitución: \\(u=\\arctan(x)\\) y \\(du=\\frac{dx}{1+x^2}\\).",
+        "Transforma la integral en \\(\\int u\\,du\\).",
+        "Integra y sustituye \\(u\\) de nuevo para obtener la respuesta final."
+      ]
+    },
+    {
+      "question": "Calcula la integral: \\(\\int x^2e^{2x}\\,dx\\).",
+      "formula": "\\(\\int x^2e^{2x}\\,dx\\)",
+      "options": [
+        "\\(e^{2x}\\left(\\frac{x^2}{2}-\\frac{x}{2}+\\frac{1}{4}\\right)+C\\)",
+        "\\(e^{2x}\\left(\\frac{x^2}{2}+\\frac{x}{2}+\\frac{1}{4}\\right)+C\\)",
+        "\\(e^{2x}\\left(\\frac{x^2}{2}-x+\\frac{1}{2}\\right)+C\\)",
+        "\\(e^{2x}\\left(\\frac{x^2}{2}+\\frac{x}{2}-\\frac{1}{4}\\right)+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mediante integración por partes repetida se llega a la solución \\(e^{2x}\\left(\\frac{x^2}{2}-\\frac{x}{2}+\\frac{1}{4}\\right)+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplica integración por partes con \\(u=x^2\\) y \\(dv=e^{2x}\\,dx\\).",
+        "Realiza el proceso dos veces y simplifica la expresión.",
+        "Obtén la solución final en función de \\(e^{2x}\\)."
+      ]
+    },
+    {
+      "question": "Evalúa la integral: \\(\\int x\\cos(3x)\\,dx\\).",
+      "formula": "\\(\\int x\\cos(3x)\\,dx\\)",
+      "options": [
+        "\\(\\frac{x\\sin(3x)}{3}+\\frac{\\cos(3x)}{9}+C\\)",
+        "\\(\\frac{x\\sin(3x)}{3}-\\frac{\\cos(3x)}{9}+C\\)",
+        "\\(\\frac{x\\cos(3x)}{3}+\\frac{\\sin(3x)}{9}+C\\)",
+        "\\(\\frac{x\\cos(3x)}{3}-\\frac{\\sin(3x)}{9}+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando integración por partes con \\(u=x\\) y \\(dv=\\cos(3x)\\,dx\\) (donde \\(v=\\frac{\\sin(3x)}{3}\\)) se obtiene la solución \\(\\frac{x\\sin(3x)}{3}+\\frac{\\cos(3x)}{9}+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Elige \\(u=x\\) y \\(dv=\\cos(3x)\\,dx\\).",
+        "Calcula \\(du=dx\\) y \\(v=\\frac{\\sin(3x)}{3}\\).",
+        "Aplica la fórmula de integración por partes.",
+        "Simplifica para obtener la solución final."
+      ]
+    },
+    {
+      "question": "Determina la integral: \\(\\int \\sin^2(x)e^x\\,dx\\).",
+      "formula": "\\(\\int \\sin^2(x)e^x\\,dx\\)",
+      "options": [
+        "\\(\\frac{e^x\\left(5-\\cos(2x)-2\\sin(2x)\\right)}{10}+C\\)",
+        "\\(\\frac{e^x\\left(5+\\cos(2x)+2\\sin(2x)\\right)}{10}+C\\)",
+        "\\(\\frac{e^x\\left(5-\\cos(2x)+2\\sin(2x)\\right)}{10}+C\\)",
+        "\\(\\frac{e^x\\left(5+\\cos(2x)-2\\sin(2x)\\right)}{10}+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se utiliza la identidad \\(\\sin^2(x)=\\frac{1-\\cos(2x)}{2}\\) para separar la integral y luego se aplica integración por partes en el término resultante, llegando a la solución \\(\\frac{e^x(5-\\cos(2x)-2\\sin(2x))}{10}+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Sustituye \\(\\sin^2(x)=\\frac{1-\\cos(2x)}{2}\\).",
+        "Separa la integral en dos términos.",
+        "Integra cada término y combina los resultados.",
+        "Simplifica para obtener la respuesta final."
+      ]
+    },
+    {
+      "question": "Resuelve la integral: \\(\\int x^3\\sinh(x)\\,dx\\).",
+      "formula": "\\(\\int x^3\\sinh(x)\\,dx\\)",
+      "options": [
+        "\\(e^x\\Bigl( x^3-3x^2+6x-6\\Bigr)+C\\)",
+        "\\(e^x\\Bigl( x^3+3x^2+6x+6\\Bigr)+C\\)",
+        "\\(e^x\\Bigl( x^3-3x^2+6x+6\\Bigr)+C\\)",
+        "\\(e^x\\Bigl( x^3+3x^2-6x+6\\Bigr)+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando integración por partes en varias etapas se obtiene la solución \\(e^x\\Bigl( x^3-3x^2+6x-6\\Bigr)+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Utiliza integración por partes tomando \\(u=x^3\\) y \\(dv=\\sinh(x)\\,dx\\).",
+        "Resuelve la integral resultante con nuevos pasos de integración por partes.",
+        "Combina y simplifica para obtener la solución final."
+      ]
+    },
+    {
+      "question": "Determina la primitiva de \\(\\int e^x\\cosh(x)\\,dx\\).",
+      "formula": "\\(\\int e^x\\cosh(x)\\,dx\\)",
+      "options": [
+        "\\(\\frac{e^x}{2}\\left(e^x+1\\right)+C\\)",
+        "\\(\\frac{e^x}{2}\\left(e^x-1\\right)+C\\)",
+        "\\(\\frac{e^x}{2}\\left(e^x+2\\right)+C\\)",
+        "\\(\\frac{e^x}{2}\\left(e^x-2\\right)+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Recordando que \\(\\cosh(x)=\\frac{e^x+e^{-x}}{2}\\), se tiene \\(e^x\\cosh(x)=\\frac{e^{2x}+1}{2}\\). La integral se separa en \\(\\frac{1}{2}\\int e^{2x}\\,dx+\\frac{1}{2}\\int 1\\,dx\\), dando \\(\\frac{e^{2x}}{4}+\\frac{x}{2}+C\\), que puede reorganizarse en la forma presentada.",
+      "difficulty": "hard",
+      "procedure": [
+        "Expresa \\(\\cosh(x)\\) en función de exponentes.",
+        "Simplifica \\(e^x\\cosh(x)\\) a \\(\\frac{e^{2x}+1}{2}\\).",
+        "Integra cada término y combina los resultados.",
+        "Expresa la respuesta en la forma dada."
+      ]
+    },
+    {
+      "question": "Calcula la integral: \\(\\int \\ln(x)/(x+1)\\,dx\\).",
+      "formula": "\\(\\int \\frac{\\ln(x)}{x+1}\\,dx\\)",
+      "options": [
+        "\\(\\ln(x)\\ln\\left|\\frac{x}{x+1}\\right|+\\operatorname{Li}_2\\left(\\frac{1}{x+1}\\right)+C\\)",
+        "\\(\\ln(x)\\ln\\left|\\frac{x+1}{x}\\right|+C\\)",
+        "\\(\\frac{\\ln(x)}{x+1}+C\\)",
+        "\\(\\ln(x)+\\operatorname{Li}_2\\left(\\frac{1}{x+1}\\right)+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La solución de esta integral involucra funciones especiales (dilogaritmo). La respuesta correcta es \\(\\ln(x)\\ln\\left|\\frac{x}{x+1}\\right|+\\operatorname{Li}_2\\left(\\frac{1}{x+1}\\right)+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplica integración por partes con \\(u=\\ln(x)\\) y \\(dv=\\frac{1}{x+1}\\,dx\\).",
+        "Reconoce la aparición de la función dilogarítmica al integrar el término resultante.",
+        "Combina los términos para obtener la respuesta final."
+      ]
+    },
+    {
+      "question": "Evalúa la integral: \\(\\int (2x+1)e^{x^2+x}\\,dx\\).",
+      "formula": "\\(\\int (2x+1)e^{x^2+x}\\,dx\\)",
+      "options": [
+        "\\(e^{x^2+x}+C\\)",
+        "\\(\\frac{1}{2}e^{x^2+x}+C\\)",
+        "\\(2e^{x^2+x}+C\\)",
+        "\\(e^{x^2+x}-C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Con la sustitución \\(u=x^2+x\\) se tiene \\(du=(2x+1)\\,dx\\). Por lo tanto, la integral se reduce a \\(\\int e^u\\,du=e^u+C\\), y al volver a la variable original se obtiene \\(e^{x^2+x}+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Sustituye \\(u=x^2+x\\) y \\(du=(2x+1)\\,dx\\).",
+        "Reescribe la integral en función de \\(u\\).",
+        "Integra \\(e^u\\) para obtener \\(e^u+C\\).",
+        "Reemplaza \\(u\\) por \\(x^2+x\\) y finaliza."
+      ]
+    },
+    {
+      "question": "Resuelve la integral: \\(\\int x^2\\ln(3x+2)\\,dx\\).",
+      "formula": "\\(\\int x^2\\ln(3x+2)\\,dx\\)",
+      "options": [
+        "\\(\\frac{x^3}{3}\\ln(3x+2)-\\frac{x^3}{9}+\\frac{2x^2}{9}-\\frac{4x}{9}+\\frac{8}{9}\\ln|3x+2|+C\\)",
+        "\\(\\frac{x^3}{3}\\ln(3x+2)+C\\)",
+        "\\(x^2\\ln(3x+2)-\\frac{x^3}{3}+C\\)",
+        "\\(\\frac{x^3}{3}\\ln(3x+2)-\\frac{x^3}{9}+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando integración por partes con \\(u=\\ln(3x+2)\\) y \\(dv=x^2\\,dx\\) (donde \\(v=\\frac{x^3}{3}\\)) y realizando la división polinomial en la integral resultante, se obtiene la solución indicada.",
+      "difficulty": "hard",
+      "procedure": [
+        "Elige \\(u=\\ln(3x+2)\\) y \\(dv=x^2\\,dx\\) (con \\(v=\\frac{x^3}{3}\\)).",
+        "Aplica integración por partes: \\(u\\,v-\\int v\\,du\\).",
+        "Realiza la división polinomial para simplificar la integral restante.",
+        "Combina los términos y obtén la solución final."
+      ]
+    },
+    {
+      "question": "Calcula la integral: \\(\\int e^{-x}\\sin(x)\\,dx\\).",
+      "formula": "\\(\\int e^{-x}\\sin(x)\\,dx\\)",
+      "options": [
+        "\\(-\\frac{e^{-x}\\left(\\sin(x)+\\cos(x)\\right)}{2}+C\\)",
+        "\\(\\frac{e^{-x}\\left(\\sin(x)+\\cos(x)\\right)}{2}+C\\)",
+        "\\(-\\frac{e^{-x}\\left(\\sin(x)-\\cos(x)\\right)}{2}+C\\)",
+        "\\(\\frac{e^{-x}\\left(\\sin(x)-\\cos(x)\\right)}{2}+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando integración por partes dos veces se llega a la solución \\(-\\frac{e^{-x}(\\sin(x)+\\cos(x))}{2}+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Utiliza integración por partes con elecciones apropiadas para \\(u\\) y \\(dv\\).",
+        "Realiza el proceso dos veces para despejar la integral.",
+        "Simplifica la expresión final para obtener la respuesta."
+      ]
+    },
+    {
+      "question": "Determina la primitiva de \\(\\int \\frac{x^2}{x^3+1}\\,dx\\).",
+      "formula": "\\(\\int \\frac{x^2}{x^3+1}\\,dx\\)",
+      "options": [
+        "\\(\\frac{1}{3}\\ln|x^3+1|+C\\)",
+        "\\(\\ln|x^3+1|+C\\)",
+        "\\(\\frac{1}{2}\\ln|x^3+1|+C\\)",
+        "\\(3\\ln|x^3+1|+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Con la sustitución \\(u=x^3+1\\) y \\(du=3x^2\\,dx\\), la integral se transforma en \\(\\frac{1}{3}\\int \\frac{1}{u}\\,du\\), cuyo resultado es \\(\\frac{1}{3}\\ln|u|+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Sustituye \\(u=x^3+1\\) y calcula \\(du=3x^2\\,dx\\).",
+        "Reescribe la integral en función de \\(u\\).",
+        "Integra \\(\\frac{1}{u}\\,du\\) para obtener \\(\\frac{1}{3}\\ln|u|+C\\).",
+        "Vuelve a la variable original."
+      ]
+    },
+    {
+      "question": "Evalúa la integral: \\(\\int x^3e^{-2x}\\,dx\\).",
+      "formula": "\\(\\int x^3e^{-2x}\\,dx\\)",
+      "options": [
+        "\\(-e^{-2x}\\left(\\frac{x^3}{2}+\\frac{3x^2}{4}+\\frac{3x}{4}+\\frac{3}{8}\\right)+C\\)",
+        "\\(e^{-2x}\\left(\\frac{x^3}{2}+\\frac{3x^2}{4}+\\frac{3x}{4}+\\frac{3}{8}\\right)+C\\)",
+        "\\(-e^{-2x}\\left(\\frac{x^3}{2}-\\frac{3x^2}{4}+\\frac{3x}{4}-\\frac{3}{8}\\right)+C\\)",
+        "\\(e^{-2x}\\left(\\frac{x^3}{2}-\\frac{3x^2}{4}+\\frac{3x}{4}-\\frac{3}{8}\\right)+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mediante integración por partes repetida se llega a la solución \\(-e^{-2x}\\left(\\frac{x^3}{2}+\\frac{3x^2}{4}+\\frac{3x}{4}+\\frac{3}{8}\\right)+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplica integración por partes tomando \\(u=x^3\\) y \\(dv=e^{-2x}\\,dx\\).",
+        "Realiza el proceso de integración por partes varias veces.",
+        "Simplifica la expresión final para obtener la respuesta."
+      ]
+    },
+    {
+      "question": "Calcula la integral indefinida usando sustitución simple: ¿Cuál es el resultado de \\(\\int 2x\\cos(x^2)\\,dx\\)?",
+      "formula": "\\(\\int 2x\\cos(x^2)\\,dx\\)",
+      "options": [
+        "\\(\\sin(x^2) + C\\)",
+        "\\(-\\sin(x^2) + C\\)",
+        "\\(\\cos(x^2) + C\\)",
+        "\\(-\\cos(x^2) + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se realiza la sustitución \\(u=x^2\\) de donde se obtiene \\(du=2x\\,dx\\). La integral se transforma en \\(\\int \\cos(u)\\,du\\), cuyo resultado es \\(\\sin(u)+C\\). Reemplazando \\(u\\) se tiene \\(\\sin(x^2)+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Identifica la función interna: \\(u=x^2\\).",
+        "Calcula la derivada: \\(du=2x\\,dx\\).",
+        "Reescribe la integral en función de \\(u\\): \\(\\int \\cos(u)\\,du\\).",
+        "Integra: \\(\\int \\cos(u)\\,du=\\sin(u)+C\\).",
+        "Sustituye \\(u\\) de nuevo: \\(\\sin(x^2)+C\\)."
+      ]
+    },
+    {
+      "question": "Resuelve la integral usando sustitución: \\(\\int x(x^2+1)^4\\,dx\\).",
+      "formula": "\\(\\int x(x^2+1)^4\\,dx\\)",
+      "options": [
+        "\\(\\frac{1}{5}(x^2+1)^5 + C\\)",
+        "\\(\\frac{1}{10}(x^2+1)^4 + C\\)",
+        "\\(\\frac{1}{10}(x^2+1)^5 + C\\)",
+        "\\(\\frac{1}{8}(x^2+1)^5 + C\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Se usa la sustitución \\(u=x^2+1\\) con \\(du=2x\\,dx\\). La integral se convierte en \\(\\frac{1}{2}\\int u^4\\,du=\\frac{1}{10}u^5+C\\) y al revertir la sustitución se obtiene \\(\\frac{1}{10}(x^2+1)^5+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Establece la sustitución: \\(u=x^2+1\\) y \\(du=2x\\,dx\\).",
+        "Ajusta la integral: \\(\\int x(x^2+1)^4\\,dx=\\frac{1}{2}\\int u^4\\,du\\).",
+        "Integra: \\(\\int u^4\\,du=\\frac{u^5}{5}\\).",
+        "Multiplica por la constante: \\(\\frac{1}{2}\\cdot\\frac{u^5}{5}=\\frac{u^5}{10}\\).",
+        "Reemplaza \\(u\\) para obtener \\(\\frac{1}{10}(x^2+1)^5+C\\)."
+      ]
+    },
+    {
+      "question": "Determina la integral indefinida: \\(\\int \\frac{e^x}{1+e^{2x}}\\,dx\\).",
+      "formula": "\\(\\int \\frac{e^x}{1+e^{2x}}\\,dx\\)",
+      "options": [
+        "\\(\\arctan(e^x) + C\\)",
+        "\\(\\frac{1}{2}\\ln\\left|\\frac{1+e^x}{1-e^x}\\right| + C\\)",
+        "\\(\\ln\\left|e^x+\\sqrt{1+e^{2x}}\\right| + C\\)",
+        "\\(-\\arctan(e^x) + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Con la sustitución \\(u=e^x\\) se tiene \\(du=e^x\\,dx\\) y la integral se transforma en \\(\\int \\frac{1}{1+u^2}\\,du\\), la cual es la definición de \\(\\arctan(u)\\). Finalmente, se obtiene \\(\\arctan(e^x)+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Realiza la sustitución: \\(u=e^x\\) y \\(du=e^x\\,dx\\).",
+        "Reescribe la integral: \\(\\int \\frac{1}{1+u^2}\\,du\\).",
+        "Integra: \\(\\int \\frac{1}{1+u^2}\\,du=\\arctan(u)+C\\).",
+        "Vuelve a la variable original: \\(\\arctan(e^x)+C\\)."
+      ]
+    },
+    {
+      "question": "Aplica la sustitución simple para evaluar \\(\\int 2x\\sin(x^2)\\,dx\\).",
+      "formula": "\\(\\int 2x\\sin(x^2)\\,dx\\)",
+      "options": [
+        "\\(\\cos(x^2) + C\\)",
+        "\\(-\\cos(x^2) + C\\)",
+        "\\(\\sin(x^2) + C\\)",
+        "\\(-\\sin(x^2) + C\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Con la sustitución \\(u=x^2\\) y \\(du=2x\\,dx\\), la integral se simplifica a \\(\\int \\sin(u)\\,du\\) que integra a \\(-\\cos(u)+C\\). Al regresar a \\(x\\) se obtiene \\(-\\cos(x^2)+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Define la sustitución: \\(u=x^2\\) y calcula \\(du=2x\\,dx\\).",
+        "Transforma la integral en \\(\\int \\sin(u)\\,du\\).",
+        "Integra: \\(\\int \\sin(u)\\,du=-\\cos(u)+C\\).",
+        "Reemplaza \\(u\\) para obtener \\(-\\cos(x^2)+C\\)."
+      ]
+    },
+    {
+      "question": "Utilizando sustitución simple, resuelve \\(\\int \\frac{x}{\\sqrt{x^2+1}}\\,dx\\).",
+      "formula": "\\(\\int \\frac{x}{\\sqrt{x^2+1}}\\,dx\\)",
+      "options": [
+        "\\(\\sqrt{x^2+1} + C\\)",
+        "\\(-\\sqrt{x^2+1} + C\\)",
+        "\\(\\ln|x+\\sqrt{x^2+1}| + C\\)",
+        "\\(\\frac{1}{2}\\ln|x+\\sqrt{x^2+1}| + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Con la sustitución \\(u=x^2+1\\) y \\(du=2x\\,dx\\), la integral se convierte en \\(\\frac{1}{2}\\int u^{-1/2}\\,du\\) que integra a \\(\\sqrt{u}+C\\). Al sustituir \\(u\\) se obtiene \\(\\sqrt{x^2+1}+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Sustituye \\(u=x^2+1\\) con \\(du=2x\\,dx\\).",
+        "Reescribe la integral como \\(\\frac{1}{2}\\int u^{-1/2}\\,du\\).",
+        "Integra: \\(\\int u^{-1/2}\\,du=2\\sqrt{u}\\).",
+        "Multiplica por la constante: \\(\\frac{1}{2} \\cdot 2\\sqrt{u}=\\sqrt{u}\\).",
+        "Reemplaza \\(u\\) y obtén \\(\\sqrt{x^2+1}+C\\)."
+      ]
+    },
+    {
+      "question": "Determina la solución de \\(\\int \\frac{3x^2}{x^3+1}\\,dx\\) aplicando sustitución.",
+      "formula": "\\(\\int \\frac{3x^2}{x^3+1}\\,dx\\)",
+      "options": [
+        "\\(\\ln|x^3+1| + C\\)",
+        "\\(\\frac{1}{3}\\ln|x^3+1| + C\\)",
+        "\\(\\ln|3x^2+1| + C\\)",
+        "\\(3\\ln|x^3+1| + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Con la sustitución \\(u=x^3+1\\) se tiene \\(du=3x^2\\,dx\\). La integral se convierte en \\(\\int \\frac{1}{u}\\,du\\), cuyo resultado es \\(\\ln|u|+C\\). Reemplazando \\(u\\) se obtiene \\(\\ln|x^3+1|+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Realiza la sustitución: \\(u=x^3+1\\) y \\(du=3x^2\\,dx\\).",
+        "Reescribe la integral como \\(\\int \\frac{1}{u}\\,du\\).",
+        "Integra: \\(\\int \\frac{1}{u}\\,du=\\ln|u|+C\\).",
+        "Sustituye \\(u\\) para obtener \\(\\ln|x^3+1|+C\\)."
+      ]
+    },
+    {
+      "question": "Encuentra la primitiva de \\(\\int \\frac{\\cos(x)}{1+\\sin(x)}\\,dx\\) usando sustitución.",
+      "formula": "\\(\\int \\frac{\\cos(x)}{1+\\sin(x)}\\,dx\\)",
+      "options": [
+        "\\(\\ln|1+\\sin(x)| + C\\)",
+        "\\(-\\ln|1+\\sin(x)| + C\\)",
+        "\\(\\ln|1-\\sin(x)| + C\\)",
+        "\\(-\\ln|1-\\sin(x)| + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mediante la sustitución \\(u=\\sin(x)\\) se obtiene \\(du=\\cos(x)\\,dx\\). La integral se transforma en \\(\\int \\frac{1}{1+u}\\,du\\) que integra a \\(\\ln|1+u|+C\\). Al sustituir se tiene \\(\\ln|1+\\sin(x)|+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Sustituye: \\(u=\\sin(x)\\) con \\(du=\\cos(x)\\,dx\\).",
+        "Reescribe la integral como \\(\\int \\frac{1}{1+u}\\,du\\).",
+        "Integra: \\(\\int \\frac{1}{1+u}\\,du=\\ln|1+u|+C\\).",
+        "Reemplaza \\(u\\) por \\(\\sin(x)\\) para obtener la respuesta."
+      ]
+    },
+    {
+      "question": "Calcula la integral \\(\\int 4x^3\\cos(x^4)\\,dx\\) usando sustitución simple.",
+      "formula": "\\(\\int 4x^3\\cos(x^4)\\,dx\\)",
+      "options": [
+        "\\(\\sin(x^4) + C\\)",
+        "\\(-\\sin(x^4) + C\\)",
+        "\\(\\cos(x^4) + C\\)",
+        "\\(-\\cos(x^4) + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Con la sustitución \\(u=x^4\\) se tiene \\(du=4x^3\\,dx\\). La integral se convierte en \\(\\int \\cos(u)\\,du\\) y su resultado es \\(\\sin(u)+C\\). Al revertir la sustitución se obtiene \\(\\sin(x^4)+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Establece la sustitución: \\(u=x^4\\) y \\(du=4x^3\\,dx\\).",
+        "Cambia la integral a \\(\\int \\cos(u)\\,du\\).",
+        "Integra: \\(\\int \\cos(u)\\,du=\\sin(u)+C\\).",
+        "Reemplaza \\(u\\) para obtener \\(\\sin(x^4)+C\\)."
+      ]
+    },
+    {
+      "question": "Resuelve \\(\\int x\\,e^{x^2}\\,dx\\) utilizando sustitución simple.",
+      "formula": "\\(\\int x\\,e^{x^2}\\,dx\\)",
+      "options": [
+        "\\(e^{x^2} + C\\)",
+        "\\(\\frac{1}{2}e^{x^2} + C\\)",
+        "\\(2e^{x^2} + C\\)",
+        "\\(\\frac{1}{2}e^{x^2} - C\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Se utiliza la sustitución \\(u=x^2\\) con \\(du=2x\\,dx\\). Así, la integral se convierte en \\(\\frac{1}{2}\\int e^u\\,du\\), que se integra a \\(\\frac{1}{2}e^u+C\\). Reemplazando \\(u\\) se obtiene \\(\\frac{1}{2}e^{x^2}+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Establece la sustitución: \\(u=x^2\\) y \\(du=2x\\,dx\\).",
+        "Reescribe la integral como \\(\\frac{1}{2}\\int e^u\\,du\\).",
+        "Integra \\(\\int e^u\\,du=e^u+C\\).",
+        "Multiplica por la constante y sustituye \\(u\\): \\(\\frac{1}{2}e^{x^2}+C\\)."
+      ]
+    },
+    {
+      "question": "Evalúa \\(\\int \\frac{2x}{x^2+4}\\,dx\\) usando sustitución.",
+      "formula": "\\(\\int \\frac{2x}{x^2+4}\\,dx\\)",
+      "options": [
+        "\\(\\ln|x^2+4| + C\\)",
+        "\\(\\frac{1}{2}\\ln|x^2+4| + C\\)",
+        "\\(2\\ln|x^2+4| + C\\)",
+        "\\(\\ln|x^2+4| - C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mediante la sustitución \\(u=x^2+4\\) y \\(du=2x\\,dx\\), la integral se transforma en \\(\\int \\frac{1}{u}\\,du\\), que resulta en \\(\\ln|u|+C\\). Al revertir la sustitución se obtiene \\(\\ln|x^2+4|+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Define la sustitución: \\(u=x^2+4\\) y \\(du=2x\\,dx\\).",
+        "Transforma la integral a \\(\\int \\frac{1}{u}\\,du\\).",
+        "Integra: \\(\\int \\frac{1}{u}\\,du=\\ln|u|+C\\).",
+        "Sustituye \\(u\\) para obtener \\(\\ln|x^2+4|+C\\)."
+      ]
+    },
+    {
+      "question": "Utiliza integración por partes para resolver \\(\\int x e^x\\,dx\\).",
+      "formula": "\\(\\int x e^x\\,dx\\)",
+      "options": [
+        "\\(x e^x - e^x + C\\)",
+        "\\(e^x(x - 1) + C\\)",
+        "\\(x e^x + e^x + C\\)",
+        "\\(e^x(x + 1) + C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se elige \\(u=x\\) y \\(dv=e^x\\,dx\\). Luego, \\(du=dx\\) y \\(v=e^x\\). Aplicando la fórmula \\(\\int u\\,dv=u\\,v-\\int v\\,du\\) se obtiene \\(x e^x - \\int e^x\\,dx=x e^x - e^x+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Selecciona \\(u=x\\) y \\(dv=e^x\\,dx\\).",
+        "Calcula \\(du=dx\\) y \\(v=e^x\\).",
+        "Aplica la fórmula de integración por partes: \\(u\\,v-\\int v\\,du\\).",
+        "Integra \\(\\int e^x\\,dx=e^x+C\\) y escribe la respuesta final."
+      ]
+    },
+    {
+      "question": "Determina la integral \\(\\int \\ln(x)\\,dx\\) mediante integración por partes.",
+      "formula": "\\(\\int \\ln(x)\\,dx\\)",
+      "options": [
+        "\\(x\\ln(x)-x+C\\)",
+        "\\(\\ln(x)-x+C\\)",
+        "\\(x\\ln(x)+x+C\\)",
+        "\\(x\\ln(x)-2x+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se toma \\(u=\\ln(x)\\) y \\(dv=dx\\). Así, \\(du=\\frac{1}{x}\\,dx\\) y \\(v=x\\). Aplicando integración por partes se tiene \\(x\\ln(x)-\\int x\\cdot\\frac{1}{x}\\,dx=x\\ln(x)-x+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Elige \\(u=\\ln(x)\\) y \\(dv=dx\\).",
+        "Calcula \\(du=\\frac{1}{x}\\,dx\\) y \\(v=x\\).",
+        "Aplica la fórmula: \\(u\\,v-\\int v\\,du\\).",
+        "Simplifica y obtén \\(x\\ln(x)-x+C\\)."
+      ]
+    },
+    {
+      "question": "Calcula \\(\\int x\\sin(x)\\,dx\\) usando integración por partes.",
+      "formula": "\\(\\int x\\sin(x)\\,dx\\)",
+      "options": [
+        "\\(-x\\cos(x)+\\sin(x)+C\\)",
+        "\\(x\\cos(x)-\\sin(x)+C\\)",
+        "\\(\\sin(x)-x\\cos(x)+C\\)",
+        "\\(x\\sin(x)+\\cos(x)+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se toma \\(u=x\\) y \\(dv=\\sin(x)\\,dx\\), de donde \\(du=dx\\) y \\(v=-\\cos(x)\\). La fórmula de integración por partes da \\(-x\\cos(x)+\\int \\cos(x)\\,dx=-x\\cos(x)+\\sin(x)+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Elige \\(u=x\\) y \\(dv=\\sin(x)\\,dx\\).",
+        "Calcula \\(du=dx\\) y \\(v=-\\cos(x)\\).",
+        "Aplica \\(u\\,v-\\int v\\,du\\).",
+        "Integra \\(\\cos(x)\\,dx\\) y obtén la solución."
+      ]
+    },
+    {
+      "question": "Resuelve \\(\\int x\\cos(x)\\,dx\\) mediante integración por partes.",
+      "formula": "\\(\\int x\\cos(x)\\,dx\\)",
+      "options": [
+        "\\(x\\sin(x)+\\cos(x)+C\\)",
+        "\\(x\\sin(x)-\\cos(x)+C\\)",
+        "\\(-x\\sin(x)+\\cos(x)+C\\)",
+        "\\(x\\cos(x)+\\sin(x)+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sea \\(u=x\\) y \\(dv=\\cos(x)\\,dx\\). Entonces \\(du=dx\\) y \\(v=\\sin(x)\\). Aplicando la fórmula se obtiene \\(x\\sin(x)-\\int \\sin(x)\\,dx=x\\sin(x)+\\cos(x)+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Elige \\(u=x\\) y \\(dv=\\cos(x)\\,dx\\).",
+        "Calcula \\(du=dx\\) y \\(v=\\sin(x)\\).",
+        "Aplica la fórmula de integración por partes.",
+        "Integra \\(\\sin(x)\\,dx\\) y combina términos."
+      ]
+    },
+    {
+      "question": "Usa integración por partes para evaluar \\(\\int \\arctan(x)\\,dx\\).",
+      "formula": "\\(\\int \\arctan(x)\\,dx\\)",
+      "options": [
+        "\\(x\\arctan(x)-\\frac{1}{2}\\ln(1+x^2)+C\\)",
+        "\\(x\\arctan(x)+\\frac{1}{2}\\ln(1+x^2)+C\\)",
+        "\\(\\arctan(x)-x\\frac{1}{2}\\ln(1+x^2)+C\\)",
+        "\\(x\\arctan(x)-\\ln(1+x^2)+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se escoge \\(u=\\arctan(x)\\) y \\(dv=dx\\). Entonces \\(du=\\frac{1}{1+x^2}\\,dx\\) y \\(v=x\\). Aplicando integración por partes se obtiene \\(x\\arctan(x)-\\int \\frac{x}{1+x^2}\\,dx\\). La integral restante se resuelve mediante sustitución, dando el resultado final.",
+      "difficulty": "hard",
+      "procedure": [
+        "Selecciona \\(u=\\arctan(x)\\) y \\(dv=dx\\).",
+        "Calcula \\(du=\\frac{1}{1+x^2}\\,dx\\) y \\(v=x\\).",
+        "Aplica la fórmula de integración por partes.",
+        "Resuelve \\(\\int \\frac{x}{1+x^2}\\,dx\\) por sustitución.",
+        "Combina los resultados para obtener la respuesta final."
+      ]
+    },
+    {
+      "question": "Calcula \\(\\int x^2 e^x\\,dx\\) usando integración por partes de forma repetida.",
+      "formula": "\\(\\int x^2 e^x\\,dx\\)",
+      "options": [
+        "\\(e^x(x^2-2x+2)+C\\)",
+        "\\(e^x(x^2+2x+2)+C\\)",
+        "\\(e^x(x^2-2x-2)+C\\)",
+        "\\(e^x(x^2-x+1)+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Primero se toma \\(u=x^2\\) y \\(dv=e^x\\,dx\\), luego se aplica integración por partes al término resultante \\(\\int2xe^x\\,dx\\). Finalmente, se obtiene \\(e^x(x^2-2x+2)+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Elige \\(u=x^2\\) y \\(dv=e^x\\,dx\\).",
+        "Calcula \\(du=2x\\,dx\\) y \\(v=e^x\\).",
+        "Aplica la fórmula de integración por partes.",
+        "Resuelve \\(\\int 2xe^x\\,dx\\) usando nuevamente integración por partes.",
+        "Combina los resultados para obtener \\(e^x(x^2-2x+2)+C\\)."
+      ]
+    },
+    {
+      "question": "Resuelve \\(\\int e^x\\cos(x)\\,dx\\) mediante integración por partes.",
+      "formula": "\\(\\int e^x\\cos(x)\\,dx\\)",
+      "options": [
+        "\\(\\frac{e^x(\\sin(x)+\\cos(x))}{2}+C\\)",
+        "\\(\\frac{e^x(\\cos(x)-\\sin(x))}{2}+C\\)",
+        "\\(\\frac{e^x(\\sin(x)-\\cos(x))}{2}+C\\)",
+        "\\(e^x(\\sin(x)+\\cos(x))+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando integración por partes dos veces se llega a una ecuación en la que se puede despejar la integral. El resultado conocido es \\(\\frac{e^x(\\sin(x)+\\cos(x))}{2}+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Usa integración por partes con elecciones adecuadas para \\(u\\) y \\(dv\\).",
+        "Aplica el método dos veces y reorganiza la ecuación.",
+        "Despeja la integral y simplifica para obtener la respuesta final."
+      ]
+    },
+    {
+      "question": "Evalúa \\(\\int x\\ln(x)\\,dx\\) usando integración por partes.",
+      "formula": "\\(\\int x\\ln(x)\\,dx\\)",
+      "options": [
+        "\\(\\frac{x^2}{2}\\ln(x)-\\frac{x^2}{4}+C\\)",
+        "\\(\\frac{x^2}{2}\\ln(x)+\\frac{x^2}{4}+C\\)",
+        "\\(x^2\\ln(x)-\\frac{x^2}{2}+C\\)",
+        "\\(\\frac{x^2}{2}\\ln(x)-\\frac{x}{4}+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se elige \\(u=\\ln(x)\\) y \\(dv=x\\,dx\\) con \\(v=\\frac{x^2}{2}\\). Luego, la integral se reduce a \\(\\frac{x^2}{2}\\ln(x)-\\frac{1}{2}\\int x\\,dx\\), lo que conduce a \\(\\frac{x^2}{2}\\ln(x)-\\frac{x^2}{4}+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Selecciona \\(u=\\ln(x)\\) y \\(dv=x\\,dx\\).",
+        "Calcula \\(du=\\frac{1}{x}\\,dx\\) y \\(v=\\frac{x^2}{2}\\).",
+        "Aplica integración por partes: \\(u\\,v-\\int v\\,du\\).",
+        "Integra \\(\\int x\\,dx\\) y simplifica para obtener la respuesta final."
+      ]
+    },
+    {
+      "question": "Calcula \\(\\int e^x\\sin(x)\\,dx\\) aplicando integración por partes.",
+      "formula": "\\(\\int e^x\\sin(x)\\,dx\\)",
+      "options": [
+        "\\(\\frac{e^x(\\sin(x)-\\cos(x))}{2}+C\\)",
+        "\\(\\frac{e^x(\\sin(x)+\\cos(x))}{2}+C\\)",
+        "\\(e^x(\\sin(x)-\\cos(x))+C\\)",
+        "\\(e^x(\\sin(x)+\\cos(x))+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El resultado estándar de esta integral es \\(\\frac{e^x(\\sin(x)-\\cos(x))}{2}+C\\) tras aplicar integración por partes dos veces y resolver la ecuación resultante.",
+      "difficulty": "hard",
+      "procedure": [
+        "Utiliza integración por partes con elecciones adecuadas para \\(u\\) y \\(dv\\).",
+        "Aplica el proceso dos veces y reordena la ecuación.",
+        "Resuelve para la integral y simplifica el resultado final."
+      ]
+    },
+    {
+      "question": "Usa integración por partes para resolver \\(\\int x^3e^x\\,dx\\).",
+      "formula": "\\(\\int x^3e^x\\,dx\\)",
+      "options": [
+        "\\(e^x(x^3-3x^2+6x-6)+C\\)",
+        "\\(e^x(x^3-3x^2+3x-6)+C\\)",
+        "\\(e^x(x^3-3x^2+6x-3)+C\\)",
+        "\\(e^x(x^3-2x^2+6x-6)+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se aplica integración por partes donde \\(u=x^3\\) y \\(dv=e^x\\,dx\\), lo que da lugar a una integral que se resuelve por un segundo proceso de integración por partes, resultando en \\(e^x(x^3-3x^2+6x-6)+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Elige \\(u=x^3\\) y \\(dv=e^x\\,dx\\).",
+        "Calcula \\(du=3x^2\\,dx\\) y \\(v=e^x\\).",
+        "Aplica la fórmula de integración por partes y resuelve la integral resultante.",
+        "Combina los términos para obtener la solución final."
+      ]
+    },
+    {
+      "question": "Resuelve \\(\\int x^2\\sin(x)\\,dx\\) utilizando integración por partes.",
+      "formula": "\\(\\int x^2\\sin(x)\\,dx\\)",
+      "options": [
+        "\\(-x^2\\cos(x)+2x\\sin(x)+2\\cos(x)+C\\)",
+        "\\(x^2\\cos(x)-2x\\sin(x)+2\\cos(x)+C\\)",
+        "\\(-x^2\\cos(x)+2x\\sin(x)-2\\cos(x)+C\\)",
+        "\\(x^2\\cos(x)+2x\\sin(x)+2\\cos(x)+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Con \\(u=x^2\\) y \\(dv=\\sin(x)\\,dx\\) se obtiene \\(du=2x\\,dx\\) y \\(v=-\\cos(x)\\). Luego, se aplica integración por partes y se resuelve la integral resultante, obteniéndose \\(-x^2\\cos(x)+2x\\sin(x)+2\\cos(x)+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Selecciona \\(u=x^2\\) y \\(dv=\\sin(x)\\,dx\\).",
+        "Calcula \\(du=2x\\,dx\\) y \\(v=-\\cos(x)\\).",
+        "Aplica la fórmula \\(u\\,v-\\int v\\,du\\).",
+        "Integra \\(\\int 2x\\cos(x)\\,dx\\) y combina los términos."
+      ]
+    },
+    {
+      "question": "Determina \\(\\int xe^{-x}\\,dx\\) aplicando integración por partes.",
+      "formula": "\\(\\int xe^{-x}\\,dx\\)",
+      "options": [
+        "\\(-e^{-x}(x+1)+C\\)",
+        "\\(e^{-x}(x+1)+C\\)",
+        "\\(-e^{-x}(x-1)+C\\)",
+        "\\(e^{-x}(x-1)+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Eligiendo \\(u=x\\) y \\(dv=e^{-x}\\,dx\\) se tiene \\(du=dx\\) y \\(v=-e^{-x}\\). Aplicando integración por partes se obtiene \\(-xe^{-x}+\\int e^{-x}\\,dx=-e^{-x}(x+1)+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Selecciona \\(u=x\\) y \\(dv=e^{-x}\\,dx\\).",
+        "Calcula \\(du=dx\\) y \\(v=-e^{-x}\\).",
+        "Aplica la fórmula de integración por partes.",
+        "Integra \\(\\int e^{-x}\\,dx=-e^{-x}+C\\) y combina los términos."
+      ]
+    },
+    {
+      "question": "Calcula \\(\\int x\\cosh(x)\\,dx\\) mediante integración por partes.",
+      "formula": "\\(\\int x\\cosh(x)\\,dx\\)",
+      "options": [
+        "\\(x\\sinh(x)-\\cosh(x)+C\\)",
+        "\\(x\\sinh(x)+\\cosh(x)+C\\)",
+        "\\(-x\\sinh(x)-\\cosh(x)+C\\)",
+        "\\(x\\cosh(x)-\\sinh(x)+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se toma \\(u=x\\) y \\(dv=\\cosh(x)\\,dx\\) con \\(v=\\sinh(x)\\). Así, la integral se reduce a \\(x\\sinh(x)-\\int \\sinh(x)\\,dx=x\\sinh(x)-\\cosh(x)+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Selecciona \\(u=x\\) y \\(dv=\\cosh(x)\\,dx\\).",
+        "Calcula \\(du=dx\\) y \\(v=\\sinh(x)\\).",
+        "Aplica integración por partes.",
+        "Integra \\(\\sinh(x)\\,dx\\) y simplifica."
+      ]
+    },
+    {
+      "question": "Evalúa \\(\\int x\\sinh(x)\\,dx\\) utilizando integración por partes.",
+      "formula": "\\(\\int x\\sinh(x)\\,dx\\)",
+      "options": [
+        "\\(x\\cosh(x)-\\sinh(x)+C\\)",
+        "\\(x\\cosh(x)+\\sinh(x)+C\\)",
+        "\\(-x\\cosh(x)+\\sinh(x)+C\\)",
+        "\\(x\\sinh(x)-\\cosh(x)+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Con \\(u=x\\) y \\(dv=\\sinh(x)\\,dx\\) se tiene \\(du=dx\\) y \\(v=\\cosh(x)\\). Aplicando integración por partes se obtiene \\(x\\cosh(x)-\\int \\cosh(x)\\,dx=x\\cosh(x)-\\sinh(x)+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Elige \\(u=x\\) y \\(dv=\\sinh(x)\\,dx\\).",
+        "Calcula \\(du=dx\\) y \\(v=\\cosh(x)\\).",
+        "Aplica la fórmula \\(u\\,v-\\int v\\,du\\).",
+        "Integra \\(\\cosh(x)\\,dx\\) y obtiene la respuesta final."
+      ]
+    },
+    {
+      "question": "Determina \\(\\int x^2\\ln(x)\\,dx\\) usando integración por partes.",
+      "formula": "\\(\\int x^2\\ln(x)\\,dx\\)",
+      "options": [
+        "\\(\\frac{x^3}{3}\\ln(x)-\\frac{x^3}{9}+C\\)",
+        "\\(\\frac{x^3}{3}\\ln(x)+\\frac{x^3}{9}+C\\)",
+        "\\(\\frac{x^3}{3}\\ln(x)-\\frac{x^2}{9}+C\\)",
+        "\\(\\frac{x^3}{3}\\ln(x)-\\frac{x^3}{6}+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se escoge \\(u=\\ln(x)\\) y \\(dv=x^2\\,dx\\) con \\(v=\\frac{x^3}{3}\\). Luego, se aplica integración por partes y se simplifica para obtener \\(\\frac{x^3}{3}\\ln(x)-\\frac{x^3}{9}+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Selecciona \\(u=\\ln(x)\\) y \\(dv=x^2\\,dx\\).",
+        "Calcula \\(du=\\frac{1}{x}\\,dx\\) y \\(v=\\frac{x^3}{3}\\).",
+        "Aplica la fórmula de integración por partes.",
+        "Simplifica la integral restante para obtener la respuesta final."
+      ]
+    },
+    {
+      "question": "Calcula \\(\\int xe^{2x}\\,dx\\) mediante integración por partes.",
+      "formula": "\\(\\int xe^{2x}\\,dx\\)",
+      "options": [
+        "\\(\\frac{e^{2x}(2x-1)}{4}+C\\)",
+        "\\(\\frac{e^{2x}(2x+1)}{4}+C\\)",
+        "\\(\\frac{e^{2x}(2x-1)}{2}+C\\)",
+        "\\(\\frac{e^{2x}(x-1)}{4}+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sea \\(u=x\\) y \\(dv=e^{2x}\\,dx\\). Con \\(v=\\frac{e^{2x}}{2}\\) se aplica la fórmula y se obtiene \\(\\frac{xe^{2x}}{2}-\\frac{e^{2x}}{4}+C\\), que se factoriza como \\(\\frac{e^{2x}(2x-1)}{4}+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Selecciona \\(u=x\\) y \\(dv=e^{2x}\\,dx\\).",
+        "Calcula \\(du=dx\\) y \\(v=\\frac{e^{2x}}{2}\\).",
+        "Aplica integración por partes: \\(u\\,v-\\int v\\,du\\).",
+        "Simplifica la integral para obtener \\(\\frac{e^{2x}(2x-1)}{4}+C\\)."
+      ]
+    },
+    {
+      "question": "Resuelve \\(\\int x^2\\cosh(x)\\,dx\\) usando integración por partes.",
+      "formula": "\\(\\int x^2\\cosh(x)\\,dx\\)",
+      "options": [
+        "\\(x^2\\sinh(x)-2x\\cosh(x)+2\\sinh(x)+C\\)",
+        "\\(x^2\\sinh(x)+2x\\cosh(x)-2\\sinh(x)+C\\)",
+        "\\(x^2\\cosh(x)-2x\\sinh(x)+2\\cosh(x)+C\\)",
+        "\\(x^2\\sinh(x)-2x\\cosh(x)-2\\sinh(x)+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Con \\(u=x^2\\) y \\(dv=\\cosh(x)\\,dx\\) se tiene \\(v=\\sinh(x)\\). Tras aplicar integración por partes y resolver la integral resultante, se obtiene \\(x^2\\sinh(x)-2x\\cosh(x)+2\\sinh(x)+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Selecciona \\(u=x^2\\) y \\(dv=\\cosh(x)\\,dx\\).",
+        "Calcula \\(du=2x\\,dx\\) y \\(v=\\sinh(x)\\).",
+        "Aplica la fórmula \\(u\\,v-\\int v\\,du\\).",
+        "Resuelve la integral \\(\\int 2x\\sinh(x)\\,dx\\) usando integración por partes.",
+        "Combina los resultados para obtener la respuesta final."
+      ]
+    },
+    {
+      "question": "Determina \\(\\int \\frac{\\ln(x)}{x^2}\\,dx\\) utilizando integración por partes.",
+      "formula": "\\(\\int \\frac{\\ln(x)}{x^2}\\,dx\\)",
+      "options": [
+        "\\(-\\frac{\\ln(x)+1}{x}+C\\)",
+        "\\(-\\frac{\\ln(x)-1}{x}+C\\)",
+        "\\(\\frac{\\ln(x)+1}{x}+C\\)",
+        "\\(\\frac{\\ln(x)-1}{x}+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sea \\(u=\\ln(x)\\) y \\(dv=x^{-2}\\,dx\\) (con \\(v=-x^{-1}\\)). Aplicando integración por partes se obtiene \\(-\\frac{\\ln(x)}{x}-\\int -\\frac{1}{x^2}\\,dx=-\\frac{\\ln(x)}{x}-\\frac{1}{x}+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Elige \\(u=\\ln(x)\\) y \\(dv=\\frac{1}{x^2}\\,dx\\).",
+        "Calcula \\(du=\\frac{1}{x}\\,dx\\) y \\(v=-\\frac{1}{x}\\).",
+        "Aplica la fórmula \\(u\\,v-\\int v\\,du\\).",
+        "Simplifica para obtener \\(-\\frac{\\ln(x)+1}{x}+C\\)."
+      ]
+    },
+    {
+      "question": "Usa integración por partes para evaluar \\(\\int xe^{-2x}\\,dx\\).",
+      "formula": "\\(\\int xe^{-2x}\\,dx\\)",
+      "options": [
+        "\\(\\frac{e^{-2x}(1-2x)}{4}+C\\)",
+        "\\(\\frac{e^{-2x}(2x-1)}{4}+C\\)",
+        "\\(\\frac{e^{-2x}(1-2x)}{2}+C\\)",
+        "\\(\\frac{e^{-2x}(2x+1)}{4}+C\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se elige \\(u=x\\) y \\(dv=e^{-2x}\\,dx\\) (con \\(v=-\\frac{e^{-2x}}{2}\\)). Aplicando la fórmula de integración por partes se obtiene \\(-\\frac{xe^{-2x}}{2}+\\frac{e^{-2x}}{4}+C\\), que se puede factorizar como \\(\\frac{e^{-2x}(1-2x)}{4}+C\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Selecciona \\(u=x\\) y \\(dv=e^{-2x}\\,dx\\).",
+        "Calcula \\(du=dx\\) y \\(v=-\\frac{e^{-2x}}{2}\\).",
+        "Aplica la fórmula \\(u\\,v-\\int v\\,du\\).",
+        "Simplifica la expresión para obtener \\(\\frac{e^{-2x}(1-2x)}{4}+C\\)."
+      ]
+    }
+  ]
+}

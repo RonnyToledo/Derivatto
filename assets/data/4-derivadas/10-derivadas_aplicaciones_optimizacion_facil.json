@@ -1,0 +1,1230 @@
+{
+  "derivadas_aplicaciones_optimizacion_facil": [
+    {
+      "question": "Calcula la tasa de cambio de la función f(x) = x^2 en x = 3.",
+      "formula": "\\( f(x) = x^2 \\)",
+      "options": ["\\(6\\)", "\\(9\\)", "\\(3\\)", "\\(2\\)"],
+      "correctAnswer": 0,
+      "explanation": "La derivada de f(x)=x^2 es f'(x)=2x; evaluando en x=3 se obtiene f'(3)=6.",
+      "difficulty": "easy",
+      "procedure": [
+        "Derivar la función: f'(x)=2x.",
+        "Evaluar la derivada en x=3: f'(3)=2×3=6."
+      ]
+    },
+    {
+      "question": "Determina la tasa de cambio de la función f(t) = 3t + 4 en t = 5.",
+      "formula": "\\( f(t) = 3t + 4 \\)",
+      "options": ["\\(15\\)", "\\(3\\)", "\\(4\\)", "\\(8\\)"],
+      "correctAnswer": 1,
+      "explanation": "La derivada de f(t)=3t+4 es 3, por lo que la tasa de cambio es constante e igual a 3.",
+      "difficulty": "easy",
+      "procedure": [
+        "Derivar la función: f'(t)=3.",
+        "Reconocer que la tasa de cambio es 3 para cualquier t, en particular para t=5."
+      ]
+    },
+    {
+      "question": "Encuentra la tasa de cambio instantánea de f(x)=\\(\\sin(x)\\) en x=\\(\\pi/2\\).",
+      "formula": "\\( f(x) = \\sin(x) \\)",
+      "options": ["\\(0\\)", "\\(1\\)", "\\(-1\\)", "\\(\\frac{1}{2}\\)"],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\sin(x)\\) es \\(\\cos(x)\\); evaluando en \\(\\pi/2\\) se tiene \\(\\cos(\\pi/2)=0\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Derivar la función: f'(x)=\\(\\cos(x)\\).",
+        "Evaluar en x=\\(\\pi/2\\): f'(\\(\\pi/2\\))=\\(\\cos(\\pi/2)=0\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de f(x)=e^x en x=0.",
+      "formula": "\\( f(x) = e^x \\)",
+      "options": ["\\(e\\)", "\\(0\\)", "\\(1\\)", "\\(2\\)"],
+      "correctAnswer": 2,
+      "explanation": "La derivada de \\(e^x\\) es \\(e^x\\); en x=0 se tiene \\(e^0=1\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Derivar la función: f'(x)=e^x.",
+        "Evaluar en x=0: f'(0)=e^0=1."
+      ]
+    },
+    {
+      "question": "Determina la tasa de cambio de f(x)=\\(\\ln(x)\\) en x = 1.",
+      "formula": "\\( f(x) = \\ln(x) \\)",
+      "options": ["\\(0\\)", "\\(1\\)", "\\(\\frac{1}{2}\\)", "\\(2\\)"],
+      "correctAnswer": 1,
+      "explanation": "La derivada de \\(\\ln(x)\\) es \\(1/x\\); evaluando en x=1 se obtiene 1.",
+      "difficulty": "easy",
+      "procedure": [
+        "Derivar la función: f'(x)=\\(1/x\\).",
+        "Evaluar en x=1: f'(1)=1/1=1."
+      ]
+    },
+    {
+      "question": "Encuentra el valor de x que minimiza la función cuadrática f(x)=x^2 - 4x + 7.",
+      "formula": "\\( f(x) = x^2 - 4x + 7 \\)",
+      "options": ["\\(2\\)", "\\(4\\)", "\\(0\\)", "\\(1\\)"],
+      "correctAnswer": 0,
+      "explanation": "El mínimo se encuentra en el vértice de la parábola, en x = -(-4)/(2*1)=2.",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar los coeficientes: a=1, b=-4.",
+        "Calcular el vértice: x=-b/(2a)=4/2=2."
+      ]
+    },
+    {
+      "question": "Determina el máximo de la función f(x) = -2x^2 + 8x - 3.",
+      "formula": "\\( f(x) = -2x^2 + 8x - 3 \\)",
+      "options": ["\\(2\\)", "\\(4\\)", "\\(1\\)", "\\(3\\)"],
+      "correctAnswer": 0,
+      "explanation": "Para una parábola con coeficiente negativo, el vértice representa el máximo. Aquí, x = -8/(2*(-2)) = 2.",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar a=-2 y b=8.",
+        "Calcular el vértice: x=-b/(2a)= -8/(-4)=2.",
+        "Concluir que en x=2 se alcanza el máximo."
+      ]
+    },
+    {
+      "question": "Halla el valor mínimo de f(x)=(x-3)^2.",
+      "formula": "\\( f(x) = (x-3)^2 \\)",
+      "options": ["\\(3\\)", "\\(0\\)", "\\(6\\)", "\\(9\\)"],
+      "correctAnswer": 1,
+      "explanation": "Como se trata de un cuadrado, su valor mínimo es 0, alcanzado en x=3.",
+      "difficulty": "easy",
+      "procedure": [
+        "Reconocer que \\((x-3)^2\\) es siempre mayor o igual a 0.",
+        "Determinar que el mínimo ocurre cuando x=3, haciendo que la expresión sea 0."
+      ]
+    },
+    {
+      "question": "Determina el punto de inflexión de f(x)=x^3.",
+      "formula": "\\( f(x) = x^3 \\)",
+      "options": ["\\(0\\)", "\\(1\\)", "\\(-1\\)", "\\(3\\)"],
+      "correctAnswer": 0,
+      "explanation": "El punto de inflexión se da cuando la segunda derivada es cero. Para f(x)=x^3, f''(x)=6x, que se anula en x=0.",
+      "difficulty": "easy",
+      "procedure": [
+        "Calcular la primera derivada: f'(x)=3x^2.",
+        "Calcular la segunda derivada: f''(x)=6x.",
+        "Determinar que f''(0)=0, identificando x=0 como punto de inflexión."
+      ]
+    },
+    {
+      "question": "Optimiza la función f(x)= -x^2 + 6x para encontrar su máximo.",
+      "formula": "\\( f(x) = -x^2 + 6x \\)",
+      "options": ["\\(3\\)", "\\(6\\)", "\\(0\\)", "\\(2\\)"],
+      "correctAnswer": 0,
+      "explanation": "El vértice de la parábola se halla en x=-b/(2a)= -6/(2*(-1))=3, lo que corresponde al máximo.",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar a=-1 y b=6.",
+        "Calcular el vértice: x=6/2=3.",
+        "Concluir que el máximo se alcanza en x=3."
+      ]
+    },
+    {
+      "question": "Calcula la tasa de cambio de la función f(x)=\\(\\cos(x)\\) en x = 0.",
+      "formula": "\\( f(x) = \\cos(x) \\)",
+      "options": ["\\(-1\\)", "\\(0\\)", "\\(1\\)", "\\(\\sin(x)\\)"],
+      "correctAnswer": 1,
+      "explanation": "La derivada de \\(\\cos(x)\\) es \\(-\\sin(x)\\); en x=0, \\(\\sin(0)=0\\) y por lo tanto f'(0)=0.",
+      "difficulty": "easy",
+      "procedure": [
+        "Derivar la función: f'(x)=-\\(\\sin(x)\\).",
+        "Evaluar en x=0: -\\(\\sin(0)=0\\)."
+      ]
+    },
+    {
+      "question": "Determina la tasa de cambio instantánea de f(t)=5t^3 en t = 2.",
+      "formula": "\\( f(t) = 5t^3 \\)",
+      "options": ["\\(60\\)", "\\(40\\)", "\\(30\\)", "\\(20\\)"],
+      "correctAnswer": 0,
+      "explanation": "La derivada de 5t^3 es 15t^2; evaluando en t=2, f'(2)=15×4=60.",
+      "difficulty": "easy",
+      "procedure": [
+        "Derivar la función: f'(t)=15t^2.",
+        "Evaluar en t=2: 15×(2^2)=15×4=60."
+      ]
+    },
+    {
+      "question": "Encuentra el mínimo de f(x)=2(x-1)^2+3.",
+      "formula": "\\( f(x) = 2(x-1)^2+3 \\)",
+      "options": ["\\(1\\)", "\\(2\\)", "\\(3\\)", "\\(0\\)"],
+      "correctAnswer": 2,
+      "explanation": "El mínimo se obtiene cuando (x-1)^2 es cero, lo que ocurre en x=1, dando f(1)=3.",
+      "difficulty": "easy",
+      "procedure": [
+        "Determinar que (x-1)^2=0 cuando x=1.",
+        "Sustituir en la función: f(1)=2×0+3=3."
+      ]
+    },
+    {
+      "question": "Determina el máximo de la función f(x)= -x^2 + 4x + 1.",
+      "formula": "\\( f(x) = -x^2 + 4x + 1 \\)",
+      "options": ["\\(2\\)", "\\(3\\)", "\\(1\\)", "\\(4\\)"],
+      "correctAnswer": 0,
+      "explanation": "El máximo se alcanza en el vértice de la parábola. Con a=-1 y b=4, x=-4/(2×-1)=2.",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar los coeficientes: a=-1, b=4.",
+        "Calcular el vértice: x=4/2=2.",
+        "Concluir que en x=2 se obtiene el máximo."
+      ]
+    },
+    {
+      "question": "Encuentra el valor de x para el cual f(x)=x^2 - 10x + 25 es mínimo.",
+      "formula": "\\( f(x) = x^2 - 10x + 25 \\)",
+      "options": ["\\(5\\)", "\\(10\\)", "\\(0\\)", "\\(-5\\)"],
+      "correctAnswer": 0,
+      "explanation": "La función se puede reescribir como (x-5)^2, lo que indica que el mínimo ocurre en x=5.",
+      "difficulty": "easy",
+      "procedure": [
+        "Completar el cuadrado: f(x)=(x-5)^2.",
+        "Concluir que el mínimo se alcanza cuando x=5."
+      ]
+    },
+    {
+      "question": "Calcula la tasa de cambio de f(x)=\\(\\tan(x)\\) en x=\\(\\pi/4\\).",
+      "formula": "\\( f(x) = \\tan(x) \\)",
+      "options": ["\\(1\\)", "\\(0\\)", "\\(\\sqrt{2}\\)", "\\(2\\)"],
+      "correctAnswer": 3,
+      "explanation": "La derivada de \\(\\tan(x)\\) es \\(\\sec^2(x)\\); en x=\\(\\pi/4\\), \\(\\sec(\\pi/4)=\\sqrt{2}\\) y por lo tanto \\(\\sec^2(\\pi/4)=2\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Derivar la función: f'(x)=\\(\\sec^2(x)\\).",
+        "Evaluar en x=\\(\\pi/4\\): \\(\\sec^2(\\pi/4)=2\\)."
+      ]
+    },
+    {
+      "question": "Determina la tasa de cambio de f(x)=\\(\\sqrt{x}\\) en x = 9.",
+      "formula": "\\( f(x) = \\sqrt{x} \\)",
+      "options": [
+        "\\(\\frac{1}{6}\\)",
+        "\\(\\frac{1}{3}\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\sqrt{x}\\) es \\(1/(2\\sqrt{x})\\); en x=9 se tiene f'(9)=1/(2×3)=1/6.",
+      "difficulty": "easy",
+      "procedure": [
+        "Derivar la función: f'(x)=\\(1/(2\\sqrt{x})\\).",
+        "Evaluar en x=9: f'(9)=1/(2×3)=1/6."
+      ]
+    },
+    {
+      "question": "Calcula la tasa de cambio de f(x)=x^3 en x = -2.",
+      "formula": "\\( f(x) = x^3 \\)",
+      "options": ["\\(-12\\)", "\\(-6\\)", "\\(12\\)", "\\(6\\)"],
+      "correctAnswer": 2,
+      "explanation": "La derivada de x^3 es 3x^2; en x=-2 se obtiene f'(-2)=3×4=12.",
+      "difficulty": "easy",
+      "procedure": [
+        "Derivar la función: f'(x)=3x^2.",
+        "Evaluar en x=-2: f'(-2)=3×(-2)^2=12."
+      ]
+    },
+    {
+      "question": "Encuentra el máximo de f(x)= -3(x-2)^2+5.",
+      "formula": "\\( f(x) = -3(x-2)^2+5 \\)",
+      "options": ["\\(2\\)", "\\(5\\)", "\\(3\\)", "\\(0\\)"],
+      "correctAnswer": 1,
+      "explanation": "El máximo de la función se alcanza cuando (x-2)^2=0, es decir, en x=2, dando como valor máximo f(2)=5.",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar que el término cuadrático es cero cuando x=2.",
+        "Evaluar la función en x=2: f(2)=5."
+      ]
+    },
+    {
+      "question": "Determina el mínimo de f(x)=(x+4)^2.",
+      "formula": "\\( f(x) = (x+4)^2 \\)",
+      "options": ["\\(0\\)", "\\(-4\\)", "\\(4\\)", "\\(8\\)"],
+      "correctAnswer": 0,
+      "explanation": "El mínimo valor de un cuadrado es 0, alcanzado cuando x+4=0, es decir, x=-4.",
+      "difficulty": "easy",
+      "procedure": [
+        "Resolver la ecuación x+4=0 para encontrar el punto de mínimo.",
+        "Concluir que f(x)=0 en x=-4."
+      ]
+    },
+    {
+      "question": "Optimiza la función f(x)= -x^2 + 2x + 8 para encontrar su máximo.",
+      "formula": "\\( f(x) = -x^2 + 2x + 8 \\)",
+      "options": ["\\(1\\)", "\\(4\\)", "\\(8\\)", "\\(2\\)"],
+      "correctAnswer": 0,
+      "explanation": "El vértice se encuentra en x=-b/(2a)= -2/(2×-1)=1, lo que determina el máximo.",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar los coeficientes: a=-1 y b=2.",
+        "Calcular el vértice: x=1.",
+        "Concluir que el máximo se alcanza en x=1."
+      ]
+    },
+    {
+      "question": "Encuentra el punto de mínimo en f(x)=x^2+6x+9.",
+      "formula": "\\( f(x) = x^2+6x+9 \\)",
+      "options": ["\\(0\\)", "\\(-3\\)", "\\(3\\)", "\\(-6\\)"],
+      "correctAnswer": 1,
+      "explanation": "La función se puede reescribir como (x+3)^2, por lo que el mínimo se alcanza en x=-3, dando f(-3)=0.",
+      "difficulty": "easy",
+      "procedure": [
+        "Completar el cuadrado: f(x)=(x+3)^2.",
+        "Determinar que el mínimo se da cuando x=-3."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de f(x)=\\(\\ln(2x)\\) en x = 1.",
+      "formula": "\\( f(x) = \\ln(2x) \\)",
+      "options": [
+        "\\(\\frac{1}{2}\\)",
+        "\\(2\\)",
+        "\\(1\\)",
+        "\\(\\frac{1}{x}\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La derivada de ln(2x) es 1/x; evaluada en x=1 se obtiene 1.",
+      "difficulty": "easy",
+      "procedure": [
+        "Aplicar la regla de la derivada del logaritmo: f'(x)=1/x.",
+        "Evaluar en x=1: f'(1)=1."
+      ]
+    },
+    {
+      "question": "Determina la tasa de cambio de f(t)=t^2+4t en t = -2.",
+      "formula": "\\( f(t) = t^2+4t \\)",
+      "options": ["\\(-4\\)", "\\(0\\)", "\\(4\\)", "\\(-8\\)"],
+      "correctAnswer": 1,
+      "explanation": "La derivada es f'(t)=2t+4; en t=-2 se tiene f'(-2)=2(-2)+4=0.",
+      "difficulty": "easy",
+      "procedure": [
+        "Derivar la función: f'(t)=2t+4.",
+        "Evaluar en t=-2: f'(-2)=0."
+      ]
+    },
+    {
+      "question": "Halla el valor de x que maximiza la función f(x)= -2x^2+12x-16.",
+      "formula": "\\( f(x) = -2x^2+12x-16 \\)",
+      "options": ["\\(3\\)", "\\(4\\)", "\\(2\\)", "\\(6\\)"],
+      "correctAnswer": 0,
+      "explanation": "El vértice de la parábola se halla en x=-b/(2a)= -12/(2×-2)=3, que corresponde al máximo.",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar los coeficientes: a=-2, b=12.",
+        "Calcular el vértice: x=12/(4)=3.",
+        "Concluir que el máximo se alcanza en x=3."
+      ]
+    },
+    {
+      "question": "Determina el mínimo de f(x)= (x-5)^2+2.",
+      "formula": "\\( f(x) = (x-5)^2+2 \\)",
+      "options": ["\\(2\\)", "\\(5\\)", "\\(7\\)", "\\(0\\)"],
+      "correctAnswer": 0,
+      "explanation": "El mínimo valor es 2, alcanzado cuando (x-5)^2 es cero, es decir, en x=5.",
+      "difficulty": "easy",
+      "procedure": [
+        "Resolver (x-5)^2=0, lo que da x=5.",
+        "Evaluar la función: f(5)=2."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de f(x)=\\(e^{-x}\\) en x = 0.",
+      "formula": "\\( f(x) = e^{-x} \\)",
+      "options": ["\\(-1\\)", "\\(1\\)", "\\(0\\)", "\\(-e\\)"],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(e^{-x}\\) es \\(-e^{-x}\\); evaluando en x=0 se obtiene -1.",
+      "difficulty": "easy",
+      "procedure": [
+        "Derivar la función: f'(x)=-e^{-x}.",
+        "Evaluar en x=0: f'(0)=-e^0=-1."
+      ]
+    },
+    {
+      "question": "Encuentra el máximo de f(x)= -0.5x^2 + 3x -2.",
+      "formula": "\\( f(x) = -0.5x^2 + 3x -2 \\)",
+      "options": ["\\(3\\)", "\\(2\\)", "\\(1\\)", "\\(4\\)"],
+      "correctAnswer": 0,
+      "explanation": "El vértice se encuentra en x=-b/(2a)= -3/(2×-0.5)=3, lo que indica el máximo.",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar a=-0.5 y b=3.",
+        "Calcular el vértice: x=3.",
+        "Concluir que el máximo se alcanza en x=3."
+      ]
+    },
+    {
+      "question": "Determina la tasa de cambio de f(x)=\\(\\frac{1}{x}\\) en x = 2.",
+      "formula": "\\( f(x) = \\frac{1}{x} \\)",
+      "options": [
+        "\\(-\\frac{1}{4}\\)",
+        "\\(\\frac{1}{4}\\)",
+        "\\(-\\frac{1}{2}\\)",
+        "\\(\\frac{1}{2}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\frac{1}{x}\\) es \\(-\\frac{1}{x^2}\\); en x=2 se obtiene -1/4.",
+      "difficulty": "easy",
+      "procedure": [
+        "Derivar la función: f'(x)=-1/x^2.",
+        "Evaluar en x=2: f'(2)=-1/(2^2)=-1/4."
+      ]
+    },
+    {
+      "question": "Encuentra el mínimo de f(x)=x^2 - 8x + 16.",
+      "formula": "\\( f(x) = x^2 - 8x + 16 \\)",
+      "options": ["\\(0\\)", "\\(16\\)", "\\(4\\)", "\\(8\\)"],
+      "correctAnswer": 0,
+      "explanation": "La función se puede reescribir como \\((x-4)^2\\), cuyo mínimo es 0, alcanzado en x=4.",
+      "difficulty": "easy",
+      "procedure": [
+        "Completar el cuadrado: f(x)=(x-4)^2.",
+        "Concluir que el mínimo se alcanza en x=4 con f(4)=0."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de f(x)=\\(3x^2 - 2x + 1\\) en x=2.",
+      "formula": "\\( f(x)=3x^2 - 2x + 1 \\)",
+      "options": ["\\(10\\)", "\\(8\\)", "\\(12\\)", "\\(14\\)"],
+      "correctAnswer": 0,
+      "explanation": "La derivada de f(x)=3x^2 - 2x + 1 es f'(x)=6x-2. Evaluando en x=2: 6×2 - 2 = 10.",
+      "difficulty": "easy",
+      "procedure": [
+        "Derivar la función: f'(x)=6x-2.",
+        "Evaluar en x=2: f'(2)=6×2 - 2 = 10."
+      ]
+    },
+    {
+      "question": "Determina la tasa de cambio de f(t)=\\(4t^3 - t\\) en t=1.",
+      "formula": "\\( f(t)=4t^3 - t \\)",
+      "options": ["\\(11\\)", "\\(10\\)", "\\(12\\)", "\\(9\\)"],
+      "correctAnswer": 0,
+      "explanation": "La derivada es f'(t)=12t^2 - 1, por lo que en t=1 se obtiene 12-1=11.",
+      "difficulty": "easy",
+      "procedure": [
+        "Derivar la función: f'(t)=12t^2 - 1.",
+        "Evaluar en t=1: f'(1)=12×1 - 1 = 11."
+      ]
+    },
+    {
+      "question": "Maximiza la función f(x)=\\(-x^2 + 4x + 3\\).",
+      "formula": "\\( f(x)=-x^2 + 4x + 3 \\)",
+      "options": [
+        "x=2, valor=7",
+        "x=2, valor=3",
+        "x=-2, valor=-5",
+        "x=0, valor=3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El vértice de la parábola se halla en x=-b/(2a)= -4/(2×-1)=2 y f(2)= -4+8+3=7.",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar a=-1 y b=4.",
+        "Calcular el vértice: x=4/(2)=2.",
+        "Evaluar f(2)= -4 + 8 + 3 = 7."
+      ]
+    },
+    {
+      "question": "Minimiza la función f(x)=\\((x-5)^2+7\\).",
+      "formula": "\\( f(x)=(x-5)^2+7 \\)",
+      "options": [
+        "x=5, valor=7",
+        "x=0, valor=32",
+        "x=5, valor=0",
+        "x=7, valor=7"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El término cuadrático es mínimo cuando (x-5)=0, es decir, en x=5, dando f(5)=7.",
+      "difficulty": "easy",
+      "procedure": ["Resolver (x-5)=0 → x=5.", "Evaluar f(5)=0+7=7."]
+    },
+    {
+      "question": "Calcula la tasa de cambio de f(x)=\\(\\sqrt{x}\\) en x=16.",
+      "formula": "\\( f(x)=\\sqrt{x} \\)",
+      "options": [
+        "\\(\\frac{1}{8}\\)",
+        "\\(\\frac{1}{4}\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\sqrt{x}\\) es \\(\\frac{1}{2\\sqrt{x}}\\). En x=16, f'(16)=1/(2×4)=1/8.",
+      "difficulty": "easy",
+      "procedure": [
+        "Derivar: f'(x)=1/(2\\(\\sqrt{x}\\)).",
+        "Evaluar en x=16: f'(16)=1/(2×4)=1/8."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de f(x)=\\(\\ln(x^2)\\) en x=e.",
+      "formula": "\\( f(x)=\\ln(x^2) \\)",
+      "options": [
+        "\\(\\frac{2}{e}\\)",
+        "\\(\\frac{1}{e}\\)",
+        "\\(2e\\)",
+        "\\(e\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando propiedades logarítmicas, \\(\\ln(x^2)=2\\ln(x)\\). Su derivada es 2/x, y en x=e da 2/e.",
+      "difficulty": "easy",
+      "procedure": [
+        "Reescribir f(x)=2\\(\\ln(x)\\).",
+        "Derivar: f'(x)=2/x.",
+        "Evaluar en x=e: f'(e)=2/e."
+      ]
+    },
+    {
+      "question": "Maximiza la función f(x)=\\(-2(x-3)^2+8\\).",
+      "formula": "\\( f(x)=-2(x-3)^2+8 \\)",
+      "options": [
+        "x=3, valor=8",
+        "x=0, valor=-10",
+        "x=3, valor=-8",
+        "x=2, valor=6"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La forma de vértice indica que el máximo se obtiene en x=3, donde el término cuadrático es cero y f(3)=8.",
+      "difficulty": "easy",
+      "procedure": [
+        "Observar que el máximo se alcanza cuando (x-3)=0 → x=3.",
+        "Evaluar f(3)= -2×0+8=8."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de f(x)=\\(e^{2x}\\) en x=0.",
+      "formula": "\\( f(x)=e^{2x} \\)",
+      "options": ["\\(2\\)", "\\(1\\)", "\\(e^2\\)", "\\(0\\)"],
+      "correctAnswer": 0,
+      "explanation": "La derivada es f'(x)=2e^{2x}. En x=0, f'(0)=2e^0=2.",
+      "difficulty": "easy",
+      "procedure": ["Derivar: f'(x)=2e^{2x}.", "Evaluar en x=0: f'(0)=2×1=2."]
+    },
+    {
+      "question": "Determina la tasa de cambio de f(x)=\\(\\cos(x)\\) en x=\\(\\pi\\).",
+      "formula": "\\( f(x)=\\cos(x) \\)",
+      "options": ["\\(0\\)", "\\(-1\\)", "\\(1\\)", "\\(\\pi\\)"],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\cos(x)\\) es \\(-\\sin(x)\\). En x=\\(\\pi\\), \\(\\sin(\\pi)=0\\) y por lo tanto f'(\\(\\pi\\))=0.",
+      "difficulty": "easy",
+      "procedure": [
+        "Derivar: f'(x)=-\\(\\sin(x)\\).",
+        "Evaluar en x=\\(\\pi\\): -\\(\\sin(\\pi)\\)=0."
+      ]
+    },
+    {
+      "question": "Encuentra el mínimo de f(x)=\\(x^2+2x+1\\).",
+      "formula": "\\( f(x)=x^2+2x+1 \\)",
+      "options": [
+        "x=-1, valor=0",
+        "x=1, valor=4",
+        "x=0, valor=1",
+        "x=-1, valor=1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La función se puede reescribir como \\((x+1)^2\\), siendo mínima cuando x=-1, donde f(-1)=0.",
+      "difficulty": "easy",
+      "procedure": [
+        "Completar el cuadrado: f(x)=(x+1)^2.",
+        "El mínimo ocurre en x=-1: f(-1)=0."
+      ]
+    },
+    {
+      "question": "Encuentra el máximo de f(x)=\\(-3x^2+18x-24\\).",
+      "formula": "\\( f(x)=-3x^2+18x-24 \\)",
+      "options": [
+        "x=3, valor=3",
+        "x=2, valor=4",
+        "x=4, valor=2",
+        "x=3, valor=-3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El vértice se encuentra con x=-b/(2a)= -18/(2×-3)=3, y f(3)= -27+54-24=3.",
+      "difficulty": "easy",
+      "procedure": [
+        "Calcular x del vértice: x=18/6=3.",
+        "Evaluar f(3)= -3×9+18×3-24= -27+54-24=3."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de f(x)=\\(\\sin(2x)\\) en x=\\(\\pi/4\\).",
+      "formula": "\\( f(x)=\\sin(2x) \\)",
+      "options": ["\\(0\\)", "\\(2\\)", "\\(1\\)", "\\(\\sqrt{2}\\)"],
+      "correctAnswer": 0,
+      "explanation": "La derivada es f'(x)=2\\(\\cos(2x)\\). En x=\\(\\pi/4\\), \\(\\cos(\\pi/2)=0\\) por lo que f'(\\(\\pi/4\\))=0.",
+      "difficulty": "easy",
+      "procedure": [
+        "Derivar: f'(x)=2\\(\\cos(2x)\\).",
+        "Evaluar en x=\\(\\pi/4\\): \\(\\cos(\\pi/2)=0\\)."
+      ]
+    },
+    {
+      "question": "Determina la tasa de cambio de f(x)=\\(\\tan(x)\\) en x=0.",
+      "formula": "\\( f(x)=\\tan(x) \\)",
+      "options": ["\\(1\\)", "\\(0\\)", "\\(\\tan(0)\\)", "\\(2\\)"],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\tan(x)\\) es \\(\\sec^2(x)\\); en x=0, \\(\\sec(0)=1\\) y f'(0)=1.",
+      "difficulty": "easy",
+      "procedure": [
+        "Derivar: f'(x)=\\(\\sec^2(x)\\).",
+        "Evaluar en x=0: f'(0)=1."
+      ]
+    },
+    {
+      "question": "Optimiza la función f(x)=\\(-0.5x^2+ 5x -4\\) para encontrar su máximo.",
+      "formula": "\\( f(x)=-0.5x^2+ 5x -4 \\)",
+      "options": [
+        "x=5, valor=8.5",
+        "x=4, valor=6",
+        "x=0, valor=-4",
+        "x=6, valor=9"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El vértice se halla con x=-b/(2a)= -5/(2×-0.5)=5 y f(5)= -0.5×25+25-4=8.5.",
+      "difficulty": "easy",
+      "procedure": [
+        "Calcular el vértice: x=5.",
+        "Evaluar f(5)= -12.5+25-4=8.5."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de f(x)=\\(\\ln(5x)\\) en x=5.",
+      "formula": "\\( f(x)=\\ln(5x) \\)",
+      "options": [
+        "\\(\\frac{1}{5}\\)",
+        "\\(5\\)",
+        "\\(\\frac{1}{25}\\)",
+        "\\(5\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla de la cadena, la derivada de \\(\\ln(5x)\\) es 1/x, por lo que en x=5 se obtiene 1/5.",
+      "difficulty": "easy",
+      "procedure": ["Derivar: f'(x)=1/x.", "Evaluar en x=5: f'(5)=1/5."]
+    },
+    {
+      "question": "Minimiza la función f(x)=\\((2x-6)^2\\).",
+      "formula": "\\( f(x)=(2x-6)^2 \\)",
+      "options": [
+        "x=3, valor=0",
+        "x=2, valor=4",
+        "x=4, valor=4",
+        "x=0, valor=36"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El mínimo se alcanza cuando el interior del cuadrado es 0, es decir, cuando 2x-6=0, o x=3.",
+      "difficulty": "easy",
+      "procedure": ["Resolver 2x-6=0 → x=3.", "Evaluar f(3)=0."]
+    },
+    {
+      "question": "Determina la tasa de cambio de f(x)=\\(x^{1/3}\\) en x=8.",
+      "formula": "\\( f(x)=x^{1/3} \\)",
+      "options": [
+        "\\(\\frac{1}{12}\\)",
+        "\\(\\frac{1}{6}\\)",
+        "\\(\\frac{1}{8}\\)",
+        "\\(\\frac{1}{3}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(x^{1/3}\\) es \\(\\frac{1}{3}x^{-2/3}\\). En x=8, se tiene \\(\\frac{1}{3}\\times8^{-2/3}=\\frac{1}{3}\\times\\frac{1}{4}=\\frac{1}{12}\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Derivar: f'(x)=\\(\\frac{1}{3}x^{-2/3}\\).",
+        "Evaluar en x=8: f'(8)=\\(\\frac{1}{3}\\times\\frac{1}{4}=\\frac{1}{12}\\)."
+      ]
+    },
+    {
+      "question": "Encuentra el máximo de f(x)=\\(-x^2+ 10x -16\\).",
+      "formula": "\\( f(x)=-x^2+ 10x -16 \\)",
+      "options": [
+        "x=5, valor=9",
+        "x=4, valor=0",
+        "x=6, valor=8",
+        "x=5, valor=8"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El vértice se encuentra en x=-b/(2a)= -10/(2×-1)=5 y f(5)= -25+50-16=9.",
+      "difficulty": "easy",
+      "procedure": ["Calcular el vértice: x=5.", "Evaluar f(5)= -25+50-16=9."]
+    },
+    {
+      "question": "Calcula la derivada de f(x)=\\(\\frac{1}{x}\\) en x=4.",
+      "formula": "\\( f(x)=\\frac{1}{x} \\)",
+      "options": [
+        "\\(-\\frac{1}{16}\\)",
+        "\\(\\frac{1}{16}\\)",
+        "\\(-4\\)",
+        "\\(4\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\frac{1}{x}\\) es \\(-\\frac{1}{x^2}\\); en x=4 se obtiene -1/16.",
+      "difficulty": "easy",
+      "procedure": ["Derivar: f'(x)=-1/x^2.", "Evaluar en x=4: f'(4)=-1/16."]
+    },
+    {
+      "question": "Determina la tasa de cambio de f(x)=\\(\\sqrt{2x+1}\\) en x=4.",
+      "formula": "\\( f(x)=\\sqrt{2x+1} \\)",
+      "options": [
+        "\\(\\frac{1}{3}\\)",
+        "\\(\\frac{1}{6}\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Derivando \\(\\sqrt{2x+1}\\) se obtiene f'(x)=\\(\\frac{1}{\\sqrt{2x+1}}\\) y en x=4, \\(\\sqrt{9}=3\\), por lo que f'(4)=1/3.",
+      "difficulty": "easy",
+      "procedure": [
+        "Derivar: f'(x)=1/\\(\\sqrt{2x+1}\\).",
+        "Evaluar en x=4: f'(4)=1/3."
+      ]
+    },
+    {
+      "question": "Optimiza la función f(x)=\\(-x^2+ 8x -10\\) para encontrar su máximo.",
+      "formula": "\\( f(x)=-x^2+ 8x -10 \\)",
+      "options": [
+        "x=4, valor=6",
+        "x=3, valor=5",
+        "x=5, valor=7",
+        "x=0, valor=-10"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El vértice se encuentra en x=-b/(2a)= -8/(2×-1)=4. Evaluando: f(4)= -16+32-10=6.",
+      "difficulty": "easy",
+      "procedure": ["Calcular el vértice: x=4.", "Evaluar f(4)= -16+32-10=6."]
+    },
+    {
+      "question": "Calcula la derivada de f(x)=\\(e^{-2x}\\) en x=1.",
+      "formula": "\\( f(x)=e^{-2x} \\)",
+      "options": [
+        "\\(-2e^{-2}\\)",
+        "\\(2e^{-2}\\)",
+        "\\(-e^{-2}\\)",
+        "\\(e^{-2}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada es f'(x)= -2e^{-2x}. En x=1, f'(1)= -2e^{-2}.",
+      "difficulty": "easy",
+      "procedure": [
+        "Derivar: f'(x)=-2e^{-2x}.",
+        "Evaluar en x=1: f'(1)=-2e^{-2}."
+      ]
+    },
+    {
+      "question": "Minimiza la función f(x)=\\((x+2)^2+3\\).",
+      "formula": "\\( f(x)=(x+2)^2+3 \\)",
+      "options": [
+        "x=-2, valor=3",
+        "x=2, valor=11",
+        "x=0, valor=7",
+        "x=-2, valor=0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El mínimo se alcanza cuando (x+2)=0, es decir, en x=-2. Así, f(-2)=0+3=3.",
+      "difficulty": "easy",
+      "procedure": ["Resolver x+2=0 → x=-2.", "Evaluar f(-2)=3."]
+    },
+    {
+      "question": "Determina la tasa de cambio de f(x)=\\(\\ln(x+1)\\) en x=2.",
+      "formula": "\\( f(x)=\\ln(x+1) \\)",
+      "options": [
+        "\\(\\frac{1}{3}\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(1\\)",
+        "\\(\\frac{1}{4}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\ln(x+1)\\) es 1/(x+1). En x=2 se tiene f'(2)=1/3.",
+      "difficulty": "easy",
+      "procedure": ["Derivar: f'(x)=1/(x+1).", "Evaluar en x=2: f'(2)=1/3."]
+    },
+    {
+      "question": "Maximiza la función f(x)=\\(-2x^2+12x-18\\).",
+      "formula": "\\( f(x)=-2x^2+12x-18 \\)",
+      "options": [
+        "x=3, valor=0",
+        "x=2, valor=2",
+        "x=4, valor=2",
+        "x=3, valor=-1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El vértice se halla en x=-b/(2a)= -12/(2×-2)=3 y f(3)= -18+36-18=0.",
+      "difficulty": "easy",
+      "procedure": ["Calcular el vértice: x=3.", "Evaluar f(3)= -18+36-18=0."]
+    },
+    {
+      "question": "Calcula la derivada de f(x)=\\(\\cos(3x)\\) en x=0.",
+      "formula": "\\( f(x)=\\cos(3x) \\)",
+      "options": ["\\(0\\)", "\\(-3\\)", "\\(3\\)", "\\(\\cos(0)\\)"],
+      "correctAnswer": 0,
+      "explanation": "La derivada es f'(x)= -3\\(\\sin(3x)\\). En x=0, \\(\\sin(0)=0\\), por lo que f'(0)=0.",
+      "difficulty": "easy",
+      "procedure": [
+        "Derivar: f'(x)=-3\\(\\sin(3x)\\).",
+        "Evaluar en x=0: f'(0)=0."
+      ]
+    },
+    {
+      "question": "Determina la tasa de cambio de f(x)=\\(x^3\\) en x=1.",
+      "formula": "\\( f(x)=x^3 \\)",
+      "options": ["\\(3\\)", "\\(1\\)", "\\(2\\)", "\\(0\\)"],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(x^3\\) es 3x^2; en x=1, f'(1)=3.",
+      "difficulty": "easy",
+      "procedure": ["Derivar: f'(x)=3x^2.", "Evaluar en x=1: f'(1)=3."]
+    },
+    {
+      "question": "Encuentra el mínimo de f(x)=\\(4(x-2)^2+1\\).",
+      "formula": "\\( f(x)=4(x-2)^2+1 \\)",
+      "options": [
+        "x=2, valor=1",
+        "x=0, valor=17",
+        "x=2, valor=4",
+        "x=1, valor=5"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El mínimo se obtiene cuando (x-2)=0, es decir, en x=2, y f(2)=1.",
+      "difficulty": "easy",
+      "procedure": ["Resolver (x-2)=0 → x=2.", "Evaluar f(2)=1."]
+    },
+    {
+      "question": "Calcula la derivada de f(x)=\\(\\tanh(x)\\) en x=0.",
+      "formula": "\\( f(x)=\\tanh(x) \\)",
+      "options": ["\\(1\\)", "\\(0\\)", "\\(\\tanh(0)\\)", "\\(2\\)"],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\tanh(x)\\) es \\(\\operatorname{sech}^2(x)\\); en x=0, \\(\\operatorname{sech}(0)=1\\) y f'(0)=1.",
+      "difficulty": "easy",
+      "procedure": [
+        "Derivar: f'(x)=\\(\\operatorname{sech}^2(x)\\).",
+        "Evaluar en x=0: f'(0)=1."
+      ]
+    },
+    {
+      "question": "Determina la tasa de cambio de f(x)=\\(2x^2-3x+1\\) en x=3.",
+      "formula": "\\( f(x)=2x^2-3x+1 \\)",
+      "options": ["\\(9\\)", "\\(7\\)", "\\(6\\)", "\\(12\\)"],
+      "correctAnswer": 0,
+      "explanation": "La derivada es f'(x)=4x-3; en x=3 se tiene f'(3)=4×3-3=9.",
+      "difficulty": "easy",
+      "procedure": ["Derivar: f'(x)=4x-3.", "Evaluar en x=3: f'(3)=12-3=9."]
+    },
+    {
+      "question": "Calcula la derivada de f(x)=\\(x^3+2x\\) en x=2.",
+      "formula": "\\( f(x)=x^3+2x \\)",
+      "options": ["\\(14\\)", "\\(12\\)", "\\(16\\)", "\\(10\\)"],
+      "correctAnswer": 0,
+      "explanation": "La derivada de f(x)=x^3+2x es f'(x)=3x^2+2. Evaluando en x=2: 3×(2)^2+2=12+2=14.",
+      "difficulty": "easy",
+      "procedure": [
+        "Derivar f(x)=x^3+2x para obtener f'(x)=3x^2+2.",
+        "Sustituir x=2: f'(2)=3×4+2=14."
+      ]
+    },
+    {
+      "question": "Determina la tasa de cambio de f(t)=\\(t^2-4t+6\\) en t=3.",
+      "formula": "\\( f(t)=t^2-4t+6 \\)",
+      "options": ["\\(2\\)", "\\(4\\)", "\\(-2\\)", "\\(6\\)"],
+      "correctAnswer": 0,
+      "explanation": "La derivada es f'(t)=2t-4. Evaluando en t=3: 2×3-4=6-4=2.",
+      "difficulty": "easy",
+      "procedure": ["Derivar: f'(t)=2t-4.", "Evaluar en t=3: f'(3)=2×3-4=2."]
+    },
+    {
+      "question": "Encuentra el máximo de f(x)=\\(-x^2+6x-5\\).",
+      "formula": "\\( f(x)=-x^2+6x-5 \\)",
+      "options": [
+        "\\(x=3, valor=4\\)",
+        "\\(x=3, valor=5\\)",
+        "\\(x=2, valor=3\\)",
+        "\\(x=4, valor=3\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El vértice de la parábola se encuentra en x=-b/(2a)= -6/(2×-1)=3. Al evaluar f(3): -9+18-5=4.",
+      "difficulty": "easy",
+      "procedure": ["Calcular el vértice: x=3.", "Evaluar f(3)= -9+18-5=4."]
+    },
+    {
+      "question": "Minimiza la función f(x)=\\((x-4)^2+2\\).",
+      "formula": "\\( f(x)=(x-4)^2+2 \\)",
+      "options": [
+        "\\(x=4, valor=2\\)",
+        "\\(x=4, valor=0\\)",
+        "\\(x=2, valor=2\\)",
+        "\\(x=2, valor=4\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El mínimo se alcanza cuando el término cuadrático es 0, es decir, en x=4. Así, f(4)=0+2=2.",
+      "difficulty": "easy",
+      "procedure": ["Resolver (x-4)=0, obteniendo x=4.", "Evaluar f(4)=0+2=2."]
+    },
+    {
+      "question": "Calcula la derivada de f(x)=\\(2\\sin(x)\\) en x=\\(\\pi/2\\).",
+      "formula": "\\( f(x)=2\\sin(x) \\)",
+      "options": ["\\(0\\)", "\\(2\\)", "\\(-2\\)", "\\(1\\)"],
+      "correctAnswer": 0,
+      "explanation": "La derivada es f'(x)=2\\cos(x). En x=\\(\\pi/2\\), \\(\\cos(\\pi/2)=0\\) y por lo tanto f'(\\(\\pi/2\\))=0.",
+      "difficulty": "easy",
+      "procedure": [
+        "Derivar: f'(x)=2\\cos(x).",
+        "Evaluar en x=\\(\\pi/2\\): 2×0=0."
+      ]
+    },
+    {
+      "question": "Determina la tasa de cambio de f(x)=\\(\\cos(x)\\) en x=0.",
+      "formula": "\\( f(x)=\\cos(x) \\)",
+      "options": ["\\(0\\)", "\\(1\\)", "\\(-1\\)", "\\(0.5\\)"],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\cos(x)\\) es \\(-\\sin(x)\\). En x=0, \\(\\sin(0)=0\\).",
+      "difficulty": "easy",
+      "procedure": ["Derivar: f'(x)=-\\sin(x).", "Evaluar en x=0: -\\sin(0)=0."]
+    },
+    {
+      "question": "Optimiza la función f(x)=\\(-3x^2+12x-7\\).",
+      "formula": "\\( f(x)=-3x^2+12x-7 \\)",
+      "options": [
+        "\\(x=2, valor=5\\)",
+        "\\(x=2, valor=7\\)",
+        "\\(x=3, valor=2\\)",
+        "\\(x=1, valor=2\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El vértice se obtiene en x=-b/(2a)= -12/(2×-3)=2. Evaluando f(2): -12+24-7=5.",
+      "difficulty": "easy",
+      "procedure": [
+        "Calcular el vértice: x=2.",
+        "Evaluar f(2)= -3×(2)^2+12×2-7= -12+24-7=5."
+      ]
+    },
+    {
+      "question": "Encuentra el mínimo de f(x)=\\(x^2-2x+3\\).",
+      "formula": "\\( f(x)=x^2-2x+3 \\)",
+      "options": [
+        "\\(x=1, valor=2\\)",
+        "\\(x=1, valor=3\\)",
+        "\\(x=0, valor=3\\)",
+        "\\(x=2, valor=3\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Completando el cuadrado: f(x)=(x-1)^2+2. El mínimo se alcanza en x=1 con valor 2.",
+      "difficulty": "easy",
+      "procedure": [
+        "Reescribir f(x) como (x-1)^2+2.",
+        "Concluir que el mínimo es en x=1 y f(1)=2."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de f(x)=\\(\\ln(x)\\) en x=3.",
+      "formula": "\\( f(x)=\\ln(x) \\)",
+      "options": [
+        "\\(\\frac{1}{3}\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(3\\)",
+        "\\(\\ln(3)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\ln(x)\\) es \\(1/x\\); evaluando en x=3 se obtiene 1/3.",
+      "difficulty": "easy",
+      "procedure": ["Derivar: f'(x)=1/x.", "Evaluar en x=3: f'(3)=1/3."]
+    },
+    {
+      "question": "Determina la tasa de cambio de f(x)=\\(e^x\\) en x=1.",
+      "formula": "\\( f(x)=e^x \\)",
+      "options": ["\\(e\\)", "\\(1\\)", "\\(e-1\\)", "\\(2\\)"],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(e^x\\) es \\(e^x\\); evaluando en x=1 se obtiene \\(e\\).",
+      "difficulty": "easy",
+      "procedure": ["Derivar: f'(x)=e^x.", "Evaluar en x=1: f'(1)=e."]
+    },
+    {
+      "question": "Encuentra el máximo de f(x)=\\(-2(x-1)^2+10\\).",
+      "formula": "\\( f(x)=-2(x-1)^2+10 \\)",
+      "options": [
+        "\\(x=1, valor=10\\)",
+        "\\(x=1, valor=0\\)",
+        "\\(x=2, valor=8\\)",
+        "\\(x=0, valor=8\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El máximo se alcanza en el vértice, cuando (x-1)=0, es decir, x=1. Entonces, f(1)=10.",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar que el máximo ocurre cuando (x-1)^2=0 → x=1.",
+        "Evaluar f(1)=10."
+      ]
+    },
+    {
+      "question": "Encuentra el mínimo de f(x)=\\((x+3)^2+4\\).",
+      "formula": "\\( f(x)=(x+3)^2+4 \\)",
+      "options": [
+        "\\(x=-3, valor=4\\)",
+        "\\(x=3, valor=4\\)",
+        "\\(x=-3, valor=0\\)",
+        "\\(x=0, valor=4\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El término cuadrático es mínimo en x=-3, donde (x+3)^2=0, dando f(-3)=4.",
+      "difficulty": "easy",
+      "procedure": [
+        "Resolver (x+3)=0 para obtener x=-3.",
+        "Evaluar f(-3)=0+4=4."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de f(x)=\\(e^{-x}\\) en x=2.",
+      "formula": "\\( f(x)=e^{-x} \\)",
+      "options": [
+        "\\(-e^{-2}\\)",
+        "\\(e^{-2}\\)",
+        "\\(-2e^{-2}\\)",
+        "\\(2e^{-2}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(e^{-x}\\) es \\(-e^{-x}\\); evaluando en x=2 se obtiene \\(-e^{-2}\\).",
+      "difficulty": "easy",
+      "procedure": ["Derivar: f'(x)=-e^{-x}.", "Evaluar en x=2: f'(2)=-e^{-2}."]
+    },
+    {
+      "question": "Determina la tasa de cambio de f(x)=\\(\\ln(3x)\\) en x=3.",
+      "formula": "\\( f(x)=\\ln(3x) \\)",
+      "options": [
+        "\\(\\frac{1}{3}\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(\\ln(3)\\)",
+        "\\(3\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\ln(3x)\\) es \\(1/x\\) (aplicando la regla de la cadena se simplifica a 1/x). En x=3, f'(3)=1/3.",
+      "difficulty": "easy",
+      "procedure": ["Derivar: f'(x)=1/x.", "Evaluar en x=3: f'(3)=1/3."]
+    },
+    {
+      "question": "Optimiza la función f(x)=\\(-x^2+5x+2\\).",
+      "formula": "\\( f(x)=-x^2+5x+2 \\)",
+      "options": [
+        "\\(x=2.5, valor=8.25\\)",
+        "\\(x=2.5, valor=7\\)",
+        "\\(x=3, valor=8\\)",
+        "\\(x=2, valor=8\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El vértice se halla en x=-b/(2a)= -5/(2×-1)=2.5. Al evaluar f(2.5)= -6.25+12.5+2=8.25.",
+      "difficulty": "easy",
+      "procedure": [
+        "Calcular el vértice: x=2.5.",
+        "Evaluar f(2.5)= -2.5^2+5×2.5+2=8.25."
+      ]
+    },
+    {
+      "question": "Encuentra el máximo de f(x)=\\(-0.5x^2+4x-1\\).",
+      "formula": "\\( f(x)=-0.5x^2+4x-1 \\)",
+      "options": [
+        "\\(x=4, valor=7\\)",
+        "\\(x=2, valor=3\\)",
+        "\\(x=4, valor=8\\)",
+        "\\(x=3, valor=6\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El vértice se calcula como x=-b/(2a)= -4/(2×-0.5)=4 y f(4)= -8+16-1=7.",
+      "difficulty": "easy",
+      "procedure": [
+        "Calcular el vértice: x=4.",
+        "Evaluar f(4)= -0.5×16+16-1=7."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de f(x)=\\(\\sin(x)\\) en x=\\(\\pi/6\\).",
+      "formula": "\\( f(x)=\\sin(x) \\)",
+      "options": [
+        "\\(\\frac{\\sqrt{3}}{2}\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(\\sin(\\pi/6)\\)",
+        "\\(0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\sin(x)\\) es \\(\\cos(x)\\); en x=\\(\\pi/6\\), \\(\\cos(\\pi/6)=\\frac{\\sqrt{3}}{2}\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Derivar: f'(x)=\\cos(x).",
+        "Evaluar en x=\\(\\pi/6\\): \\(\\cos(\\pi/6)=\\frac{\\sqrt{3}}{2}\\)."
+      ]
+    },
+    {
+      "question": "Determina la tasa de cambio de f(x)=\\(x^{2/3}\\) en x=8.",
+      "formula": "\\( f(x)=x^{2/3} \\)",
+      "options": [
+        "\\(\\frac{1}{3}\\)",
+        "\\(\\frac{2}{3}\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(\\frac{1}{4}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(x^{2/3}\\) es \\(\\frac{2}{3}x^{-1/3}\\). En x=8, la raíz cúbica de 8 es 2, luego f'(8)=\\(\\frac{2}{3}\\times\\frac{1}{2}=\\frac{1}{3}\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Derivar: f'(x)=\\(\\frac{2}{3}x^{-1/3}\\).",
+        "Evaluar en x=8: f'(8)=\\(\\frac{2}{3}\\times\\frac{1}{2}=\\frac{1}{3}\\)."
+      ]
+    },
+    {
+      "question": "Optimiza la función f(x)=\\(-4x^2+16x-15\\).",
+      "formula": "\\( f(x)=-4x^2+16x-15 \\)",
+      "options": [
+        "\\(x=2, valor=1\\)",
+        "\\(x=2, valor=2\\)",
+        "\\(x=3, valor=1\\)",
+        "\\(x=1, valor=1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El vértice se halla en x=-b/(2a)= -16/(2×-4)=2. Al evaluar f(2)= -16+32-15=1.",
+      "difficulty": "easy",
+      "procedure": [
+        "Calcular el vértice: x=2.",
+        "Evaluar f(2)= -4×(2)^2+16×2-15=1."
+      ]
+    },
+    {
+      "question": "Encuentra el mínimo de f(x)=\\((x-6)^2\\).",
+      "formula": "\\( f(x)=(x-6)^2 \\)",
+      "options": [
+        "\\(x=6, valor=0\\)",
+        "\\(x=0, valor=36\\)",
+        "\\(x=6, valor=6\\)",
+        "\\(x=3, valor=9\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El mínimo de una función cuadrática en forma de cuadrado es 0, alcanzado cuando x-6=0, es decir, en x=6.",
+      "difficulty": "easy",
+      "procedure": ["Resolver x-6=0, obteniendo x=6.", "Evaluar f(6)=0."]
+    },
+    {
+      "question": "Calcula la derivada de f(x)=\\(\\sqrt{3x+1}\\) en x=3.",
+      "formula": "\\( f(x)=\\sqrt{3x+1} \\)",
+      "options": [
+        "\\(\\frac{3}{2\\sqrt{10}}\\)",
+        "\\(\\frac{3}{\\sqrt{10}}\\)",
+        "\\(\\frac{1}{2\\sqrt{10}}\\)",
+        "\\(\\frac{3}{2\\sqrt{3}}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\sqrt{3x+1}\\) es \\(\\frac{3}{2\\sqrt{3x+1}}\\). En x=3, \\(3x+1=10\\), por lo que f'(3)=\\(\\frac{3}{2\\sqrt{10}}\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Derivar: f'(x)=\\(\\frac{3}{2\\sqrt{3x+1}}\\).",
+        "Evaluar en x=3: f'(3)=\\(\\frac{3}{2\\sqrt{10}}\\)."
+      ]
+    },
+    {
+      "question": "Determina la tasa de cambio de f(x)=\\(2\\ln(x)\\) en x=4.",
+      "formula": "\\( f(x)=2\\ln(x) \\)",
+      "options": ["\\(0.5\\)", "\\(2\\)", "\\(0.25\\)", "\\(1\\)"],
+      "correctAnswer": 0,
+      "explanation": "La derivada de f(x)=2 ln(x) es f'(x)=2/x. En x=4, f'(4)=2/4=0.5.",
+      "difficulty": "easy",
+      "procedure": ["Derivar: f'(x)=2/x.", "Evaluar en x=4: f'(4)=0.5."]
+    },
+    {
+      "question": "Optimiza la función f(x)=\\(-0.25x^2+3x-2\\).",
+      "formula": "\\( f(x)=-0.25x^2+3x-2 \\)",
+      "options": [
+        "\\(x=6, valor=7\\)",
+        "\\(x=6, valor=6\\)",
+        "\\(x=5, valor=7\\)",
+        "\\(x=4, valor=5\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El vértice se calcula como x=-b/(2a)= -3/(2×-0.25)=6. Evaluando f(6)= -9+18-2=7.",
+      "difficulty": "easy",
+      "procedure": [
+        "Calcular el vértice: x=6.",
+        "Evaluar f(6)= -0.25×36+18-2=7."
+      ]
+    },
+    {
+      "question": "Encuentra el máximo de f(x)=\\(-x^2+8x-12\\).",
+      "formula": "\\( f(x)=-x^2+8x-12 \\)",
+      "options": [
+        "\\(x=4, valor=4\\)",
+        "\\(x=4, valor=0\\)",
+        "\\(x=3, valor=5\\)",
+        "\\(x=5, valor=3\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El vértice se obtiene en x=8/2=4. Evaluando f(4)= -16+32-12=4.",
+      "difficulty": "easy",
+      "procedure": ["Determinar el vértice: x=4.", "Evaluar f(4)=4."]
+    },
+    {
+      "question": "Calcula la derivada de f(x)=\\(\\cos(2x)\\) en x=0.",
+      "formula": "\\( f(x)=\\cos(2x) \\)",
+      "options": ["\\(0\\)", "\\(-2\\)", "\\(2\\)", "\\(\\cos(0)\\)"],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\cos(2x)\\) es \\(-2\\sin(2x)\\); en x=0, \\(\\sin(0)=0\\).",
+      "difficulty": "easy",
+      "procedure": ["Derivar: f'(x)=-2\\sin(2x).", "Evaluar en x=0: f'(0)=0."]
+    },
+    {
+      "question": "Determina la tasa de cambio de f(x)=\\(e^{0.5x}\\) en x=2.",
+      "formula": "\\( f(x)=e^{0.5x} \\)",
+      "options": ["\\(0.5e\\)", "\\(e\\)", "\\(0.5\\)", "\\(1\\)"],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(e^{0.5x}\\) es 0.5e^{0.5x}. En x=2, f'(2)=0.5e^{1}=0.5e.",
+      "difficulty": "easy",
+      "procedure": [
+        "Derivar: f'(x)=0.5e^{0.5x}.",
+        "Evaluar en x=2: f'(2)=0.5e."
+      ]
+    },
+    {
+      "question": "Optimiza la función f(x)=\\(-3(x-4)^2+7\\).",
+      "formula": "\\( f(x)=-3(x-4)^2+7 \\)",
+      "options": [
+        "\\(x=4, valor=7\\)",
+        "\\(x=4, valor=0\\)",
+        "\\(x=3, valor=7\\)",
+        "\\(x=5, valor=7\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La función alcanza su máximo cuando el término cuadrático es 0, es decir, en x=4, dando f(4)=7.",
+      "difficulty": "easy",
+      "procedure": ["Resolver (x-4)=0 para obtener x=4.", "Evaluar f(4)=7."]
+    },
+    {
+      "question": "Encuentra el mínimo de f(x)=\\((x+5)^2+9\\).",
+      "formula": "\\( f(x)=(x+5)^2+9 \\)",
+      "options": [
+        "\\(x=-5, valor=9\\)",
+        "\\(x=5, valor=9\\)",
+        "\\(x=-5, valor=0\\)",
+        "\\(x=0, valor=9\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El mínimo ocurre cuando (x+5)^2=0, es decir, en x=-5, obteniendo f(-5)=9.",
+      "difficulty": "easy",
+      "procedure": [
+        "Resolver x+5=0 para encontrar x=-5.",
+        "Evaluar f(-5)=0+9=9."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de f(x)=\\(\\ln(1+x^2)\\) en x=1.",
+      "formula": "\\( f(x)=\\ln(1+x^2) \\)",
+      "options": ["\\(1\\)", "\\(\\frac{1}{2}\\)", "\\(2\\)", "\\(\\ln(2)\\)"],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\ln(1+x^2)\\) es \\(\\frac{2x}{1+x^2}\\). En x=1, f'(1)=\\(\\frac{2}{2}=1\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Derivar: f'(x)=\\(\\frac{2x}{1+x^2}\\).",
+        "Evaluar en x=1: f'(1)=1."
+      ]
+    },
+    {
+      "question": "Determina la tasa de cambio de f(x)=\\(\\sin^2(x)\\) en x=\\(\\pi/4\\).",
+      "formula": "\\( f(x)=\\sin^2(x) \\)",
+      "options": ["\\(1\\)", "\\(0\\)", "\\(\\sin(\\pi/4)\\)", "\\(2\\)"],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\sin^2(x)\\) es \\(2\\sin(x)\\cos(x)=\\sin(2x)\\). En x=\\(\\pi/4\\), \\(\\sin(\\pi/2)=1\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Derivar: f'(x)=2\\sin(x)\\cos(x)=\\sin(2x).",
+        "Evaluar en x=\\(\\pi/4\\): \\(\\sin(\\pi/2)=1\\)."
+      ]
+    }
+  ]
+}

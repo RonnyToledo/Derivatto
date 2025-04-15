@@ -1,0 +1,1163 @@
+{
+  "vectores_introduccion_media": [
+    {
+      "question": "Calcula la magnitud del vector \\(\\vec{v} = (2, -3)\\).",
+      "formula": "\\(\\vec{v} = (2,-3)\\)",
+      "options": ["\\(\\sqrt{13}\\)", "\\(5\\)", "\\(3\\)", "\\(4\\)"],
+      "correctAnswer": 0,
+      "explanation": "La magnitud se calcula como \\(\\sqrt{2^2+(-3)^2}=\\sqrt{4+9}=\\sqrt{13}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Elevar al cuadrado cada componente: \\(2^2=4\\) y \\((-3)^2=9\\).",
+        "Sumar: \\(4+9=13\\).",
+        "Extraer la raíz: \\(\\sqrt{13}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la magnitud del vector \\(\\vec{v} = (-5, 12)\\).",
+      "formula": "\\(\\vec{v} = (-5,12)\\)",
+      "options": ["\\(13\\)", "\\(12\\)", "\\(14\\)", "\\(15\\)"],
+      "correctAnswer": 0,
+      "explanation": "Se obtiene \\(\\sqrt{(-5)^2+12^2}=\\sqrt{25+144}=\\sqrt{169}=13\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Elevar cada componente: \\((-5)^2=25\\) y \\(12^2=144\\).",
+        "Sumar: \\(25+144=169\\).",
+        "Extraer la raíz: \\(\\sqrt{169}=13\\)."
+      ]
+    },
+    {
+      "question": "Encuentra el vector unitario del vector \\(\\vec{v} = (3,4)\\).",
+      "formula": "\\(\\vec{v} = (3,4)\\)",
+      "options": [
+        "\\(\\left(\\frac{3}{5}, \\frac{4}{5}\\right)\\)",
+        "\\((3,4)\\)",
+        "\\(\\left(\\frac{5}{3}, \\frac{5}{4}\\right)\\)",
+        "\\((0,0)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La magnitud de \\(\\vec{v}\\) es \\(5\\) y el vector unitario es \\(\\left(\\frac{3}{5}, \\frac{4}{5}\\right)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular la magnitud: \\(\\sqrt{3^2+4^2}=5\\).",
+        "Dividir cada componente entre \\(5\\)."
+      ]
+    },
+    {
+      "question": "Calcula la magnitud del vector \\(\\vec{v} = (1,0,0)\\).",
+      "formula": "\\(\\vec{v} = (1,0,0)\\)",
+      "options": ["\\(1\\)", "\\(0\\)", "\\(2\\)", "\\(-1\\)"],
+      "correctAnswer": 0,
+      "explanation": "La magnitud es \\(\\sqrt{1^2+0^2+0^2}=1\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Elevar al cuadrado cada componente: \\(1,0,0\\).",
+        "Sumar y extraer la raíz: \\(\\sqrt{1}=1\\)."
+      ]
+    },
+    {
+      "question": "Calcula la magnitud del vector \\(\\vec{v} = (0,-4,3)\\).",
+      "formula": "\\(\\vec{v} = (0,-4,3)\\)",
+      "options": ["\\(5\\)", "\\(4\\)", "\\(3\\)", "\\(6\\)"],
+      "correctAnswer": 0,
+      "explanation": "La magnitud es \\(\\sqrt{0^2+(-4)^2+3^2}=\\sqrt{0+16+9}=\\sqrt{25}=5\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Elevar al cuadrado: \\(0, 16, 9\\).",
+        "Sumar y extraer la raíz: \\(\\sqrt{25}=5\\)."
+      ]
+    },
+    {
+      "question": "Calcula la suma de \\(\\vec{a} = (1,2,3)\\) y \\(\\vec{b} = (4,-1,2)\\).",
+      "formula": "\\(\\vec{a} = (1,2,3), \\; \\vec{b} = (4,-1,2)\\)",
+      "options": [
+        "\\((5,1,5)\\)",
+        "\\((4,1,5)\\)",
+        "\\((5,2,5)\\)",
+        "\\((1,1,1)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se suma componente a componente: \\(1+4=5, \\; 2+(-1)=1, \\; 3+2=5\\).",
+      "difficulty": "medium",
+      "procedure": ["Sumar las componentes correspondientes de cada vector."]
+    },
+    {
+      "question": "Calcula la diferencia entre \\(\\vec{a} = (4,3,5)\\) y \\(\\vec{b} = (1,2,3)\\).",
+      "formula": "\\(\\vec{a} = (4,3,5), \\; \\vec{b} = (1,2,3)\\)",
+      "options": [
+        "\\((3,1,2)\\)",
+        "\\((5,5,8)\\)",
+        "\\((4,3,5)\\)",
+        "\\((1,1,1)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La resta se efectúa componente a componente: \\(4-1=3, \\; 3-2=1, \\; 5-3=2\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Restar cada componente de \\(\\vec{b}\\) de la correspondiente en \\(\\vec{a}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el producto escalar de \\(\\vec{a} = (3,5)\\) y \\(\\vec{b} = (2,-4)\\).",
+      "formula": "\\(\\vec{a} = (3,5), \\; \\vec{b} = (2,-4)\\)",
+      "options": ["\\(-14\\)", "\\(14\\)", "\\(8\\)", "\\(0\\)"],
+      "correctAnswer": 0,
+      "explanation": "El producto escalar es \\(3\\times2+5\\times(-4)=6-20=-14\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Multiplicar las componentes correspondientes y sumar los resultados."
+      ]
+    },
+    {
+      "question": "Calcula el producto escalar de \\(\\vec{a} = (1,2,3)\\) y \\(\\vec{b} = (-1,0,4)\\).",
+      "formula": "\\(\\vec{a} = (1,2,3), \\; \\vec{b} = (-1,0,4)\\)",
+      "options": ["\\(11\\)", "\\(10\\)", "\\(-11\\)", "\\(12\\)"],
+      "correctAnswer": 0,
+      "explanation": "Se tiene \\(1\\times(-1)+2\\times0+3\\times4=-1+0+12=11\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Multiplicar componente a componente y sumar: \\(-1+0+12=11\\)."
+      ]
+    },
+    {
+      "question": "Convierte las coordenadas polares \\((5, \\frac{\\pi}{6})\\) a cartesianas.",
+      "formula": "\\(r=5, \\; \\theta=\\frac{\\pi}{6}\\)",
+      "options": [
+        "\\(\\left(\\frac{5\\sqrt{3}}{2}, \\frac{5}{2}\\right)\\)",
+        "\\((5, \\frac{\\pi}{6})\\)",
+        "\\(\\left(\\frac{5}{2}, \\frac{5\\sqrt{3}}{2}\\right)\\)",
+        "\\((0,5)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se calcula \\(x=5\\cos\\frac{\\pi}{6}=\\frac{5\\sqrt{3}}{2}\\) y \\(y=5\\sin\\frac{\\pi}{6}=\\frac{5}{2}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Aplicar las fórmulas: \\(x=r\\cos\\theta\\) y \\(y=r\\sin\\theta\\)."
+      ]
+    },
+    {
+      "question": "Convierte las coordenadas polares \\((8, 120^\\circ)\\) a cartesianas.",
+      "formula": "\\(r=8, \\; \\theta=120^\\circ\\)",
+      "options": [
+        "\\((-4, 4\\sqrt{3})\\)",
+        "\\((4, -4\\sqrt{3})\\)",
+        "\\((4, 4\\sqrt{3})\\)",
+        "\\((-4, -4\\sqrt{3})\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se tiene \\(x=8\\cos120^\\circ=8\\times(-\\frac{1}{2})=-4\\) y \\(y=8\\sin120^\\circ=8\\times(\\frac{\\sqrt{3}}{2})=4\\sqrt{3}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Utilizar las fórmulas de conversión de polares a cartesianas."
+      ]
+    },
+    {
+      "question": "Convierte el vector \\(\\vec{v} = (-4,4)\\) de cartesianas a polares.",
+      "formula": "\\(\\vec{v} = (-4,4)\\)",
+      "options": [
+        "\\((4\\sqrt{2}, 135^\\circ)\\)",
+        "\\((4\\sqrt{2}, 45^\\circ)\\)",
+        "\\((4, 135^\\circ)\\)",
+        "\\((4, 45^\\circ)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La magnitud es \\(\\sqrt{(-4)^2+4^2}=4\\sqrt{2}\\) y el ángulo, al estar en el segundo cuadrante, es \\(135^\\circ\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular la magnitud y determinar el ángulo adecuado según el cuadrante."
+      ]
+    },
+    {
+      "question": "Identifica la dirección del vector \\(\\vec{v} = (0, 0, -7)\\).",
+      "formula": "\\(\\vec{v} = (0,0,-7)\\)",
+      "options": [
+        "Eje \\(z\\) negativo",
+        "Eje \\(z\\) positivo",
+        "Eje \\(x\\)",
+        "Eje \\(y\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El vector tiene únicamente componente en \\(z\\) y es negativa, por lo que apunta en la dirección negativa del eje \\(z\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Observar que las componentes \\(x\\) y \\(y\\) son cero y \\(z\\) es negativa."
+      ]
+    },
+    {
+      "question": "Encuentra el vector unitario del vector \\(\\vec{v} = (0, -3)\\).",
+      "formula": "\\(\\vec{v} = (0,-3)\\)",
+      "options": ["\\((0,-1)\\)", "\\((0,3)\\)", "\\((1,0)\\)", "\\((-1,0)\\)"],
+      "correctAnswer": 0,
+      "explanation": "La magnitud es \\(3\\) y al dividir cada componente se obtiene \\((0,-1)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular la magnitud: \\(\\sqrt{0^2+(-3)^2}=3\\).",
+        "Dividir cada componente por \\(3\\)."
+      ]
+    },
+    {
+      "question": "Determina el ángulo que forma el vector \\(\\vec{v} = (1,\\sqrt{3})\\) con el eje \\(x\\).",
+      "formula": "\\(\\vec{v} = (1,\\sqrt{3})\\)",
+      "options": [
+        "\\(60^\\circ\\)",
+        "\\(30^\\circ\\)",
+        "\\(45^\\circ\\)",
+        "\\(90^\\circ\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La tangente del ángulo es \\(\\frac{\\sqrt{3}}{1}\\), por lo que \\(\\theta=60^\\circ\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular \\(\\tan^{-1}(\\sqrt{3})\\) para obtener \\(60^\\circ\\)."
+      ]
+    },
+    {
+      "question": "Calcula el ángulo de \\(\\vec{v} = (2,2)\\) con el eje \\(x\\).",
+      "formula": "\\(\\vec{v} = (2,2)\\)",
+      "options": [
+        "\\(45^\\circ\\)",
+        "\\(60^\\circ\\)",
+        "\\(30^\\circ\\)",
+        "\\(90^\\circ\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se tiene \\(\\tan\\theta=\\frac{2}{2}=1\\), lo que da \\(\\theta=45^\\circ\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Resolver \\(\\tan^{-1}(1)\\) para obtener \\(45^\\circ\\)."
+      ]
+    },
+    {
+      "question": "Calcula la proyección del vector \\(\\vec{v} = (4,5)\\) sobre el eje \\(x\\).",
+      "formula": "\\(\\vec{v} = (4,5)\\)",
+      "options": ["\\((4,0)\\)", "\\((5,0)\\)", "\\((4,5)\\)", "\\((0,4)\\)"],
+      "correctAnswer": 0,
+      "explanation": "La proyección sobre el eje \\(x\\) toma la componente \\(x\\) del vector, es decir, \\((4,0)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Extraer la componente \\(x\\) y establecer la componente \\(y\\) en cero."
+      ]
+    },
+    {
+      "question": "Calcula el producto escalar de \\(\\vec{a} = (3,4)\\) y \\(\\vec{b} = (3,-4)\\).",
+      "formula": "\\(\\vec{a} = (3,4), \\; \\vec{b} = (3,-4)\\)",
+      "options": ["\\(-7\\)", "\\(7\\)", "\\(0\\)", "\\(1\\)"],
+      "correctAnswer": 0,
+      "explanation": "El producto escalar es \\(3\\times3+4\\times(-4)=9-16=-7\\).",
+      "difficulty": "medium",
+      "procedure": ["Multiplicar y sumar: \\(9-16=-7\\)."]
+    },
+    {
+      "question": "Encuentra un vector perpendicular a \\(\\vec{v} = (2,3)\\).",
+      "formula": "\\(\\vec{v} = (2,3)\\)",
+      "options": ["\\((-3,2)\\)", "\\((3,2)\\)", "\\((2,3)\\)", "\\((3,-2)\\)"],
+      "correctAnswer": 0,
+      "explanation": "Un vector perpendicular a \\((2,3)\\) es \\((-3,2)\\) ya que \\(2\\times(-3)+3\\times2=0\\).",
+      "difficulty": "medium",
+      "procedure": ["Determinar un vector \\((a,b)\\) tal que \\(2a+3b=0\\)."]
+    },
+    {
+      "question": "Dado \\(\\vec{v} = (a,6)\\) y \\(||\\vec{v}||=10\\), halla \\(a\\) (\\(a>0\\)).",
+      "formula": "\\(\\vec{v} = (a,6)\\)",
+      "options": ["\\(8\\)", "\\(-8\\)", "\\(6\\)", "\\(10\\)"],
+      "correctAnswer": 0,
+      "explanation": "Se tiene \\(\\sqrt{a^2+6^2}=10\\) \\(\\Rightarrow a^2+36=100\\) y \\(a^2=64\\), de donde \\(a=8\\).",
+      "difficulty": "medium",
+      "procedure": ["Plantear \\(\\sqrt{a^2+36}=10\\) y resolver para \\(a\\)."]
+    },
+    {
+      "question": "Calcula la magnitud del vector \\(\\vec{v} = (2,-1,2)\\).",
+      "formula": "\\(\\vec{v} = (2,-1,2)\\)",
+      "options": ["\\(3\\)", "\\(4\\)", "\\(2\\)", "\\(5\\)"],
+      "correctAnswer": 0,
+      "explanation": "La magnitud es \\(\\sqrt{2^2+(-1)^2+2^2}=\\sqrt{4+1+4}=\\sqrt{9}=3\\).",
+      "difficulty": "medium",
+      "procedure": ["Calcular \\(\\sqrt{4+1+4}=\\sqrt{9}\\)."]
+    },
+    {
+      "question": "Calcula la magnitud del producto vectorial de \\(\\vec{a} = (1,0,0)\\) y \\(\\vec{b} = (0,1,0)\\).",
+      "formula": "\\(\\vec{a} = (1,0,0), \\; \\vec{b} = (0,1,0)\\)",
+      "options": ["\\(1\\)", "\\(0\\)", "\\(2\\)", "\\(-1\\)"],
+      "correctAnswer": 0,
+      "explanation": "El producto vectorial tiene magnitud \\(|\\vec{a}||\\vec{b}|\\sin90^\\circ=1\\times1\\times1=1\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Utilizar la fórmula \\(|\\vec{a} \\times \\vec{b}|=|\\vec{a}||\\vec{b}|\\sin\\theta\\) con \\(\\theta=90^\\circ\\)."
+      ]
+    },
+    {
+      "question": "Convierte las coordenadas esféricas \\(r=6, \\; \\theta=\\frac{\\pi}{3}, \\; \\phi=\\frac{\\pi}{4}\\) a cartesianas.",
+      "formula": "\\(r=6,\\; \\theta=\\frac{\\pi}{3},\\; \\phi=\\frac{\\pi}{4}\\)",
+      "options": [
+        "\\(\\left(\\frac{3\\sqrt{6}}{2}, \\frac{3\\sqrt{6}}{2}, 3\\right)\\)",
+        "\\((6, \\frac{\\pi}{3}, \\frac{\\pi}{4})\\)",
+        "\\(\\left(3, 3, 3\\right)\\)",
+        "\\((0,0,6)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se usa \\(x=r\\sin\\theta\\cos\\phi,\\; y=r\\sin\\theta\\sin\\phi,\\; z=r\\cos\\theta\\). Calculando: \\(x=y=6\\times\\frac{\\sqrt{3}}{2}\\times\\frac{\\sqrt{2}}{2}=\\frac{3\\sqrt{6}}{2}\\) y \\(z=6\\times\\frac{1}{2}=3\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Aplicar las fórmulas de conversión de esféricas a cartesianas."
+      ]
+    },
+    {
+      "question": "Encuentra el vector unitario en la dirección de \\(\\vec{v} = (5,-5,0)\\).",
+      "formula": "\\(\\vec{v} = (5,-5,0)\\)",
+      "options": [
+        "\\(\\left(\\frac{1}{\\sqrt{2}}, -\\frac{1}{\\sqrt{2}}, 0\\right)\\)",
+        "\\((5,-5,0)\\)",
+        "\\((1,-1,0)\\)",
+        "\\((0,0,0)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La magnitud de \\(\\vec{v}\\) es \\(5\\sqrt{2}\\) y el vector unitario es \\(\\left(\\frac{5}{5\\sqrt{2}}, -\\frac{5}{5\\sqrt{2}}, 0\\right)=\\left(\\frac{1}{\\sqrt{2}}, -\\frac{1}{\\sqrt{2}}, 0\\right)\\).",
+      "difficulty": "medium",
+      "procedure": ["Calcular la magnitud y dividir cada componente por ella."]
+    },
+    {
+      "question": "Calcula el ángulo entre \\(\\vec{a} = (1,1)\\) y \\(\\vec{b} = (1,-1)\\).",
+      "formula": "\\(\\vec{a} = (1,1), \\; \\vec{b} = (1,-1)\\)",
+      "options": [
+        "\\(90^\\circ\\)",
+        "\\(45^\\circ\\)",
+        "\\(180^\\circ\\)",
+        "\\(60^\\circ\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El producto escalar es \\(1\\times1+1\\times(-1)=0\\), lo que indica que los vectores son ortogonales y forman \\(90^\\circ\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular el producto escalar y determinar el ángulo mediante la relación con el coseno."
+      ]
+    },
+    {
+      "question": "Convierte el vector \\(\\vec{v} = (-3,3)\\) de cartesianas a polares.",
+      "formula": "\\(\\vec{v} = (-3,3)\\)",
+      "options": [
+        "\\((3\\sqrt{2}, 135^\\circ)\\)",
+        "\\((3, 135^\\circ)\\)",
+        "\\((3\\sqrt{2}, 45^\\circ)\\)",
+        "\\((3, 45^\\circ)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La magnitud es \\(\\sqrt{9+9}=3\\sqrt{2}\\) y el ángulo, al estar en el segundo cuadrante, es \\(135^\\circ\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular la magnitud y usar la función tangente inversa considerando el cuadrante."
+      ]
+    },
+    {
+      "question": "Encuentra el vector unitario del vector \\(\\vec{v} = (0,7)\\).",
+      "formula": "\\(\\vec{v} = (0,7)\\)",
+      "options": ["\\((0,1)\\)", "\\((0,7)\\)", "\\((7,0)\\)", "\\((1,0)\\)"],
+      "correctAnswer": 0,
+      "explanation": "La magnitud es \\(7\\) y el vector unitario se obtiene dividiendo: \\((0/7,7/7)=(0,1)\\).",
+      "difficulty": "medium",
+      "procedure": ["Calcular la magnitud y dividir cada componente por ella."]
+    },
+    {
+      "question": "Multiplica el vector \\(\\vec{v} = (2,-3,4)\\) por el escalar \\(-2\\).",
+      "formula": "\\(\\vec{v} = (2,-3,4)\\), \\; escalar = -2",
+      "options": [
+        "\\((-4,6,-8)\\)",
+        "\\((4,-6,8)\\)",
+        "\\((-2,3,-4)\\)",
+        "\\((2,-3,4)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiplicar cada componente por \\(-2\\): \\(2\\times(-2)=-4\\), \\(-3\\times(-2)=6\\), \\(4\\times(-2)=-8\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Realizar la multiplicación escalar componente a componente."
+      ]
+    },
+    {
+      "question": "Determina si \\(\\vec{a} = (1,2)\\) y \\(\\vec{b} = (2,4)\\) son colineales.",
+      "formula": "\\(\\vec{a} = (1,2), \\; \\vec{b} = (2,4)\\)",
+      "options": [
+        "Sí, son colineales",
+        "No, no lo son",
+        "Solo si se normalizan",
+        "Depende del sistema de coordenadas"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\\(\\vec{b}\\) es un múltiplo escalar de \\(\\vec{a}\\) (\\(2\\times\\vec{a}\\)), por lo que son colineales.",
+      "difficulty": "medium",
+      "procedure": [
+        "Verificar si existe un escalar \\(k\\) tal que \\(\\vec{b}=k\\vec{a}\\)."
+      ]
+    },
+    {
+      "question": "Dado \\(\\vec{v} = (6,y)\\) con \\(||\\vec{v}||=10\\), halla \\(y\\) (\\(y>0\\)).",
+      "formula": "\\(\\vec{v} = (6,y)\\)",
+      "options": ["\\(8\\)", "\\(-8\\)", "\\(6\\)", "\\(10\\)"],
+      "correctAnswer": 0,
+      "explanation": "Se tiene \\(\\sqrt{6^2+y^2}=10\\) \\(\\Rightarrow 36+y^2=100\\) y \\(y^2=64\\), de donde \\(y=8\\) (positivo).",
+      "difficulty": "medium",
+      "procedure": ["Plantear la ecuación de la magnitud y despejar \\(y\\)."]
+    },
+
+    {
+      "question": "Calcula la magnitud del vector \\(\\vec{v} = (3, 4)\\).",
+      "formula": "\\(\\vec{v} = (3, 4)\\)",
+      "options": ["\\(5\\)", "\\(7\\)", "\\(6\\)", "\\(4\\)"],
+      "correctAnswer": 0,
+      "explanation": "La magnitud se calcula como \\(\\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Identificar las componentes: 3 y 4.",
+        "Aplicar la fórmula de magnitud: \\(\\sqrt{3^2 + 4^2}\\).",
+        "Calcular: \\(\\sqrt{9+16} = \\sqrt{25}\\).",
+        "Obtener el resultado: 5."
+      ]
+    },
+    {
+      "question": "Determina las componentes del vector \\(\\vec{v} = (2, -3)\\).",
+      "formula": "\\(\\vec{v} = (2, -3)\\)",
+      "options": [
+        "\\(2 \\text{ y } 3\\)",
+        "\\(2 \\text{ y } -3\\)",
+        "\\(-2 \\text{ y } 3\\)",
+        "\\(-2 \\text{ y } -3\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El vector se expresa directamente en sus componentes: 2 y -3.",
+      "difficulty": "medium",
+      "procedure": [
+        "Observar que el vector se presenta en forma de par ordenado.",
+        "Identificar el primer valor como la componente en \\(x\\) y el segundo en \\(y\\).",
+        "Concluir que las componentes son 2 y -3."
+      ]
+    },
+    {
+      "question": "Calcula la magnitud del vector \\(\\vec{u} = (1, 2, 2)\\) en 3D.",
+      "formula": "\\(\\vec{u} = (1, 2, 2)\\)",
+      "options": ["\\(2\\)", "\\(3\\)", "\\(\\sqrt{9}\\)", "\\(4\\)"],
+      "correctAnswer": 1,
+      "explanation": "La magnitud es \\(\\sqrt{1^2+2^2+2^2} = \\sqrt{1+4+4} = \\sqrt{9} = 3\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Elevar al cuadrado cada componente: 1, 4 y 4.",
+        "Sumar: 1 + 4 + 4 = 9.",
+        "Extraer la raíz cuadrada: \\(\\sqrt{9} = 3\\)."
+      ]
+    },
+    {
+      "question": "Determina el vector unitario de \\(\\vec{a} = (4, 0)\\).",
+      "formula": "\\(\\vec{a} = (4, 0)\\)",
+      "options": [
+        "\\((1, 0)\\)",
+        "\\((4, 0)\\)",
+        "\\((0, 1)\\)",
+        "\\((-1, 0)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El vector unitario es \\(\\vec{u} = \\frac{\\vec{a}}{|\\vec{a}|} = \\frac{(4, 0)}{4} = (1, 0)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular la magnitud de \\(\\vec{a}\\): \\(4\\).",
+        "Dividir cada componente entre la magnitud.",
+        "Obtener el vector unitario \\((1, 0)\\)."
+      ]
+    },
+    {
+      "question": "Realiza la suma de los vectores \\(\\vec{a} = (1, 2)\\) y \\(\\vec{b} = (3, 4)\\).",
+      "formula": "\\(\\vec{a} = (1, 2), \\quad \\vec{b} = (3, 4)\\)",
+      "options": [
+        "\\((4, 6)\\)",
+        "\\((3, 6)\\)",
+        "\\((4, 4)\\)",
+        "\\((1, 2)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La suma se realiza componente a componente: \\((1+3, 2+4) = (4, 6)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Sumar la primera componente: 1 + 3 = 4.",
+        "Sumar la segunda componente: 2 + 4 = 6.",
+        "Formar el vector resultante: \\((4, 6)\\)."
+      ]
+    },
+    {
+      "question": "Realiza la resta de los vectores \\(\\vec{a} = (5, -2)\\) y \\(\\vec{b} = (2, 3)\\).",
+      "formula": "\\(\\vec{a} = (5, -2), \\quad \\vec{b} = (2, 3)\\)",
+      "options": [
+        "\\((3, -5)\\)",
+        "\\((7, 1)\\)",
+        "\\((5, -5)\\)",
+        "\\((3, 5)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La resta es \\((5-2, -2-3) = (3, -5)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Restar la componente \\(x\\): 5 - 2 = 3.",
+        "Restar la componente \\(y\\): -2 - 3 = -5.",
+        "Obtener el vector resultante \\((3, -5)\\)."
+      ]
+    },
+    {
+      "question": "Convierte las coordenadas polares \\((r=5, \\theta=\\frac{\\pi}{3})\\) a cartesianas.",
+      "formula": "\\(r = 5, \\quad \\theta = \\frac{\\pi}{3}\\)",
+      "options": [
+        "\\((2.5, 4.33)\\)",
+        "\\((4.33, 2.5)\\)",
+        "\\((5, \\frac{\\pi}{3})\\)",
+        "\\((4.33, -2.5)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se usa \\(x = r \\cos\\theta\\) y \\(y = r \\sin\\theta\\): \\(x = 5 \\cos(\\frac{\\pi}{3}) \\approx 2.5\\), \\(y = 5 \\sin(\\frac{\\pi}{3}) \\approx 4.33\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Aplicar la conversión: \\(x = 5\\cos\\frac{\\pi}{3}\\) y \\(y = 5\\sin\\frac{\\pi}{3}\\).",
+        "Calcular: \\(\\cos\\frac{\\pi}{3} = 0.5\\) y \\(\\sin\\frac{\\pi}{3} \\approx 0.866\\).",
+        "Multiplicar: \\(x \\approx 2.5, \\quad y \\approx 4.33\\)."
+      ]
+    },
+    {
+      "question": "Determina la dirección (ángulo) del vector \\(\\vec{v} = (1, \\sqrt{3})\\).",
+      "formula": "\\(\\vec{v} = (1, \\sqrt{3})\\)",
+      "options": [
+        "\\(\\frac{\\pi}{6}\\)",
+        "\\(\\frac{\\pi}{3}\\)",
+        "\\(\\frac{\\pi}{4}\\)",
+        "\\(\\frac{\\pi}{2}\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El ángulo se obtiene con \\(\\tan\\theta = \\frac{\\sqrt{3}}{1}\\), por lo que \\(\\theta = \\frac{\\pi}{3}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Plantear \\(\\tan\\theta = \\frac{\\sqrt{3}}{1}\\).",
+        "Determinar que \\(\\theta = \\frac{\\pi}{3}\\)."
+      ]
+    },
+    {
+      "question": "Determina el vector unitario de \\(\\vec{v} = (0, 5)\\).",
+      "formula": "\\(\\vec{v} = (0, 5)\\)",
+      "options": [
+        "\\((0, 1)\\)",
+        "\\((5, 0)\\)",
+        "\\((1, 0)\\)",
+        "\\((0, 5)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La magnitud de \\(\\vec{v}\\) es 5, por lo tanto el vector unitario es \\(\\frac{(0,5)}{5} = (0,1)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular la magnitud: 5.",
+        "Dividir cada componente por 5.",
+        "Obtener \\((0,1)\\) como vector unitario."
+      ]
+    },
+    {
+      "question": "Realiza la suma de los vectores en 3D \\(\\vec{a} = (1, 2, 3)\\) y \\(\\vec{b} = (4, -1, 2)\\).",
+      "formula": "\\(\\vec{a} = (1, 2, 3), \\quad \\vec{b} = (4, -1, 2)\\)",
+      "options": [
+        "\\((5, 1, 5)\\)",
+        "\\((3, 1, 5)\\)",
+        "\\((5, 3, 5)\\)",
+        "\\((4, 1, 2)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se suman las componentes: \\(1+4=5, \\;2+(-1)=1, \\;3+2=5\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Sumar la componente \\(x\\): 1 + 4 = 5.",
+        "Sumar la componente \\(y\\): 2 - 1 = 1.",
+        "Sumar la componente \\(z\\): 3 + 2 = 5."
+      ]
+    },
+    {
+      "question": "Realiza la resta de los vectores en 3D \\(\\vec{a} = (2, 3, 4)\\) y \\(\\vec{b} = (1, 0, 1)\\).",
+      "formula": "\\(\\vec{a} = (2, 3, 4), \\quad \\vec{b} = (1, 0, 1)\\)",
+      "options": [
+        "\\((1, 3, 3)\\)",
+        "\\((1, 3, 4)\\)",
+        "\\((2, 3, 3)\\)",
+        "\\((1, 0, 3)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La resta se efectúa componente a componente: \\(2-1=1, \\;3-0=3, \\;4-1=3\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Restar la primera componente: 2 - 1 = 1.",
+        "Restar la segunda componente: 3 - 0 = 3.",
+        "Restar la tercera componente: 4 - 1 = 3."
+      ]
+    },
+    {
+      "question": "Calcula la magnitud del vector \\(\\vec{w} = (-3, 4)\\).",
+      "formula": "\\(\\vec{w} = (-3, 4)\\)",
+      "options": ["\\(5\\)", "\\(7\\)", "\\(1\\)", "\\(4\\)"],
+      "correctAnswer": 0,
+      "explanation": "La magnitud es \\(\\sqrt{(-3)^2+4^2} = \\sqrt{9+16} = \\sqrt{25} = 5\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Elevar al cuadrado cada componente: 9 y 16.",
+        "Sumar los cuadrados: 9 + 16 = 25.",
+        "Extraer la raíz cuadrada: \\(\\sqrt{25} = 5\\)."
+      ]
+    },
+    {
+      "question": "Representa el vector \\(\\vec{v} = (-2, -2)\\) en el plano.",
+      "formula": "\\(\\vec{v} = (-2, -2)\\)",
+      "options": [
+        "\\((-2, -2)\\)",
+        "\\((2, 2)\\)",
+        "\\((-2, 2)\\)",
+        "\\((2, -2)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El vector se expresa con sus componentes negativas: \\(-2\\) en \\(x\\) y \\(-2\\) en \\(y\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Leer las componentes del vector.",
+        "Notar que ambas son negativas.",
+        "Concluir que la representación es \\((-2, -2)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la magnitud del vector \\(\\vec{a} = (7, 24)\\).",
+      "formula": "\\(\\vec{a} = (7, 24)\\)",
+      "options": ["\\(24\\)", "\\(25\\)", "\\(26\\)", "\\(7\\)"],
+      "correctAnswer": 1,
+      "explanation": "La magnitud es \\(\\sqrt{7^2+24^2} = \\sqrt{49+576} = \\sqrt{625} = 25\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular los cuadrados: 49 y 576.",
+        "Sumar: 49 + 576 = 625.",
+        "Obtener la raíz cuadrada: \\(\\sqrt{625} = 25\\)."
+      ]
+    },
+    {
+      "question": "Calcula la magnitud del vector \\(\\vec{v} = (6, 8)\\).",
+      "formula": "\\(\\vec{v} = (6, 8)\\)",
+      "options": ["\\(10\\)", "\\(12\\)", "\\(14\\)", "\\(8\\)"],
+      "correctAnswer": 0,
+      "explanation": "La magnitud se calcula como \\(\\sqrt{6^2+8^2} = \\sqrt{36+64} = \\sqrt{100} = 10\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Elevar al cuadrado cada componente: 6² = 36 y 8² = 64.",
+        "Sumar los resultados: 36 + 64 = 100.",
+        "Extraer la raíz cuadrada: \\(\\sqrt{100} = 10\\)."
+      ]
+    },
+    {
+      "question": "Determina el vector unitario de \\(\\vec{v} = (3, 4)\\).",
+      "formula": "\\(\\vec{v} = (3, 4)\\)",
+      "options": [
+        "\\((0.6, 0.8)\\)",
+        "\\((3, 4)\\)",
+        "\\((0.8, 0.6)\\)",
+        "\\((1, 1)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La magnitud de \\(\\vec{v}\\) es \\(\\sqrt{3^2+4^2} = 5\\), luego el vector unitario es \\(\\frac{(3,4)}{5} = (0.6,0.8)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular la magnitud: \\(\\sqrt{9+16}=5\\).",
+        "Dividir cada componente por 5: \\(3/5=0.6\\) y \\(4/5=0.8\\).",
+        "Obtener el vector unitario \\((0.6, 0.8)\\)."
+      ]
+    },
+    {
+      "question": "Realiza la suma de los vectores \\(\\vec{a} = (1, 2)\\) y \\(\\vec{b} = (2, 3)\\).",
+      "formula": "\\(\\vec{a} = (1, 2), \\quad \\vec{b} = (2, 3)\\)",
+      "options": [
+        "\\((3, 5)\\)",
+        "\\((2, 3)\\)",
+        "\\((1, 2)\\)",
+        "\\((4, 6)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La suma se efectúa componente a componente: \\(1+2=3\\) y \\(2+3=5\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Sumar la primera componente: 1 + 2 = 3.",
+        "Sumar la segunda componente: 2 + 3 = 5.",
+        "El vector resultante es \\((3, 5)\\)."
+      ]
+    },
+    {
+      "question": "Realiza la resta de los vectores \\(\\vec{a} = (4, 5)\\) y \\(\\vec{b} = (1, 2)\\).",
+      "formula": "\\(\\vec{a} = (4, 5), \\quad \\vec{b} = (1, 2)\\)",
+      "options": [
+        "\\((3, 3)\\)",
+        "\\((5, 7)\\)",
+        "\\((4, 5)\\)",
+        "\\((2, 3)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La resta se hace componente a componente: \\(4-1=3\\) y \\(5-2=3\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Restar la primera componente: 4 - 1 = 3.",
+        "Restar la segunda componente: 5 - 2 = 3.",
+        "El resultado es \\((3, 3)\\)."
+      ]
+    },
+    {
+      "question": "Convierte las coordenadas polares \\((r=10, \\theta=\\frac{\\pi}{4})\\) a cartesianas.",
+      "formula": "\\(r=10, \\quad \\theta=\\frac{\\pi}{4}\\)",
+      "options": [
+        "\\((5\\sqrt{2}, 5\\sqrt{2})\\)",
+        "\\((10, 10)\\)",
+        "\\((5, 5)\\)",
+        "\\((\\sqrt{2}, \\sqrt{2})\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando \\(x=r\\cos\\theta\\) y \\(y=r\\sin\\theta\\): \\(x=10\\cos(\\frac{\\pi}{4})=5\\sqrt{2}\\) y \\(y=10\\sin(\\frac{\\pi}{4})=5\\sqrt{2}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Aplicar las fórmulas de conversión: \\(x=10\\cos(\\pi/4)\\) y \\(y=10\\sin(\\pi/4)\\).",
+        "Recordar que \\(\\cos(\\pi/4)=\\sin(\\pi/4)=\\frac{\\sqrt{2}}{2}\\).",
+        "Multiplicar: \\(10 \\times \\frac{\\sqrt{2}}{2}=5\\sqrt{2}\\) para ambos componentes."
+      ]
+    },
+    {
+      "question": "Determina el ángulo del vector \\(\\vec{v} = (0, -5)\\).",
+      "formula": "\\(\\vec{v} = (0, -5)\\)",
+      "options": [
+        "\\(\\frac{3\\pi}{2}\\)",
+        "\\(\\frac{\\pi}{2}\\)",
+        "\\(\\pi\\)",
+        "\\(0\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El vector \\( (0, -5) \\) apunta directamente hacia abajo, lo que corresponde a \\(270^\\circ\\) o \\(\\frac{3\\pi}{2}\\) radianes.",
+      "difficulty": "medium",
+      "procedure": [
+        "Observar que el vector está sobre el eje \\(y\\) negativo.",
+        "El ángulo correspondiente es \\(270^\\circ\\) o \\(\\frac{3\\pi}{2}\\) radianes."
+      ]
+    },
+    {
+      "question": "Calcula la magnitud del vector en 3D \\(\\vec{v} = (2, 2, 1)\\).",
+      "formula": "\\(\\vec{v} = (2, 2, 1)\\)",
+      "options": [
+        "\\(3\\)",
+        "\\(\\sqrt{9}\\)",
+        "\\(\\sqrt{11}\\)",
+        "\\(\\sqrt{8}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La magnitud se calcula como \\(\\sqrt{2^2+2^2+1^2}=\\sqrt{4+4+1}=\\sqrt{9}=3\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Elevar cada componente al cuadrado: 2² = 4, 2² = 4, 1² = 1.",
+        "Sumar: 4 + 4 + 1 = 9.",
+        "Extraer la raíz cuadrada: \\(\\sqrt{9}=3\\)."
+      ]
+    },
+    {
+      "question": "Suma los vectores en 3D \\(\\vec{a} = (1, 0, 2)\\) y \\(\\vec{b} = (2, 3, -1)\\).",
+      "formula": "\\(\\vec{a} = (1, 0, 2), \\quad \\vec{b} = (2, 3, -1)\\)",
+      "options": [
+        "\\((3, 3, 1)\\)",
+        "\\((3, 0, 1)\\)",
+        "\\((1, 3, 2)\\)",
+        "\\((2, 3, 1)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La suma se efectúa componente a componente: \\(1+2=3, \\;0+3=3, \\;2+(-1)=1\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Sumar la primera componente: 1 + 2 = 3.",
+        "Sumar la segunda componente: 0 + 3 = 3.",
+        "Sumar la tercera componente: 2 + (-1) = 1."
+      ]
+    },
+    {
+      "question": "Resta los vectores en 3D \\(\\vec{a} = (3, 2, 5)\\) y \\(\\vec{b} = (1, 4, 2)\\).",
+      "formula": "\\(\\vec{a} = (3, 2, 5), \\quad \\vec{b} = (1, 4, 2)\\)",
+      "options": [
+        "\\((2, -2, 3)\\)",
+        "\\((4, 6, 7)\\)",
+        "\\((2, 2, 3)\\)",
+        "\\((3, 2, 5)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La resta se realiza componente a componente: \\(3-1=2, \\;2-4=-2, \\;5-2=3\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Restar la primera componente: 3 - 1 = 2.",
+        "Restar la segunda componente: 2 - 4 = -2.",
+        "Restar la tercera componente: 5 - 2 = 3."
+      ]
+    },
+    {
+      "question": "Calcula la magnitud del vector \\(\\vec{v} = (0, 0, 5)\\).",
+      "formula": "\\(\\vec{v} = (0, 0, 5)\\)",
+      "options": ["\\(5\\)", "\\(0\\)", "\\(\\sqrt{5}\\)", "\\(10\\)"],
+      "correctAnswer": 0,
+      "explanation": "La magnitud es \\(\\sqrt{0^2+0^2+5^2}=\\sqrt{25}=5\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Elevar al cuadrado cada componente: 0, 0 y 25.",
+        "Sumar: 0+0+25=25.",
+        "Extraer la raíz cuadrada: \\(\\sqrt{25}=5\\)."
+      ]
+    },
+    {
+      "question": "Representa el vector \\(\\vec{v} = (-3, 3)\\) en el plano 2D.",
+      "formula": "\\(\\vec{v} = (-3, 3)\\)",
+      "options": [
+        "\\((-3, 3)\\)",
+        "\\((3, -3)\\)",
+        "\\((3, 3)\\)",
+        "\\((-3, -3)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El vector se representa directamente por sus componentes: \\(-3\\) en \\(x\\) y \\(3\\) en \\(y\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Observar las componentes: \\(x=-3\\) y \\(y=3\\).",
+        "Representar el vector como \\((-3, 3)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la magnitud del vector \\(\\vec{v} = (9, 12)\\).",
+      "formula": "\\(\\vec{v} = (9, 12)\\)",
+      "options": ["\\(15\\)", "\\(12\\)", "\\(18\\)", "\\(21\\)"],
+      "correctAnswer": 0,
+      "explanation": "La magnitud es \\(\\sqrt{9^2+12^2}=\\sqrt{81+144}=\\sqrt{225}=15\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Elevar al cuadrado cada componente: 9²=81 y 12²=144.",
+        "Sumar: 81+144=225.",
+        "Extraer la raíz cuadrada: \\(\\sqrt{225}=15\\)."
+      ]
+    },
+    {
+      "question": "Determina el vector unitario de \\(\\vec{v} = (-6, 8)\\).",
+      "formula": "\\(\\vec{v} = (-6, 8)\\)",
+      "options": [
+        "\\((-0.6, 0.8)\\)",
+        "\\((0.6, 0.8)\\)",
+        "\\((-0.8, 0.6)\\)",
+        "\\((6, 8)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La magnitud de \\(\\vec{v}\\) es \\(\\sqrt{(-6)^2+8^2}=\\sqrt{36+64}=10\\) y el vector unitario es \\(\\frac{(-6,8)}{10}=(-0.6,0.8)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular la magnitud: \\(\\sqrt{36+64}=10\\).",
+        "Dividir cada componente entre 10: \\(-6/10=-0.6\\) y \\(8/10=0.8\\).",
+        "Obtener el vector unitario \\((-0.6, 0.8)\\)."
+      ]
+    },
+    {
+      "question": "Convierte las coordenadas polares \\((r=8, \\theta=\\frac{\\pi}{6})\\) a cartesianas.",
+      "formula": "\\(r=8, \\quad \\theta=\\frac{\\pi}{6}\\)",
+      "options": [
+        "\\((4\\sqrt{3}, 4)\\)",
+        "\\((4, 4\\sqrt{3})\\)",
+        "\\((8, 0)\\)",
+        "\\((0, 8)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se usa \\(x=r\\cos\\theta\\) y \\(y=r\\sin\\theta\\): \\(x=8\\cos(\\pi/6)=8\\times\\frac{\\sqrt{3}}{2}=4\\sqrt{3}\\) y \\(y=8\\sin(\\pi/6)=8\\times\\frac{1}{2}=4\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Aplicar las fórmulas: \\(x=8\\cos(\\pi/6)\\) y \\(y=8\\sin(\\pi/6)\\).",
+        "Calcular: \\(\\cos(\\pi/6)=\\frac{\\sqrt{3}}{2}\\) y \\(\\sin(\\pi/6)=\\frac{1}{2}\\).",
+        "Multiplicar: \\(x=4\\sqrt{3}\\) y \\(y=4\\)."
+      ]
+    },
+    {
+      "question": "Determina el ángulo del vector \\(\\vec{v} = (\\sqrt{3}, 1)\\).",
+      "formula": "\\(\\vec{v} = (\\sqrt{3}, 1)\\)",
+      "options": [
+        "\\(\\frac{\\pi}{6}\\)",
+        "\\(\\frac{\\pi}{4}\\)",
+        "\\(\\frac{\\pi}{3}\\)",
+        "\\(\\frac{\\pi}{2}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El ángulo se halla con \\(\\tan\\theta = \\frac{1}{\\sqrt{3}}\\), lo que da \\(\\theta = \\frac{\\pi}{6}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Plantear \\(\\tan\\theta = \\frac{1}{\\sqrt{3}}\\).",
+        "Determinar que \\(\\theta = \\frac{\\pi}{6}\\)."
+      ]
+    },
+    {
+      "question": "Realiza la suma de los vectores \\(\\vec{a} = (5, -3)\\) y \\(\\vec{b} = (-2, 4)\\).",
+      "formula": "\\(\\vec{a} = (5, -3), \\quad \\vec{b} = (-2, 4)\\)",
+      "options": [
+        "\\((3, 1)\\)",
+        "\\((7, 1)\\)",
+        "\\((3, -7)\\)",
+        "\\((5, 4)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La suma se efectúa: \\(5+(-2)=3\\) y \\(-3+4=1\\), dando \\((3, 1)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Sumar la primera componente: 5 + (-2) = 3.",
+        "Sumar la segunda componente: -3 + 4 = 1.",
+        "El vector resultante es \\((3, 1)\\)."
+      ]
+    },
+    {
+      "question": "Realiza la resta de los vectores \\(\\vec{a} = (7, 8)\\) y \\(\\vec{b} = (3, 2)\\).",
+      "formula": "\\(\\vec{a} = (7, 8), \\quad \\vec{b} = (3, 2)\\)",
+      "options": [
+        "\\((4, 6)\\)",
+        "\\((10, 10)\\)",
+        "\\((7, 8)\\)",
+        "\\((3, 2)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La resta se realiza componente a componente: \\(7-3=4\\) y \\(8-2=6\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Restar la primera componente: 7 - 3 = 4.",
+        "Restar la segunda componente: 8 - 2 = 6.",
+        "El resultado es \\((4, 6)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la magnitud del vector \\(\\vec{v} = (7, 24)\\).",
+      "formula": "\\(\\vec{v} = (7, 24)\\)",
+      "options": ["\\(25\\)", "\\(24\\)", "\\(26\\)", "\\(23\\)"],
+      "correctAnswer": 0,
+      "explanation": "La magnitud se calcula como \\(\\sqrt{7^2+24^2}=\\sqrt{49+576}=\\sqrt{625}=25\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular los cuadrados: 7²=49 y 24²=576.",
+        "Sumar: 49 + 576 = 625.",
+        "Extraer la raíz cuadrada: \\(\\sqrt{625}=25\\)."
+      ]
+    },
+    {
+      "question": "Determina el vector unitario de \\(\\vec{v} = (4, 4, 4)\\).",
+      "formula": "\\(\\vec{v} = (4, 4, 4)\\)",
+      "options": [
+        "\\(\\left(\\frac{1}{\\sqrt{3}}, \\frac{1}{\\sqrt{3}}, \\frac{1}{\\sqrt{3}}\\right)\\)",
+        "\\((4, 4, 4)\\)",
+        "\\((1, 1, 1)\\)",
+        "\\((\\sqrt{3}, \\sqrt{3}, \\sqrt{3})\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La magnitud es \\(\\sqrt{4^2+4^2+4^2}=\\sqrt{48}=4\\sqrt{3}\\). El vector unitario es \\(\\frac{(4,4,4)}{4\\sqrt{3}}=(\\frac{1}{\\sqrt{3}},\\frac{1}{\\sqrt{3}},\\frac{1}{\\sqrt{3}})\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular la magnitud: \\(\\sqrt{16+16+16}=\\sqrt{48}=4\\sqrt{3}\\).",
+        "Dividir cada componente entre \\(4\\sqrt{3}\\).",
+        "Obtener el vector unitario."
+      ]
+    },
+    {
+      "question": "Calcula la magnitud del vector \\(\\vec{v} = (3, -3, 1)\\).",
+      "formula": "\\(\\vec{v} = (3, -3, 1)\\)",
+      "options": [
+        "\\(\\sqrt{19}\\)",
+        "\\(\\sqrt{18}\\)",
+        "\\(\\sqrt{10}\\)",
+        "\\(\\sqrt{23}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La magnitud es \\(\\sqrt{3^2+(-3)^2+1^2}=\\sqrt{9+9+1}=\\sqrt{19}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular los cuadrados: 9, 9 y 1.",
+        "Sumar: 9+9+1=19.",
+        "Extraer la raíz cuadrada: \\(\\sqrt{19}\\)."
+      ]
+    },
+    {
+      "question": "Convierte el vector dado en componentes a su representación en forma polar: \\(\\vec{v} = (5, 5\\sqrt{3})\\).",
+      "formula": "\\(\\vec{v} = (5, 5\\sqrt{3})\\)",
+      "options": [
+        "\\((10, \\frac{\\pi}{3})\\)",
+        "\\((10, \\frac{\\pi}{6})\\)",
+        "\\((5, \\frac{\\pi}{3})\\)",
+        "\\((5, \\frac{\\pi}{6})\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La magnitud es \\(\\sqrt{5^2+(5\\sqrt{3})^2}=\\sqrt{25+75}=\\sqrt{100}=10\\) y el ángulo \\(\\theta\\) se halla con \\(\\tan\\theta=\\frac{5\\sqrt{3}}{5}=\\sqrt{3}\\), dando \\(\\theta=\\frac{\\pi}{3}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular la magnitud: \\(\\sqrt{25+75}=10\\).",
+        "Determinar el ángulo: \\(\\tan\\theta=\\sqrt{3}\\) implica \\(\\theta=\\frac{\\pi}{3}\\).",
+        "Representar en forma polar: \\((10, \\frac{\\pi}{3})\\)."
+      ]
+    },
+    {
+      "question": "Determina el producto escalar de los vectores \\(\\vec{a} = (1, 2, 3)\\) y \\(\\vec{b} = (4, 0, -1)\\).",
+      "formula": "\\(\\vec{a} = (1, 2, 3), \\quad \\vec{b} = (4, 0, -1)\\)",
+      "options": ["\\(1\\)", "\\(0\\)", "\\(2\\)", "\\(3\\)"],
+      "correctAnswer": 0,
+      "explanation": "El producto escalar es \\(1\\cdot4+2\\cdot0+3\\cdot(-1)=4+0-3=1\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Multiplicar cada par de componentes correspondientes.",
+        "Sumar los productos: 4 + 0 - 3 = 1."
+      ]
+    },
+    {
+      "question": "Realiza la suma de los vectores \\(\\vec{a} = (1, 2, 3)\\) y \\(\\vec{b} = (3, 2, 1)\\) en 3D.",
+      "formula": "\\(\\vec{a} = (1, 2, 3), \\quad \\vec{b} = (3, 2, 1)\\)",
+      "options": [
+        "\\((4, 4, 4)\\)",
+        "\\((2, 4, 4)\\)",
+        "\\((4, 2, 4)\\)",
+        "\\((1, 2, 3)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La suma se realiza componente a componente: \\(1+3=4, \\;2+2=4, \\;3+1=4\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Sumar la primera componente: 1 + 3 = 4.",
+        "Sumar la segunda componente: 2 + 2 = 4.",
+        "Sumar la tercera componente: 3 + 1 = 4."
+      ]
+    },
+    {
+      "question": "Realiza la resta de los vectores \\(\\vec{a} = (5, 5, 5)\\) y \\(\\vec{b} = (2, 2, 2)\\) en 3D.",
+      "formula": "\\(\\vec{a} = (5, 5, 5), \\quad \\vec{b} = (2, 2, 2)\\)",
+      "options": [
+        "\\((3, 3, 3)\\)",
+        "\\((7, 7, 7)\\)",
+        "\\((2, 2, 2)\\)",
+        "\\((5, 5, 5)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La resta se hace componente a componente: \\(5-2=3\\) para cada componente, resultando en \\((3,3,3)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Restar cada componente: 5 - 2 = 3.",
+        "El vector resultante es \\((3, 3, 3)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la magnitud del vector \\(\\vec{v} = (3, 4, 12)\\).",
+      "formula": "\\(\\vec{v} = (3, 4, 12)\\)",
+      "options": ["\\(13\\)", "\\(12\\)", "\\(14\\)", "\\(11\\)"],
+      "correctAnswer": 0,
+      "explanation": "La magnitud se calcula como \\(\\sqrt{3^2+4^2+12^2}=\\sqrt{9+16+144}=\\sqrt{169}=13\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Elevar cada componente al cuadrado: 9, 16 y 144.",
+        "Sumar: 9+16+144=169.",
+        "Extraer la raíz: \\(\\sqrt{169}=13\\)."
+      ]
+    },
+    {
+      "question": "Determina el ángulo del vector \\(\\vec{v} = (0, 7)\\).",
+      "formula": "\\(\\vec{v} = (0, 7)\\)",
+      "options": [
+        "\\(\\frac{\\pi}{2}\\)",
+        "\\(0\\)",
+        "\\(\\pi\\)",
+        "\\(\\frac{\\pi}{4}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El vector apunta hacia arriba en el eje \\(y\\), lo que corresponde a un ángulo de \\(90^\\circ\\) o \\(\\frac{\\pi}{2}\\) radianes.",
+      "difficulty": "medium",
+      "procedure": [
+        "Notar que \\(x=0\\) y \\(y>0\\).",
+        "Concluir que el ángulo es \\(\\frac{\\pi}{2}\\)."
+      ]
+    },
+    {
+      "question": "Determina las componentes de un vector de magnitud 10 y ángulo \\(\\frac{\\pi}{3}\\).",
+      "formula": "Magnitud: 10, \\(\\theta=\\frac{\\pi}{3}\\)",
+      "options": [
+        "\\((5, 5\\sqrt{3})\\)",
+        "\\((10, 0)\\)",
+        "\\((5\\sqrt{3}, 5)\\)",
+        "\\((0, 10)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se usan las fórmulas: \\(x=10\\cos(\\frac{\\pi}{3})=10\\times\\frac{1}{2}=5\\) y \\(y=10\\sin(\\frac{\\pi}{3})=10\\times\\frac{\\sqrt{3}}{2}=5\\sqrt{3}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular \\(x\\): 10 \\(\\times\\) cos(\\(\\frac{\\pi}{3}\\)) = 5.",
+        "Calcular \\(y\\): 10 \\(\\times\\) sin(\\(\\frac{\\pi}{3}\\)) = 5\\(\\sqrt{3}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el producto escalar de los vectores \\(\\vec{a} = (2, -1)\\) y \\(\\vec{b} = (-3, 4)\\).",
+      "formula": "\\(\\vec{a} = (2, -1), \\quad \\vec{b} = (-3, 4)\\)",
+      "options": ["\\(-10\\)", "\\(10\\)", "\\(-5\\)", "\\(5\\)"],
+      "correctAnswer": 0,
+      "explanation": "El producto escalar es \\(2\\cdot(-3)+(-1)\\cdot4=-6-4=-10\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Multiplicar las componentes correspondientes.",
+        "Sumar los resultados: -6 + (-4) = -10."
+      ]
+    },
+    {
+      "question": "Realiza la suma de los vectores \\(\\vec{a} = (-1, 2)\\) y \\(\\vec{b} = (3, -4)\\).",
+      "formula": "\\(\\vec{a} = (-1, 2), \\quad \\vec{b} = (3, -4)\\)",
+      "options": [
+        "\\((2, -2)\\)",
+        "\\((4, -2)\\)",
+        "\\((2, 6)\\)",
+        "\\((-4, 6)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La suma es \\(-1+3=2\\) y \\(2+(-4)=-2\\), resultando en \\((2, -2)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Sumar la primera componente: -1 + 3 = 2.",
+        "Sumar la segunda componente: 2 + (-4) = -2."
+      ]
+    },
+    {
+      "question": "Realiza la resta de los vectores \\(\\vec{a} = (2, 3)\\) y \\(\\vec{b} = (-1, 1)\\).",
+      "formula": "\\(\\vec{a} = (2, 3), \\quad \\vec{b} = (-1, 1)\\)",
+      "options": [
+        "\\((3, 2)\\)",
+        "\\((1, 4)\\)",
+        "\\((2, 3)\\)",
+        "\\((-1, 1)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La resta se realiza: \\(2-(-1)=3\\) y \\(3-1=2\\), dando \\((3, 2)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular la primera componente: 2 - (-1) = 3.",
+        "Calcular la segunda componente: 3 - 1 = 2."
+      ]
+    },
+    {
+      "question": "Convierte las coordenadas cartesianas \\((x=4, y=-4)\\) a polares.",
+      "formula": "\\(x=4, \\quad y=-4\\)",
+      "options": [
+        "\\((4\\sqrt{2}, -\\frac{\\pi}{4})\\)",
+        "\\((4, -4)\\)",
+        "\\((8, -\\frac{\\pi}{2})\\)",
+        "\\((4\\sqrt{2}, \\frac{\\pi}{4})\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La magnitud es \\(r=\\sqrt{4^2+(-4)^2}=\\sqrt{16+16}=\\sqrt{32}=4\\sqrt{2}\\) y el ángulo \\(\\theta=-\\frac{\\pi}{4}\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular la magnitud: \\(\\sqrt{16+16}=4\\sqrt{2}\\).",
+        "Determinar el ángulo: \\(\\tan\\theta=-1\\) implica \\(\\theta=-\\frac{\\pi}{4}\\)."
+      ]
+    },
+    {
+      "question": "Calcula el vector unitario de \\(\\vec{v} = (0, -10)\\).",
+      "formula": "\\(\\vec{v} = (0, -10)\\)",
+      "options": [
+        "\\((0, -1)\\)",
+        "\\((0, 1)\\)",
+        "\\((1, 0)\\)",
+        "\\((-1, 0)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La magnitud de \\(\\vec{v}\\) es 10, por lo tanto el vector unitario es \\(\\frac{(0,-10)}{10}=(0,-1)\\).",
+      "difficulty": "medium",
+      "procedure": [
+        "Calcular la magnitud: 10.",
+        "Dividir cada componente entre 10 para obtener \\((0,-1)\\)."
+      ]
+    }
+  ]
+}

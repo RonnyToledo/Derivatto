@@ -1,0 +1,1444 @@
+{
+  "matrices_fundamentos_facil": [
+    {
+      "question": "¿Qué es una matriz en el contexto de las matemáticas?",
+      "formula": "Una matriz es un conjunto rectangular de números organizados en filas y columnas.",
+      "options": [
+        "Un vector de números",
+        "Una función matemática",
+        "Un conjunto de números organizados en filas y columnas",
+        "Una ecuación algebraica"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La definición de matriz es un conjunto rectangular de elementos numéricos dispuestos en filas y columnas.",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar que la matriz organiza números en filas y columnas.",
+        "Descartar las opciones que no se ajustan a esta definición."
+      ]
+    },
+    {
+      "question": "¿Cuáles son los elementos básicos que definen una matriz?",
+      "formula": "Matriz = \\{filas, columnas, orden\\}",
+      "options": [
+        "Filas y columnas solamente",
+        "Filas, columnas y orden",
+        "Columnas y diagonales",
+        "Filas, columnas y valores"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Una matriz se define por sus filas, columnas y el orden, que indica sus dimensiones.",
+      "difficulty": "easy",
+      "procedure": [
+        "Reconocer que el orden se refiere a la cantidad de filas y columnas.",
+        "Seleccionar la opción que incluya los tres elementos."
+      ]
+    },
+    {
+      "question": "Identifica el ejemplo de una matriz 2x2.",
+      "formula": "\\(\\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}\\)",
+      "options": [
+        "Matriz con 2 filas y 2 columnas",
+        "Matriz con 2 filas y 3 columnas",
+        "Matriz con 3 filas y 2 columnas",
+        "Matriz con 3 filas y 3 columnas"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La notación 2x2 indica 2 filas y 2 columnas.",
+      "difficulty": "easy",
+      "procedure": [
+        "Contar las filas y columnas de la matriz.",
+        "Verificar que son 2 filas y 2 columnas."
+      ]
+    },
+    {
+      "question": "Identifica el ejemplo de una matriz 3x3.",
+      "formula": "\\begin{pmatrix} 1 & 0 & 2 \\\\ 3 & 4 & 5 \\\\ 6 & 7 & 8 \\end{pmatrix}",
+      "options": [
+        "Matriz con 3 filas y 3 columnas",
+        "Matriz con 2 filas y 3 columnas",
+        "Matriz con 3 filas y 2 columnas",
+        "Matriz con 4 filas y 4 columnas"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Una matriz 3x3 tiene 3 filas y 3 columnas.",
+      "difficulty": "easy",
+      "procedure": [
+        "Contar el número de filas y columnas.",
+        "Confirmar que la matriz tiene 3 filas y 3 columnas."
+      ]
+    },
+    {
+      "question": "¿Qué es una matriz cuadrada?",
+      "formula": "Matriz \\; cuadrada = matriz con igual número de filas y columnas",
+      "options": [
+        "Matriz con filas mayores que columnas",
+        "Matriz con columnas mayores que filas",
+        "Matriz con igual número de filas y columnas",
+        "Matriz con al menos una fila"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Una matriz cuadrada tiene el mismo número de filas y columnas.",
+      "difficulty": "easy",
+      "procedure": [
+        "Definir el concepto de matriz cuadrada.",
+        "Elegir la opción que indique igualdad entre filas y columnas."
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes opciones representa una matriz diagonal?",
+      "formula": "\\begin{pmatrix} 5 & 0 \\\\ 0 & 3 \\end{pmatrix}",
+      "options": [
+        "Matriz donde los elementos fuera de la diagonal principal son cero",
+        "Matriz con todos los elementos iguales",
+        "Matriz con ceros en la diagonal principal",
+        "Matriz no cuadrada"
+      ],
+      "correctAnswer": 0,
+      "explanation": "En una matriz diagonal, los elementos fuera de la diagonal principal son cero.",
+      "difficulty": "easy",
+      "procedure": [
+        "Observar que solo los elementos de la diagonal tienen valores diferentes de cero.",
+        "Seleccionar la opción que refleja esta propiedad."
+      ]
+    },
+    {
+      "question": "¿Qué caracteriza a una matriz identidad?",
+      "formula": "Matriz \\; identidad = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}",
+      "options": [
+        "Tiene 1 en la diagonal y ceros en el resto",
+        "Tiene todos sus elementos iguales a 1",
+        "Es diagonal pero no cuadrada",
+        "Es una matriz triangular"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La matriz identidad tiene 1 en cada posición de la diagonal y 0 en los demás lugares.",
+      "difficulty": "easy",
+      "procedure": [
+        "Reconocer la estructura de la matriz identidad.",
+        "Verificar que los elementos fuera de la diagonal son cero."
+      ]
+    },
+    {
+      "question": "Identifica la matriz triangular superior.",
+      "formula": "\\begin{pmatrix} 2 & 3 & 4 \\\\ 0 & 5 & 6 \\\\ 0 & 0 & 7 \\end{pmatrix}",
+      "options": [
+        "Matriz con elementos debajo de la diagonal principal iguales a cero",
+        "Matriz con elementos sobre la diagonal principal iguales a cero",
+        "Matriz diagonal",
+        "Matriz identidad"
+      ],
+      "correctAnswer": 0,
+      "explanation": "En una matriz triangular superior, los elementos por debajo de la diagonal principal son cero.",
+      "difficulty": "easy",
+      "procedure": [
+        "Revisar que todos los elementos bajo la diagonal principal son cero.",
+        "Confirmar que es una matriz triangular superior."
+      ]
+    },
+    {
+      "question": "Identifica la matriz triangular inferior.",
+      "formula": "\\begin{pmatrix} 2 & 0 & 0 \\\\ 3 & 5 & 0 \\\\ 4 & 6 & 7 \\end{pmatrix}",
+      "options": [
+        "Matriz con elementos sobre la diagonal principal iguales a cero",
+        "Matriz con elementos debajo de la diagonal principal iguales a cero",
+        "Matriz diagonal",
+        "Matriz identidad"
+      ],
+      "correctAnswer": 0,
+      "explanation": "En una matriz triangular inferior, los elementos sobre la diagonal principal son cero.",
+      "difficulty": "easy",
+      "procedure": [
+        "Verificar que los elementos sobre la diagonal son cero.",
+        "Seleccionar la opción correspondiente."
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes es una matriz nula?",
+      "formula": "\\begin{pmatrix} 0 & 0 \\\\ 0 & 0 \\end{pmatrix}",
+      "options": [
+        "Matriz con todos sus elementos iguales a 0",
+        "Matriz con 0 en la diagonal y otros números fuera",
+        "Matriz identidad",
+        "Matriz diagonal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Una matriz nula es aquella en la que todos sus elementos son 0.",
+      "difficulty": "easy",
+      "procedure": [
+        "Observar que todos los elementos de la matriz son 0.",
+        "Confirmar que se trata de la matriz nula."
+      ]
+    },
+    {
+      "question": "¿Qué es la transpuesta de una matriz?",
+      "formula": "A^T = Intercambio de filas por columnas de  A",
+      "options": [
+        "Es la inversa de una matriz",
+        "Es la matriz obtenida al intercambiar filas por columnas",
+        "Es una matriz simétrica",
+        "Es la matriz con valores duplicados"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La transpuesta de una matriz se obtiene intercambiando sus filas por columnas.",
+      "difficulty": "easy",
+      "procedure": [
+        "Definir el concepto de transpuesta.",
+        "Seleccionar la opción que describe el intercambio de filas y columnas."
+      ]
+    },
+    {
+      "question": "¿Cuándo se dice que una matriz es simétrica?",
+      "formula": "A = A^T",
+      "options": [
+        "Cuando su transpuesta es igual a ella misma",
+        "Cuando es diagonal",
+        "Cuando es cuadrada y triangular",
+        "Cuando sus elementos son todos positivos"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Una matriz es simétrica si es cuadrada y su transpuesta es igual a la matriz original.",
+      "difficulty": "easy",
+      "procedure": [
+        "Reconocer que la simetría se define con la igualdad A = A^T.",
+        "Elegir la opción correcta."
+      ]
+    },
+    {
+      "question": "Calcula la transpuesta de la matriz 2x3: \\( A = \\begin{pmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\end{pmatrix} \\)",
+      "formula": "",
+      "options": [
+        "\\( A^T = \\begin{pmatrix} 1 & 4 \\\\ 2 & 5 \\\\ 3 & 6 \\end{pmatrix} \\)",
+        "\\( A^T = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\\\ 5 & 6 \\end{pmatrix} \\)",
+        "\\( A^T = \\begin{pmatrix} 4 & 1 \\\\ 5 & 2 \\\\ 6 & 3 \\end{pmatrix} \\)",
+        "\\( A^T = \\begin{pmatrix} 3 & 6 \\\\ 2 & 5 \\\\ 1 & 4 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La transpuesta intercambia las filas por columnas, obteniéndose la primera columna de A como la primera fila de A^T, y así sucesivamente.",
+      "difficulty": "easy",
+      "procedure": [
+        "Observar que A tiene 2 filas y 3 columnas.",
+        "Intercambiar filas por columnas para obtener A^T."
+      ]
+    },
+    {
+      "question": "Calcula la transpuesta de la matriz 3x3: \\( B = \\begin{pmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\\\ 7 & 8 & 9 \\end{pmatrix} \\)",
+      "formula": "",
+      "options": [
+        "\\( B^T = \\begin{pmatrix} 1 & 4 & 7 \\\\ 2 & 5 & 8 \\\\ 3 & 6 & 9 \\end{pmatrix} \\)",
+        "\\( B^T = \\begin{pmatrix} 9 & 6 & 3 \\\\ 8 & 5 & 2 \\\\ 7 & 4 & 1 \\end{pmatrix} \\)",
+        "\\( B^T = B \\)",
+        "\\( B^T = \\begin{pmatrix} 1 & 3 & 7 \\\\ 2 & 5 & 8 \\\\ 3 & 6 & 9 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La transpuesta de una matriz 3x3 se obtiene intercambiando filas y columnas, por lo que la opción correcta es la primera.",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar que B es una matriz 3x3.",
+        "Aplicar la definición de transpuesta intercambiando filas por columnas."
+      ]
+    },
+    {
+      "question": "Determina el orden de la matriz: \\( C = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\\\ 5 & 6 \\end{pmatrix} \\)",
+      "formula": "",
+      "options": ["2x3}", "3x2}", "3x3}", "2x2}"],
+      "correctAnswer": 1,
+      "explanation": "La matriz tiene 3 filas y 2 columnas, es decir, orden 3x2.",
+      "difficulty": "easy",
+      "procedure": [
+        "Contar el número de filas (3) y columnas (2).",
+        "Determinar que el orden es 3x2."
+      ]
+    },
+    {
+      "question": "¿Cuál es la característica principal de una matriz diagonal?",
+      "formula": "",
+      "options": [
+        "Solo tiene ceros fuera de la diagonal principal",
+        "Todos sus elementos son distintos de cero",
+        "Es siempre simétrica",
+        "Es siempre nula"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Una matriz diagonal tiene ceros en todas las posiciones fuera de la diagonal principal.",
+      "difficulty": "easy",
+      "procedure": [
+        "Analizar la estructura de una matriz diagonal.",
+        "Confirmar que los elementos fuera de la diagonal son cero."
+      ]
+    },
+    {
+      "question": "¿Cuál es la característica de una matriz identidad?",
+      "formula": "",
+      "options": [
+        "1 en la diagonal principal y 0 en el resto",
+        "0 en la diagonal principal y 1 en el resto",
+        "Todos sus elementos son 1",
+        "Es una matriz triangular"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La matriz identidad tiene 1 en la diagonal principal y 0 en las demás posiciones.",
+      "difficulty": "easy",
+      "procedure": [
+        "Reconocer la estructura típica de la matriz identidad.",
+        "Verificar la disposición de 1 y 0."
+      ]
+    },
+    {
+      "question": "¿Qué es una matriz triangular superior?",
+      "formula": "",
+      "options": [
+        "Matriz donde los elementos debajo de la diagonal son 0",
+        "Matriz donde los elementos sobre la diagonal son 0",
+        "Matriz diagonal",
+        "Matriz nula"
+      ],
+      "correctAnswer": 0,
+      "explanation": "En una matriz triangular superior, todos los elementos debajo de la diagonal principal son 0.",
+      "difficulty": "easy",
+      "procedure": [
+        "Definir la matriz triangular superior.",
+        "Elegir la opción que cumple la condición."
+      ]
+    },
+    {
+      "question": "¿Qué es una matriz triangular inferior?",
+      "formula": "",
+      "options": [
+        "Matriz donde los elementos sobre la diagonal son 0",
+        "Matriz donde los elementos debajo de la diagonal son 0",
+        "Matriz identidad",
+        "Matriz diagonal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "En una matriz triangular inferior, los elementos sobre la diagonal principal son 0.",
+      "difficulty": "easy",
+      "procedure": [
+        "Definir la matriz triangular inferior.",
+        "Seleccionar la opción correcta."
+      ]
+    },
+    {
+      "question": "Dada la matriz \\( D = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} \\), ¿es una matriz cuadrada?",
+      "formula": "",
+      "options": [
+        "Sí, tiene el mismo número de filas y columnas",
+        "No, tiene más filas que columnas",
+        "No, tiene más columnas que filas",
+        "No, no es una matriz"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La matriz D tiene 2 filas y 2 columnas, por lo tanto es cuadrada.",
+      "difficulty": "easy",
+      "procedure": [
+        "Verificar que el número de filas es igual al de columnas.",
+        "Concluir que la matriz es cuadrada."
+      ]
+    },
+    {
+      "question": "Observa la matriz \\( E = \\begin{pmatrix} 2 & 3 \\\\ 3 & 2 \\end{pmatrix} \\). ¿Es simétrica?",
+      "formula": "",
+      "options": [
+        "Sí, porque  E = E^T.",
+        "No, porque no es cuadrada",
+        "No, porque los elementos no son iguales",
+        "No, porque solo algunas posiciones coinciden"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La matriz E es simétrica ya que es cuadrada y su transpuesta es igual a ella.",
+      "difficulty": "easy",
+      "procedure": [
+        "Comprobar que E es cuadrada.",
+        "Verificar que \\( E = E^T \\)."
+      ]
+    },
+    {
+      "question": "Determina si la matriz \\( F = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix} \\) es una matriz identidad.",
+      "formula": "",
+      "options": [
+        "Sí, es la matriz identidad",
+        "No, es una matriz diagonal pero no identidad",
+        "No, es una matriz nula",
+        "No, es una matriz triangular"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La matriz F es la identidad, ya que tiene 1 en la diagonal principal y 0 en las demás posiciones.",
+      "difficulty": "easy",
+      "procedure": [
+        "Observar la estructura de la matriz F.",
+        "Confirmar que es la matriz identidad."
+      ]
+    },
+    {
+      "question": "En la matriz \\( G = \\begin{pmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\end{pmatrix} \\), ¿cuál es el elemento \\( a_{2,3} \\)?",
+      "formula": "",
+      "options": ["3", "6", "5", "4"],
+      "correctAnswer": 1,
+      "explanation": "El elemento \\( a_{2,3} \\) se encuentra en la segunda fila, tercera columna, que es 6.",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar la posición indicada: fila 2, columna 3.",
+        "Encontrar el elemento correspondiente en la matriz G."
+      ]
+    },
+    {
+      "question": "¿Cuál es la diagonal principal en la matriz \\( H = \\begin{pmatrix} 7 & 2 & 3 \\\\ 4 & 8 & 6 \\\\ 1 & 5 & 9 \\end{pmatrix} \\)?",
+      "formula": "",
+      "options": [
+        "\\( 7, 8, 9 \\)",
+        "\\( 7, 2, 3 \\)",
+        "\\( 1, 5, 9 \\)",
+        "\\( 7, 4, 1 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La diagonal principal se compone de los elementos en las posiciones \\( (1,1), (2,2), (3,3) \\), es decir, 7, 8 y 9.",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar los elementos de la diagonal principal.",
+        "Seleccionar la opción que muestre 7, 8 y 9."
+      ]
+    },
+    {
+      "question": "¿Cuál es el orden de la matriz \\( I = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix} \\)?",
+      "formula": "",
+      "options": ["1x1", "2x2", "3x3", "2x3"],
+      "correctAnswer": 1,
+      "explanation": "La matriz I tiene 2 filas y 2 columnas, por lo tanto su orden es 2x2.",
+      "difficulty": "easy",
+      "procedure": [
+        "Contar el número de filas y columnas.",
+        "Determinar que el orden es 2x2."
+      ]
+    },
+    {
+      "question": "¿Qué define a una matriz nula?",
+      "formula": "",
+      "options": [
+        "Todos sus elementos son 0",
+        "Solo los elementos de la diagonal son 0",
+        "Tiene elementos mixtos de 0 y 1",
+        "Es una matriz identidad"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Una matriz nula es aquella en la que todos sus elementos son 0.",
+      "difficulty": "easy",
+      "procedure": [
+        "Verificar que todos los elementos son 0.",
+        "Confirmar que se corresponde con la definición de matriz nula."
+      ]
+    },
+    {
+      "question": "Calcula la transpuesta de la matriz \\( J = \\begin{pmatrix} 0 & 1 \\\\ 2 & 3 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "\\( J^T = \\begin{pmatrix} 0 & 2 \\\\ 1 & 3 \\end{pmatrix} \\)",
+        "\\( J^T = \\begin{pmatrix} 1 & 0 \\\\ 3 & 2 \\end{pmatrix} \\)",
+        "\\( J^T = \\begin{pmatrix} 0 & 1 \\\\ 2 & 3 \\end{pmatrix} \\)",
+        "\\( J^T = \\begin{pmatrix} 2 & 0 \\\\ 3 & 1 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Al intercambiar filas por columnas se obtiene la transpuesta de J.",
+      "difficulty": "easy",
+      "procedure": [
+        "Intercambiar la primera fila con la primera columna y la segunda fila con la segunda columna.",
+        "Seleccionar la opción que cumple con esta transformación."
+      ]
+    },
+    {
+      "question": "¿Cómo se verifica que una matriz es simétrica?",
+      "formula": "",
+      "options": [
+        "Comparando la matriz con su transpuesta",
+        "Comprobando que es diagonal",
+        "Verificando que todos los elementos sean iguales",
+        "Sumando los elementos de cada fila"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Una matriz es simétrica si es igual a su transpuesta, por lo que basta con compararlas.",
+      "difficulty": "easy",
+      "procedure": [
+        "Obtener la transpuesta de la matriz.",
+        "Comparar la matriz original con su transpuesta."
+      ]
+    },
+    {
+      "question": "Identifica la matriz identidad de 3x3.",
+      "formula": "\\(\\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1 \\end{pmatrix}\\)",
+      "options": [
+        "Matriz identidad de 3x3",
+        "Matriz diagonal",
+        "Matriz nula",
+        "Matriz triangular"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La matriz mostrada es la identidad, ya que tiene 1 en la diagonal y 0 en el resto.",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar la presencia de 1 en la diagonal principal.",
+        "Verificar que el resto de los elementos es 0."
+      ]
+    },
+    {
+      "question": "¿Qué propiedad cumple una matriz diagonal?",
+      "formula": "",
+      "options": [
+        "Todos los elementos fuera de la diagonal principal son 0",
+        "Todos los elementos son 0",
+        "La matriz es simétrica",
+        "La matriz es triangular superior"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Una matriz diagonal tiene 0 en todas las posiciones fuera de la diagonal principal.",
+      "difficulty": "easy",
+      "procedure": [
+        "Definir una matriz diagonal.",
+        "Seleccionar la opción que indica la propiedad correcta."
+      ]
+    },
+    {
+      "question": "¿Qué se entiende por el orden de una matriz?",
+      "formula": "",
+      "options": [
+        "El número total de elementos.",
+        "El número de filas multiplicado por el número de columnas.",
+        "El número de filas y columnas que la componen.",
+        "El valor de la suma de sus elementos."
+      ],
+      "correctAnswer": 2,
+      "explanation": "El orden de una matriz se define por el número de filas y columnas que la componen.",
+      "difficulty": "easy",
+      "procedure": [
+        "Recordar la definición de orden de una matriz.",
+        "Reconocer que el orden se expresa como m x n (filas x columnas)."
+      ]
+    },
+    {
+      "question": "Calcula el orden de la matriz \\( A = \\begin{pmatrix} 4 & 5 & 6 \\\\ 7 & 8 & 9 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "\\(2 \\times 3\\)",
+        "\\(3 \\times 2\\)",
+        "\\(2 \\times 2\\)",
+        "\\(3 \\times 3\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La matriz A tiene 2 filas y 3 columnas, por lo que su orden es 2x3.",
+      "difficulty": "easy",
+      "procedure": [
+        "Contar el número de filas (2).",
+        "Contar el número de columnas (3).",
+        "Expresar el orden como 2x3."
+      ]
+    },
+    {
+      "question": "Identifica el tipo de matriz: \\( B = \\begin{pmatrix} 0 & 0 \\\\ 0 & 0 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "Matriz identidad",
+        "Matriz diagonal",
+        "Matriz nula",
+        "Matriz simétrica"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La matriz B es una matriz nula, ya que todos sus elementos son 0.",
+      "difficulty": "easy",
+      "procedure": [
+        "Observar que cada elemento de B es 0.",
+        "Confirmar que cumple la definición de matriz nula."
+      ]
+    },
+    {
+      "question": "Determina el elemento \\( a_{1,2} \\) de la matriz \\( C = \\begin{pmatrix} 3 & 7 \\\\ 1 & 5 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": ["3", "7", "1", "5"],
+      "correctAnswer": 1,
+      "explanation": "El elemento \\( a_{1,2} \\) se ubica en la primera fila y segunda columna, que es 7.",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar la primera fila.",
+        "Contar hasta la segunda columna en esa fila.",
+        "Leer el valor correspondiente."
+      ]
+    },
+    {
+      "question": "¿Cuál es la transpuesta de la matriz \\( D = \\begin{pmatrix} 2 & 4 \\\\ 6 & 8 \\end{pmatrix} \\)?",
+      "formula": "",
+      "options": [
+        "\\( \\begin{pmatrix} 2 & 6 \\\\ 4 & 8 \\end{pmatrix} \\)",
+        "\\( \\begin{pmatrix} 2 & 4 \\\\ 6 & 8 \\end{pmatrix} \\)",
+        "\\( \\begin{pmatrix} 4 & 2 \\\\ 8 & 6 \\end{pmatrix} \\)",
+        "\\( \\begin{pmatrix} 8 & 6 \\\\ 4 & 2 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La transpuesta de una matriz se obtiene intercambiando filas por columnas.",
+      "difficulty": "easy",
+      "procedure": [
+        "Tomar la primera columna de D para formar la primera fila de \\( D^T \\).",
+        "Tomar la segunda columna de D para formar la segunda fila de \\( D^T \\)."
+      ]
+    },
+    {
+      "question": "¿Qué propiedad tiene una matriz simétrica?",
+      "formula": "Si \\( A = A^T \\), entonces A es simétrica.",
+      "options": [
+        "A es igual a su inversa.",
+        "A tiene todos sus elementos iguales.",
+        "A es igual a su transpuesta.",
+        "A tiene ceros fuera de la diagonal."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Una matriz es simétrica si es igual a su transpuesta, es decir, \\( A = A^T \\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Recordar la definición de matriz simétrica.",
+        "Comparar A con su transpuesta para confirmar la igualdad."
+      ]
+    },
+    {
+      "question": "Calcula la transpuesta de la matriz \\( E = \\begin{pmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "\\( \\begin{pmatrix} 1 & 4 \\\\ 2 & 5 \\\\ 3 & 6 \\end{pmatrix} \\)",
+        "\\( \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\\\ 5 & 6 \\end{pmatrix} \\)",
+        "\\( \\begin{pmatrix} 4 & 1 \\\\ 5 & 2 \\\\ 6 & 3 \\end{pmatrix} \\)",
+        "\\( \\begin{pmatrix} 3 & 6 \\\\ 2 & 5 \\\\ 1 & 4 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La transpuesta de E se obtiene al intercambiar filas por columnas.",
+      "difficulty": "easy",
+      "procedure": [
+        "La primera fila de E (1,2,3) se convierte en la primera columna de \\( E^T \\).",
+        "La segunda fila de E (4,5,6) se convierte en la segunda columna de \\( E^T \\)."
+      ]
+    },
+    {
+      "question": "¿Cuál es la matriz identidad de 2x2?",
+      "formula": "\\( I = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix} \\)",
+      "options": [
+        "Matriz diagonal con 1 en la diagonal y 0 fuera de ella.",
+        "Matriz nula.",
+        "Matriz simétrica con 0 en la diagonal.",
+        "Matriz triangular superior."
+      ],
+      "correctAnswer": 0,
+      "explanation": "La matriz identidad de 2x2 tiene 1 en la diagonal principal y 0 en los demás elementos.",
+      "difficulty": "easy",
+      "procedure": [
+        "Observar la estructura de la matriz identidad.",
+        "Confirmar que se cumplen las condiciones de identidad."
+      ]
+    },
+    {
+      "question": "¿Qué caracteriza a una matriz diagonal?",
+      "formula": "",
+      "options": [
+        "Todos los elementos son cero.",
+        "Solo los elementos de la diagonal principal pueden ser distintos de cero.",
+        "Los elementos fuera de la diagonal principal son iguales.",
+        "Es simétrica y triangular a la vez."
+      ],
+      "correctAnswer": 1,
+      "explanation": "En una matriz diagonal, todos los elementos fuera de la diagonal principal son cero.",
+      "difficulty": "easy",
+      "procedure": [
+        "Definir una matriz diagonal.",
+        "Verificar que solo la diagonal principal contiene valores distintos de cero."
+      ]
+    },
+    {
+      "question": "Identifica la matriz transpuesta de \\( F = \\begin{pmatrix} 5 & 7 \\\\ 9 & 11 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "\\( \\begin{pmatrix} 5 & 9 \\\\ 7 & 11 \\end{pmatrix} \\)",
+        "\\( \\begin{pmatrix} 7 & 5 \\\\ 11 & 9 \\end{pmatrix} \\)",
+        "\\( \\begin{pmatrix} 5 & 7 \\\\ 9 & 11 \\end{pmatrix} \\)",
+        "\\( \\begin{pmatrix} 9 & 11 \\\\ 5 & 7 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La transpuesta de F se obtiene intercambiando filas por columnas.",
+      "difficulty": "easy",
+      "procedure": [
+        "Tomar la primera columna de F (5,9) y convertirla en la primera fila de \\( F^T \\).",
+        "Tomar la segunda columna de F (7,11) y convertirla en la segunda fila de \\( F^T \\)."
+      ]
+    },
+    {
+      "question": "Determina el valor del elemento \\( a_{2,1} \\) en la matriz \\( G = \\begin{pmatrix} 8 & 3 \\\\ 5 & 2 \\\\ 7 & 4 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": ["8", "3", "5", "7"],
+      "correctAnswer": 2,
+      "explanation": "El elemento \\( a_{2,1} \\) está en la segunda fila y primera columna, que es 5.",
+      "difficulty": "easy",
+      "procedure": [
+        "Localizar la segunda fila.",
+        "Identificar el primer elemento de esa fila."
+      ]
+    },
+    {
+      "question": "¿Qué ocurre al transponer dos veces una matriz?",
+      "formula": "",
+      "options": [
+        "Se obtiene la matriz nula.",
+        "Se obtiene la matriz identidad.",
+        "Se obtiene la matriz original.",
+        "Se invierte el orden de las filas."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Transponer dos veces una matriz devuelve la matriz original.",
+      "difficulty": "easy",
+      "procedure": [
+        "Aplicar la propiedad de la transposición doble.",
+        "Concluir que \\( (A^T)^T = A \\)."
+      ]
+    },
+    {
+      "question": "¿Cómo se define una matriz rectangular?",
+      "formula": "",
+      "options": [
+        "Tiene el mismo número de filas y columnas.",
+        "Tiene un número diferente de filas y columnas.",
+        "Tiene todas sus entradas iguales.",
+        "Es simétrica."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Una matriz rectangular es aquella en la que el número de filas y columnas no es igual.",
+      "difficulty": "easy",
+      "procedure": [
+        "Comparar el número de filas y columnas.",
+        "Determinar que son distintos para ser rectangular."
+      ]
+    },
+    {
+      "question": "Identifica la matriz nula de 3x3:",
+      "formula": "\\( \\begin{pmatrix} 0 & 0 & 0 \\\\ 0 & 0 & 0 \\\\ 0 & 0 & 0 \\end{pmatrix} \\)",
+      "options": [
+        "Matriz identidad",
+        "Matriz diagonal",
+        "Matriz nula",
+        "Matriz simétrica"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Todos los elementos son cero, cumpliendo la definición de matriz nula.",
+      "difficulty": "easy",
+      "procedure": [
+        "Observar que cada entrada es 0.",
+        "Confirmar la definición de matriz nula."
+      ]
+    },
+    {
+      "question": "Calcula la transpuesta de la matriz \\( H = \\begin{pmatrix} 10 & 20 \\\\ 30 & 40 \\\\ 50 & 60 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "\\( \\begin{pmatrix} 10 & 30 & 50 \\\\ 20 & 40 & 60 \\end{pmatrix} \\)",
+        "\\( \\begin{pmatrix} 10 & 20 \\\\ 30 & 40 \\\\ 50 & 60 \\end{pmatrix} \\)",
+        "\\( \\begin{pmatrix} 50 & 30 & 10 \\\\ 60 & 40 & 20 \\end{pmatrix} \\)",
+        "\\( \\begin{pmatrix} 20 & 40 & 60 \\\\ 10 & 30 & 50 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La transpuesta se obtiene intercambiando filas y columnas, transformando la matriz de 3x2 en 2x3.",
+      "difficulty": "easy",
+      "procedure": [
+        "La primera columna (10, 30, 50) se convierte en la primera fila.",
+        "La segunda columna (20, 40, 60) se convierte en la segunda fila."
+      ]
+    },
+    {
+      "question": "¿Qué valor se encuentra en la diagonal principal de la matriz \\( I = \\begin{pmatrix} 9 & 2 & 3 \\\\ 4 & 8 & 1 \\\\ 5 & 6 & 7 \\end{pmatrix} \\) en la posición (2,2)?",
+      "formula": "",
+      "options": ["9", "8", "1", "7"],
+      "correctAnswer": 1,
+      "explanation": "El elemento en la posición (2,2) es 8, que pertenece a la diagonal principal.",
+      "difficulty": "easy",
+      "procedure": [
+        "Localizar la segunda fila y segunda columna.",
+        "Leer el valor correspondiente."
+      ]
+    },
+    {
+      "question": "¿Cuál es la diferencia principal entre una matriz diagonal y una identidad?",
+      "formula": "",
+      "options": [
+        "La matriz identidad siempre es cuadrada, mientras que la diagonal no.",
+        "En la matriz identidad los elementos de la diagonal son 1, mientras que en una diagonal pueden ser otros números.",
+        "No hay diferencia, son lo mismo.",
+        "La identidad tiene ceros en la diagonal."
+      ],
+      "correctAnswer": 1,
+      "explanation": "La matriz identidad es un caso especial de la diagonal, donde los elementos de la diagonal son 1.",
+      "difficulty": "easy",
+      "procedure": [
+        "Definir matriz diagonal y matriz identidad.",
+        "Comparar los elementos de la diagonal en cada una."
+      ]
+    },
+    {
+      "question": "En la multiplicación de matrices, ¿qué resultado se obtiene al sumar una matriz nula a cualquier otra matriz?",
+      "formula": "",
+      "options": [
+        "Se obtiene la matriz nula.",
+        "Se obtiene la matriz identidad.",
+        "Se obtiene la misma matriz.",
+        "Se invierten los elementos de la matriz."
+      ],
+      "correctAnswer": 2,
+      "explanation": "La suma de cualquier matriz con la matriz nula devuelve la matriz original.",
+      "difficulty": "easy",
+      "procedure": [
+        "Aplicar la propiedad de la matriz nula en la suma.",
+        "Confirmar que la otra matriz permanece sin cambios."
+      ]
+    },
+    {
+      "question": "¿Qué elemento se encuentra en la posición \\( a_{3,3} \\) de la matriz \\( J = \\begin{pmatrix} 2 & 4 & 6 \\\\ 8 & 10 & 12 \\\\ 14 & 16 & 18 \\end{pmatrix} \\)?",
+      "formula": "",
+      "options": ["12", "14", "16", "18"],
+      "correctAnswer": 3,
+      "explanation": "El elemento \\( a_{3,3} \\) corresponde a la tercera fila y tercera columna, que es 18.",
+      "difficulty": "easy",
+      "procedure": [
+        "Contar hasta la tercera fila.",
+        "Identificar el tercer elemento en esa fila."
+      ]
+    },
+    {
+      "question": "Determina la transpuesta de la matriz \\( K = \\begin{pmatrix} 3 & 1 & 4 \\\\ 1 & 5 & 9 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "\\( \\begin{pmatrix} 3 & 1 \\\\ 1 & 5 \\\\ 4 & 9 \\end{pmatrix} \\)",
+        "\\( \\begin{pmatrix} 3 & 1 & 4 \\\\ 1 & 5 & 9 \\end{pmatrix} \\)",
+        "\\( \\begin{pmatrix} 1 & 3 \\\\ 5 & 1 \\\\ 9 & 4 \\end{pmatrix} \\)",
+        "\\( \\begin{pmatrix} 4 & 9 \\\\ 1 & 5 \\\\ 3 & 1 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La transpuesta de K se obtiene al intercambiar filas y columnas.",
+      "difficulty": "easy",
+      "procedure": [
+        "Convertir la primera fila en la primera columna.",
+        "Convertir la segunda fila en la segunda columna."
+      ]
+    },
+    {
+      "question": "¿Cuál es la característica de una matriz que se define como \"cuadrada\"?",
+      "formula": "",
+      "options": [
+        "Tiene más filas que columnas.",
+        "Tiene igual número de filas y columnas.",
+        "Tiene elementos iguales en toda la matriz.",
+        "Tiene todos los elementos diferentes."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Una matriz cuadrada tiene el mismo número de filas y columnas.",
+      "difficulty": "easy",
+      "procedure": [
+        "Comparar el número de filas y columnas.",
+        "Verificar que son iguales."
+      ]
+    },
+    {
+      "question": "Determina el elemento \\( a_{1,1} \\) de la matriz \\( L = \\begin{pmatrix} 11 & 22 \\\\ 33 & 44 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": ["11", "22", "33", "44"],
+      "correctAnswer": 0,
+      "explanation": "El elemento \\( a_{1,1} \\) es el primer elemento de la primera fila, que es 11.",
+      "difficulty": "easy",
+      "procedure": [
+        "Ubicar la primera fila.",
+        "Leer el primer elemento de esa fila."
+      ]
+    },
+    {
+      "question": "¿Qué valor tienen los elementos fuera de la diagonal principal en una matriz identidad?",
+      "formula": "",
+      "options": ["1", "0", "Depende de la matriz", "Pueden ser 1 o 0"],
+      "correctAnswer": 1,
+      "explanation": "En una matriz identidad, los elementos fuera de la diagonal principal son 0.",
+      "difficulty": "easy",
+      "procedure": [
+        "Recordar la definición de matriz identidad.",
+        "Confirmar que los elementos fuera de la diagonal son 0."
+      ]
+    },
+    {
+      "question": "¿Cómo se denomina la matriz obtenida al intercambiar filas por columnas?",
+      "formula": "",
+      "options": [
+        "Matriz inversa",
+        "Matriz transpuesta",
+        "Matriz simétrica",
+        "Matriz identidad"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La matriz obtenida al intercambiar filas por columnas se llama transpuesta.",
+      "difficulty": "easy",
+      "procedure": [
+        "Aplicar la definición de matriz transpuesta.",
+        "Seleccionar la opción que la describa correctamente."
+      ]
+    },
+    {
+      "question": "Identifica la matriz simétrica: \\( M = \\begin{pmatrix} 7 & 2 \\\\ 2 & 5 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "Matriz simétrica",
+        "Matriz diagonal",
+        "Matriz triangular",
+        "Matriz nula"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La matriz M es simétrica porque es igual a su transpuesta.",
+      "difficulty": "easy",
+      "procedure": [
+        "Verificar que \\( M = M^T \\).",
+        "Confirmar que cumple la propiedad de simetría."
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes matrices es triangular inferior?",
+      "formula": "",
+      "options": [
+        "\\( \\begin{pmatrix} 1 & 2 \\\\ 0 & 3 \\end{pmatrix} \\)",
+        "\\( \\begin{pmatrix} 1 & 0 \\\\ 2 & 3 \\end{pmatrix} \\)",
+        "\\( \\begin{pmatrix} 0 & 1 \\\\ 3 & 2 \\end{pmatrix} \\)",
+        "\\( \\begin{pmatrix} 1 & 3 \\\\ 2 & 0 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "En una matriz triangular inferior, los elementos sobre la diagonal principal son 0. En este caso, la matriz tiene 0 en la posición (1,2).",
+      "difficulty": "easy",
+      "procedure": [
+        "Revisar la posición de los ceros en la matriz.",
+        "Identificar que los elementos sobre la diagonal son 0."
+      ]
+    },
+    {
+      "question": "¿Qué propiedad distingue a una matriz identidad al multiplicar por otra matriz?",
+      "formula": "",
+      "options": [
+        "Multiplicarla la convierte en una matriz nula.",
+        "No altera la otra matriz.",
+        "Duplica los valores de la otra matriz.",
+        "La hace simétrica."
+      ],
+      "correctAnswer": 1,
+      "explanation": "La matriz identidad actúa como elemento neutro en la multiplicación de matrices.",
+      "difficulty": "easy",
+      "procedure": [
+        "Recordar la propiedad multiplicativa de la matriz identidad.",
+        "Concluir que el producto es la misma matriz."
+      ]
+    },
+    {
+      "question": "Determina el tipo de matriz: \\( N = \\begin{pmatrix} 4 & 0 & 0 \\\\ 0 & 4 & 0 \\\\ 0 & 0 & 4 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "Matriz identidad",
+        "Matriz nula",
+        "Matriz diagonal",
+        "Matriz simétrica"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La matriz N es diagonal porque solo tiene valores distintos de cero en la diagonal principal.",
+      "difficulty": "easy",
+      "procedure": [
+        "Observar la posición de los elementos no nulos.",
+        "Confirmar que se limitan a la diagonal principal."
+      ]
+    },
+    {
+      "question": "Calcula la transpuesta de la matriz \\( O = \\begin{pmatrix} 0 & 2 & 4 \\\\ 1 & 3 & 5 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "\\( \\begin{pmatrix} 0 & 1 \\\\ 2 & 3 \\\\ 4 & 5 \\end{pmatrix} \\)",
+        "\\( \\begin{pmatrix} 0 & 2 & 4 \\\\ 1 & 3 & 5 \\end{pmatrix} \\)",
+        "\\( \\begin{pmatrix} 4 & 5 \\\\ 2 & 3 \\\\ 0 & 1 \\end{pmatrix} \\)",
+        "\\( \\begin{pmatrix} 1 & 0 \\\\ 3 & 2 \\\\ 5 & 4 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La transpuesta de O intercambia sus filas por columnas, transformando la matriz 2x3 en 3x2.",
+      "difficulty": "easy",
+      "procedure": [
+        "Convertir la primera fila (0, 2, 4) en la primera columna.",
+        "Convertir la segunda fila (1, 3, 5) en la segunda columna."
+      ]
+    },
+    {
+      "question": "Define qué es una matriz y menciona sus componentes.",
+      "formula": "Una matriz es un conjunto de números dispuestos en filas y columnas.",
+      "options": [
+        "Una lista de números.",
+        "Una función matemática.",
+        "Un conjunto de números organizados en filas y columnas.",
+        "Una ecuación."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Una matriz se compone de filas y columnas que organizan números.",
+      "difficulty": "easy",
+      "procedure": [
+        "Comprender la definición de matriz.",
+        "Identificar que se estructura en filas y columnas."
+      ]
+    },
+    {
+      "question": "Identifica la matriz 2x2 en el siguiente ejemplo.",
+      "formula": "\\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}",
+      "options": ["Matriz 2x2", "Matriz 2x3", "Matriz 3x2", "Matriz 3x3"],
+      "correctAnswer": 0,
+      "explanation": "La matriz tiene 2 filas y 2 columnas, por lo que es 2x2.",
+      "difficulty": "easy",
+      "procedure": [
+        "Contar el número de filas y columnas.",
+        "Verificar que hay 2 filas y 2 columnas."
+      ]
+    },
+    {
+      "question": "Identifica la matriz 3x3 en el siguiente ejemplo.",
+      "formula": "\\begin{pmatrix} 1 & 0 & 2 \\\\ 3 & 4 & 5 \\\\ 6 & 7 & 8 \\end{pmatrix}",
+      "options": ["Matriz 2x3", "Matriz 3x2", "Matriz 3x3", "Matriz 2x2"],
+      "correctAnswer": 2,
+      "explanation": "La matriz tiene 3 filas y 3 columnas, por lo que es 3x3.",
+      "difficulty": "easy",
+      "procedure": [
+        "Contar las filas y las columnas.",
+        "Confirmar que ambos recuentos son 3."
+      ]
+    },
+    {
+      "question": "¿Qué se entiende por el orden de una matriz?",
+      "formula": "",
+      "options": [
+        "La suma de sus elementos.",
+        "El producto de sus elementos.",
+        "El número de filas y columnas.",
+        "El determinante de la matriz."
+      ],
+      "correctAnswer": 2,
+      "explanation": "El orden se refiere a la cantidad de filas y columnas que tiene la matriz.",
+      "difficulty": "easy",
+      "procedure": [
+        "Definir el concepto de orden en una matriz.",
+        "Seleccionar la opción que indica filas y columnas."
+      ]
+    },
+    {
+      "question": "¿Qué caracteriza a una matriz cuadrada?",
+      "formula": "",
+      "options": [
+        "Tiene el mismo número de filas y columnas.",
+        "Tiene filas y columnas diferentes.",
+        "Es siempre diagonal.",
+        "Es siempre simétrica."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Una matriz cuadrada posee el mismo número de filas y columnas.",
+      "difficulty": "easy",
+      "procedure": [
+        "Comparar el número de filas y columnas.",
+        "Elegir la opción que denote igualdad en ambos."
+      ]
+    },
+    {
+      "question": "¿Qué es una matriz diagonal?",
+      "formula": "",
+      "options": [
+        "Una matriz con todos los elementos iguales a cero.",
+        "Una matriz con valores distintos en toda la matriz.",
+        "Una matriz en la que solo la diagonal principal puede tener valores distintos de cero.",
+        "Una matriz simétrica."
+      ],
+      "correctAnswer": 2,
+      "explanation": "En una matriz diagonal, únicamente los elementos de la diagonal principal pueden ser diferentes de cero.",
+      "difficulty": "easy",
+      "procedure": [
+        "Definir la matriz diagonal.",
+        "Seleccionar la opción que señala que fuera de la diagonal hay ceros."
+      ]
+    },
+    {
+      "question": "Identifica la matriz identidad de 3x3.",
+      "formula": "\\(\\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1 \\end{pmatrix}\\)",
+      "options": [
+        "Matriz identidad",
+        "Matriz diagonal",
+        "Matriz nula",
+        "Matriz simétrica"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La matriz identidad de 3x3 tiene 1 en la diagonal principal y 0 en las demás posiciones.",
+      "difficulty": "easy",
+      "procedure": [
+        "Verificar la presencia de 1 en la diagonal principal.",
+        "Confirmar que los demás elementos son 0."
+      ]
+    },
+    {
+      "question": "¿Qué es una matriz nula?",
+      "formula": "",
+      "options": [
+        "Una matriz con todos sus elementos iguales a 1.",
+        "Una matriz con la diagonal principal igual a 0.",
+        "Una matriz con todos sus elementos iguales a 0.",
+        "Una matriz simétrica con ceros en la diagonal."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Una matriz nula es aquella en la que cada elemento es 0.",
+      "difficulty": "easy",
+      "procedure": [
+        "Definir matriz nula.",
+        "Seleccionar la opción que indica que todos los elementos son 0."
+      ]
+    },
+    {
+      "question": "Calcula la transpuesta de la matriz \\( P = \\begin{pmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "\\( \\begin{pmatrix} 1 & 4 \\\\ 2 & 5 \\\\ 3 & 6 \\end{pmatrix} \\)",
+        "\\( \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\\\ 5 & 6 \\end{pmatrix} \\)",
+        "\\( \\begin{pmatrix} 4 & 1 \\\\ 5 & 2 \\\\ 6 & 3 \\end{pmatrix} \\)",
+        "\\( \\begin{pmatrix} 3 & 6 \\\\ 2 & 5 \\\\ 1 & 4 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La transpuesta se obtiene al intercambiar las filas por columnas de la matriz.",
+      "difficulty": "easy",
+      "procedure": [
+        "Intercambiar la primera fila con la primera columna y la segunda fila con la segunda columna.",
+        "Verificar el nuevo arreglo."
+      ]
+    },
+    {
+      "question": "Determina si la siguiente matriz es simétrica: \\( Q = \\begin{pmatrix} 3 & 7 \\\\ 7 & 5 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "Sí, es simétrica.",
+        "No, no es simétrica.",
+        "Solo es diagonal.",
+        "Solo es triangular."
+      ],
+      "correctAnswer": 0,
+      "explanation": "La matriz es simétrica porque es igual a su transpuesta.",
+      "difficulty": "easy",
+      "procedure": [
+        "Comparar la matriz original con su transpuesta.",
+        "Verificar la igualdad de los elementos fuera de la diagonal."
+      ]
+    },
+    {
+      "question": "¿Cómo se obtiene la matriz transpuesta de una matriz dada?",
+      "formula": "",
+      "options": [
+        "Intercambiando filas por columnas.",
+        "Multiplicando por la identidad.",
+        "Sumando sus elementos.",
+        "Restando la matriz nula."
+      ],
+      "correctAnswer": 0,
+      "explanation": "La transpuesta se obtiene al intercambiar filas por columnas.",
+      "difficulty": "easy",
+      "procedure": [
+        "Definir el proceso de transposición.",
+        "Seleccionar la opción que indica el intercambio."
+      ]
+    },
+    {
+      "question": "Encuentra el elemento \\( a_{2,1} \\) de la matriz \\( R = \\begin{pmatrix} 5 & 8 \\\\ 3 & 7 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": ["5", "8", "3", "7"],
+      "correctAnswer": 2,
+      "explanation": "El elemento \\( a_{2,1} \\) se encuentra en la segunda fila y primera columna, que es 3.",
+      "difficulty": "easy",
+      "procedure": [
+        "Localizar la segunda fila.",
+        "Seleccionar el primer elemento de esa fila."
+      ]
+    },
+    {
+      "question": "Determina el elemento \\( a_{1,3} \\) en la matriz \\( S = \\begin{pmatrix} 4 & 9 & 2 \\\\ 7 & 5 & 3 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": ["4", "9", "2", "7"],
+      "correctAnswer": 2,
+      "explanation": "El elemento \\( a_{1,3} \\) está en la primera fila, tercera columna, y su valor es 2.",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar la primera fila.",
+        "Seleccionar el tercer elemento de esa fila."
+      ]
+    },
+    {
+      "question": "¿Qué sucede al sumar una matriz nula a otra matriz?",
+      "formula": "",
+      "options": [
+        "Se obtiene una matriz nula.",
+        "Se obtiene la misma matriz.",
+        "Se obtiene la matriz identidad.",
+        "Se invierten los elementos de la matriz."
+      ],
+      "correctAnswer": 1,
+      "explanation": "La suma de una matriz nula con otra matriz devuelve la matriz original.",
+      "difficulty": "easy",
+      "procedure": [
+        "Recordar la propiedad aditiva de la matriz nula.",
+        "Confirmar que la otra matriz permanece sin cambios."
+      ]
+    },
+    {
+      "question": "Calcula la transpuesta de la matriz triangular superior \\( T = \\begin{pmatrix} 3 & 5 \\\\ 0 & 6 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "\\( \\begin{pmatrix} 3 & 0 \\\\ 5 & 6 \\end{pmatrix} \\)",
+        "\\( \\begin{pmatrix} 3 & 5 \\\\ 0 & 6 \\end{pmatrix} \\)",
+        "\\( \\begin{pmatrix} 0 & 3 \\\\ 6 & 5 \\end{pmatrix} \\)",
+        "\\( \\begin{pmatrix} 5 & 3 \\\\ 6 & 0 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Al intercambiar filas por columnas, la primera fila (3,5) se transforma en la primera columna, y la segunda fila (0,6) en la segunda columna.",
+      "difficulty": "easy",
+      "procedure": [
+        "Intercambiar los elementos de las filas por columnas.",
+        "Verificar la correcta posición de cada elemento."
+      ]
+    },
+    {
+      "question": "Identifica la matriz triangular inferior en el siguiente ejemplo.",
+      "formula": "\\begin{pmatrix} 4 & 0 \\\\ 7 & 5 \\end{pmatrix}",
+      "options": [
+        "Matriz triangular superior",
+        "Matriz triangular inferior",
+        "Matriz diagonal",
+        "Matriz identidad"
+      ],
+      "correctAnswer": 1,
+      "explanation": "En una matriz triangular inferior, los elementos por encima de la diagonal principal son 0; aquí, el elemento (1,2) es 0.",
+      "difficulty": "easy",
+      "procedure": [
+        "Observar la posición de los ceros en la matriz.",
+        "Confirmar que cumple la definición de triangular inferior."
+      ]
+    },
+    {
+      "question": "¿Qué se requiere para sumar dos matrices?",
+      "formula": "",
+      "options": [
+        "Que sean de la misma dimensión.",
+        "Que sean cuadradas.",
+        "Que sean triangulares.",
+        "Que una sea la transpuesta de la otra."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Para sumar dos matrices, estas deben tener el mismo número de filas y columnas.",
+      "difficulty": "easy",
+      "procedure": [
+        "Recordar la regla de la suma de matrices.",
+        "Seleccionar la opción que indica la misma dimensión."
+      ]
+    },
+    {
+      "question": "Calcula la suma de las siguientes matrices 2x2: \\( A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} \\) y \\( B = \\begin{pmatrix} 5 & 6 \\\\ 7 & 8 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "\\( \\begin{pmatrix} 6 & 8 \\\\ 10 & 12 \\end{pmatrix} \\)",
+        "\\( \\begin{pmatrix} 4 & 4 \\\\ 4 & 4 \\end{pmatrix} \\)",
+        "\\( \\begin{pmatrix} 5 & 7 \\\\ 9 & 11 \\end{pmatrix} \\)",
+        "\\( \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La suma se realiza elemento a elemento: 1+5=6, 2+6=8, etc.",
+      "difficulty": "easy",
+      "procedure": [
+        "Sumar cada par de elementos correspondientes.",
+        "Verificar el resultado final."
+      ]
+    },
+    {
+      "question": "Calcula la suma de las siguientes matrices 3x3: \\( C = \\begin{pmatrix} 1 & 0 & 2 \\\\ 0 & 3 & 4 \\\\ 5 & 6 & 7 \\end{pmatrix} \\) y \\( D = \\begin{pmatrix} 2 & 1 & 0 \\\\ 4 & 5 & 6 \\\\ 7 & 8 & 9 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "\\( \\begin{pmatrix} 3 & 1 & 2 \\\\ 4 & 8 & 10 \\\\ 12 & 14 & 16 \\end{pmatrix} \\)",
+        "\\( \\begin{pmatrix} 3 & 1 & 2 \\\\ 4 & 8 & 10 \\\\ 12 & 14 & 17 \\end{pmatrix} \\)",
+        "\\( \\begin{pmatrix} 1 & 0 & 2 \\\\ 0 & 3 & 4 \\\\ 5 & 6 & 7 \\end{pmatrix} \\)",
+        "\\( \\begin{pmatrix} 2 & 1 & 0 \\\\ 4 & 5 & 6 \\\\ 7 & 8 & 9 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La suma se realiza sumando cada elemento correspondiente de las dos matrices.",
+      "difficulty": "easy",
+      "procedure": [
+        "Sumar 1+2, 0+1, 2+0, etc., para cada posición.",
+        "Verificar que el resultado es el mostrado."
+      ]
+    },
+    {
+      "question": "¿Cuál es la diferencia entre una matriz diagonal y una identidad?",
+      "formula": "",
+      "options": [
+        "La identidad tiene 1 en la diagonal, mientras que en una diagonal pueden estar otros números.",
+        "No hay diferencia, son lo mismo.",
+        "La diagonal de la identidad siempre es cero.",
+        "La identidad no es cuadrada."
+      ],
+      "correctAnswer": 0,
+      "explanation": "La matriz identidad es un caso especial de la diagonal en el que los elementos de la diagonal principal son 1.",
+      "difficulty": "easy",
+      "procedure": [
+        "Comparar las definiciones de matriz diagonal e identidad.",
+        "Seleccionar la opción que destaque la diferencia en los valores diagonales."
+      ]
+    },
+    {
+      "question": "Identifica una matriz simétrica en el siguiente ejemplo: \\( E = \\begin{pmatrix} 2 & 5 \\\\ 5 & 3 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "Es simétrica.",
+        "No es simétrica.",
+        "Es diagonal.",
+        "Es triangular."
+      ],
+      "correctAnswer": 0,
+      "explanation": "La matriz es simétrica ya que es igual a su transpuesta.",
+      "difficulty": "easy",
+      "procedure": [
+        "Comparar la matriz con su transpuesta.",
+        "Verificar que los elementos fuera de la diagonal son iguales."
+      ]
+    },
+    {
+      "question": "Determina el elemento \\( a_{3,2} \\) de la matriz \\( F = \\begin{pmatrix} 4 & 5 & 6 \\\\ 7 & 8 & 9 \\\\ 1 & 2 & 3 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": ["4", "5", "2", "8"],
+      "correctAnswer": 2,
+      "explanation": "El elemento \\( a_{3,2} \\) se encuentra en la tercera fila, segunda columna, y su valor es 2.",
+      "difficulty": "easy",
+      "procedure": [
+        "Localizar la tercera fila.",
+        "Seleccionar el segundo elemento de esa fila."
+      ]
+    },
+    {
+      "question": "¿Qué define a una matriz rectangular?",
+      "formula": "",
+      "options": [
+        "Que tiene el mismo número de filas y columnas.",
+        "Que tiene un número diferente de filas y columnas.",
+        "Que es simétrica.",
+        "Que es nula."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Una matriz rectangular es aquella en la que el número de filas y columnas no es igual.",
+      "difficulty": "easy",
+      "procedure": [
+        "Comparar el número de filas y columnas.",
+        "Confirmar que son diferentes."
+      ]
+    },
+    {
+      "question": "Calcula la transpuesta de la matriz rectangular \\( G = \\begin{pmatrix} 2 & 4 \\\\ 6 & 8 \\\\ 10 & 12 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "\\( \\begin{pmatrix} 2 & 6 & 10 \\\\ 4 & 8 & 12 \\end{pmatrix} \\)",
+        "\\( \\begin{pmatrix} 2 & 4 \\\\ 6 & 8 \\\\ 10 & 12 \\end{pmatrix} \\)",
+        "\\( \\begin{pmatrix} 10 & 12 \\\\ 6 & 8 \\\\ 2 & 4 \\end{pmatrix} \\)",
+        "\\( \\begin{pmatrix} 4 & 2 \\\\ 8 & 6 \\\\ 12 & 10 \\end{pmatrix} \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Al intercambiar filas por columnas, la matriz 3x2 se transforma en una 2x3.",
+      "difficulty": "easy",
+      "procedure": [
+        "Convertir cada fila en una columna.",
+        "Verificar el nuevo formato de la matriz."
+      ]
+    },
+    {
+      "question": "¿Qué es la traza de una matriz cuadrada?",
+      "formula": "",
+      "options": [
+        "La suma de los elementos de la diagonal principal.",
+        "El producto de los elementos de la diagonal principal.",
+        "La suma de todos los elementos.",
+        "La diferencia entre el número de filas y columnas."
+      ],
+      "correctAnswer": 0,
+      "explanation": "La traza de una matriz es la suma de los elementos que se encuentran en su diagonal principal.",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar los elementos de la diagonal principal.",
+        "Sumarlos para obtener la traza."
+      ]
+    },
+    {
+      "question": "Determina la traza de la matriz \\( H = \\begin{pmatrix} 3 & 1 & 4 \\\\ 2 & 5 & 6 \\\\ 7 & 8 & 9 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": ["17", "16", "15", "18"],
+      "correctAnswer": 0,
+      "explanation": "La traza se obtiene sumando los elementos de la diagonal principal: 3 + 5 + 9 = 17.",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar la diagonal principal (elementos 3, 5 y 9).",
+        "Sumarlos para obtener la traza."
+      ]
+    },
+    {
+      "question": "¿Cómo se obtiene la matriz opuesta de una matriz dada?",
+      "formula": "",
+      "options": [
+        "Multiplicando cada elemento por -1.",
+        "Transponiendo la matriz.",
+        "Sumando la matriz nula.",
+        "Multiplicando por la identidad."
+      ],
+      "correctAnswer": 0,
+      "explanation": "La matriz opuesta se obtiene multiplicando cada elemento de la matriz original por -1.",
+      "difficulty": "easy",
+      "procedure": [
+        "Aplicar la multiplicación por -1 a cada elemento.",
+        "Confirmar que el resultado es la matriz opuesta."
+      ]
+    },
+    {
+      "question": "¿Qué propiedad tiene la matriz identidad en la multiplicación de matrices?",
+      "formula": "",
+      "options": [
+        "Actúa como elemento neutro.",
+        "Anula cualquier matriz.",
+        "Duplica la matriz.",
+        "La invierte."
+      ],
+      "correctAnswer": 0,
+      "explanation": "La matriz identidad no altera la otra matriz cuando se multiplica por ella, actuando como elemento neutro.",
+      "difficulty": "easy",
+      "procedure": [
+        "Recordar la propiedad multiplicativa de la identidad.",
+        "Seleccionar la opción que indique que la matriz permanece igual."
+      ]
+    },
+    {
+      "question": "Identifica el tipo de matriz: \\( I = \\begin{pmatrix} 0 & 2 \\\\ 2 & 0 \\end{pmatrix} \\).",
+      "formula": "",
+      "options": [
+        "Matriz simétrica",
+        "Matriz identidad",
+        "Matriz nula",
+        "Matriz diagonal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La matriz es simétrica porque es igual a su transpuesta, aunque no es identidad ni diagonal.",
+      "difficulty": "easy",
+      "procedure": [
+        "Comparar la matriz con su transpuesta.",
+        "Confirmar que cumple la propiedad de simetría."
+      ]
+    },
+    {
+      "question": "¿Cómo se verifica que una matriz es triangular superior?",
+      "formula": "",
+      "options": [
+        "Todos los elementos por debajo de la diagonal principal son cero.",
+        "Todos los elementos por encima de la diagonal principal son cero.",
+        "La matriz es cuadrada.",
+        "La matriz es simétrica."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Una matriz triangular superior se caracteriza por tener todos los elementos por debajo de la diagonal principal iguales a cero.",
+      "difficulty": "easy",
+      "procedure": [
+        "Inspeccionar la matriz para identificar los elementos debajo de la diagonal.",
+        "Verificar que todos esos elementos sean 0."
+      ]
+    }
+  ]
+}

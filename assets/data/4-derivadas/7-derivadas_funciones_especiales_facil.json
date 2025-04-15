@@ -1,0 +1,1401 @@
+{
+  "derivadas_funciones_especiales_facil": [
+    {
+      "question": "Calcula la derivada de \\(\\sin(x)\\).",
+      "formula": "\\(\\sin(x)\\)",
+      "options": [
+        "\\(\\cos(x)\\)",
+        "\\(-\\cos(x)\\)",
+        "\\(\\sin(x)\\)",
+        "\\(-\\sin(x)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\sin(x)\\) es \\(\\cos(x)\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar la función: \\(\\sin(x)\\).",
+        "Aplicar la regla: \\(\\frac{d}{dx}\\sin(x)=\\cos(x)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\cos(x)\\).",
+      "formula": "\\(\\cos(x)\\)",
+      "options": [
+        "\\(-\\sin(x)\\)",
+        "\\(\\sin(x)\\)",
+        "\\(\\cos(x)\\)",
+        "\\(-\\cos(x)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\cos(x)\\) es \\(-\\sin(x)\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar la función: \\(\\cos(x)\\).",
+        "Aplicar la regla: \\(\\frac{d}{dx}\\cos(x)=-\\sin(x)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\tan(x)\\).",
+      "formula": "\\(\\tan(x)\\)",
+      "options": [
+        "\\(\\sec^2(x)\\)",
+        "\\(\\tan(x)\\)",
+        "\\(\\sin(x)\\)",
+        "\\(\\cos(x)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\tan(x)\\) es \\(\\sec^2(x)\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar la función: \\(\\tan(x)\\).",
+        "Aplicar la regla: \\(\\frac{d}{dx}\\tan(x)=\\sec^2(x)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(e^x\\).",
+      "formula": "\\(e^x\\)",
+      "options": [
+        "\\(e^x\\)",
+        "\\(xe^{x-1}\\)",
+        "\\(\\ln(e)\\)",
+        "\\(e^{x-1}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(e^x\\) es \\(e^x\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar la función: \\(e^x\\).",
+        "Aplicar la regla: \\(\\frac{d}{dx}e^x=e^x\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\ln(x)\\).",
+      "formula": "\\(\\ln(x)\\)",
+      "options": [
+        "\\(\\frac{1}{x}\\)",
+        "\\(\\ln(x)\\)",
+        "\\(x\\)",
+        "\\(\\frac{d}{dx}\\ln(x)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\ln(x)\\) es \\(\\frac{1}{x}\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar la función: \\(\\ln(x)\\).",
+        "Aplicar la regla: \\(\\frac{d}{dx}\\ln(x)=\\frac{1}{x}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(e^{2x}\\).",
+      "formula": "\\(e^{2x}\\)",
+      "options": [
+        "\\(2e^{2x}\\)",
+        "\\(e^{2x}\\)",
+        "\\(2xe^{2x}\\)",
+        "\\(e^x\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(e^{2x}\\) es \\(2e^{2x}\\) por la regla de la cadena.",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar la función: \\(e^{2x}\\).",
+        "Aplicar la regla de la cadena: \\(\\frac{d}{dx}e^{2x}=2e^{2x}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\ln(2x)\\).",
+      "formula": "\\(\\ln(2x)\\)",
+      "options": [
+        "\\(\\frac{1}{x}\\)",
+        "\\(\\frac{1}{2x}\\)",
+        "\\(\\ln(2x)\\)",
+        "\\(\\frac{2}{x}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\ln(2x)\\) es \\(\\frac{1}{x}\\) ya que \\(\\frac{d}{dx}\\ln(2x)=\\frac{1}{2x}\\cdot2=\\frac{1}{x}\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar la función: \\(\\ln(2x)\\).",
+        "Aplicar la regla de la cadena: \\(\\frac{d}{dx}\\ln(2x)=\\frac{1}{2x}\\cdot2=\\frac{1}{x}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\sin^2(x)\\).",
+      "formula": "\\(\\sin^2(x)\\)",
+      "options": [
+        "\\(2\\sin(x)\\cos(x)\\)",
+        "\\(\\sin(2x)\\)",
+        "\\(\\cos^2(x)\\)",
+        "\\(\\sin(x)\\cos(x)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Utilizando la regla de la cadena, \\(\\frac{d}{dx}(\\sin^2(x))=2\\sin(x)\\cos(x)\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar la función compuesta: \\(\\sin^2(x)\\).",
+        "Aplicar la regla de la cadena: \\(\\frac{d}{dx}(\\sin^2(x))=2\\sin(x)\\cdot\\cos(x)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\cos(x)e^x\\).",
+      "formula": "\\(\\cos(x)e^x\\)",
+      "options": [
+        "\\(e^x(\\cos(x)-\\sin(x))\\)",
+        "\\(e^x(\\sin(x)+\\cos(x))\\)",
+        "\\(e^x(\\cos(x)+\\sin(x))\\)",
+        "\\(-e^x(\\cos(x)+\\sin(x))\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla del producto, se obtiene \\(\\frac{d}{dx}(\\cos(x)e^x)= -\\sin(x)e^x+\\cos(x)e^x=e^x(\\cos(x)-\\sin(x))\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar las funciones: \\(f(x)=\\cos(x)\\) y \\(g(x)=e^x\\).",
+        "Aplicar la regla del producto: \\(f'(x)g(x)+f(x)g'(x)= -\\sin(x)e^x+\\cos(x)e^x\\).",
+        "Factorizar: \\(e^x(\\cos(x)-\\sin(x))\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\ln(\\sin(x))\\).",
+      "formula": "\\(\\ln(\\sin(x))\\)",
+      "options": [
+        "\\(\\cot(x)\\)",
+        "\\(\\tan(x)\\)",
+        "\\(\\frac{1}{\\sin(x)}\\)",
+        "\\(\\frac{\\cos(x)}{\\ln(x)}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\ln(\\sin(x))\\) es \\(\\frac{\\cos(x)}{\\sin(x)}\\), que equivale a \\(\\cot(x)\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar la función compuesta: \\(\\ln(\\sin(x))\\).",
+        "Aplicar la regla de la cadena: \\(\\frac{1}{\\sin(x)}\\cdot\\cos(x)=\\cot(x)\\)."
+      ]
+    },
+    {
+      "question": "Usa diferenciación implícita para derivar \\(x^2 + y^2 = 1\\).",
+      "formula": "\\(x^2 + y^2 = 1\\)",
+      "options": [
+        "\\(\\frac{-x}{y}\\)",
+        "\\(\\frac{x}{y}\\)",
+        "\\(\\frac{-y}{x}\\)",
+        "\\(\\frac{y}{x}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Diferenciando implícitamente \\(x^2+y^2=1\\) se obtiene \\(2x+2y\\frac{dy}{dx}=0\\) y, al despejar, \\(\\frac{dy}{dx}=-\\frac{x}{y}\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Diferenciar ambos lados: \\(2x+2y\\frac{dy}{dx}=0\\).",
+        "Despejar \\(\\frac{dy}{dx}\\): \\(\\frac{dy}{dx}=-\\frac{x}{y}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(e^{\\sin(x)}\\).",
+      "formula": "\\(e^{\\sin(x)}\\)",
+      "options": [
+        "\\(e^{\\sin(x)}\\cos(x)\\)",
+        "\\(e^{\\sin(x)}\\sin(x)\\)",
+        "\\(\\cos(x)\\)",
+        "\\(e^x\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla de la cadena, la derivada de \\(e^{\\sin(x)}\\) es \\(e^{\\sin(x)}\\cos(x)\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar la función compuesta: \\(e^{\\sin(x)}\\).",
+        "Aplicar la regla de la cadena: \\(\\frac{d}{dx}e^{\\sin(x)}=e^{\\sin(x)}\\cdot\\cos(x)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\ln(x^2)\\).",
+      "formula": "\\(\\ln(x^2)\\)",
+      "options": [
+        "\\(\\frac{2}{x}\\)",
+        "\\(\\frac{1}{x^2}\\)",
+        "\\(\\ln(x^2)\\)",
+        "\\(\\frac{2}{x^2}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se tiene \\(\\ln(x^2)=2\\ln(x)\\) y su derivada es \\(\\frac{2}{x}\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Reescribir la función: \\(\\ln(x^2)=2\\ln(x)\\).",
+        "Aplicar la derivada: \\(\\frac{d}{dx}[2\\ln(x)]=\\frac{2}{x}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(x\\ln(x)\\).",
+      "formula": "\\(x\\ln(x)\\)",
+      "options": [
+        "\\(\\ln(x)+1\\)",
+        "\\(\\frac{1}{x}+\\ln(x)\\)",
+        "\\(\\ln(x)\\)",
+        "\\(1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla del producto, \\(\\frac{d}{dx}(x\\ln(x))=1\\cdot\\ln(x)+x\\cdot\\frac{1}{x}=\\ln(x)+1\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar las funciones: \\(f(x)=x\\) y \\(g(x)=\\ln(x)\\).",
+        "Aplicar la regla del producto: \\(f'(x)g(x)+f(x)g'(x)=\\ln(x)+1\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\log_{10}(x)\\).",
+      "formula": "\\(\\log_{10}(x)\\)",
+      "options": [
+        "\\(\\frac{1}{x\\ln(10)}\\)",
+        "\\(\\frac{1}{x}\\)",
+        "\\(\\frac{\\ln(10)}{x}\\)",
+        "\\(\\ln(10)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\log_{10}(x)\\) es \\(\\frac{1}{x\\ln(10)}\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Recordar que \\(\\log_{10}(x)=\\frac{\\ln(x)}{\\ln(10)}\\).",
+        "Diferenciar: \\(\\frac{d}{dx}\\log_{10}(x)=\\frac{1}{x\\ln(10)}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\sec(x)\\).",
+      "formula": "\\(\\sec(x)\\)",
+      "options": [
+        "\\(\\sec(x)\\tan(x)\\)",
+        "\\(\\sec^2(x)\\)",
+        "\\(\\tan(x)\\)",
+        "\\(\\sec(x)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\sec(x)\\) es \\(\\sec(x)\\tan(x)\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar la función: \\(\\sec(x)\\).",
+        "Aplicar la regla: \\(\\frac{d}{dx}\\sec(x)=\\sec(x)\\tan(x)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\csc(x)\\).",
+      "formula": "\\(\\csc(x)\\)",
+      "options": [
+        "\\(-\\csc(x)\\cot(x)\\)",
+        "\\(\\csc(x)\\cot(x)\\)",
+        "\\(\\csc^2(x)\\)",
+        "\\(-\\csc^2(x)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\csc(x)\\) es \\(-\\csc(x)\\cot(x)\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar la función: \\(\\csc(x)\\).",
+        "Aplicar la regla: \\(\\frac{d}{dx}\\csc(x)=-\\csc(x)\\cot(x)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\cot(x)\\).",
+      "formula": "\\(\\cot(x)\\)",
+      "options": [
+        "\\(-\\csc^2(x)\\)",
+        "\\(\\csc^2(x)\\)",
+        "\\(\\tan^2(x)\\)",
+        "\\(-\\tan^2(x)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\cot(x)\\) es \\(-\\csc^2(x)\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar la función: \\(\\cot(x)\\).",
+        "Aplicar la regla: \\(\\frac{d}{dx}\\cot(x)=-\\csc^2(x)\\)."
+      ]
+    },
+    {
+      "question": "Dada la parametrización \\(x=\\sin(t)\\) y \\(y=\\cos(t)\\), encuentra \\(\\frac{dy}{dx}\\).",
+      "formula": "\\(x=\\sin(t),\\ y=\\cos(t)\\)",
+      "options": [
+        "\\(-\\tan(t)\\)",
+        "\\(\\tan(t)\\)",
+        "\\(-\\cot(t)\\)",
+        "\\(\\cot(t)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Con \\(\\frac{dx}{dt}=\\cos(t)\\) y \\(\\frac{dy}{dt}=-\\sin(t)\\), se tiene \\(\\frac{dy}{dx}=\\frac{-\\sin(t)}{\\cos(t)}=-\\tan(t)\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Determinar \\(\\frac{dx}{dt}=\\cos(t)\\) y \\(\\frac{dy}{dt}=-\\sin(t)\\).",
+        "Aplicar la fórmula de derivación paramétrica: \\(\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}=-\\tan(t)\\)."
+      ]
+    },
+    {
+      "question": "Dada la parametrización \\(x=t^2\\) y \\(y=t^3\\), encuentra \\(\\frac{dy}{dx}\\).",
+      "formula": "\\(x=t^2,\\ y=t^3\\)",
+      "options": [
+        "\\(\\frac{3t}{2}\\)",
+        "\\(\\frac{2t}{3}\\)",
+        "\\(\\frac{t}{2}\\)",
+        "\\(\\frac{3}{2t}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se tiene \\(\\frac{dx}{dt}=2t\\) y \\(\\frac{dy}{dt}=3t^2\\), por lo tanto \\(\\frac{dy}{dx}=\\frac{3t^2}{2t}=\\frac{3t}{2}\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Calcular \\(\\frac{dx}{dt}=2t\\) y \\(\\frac{dy}{dt}=3t^2\\).",
+        "Dividir para obtener \\(\\frac{dy}{dx}=\\frac{3t^2}{2t}=\\frac{3t}{2}\\)."
+      ]
+    },
+    {
+      "question": "Usa diferenciación implícita para derivar \\(y^3 + xy = 4\\).",
+      "formula": "\\(y^3 + xy = 4\\)",
+      "options": [
+        "\\(\\frac{-y}{3y^2+x}\\)",
+        "\\(\\frac{y}{3y^2+x}\\)",
+        "\\(\\frac{-y}{3y^2-x}\\)",
+        "\\(\\frac{y}{3y^2-x}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Diferenciando, se obtiene \\(3y^2\\frac{dy}{dx}+y+x\\frac{dy}{dx}=0\\), lo que conduce a \\(\\frac{dy}{dx}=\\frac{-y}{3y^2+x}\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Diferenciar cada término: \\(\\frac{d}{dx}(y^3)=3y^2\\frac{dy}{dx}\\) y \\(\\frac{d}{dx}(xy)=y+x\\frac{dy}{dx}\\).",
+        "Agrupar los términos con \\(\\frac{dy}{dx}\\) y despejar."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(e^x\\ln(x)\\).",
+      "formula": "\\(e^x\\ln(x)\\)",
+      "options": [
+        "\\(e^x\\left(\\ln(x)+\\frac{1}{x}\\right)\\)",
+        "\\(e^x\\left(\\ln(x)-\\frac{1}{x}\\right)\\)",
+        "\\(e^x\\ln(x)\\)",
+        "\\(\\frac{e^x}{x}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla del producto, se tiene \\(\\frac{d}{dx}(e^x\\ln(x))=e^x\\ln(x)+e^x\\frac{1}{x}\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar las funciones: \\(f(x)=e^x\\) y \\(g(x)=\\ln(x)\\).",
+        "Aplicar la regla del producto: \\(f'(x)g(x)+f(x)g'(x)=e^x\\ln(x)+\\frac{e^x}{x}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\sqrt{x}\\).",
+      "formula": "\\(\\sqrt{x}\\)",
+      "options": [
+        "\\(\\frac{1}{2\\sqrt{x}}\\)",
+        "\\(\\frac{1}{\\sqrt{x}}\\)",
+        "\\(\\sqrt{x}\\)",
+        "\\(\\frac{1}{2x}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Escribiendo \\(\\sqrt{x}=x^{1/2}\\), su derivada es \\(\\frac{1}{2}x^{-1/2}=\\frac{1}{2\\sqrt{x}}\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Reescribir \\(\\sqrt{x}\\) como \\(x^{1/2}\\).",
+        "Aplicar la regla de la potencia: \\(\\frac{d}{dx}x^{1/2}=\\frac{1}{2}x^{-1/2}=\\frac{1}{2\\sqrt{x}}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(x^x\\).",
+      "formula": "\\(x^x\\)",
+      "options": [
+        "\\(x^x(\\ln(x)+1)\\)",
+        "\\(x^x\\ln(x)\\)",
+        "\\(x^{x-1}(\\ln(x)+1)\\)",
+        "\\(x^x(\\ln(x)-1)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Utilizando logaritmos, se deduce que \\(\\frac{d}{dx}(x^x)=x^x(\\ln(x)+1)\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Aplicar logaritmo natural: \\(\\ln(y)=x\\ln(x)\\).",
+        "Diferenciar y despejar \\(\\frac{dy}{dx}\\) obteniendo \\(x^x(\\ln(x)+1)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\ln(\\sqrt{x})\\).",
+      "formula": "\\(\\ln(\\sqrt{x})\\)",
+      "options": [
+        "\\(\\frac{1}{2x}\\)",
+        "\\(\\frac{1}{x}\\)",
+        "\\(\\frac{1}{2\\sqrt{x}}\\)",
+        "\\(\\frac{1}{\\sqrt{x}}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Como \\(\\ln(\\sqrt{x})=\\frac{1}{2}\\ln(x)\\), su derivada es \\(\\frac{1}{2x}\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Reescribir la función: \\(\\ln(\\sqrt{x})=\\frac{1}{2}\\ln(x)\\).",
+        "Diferenciar: \\(\\frac{1}{2}\\cdot\\frac{1}{x}=\\frac{1}{2x}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\sin(x)+\\cos(x)\\).",
+      "formula": "\\(\\sin(x)+\\cos(x)\\)",
+      "options": [
+        "\\(\\cos(x)-\\sin(x)\\)",
+        "\\(\\cos(x)+\\sin(x)\\)",
+        "\\(-\\cos(x)-\\sin(x)\\)",
+        "\\(-\\cos(x)+\\sin(x)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\sin(x)\\) es \\(\\cos(x)\\) y la de \\(\\cos(x)\\) es \\(-\\sin(x)\\); sumándolas se obtiene \\(\\cos(x)-\\sin(x)\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Derivar \\(\\sin(x)\\) obteniendo \\(\\cos(x)\\).",
+        "Derivar \\(\\cos(x)\\) obteniendo \\(-\\sin(x)\\).",
+        "Sumar los resultados: \\(\\cos(x)-\\sin(x)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\tan^2(x)\\).",
+      "formula": "\\(\\tan^2(x)\\)",
+      "options": [
+        "\\(2\\tan(x)\\sec^2(x)\\)",
+        "\\(\\tan(x)\\sec(x)\\)",
+        "\\(2\\sec^2(x)\\)",
+        "\\(\\sec^2(x)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla de la cadena, \\(\\frac{d}{dx}(\\tan^2(x))=2\\tan(x)\\cdot\\sec^2(x)\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Reconocer \\(\\tan^2(x)\\) como función compuesta.",
+        "Aplicar la regla de la cadena: derivada de \\(\\tan(x)\\) es \\(\\sec^2(x)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\ln|x|\\).",
+      "formula": "\\(\\ln|x|\\)",
+      "options": [
+        "\\(\\frac{1}{x}\\)",
+        "\\(\\ln|x|\\)",
+        "\\(\\frac{1}{|x|}\\)",
+        "\\(\\frac{|x|}{x^2}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\ln|x|\\) es \\(\\frac{1}{x}\\) para \\(x\\neq0\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Aplicar la derivada conocida de \\(\\ln|x|\\): \\(\\frac{d}{dx}\\ln|x|=\\frac{1}{x}\\)."
+      ]
+    },
+    {
+      "question": "Usa diferenciación implícita para derivar \\(xy + y^2 = 1\\).",
+      "formula": "\\(xy + y^2 = 1\\)",
+      "options": [
+        "\\(\\frac{-y}{x+2y}\\)",
+        "\\(\\frac{y}{x+2y}\\)",
+        "\\(\\frac{-y}{x-2y}\\)",
+        "\\(\\frac{y}{x-2y}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Diferenciando \\(xy+y^2=1\\) se obtiene \\(x\\frac{dy}{dx}+y+2y\\frac{dy}{dx}=0\\), y despejando, \\(\\frac{dy}{dx}=\\frac{-y}{x+2y}\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Diferenciar cada término de \\(xy+y^2\\) con respecto a \\(x\\).",
+        "Agrupar los términos con \\(\\frac{dy}{dx}\\) y despejar."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\cos(x)-e^x\\).",
+      "formula": "\\(\\cos(x)-e^x\\)",
+      "options": [
+        "\\(-\\sin(x)-e^x\\)",
+        "\\(\\sin(x)-e^x\\)",
+        "\\(-\\sin(x)+e^x\\)",
+        "\\(\\sin(x)+e^x\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\cos(x)\\) es \\(-\\sin(x)\\) y la de \\(-e^x\\) es \\(-e^x\\); en conjunto, \\(-\\sin(x)-e^x\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Derivar \\(\\cos(x)\\) obteniendo \\(-\\sin(x)\\).",
+        "Derivar \\(-e^x\\) obteniendo \\(-e^x\\).",
+        "Sumar los resultados: \\(-\\sin(x)-e^x\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\sin(2x)\\).",
+      "formula": "\\(\\sin(2x)\\)",
+      "options": [
+        "\\(2\\cos(2x)\\)",
+        "\\(\\cos(2x)\\)",
+        "\\(\\sin(2x)\\)",
+        "\\(-2\\cos(2x)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando la regla de la cadena, la derivada de \\(\\sin(2x)\\) es \\(2\\cos(2x)\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar la función compuesta: \\(\\sin(2x)\\).",
+        "Derivar la función interna: \\(2x\\) tiene derivada 2.",
+        "Aplicar la regla de la cadena: \\(\\frac{d}{dx}\\sin(2x)=2\\cos(2x)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\cos(3x)\\).",
+      "formula": "\\(\\cos(3x)\\)",
+      "options": [
+        "\\(-3\\sin(3x)\\)",
+        "\\(3\\sin(3x)\\)",
+        "\\(-\\sin(3x)\\)",
+        "\\(\\sin(3x)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\cos(3x)\\) es \\(-3\\sin(3x)\\) por la regla de la cadena.",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar la función: \\(\\cos(3x)\\).",
+        "Derivar la función interna: \\(3x\\) tiene derivada 3.",
+        "Aplicar la regla de la cadena: \\(\\frac{d}{dx}\\cos(3x)=-3\\sin(3x)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\tan(2x)\\).",
+      "formula": "\\(\\tan(2x)\\)",
+      "options": [
+        "\\(2\\sec^2(2x)\\)",
+        "\\(\\sec^2(2x)\\)",
+        "\\(2\\tan(2x)\\)",
+        "\\(-2\\sec^2(2x)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\tan(2x)\\) es \\(2\\sec^2(2x)\\) aplicando la regla de la cadena.",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar la función compuesta: \\(\\tan(2x)\\).",
+        "Derivar la función interna: \\(2x\\) tiene derivada 2.",
+        "Aplicar la regla de la cadena: \\(\\frac{d}{dx}\\tan(2x)=2\\sec^2(2x)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\ln(3x)\\).",
+      "formula": "\\(\\ln(3x)\\)",
+      "options": [
+        "\\(\\frac{1}{x}\\)",
+        "\\(\\frac{1}{3x}\\)",
+        "\\(\\frac{3}{x}\\)",
+        "\\(\\ln(3x)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando la propiedad logarítmica \\(\\ln(3x)=\\ln3+\\ln x\\), la derivada es \\(\\frac{1}{x}\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Escribir \\(\\ln(3x)=\\ln3+\\ln x\\).",
+        "Derivar \\(\\ln3\\) (constante) y \\(\\ln x\\) que es \\(\\frac{1}{x}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(e^{3x}\\).",
+      "formula": "\\(e^{3x}\\)",
+      "options": ["\\(3e^{3x}\\)", "\\(e^{3x}\\)", "\\(e^{x}\\)", "\\(3e^x\\)"],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla de la cadena, la derivada de \\(e^{3x}\\) es \\(3e^{3x}\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar la función compuesta: \\(e^{3x}\\).",
+        "Derivar la función interna: \\(3x\\) tiene derivada 3.",
+        "Aplicar la regla de la cadena: \\(\\frac{d}{dx}e^{3x}=3e^{3x}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\sin(x)\\cos(x)\\).",
+      "formula": "\\(\\sin(x)\\cos(x)\\)",
+      "options": [
+        "\\(\\cos^2(x)-\\sin^2(x)\\)",
+        "\\(\\sin^2(x)+\\cos^2(x)\\)",
+        "\\(2\\sin(x)\\cos(x)\\)",
+        "\\(-\\cos^2(x)+\\sin^2(x)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla del producto, la derivada es \\(\\cos^2(x)-\\sin^2(x)\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar \\(f(x)=\\sin(x)\\) y \\(g(x)=\\cos(x)\\).",
+        "Derivar: \\(f'(x)=\\cos(x)\\) y \\(g'(x)=-\\sin(x)\\).",
+        "Aplicar el producto: \\(\\cos(x)\\cos(x)+\\sin(x)(-\\sin(x))=\\cos^2(x)-\\sin^2(x)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\cos^2(x)\\).",
+      "formula": "\\(\\cos^2(x)\\)",
+      "options": [
+        "\\(-2\\cos(x)\\sin(x)\\)",
+        "\\(2\\cos(x)\\sin(x)\\)",
+        "\\(-\\cos^2(x)\\)",
+        "\\(\\sin^2(x)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Utilizando la regla de la cadena, la derivada de \\(\\cos^2(x)\\) es \\(-2\\cos(x)\\sin(x)\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Reescribir \\(\\cos^2(x)\\) como \\((\\cos(x))^2\\).",
+        "Derivar: \\(2\\cos(x)\\cdot(-\\sin(x))=-2\\cos(x)\\sin(x)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\sqrt{1+x}\\).",
+      "formula": "\\(\\sqrt{1+x}\\)",
+      "options": [
+        "\\(\\frac{1}{2\\sqrt{1+x}}\\)",
+        "\\(\\frac{1}{\\sqrt{1+x}}\\)",
+        "\\(\\sqrt{1+x}\\)",
+        "\\(\\frac{1+x}{2}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reescribiendo \\(\\sqrt{1+x}\\) como \\((1+x)^{1/2}\\), su derivada es \\(\\frac{1}{2}(1+x)^{-1/2}=\\frac{1}{2\\sqrt{1+x}}\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Convertir \\(\\sqrt{1+x}\\) en \\((1+x)^{1/2}\\).",
+        "Aplicar la regla de la potencia: \\(\\frac{1}{2}(1+x)^{-1/2}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\ln(1+x)\\).",
+      "formula": "\\(\\ln(1+x)\\)",
+      "options": [
+        "\\(\\frac{1}{1+x}\\)",
+        "\\(\\frac{1}{x}\\)",
+        "\\(\\ln(1+x)\\)",
+        "\\(1+x\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\ln(1+x)\\) es \\(\\frac{1}{1+x}\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Recordar que la derivada de \\(\\ln(u)\\) es \\(\\frac{u'}{u}\\).",
+        "Con \\(u=1+x\\), se tiene \\(u'=1\\), por lo que la derivada es \\(\\frac{1}{1+x}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(e^{\\tan(x)}\\).",
+      "formula": "\\(e^{\\tan(x)}\\)",
+      "options": [
+        "\\(e^{\\tan(x)}\\sec^2(x)\\)",
+        "\\(e^{\\tan(x)}\\tan(x)\\)",
+        "\\(e^x\\sec^2(x)\\)",
+        "\\(\\sec^2(x)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla de la cadena, la derivada de \\(e^{\\tan(x)}\\) es \\(e^{\\tan(x)}\\cdot\\sec^2(x)\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar la función compuesta: \\(e^{\\tan(x)}\\).",
+        "Derivar \\(\\tan(x)\\): \\(\\sec^2(x)\\).",
+        "Aplicar la regla de la cadena: \\(\\frac{d}{dx}e^{\\tan(x)}=e^{\\tan(x)}\\sec^2(x)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\ln(\\cos(x))\\).",
+      "formula": "\\(\\ln(\\cos(x))\\)",
+      "options": [
+        "\\(-\\tan(x)\\)",
+        "\\(\\tan(x)\\)",
+        "\\(\\frac{-1}{\\cos(x)}\\)",
+        "\\(\\frac{1}{\\cos(x)}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\ln(\\cos(x))\\) es \\(\\frac{-\\sin(x)}{\\cos(x)}=-\\tan(x)\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Utilizar la regla de la cadena: \\(\\frac{d}{dx}\\ln(\\cos(x))=\\frac{-\\sin(x)}{\\cos(x)}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\sin^2(2x)\\).",
+      "formula": "\\(\\sin^2(2x)\\)",
+      "options": [
+        "\\(4\\sin(2x)\\cos(2x)\\)",
+        "\\(2\\sin(2x)\\cos(2x)\\)",
+        "\\(\\sin(4x)\\)",
+        "\\(2\\cos(2x)\\sin(2x)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reescribe \\(\\sin^2(2x)\\) como \\((\\sin(2x))^2\\) y aplica la regla de la cadena: \\(2\\sin(2x)\\cos(2x)\\cdot2=4\\sin(2x)\\cos(2x)\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar la función interna \\(\\sin(2x)\\) y su derivada \\(2\\cos(2x)\\).",
+        "Aplicar la regla de la cadena: \\(2\\sin(2x)\\cdot(2\\cos(2x))=4\\sin(2x)\\cos(2x)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\cos(x)\\ln(x)\\).",
+      "formula": "\\(\\cos(x)\\ln(x)\\)",
+      "options": [
+        "\\(-\\sin(x)\\ln(x)+\\frac{\\cos(x)}{x}\\)",
+        "\\(-\\sin(x)\\ln(x)-\\frac{\\cos(x)}{x}\\)",
+        "\\(\\sin(x)\\ln(x)+\\frac{\\cos(x)}{x}\\)",
+        "\\(-\\sin(x)\\ln(x)+\\cos(x)x\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla del producto a \\(\\cos(x)\\ln(x)\\): la derivada es \\(-\\sin(x)\\ln(x)+\\frac{\\cos(x)}{x}\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar \\(f(x)=\\cos(x)\\) y \\(g(x)=\\ln(x)\\).",
+        "Derivar: \\(f'(x)=-\\sin(x)\\) y \\(g'(x)=\\frac{1}{x}\\).",
+        "Aplicar la regla del producto: \\(f'(x)g(x)+f(x)g'(x)=-\\sin(x)\\ln(x)+\\frac{\\cos(x)}{x}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\frac{e^x}{x}\\).",
+      "formula": "\\(\\frac{e^x}{x}\\)",
+      "options": [
+        "\\(\\frac{e^x(x-1)}{x^2}\\)",
+        "\\(\\frac{e^x(x+1)}{x^2}\\)",
+        "\\(\\frac{e^x}{x}\\)",
+        "\\(e^x\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Utilizando la regla del cociente, la derivada de \\(\\frac{e^x}{x}\\) es \\(\\frac{e^x(x-1)}{x^2}\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Aplicar la regla del cociente: \\(\\frac{d}{dx}(\\frac{u}{v})=\\frac{u'v-uv'}{v^2}\\) con \\(u=e^x\\) y \\(v=x\\).",
+        "Calcular: \\(u'=e^x\\) y \\(v'=1\\).",
+        "Sustituir y simplificar: \\(\\frac{e^x\\cdot x-e^x\\cdot1}{x^2}=\\frac{e^x(x-1)}{x^2}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\ln(e^x+1)\\).",
+      "formula": "\\(\\ln(e^x+1)\\)",
+      "options": [
+        "\\(\\frac{e^x}{e^x+1}\\)",
+        "\\(\\frac{1}{e^x+1}\\)",
+        "\\(e^x+1\\)",
+        "\\(\\frac{1}{e^x}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\ln(e^x+1)\\) es \\(\\frac{e^x}{e^x+1}\\) usando la regla de la cadena.",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar la función interna \\(e^x+1\\) con derivada \\(e^x\\).",
+        "Aplicar la regla de la cadena: \\(\\frac{e^x}{e^x+1}\\)."
+      ]
+    },
+    {
+      "question": "Usa diferenciación implícita para derivar \\(x^2+xy+y^2=7\\).",
+      "formula": "\\(x^2+xy+y^2=7\\)",
+      "options": [
+        "\\(\\frac{dy}{dx}=\\frac{-2x-y}{x+2y}\\)",
+        "\\(\\frac{dy}{dx}=\\frac{2x+y}{x+2y}\\)",
+        "\\(\\frac{dy}{dx}=\\frac{-2x+y}{x-2y}\\)",
+        "\\(\\frac{dy}{dx}=\\frac{2x-y}{x-2y}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Diferenciando implícitamente \\(x^2+xy+y^2=7\\) se obtiene \\(2x+y+x\\frac{dy}{dx}+2y\\frac{dy}{dx}=0\\). Al despejar \\(\\frac{dy}{dx}\\), se llega a \\(\\frac{-2x-y}{x+2y}\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Derivar cada término: \\(\\frac{d}{dx}(x^2)=2x\\), \\(\\frac{d}{dx}(xy)=y+x\\frac{dy}{dx}\\) y \\(\\frac{d}{dx}(y^2)=2y\\frac{dy}{dx}\\).",
+        "Agrupar y despejar \\(\\frac{dy}{dx}\\)."
+      ]
+    },
+    {
+      "question": "Usa diferenciación implícita para derivar \\(\\sin(x+y)=x\\).",
+      "formula": "\\(\\sin(x+y)=x\\)",
+      "options": [
+        "\\(\\frac{dy}{dx}=\\frac{1-\\cos(x+y)}{\\cos(x+y)}\\)",
+        "\\(\\frac{dy}{dx}=\\frac{\\cos(x+y)-1}{\\cos(x+y)}\\)",
+        "\\(\\frac{dy}{dx}=\\frac{1}{\\cos(x+y)}\\)",
+        "\\(\\frac{dy}{dx}=1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Derivando implícitamente \\(\\sin(x+y)=x\\) se obtiene \\(\\cos(x+y)(1+\\frac{dy}{dx})=1\\). Al despejar, se obtiene \\(\\frac{dy}{dx}=\\frac{1-\\cos(x+y)}{\\cos(x+y)}\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Diferenciar \\(\\sin(x+y)\\) usando la regla de la cadena: \\(\\cos(x+y)(1+\\frac{dy}{dx})\\).",
+        "Igualar a la derivada de \\(x\\) que es 1 y despejar \\(\\frac{dy}{dx}\\)."
+      ]
+    },
+    {
+      "question": "En una parametrización \\(x=\\cos(t)\\) y \\(y=\\sin(t)\\), encuentra \\(\\frac{dy}{dx}\\).",
+      "formula": "\\(x=\\cos(t),\\ y=\\sin(t)\\)",
+      "options": [
+        "\\(\\frac{dy}{dx}=-\\cot(t)\\)",
+        "\\(\\frac{dy}{dx}=\\tan(t)\\)",
+        "\\(\\frac{dy}{dx}=-\\tan(t)\\)",
+        "\\(\\frac{dy}{dx}=\\cot(t)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Con \\(\\frac{dx}{dt}=-\\sin(t)\\) y \\(\\frac{dy}{dt}=\\cos(t)\\), se tiene \\(\\frac{dy}{dx}=\\frac{\\cos(t)}{-\\sin(t)}=-\\cot(t)\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Calcular \\(\\frac{dx}{dt}=-\\sin(t)\\) y \\(\\frac{dy}{dt}=\\cos(t)\\).",
+        "Dividir: \\(\\frac{dy}{dx}=\\frac{\\cos(t)}{-\\sin(t)}=-\\cot(t)\\)."
+      ]
+    },
+    {
+      "question": "En una parametrización \\(x=t+1\\) y \\(y=t^2\\), encuentra \\(\\frac{dy}{dx}\\).",
+      "formula": "\\(x=t+1,\\ y=t^2\\)",
+      "options": [
+        "\\(\\frac{dy}{dx}=2t\\)",
+        "\\(\\frac{dy}{dx}=\\frac{2t}{1}\\)",
+        "\\(\\frac{dy}{dx}=\\frac{1}{2t}\\)",
+        "\\(\\frac{dy}{dx}=t^2\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Derivando se tiene \\(\\frac{dx}{dt}=1\\) y \\(\\frac{dy}{dt}=2t\\), por lo que \\(\\frac{dy}{dx}=2t\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Calcular \\(\\frac{dx}{dt}=1\\) y \\(\\frac{dy}{dt}=2t\\).",
+        "Dividir: \\(\\frac{dy}{dx}=\\frac{2t}{1}=2t\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\arctan(x)\\).",
+      "formula": "\\(\\arctan(x)\\)",
+      "options": [
+        "\\(\\frac{1}{1+x^2}\\)",
+        "\\(\\frac{x}{1+x^2}\\)",
+        "\\(\\frac{1}{x}\\)",
+        "\\(\\arctan(x)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\arctan(x)\\) es \\(\\frac{1}{1+x^2}\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Recordar la derivada de \\(\\arctan(x)\\) es \\(\\frac{1}{1+x^2}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\arcsin(x)\\).",
+      "formula": "\\(\\arcsin(x)\\)",
+      "options": [
+        "\\(\\frac{1}{\\sqrt{1-x^2}}\\)",
+        "\\(\\frac{-1}{\\sqrt{1-x^2}}\\)",
+        "\\(\\sqrt{1-x^2}\\)",
+        "\\(\\arcsin(x)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\arcsin(x)\\) es \\(\\frac{1}{\\sqrt{1-x^2}}\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Recordar que \\(\\frac{d}{dx}\\arcsin(x)=\\frac{1}{\\sqrt{1-x^2}}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\arccos(x)\\).",
+      "formula": "\\(\\arccos(x)\\)",
+      "options": [
+        "\\(-\\frac{1}{\\sqrt{1-x^2}}\\)",
+        "\\(\\frac{1}{\\sqrt{1-x^2}}\\)",
+        "\\(\\arccos(x)\\)",
+        "\\(-\\arccos(x)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\arccos(x)\\) es \\(-\\frac{1}{\\sqrt{1-x^2}}\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Recordar que \\(\\frac{d}{dx}\\arccos(x)=-\\frac{1}{\\sqrt{1-x^2}}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\sin(4x)\\).",
+      "formula": "\\(\\sin(4x)\\)",
+      "options": [
+        "\\(4\\cos(4x)\\)",
+        "\\(-4\\cos(4x)\\)",
+        "\\(\\cos(4x)\\)",
+        "\\(4\\sin(4x)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla de la cadena, la derivada de \\(\\sin(4x)\\) es \\(4\\cos(4x)\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar la función compuesta: \\(\\sin(4x)\\).",
+        "Derivar la función interna: \\(4x\\) tiene derivada 4.",
+        "Aplicar la regla de la cadena: \\(\\frac{d}{dx}\\sin(4x)=4\\cos(4x)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\cos(4x)\\).",
+      "formula": "\\(\\cos(4x)\\)",
+      "options": [
+        "\\(-4\\sin(4x)\\)",
+        "\\(4\\sin(4x)\\)",
+        "\\(-\\cos(4x)\\)",
+        "\\(\\sin(4x)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla de la cadena, la derivada de \\(\\cos(4x)\\) es \\(-4\\sin(4x)\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar la función: \\(\\cos(4x)\\).",
+        "Derivar la función interna: \\(4x\\) tiene derivada 4.",
+        "Aplicar la regla de la cadena: \\(\\frac{d}{dx}\\cos(4x)=-4\\sin(4x)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\tan(3x)\\).",
+      "formula": "\\(\\tan(3x)\\)",
+      "options": [
+        "\\(3\\sec^2(3x)\\)",
+        "\\(\\sec^2(3x)\\)",
+        "\\(3\\tan(3x)\\)",
+        "\\(-3\\sec^2(3x)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando la regla de la cadena, la derivada de \\(\\tan(3x)\\) es \\(3\\sec^2(3x)\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar la función compuesta: \\(\\tan(3x)\\).",
+        "Derivar la función interna: \\(3x\\) tiene derivada 3.",
+        "Aplicar la regla de la cadena: \\(\\frac{d}{dx}\\tan(3x)=3\\sec^2(3x)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\ln(5x)\\).",
+      "formula": "\\(\\ln(5x)\\)",
+      "options": [
+        "\\(\\frac{1}{x}\\)",
+        "\\(\\frac{1}{5x}\\)",
+        "\\(\\ln(5x)\\)",
+        "\\(5\\ln(x)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se utiliza la propiedad logarítmica \\(\\ln(5x)=\\ln(5)+\\ln(x)\\), de donde la derivada es \\(\\frac{1}{x}\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Reescribir \\(\\ln(5x)=\\ln(5)+\\ln(x)\\).",
+        "Derivar \\(\\ln(5)\\) (constante) y \\(\\ln(x)\\) que da \\(\\frac{1}{x}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(e^{5x}\\).",
+      "formula": "\\(e^{5x}\\)",
+      "options": ["\\(5e^{5x}\\)", "\\(e^{5x}\\)", "\\(e^x\\)", "\\(5e^x\\)"],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla de la cadena, la derivada de \\(e^{5x}\\) es \\(5e^{5x}\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar la función compuesta: \\(e^{5x}\\).",
+        "Derivar la función interna \\(5x\\) que da 5.",
+        "Aplicar la regla de la cadena: \\(\\frac{d}{dx}e^{5x}=5e^{5x}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\((\\sin(x))^3\\).",
+      "formula": "\\((\\sin(x))^3\\)",
+      "options": [
+        "\\(3\\sin^2(x)\\cos(x)\\)",
+        "\\(3\\cos^2(x)\\sin(x)\\)",
+        "\\(\\sin^3(x)\\)",
+        "\\(\\cos^3(x)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Utilizando la regla de la cadena, la derivada de \\((\\sin(x))^3\\) es \\(3\\sin^2(x)\\cos(x)\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar la función compuesta: \\(u=\\sin(x)\\) y la potencia 3.",
+        "Derivar \\(u^3\\) que da \\(3u^2\\) y multiplicar por \\(u' = \\cos(x)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\((\\cos(x))^3\\).",
+      "formula": "\\((\\cos(x))^3\\)",
+      "options": [
+        "\\(-3\\cos^2(x)\\sin(x)\\)",
+        "\\(3\\cos^2(x)\\sin(x)\\)",
+        "\\(-\\sin^3(x)\\)",
+        "\\(\\cos^3(x)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla de la cadena, la derivada de \\((\\cos(x))^3\\) es \\(-3\\cos^2(x)\\sin(x)\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar \\(u=\\cos(x)\\) y la función \\(u^3\\).",
+        "Derivar: \\(3u^2 \\cdot u'\\) y \\(u'=-\\sin(x)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(e^{\\sin(x)}\\).",
+      "formula": "\\(e^{\\sin(x)}\\)",
+      "options": [
+        "\\(e^{\\sin(x)}\\cos(x)\\)",
+        "\\(e^{\\sin(x)}\\sin(x)\\)",
+        "\\(\\cos(x)\\)",
+        "\\(e^x\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando la regla de la cadena, la derivada de \\(e^{\\sin(x)}\\) es \\(e^{\\sin(x)}\\cos(x)\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar la función interna \\(\\sin(x)\\) y su derivada \\(\\cos(x)\\).",
+        "Aplicar la regla de la cadena: \\(\\frac{d}{dx}e^{\\sin(x)}=e^{\\sin(x)}\\cos(x)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\ln(\\tan(x))\\).",
+      "formula": "\\(\\ln(\\tan(x))\\)",
+      "options": [
+        "\\(\\frac{\\sec^2(x)}{\\tan(x)}\\)",
+        "\\(\\frac{\\tan(x)}{\\sec^2(x)}\\)",
+        "\\(\\frac{1}{\\tan(x)}\\)",
+        "\\(\\sec^2(x)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\ln(u)\\) es \\(\\frac{u'}{u}\\) y para \\(u=\\tan(x)\\), \\(u'=\\sec^2(x)\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar \\(u=\\tan(x)\\) y calcular \\(u'=\\sec^2(x)\\).",
+        "Aplicar la fórmula: \\(\\frac{d}{dx}\\ln(\\tan(x))=\\frac{\\sec^2(x)}{\\tan(x)}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\sqrt{2x+3}\\).",
+      "formula": "\\(\\sqrt{2x+3}\\)",
+      "options": [
+        "\\(\\frac{1}{\\sqrt{2x+3}}\\)",
+        "\\(\\frac{1}{2\\sqrt{2x+3}}\\)",
+        "\\(\\sqrt{2x+3}\\)",
+        "\\(\\frac{2}{\\sqrt{2x+3}}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reescribe \\(\\sqrt{2x+3}\\) como \\((2x+3)^{1/2}\\) y aplica la regla de la potencia junto con la cadena.",
+      "difficulty": "easy",
+      "procedure": [
+        "Convertir \\(\\sqrt{2x+3}\\) a \\((2x+3)^{1/2}\\).",
+        "Aplicar la derivada: \\(\\frac{1}{2}(2x+3)^{-1/2} \\cdot 2 = \\frac{1}{\\sqrt{2x+3}}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\ln(2x^2+1)\\).",
+      "formula": "\\(\\ln(2x^2+1)\\)",
+      "options": [
+        "\\(\\frac{4x}{2x^2+1}\\)",
+        "\\(\\frac{2x}{2x^2+1}\\)",
+        "\\(\\ln(2x^2+1)\\)",
+        "\\(\\frac{1}{2x^2+1}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Para \\(u=2x^2+1\\), \\(u'=4x\\). Luego, \\(\\frac{d}{dx}\\ln(u)=\\frac{u'}{u}=\\frac{4x}{2x^2+1}\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar \\(u=2x^2+1\\) y calcular \\(u'=4x\\).",
+        "Aplicar la regla: \\(\\frac{d}{dx}\\ln(2x^2+1)=\\frac{4x}{2x^2+1}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\frac{1}{x^2}\\).",
+      "formula": "\\(\\frac{1}{x^2}\\)",
+      "options": [
+        "\\(-\\frac{2}{x^3}\\)",
+        "\\(\\frac{2}{x^3}\\)",
+        "\\(\\frac{1}{x^2}\\)",
+        "\\(-\\frac{1}{x^2}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reescribe \\(\\frac{1}{x^2}\\) como \\(x^{-2}\\) y utiliza la regla de la potencia.",
+      "difficulty": "easy",
+      "procedure": [
+        "Convertir \\(\\frac{1}{x^2}\\) a \\(x^{-2}\\).",
+        "Aplicar la derivada: \\(-2x^{-3}=-\\frac{2}{x^3}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(x\\,e^x\\).",
+      "formula": "\\(x\\,e^x\\)",
+      "options": [
+        "\\(e^x+xe^x\\)",
+        "\\(xe^x\\)",
+        "\\(e^x\\)",
+        "\\(e^x-xe^x\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla del producto, la derivada de \\(x\\,e^x\\) es \\(e^x+xe^x\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar las funciones: \\(f(x)=x\\) y \\(g(x)=e^x\\).",
+        "Derivar: \\(f'(x)=1\\) y \\(g'(x)=e^x\\).",
+        "Aplicar la regla del producto: \\(1\\cdot e^x + x\\cdot e^x = e^x+xe^x\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\frac{\\sin(x)}{x}\\).",
+      "formula": "\\(\\frac{\\sin(x)}{x}\\)",
+      "options": [
+        "\\(\\frac{x\\cos(x)-\\sin(x)}{x^2}\\)",
+        "\\(\\frac{\\cos(x)}{x}\\)",
+        "\\(\\frac{\\sin(x)}{x}\\)",
+        "\\(\\frac{\\sin(x)+\\cos(x)}{x}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla del cociente, la derivada es \\(\\frac{x\\cos(x)-\\sin(x)}{x^2}\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar \\(u=\\sin(x)\\) y \\(v=x\\).",
+        "Calcular \\(u'=\\cos(x)\\) y \\(v'=1\\).",
+        "Aplicar la regla del cociente: \\(\\frac{u'v-uv'}{v^2}=\\frac{x\\cos(x)-\\sin(x)}{x^2}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\ln(x^3)\\).",
+      "formula": "\\(\\ln(x^3)\\)",
+      "options": [
+        "\\(\\frac{3}{x}\\)",
+        "\\(\\frac{1}{x^3}\\)",
+        "\\(\\ln(x^3)\\)",
+        "\\(\\frac{1}{3x}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando la propiedad logarítmica, \\(\\ln(x^3)=3\\ln(x)\\), por lo que la derivada es \\(\\frac{3}{x}\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Reescribir \\(\\ln(x^3)=3\\ln(x)\\).",
+        "Derivar: \\(3\\cdot\\frac{1}{x}=\\frac{3}{x}\\)."
+      ]
+    },
+    {
+      "question": "Usa diferenciación implícita para derivar \\(x^2+y^2=4\\).",
+      "formula": "\\(x^2+y^2=4\\)",
+      "options": [
+        "\\(\\frac{dy}{dx}=-\\frac{x}{y}\\)",
+        "\\(\\frac{dy}{dx}=\\frac{x}{y}\\)",
+        "\\(\\frac{dy}{dx}=-\\frac{y}{x}\\)",
+        "\\(\\frac{dy}{dx}=\\frac{y}{x}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Diferenciando \\(x^2+y^2=4\\) se obtiene \\(2x+2y\\frac{dy}{dx}=0\\), despejando \\(\\frac{dy}{dx}=-\\frac{x}{y}\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Diferenciar ambos lados: \\(2x+2y\\frac{dy}{dx}=0\\).",
+        "Despejar \\(\\frac{dy}{dx}\\): \\(\\frac{dy}{dx}=-\\frac{x}{y}\\)."
+      ]
+    },
+    {
+      "question": "Usa diferenciación implícita para derivar \\(xy=1\\).",
+      "formula": "\\(xy=1\\)",
+      "options": [
+        "\\(\\frac{dy}{dx}=-\\frac{y}{x}\\)",
+        "\\(\\frac{dy}{dx}=\\frac{y}{x}\\)",
+        "\\(\\frac{dy}{dx}=1\\)",
+        "\\(\\frac{dy}{dx}=-1\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Diferenciando \\(xy=1\\) se tiene \\(x\\frac{dy}{dx}+y=0\\) y, al despejar, \\(\\frac{dy}{dx}=-\\frac{y}{x}\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Aplicar la derivación del producto: \\(\\frac{d}{dx}(xy)=x\\frac{dy}{dx}+y\\).",
+        "Resolver \\(x\\frac{dy}{dx}+y=0\\) para \\(\\frac{dy}{dx}\\)."
+      ]
+    },
+    {
+      "question": "En una parametrización \\(x=t^2,\\ y=t^3+1\\), encuentra \\(\\frac{dy}{dx}\\).",
+      "formula": "\\(x=t^2,\\ y=t^3+1\\)",
+      "options": [
+        "\\(\\frac{3t^2}{2t}\\)",
+        "\\(\\frac{2t}{3t^2}\\)",
+        "\\(\\frac{3t}{2}\\)",
+        "\\(\\frac{t}{2}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Se tiene \\(\\frac{dx}{dt}=2t\\) y \\(\\frac{dy}{dt}=3t^2\\), por lo que \\(\\frac{dy}{dx}=\\frac{3t^2}{2t}=\\frac{3t}{2}\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Calcular \\(\\frac{dx}{dt}=2t\\) y \\(\\frac{dy}{dt}=3t^2\\).",
+        "Dividir para obtener \\(\\frac{dy}{dx}=\\frac{3t^2}{2t}=\\frac{3t}{2}\\)."
+      ]
+    },
+    {
+      "question": "En una parametrización \\(x=\\sin(t),\\ y=\\cos(t)\\), encuentra \\(\\frac{dy}{dx}\\).",
+      "formula": "\\(x=\\sin(t),\\ y=\\cos(t)\\)",
+      "options": [
+        "\\(\\frac{-\\sin(t)}{\\cos(t)}\\)",
+        "\\(\\frac{\\cos(t)}{-\\sin(t)}\\)",
+        "\\(\\tan(t)\\)",
+        "\\(-\\tan(t)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Con \\(\\frac{dx}{dt}=\\cos(t)\\) y \\(\\frac{dy}{dt}=-\\sin(t)\\), se tiene \\(\\frac{dy}{dx}=\\frac{-\\sin(t)}{\\cos(t)}=-\\tan(t)\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Calcular \\(\\frac{dx}{dt}=\\cos(t)\\) y \\(\\frac{dy}{dt}=-\\sin(t)\\).",
+        "Dividir: \\(\\frac{dy}{dx}=\\frac{-\\sin(t)}{\\cos(t)}=-\\tan(t)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\arctan(2x)\\).",
+      "formula": "\\(\\arctan(2x)\\)",
+      "options": [
+        "\\(\\frac{2}{1+4x^2}\\)",
+        "\\(\\frac{1}{1+4x^2}\\)",
+        "\\(\\arctan(2x)\\)",
+        "\\(\\frac{2}{1+2x}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\arctan(u)\\) es \\(\\frac{u'}{1+u^2}\\) y para \\(u=2x\\) se tiene \\(u'=2\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar \\(u=2x\\) y \\(u'=2\\).",
+        "Aplicar la regla: \\(\\frac{d}{dx}\\arctan(2x)=\\frac{2}{1+(2x)^2}=\\frac{2}{1+4x^2}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\arcsin(3x)\\).",
+      "formula": "\\(\\arcsin(3x)\\)",
+      "options": [
+        "\\(\\frac{3}{\\sqrt{1-9x^2}}\\)",
+        "\\(\\frac{-3}{\\sqrt{1-9x^2}}\\)",
+        "\\(\\frac{1}{\\sqrt{1-9x^2}}\\)",
+        "\\(\\arcsin(3x)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\arcsin(u)\\) es \\(\\frac{u'}{\\sqrt{1-u^2}}\\) y para \\(u=3x\\) se tiene \\(u'=3\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar \\(u=3x\\) y calcular \\(u'=3\\).",
+        "Aplicar la regla: \\(\\frac{3}{\\sqrt{1-(3x)^2}}=\\frac{3}{\\sqrt{1-9x^2}}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\arccos(4x)\\).",
+      "formula": "\\(\\arccos(4x)\\)",
+      "options": [
+        "\\(-\\frac{4}{\\sqrt{1-16x^2}}\\)",
+        "\\(\\frac{4}{\\sqrt{1-16x^2}}\\)",
+        "\\(\\arccos(4x)\\)",
+        "\\(-\\arccos(4x)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\arccos(u)\\) es \\(-\\frac{u'}{\\sqrt{1-u^2}}\\) y para \\(u=4x\\), \\(u'=4\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar \\(u=4x\\) y calcular \\(u'=4\\).",
+        "Aplicar la regla: \\(\\frac{d}{dx}\\arccos(4x)=-\\frac{4}{\\sqrt{1-(4x)^2}}=-\\frac{4}{\\sqrt{1-16x^2}}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(e^x\\,\\sin(x)\\).",
+      "formula": "\\(e^x\\,\\sin(x)\\)",
+      "options": [
+        "\\(e^x(\\sin(x)+\\cos(x))\\)",
+        "\\(e^x(\\sin(x)-\\cos(x))\\)",
+        "\\(e^x\\,\\cos(x)\\)",
+        "\\(e^x\\,\\sin(x)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla del producto, se obtiene \\(e^x\\,\\sin(x)+e^x\\,\\cos(x)=e^x(\\sin(x)+\\cos(x))\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar \\(f(x)=e^x\\) y \\(g(x)=\\sin(x)\\).",
+        "Calcular \\(f'(x)=e^x\\) y \\(g'(x)=\\cos(x)\\).",
+        "Aplicar la regla del producto: \\(e^x\\sin(x)+e^x\\cos(x)=e^x(\\sin(x)+\\cos(x))\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\frac{e^x}{\\sin(x)}\\).",
+      "formula": "\\(\\frac{e^x}{\\sin(x)}\\)",
+      "options": [
+        "\\(\\frac{e^x(\\sin(x)-\\cos(x))}{\\sin^2(x)}\\)",
+        "\\(\\frac{e^x(\\sin(x)+\\cos(x))}{\\sin^2(x)}\\)",
+        "\\(\\frac{e^x}{\\sin(x)}\\)",
+        "\\(e^x\\,\\sin(x)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla del cociente, la derivada es \\(\\frac{e^x\\sin(x)-e^x\\cos(x)}{\\sin^2(x)}=\\frac{e^x(\\sin(x)-\\cos(x))}{\\sin^2(x)}\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar \\(u=e^x\\) y \\(v=\\sin(x)\\).",
+        "Calcular \\(u'=e^x\\) y \\(v'=\\cos(x)\\).",
+        "Aplicar la regla del cociente: \\(\\frac{u'v-uv'}{v^2}=\\frac{e^x\\sin(x)-e^x\\cos(x)}{\\sin^2(x)}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\ln\\left(\\frac{x+1}{x-1}\\right)\\).",
+      "formula": "\\(\\ln\\left(\\frac{x+1}{x-1}\\right)\\)",
+      "options": [
+        "\\(-\\frac{2}{x^2-1}\\)",
+        "\\(\\frac{2}{x^2-1}\\)",
+        "\\(\\ln\\left(\\frac{x+1}{x-1}\\right)\\)",
+        "\\(-\\frac{1}{x^2-1}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Derivando \\(u=\\frac{x+1}{x-1}\\) se obtiene \\(u'=-\\frac{2}{(x-1)^2}\\) y luego \\(\\frac{u'}{u}=-\\frac{2}{(x-1)^2}\\cdot\\frac{x-1}{x+1}=-\\frac{2}{(x-1)(x+1)}=-\\frac{2}{x^2-1}\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Calcular la derivada de \\(u=\\frac{x+1}{x-1}\\) usando la regla del cociente.",
+        "Aplicar la derivada del logaritmo: \\(\\frac{u'}{u}\\) y simplificar a \\(-\\frac{2}{x^2-1}\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\sin(x^2)\\).",
+      "formula": "\\(\\sin(x^2)\\)",
+      "options": [
+        "\\(2x\\cos(x^2)\\)",
+        "\\(\\cos(x^2)\\)",
+        "\\(\\sin(x^2)\\)",
+        "\\(-2x\\sin(x^2)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Usando la regla de la cadena, la derivada es \\(2x\\cos(x^2)\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar la función interna \\(u=x^2\\) con derivada \\(2x\\).",
+        "Aplicar la regla de la cadena: \\(\\frac{d}{dx}\\sin(u)=\\cos(u)\\cdot u'\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\cos(x^2)\\).",
+      "formula": "\\(\\cos(x^2)\\)",
+      "options": [
+        "\\(-2x\\sin(x^2)\\)",
+        "\\(2x\\sin(x^2)\\)",
+        "\\(\\sin(x^2)\\)",
+        "\\(-\\cos(x^2)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aplicando la regla de la cadena, la derivada de \\(\\cos(x^2)\\) es \\(-2x\\sin(x^2)\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar \\(u=x^2\\) con derivada \\(2x\\).",
+        "Aplicar la derivada: \\(\\frac{d}{dx}\\cos(u)=-\\sin(u)\\cdot u'=-2x\\sin(x^2)\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\tan(x^2)\\).",
+      "formula": "\\(\\tan(x^2)\\)",
+      "options": [
+        "\\(2x\\sec^2(x^2)\\)",
+        "\\(\\sec^2(x^2)\\)",
+        "\\(2x\\tan(x^2)\\)",
+        "\\(\\tan(x^2)\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Utilizando la regla de la cadena, la derivada es \\(2x\\sec^2(x^2)\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Identificar \\(u=x^2\\) con \\(u'=2x\\).",
+        "Aplicar la derivada de \\(\\tan(u)\\) que es \\(\\sec^2(u)\\cdot u'\\)."
+      ]
+    },
+    {
+      "question": "Calcula la derivada de \\(\\ln|x+2|\\).",
+      "formula": "\\(\\ln|x+2|\\)",
+      "options": [
+        "\\(\\frac{1}{x+2}\\)",
+        "\\(\\frac{1}{x}\\)",
+        "\\(\\ln|x+2|\\)",
+        "\\(\\frac{1}{|x+2|}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La derivada de \\(\\ln|x+2|\\) es \\(\\frac{1}{x+2}\\) para \\(x\\neq -2\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Recordar la derivada de \\(\\ln|u|\\) es \\(\\frac{u'}{u}\\) y para \\(u=x+2\\), \\(u'=1\\)."
+      ]
+    },
+    {
+      "question": "Usa diferenciación implícita para derivar \\(x^3+y^3=3xy\\).",
+      "formula": "\\(x^3+y^3=3xy\\)",
+      "options": [
+        "\\(\\frac{dy}{dx}=\\frac{3y-3x^2}{3y^2-3x}\\)",
+        "\\(\\frac{dy}{dx}=\\frac{3x^2-3y}{3x-3y^2}\\)",
+        "\\(\\frac{dy}{dx}=\\frac{3y+3x^2}{3y^2+3x}\\)",
+        "\\(\\frac{dy}{dx}=\\frac{3x^2+3y}{3y^2+3x}\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Diferenciando ambos lados se tiene \\(3x^2+3y^2\\frac{dy}{dx}=3y+3x\\frac{dy}{dx}\\). Al despejar \\(\\frac{dy}{dx}\\) se llega a \\(\\frac{dy}{dx}=\\frac{3y-3x^2}{3y^2-3x}\\).",
+      "difficulty": "easy",
+      "procedure": [
+        "Diferenciar ambos lados de \\(x^3+y^3=3xy\\) implícitamente.",
+        "Agrupar los términos con \\(\\frac{dy}{dx}\\) y despejar."
+      ]
+    }
+  ]
+}

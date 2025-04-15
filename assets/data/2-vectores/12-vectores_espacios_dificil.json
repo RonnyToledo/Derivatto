@@ -1,0 +1,1442 @@
+{
+  "vectores_espacios_dificil": [
+    {
+      "question": "Sea \\(V\\) un espacio vectorial. ¿Cuál de los siguientes enunciados representa la propiedad de cerradura bajo la suma?",
+      "formula": "\\( u + v \\in V \\)",
+      "options": [
+        "\\( \\forall u,v \\in V,\\ u+v \\in V \\)",
+        "\\( \\forall u \\in V,\\ -u \\in V \\)",
+        "\\( \\forall u \\in V,\\ \\lambda u \\in V \\)",
+        "\\( \\exists u,v \\in V,\\ u+v \\notin V \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La cerradura bajo la suma indica que la suma de cualesquiera dos vectores en \\(V\\) debe pertenecer a \\(V\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Revisar la definición axiomatica de espacio vectorial.",
+        "Identificar que la suma de dos elementos de \\(V\\) debe seguir perteneciendo a \\(V\\)."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial. ¿Cuál es la propiedad que garantiza la existencia del vector cero?",
+      "formula": "\\( \\exists 0 \\in V \\) tal que \\( u+0=u \\)",
+      "options": [
+        "\\( \\forall u \\in V,\\ u+0=u \\)",
+        "\\( \\forall u \\in V,\\ u+(-u)=0 \\)",
+        "\\( \\forall u,v \\in V,\\ u+v=v+u \\)",
+        "\\( \\forall u,v \\in V,\\ u+v \\in V \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La existencia de un elemento neutro (vector cero) es un axioma esencial en un espacio vectorial.",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar que debe existir un vector \\(0\\) tal que \\(u+0=u\\) para todo \\(u\\in V\\).",
+        "Comparar con cada opción y verificar cuál cumple con la definición."
+      ]
+    },
+    {
+      "question": "En un espacio vectorial \\(V\\), la existencia del inverso aditivo se expresa mediante:",
+      "formula": "\\( \\forall u \\in V,\\ \\exists (-u) \\in V \\) tal que \\( u+(-u)=0 \\)",
+      "options": [
+        "\\( \\forall u,v \\in V,\\ u+v \\in V \\)",
+        "\\( \\forall u \\in V,\\ u+(-u)=0 \\)",
+        "\\( \\exists 0 \\in V,\\ u+0=u \\)",
+        "\\( \\forall u \\in V,\\ \\lambda u \\in V \\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La existencia de inversos aditivos significa que para cada \\(u\\) existe un \\(-u\\) en \\(V\\) que suma con \\(u\\) para dar el vector cero.",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar la propiedad que indica la existencia del inverso aditivo.",
+        "Verificar cuál de las opciones coincide con \\(u+(-u)=0\\)."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial sobre un campo \\(\\mathbb{F}\\). ¿Qué propiedad garantiza la asociatividad de la suma?",
+      "formula": "\\( (u+v)+w = u+(v+w) \\)",
+      "options": [
+        "\\( (u+v)+w = u+(v+w) \\)",
+        "\\( u+v = v+u \\)",
+        "\\( \\lambda (u+v) = \\lambda u + \\lambda v \\)",
+        "\\( u+0 = u \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La asociatividad de la suma es un axioma fundamental que establece que la forma de agrupar la suma de tres vectores no altera el resultado.",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar que la suma en un espacio vectorial debe ser asociativa.",
+        "Comparar la opción con la definición estándar: \\((u+v)+w = u+(v+w)\\)."
+      ]
+    },
+    {
+      "question": "En un espacio vectorial, ¿cuál de las siguientes opciones describe la propiedad distributiva de la multiplicación por un escalar sobre la suma de vectores?",
+      "formula": "\\( \\lambda (u+v) = \\lambda u + \\lambda v \\)",
+      "options": [
+        "\\( \\lambda (u+v) = \\lambda u + \\lambda v \\)",
+        "\\( (\\lambda+\\mu)u = \\lambda u + \\mu u \\)",
+        "\\( (u+v)+w = u+(v+w) \\)",
+        "\\( u+(-u)=0 \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La propiedad distributiva indica que un escalar multiplicado por la suma de dos vectores es igual a la suma de los productos de cada vector por el escalar.",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar la definición de distributividad de la multiplicación escalar.",
+        "Comparar con cada opción y seleccionar la que exprese \\(\\lambda (u+v)=\\lambda u+\\lambda v\\)."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial y \\(\\lambda, \\mu \\in \\mathbb{F}\\). ¿Qué enunciado corresponde a la distributividad de la suma de escalares respecto a la multiplicación por un vector?",
+      "formula": "\\( (\\lambda+\\mu)u = \\lambda u + \\mu u \\)",
+      "options": [
+        "\\( (\\lambda+\\mu)u = \\lambda u + \\mu u \\)",
+        "\\( \\lambda (u+v) = \\lambda u + \\lambda v \\)",
+        "\\( u+v = v+u \\)",
+        "\\( (u+v)+w = u+(v+w) \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Esta propiedad asegura que la suma de escalares multiplicada por un vector equivale a la suma de cada escalar multiplicado por ese vector.",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar las propiedades de la multiplicación escalar en un espacio vectorial.",
+        "Seleccionar la opción que muestre \\((\\lambda+\\mu)u = \\lambda u + \\mu u\\)."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial. ¿Cuál de las siguientes expresiones NO es un axioma necesario para definir \\(V\\)?",
+      "formula": "",
+      "options": [
+        "\\( \\forall u,v \\in V,\\ u+v \\in V \\)",
+        "\\( \\forall u \\in V,\\ u+0=u \\)",
+        "\\( \\forall u,v \\in V,\\ u \\cdot v \\in V \\)",
+        "\\( \\forall u \\in V,\\ \\exists (-u) \\in V \\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La multiplicación interna (producto) no es un axioma para la definición de un espacio vectorial, ya que solo se requiere la suma y la multiplicación por escalar.",
+      "difficulty": "hard",
+      "procedure": [
+        "Listar los axiomas de un espacio vectorial.",
+        "Identificar que el producto entre vectores no es requerido en la definición."
+      ]
+    },
+    {
+      "question": "Dados los vectores \\(v_1=(1,0,0)\\), \\(v_2=(0,1,0)\\) y \\(v_3=(0,0,1)\\) en \\(\\mathbb{R}^3\\), ¿cuál de las siguientes afirmaciones es correcta?",
+      "formula": "",
+      "options": [
+        "\\(\\{v_1,v_2\\}\\) es una base de \\(\\mathbb{R}^3\\)",
+        "\\(\\{v_1,v_2,v_3\\}\\) es una base de \\(\\mathbb{R}^3\\)",
+        "\\(\\{v_1,v_3\\}\\) es un conjunto linealmente independiente que genera \\(\\mathbb{R}^3\\)",
+        "\\(\\{v_2,v_3\\}\\) es una base de \\(\\mathbb{R}^3\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "En \\(\\mathbb{R}^3\\) se necesita un conjunto de tres vectores linealmente independientes para formar una base, y \\(\\{v_1,v_2,v_3\\}\\) cumple esa condición.",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar que la dimensión de \\(\\mathbb{R}^3\\) es 3.",
+        "Verificar la independencia lineal de los vectores dados."
+      ]
+    },
+    {
+      "question": "Sea \\(S = \\{ (1,2,3), (4,5,6), (7,8,9) \\} \\subset \\mathbb{R}^3\\). ¿Cuál es la dimensión del subespacio generado por \\(S\\)?",
+      "formula": "",
+      "options": ["\\(1\\)", "\\(2\\)", "\\(3\\)", "\\(0\\)"],
+      "correctAnswer": 1,
+      "explanation": "Los vectores en \\(S\\) son linealmente dependientes, por lo que el rango (dimensión del subespacio generado) es 2.",
+      "difficulty": "hard",
+      "procedure": [
+        "Verificar la dependencia lineal de los vectores.",
+        "Determinar el número máximo de vectores linealmente independientes."
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes condiciones es necesaria para que un conjunto \\(B\\) sea una base de un espacio vectorial \\(V\\)?",
+      "formula": "",
+      "options": [
+        "\\(B\\) debe ser linealmente dependiente y generar \\(V\\).",
+        "\\(B\\) debe ser finito y contener al vector cero.",
+        "\\(B\\) debe ser linealmente independiente y generar \\(V\\).",
+        "\\(B\\) debe tener más elementos que la dimensión de \\(V\\)."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Una base se define como un conjunto linealmente independiente que además genera el espacio vectorial.",
+      "difficulty": "hard",
+      "procedure": [
+        "Revisar la definición de base en un espacio vectorial.",
+        "Seleccionar la opción que incluya independencia y generación del espacio."
+      ]
+    },
+    {
+      "question": "Dados los vectores \\(v_1=(1,0)\\) y \\(v_2=(2,0)\\) en \\(\\mathbb{R}^2\\), ¿cuál es la propiedad de estos vectores?",
+      "formula": "",
+      "options": [
+        "Son linealmente independientes y forman una base.",
+        "Son linealmente dependientes y no pueden formar una base.",
+        "Generan \\(\\mathbb{R}^2\\) a pesar de ser dependientes.",
+        "Ninguna de las anteriores."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Los vectores son proporcionales, por lo que son linealmente dependientes y no pueden formar una base de \\(\\mathbb{R}^2\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Verificar que \\(v_2=2\\,v_1\\).",
+        "Concluir la dependencia lineal y la imposibilidad de formar una base."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial y \\(u,v \\in V\\). ¿Qué propiedad debe cumplirse para que la suma sea conmutativa?",
+      "formula": "\\( u+v = v+u \\)",
+      "options": [
+        "\\( u+v = v+u \\)",
+        "\\( u+(v+w) = (u+v)+w \\)",
+        "\\( \\lambda(u+v)=\\lambda u+\\lambda v \\)",
+        "\\( u+0=u \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La propiedad conmutativa establece que el orden de la suma no altera el resultado.",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar la definición de conmutatividad en la suma.",
+        "Seleccionar la opción que exprese \\(u+v=v+u\\)."
+      ]
+    },
+    {
+      "question": "Sea \\(B = \\{ v_1, v_2, v_3 \\} \\subset \\mathbb{R}^3\\) una base. ¿Cuál de las siguientes afirmaciones es verdadera?",
+      "formula": "",
+      "options": [
+        "Cualquier vector \\(v \\in \\mathbb{R}^3\\) se puede expresar de manera única como combinación lineal de \\(v_1,v_2,v_3\\).",
+        "Existen infinitas maneras de escribir \\(v \\in \\mathbb{R}^3\\) como combinación lineal de \\(v_1,v_2,v_3\\).",
+        "La base \\(B\\) contiene al vector cero.",
+        "El número de elementos en \\(B\\) es mayor que la dimensión de \\(\\mathbb{R}^3\\)."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Una de las propiedades de una base es la unicidad en la representación de cada vector del espacio.",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar la definición de base: conjunto linealmente independiente que genera el espacio.",
+        "Verificar que la representación es única."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial y \\(u,v,w \\in V\\). ¿Qué propiedad relaciona la suma de vectores y la existencia de elementos opuestos?",
+      "formula": "\\( u+(-u)=0 \\)",
+      "options": [
+        "\\( u+(-u)=0 \\)",
+        "\\( u+v=v+u \\)",
+        "\\( u+(v+w)=(u+v)+w \\)",
+        "\\( \\lambda (u+v)=\\lambda u+\\lambda v \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Esta propiedad indica que para cada vector existe un inverso aditivo que, al sumarlo, da como resultado el vector cero.",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar el axioma que establece la existencia del inverso aditivo.",
+        "Seleccionar la opción que representa \\(u+(-u)=0\\)."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial y \\(\\lambda \\in \\mathbb{F}\\). ¿Qué propiedad describe la asociatividad de la multiplicación por escalares?",
+      "formula": "\\( \\lambda (\\mu u)=(\\lambda\\mu)u \\)",
+      "options": [
+        "\\( \\lambda (\\mu u)=(\\lambda\\mu)u \\)",
+        "\\( (\\lambda+\\mu)u=\\lambda u+\\mu u \\)",
+        "\\( \\lambda (u+v)=\\lambda u+\\lambda v \\)",
+        "\\( u+0=u \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La asociatividad de la multiplicación por escalares implica que agrupar los escalares antes o después de multiplicar por el vector da el mismo resultado.",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar la propiedad asociativa en la multiplicación de escalares.",
+        "Seleccionar la opción que muestre \\(\\lambda (\\mu u)=(\\lambda\\mu)u\\)."
+      ]
+    },
+    {
+      "question": "Sean \\(v_1=(1,2)\\) y \\(v_2=(3,6)\\) en \\(\\mathbb{R}^2\\). ¿Cuál es la conclusión sobre la linealidad de \\(\\{v_1,v_2\\}\\)?",
+      "formula": "",
+      "options": [
+        "Son linealmente independientes.",
+        "Son linealmente dependientes.",
+        "Forman una base de \\(\\mathbb{R}^2\\).",
+        "Generan \\(\\mathbb{R}^2\\) de manera única."
+      ],
+      "correctAnswer": 1,
+      "explanation": "El vector \\(v_2\\) es múltiplo de \\(v_1\\), por lo que el conjunto es linealmente dependiente.",
+      "difficulty": "hard",
+      "procedure": [
+        "Observar que \\(v_2=3\\,v_1\\).",
+        "Concluir que no pueden ser linealmente independientes."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial y \\(B\\) una base de \\(V\\). ¿Cuál es la relación entre el número de elementos en \\(B\\) y la dimensión de \\(V\\)?",
+      "formula": "",
+      "options": [
+        "El número de elementos en \\(B\\) es mayor que la dimensión de \\(V\\).",
+        "El número de elementos en \\(B\\) es menor que la dimensión de \\(V\\).",
+        "El número de elementos en \\(B\\) es igual a la dimensión de \\(V\\).",
+        "No existe una relación fija."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Por definición, la dimensión de un espacio vectorial es el número de elementos en cualquiera de sus bases.",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar la definición de dimensión.",
+        "Seleccionar la opción que indique igualdad entre el número de elementos y la dimensión."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial y \\(S\\subset V\\) un conjunto de vectores. ¿Qué condición es suficiente para que \\(S\\) sea una base de \\(V\\)?",
+      "formula": "",
+      "options": [
+        "\\(S\\) es finito y contiene al vector cero.",
+        "\\(S\\) es linealmente independiente y su generación es \\(V\\).",
+        "\\(S\\) es linealmente dependiente y su generación es \\(V\\).",
+        "\\(S\\) tiene más vectores que la dimensión de \\(V\\)."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Un conjunto \\(S\\) es base si es linealmente independiente y genera el espacio vectorial \\(V\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Revisar la definición de base.",
+        "Confirmar que la opción que cumpla independencia y generación es la correcta."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial y \\(u,v \\in V\\). ¿Qué propiedad garantiza la existencia de la multiplicación por escalar?",
+      "formula": "\\( \\forall \\lambda \\in \\mathbb{F},\\ \\lambda u \\in V \\)",
+      "options": [
+        "\\( \\forall \\lambda \\in \\mathbb{F},\\ \\lambda u \\in V \\)",
+        "\\( \\forall u,v \\in V,\\ u+v \\in V \\)",
+        "\\( \\forall u \\in V,\\ u+0=u \\)",
+        "\\( \\forall u \\in V,\\ \\exists (-u) \\in V \\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Esta propiedad (cerradura bajo la multiplicación por escalar) es un axioma fundamental en la definición de espacio vectorial.",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar la propiedad de cerradura para la multiplicación por un escalar.",
+        "Seleccionar la opción que garantice que \\(\\lambda u\\) pertenece a \\(V\\) para cualquier \\(\\lambda\\) y \\(u\\)."
+      ]
+    },
+    {
+      "question": "En un espacio vectorial \\(V\\), ¿cuál de las siguientes afirmaciones sobre la suma de vectores es INCORRECTA?",
+      "formula": "",
+      "options": [
+        "\\(u+v = v+u\\)",
+        "\\(u+(v+w)=(u+v)+w\\)",
+        "\\(u+0 = 0\\)",
+        "\\(u+(-u)=0\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La suma de un vector con el vector cero debe devolver el mismo vector, es decir, \\(u+0=u\\) y no \\(0\\) en general.",
+      "difficulty": "hard",
+      "procedure": [
+        "Comparar cada opción con los axiomas de espacio vectorial.",
+        "Detectar que la opción que indica \\(u+0=0\\) es incorrecta."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial y \\(u,v\\) dos vectores de \\(V\\). ¿Qué propiedad se utiliza para justificar que \\(\\lambda(u+v)=\\lambda u+\\lambda v\\)?",
+      "formula": "",
+      "options": [
+        "Conmutatividad de la suma",
+        "Existencia del vector cero",
+        "Distributividad de la multiplicación escalar sobre la suma",
+        "Asociatividad de la suma"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La propiedad distributiva de la multiplicación escalar sobre la suma es la que permite la igualdad \\(\\lambda(u+v)=\\lambda u+\\lambda v\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar la definición de distributividad en espacios vectoriales.",
+        "Seleccionar la opción que la describa correctamente."
+      ]
+    },
+    {
+      "question": "Sea \\(B = \\{ (1,0,0), (0,1,0) \\} \\subset \\mathbb{R}^3\\). ¿Cuál de las siguientes afirmaciones es verdadera?",
+      "formula": "",
+      "options": [
+        "\\(B\\) es una base de \\(\\mathbb{R}^3\\).",
+        "\\(B\\) es linealmente independiente pero no genera \\(\\mathbb{R}^3\\).",
+        "\\(B\\) es linealmente dependiente.",
+        "\\(B\\) contiene al vector cero."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Aunque \\(B\\) es linealmente independiente, dos vectores en \\(\\mathbb{R}^3\\) no son suficientes para generar el espacio.",
+      "difficulty": "hard",
+      "procedure": [
+        "Determinar la dimensión de \\(\\mathbb{R}^3\\) (que es 3).",
+        "Concluir que un conjunto de dos vectores no puede generar el espacio completo."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial y \\(S\\subset V\\) un conjunto finito de vectores. ¿Qué condición garantiza que \\(S\\) sea maximalmente linealmente independiente?",
+      "formula": "",
+      "options": [
+        "\\(S\\) es maximalmente linealmente independiente si \\(S\\) es linealmente independiente y agregar cualquier vector de \\(V\\setminus S\\) produce dependencia.",
+        "\\(S\\) contiene al vector cero.",
+        "\\(S\\) es finito y genera \\(V\\).",
+        "\\(S\\) tiene más vectores que la dimensión de \\(V\\)."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Un conjunto maximalmente linealmente independiente es una base: es independiente y cualquier vector adicional crea dependencia.",
+      "difficulty": "hard",
+      "procedure": [
+        "Revisar la definición de conjunto maximalmente linealmente independiente.",
+        "Identificar la opción que la refleje correctamente."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial y \\(u\\) un vector en \\(V\\). ¿Qué propiedad garantiza que \\(1\\cdot u=u\\)?",
+      "formula": "",
+      "options": [
+        "Cerradura de la suma",
+        "Existencia del vector cero",
+        "Distributividad de la multiplicación escalar",
+        "Identidad multiplicativa del escalar"
+      ],
+      "correctAnswer": 3,
+      "explanation": "La propiedad de identidad multiplicativa del escalar establece que multiplicar un vector por 1 no altera el vector.",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar que \\(1\\) es la identidad en el campo de escalares.",
+        "Seleccionar la opción que indique la propiedad de identidad multiplicativa."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial sobre \\(\\mathbb{R}\\). ¿Cuál de las siguientes afirmaciones es verdadera sobre la combinación lineal de vectores?",
+      "formula": "",
+      "options": [
+        "Toda combinación lineal de vectores en \\(V\\) es única.",
+        "Una combinación lineal de vectores puede expresarse de múltiples formas si el conjunto no es linealmente independiente.",
+        "La combinación lineal siempre genera una base.",
+        "La combinación lineal implica la multiplicación de vectores."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Si el conjunto de vectores no es linealmente independiente, la representación de un vector como combinación lineal no es única.",
+      "difficulty": "hard",
+      "procedure": [
+        "Analizar la relación entre independencia lineal y unicidad en la representación.",
+        "Seleccionar la opción que explique correctamente la situación."
+      ]
+    },
+    {
+      "question": "Sea \\(B = \\{v_1,v_2,v_3,v_4\\}\\) un conjunto de vectores en un espacio vectorial \\(V\\) y supongamos que \\(\\dim(V)=3\\). ¿Qué se puede concluir sobre \\(B\\)?",
+      "formula": "",
+      "options": [
+        "\\(B\\) es linealmente independiente.",
+        "\\(B\\) es linealmente dependiente.",
+        " \\(B\\) es una base de \\(V\\).",
+        "\\(B\\) no genera \\(V\\)."
+      ],
+      "correctAnswer": 1,
+      "explanation": "En un espacio de dimensión 3, cualquier conjunto con más de 3 vectores es necesariamente linealmente dependiente.",
+      "difficulty": "hard",
+      "procedure": [
+        "Comparar el número de vectores con la dimensión del espacio.",
+        "Concluir que tener 4 vectores en un espacio de dimensión 3 implica dependencia lineal."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial y \\(S=\\{u,v\\}\\) un conjunto de vectores. ¿Cuál es la condición para que \\(S\\) sea linealmente independiente?",
+      "formula": "",
+      "options": [
+        "Si \\(u\\) y \\(v\\) son proporcionales.",
+        "Si \\(a u+b v=0\\) implica \\(a=0\\) y \\(b=0\\).",
+        "Si \\(u+v=0\\).",
+        "Si \\(u\\) o \\(v\\) es el vector cero."
+      ],
+      "correctAnswer": 1,
+      "explanation": "La definición de independencia lineal es que la única solución a \\(a u+b v=0\\) sea \\(a=0\\) y \\(b=0\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar la definición de independencia lineal.",
+        "Verificar la condición en la opción seleccionada."
+      ]
+    },
+    {
+      "question": "En un espacio vectorial \\(V\\), ¿cuál de los siguientes conjuntos NO puede ser una base?",
+      "formula": "",
+      "options": [
+        "Un conjunto finito de vectores linealmente independientes que genera \\(V\\).",
+        "Un conjunto infinito minimal de vectores que genera \\(V\\).",
+        "Un conjunto linealmente dependiente que genera \\(V\\).",
+        "Un conjunto maximal de vectores linealmente independientes."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Un conjunto linealmente dependiente no puede ser base, pues la independencia lineal es requisito fundamental.",
+      "difficulty": "hard",
+      "procedure": [
+        "Revisar la definición de base.",
+        "Identificar que la dependencia lineal invalida al conjunto como base."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial y \\(u,v\\in V\\). ¿Qué propiedad se utiliza para deducir que \\(\\lambda u + \\lambda v = \\lambda (u+v)\\)?",
+      "formula": "",
+      "options": [
+        "Conmutatividad de la suma.",
+        "Distributividad de la multiplicación escalar.",
+        "Asociatividad de la suma.",
+        "Existencia del vector cero."
+      ],
+      "correctAnswer": 1,
+      "explanation": "La propiedad distributiva de la multiplicación escalar sobre la suma es la que permite agrupar el escalar.",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar la propiedad \\(\\lambda(u+v)=\\lambda u+\\lambda v\\).",
+        "Seleccionar la opción que la explica."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial y \\(B\\) una base de \\(V\\). ¿Qué implica que las coordenadas de un vector respecto a \\(B\\) sean únicas?",
+      "formula": "",
+      "options": [
+        "Que \\(B\\) es maximalmente linealmente independiente.",
+        "Que \\(B\\) es linealmente dependiente.",
+        "Que \\(B\\) contiene al vector cero.",
+        "Que \\(B\\) tiene infinitos elementos."
+      ],
+      "correctAnswer": 0,
+      "explanation": "La unicidad en la representación es consecuencia de que la base es maximalmente linealmente independiente y genera el espacio.",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar la propiedad de la base en relación con las coordenadas únicas.",
+        "Seleccionar la opción correcta."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial y \\(S\\) un conjunto de vectores en \\(V\\) tal que cualquier vector \\(v\\in V\\) puede expresarse como combinación lineal de elementos de \\(S\\). ¿Cómo se denomina \\(S\\)?",
+      "formula": "",
+      "options": [
+        "Conjunto linealmente independiente.",
+        "Subespacio propio.",
+        "Sistema generador.",
+        "Conjunto maximal."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Un conjunto \\(S\\) con la propiedad de que cualquier vector del espacio es combinación lineal de sus elementos se denomina sistema generador.",
+      "difficulty": "hard",
+      "procedure": [
+        "Revisar la definición de sistema generador en espacios vectoriales.",
+        "Seleccionar la opción que la describa."
+      ]
+    },
+    {
+      "question": "En el contexto de espacios vectoriales, ¿qué significa que dos vectores sean linealmente independientes?",
+      "formula": "",
+      "options": [
+        "Que ninguno es múltiplo del otro.",
+        "Que su suma es cero.",
+        "Que son ortogonales.",
+        "Que ambos generan el espacio."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dos vectores son linealmente independientes si ninguno puede expresarse como múltiplo escalar del otro.",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar la definición de independencia lineal en el caso de dos vectores.",
+        "Seleccionar la opción que indique la no proporcionalidad."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial y \\(u,v\\in V\\). ¿Qué propiedad permite afirmar que \\(\\lambda(u-v)=\\lambda u-\\lambda v\\)?",
+      "formula": "",
+      "options": [
+        "Asociatividad de la suma.",
+        "Conmutatividad de la suma.",
+        "Distributividad de la multiplicación escalar sobre la resta.",
+        "Existencia del inverso aditivo."
+      ],
+      "correctAnswer": 2,
+      "explanation": "La propiedad distributiva de la multiplicación escalar se extiende a la resta, permitiendo distribuir el escalar.",
+      "difficulty": "hard",
+      "procedure": [
+        "Reconocer que la resta es una suma con el inverso aditivo.",
+        "Aplicar la propiedad distributiva de la multiplicación escalar."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial y \\(B\\) una base de \\(V\\). ¿Qué afirmación es correcta respecto a la representación de un vector \\(v\\in V\\) en función de \\(B\\)?",
+      "formula": "",
+      "options": [
+        "Existen infinitas formas de escribir \\(v\\) como combinación lineal de los vectores en \\(B\\).",
+        "La representación de \\(v\\) es única.",
+        "La representación de \\(v\\) depende de la elección arbitraria de escalares.",
+        "No siempre es posible representar \\(v\\) como combinación lineal de \\(B\\)."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Una de las propiedades fundamentales de una base es la unicidad en la representación de cada vector del espacio.",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar la definición de base.",
+        "Concluir que la representación es única si se utiliza una base."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial y \\(S=\\{v_1,v_2,v_3\\}\\subset V\\) un conjunto de vectores. ¿Qué implica que \\(S\\) sea linealmente dependiente?",
+      "formula": "",
+      "options": [
+        "Que existe una combinación lineal no trivial que da cero.",
+        "Que \\(S\\) es una base de \\(V\\).",
+        "Que \\(S\\) genera \\(V\\) de forma única.",
+        "Que \\(v_1,v_2,v_3\\) son ortogonales."
+      ],
+      "correctAnswer": 0,
+      "explanation": "La dependencia lineal significa que se pueden encontrar escalares, no todos cero, tales que \\(a_1v_1+a_2v_2+a_3v_3=0\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar la definición de dependencia lineal.",
+        "Identificar la opción que indica la existencia de una combinación lineal no trivial igual a cero."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial de dimensión \\(n\\). ¿Cuál es el máximo número de vectores linealmente independientes que se pueden tener en \\(V\\)?",
+      "formula": "",
+      "options": ["\\(n+1\\)", "\\(n\\)", "\\(n-1\\)", "\\(2n\\)"],
+      "correctAnswer": 1,
+      "explanation": "Por definición, la dimensión \\(n\\) de un espacio vectorial indica que como máximo se pueden tener \\(n\\) vectores linealmente independientes.",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar la relación entre la dimensión y el número máximo de vectores linealmente independientes.",
+        "Seleccionar la opción que indique \\(n\\)."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial y \\(u,v\\in V\\) tales que \\(u\\) no es múltiplo escalar de \\(v\\). ¿Qué se puede concluir?",
+      "formula": "",
+      "options": [
+        "Los vectores \\(u\\) y \\(v\\) son linealmente independientes.",
+        "Los vectores \\(u\\) y \\(v\\) son linealmente dependientes.",
+        "\\(u\\) y \\(v\\) generan \\(V\\) necesariamente.",
+        "La suma \\(u+v\\) es igual a \\(0\\)."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Si \\(u\\) no es múltiplo de \\(v\\), entonces \\(u\\) y \\(v\\) son linealmente independientes.",
+      "difficulty": "hard",
+      "procedure": [
+        "Verificar que la no proporcionalidad implica independencia lineal.",
+        "Seleccionar la opción que refleje esta propiedad."
+      ]
+    },
+    {
+      "question": "Sea \\(V = \\{(x,y) \\in \\mathbb{R}^2 : x = y\\}\\). ¿Es \\(V\\) un espacio vectorial con las operaciones habituales?",
+      "formula": "\\(V = \\{(x,y) \\in \\mathbb{R}^2 : x = y\\}\\)",
+      "options": [
+        "\\(Sí, cumple todos los axiomas\\)",
+        "\\(No, falla la cerradura en la suma\\)",
+        "\\(No, carece del vector nulo\\)",
+        "\\(No, no es cerrado bajo la multiplicación escalar\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El conjunto V corresponde a la recta diagonal en \\(\\mathbb{R}^2\\) y, con las operaciones usuales, cumple todos los axiomas de un espacio vectorial (cerradura, existencia del vector nulo, inversos, etc.).",
+      "difficulty": "hard",
+      "procedure": [
+        "Verificar que la suma de dos vectores de la forma \\((a,a)\\) es \\((a+b,a+b)\\), lo cual pertenece a \\(V\\).",
+        "Comprobar que la multiplicación por un escalar de \\((a,a)\\) da \\((ca,ca)\\), que sigue estando en \\(V\\).",
+        "Confirmar la existencia del vector nulo \\((0,0)\\) y del inverso aditivo \\((-a,-a)\\)."
+      ]
+    },
+    {
+      "question": "Sea \\(V = \\{(x,y) \\in \\mathbb{R}^2 : x \\cdot y = 0\\}\\). ¿Es \\(V\\) un espacio vectorial con las operaciones habituales?",
+      "formula": "\\(V = \\{(x,y) \\in \\mathbb{R}^2 : x \\cdot y = 0\\}\\)",
+      "options": [
+        "\\(Sí, es un subespacio de \\(\\mathbb{R}^2\\)\\)",
+        "\\(No, no es cerrado bajo la suma\\)",
+        "\\(No, no contiene el vector nulo\\)",
+        "\\(No, falla la asociatividad de la suma\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Aunque \\((0,0)\\) pertenece a \\(V\\), la suma de vectores como \\((1,0)\\) y \\((0,1)\\) da \\((1,1)\\), que no cumple \\(1\\cdot1=0\\), por lo que falla la propiedad de cerradura bajo la suma.",
+      "difficulty": "hard",
+      "procedure": [
+        "Verificar que \\((0,0)\\) pertenece a \\(V\\) ya que \\(0 \\cdot 0 = 0\\).",
+        "Ejecutar la suma de \\((1,0)\\) y \\((0,1)\\) para obtener \\((1,1)\\).",
+        "Observar que \\(1 \\cdot 1 \\neq 0\\), lo que rompe la cerradura bajo la suma."
+      ]
+    },
+    {
+      "question": "Considera \\(V = \\{p(x) \\in \\mathbb{R}[x] : \\deg(p) \\leq 2\\}\\). ¿Es \\(V\\) un espacio vectorial?",
+      "formula": "\\(V = \\{p(x) \\in \\mathbb{R}[x] : \\deg(p) \\leq 2\\}\\)",
+      "options": [
+        "\\(Sí, es un espacio vectorial\\)",
+        "\\(No, no es cerrado bajo la suma\\)",
+        "\\(No, la multiplicación escalar no se define\\)",
+        "\\(No, carece del vector nulo\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El conjunto de polinomios de grado a lo sumo 2 cumple con la suma, la multiplicación por escalares y contiene el polinomio cero, por lo que es un espacio vectorial.",
+      "difficulty": "hard",
+      "procedure": [
+        "Verificar que la suma de dos polinomios de grado \\(\\leq 2\\) es un polinomio de grado \\(\\leq 2\\).",
+        "Comprobar que la multiplicación por un escalar mantiene el grado máximo.",
+        "Confirmar la existencia del polinomio cero en \\(V\\)."
+      ]
+    },
+    {
+      "question": "Verifica la propiedad conmutativa de la suma en \\(\\mathbb{R}^n\\) con la suma usual.",
+      "formula": "\\(u+v = v+u \\quad \\text{para todo } u,v \\in \\mathbb{R}^n\\)",
+      "options": [
+        "\\(Se cumple por definición de la suma\\)",
+        "\\(No se cumple en \\(\\mathbb{R}^n\\)\\)",
+        "\\(Se cumple solo para \\(n=2\\)\\)",
+        "\\(Depende de la magnitud de los vectores\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La suma de vectores en \\(\\mathbb{R}^n\\) es definida de manera componente a componente, lo que garantiza la propiedad conmutativa.",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar la definición de la suma de vectores: \\((u_1,\\dots,u_n)+(v_1,\\dots,v_n) = (u_1+v_1,\\dots,u_n+v_n)\\).",
+        "Observar que \\(u_i+v_i=v_i+u_i\\) para cada componente.",
+        "Concluir que \\(u+v = v+u\\) para cualquier \\(u,v\\) en \\(\\mathbb{R}^n\\)."
+      ]
+    },
+    {
+      "question": "En un espacio vectorial, ¿cuál es el inverso aditivo de un vector \\(v\\)?",
+      "formula": "\\(-v \\quad \\text{tal que} \\quad v + (-v) = 0\\)",
+      "options": [
+        "\\(v\\)",
+        "\\(El vector nulo\\)",
+        "\\(-v\\)",
+        "\\(No existe\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Por definición, el inverso aditivo de un vector \\(v\\) es \\(-v\\), ya que su suma da el vector nulo.",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar que debe existir un vector \\(w\\) para el cual \\(v + w = 0\\).",
+        "Identificar que \\(w = -v\\) cumple la condición.",
+        "Concluir que el inverso aditivo de \\(v\\) es \\(-v\\)."
+      ]
+    },
+    {
+      "question": "Determina si los vectores \\(v_1 = (1,0,0)\\), \\(v_2 = (0,1,0)\\) y \\(v_3 = (0,0,1)\\) son linealmente independientes en \\(\\mathbb{R}^3\\).",
+      "formula": "\\(\\{v_1,v_2,v_3\\}\\)",
+      "options": [
+        "\\(Sí, forman una base de \\(\\mathbb{R}^3\\)\\)",
+        "\\(No, son linealmente dependientes\\)",
+        "\\(No se puede determinar\\)",
+        "\\(Depende del campo considerado\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Los vectores canónicos en \\(\\mathbb{R}^3\\) son linealmente independientes y constituyen una base estándar.",
+      "difficulty": "hard",
+      "procedure": [
+        "Escribir la combinación lineal: \\(a(1,0,0)+b(0,1,0)+c(0,0,1)=(a,b,c)\\).",
+        "Notar que \\(a=b=c=0\\) es la única solución para \\(a(1,0,0)+b(0,1,0)+c(0,0,1)= (0,0,0)\\).",
+        "Concluir que los vectores son linealmente independientes."
+      ]
+    },
+    {
+      "question": "¿Cuál de los siguientes conjuntos de vectores en \\(\\mathbb{R}^2\\) es linealmente independiente?",
+      "formula": "Comparar \\(\\{(1,2), (2,4)\\}\\) con \\(\\{(1,2), (3,1)\\}\\)",
+      "options": [
+        "\\(Ambos son independientes\\)",
+        "\\(Ninguno es independiente\\)",
+        "\\(Solo \\(\\{(1,2), (3,1)\\}\\) es independiente\\)",
+        "\\(Solo \\(\\{(1,2), (2,4)\\}\\) es independiente\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "El conjunto \\(\\{(1,2), (2,4)\\}\\) es linealmente dependiente ya que \\((2,4)\\) es el doble de \\((1,2)\\), mientras que \\(\\{(1,2), (3,1)\\}\\) es independiente.",
+      "difficulty": "hard",
+      "procedure": [
+        "Verificar que en \\(\\{(1,2), (2,4)\\}\\), existe un escalar \\(k=2\\) tal que \\((2,4)=2(1,2)\\).",
+        "Concluir que esos vectores son linealmente dependientes.",
+        "Observar que en \\(\\{(1,2), (3,1)\\}\\) no existe tal relación de proporcionalidad, por lo tanto son independientes."
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes propiedades NO forma parte de los axiomas de un espacio vectorial?",
+      "formula": "\\(\\text{Ejemplo de axioma: existencia del inverso aditivo}\\)",
+      "options": [
+        "\\(Cerradura bajo la suma\\)",
+        "\\(Existencia del inverso aditivo\\)",
+        "\\(Distributividad de la multiplicación escalar\\)",
+        "\\(Conmutatividad de la multiplicación escalar\\)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "En la definición de espacio vectorial se requiere la conmutatividad de la suma, pero no se exige que la multiplicación escalar sea conmutativa.",
+      "difficulty": "hard",
+      "procedure": [
+        "Listar los axiomas básicos: cerradura, existencia del vector nulo, inversos aditivos, conmutatividad y asociatividad de la suma, distributividad, identidad multiplicativa, etc.",
+        "Observar que la multiplicación escalar no se define como conmutativa en los axiomas.",
+        "Concluir que la conmutatividad de la multiplicación escalar no es un axioma."
+      ]
+    },
+    {
+      "question": "Si en un espacio vectorial el número de vectores de un conjunto \\(S\\) es mayor que la dimensión del espacio, ¿qué se puede concluir?",
+      "formula": "\\(\\dim(V) < |S|\\)",
+      "options": [
+        "\\(S\\) es linealmente independiente",
+        "\\(S\\) es linealmente dependiente",
+        "\\(S\\) forma una base",
+        "\\(No se puede determinar la independencia\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Por el teorema de la dimensión, cualquier conjunto de vectores con más elementos que la dimensión del espacio es necesariamente linealmente dependiente.",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar que la dimensión es el número máximo de vectores linealmente independientes.",
+        "Observar que si \\(|S| > \\dim(V)\\), debe existir dependencia lineal.",
+        "Concluir que \\(S\\) es linealmente dependiente."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un subespacio de \\(\\mathbb{R}^n\\). ¿Qué propiedad garantiza la cerradura bajo la multiplicación escalar?",
+      "formula": "\\(c \\cdot v \\in V \\quad \\text{para todo } v \\in V,\\; c \\in \\mathbb{R}\\)",
+      "options": [
+        "\\(Cerradura bajo la suma\\)",
+        "\\(Existencia del vector nulo\\)",
+        "\\(Cerradura bajo la multiplicación escalar\\)",
+        "\\(Conmutatividad de la suma\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Uno de los axiomas fundamentales para ser subespacio es que, al multiplicar cualquier vector por un escalar, el resultado sigue perteneciendo al subespacio.",
+      "difficulty": "hard",
+      "procedure": [
+        "Definir la operación de multiplicación escalar en \\(\\mathbb{R}^n\\).",
+        "Comprobar que \\(c\\cdot v\\) permanece en \\(V\\) para cualquier \\(v \\in V\\) y \\(c \\in \\mathbb{R}\\).",
+        "Concluir que se cumple la cerradura bajo la multiplicación escalar."
+      ]
+    },
+    {
+      "question": "¿Qué implica la propiedad de cerradura bajo la suma en un espacio vectorial?",
+      "formula": "\\(u, v \\in V \\Rightarrow u+v \\in V\\)",
+      "options": [
+        "\\(La suma de vectores siempre produce un vector en \\(V\\)\\)",
+        "\\(La suma de vectores puede salir de \\(V\\)\\)",
+        "\\(Existe un vector nulo\\)",
+        "\\(La suma es conmutativa\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La cerradura en la suma implica que al sumar dos vectores del espacio se obtiene otro vector que también pertenece al mismo espacio.",
+      "difficulty": "hard",
+      "procedure": [
+        "Explicar el axioma de cerradura en la suma.",
+        "Mostrar que para cualquier \\(u,v \\in V\\), la suma \\(u+v\\) se mantiene en \\(V\\).",
+        "Concluir la propiedad esencial de un espacio vectorial."
+      ]
+    },
+    {
+      "question": "¿Qué es una base de un espacio vectorial?",
+      "formula": "\\(\\mathcal{B} \\subset V \\text{ tal que cada vector de } V \\text{ es combinación lineal única de vectores en } \\mathcal{B}\\)",
+      "options": [
+        "\\(Un conjunto maximal de vectores linealmente independientes\\)",
+        "\\(Un conjunto minimal de vectores generadores\\)",
+        "\\(Ambas definiciones son correctas\\)",
+        "\\(Ninguna de las anteriores\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Una base es, al mismo tiempo, un conjunto maximal de vectores linealmente independientes y un conjunto minimal que genera el espacio vectorial.",
+      "difficulty": "hard",
+      "procedure": [
+        "Definir qué significa que un conjunto sea maximal en independencia.",
+        "Definir que ser generador implica que cualquier vector se puede expresar como combinación lineal de la base.",
+        "Concluir que ambas definiciones describen correctamente una base."
+      ]
+    },
+    {
+      "question": "¿Cómo se define la dimensión de un espacio vectorial \\(V\\)?",
+      "formula": "\\(\\dim(V) \\text{ es el número de vectores en cualquier base de } V\\)",
+      "options": [
+        "\\(El número de vectores en la base\\)",
+        "\\(El número de axiomas del espacio vectorial\\)",
+        "\\(El número total de elementos en \\(V\\)\\)",
+        "\\(El máximo número de vectores linealmente dependientes\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La dimensión de un espacio vectorial se define como la cardinalidad (número de elementos) de cualquiera de sus bases.",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar la definición de base de un espacio vectorial.",
+        "Establecer que la dimensión es el número de vectores en dicha base.",
+        "Concluir la definición de dimensión."
+      ]
+    },
+    {
+      "question": "¿Por qué es fundamental la existencia del vector nulo en un espacio vectorial?",
+      "formula": "\\(v + 0 = v\\)",
+      "options": [
+        "\\(Porque permite la inversión aditiva\\)",
+        "\\(Porque garantiza la cerradura en la suma\\)",
+        "\\(Porque sirve como identidad aditiva\\)",
+        "\\(Porque asegura la conmutatividad de la suma\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "El vector nulo actúa como elemento neutro en la suma, lo cual es un axioma fundamental en la definición de espacio vectorial.",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar que en un espacio vectorial debe existir un elemento \\(0\\) tal que \\(v+0=v\\) para todo \\(v\\).",
+        "Explicar el rol del vector nulo como identidad aditiva.",
+        "Concluir su importancia en la estructura del espacio vectorial."
+      ]
+    },
+    {
+      "question": "¿Qué significa que un conjunto de vectores sea linealmente dependiente?",
+      "formula": "\\(c_1v_1 + c_2v_2 + \\cdots + c_nv_n = 0 \\text{ con algunos } c_i \\neq 0\\)",
+      "options": [
+        "\\(Todas las combinaciones son triviales\\)",
+        "\\(Existe una combinación lineal no trivial que da el vector nulo\\)",
+        "\\(Los vectores son necesariamente ortogonales\\)",
+        "\\(No pueden generar el espacio vectorial\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Un conjunto de vectores es linealmente dependiente si existe una combinación lineal de ellos, con coeficientes no todos nulos, que resulta en el vector nulo.",
+      "difficulty": "hard",
+      "procedure": [
+        "Definir la combinación lineal de vectores.",
+        "Señalar que la existencia de coeficientes no todos cero en \\(c_1v_1+\\cdots+c_nv_n=0\\) implica dependencia.",
+        "Concluir la definición de dependencia lineal."
+      ]
+    },
+    {
+      "question": "¿Qué se entiende por combinación lineal de un conjunto de vectores?",
+      "formula": "\\(a_1v_1 + a_2v_2 + \\cdots + a_nv_n\\)",
+      "options": [
+        "\\(La suma de vectores sin multiplicación por escalares\\)",
+        "\\(La suma de vectores multiplicados por escalares\\)",
+        "\\(El producto de vectores entre sí\\)",
+        "\\(La diferencia de vectores\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Una combinación lineal es la suma de vectores cada uno multiplicado por un escalar.",
+      "difficulty": "hard",
+      "procedure": [
+        "Explicar el concepto de multiplicación por escalares.",
+        "Mostrar que una combinación lineal toma la forma \\(a_1v_1+\\cdots+a_nv_n\\).",
+        "Concluir que se trata de una suma ponderada de los vectores."
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes expresiones representa la propiedad distributiva de la multiplicación escalar respecto a la suma de vectores?",
+      "formula": "\\(c(u+v) = cu + cv\\)",
+      "options": [
+        "\\(c(u+v) = cu + cv\\)",
+        "\\(u+v = v+u\\)",
+        "\\(0v = 0\\)",
+        "\\(c(u+v) = u+cv\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La propiedad distributiva del escalar sobre la suma establece que multiplicar un escalar por la suma de dos vectores es equivalente a multiplicar cada vector por el escalar y luego sumar los resultados.",
+      "difficulty": "hard",
+      "procedure": [
+        "Presentar la propiedad: \\(c(u+v)=cu+cv\\).",
+        "Explicar cada paso de la igualdad.",
+        "Concluir que esta es la forma correcta de la distributividad en espacios vectoriales."
+      ]
+    },
+    {
+      "question": "¿Qué valor debe tener el escalar identidad en la multiplicación de un vector en un espacio vectorial?",
+      "formula": "\\(1 \\cdot v = v\\)",
+      "options": ["\\(0\\)", "\\(1\\)", "\\(v\\)", "\\(Depende de \\(v\\)\\)"],
+      "correctAnswer": 1,
+      "explanation": "El escalar 1 actúa como identidad multiplicativa, ya que multiplicar cualquier vector por 1 devuelve el mismo vector.",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar que la identidad multiplicativa para los escalares es 1.",
+        "Aplicar la propiedad: \\(1 \\cdot v = v\\).",
+        "Concluir que 1 es el elemento identidad en la multiplicación escalar."
+      ]
+    },
+    {
+      "question": "¿Qué condiciones debe cumplir un subconjunto \\(W\\) de un espacio vectorial \\(V\\) para ser considerado un subespacio?",
+      "formula": "\\(W \\subset V \\text{ y está cerrado bajo la suma y la multiplicación escalar}\\)",
+      "options": [
+        "\\(Ser cualquier subconjunto de \\(V\\)\\)",
+        "\\(Contener el vector nulo y ser cerrado bajo suma y multiplicación escalar\\)",
+        "\\(Ser finito\\)",
+        "\\(Tener una base definida\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Un subconjunto \\(W\\) es un subespacio si contiene el vector nulo y es cerrado bajo las operaciones de suma y multiplicación escalar.",
+      "difficulty": "hard",
+      "procedure": [
+        "Enumerar las condiciones: existencia del vector nulo, cerradura en la suma y cerradura en la multiplicación escalar.",
+        "Verificar que cada condición se cumpla en \\(W\\).",
+        "Concluir que \\(W\\) es un subespacio si se satisfacen todas las condiciones."
+      ]
+    },
+    {
+      "question": "¿Qué establece el axioma de la asociatividad de la suma en un espacio vectorial?",
+      "formula": "\\((u+v)+w = u+(v+w)\\)",
+      "options": [
+        "\\(La suma es conmutativa\\)",
+        "\\(La suma es asociativa\\)",
+        "\\(Existe el vector nulo\\)",
+        "\\(La multiplicación escalar es distributiva\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El axioma de asociatividad garantiza que la forma en que se agrupan los vectores en la suma no altera el resultado.",
+      "difficulty": "hard",
+      "procedure": [
+        "Explicar que \\((u+v)+w = u+(v+w)\\) para todo \\(u,v,w\\) en \\(V\\).",
+        "Mostrar ejemplos de la propiedad en \\(\\mathbb{R}^n\\).",
+        "Concluir que la asociatividad es un axioma fundamental de los espacios vectoriales."
+      ]
+    },
+    {
+      "question": "¿Es obligatorio que un espacio vectorial tenga definido un producto interno?",
+      "formula": "\\(\\text{No se requiere } \\langle u,v \\rangle \\text{ para la definición de espacio vectorial}\\)",
+      "options": [
+        "\\(Sí, es obligatorio\\)",
+        "\\(No, no es necesario\\)",
+        "\\(Solo en espacios euclidianos\\)",
+        "\\(Depende de la aplicación\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La definición de espacio vectorial no exige la existencia de un producto interno; éste es un concepto adicional que se estudia en espacios prehilbertnianos o hilbertnianos.",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar la definición básica de espacio vectorial que involucra solo suma y multiplicación escalar.",
+        "Explicar que el producto interno es un extra para definir distancias y ángulos.",
+        "Concluir que no es obligatorio para que un conjunto sea un espacio vectorial."
+      ]
+    },
+    {
+      "question": "Si \\(\\mathcal{B}\\) y \\(\\mathcal{C}\\) son dos bases de un espacio vectorial \\(V\\), ¿qué se puede afirmar sobre la matriz de cambio de base \\(P_{\\mathcal{B}\\to\\mathcal{C}}\\)?",
+      "formula": "\\(P_{\\mathcal{B}\\to\\mathcal{C}}\\)",
+      "options": [
+        "\\(Es singular\\)",
+        "\\(Es invertible\\)",
+        "\\(No existe\\)",
+        "\\(Depende de \\(V\\)\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La matriz de cambio de base entre dos bases de un espacio vectorial es siempre invertible, ya que ambas bases tienen el mismo número de vectores y son linealmente independientes.",
+      "difficulty": "hard",
+      "procedure": [
+        "Definir qué es la matriz de cambio de base.",
+        "Recordar que ambas bases tienen la misma cardinalidad.",
+        "Concluir que la matriz es invertible."
+      ]
+    },
+    {
+      "question": "¿Cómo se representan las coordenadas de un vector \\(v\\) respecto a una base \\(\\mathcal{B}\\)?",
+      "formula": "\\(v = a_1v_1 + a_2v_2 + \\cdots + a_nv_n\\)",
+      "options": [
+        "\\(Como una combinación lineal única\\)",
+        "\\(Como una suma arbitraria\\)",
+        "\\(Como un producto escalar\\)",
+        "\\(Como un sistema de ecuaciones)\\"
+      ],
+      "correctAnswer": 0,
+      "explanation": "En un espacio vectorial, cada vector tiene una representación única en términos de una base dada, expresado como una combinación lineal de sus vectores.",
+      "difficulty": "hard",
+      "procedure": [
+        "Explicar el concepto de combinación lineal en una base.",
+        "Aclarar que la representación es única.",
+        "Concluir que las coordenadas son los coeficientes \\(a_i\\) de la combinación."
+      ]
+    },
+    {
+      "question": "Verifica la propiedad distributiva del escalar respecto a la suma de escalares en un espacio vectorial.",
+      "formula": "\\((c+d)v = cv + dv\\)",
+      "options": [
+        "\\(Correcta\\)",
+        "\\(Incorrecta\\)",
+        "\\(Solo válida para \\(v \\neq 0\\)\\)",
+        "\\(Depende del campo subyacente\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La propiedad \\((c+d)v = cv+dv\\) es una de las dos formas de distributividad exigidas en la definición de espacio vectorial.",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar que en un espacio vectorial se cumplen dos propiedades distributivas: una respecto a la suma de vectores y otra respecto a la suma de escalares.",
+        "Aplicar la propiedad y verificar la igualdad.",
+        "Concluir que la igualdad se cumple para cualquier vector \\(v\\) y escalares \\(c,d\\)."
+      ]
+    },
+    {
+      "question": "¿Qué resultado se obtiene al multiplicar cualquier vector \\(v\\) por el escalar 0 en un espacio vectorial?",
+      "formula": "\\(0 \\cdot v = 0\\)",
+      "options": [
+        "\\(v\\)",
+        "\\(El vector nulo\\)",
+        "\\(No está definido\\)",
+        "\\(Depende de \\(v\\)\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Multiplicar cualquier vector por el escalar 0 produce siempre el vector nulo, de acuerdo con los axiomas de un espacio vectorial.",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la propiedad de la multiplicación por 0.",
+        "Recordar que \\(0\\cdot v\\) debe ser igual al elemento neutro aditivo.",
+        "Concluir que el resultado es el vector nulo."
+      ]
+    },
+    {
+      "question": "Determina si el conjunto \\(\\{(1,2,3), (4,5,6), (7,8,9)\\}\\) en \\(\\mathbb{R}^3\\) es linealmente independiente.",
+      "formula": "\\(\\{(1,2,3), (4,5,6), (7,8,9)\\}\\)",
+      "options": [
+        "\\(Sí, son linealmente independientes\\)",
+        "\\(No, son linealmente dependientes\\)",
+        "\\(No se puede determinar\\)",
+        "\\(Solo si \\(\\mathbb{R}^3\\) tiene dimensión 3\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Estos vectores están relacionados de forma lineal (por ejemplo, el tercer vector es combinación lineal de los dos primeros), por lo que son linealmente dependientes.",
+      "difficulty": "hard",
+      "procedure": [
+        "Escribir la combinación lineal general de los vectores.",
+        "Comprobar que existe una solución no trivial para \\(a(1,2,3)+b(4,5,6)+c(7,8,9)= (0,0,0)\\).",
+        "Concluir que los vectores son linealmente dependientes."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) el conjunto de funciones continuas \\(f: \\mathbb{R} \\to \\mathbb{R}\\). ¿Es \\(V\\) un espacio vectorial?",
+      "formula": "\\(V = \\{f \\in C(\\mathbb{R})\\}\\)",
+      "options": [
+        "\\(Sí, con la suma y multiplicación definidas punto a punto\\)",
+        "\\(No, porque no se pueden sumar funciones\\)",
+        "\\(Solo si son funciones acotadas\\)",
+        "\\(No, carece del vector nulo\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "El conjunto de funciones continuas es un espacio vectorial, ya que la suma de funciones y la multiplicación por un escalar se definen de manera natural (punto a punto) y cumplen los axiomas correspondientes.",
+      "difficulty": "hard",
+      "procedure": [
+        "Definir la suma de funciones: \\((f+g)(x)=f(x)+g(x)\\).",
+        "Definir la multiplicación por un escalar: \\((cf)(x)=c\\cdot f(x)\\).",
+        "Verificar que se cumple la cerradura, existencia del vector nulo y demás axiomas."
+      ]
+    },
+    {
+      "question": "El teorema de Steinitz establece que si \\(\\mathcal{B}\\) es una base de \\(V\\) y \\(S\\) es un conjunto linealmente independiente, entonces:",
+      "formula": "\\(|S| \\leq |\\mathcal{B}|\\)",
+      "options": [
+        "\\(|S| \\geq |\\mathcal{B}|\\)",
+        "\\(|S| \\leq |\\mathcal{B}|\\)",
+        "\\(S\\) es necesariamente una base de \\(V\\)",
+        "\\(No existe relación entre \\(|S|\\) y \\(|\\mathcal{B}|\\)\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "El teorema de Steinitz vincula la cardinalidad de cualquier conjunto linealmente independiente con la dimensión del espacio, estableciendo que \\(|S|\\) no puede exceder el número de vectores en cualquier base de \\(V\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar el enunciado del teorema de Steinitz.",
+        "Relacionar la independencia lineal de \\(S\\) con la cardinalidad de la base \\(\\mathcal{B}\\).",
+        "Concluir que \\(|S| \\leq |\\mathcal{B}|\\)."
+      ]
+    },
+    {
+      "question": "¿Qué se cumple para todo vector \\(v\\) en un espacio vectorial al multiplicarlo por el escalar 0?",
+      "formula": "\\(0 \\cdot v = 0\\)",
+      "options": [
+        "\\(Siempre se obtiene \\(v\\)\\)",
+        "\\(Se obtiene el vector nulo\\)",
+        "\\(La operación no está definida\\)",
+        "\\(Depende del vector \\(v\\)\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La propiedad del escalar 0 establece que multiplicar cualquier vector por 0 da como resultado el vector nulo.",
+      "difficulty": "hard",
+      "procedure": [
+        "Aplicar la propiedad \\(0 \\cdot v = 0\\) para todo \\(v\\) en el espacio vectorial.",
+        "Recordar que el vector nulo es el elemento neutro aditivo.",
+        "Concluir que la igualdad se cumple universalmente."
+      ]
+    },
+    {
+      "question": "¿Qué significa que un conjunto \\(S\\) de vectores genere un espacio vectorial \\(V\\)?",
+      "formula": "\\(V = \\text{span}(S)\\)",
+      "options": [
+        "\\(Todo vector de \\(V\\) se puede escribir como combinación lineal de vectores en \\(S\\)\\)",
+        "\\(Los vectores en \\(S\\) son linealmente independientes\\)",
+        "\\(\\(S\\) contiene al vector nulo\\)",
+        "\\(Ninguna de las anteriores\\)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Decir que \\(S\\) genera \\(V\\) significa que cualquier vector en \\(V\\) se puede expresar como combinación lineal de los vectores de \\(S\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Definir el concepto de span de un conjunto de vectores.",
+        "Explicar que \\(\\text{span}(S)=V\\) implica que los vectores de \\(S\\) generan el espacio.",
+        "Concluir que esta es la definición de conjunto generador."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial sobre \\(\\mathbb{R}\\). ¿Qué propiedad garantiza que \\(u+v = v+u\\)?",
+      "formula": "",
+      "options": [
+        "Conmutatividad de la suma",
+        "Existencia del inverso aditivo",
+        "Asociatividad de la suma",
+        "Distributividad de la multiplicación escalar"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La propiedad que asegura que \\(u+v = v+u\\) es la conmutatividad de la suma en un espacio vectorial.",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar que la conmutatividad es una de las propiedades básicas de la suma en espacios vectoriales.",
+        "Seleccionar la opción que refleja esta propiedad."
+      ]
+    },
+    {
+      "question": "Dado un conjunto \\(S = \\{v_1, v_2, v_3\\}\\) en \\(\\mathbb{R}^3\\), ¿qué implica que \\(S\\) sea linealmente dependiente?",
+      "formula": "",
+      "options": [
+        "Que hay una combinación lineal no trivial de \\(v_1, v_2, v_3\\) que da el vector cero.",
+        "Que \\(v_1, v_2, v_3\\) son ortogonales.",
+        "Que \\(S\\) no puede generar \\(\\mathbb{R}^3\\).",
+        "Que \\(v_1, v_2, v_3\\) son linealmente independientes."
+      ],
+      "correctAnswer": 0,
+      "explanation": "La dependencia lineal significa que hay una combinación lineal no trivial de los vectores que da como resultado el vector cero.",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar que la dependencia lineal implica que existe una combinación lineal no trivial de los vectores que da cero.",
+        "Verificar las opciones y seleccionar la que describe correctamente la dependencia lineal."
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes afirmaciones sobre los vectores en un espacio vectorial \\(V\\) es falsa?",
+      "formula": "",
+      "options": [
+        "El conjunto de vectores linealmente dependientes no puede ser una base.",
+        "Todo espacio vectorial tiene al menos una base.",
+        "Un conjunto de vectores linealmente independientes siempre genera el espacio.",
+        "La combinación lineal de vectores linealmente independientes siempre es única."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Un conjunto de vectores linealmente independientes no siempre genera el espacio, ya que puede ser insuficiente para cubrir todo el espacio.",
+      "difficulty": "hard",
+      "procedure": [
+        "Revisar las propiedades de la independencia lineal y la generación del espacio.",
+        "Seleccionar la afirmación falsa."
+      ]
+    },
+    {
+      "question": "Sea \\(V = \\mathbb{R}^4\\) y \\(S = \\{(1,0,0,0), (0,1,0,0), (0,0,1,0), (0,0,0,1)\\}\\). ¿Cuál es la dimensión de \\(S\\)?",
+      "formula": "",
+      "options": ["1", "2", "3", "4"],
+      "correctAnswer": 3,
+      "explanation": "El conjunto \\(S\\) es un conjunto de cuatro vectores linealmente independientes en \\(\\mathbb{R}^4\\), por lo que es una base y su dimensión es 4.",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar que el conjunto \\(S\\) es una base de \\(\\mathbb{R}^4\\).",
+        "Concluir que la dimensión de \\(S\\) es 4."
+      ]
+    },
+    {
+      "question": "Si \\(B = \\{v_1, v_2, v_3\\}\\) es una base de \\(V\\) y \\(v = a_1v_1 + a_2v_2 + a_3v_3\\), ¿cuál es la propiedad que garantiza que los coeficientes \\(a_1, a_2, a_3\\) son únicos?",
+      "formula": "",
+      "options": [
+        "La independencia lineal de los vectores en \\(B\\)",
+        "La existencia del vector cero",
+        "La propiedad distributiva",
+        "La existencia del inverso aditivo"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La propiedad de independencia lineal garantiza que la representación de un vector como combinación lineal de los vectores de una base es única.",
+      "difficulty": "hard",
+      "procedure": [
+        "Revisar la propiedad de la unicidad de la representación en una base.",
+        "Seleccionar la opción correcta."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial. ¿Qué propiedad se usa para garantizar que \\(\\lambda(u+v) = \\lambda u + \\lambda v\\)?",
+      "formula": "",
+      "options": [
+        "Distributividad de la multiplicación escalar",
+        "Asociatividad de la multiplicación escalar",
+        "Cerradura bajo la suma",
+        "Conmutatividad de la multiplicación escalar"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La propiedad distributiva de la multiplicación escalar sobre la suma asegura que \\(\\lambda(u+v) = \\lambda u + \\lambda v\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar las propiedades de la multiplicación escalar en un espacio vectorial.",
+        "Seleccionar la opción que describe la propiedad distributiva."
+      ]
+    },
+    {
+      "question": "Si \\(v_1 = (1, 2, 3)\\) y \\(v_2 = (4, 5, 6)\\) en \\(\\mathbb{R}^3\\), ¿son linealmente independientes?",
+      "formula": "",
+      "options": [
+        "Sí, son linealmente independientes",
+        "No, son linealmente dependientes",
+        "No se puede determinar sin más información",
+        "Sí, pero solo si \\(v_2\\) no es múltiplo de \\(v_1\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Los vectores \\(v_1\\) y \\(v_2\\) son linealmente dependientes porque \\(v_2 = 4v_1 - 3v_1\\), es decir, uno es múltiplo del otro.",
+      "difficulty": "hard",
+      "procedure": [
+        "Comprobar si \\(v_2\\) es múltiplo de \\(v_1\\).",
+        "Concluir que los vectores son linealmente dependientes."
+      ]
+    },
+    {
+      "question": "Sea \\(V = \\mathbb{R}^3\\) y \\(S = \\{(1, 0, 0), (0, 1, 0), (0, 0, 1)\\}\\). ¿Qué se puede concluir sobre \\(S\\)?",
+      "formula": "",
+      "options": [
+        "Es una base de \\(V\\).",
+        "Genera \\(\\mathbb{R}^3\\) pero no es linealmente independiente.",
+        "No genera \\(\\mathbb{R}^3\\).",
+        "No es una base de \\(V\\)."
+      ],
+      "correctAnswer": 0,
+      "explanation": "El conjunto \\(S\\) es una base de \\(\\mathbb{R}^3\\) porque es linealmente independiente y genera \\(\\mathbb{R}^3\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Verificar que \\(S\\) es linealmente independiente y genera \\(\\mathbb{R}^3\\).",
+        "Concluir que \\(S\\) es una base."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial y \\(S = \\{v_1, v_2, v_3\\}\\) un conjunto de vectores en \\(V\\). ¿Qué condición debe cumplir \\(S\\) para ser una base de \\(V\\)?",
+      "formula": "",
+      "options": [
+        "Los vectores deben ser linealmente dependientes y generar \\(V\\).",
+        "Los vectores deben ser linealmente independientes y generar \\(V\\).",
+        "Los vectores deben ser linealmente dependientes pero no generar \\(V\\).",
+        "Los vectores deben ser ortogonales y generar \\(V\\)."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Un conjunto de vectores es una base si es linealmente independiente y genera el espacio vectorial \\(V\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar la definición de base en un espacio vectorial.",
+        "Seleccionar la opción que cumpla ambas condiciones: independencia y generación del espacio."
+      ]
+    },
+    {
+      "question": "¿Cuál es la condición para que un conjunto \\(S = \\{v_1, v_2, v_3, v_4\\}\\) en \\(\\mathbb{R}^3\\) sea linealmente dependiente?",
+      "formula": "",
+      "options": [
+        "El conjunto tiene más de tres vectores.",
+        "El conjunto tiene exactamente tres vectores.",
+        "El conjunto tiene menos de tres vectores.",
+        "El conjunto es linealmente independiente."
+      ],
+      "correctAnswer": 0,
+      "explanation": "En \\(\\mathbb{R}^3\\), cualquier conjunto con más de tres vectores es linealmente dependiente.",
+      "difficulty": "hard",
+      "procedure": [
+        "Revisar que la dimensión de \\(\\mathbb{R}^3\\) es 3.",
+        "Concluir que un conjunto con más de tres vectores es necesariamente dependiente."
+      ]
+    },
+    {
+      "question": "Dado un conjunto \\(S = \\{v_1, v_2, v_3\\}\\) en \\(V\\), ¿cómo se determina si \\(S\\) genera \\(V\\)?",
+      "formula": "",
+      "options": [
+        "Verificando si \\(S\\) es linealmente independiente.",
+        "Verificando si \\(S\\) tiene el mismo número de vectores que la dimensión de \\(V\\).",
+        "Verificando si \\(S\\) contiene al vector cero.",
+        "Verificando si los vectores de \\(S\\) pueden combinarse linealmente para formar cualquier vector de \\(V\\)."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Para que un conjunto \\(S\\) genere \\(V\\), debe ser posible representar cualquier vector de \\(V\\) como combinación lineal de los vectores en \\(S\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar que un conjunto genera un espacio si cualquier vector en el espacio puede escribirse como una combinación lineal de los vectores en el conjunto.",
+        "Seleccionar la opción correcta."
+      ]
+    },
+    {
+      "question": "¿Cuál es la propiedad que asegura que la multiplicación por un escalar \\(\\lambda\\) distribuye sobre la suma de vectores en un espacio vectorial?",
+      "formula": "",
+      "options": [
+        "Distributividad de la multiplicación escalar",
+        "Asociatividad de la multiplicación escalar",
+        "Conmutatividad de la multiplicación escalar",
+        "Cerradura bajo la multiplicación por escalar"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La distributividad de la multiplicación escalar asegura que \\(\\lambda(u+v) = \\lambda u + \\lambda v\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Revisar la definición de distributividad de la multiplicación escalar sobre la suma.",
+        "Seleccionar la opción correcta."
+      ]
+    },
+    {
+      "question": "Sea \\(B = \\{v_1, v_2, v_3\\}\\) una base de \\(\\mathbb{R}^3\\). ¿Qué se puede concluir sobre la combinación lineal de \\(v_1, v_2, v_3\\)?",
+      "formula": "",
+      "options": [
+        "Cualquier vector en \\(\\mathbb{R}^3\\) puede expresarse de manera única como combinación lineal de \\(v_1, v_2, v_3\\).",
+        "Cualquier vector en \\(\\mathbb{R}^3\\) puede expresarse de manera no única como combinación lineal de \\(v_1, v_2, v_3\\).",
+        "Solo los vectores en \\(B\\) pueden expresarse como combinaciones lineales de \\(v_1, v_2, v_3\\).",
+        "La combinación lineal de \\(v_1, v_2, v_3\\) no genera \\(\\mathbb{R}^3\\)."
+      ],
+      "correctAnswer": 0,
+      "explanation": "La base de un espacio vectorial garantiza que cualquier vector en el espacio se pueda representar de manera única como combinación lineal de los vectores de la base.",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar que una base proporciona una representación única de cualquier vector en el espacio.",
+        "Seleccionar la opción que describe esta propiedad."
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes afirmaciones es verdadera sobre la multiplicación por un escalar en un espacio vectorial?",
+      "formula": "",
+      "options": [
+        "La multiplicación por un escalar siempre genera un vector linealmente independiente.",
+        "La multiplicación por un escalar distribuye sobre la suma de escalares.",
+        "La multiplicación por un escalar preserva la independencia lineal.",
+        "La multiplicación por un escalar no afecta la dirección de los vectores."
+      ],
+      "correctAnswer": 2,
+      "explanation": "La multiplicación por un escalar no cambia la independencia lineal de los vectores involucrados en la multiplicación.",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar que la multiplicación por un escalar preserva la independencia lineal.",
+        "Seleccionar la opción correcta."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial. ¿Qué propiedad garantiza que \\(u+0 = u\\)?",
+      "formula": "",
+      "options": [
+        "Existencia del vector cero",
+        "Conmutatividad de la suma",
+        "Distributividad de la multiplicación escalar",
+        "Existencia de inversos aditivos"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La existencia del vector cero asegura que sumarle cero a un vector no lo cambia.",
+      "difficulty": "hard",
+      "procedure": [
+        "Identificar la propiedad que garantiza que sumarle el vector cero no cambia el vector.",
+        "Seleccionar la opción correcta."
+      ]
+    },
+    {
+      "question": "Sea \\(V\\) un espacio vectorial. ¿Qué propiedad garantiza que \\(u+v = v+u\\)?",
+      "formula": "",
+      "options": [
+        "Conmutatividad de la suma",
+        "Existencia del vector cero",
+        "Cerradura bajo la suma",
+        "Asociatividad de la suma"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La propiedad que asegura que \\(u+v = v+u\\) es la conmutatividad de la suma en un espacio vectorial.",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar que la conmutatividad es una de las propiedades básicas de la suma en espacios vectoriales.",
+        "Seleccionar la opción que refleja esta propiedad."
+      ]
+    },
+    {
+      "question": "Dado el conjunto \\(S = \\{v_1, v_2, v_3\\}\\), ¿cómo se garantiza que \\(S\\) es linealmente independiente?",
+      "formula": "",
+      "options": [
+        "Si la única solución de la ecuación \\(a_1v_1 + a_2v_2 + a_3v_3 = 0\\) es \\(a_1 = a_2 = a_3 = 0\\).",
+        "Si \\(v_1, v_2, v_3\\) son ortogonales entre sí.",
+        "Si \\(v_1, v_2, v_3\\) no forman parte de una base.",
+        "Si \\(S\\) contiene más de tres vectores."
+      ],
+      "correctAnswer": 0,
+      "explanation": "La independencia lineal se garantiza cuando la única solución a la ecuación \\(a_1v_1 + a_2v_2 + a_3v_3 = 0\\) es \\(a_1 = a_2 = a_3 = 0\\).",
+      "difficulty": "hard",
+      "procedure": [
+        "Recordar la definición de independencia lineal en términos de la ecuación \\(a_1v_1 + a_2v_2 + a_3v_3 = 0\\).",
+        "Seleccionar la opción correcta."
+      ]
+    }
+  ]
+}

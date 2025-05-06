@@ -4,14 +4,16 @@ import {
   SectionList,
   TouchableOpacity,
   StyleSheet,
+  RefreshControl,
 } from "react-native";
-import React from "react";
+import React, { useState, useCallback, useContext } from "react";
 import FontAwesome from "@expo/vector-icons/FontAwesome";
 import { ejercicioFinish } from "@/assets/exe";
 import { darkenColor } from "@/functions/tinycolors";
 import { useRouter } from "expo-router";
 import PopoverExample from "./ModalEje";
 import { transformLevel } from "@/functions/transformLevel";
+import { AuthContext } from "../auth/AuthContext";
 
 function transformToSections() {
   return ejercicioFinish.map((sectionObj) => ({
@@ -31,16 +33,28 @@ interface Section {
 }
 export default function SectionListComp({ detectPorCent }: Section) {
   const router = useRouter();
+  const [refreshing, setRefreshing] = useState(false);
+  const { user } = useContext(AuthContext);
+  const onRefresh = useCallback(() => {
+    setRefreshing(true);
+    router.reload();
+    setTimeout(() => setRefreshing(false), 800);
+  }, [router]);
+
   return (
     <SectionList
       sections={transformToSections()}
       keyExtractor={([key], index) => key + index}
       stickySectionHeadersEnabled={true}
+      refreshControl={
+        <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
+      }
       renderItem={({ item, index, section }) => {
-        const [key, exercises] = item;
-        const darkerColor = darkenColor(section.color, 15);
-        const valueTranslate = detectPorCent(index, section.data.length);
+        const [key] = item;
+        const color = (user?.vidas || 0) > 0 ? section.color : "gray";
 
+        const darkerColor = darkenColor(color, 15);
+        const valueTranslate = detectPorCent(index, section.data.length);
         return (
           <View style={styles.cardContentScroll}>
             <View
@@ -59,8 +73,9 @@ export default function SectionListComp({ detectPorCent }: Section) {
                 LevelName={transformLevel(key)}
                 ui={key}
                 title={String(index + 1)}
-                color={section.color}
+                color={color}
                 darkerColor={darkerColor}
+                disabled={(user?.vidas || 0) === 0}
               />
             </View>
           </View>
@@ -71,7 +86,10 @@ export default function SectionListComp({ detectPorCent }: Section) {
           <View
             style={[
               styles.cardHeader,
-              { backgroundColor: section.color },
+              {
+                backgroundColor:
+                  (user?.vidas || 0) > 0 ? section.color : "gray",
+              },
               styles.shadowStyle,
             ]}
           >

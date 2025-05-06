@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "derivatto",
-    "slug": "derivatto",
+    "slug": "derivatto-v2",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -23,7 +23,7 @@
       "package": "com.ronnytoledo87.derivatto"
     },
     "web": {
-      "output": "server",
+      "output": "static",
       "bundler": "metro",
       "favicon": "./assets/images/favicon.png"
     },
@@ -49,6 +49,9 @@
       "eas": {
         "projectId": "1f5b8234-5a92-483e-9689-3747c446bea6"
       }
+    },
+    "notification": {
+      "vapidPublicKey": "BFssRbES0g-8N1tWUAMeEtHMecyIYlZDBAhr5bnHAyp6rsBI88TFmX3W13ki15MfNGl_h_IX__yY27UyXClMQeg"
     }
   }
 }

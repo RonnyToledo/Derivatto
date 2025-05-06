@@ -2,30 +2,22 @@ import React, { useState, useContext, useEffect } from "react";
 import {
   View,
   Text,
-  TextInput,
   TouchableOpacity,
-  ActivityIndicator,
   StyleSheet,
   ScrollView,
 } from "react-native";
-import { useNavigation, NavigationProp } from "@react-navigation/native";
 import LoginForm from "@/components/auth/LoginForm";
 import RegisterForm from "@/components/auth/RegisterForm";
 import { AuthContext } from "@/components/auth/AuthContext";
-import { supabase } from "@/lib/supbase";
+import { supabase } from "@/libs/supabase";
 import { useRouter } from "expo-router";
+
 // Define los tipos de tabs disponibles
 type TabType = "login" | "register";
-
-// Ajusta esto según el tipo de rutas que tengas en tu app
-type RootStackParamList = {
-  Perfil: undefined;
-};
 
 export default function LoginPage() {
   const router = useRouter();
   const { user, signIn } = useContext(AuthContext);
-  const navigation = useNavigation<NavigationProp<RootStackParamList>>();
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [showPassword, setShowPassword] = useState<boolean>(false);
   const [activeTab, setActiveTab] = useState<TabType>("login");
@@ -42,8 +34,8 @@ export default function LoginPage() {
   const [registerError, setRegisterError] = useState<string>("");
 
   useEffect(() => {
-    if (user) router.push("/");
-  }, [user]);
+    if (user) router.replace("/");
+  }, [user, router]);
 
   const handleLogin = async () => {
     setLoginError("");
@@ -57,7 +49,7 @@ export default function LoginPage() {
 
     try {
       await signIn(loginEmail, loginPassword);
-      router.push("/");
+      router.replace("/");
     } catch (error: any) {
       setLoginError(error.message);
     } finally {
@@ -89,10 +81,10 @@ export default function LoginPage() {
       if (error) {
         throw error;
       } else {
-        router.push("/");
+        router.replace("/");
       }
     } catch (error: any) {
-      console.log(error);
+      console.error(error);
       setRegisterError(error.message);
     } finally {
       setIsLoading(false);
@@ -106,7 +98,14 @@ export default function LoginPage() {
         <View style={styles.logoContainer}>
           <Text style={styles.logoText}>D</Text>
         </View>
-        <Text style={styles.title}>Derivatto</Text>
+        <Text
+          style={[
+            styles.title,
+            { fontWeight: 900, fontSize: 30, fontFamily: "Quicksand" },
+          ]}
+        >
+          derivatto
+        </Text>
         <Text style={styles.subtitle}>Aprende matemáticas jugando</Text>
       </View>
 
@@ -116,6 +115,10 @@ export default function LoginPage() {
           style={[
             styles.tabButton,
             activeTab === "login" && styles.tabButtonActive,
+            {
+              borderStartStartRadius: 8,
+              borderEndStartRadius: 8,
+            },
           ]}
           onPress={() => setActiveTab("login")}
         >
@@ -132,6 +135,10 @@ export default function LoginPage() {
           style={[
             styles.tabButton,
             activeTab === "register" && styles.tabButtonActive,
+            {
+              borderStartEndRadius: 8,
+              borderEndEndRadius: 8,
+            },
           ]}
           onPress={() => setActiveTab("register")}
         >
@@ -198,7 +205,7 @@ const styles = StyleSheet.create({
     width: 100,
     height: 100,
     borderRadius: 50,
-    backgroundColor: "#ec4899", // pink-600
+    backgroundColor: "#e3ac83", // pink-600
     justifyContent: "center",
     alignItems: "center",
     marginBottom: 8,
@@ -211,17 +218,16 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 20,
     fontWeight: "bold",
-    color: "#111",
+    color: "#e3ac83",
   },
   subtitle: {
-    color: "#6b7280",
+    color: "#e3ac83",
     marginTop: 4,
   },
   tabContainer: {
     flexDirection: "row",
     marginBottom: 16,
-    borderWidth: 1,
-    borderColor: "#e5e7eb",
+
     borderRadius: 8,
     overflow: "hidden",
   },
@@ -229,17 +235,19 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingVertical: 12,
     backgroundColor: "#fff",
+    borderWidth: 1,
     alignItems: "center",
+    borderColor: "#272727",
   },
   tabButtonActive: {
-    backgroundColor: "#fde7f2", // pink-50
+    backgroundColor: "#e3ac83", // pink-50
   },
   tabButtonText: {
     color: "#4b5563", // gray-700
     fontWeight: "500",
   },
   tabButtonTextActive: {
-    color: "#ec4899", // pink-600
+    color: "#000000", // pink-600
     fontWeight: "700",
   },
   formContainer: {
@@ -278,14 +286,14 @@ const styles = StyleSheet.create({
   },
   forgotPasswordText: {
     textAlign: "right",
-    color: "#ec4899",
+    color: "#e3ac83",
     marginBottom: 10,
     textDecorationLine: "underline",
     fontSize: 13,
   },
   button: {
     flexDirection: "row",
-    backgroundColor: "#ec4899",
+    backgroundColor: "#e3ac83",
     paddingVertical: 12,
     borderRadius: 8,
     justifyContent: "center",

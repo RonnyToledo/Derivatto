@@ -1,22 +1,31 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import {
   View,
   Text,
   TouchableOpacity,
   ScrollView,
-  Platform,
   StyleSheet,
 } from "react-native";
 import AntDesign from "@expo/vector-icons/AntDesign";
 import Feather from "@expo/vector-icons/Feather";
 import MathFormula from "@/components/math-formula";
 import ExerciseOption from "@/components/exercise-option";
-import { useLocalSearchParams, useRouter } from "expo-router";
+import {
+  useLocalSearchParams,
+  useRouter,
+  useRootNavigationState,
+} from "expo-router";
 import { ejercicioFinish } from "@/assets/exe";
 import CongratulationsScreen from "@/components/congratulations-screen";
 import UIExample from "@/components/UIExample";
 import { ChevronDown, ChevronRight } from "lucide-react-native";
 import ModalComponent from "@/components/global/modal";
+import { AuthContext, UserProfile } from "@/components/auth/AuthContext";
+import { supabase } from "@/libs/supabase";
+import { getLevelInfo } from "@/functions/getLevelInfo";
+import PushableButton from "@/components/botonDynamic";
+import { darkenColor } from "@/functions/tinycolors";
+import StreakAnimation from "@/components/SteackComponent";
 
 interface Exercise {
   question: string;
@@ -34,30 +43,23 @@ interface Difficulty {
   color: string;
 }
 
-function getExercisesByKey(key: string) {
-  for (const category of ejercicioFinish) {
-    if (Object.prototype.hasOwnProperty.call(category.ej, key)) {
-      return { title: category.title, ejercicio: category.ej[key] };
-    }
-  }
-  return null;
-}
+type DifficultyName = "easy" | "medium" | "hard";
 
-function getOptimalTime(difficulty: string): number {
-  switch (difficulty) {
-    case "easy":
-      return 60;
-    case "medium":
-      return 90;
-    case "hard":
-      return 120;
-    default:
-      return 90;
+const getExercisesByKey = (key: string) => {
+  for (const { title, ej } of ejercicioFinish) {
+    if (key in ej) return { title, ejercicio: ej[key] };
   }
-}
+  return { title: "", ejercicio: [] as Exercise[] };
+};
+
+const getOptimalTime = (difficulty: DifficultyName) =>
+  ({ easy: 60, medium: 90, hard: 120 })[difficulty] ?? 90;
 
 export default function MathExercisesPage() {
   const router = useRouter();
+  const rootState = useRootNavigationState();
+  const navigatorReady = !!rootState?.key;
+  const { user, setUser } = useContext(AuthContext);
   const [currentExerciseIndex, setCurrentExerciseIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
   const [showTutorial, setShowTutorial] = useState<boolean | null>(true);
@@ -72,45 +74,85 @@ export default function MathExercisesPage() {
   );
   const [currentTimeTaken, setCurrentTimeTaken] = useState<number | null>(null);
   const [timesTaken, setTimesTaken] = useState<number[]>([]);
+  const [showStreakAnim, setShowStreakAnim] = useState(false);
+  const [Loading, setLoading] = useState(false);
+  const [prevStreak, setPrevStreak] = useState<number>(user?.racha || 0);
+  const [newStreakValue, setNewStreakValue] = useState<number>(
+    user?.racha || 0
+  );
+  const { ui } = useLocalSearchParams<{ ui: string }>();
 
-  const { ui } = useLocalSearchParams();
-  if (!ui || typeof ui !== "string") {
-    return null;
-  }
+  // 2) Redirigir si el usuario se queda sin vidas
+  useEffect(() => {
+    if (!navigatorReady) return;
+    if (user?.vidas === 0) {
+      router.replace("/");
+    }
+  }, [navigatorReady, user?.vidas, router]);
+
   const exercises = getExercisesByKey(ui)?.ejercicio;
   const currentExercises = exercises || [];
   const currentExercise =
     currentExercises[currentExerciseIndex] || ({} as Exercise);
 
-  const handleOptionSelect = (optionIndex: number) => {
-    if (showFeedback) return;
-    const endTime = Date.now();
+  const handleOptionSelect = async (optionIndex: number) => {
+    if (showFeedback || !user) return;
+    setLoading(true);
+
+    const now = Date.now();
+    let timeTaken = 0;
     if (exerciseStartTime !== null) {
-      const timeTaken = (endTime - exerciseStartTime) / 1000;
+      timeTaken = (now - exerciseStartTime) / 1000;
       setCurrentTimeTaken(timeTaken);
-      setTimesTaken((prev) => [...prev, timeTaken]);
+      setTimesTaken([...timesTaken, timeTaken]);
     }
+
+    const correct = optionIndex === Number(currentExercise.correctAnswer);
     setSelectedOption(optionIndex);
-    const correct = optionIndex == Number(currentExercise.correctAnswer);
     setIsCorrect(correct);
+
+    const newProgress = (user.progress || 0) + 1;
+    const newVidas = correct ? user.vidas : (user.vidas || 1) - 1;
+
+    setUser({
+      ...user,
+      progress: newProgress,
+      vidas: newVidas,
+    });
+
     if (correct) {
       const basePoints = 2;
       const optimalTime = getOptimalTime(currentExercise.difficulty);
-      const timeBonus =
-        currentTimeTaken !== null && currentTimeTaken < optimalTime ? 1 : 0;
+      const timeBonus = timeTaken < optimalTime ? 1 : 0;
       setcount(count + basePoints + timeBonus);
+    } else {
+      if (newVidas <= 0) {
+        router.replace("/");
+      }
+      const { data, error } = await supabase
+        .from("profiles")
+        .update({ vidas: newVidas })
+        .eq("id", user.id)
+        .select("*")
+        .single();
+      if (error) {
+        console.error("Error restando vida:", error);
+      } else {
+        console.info("Actualización exitosa:", data);
+      }
     }
     setShowFeedback(true);
+    setLoading(false);
   };
 
-  const handleNextExercise = () => {
+  const handleNextExercise = async () => {
     if (
-      currentExerciseIndex < currentExercises.length - 1 &&
+      currentExerciseIndex < exercises.length - 1 &&
       (isCorrect || showFeedback)
     ) {
       setCurrentExerciseIndex(currentExerciseIndex + 1);
-    } else if (currentExerciseIndex === currentExercises.length - 1) {
-      setFinished(true);
+    } else if (currentExerciseIndex === exercises.length - 1) {
+      await finishGame();
     }
     setSelectedOption(null);
     setIsCorrect(null);
@@ -122,13 +164,15 @@ export default function MathExercisesPage() {
   const difficulty = getDifficulty(currentExercise.difficulty).title;
 
   useEffect(() => {
-    if (difficulty != recordDifficulty) {
-      setRecordDifficulty(difficulty);
-      setShowTutorial(true);
-    } else {
-      setShowTutorial(false);
+    if (recordDifficulty && difficulty) {
+      if (difficulty !== recordDifficulty) {
+        setRecordDifficulty(difficulty);
+        setShowTutorial(true);
+      } else {
+        setShowTutorial(false);
+      }
     }
-  }, [difficulty]);
+  }, [difficulty, recordDifficulty]);
 
   useEffect(() => {
     if (!showTutorial) {
@@ -136,7 +180,9 @@ export default function MathExercisesPage() {
     }
   }, [showTutorial, currentExerciseIndex]);
 
-  useEffect(() => {
+  /* 
+ Este codigo es para la web y poder responder las preguntas a partir del teclado
+ useEffect(() => {
     if (Platform.OS === "web" && !showTutorial) {
       const handleKeyPress = (event: KeyboardEvent) => {
         const num = parseInt(event.key, 10);
@@ -149,18 +195,74 @@ export default function MathExercisesPage() {
         window.removeEventListener("keydown", handleKeyPress);
       };
     }
-  }, [showTutorial]);
+  }, [showTutorial]);*/
 
-  if (finished) {
+  const finishGame = async () => {
+    const oldStreak = user?.racha || 0;
+    const totalPossible = exercises.length * 3;
+    const perfect = count === totalPossible;
+    const oldLevel = getLevelInfo(user?.puntuation || 0).currentLevel;
+    const newLevel = getLevelInfo((user?.puntuation || 0) + count).currentLevel;
+    const protection = newLevel > oldLevel;
+
+    setLoading(true);
+    const { data, error } = await supabase.rpc("rpc_actualizar_stats", {
+      p_user_id: user?.id,
+      p_puntuacion: count,
+      p_gemas: protection ? newLevel * 5 : 0,
+      p_perfect: perfect,
+      p_proteccion: (user?.proteccion || 0) >= 2 ? protection : false,
+    });
+    console.info("stast actualizados", data);
+
+    if (error) {
+      console.error(error);
+    } else {
+      console.info("Estado actulaizado");
+    }
+
+    const result = data?.[0] || {};
+
+    const updatedStreak = result.next_racha ?? oldStreak;
+
+    setPrevStreak(oldStreak);
+    setNewStreakValue(updatedStreak);
+    // Update context
+    setUser({ ...(user as UserProfile), progress: 0 });
+    // Trigger streak animation if increased
+    console.log("streak animacion", updatedStreak, oldStreak);
+    if (updatedStreak > oldStreak) {
+      setShowStreakAnim(true);
+    } else {
+      setFinished(true);
+    }
+    setLoading(false);
+  };
+
+  // Show streak animation first
+  if (showStreakAnim) {
     return (
-      <CongratulationsScreen
-        score={count}
-        totalPossibleScore={currentExercises.length * 3}
-        onGoHome={() => router.push("/")}
+      <StreakAnimation
+        previousStreak={prevStreak}
+        newStreak={newStreakValue}
+        onComplete={() => {
+          setShowStreakAnim(false);
+          setFinished(true);
+        }}
       />
     );
   }
 
+  // After streak or if no streak, show congratulations
+  if (finished) {
+    return (
+      <CongratulationsScreen
+        score={count}
+        totalPossibleScore={exercises.length * 3}
+        onGoHome={() => router.push("/")}
+      />
+    );
+  }
   return (
     <View style={styles.container}>
       {showTutorial ? (
@@ -207,7 +309,7 @@ export default function MathExercisesPage() {
                     : undefined
                 }
                 onClick={() => handleOptionSelect(index)}
-                disabled={showFeedback}
+                disabled={showFeedback || selectedOption !== null}
               />
             </View>
           ))}
@@ -282,21 +384,20 @@ export default function MathExercisesPage() {
           </View>
         )}
         <View style={styles.navigation}>
-          <TouchableOpacity
-            style={[
-              styles.navButton,
-              styles.nextButton,
-              !(showTutorial || isCorrect || showFeedback) &&
-                styles.disabledButton,
-            ]}
+          <PushableButton
+            title={"Siguiente"}
+            color={"#ff4081"}
+            width={100}
+            height={50}
+            style={{ width: "100%" }}
+            darkColor={darkenColor("#ff4081", 20)}
             onPress={
               showTutorial ? () => setShowTutorial(false) : handleNextExercise
             }
             disabled={!(showTutorial || isCorrect || showFeedback)}
-          >
-            <Text style={styles.navButtonText}>Siguiente</Text>
-            <AntDesign name="arrowright" size={24} color="white" />
-          </TouchableOpacity>
+            fontSize={16}
+            loading={Loading}
+          />
         </View>
       </View>
     </View>

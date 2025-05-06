@@ -1,12 +1,14 @@
 import { Tabs } from "expo-router";
-import React from "react";
-import { Platform } from "react-native";
+import React, { useContext } from "react";
+import { Image, Platform, View, StyleSheet } from "react-native";
 import { HapticTab } from "@/components/HapticTab";
 import FontAwesome5 from "@expo/vector-icons/FontAwesome5";
 import Entypo from "@expo/vector-icons/Entypo";
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
+import { AuthContext } from "@/components/auth/AuthContext";
 
 export default function TabsLayout() {
+  const { user } = useContext(AuthContext);
   return (
     <Tabs
       screenOptions={{
@@ -69,21 +71,46 @@ export default function TabsLayout() {
           title: "Perfil",
           tabBarShowLabel: false, // <-- Oculta label
           tabBarIcon: ({ color, focused }) => (
-            <FontAwesome6
-              name="user-large"
-              size={24}
-              color={focused ? "brown" : color}
-            />
+            <View>
+              {user?.image ? (
+                focused ? (
+                  <View style={[styles.avatarImage, styles.filter]}>
+                    <Image
+                      source={{ uri: user.image }}
+                      style={StyleSheet.absoluteFill}
+                    />
+                  </View>
+                ) : (
+                  <Image
+                    source={{ uri: user.image }}
+                    style={styles.avatarImage}
+                  />
+                )
+              ) : (
+                <FontAwesome6
+                  name="user-large"
+                  size={24}
+                  color={focused ? "brown" : color}
+                />
+              )}
+            </View>
           ),
-        }}
-      />
-      <Tabs.Screen
-        name="ex/[ui]"
-        options={{
-          title: "Ranking",
-          tabBarShowLabel: false,
         }}
       />
     </Tabs>
   );
 }
+const styles = StyleSheet.create({
+  avatarImage: {
+    width: 30,
+    height: 30,
+    borderRadius: 12,
+    backgroundColor: "#f0f0f0",
+    overflow: "hidden",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  filter: {
+    backdropFilter: "gray(10px)",
+  },
+});

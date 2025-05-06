@@ -8,7 +8,6 @@ import {
   StyleSheet,
 } from "react-native";
 import Ionicons from "@expo/vector-icons/Ionicons";
-import { AntDesign } from "@expo/vector-icons";
 
 type Props = {
   email: string;
@@ -102,7 +101,6 @@ export default function LoginForm({
             <Ionicons
               name="arrow-forward"
               size={18}
-              color="#fff"
               style={{ marginLeft: 8 }}
             />
           </>
@@ -118,7 +116,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     borderWidth: 1,
-    borderColor: "#ccc",
+    borderColor: "#272727",
     borderRadius: 8,
     marginBottom: 10,
     paddingLeft: 40,
@@ -146,14 +144,14 @@ const styles = StyleSheet.create({
   },
   forgotPasswordText: {
     textAlign: "right",
-    color: "#ec4899",
+    color: "#e3ac83",
     marginBottom: 10,
     textDecorationLine: "underline",
     fontSize: 13,
   },
   button: {
     flexDirection: "row",
-    backgroundColor: "#ec4899",
+    backgroundColor: "#e3ac83",
     paddingVertical: 12,
     borderRadius: 8,
     justifyContent: "center",
@@ -164,7 +162,6 @@ const styles = StyleSheet.create({
     backgroundColor: "#ccc",
   },
   buttonText: {
-    color: "#fff",
     fontSize: 16,
   },
 });

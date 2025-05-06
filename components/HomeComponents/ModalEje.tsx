@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import { View, Button, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet } from "react-native";
 import Popover from "react-native-popover-view";
 import { useRouter } from "expo-router";
 import PushableButton from "../botonDynamic";
@@ -10,6 +10,7 @@ interface PopoverExampleProps {
   color: string;
   darkerColor: string;
   LevelName?: string | null;
+  disabled?: boolean | null;
 }
 export default function PopoverExample({
   ui,
@@ -17,6 +18,7 @@ export default function PopoverExample({
   color,
   darkerColor,
   LevelName,
+  disabled,
 }: PopoverExampleProps) {
   const router = useRouter();
   const buttonRef = useRef<any>(null); // Se utiliza para referenciar el botón
@@ -27,8 +29,11 @@ export default function PopoverExample({
         <PushableButton
           title={title}
           color={color}
+          width={70}
+          height={70}
+          fontSize={25}
           darkColor={darkerColor}
-          onClick={() => setShowPopover(true)}
+          onPress={() => setShowPopover(true)}
         />
       </View>
       <Popover
@@ -39,16 +44,23 @@ export default function PopoverExample({
       >
         <View style={styles.popoverContent}>
           <Text style={styles.popoverText}>{LevelName}</Text>
+          {disabled && (
+            <Text style={styles.popoverText}>
+              {"No tienes vidas para acceder al nivel"}
+            </Text>
+          )}
           <PushableButton
             title={"Ir al Nivel"}
             color={color}
             darkColor={darkerColor}
-            styleObject={{ width: "100%" }}
-            radius={{ borderRadius: 20 }}
-            onPress={() => setShowPopover(false)}
-            onClick={() => {
+            style={{ width: "100%" }}
+            height={50}
+            width={150}
+            onPress={() => {
               router.push(`/ex/${ui}`);
+              setShowPopover(false);
             }}
+            disabled={disabled ? true : false}
           />
         </View>
       </Popover>

@@ -12,8 +12,9 @@ import { Book, ChevronLeft, Lightbulb, ArrowRight } from "lucide-react-native";
 import Accordion from "react-native-collapsible/Accordion";
 import MathFormula from "@/components/math-formula";
 import LessonCard from "@/components/lesson-card";
-import { topicData } from "@/lib/learning-data";
+import { topicData } from "@/libs/learning-data";
 import { useRouter, useGlobalSearchParams } from "expo-router";
+import ScrollViewReload from "@/components/ScrollViewReload";
 
 // ---- Tipos ----
 interface TopicContent {
@@ -83,7 +84,7 @@ const topics: Record<Category, Topic[]> = {
       id: "vectores_aplicaciones",
       name: "Vectores Aplicaciones",
     },
-    { id: "vectores_espacio", name: "Vectores en Espacios" },
+    { id: "vectores_espacios", name: "Vectores en Espacios" },
   ],
   limites: [
     { id: "limites_introduccion", name: "Límites Introduccion" },
@@ -104,11 +105,11 @@ const topics: Record<Category, Topic[]> = {
       name: "Derivadas Regla de Derivacion",
     },
     {
-      id: "derivadas_funciones_especiales",
+      id: "derivadas_funciones",
       name: "Derivadas funciones especiales",
     },
     {
-      id: "derivadas_aplicaiones",
+      id: "derivadas_aplicaciones",
       name: "Apliaciones de Derivadas",
     },
   ],
@@ -354,9 +355,9 @@ function LearningPage() {
 
   return (
     // Se asigna la ref al ScrollView principal
-    <ScrollView ref={scrollViewRef} style={styles.container}>
+    <ScrollViewReload ref={scrollViewRef} style={styles.container}>
       {renderContent()}
-    </ScrollView>
+    </ScrollViewReload>
   );
 }
 interface TopicContent {

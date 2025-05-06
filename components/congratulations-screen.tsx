@@ -1,14 +1,8 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import {
-  View,
-  Text,
-  StyleSheet,
-  TouchableOpacity,
-  Pressable,
-} from "react-native";
-import { Trophy, Star, Home, RotateCcw, Share2 } from "lucide-react-native";
+import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
+import { Trophy, Star, Home, Share2 } from "lucide-react-native";
 import Confetti from "./confetti";
 import * as Progress from "react-native-progress";
 

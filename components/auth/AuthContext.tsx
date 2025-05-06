@@ -7,14 +7,13 @@ import React, {
   ReactNode,
 } from "react";
 import { useRouter, usePathname } from "expo-router";
-import AsyncStorage from "@react-native-async-storage/async-storage";
-import { supabase } from "@/lib/supbase";
+import { supabase } from "@/libs/supabase";
+import { RealtimePostgresChangesPayload } from "@supabase/supabase-js";
 import { AuthChangeEvent, Session } from "@supabase/supabase-js";
 
 // -----------------------------
 // Tipos
 // -----------------------------
-
 export interface UserProfile {
   id: string;
   nickname: string;
@@ -25,39 +24,19 @@ export interface UserProfile {
   gemas: number;
   vidas: number;
   racha: number;
+  user_position: number;
   last_lesson: string;
+  last_vida: string;
   proteccion: number;
-  position: number; // Ranking global
-  friendRank?: number | null; // Ranking entre amigos
-  amistades: number; // Nº de amistades
+  position: number;
+  friendRank?: number | null;
+  amistades: number;
   victorias: number;
   partidas: number;
-  creado: string; // Fecha de creación
+  creado: string;
+  progress: number;
 }
 
-interface AuthContextType {
-  user: UserProfile | null;
-  users: UserProfile[]; // Top 10 global
-  friendUsers: UserProfile[]; // Top 10 entre amigos
-  signIn: (email: string, password: string) => Promise<void>;
-  signOut: () => Promise<void>;
-  NewSolicitud: (
-    UUID_Enviado: string,
-    UUID_Receptor: string,
-    estado: string
-  ) => Promise<Amistad | null>;
-  SolicitudChange: (
-    UIDsolicitud: string,
-    estado: string
-  ) => Promise<Amistad | null>;
-  DeleteSolicitud: (UUID_Solicitud: string) => Promise<void>;
-}
-
-interface AuthProviderProps {
-  children: ReactNode;
-}
-
-// Interfaz para la tabla "amistades"
 export interface Amistad {
   id_usuario_solicitante: string;
   id_usuario_receptor: string;
@@ -65,325 +44,215 @@ export interface Amistad {
   fecha_solicitud?: string;
   id_amistad?: string;
 }
+export interface SolicitudAmistad {
+  id_amistad: string; // UUID
+  id_usuario_solicitante: string; // UUID
+  id_usuario_receptor: string; // UUID
+  estado: "pendiente" | "aceptada" | "rechazada";
+  fecha_solicitud: string;
+  solicitante: {
+    id: string; // UUID
+    nickname: string;
+    full_name: string;
+    image: string;
+    puntuation: number;
+  };
+}
 
-// -----------------------------
-// Constantes de caché
-// -----------------------------
-
-const USER_CACHE_KEY = "user_profile_cache";
-const ONE_WEEK_MS = 7 * 24 * 60 * 60 * 1000;
-
-// -----------------------------
-// Utilidades de caché (AsyncStorage)
-// -----------------------------
-
-const storeUserInCache = async (user: UserProfile) => {
-  try {
-    const payload = { user, expiry: Date.now() + ONE_WEEK_MS };
-    await AsyncStorage.setItem(USER_CACHE_KEY, JSON.stringify(payload));
-  } catch (error) {
-    console.error("Error al guardar en caché:", error);
-  }
-};
-
-const getCachedUser = async (): Promise<UserProfile | null> => {
-  try {
-    const raw = await AsyncStorage.getItem(USER_CACHE_KEY);
-    if (!raw) return null;
-
-    const { user, expiry } = JSON.parse(raw);
-    if (Date.now() > expiry) {
-      await AsyncStorage.removeItem(USER_CACHE_KEY);
-      return null;
-    }
-    return user as UserProfile;
-  } catch (error) {
-    console.error("Error al leer de la caché:", error);
-    return null;
-  }
-};
-
-const clearCachedUser = async () => {
-  try {
-    await AsyncStorage.removeItem(USER_CACHE_KEY);
-  } catch (error) {
-    console.error("Error al limpiar la caché:", error);
-  }
-};
-
-// -----------------------------
-// Funciones de obtención de datos desde Supabase
-// -----------------------------
-
-/**
- * Obtiene el perfil de usuario, número de amistades y ranking global.
- */
-const fetchUserProfile = async (
-  userId: string
-): Promise<UserProfile | null> => {
-  try {
-    const { data: profile, error: profileError } = await supabase
-      .from("profiles")
-      .select("*")
-      .eq("id", userId)
-      .single();
-    if (profileError || !profile) throw profileError;
-
-    const { count: amistadCount, error: friendshipsError } = await supabase
-      .from("amistades")
-      .select("*", { count: "exact", head: true })
-      .or(
-        `id_usuario_solicitante.eq.${userId},id_usuario_receptor.eq.${userId}`
-      )
-      .eq("estado", "aceptada");
-    if (friendshipsError) throw friendshipsError;
-
-    const { count: higherCount, error: rankError } = await supabase
-      .from("profiles")
-      .select("*", { count: "exact", head: true })
-      .gt("puntuation", profile.puntuation);
-    if (rankError) throw rankError;
-
-    return {
-      ...profile,
-      amistades: amistadCount || 0,
-      position: (higherCount || 0) + 1,
-      friendRank: null, // Se actualizará más adelante
-    };
-  } catch (error) {
-    console.error("Error en fetchUserProfile:", error);
-    return null;
-  }
-};
-
-/**
- * Recupera los IDs de amigos aceptados del usuario.
- */
-const fetchFriendIds = async (userId: string): Promise<string[]> => {
-  try {
-    const { data, error } = await supabase
-      .from("amistades")
-      .select("id_usuario_solicitante, id_usuario_receptor")
-      .or(
-        `id_usuario_solicitante.eq.${userId},id_usuario_receptor.eq.${userId}`
-      )
-      .eq("estado", "aceptada");
-    if (error || !data) throw error;
-    console.log(
-      "fetchFriendIds",
-      data.map((a: any) =>
-        a.id_usuario_solicitante === userId
-          ? a.id_usuario_receptor
-          : a.id_usuario_solicitante
-      )
-    );
-
-    return data.map((a: any) =>
-      a.id_usuario_solicitante === userId
-        ? a.id_usuario_receptor
-        : a.id_usuario_solicitante
-    );
-  } catch (error) {
-    console.error("Error en fetchFriendIds:", error);
-    return [];
-  }
-};
-
-/**
- * Obtiene los top 10 amigos por puntuación.
- */
-const fetchTopFriendUsers = async (
-  friendIds: string[]
-): Promise<UserProfile[] | null> => {
-  try {
-    const { data, error } = await supabase
-      .from("profiles")
-      .select("*")
-      .in("id", friendIds)
-      .order("puntuation", { ascending: false })
-      .limit(10);
-    if (error) throw error;
-    return data as UserProfile[];
-  } catch (error) {
-    console.error("Error en fetchTopFriendUsers:", error);
-    return null;
-  }
-};
-
-/**
- * Calcula el ranking del usuario entre sus amigos.
- */
-const fetchFriendRank = async (
-  user: UserProfile,
-  friendIds: string[]
-): Promise<number | null> => {
-  try {
-    const { count, error } = await supabase
-      .from("profiles")
-      .select("*", { count: "exact", head: true })
-      .in("id", friendIds)
-      .gt("puntuation", user.puntuation);
-    if (error) throw error;
-    return (count || 0) + 1;
-  } catch (error) {
-    console.error("Error en fetchFriendRank:", error);
-    return null;
-  }
-};
-
-// -----------------------------
-// Contexto de Autenticación
-// -----------------------------
+interface AuthContextType {
+  user: UserProfile | null;
+  setUser: React.Dispatch<React.SetStateAction<UserProfile | null>>;
+  users: UserProfile[];
+  pendingFriends: SolicitudAmistad[];
+  friendUsers: UserProfile[];
+  isAuthReady: boolean;
+  signIn: (email: string, password: string) => Promise<void>;
+  signOut: () => Promise<void>;
+  NewSolicitud: (
+    UUID_Enviado: string,
+    UUID_Receptor: string,
+    estado?: string
+  ) => Promise<Amistad | null>;
+  SolicitudChange: (
+    UIDsolicitud: string,
+    estado: string
+  ) => Promise<Amistad | null>;
+  DeleteSolicitud: (UUID_Solicitud: string) => Promise<void>;
+  Compra: (
+    UUID_Solicitud: string,
+    gemas: number,
+    proteccion: number,
+    vidas: number
+  ) => Promise<void>;
+}
 
 export const AuthContext = createContext<AuthContextType>({
   user: null,
+  setUser: () => {},
   users: [],
   friendUsers: [],
+  pendingFriends: [],
+  isAuthReady: false,
   signIn: async () => {},
   signOut: async () => {},
-  NewSolicitud: async () => {
-    return null;
-  },
-  SolicitudChange: async () => {
-    return null;
-  },
+  NewSolicitud: async () => null,
+  SolicitudChange: async () => null,
   DeleteSolicitud: async () => {},
+  Compra: async () => {},
 });
 
-// -----------------------------
-// Componente AuthProvider
-// -----------------------------
+interface ProviderProps {
+  children: ReactNode;
+}
 
-export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
+export const AuthProvider: React.FC<ProviderProps> = ({ children }) => {
   const [user, setUser] = useState<UserProfile | null>(null);
   const [users, setUsers] = useState<UserProfile[]>([]);
   const [friendUsers, setFriendUsers] = useState<UserProfile[]>([]);
-  const [loading, setLoading] = useState(true);
+  const [pendingFriends, setPendingFriends] = useState<SolicitudAmistad[]>([]);
+  const [isAuthReady, setAuthReady] = useState(false);
 
-  const pathname = usePathname();
   const router = useRouter();
+  const pathname = usePathname();
 
-  // Función para cargar los rankings global y entre amigos
-  const loadRankings = useCallback(async () => {
-    if (!user) return;
-
-    // 1) Top 10 global
-    const { data: globalData, error: globalError } = await supabase
-      .from("profiles")
-      .select("*")
-      .order("puntuation", { ascending: false })
-      .limit(10)
-      .neq("id", user.id);
-
-    if (!globalError && globalData) {
-      const topGlobal = [...globalData, user]
-        .sort((a, b) => b.puntuation - a.puntuation)
-        .slice(0, 10);
-      setUsers(topGlobal);
+  // Fetch profile via RPC
+  const fetchUserProfile = useCallback(async (userId: string) => {
+    try {
+      const { data: profile, error } = await supabase
+        .rpc("get_user_stats", { in_uid: userId })
+        .single();
+      if (error || !profile) throw error;
+      return {
+        ...(profile as UserProfile),
+        position: (profile as UserProfile).user_position,
+        friendRank: null,
+        progress: 0,
+      } as UserProfile;
+    } catch (err) {
+      console.error("Error fetching profile:", err);
+      return null;
     }
+  }, []);
 
-    // 2) Top amigos y rank entre amigos
-    const friendIds = await fetchFriendIds(user.id);
-
-    const topFriends = (await fetchTopFriendUsers(friendIds)) || [];
-    setFriendUsers(
-      [...topFriends, user]
-        .sort((a, b) => b.puntuation - a.puntuation)
-        .slice(0, 10)
-    );
-    const newRank = await fetchFriendRank(user, friendIds);
-    setUser((u) =>
-      u && u.friendRank !== newRank ? { ...u, friendRank: newRank } : u
-    );
-  }, [user, fetchFriendIds, fetchTopFriendUsers, fetchFriendRank]);
-
-  // Carga inicial y escucha de cambios en la sesión
   useEffect(() => {
-    (async () => {
-      let current = await getCachedUser();
-      if (!current) {
-        const { data } = await supabase.auth.getSession();
-        const id = data.session?.user.id;
-        if (id) {
-          current = await fetchUserProfile(id);
-          if (current) {
-            setUser(current);
-            await storeUserInCache(current);
-          }
-        }
-      } else {
-        setUser(current);
-      }
-      setLoading(false);
-    })();
+    setUser((prev) =>
+      prev ? { ...(prev as UserProfile), progress: 0 } : prev
+    );
+  }, [pathname, user?.id]);
 
+  // Fetch rankings via RPC
+  const fetchRankings = useCallback(async (userId: string) => {
+    try {
+      const { data, error } = await supabase.rpc(
+        "get_dashboard_with_requests",
+        {
+          p_user_id: userId,
+        }
+      );
+      if (error) throw error;
+      console.log("data:", data);
+      setUsers(data.top_global);
+      setFriendUsers(data.top_friends);
+      setPendingFriends(data.pending_requests || []);
+      setUser((prev) =>
+        prev ? { ...prev, friendRank: data.friend_rank } : prev
+      );
+    } catch (err) {
+      console.error("Error fetching rankings:", err);
+    }
+  }, []);
+
+  // Initialize auth
+  const initAuth = useCallback(async () => {
+    const {
+      data: { session },
+    } = await supabase.auth.getSession();
+    if (session?.user.id) {
+      const profile = await fetchUserProfile(session.user.id);
+      if (profile) {
+        setUser(profile);
+        fetchRankings(session.user.id);
+      }
+    }
+    setAuthReady(true);
+  }, [fetchUserProfile, fetchRankings]);
+
+  // Listen auth changes
+  useEffect(() => {
+    initAuth();
     const { data: listener } = supabase.auth.onAuthStateChange(
       async (_event: AuthChangeEvent, session: Session | null) => {
         if (session?.user.id) {
-          const updated = await fetchUserProfile(session.user.id);
-          if (updated) {
-            setUser((prev) =>
-              prev?.id === updated.id && prev.friendRank === updated.friendRank
-                ? prev
-                : updated
-            );
-            await storeUserInCache(updated);
+          const profile = await fetchUserProfile(session.user.id);
+          if (profile) {
+            setUser(profile);
+            fetchRankings(session.user.id);
           }
         } else {
           setUser(null);
-          await clearCachedUser();
         }
       }
     );
+    return () => listener.subscription.unsubscribe();
+  }, [initAuth, fetchUserProfile, fetchRankings]);
 
-    return () => {
-      listener.subscription.unsubscribe();
-    };
-  }, [fetchUserProfile]);
-
-  // Redirige a "/login" si el usuario no está autenticado
+  // Redirect when ready and not signed in
   useEffect(() => {
-    if (!user && !loading && pathname !== "/login") {
-      router.push("/login");
+    if (isAuthReady && !user && pathname !== "/login") {
+      router.replace("/login");
     }
-  }, [user, loading, pathname, router]);
+  }, [isAuthReady, user, pathname, router]);
 
-  // Suscripción a cambios en las tablas "amistades" y "profiles"
+  // Cuando tenemos usuario, iniciamos suscripciones y rankings
   useEffect(() => {
     if (!user) return;
-    loadRankings();
+    (async () => {
+      // Cargamos rankings iniciales
+      fetchRankings(user?.id);
 
-    const amistadChannel = supabase
-      .channel("amistades-channel")
-      .on(
-        "postgres_changes",
-        { event: "*", schema: "public", table: "amistades" },
-        (payload) => {
-          console.log("Cambio en amistades:", payload);
-          loadRankings();
-        }
-      )
-      .subscribe();
+      // Suscripción a cambios en amistades para refrescar rankings
+      const amistadChannel = supabase
+        .channel(`amistades_user_${user.id}`)
+        .on(
+          "postgres_changes",
+          { event: "*", schema: "public", table: "amistades" },
+          async (payload: RealtimePostgresChangesPayload<Amistad>) => {
+            console.log("Amistad change:", payload);
+            await fetchRankings(user.id);
+          }
+        )
+        .subscribe();
 
-    const profilesChannel = supabase
-      .channel("profiles-channel")
-      .on(
-        "postgres_changes",
-        { event: "*", schema: "public", table: "profiles" },
-        (payload) => {
-          console.log("Cambio en profiles:", payload);
-          loadRankings();
-        }
-      )
-      .subscribe();
+      // Suscripción a cambios en el perfil propio
+      const profileChannel = supabase
+        .channel(`profiles_user_${user.id}`)
+        .on(
+          "postgres_changes",
+          {
+            event: "*",
+            schema: "public",
+            table: "profiles",
+            filter: `id=eq.${user.id}`,
+          },
+          (payload: RealtimePostgresChangesPayload<UserProfile>) => {
+            // Actualizamos state y caché con campos modificados
+            setUser((prev) => {
+              if (!prev) return prev;
+              const updated = { ...prev, ...payload.new } as UserProfile;
+              fetchUserProfile(user.id);
+              return updated;
+            });
+          }
+        )
+        .subscribe();
+      return () => {
+        supabase.removeChannel(amistadChannel);
+        supabase.removeChannel(profileChannel);
+      };
+    })();
+  }, [user?.id, fetchRankings, fetchUserProfile]);
 
-    return () => {
-      supabase.removeChannel(amistadChannel);
-      supabase.removeChannel(profilesChannel);
-    };
-  }, [user]);
-
-  // Métodos de autenticación
+  // Auth actions (hooks always executed)
   const signIn = useCallback(async (email: string, password: string) => {
     const { error } = await supabase.auth.signInWithPassword({
       email,
@@ -396,89 +265,133 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
     const { error } = await supabase.auth.signOut();
     if (error) throw error;
     setUser(null);
-    await clearCachedUser();
   }, []);
 
-  async function NewSolicitud(
-    UUID_Enviado: string,
-    UUID_Receptor: string,
-    estado: string = "pendiente"
-  ): Promise<Amistad | null> {
-    const solicitud: Amistad = {
-      id_usuario_solicitante: UUID_Enviado,
-      id_usuario_receptor: UUID_Receptor,
-      estado,
-      fecha_solicitud: new Date().toISOString(),
-    };
+  const NewSolicitud = useCallback(
+    async (
+      UUID_Enviado: string,
+      UUID_Receptor: string,
+      estado = "pendiente"
+    ) => {
+      try {
+        const { data, error } = await supabase
+          .from("amistades")
+          .insert({
+            id_usuario_solicitante: UUID_Enviado,
+            id_usuario_receptor: UUID_Receptor,
+            estado,
+            fecha_solicitud: new Date().toISOString(),
+          })
+          .select();
+        if (error) throw error;
+        return data?.[0] ?? null;
+      } catch (err) {
+        console.error("Error creating solicitud:", err);
+        return null;
+      }
+    },
+    []
+  );
 
-    const { data, error } = await supabase
-      .from("amistades")
-      .insert(solicitud)
-      .select();
+  const SolicitudChange = useCallback(
+    async (UIDsolicitud: string, estado: string) => {
+      try {
+        const { data, error } = await supabase
+          .from("amistades")
+          .update({ estado })
+          .eq("id_amistad", UIDsolicitud)
+          .select();
+        if (error) throw error;
+        console.log("Solicitud updated:", data);
+        return data?.[0] ?? null;
+      } catch (err) {
+        console.error("Error updating solicitud:", err);
+        return null;
+      }
+    },
+    []
+  );
 
-    if (error) {
-      console.error("Error al realizar el upsert de la solicitud:", error);
-      return null;
+  const Compra = useCallback(
+    async (
+      UIDsolicitud: string,
+      gemas: number,
+      proteccion: number,
+      vidas: number
+    ) => {
+      try {
+        const { data, error } = await supabase
+          .from("profiles")
+          .update({
+            gemas,
+            vidas,
+            proteccion,
+            last_vida:
+              vidas !== (user?.vidas || 0)
+                ? new Date().toISOString()
+                : user?.last_vida,
+          })
+          .eq("id", UIDsolicitud)
+          .select();
+        if (error) throw error;
+        console.log("Solicitud updated:", data);
+        return data?.[0] ?? null;
+      } catch (err) {
+        console.error("Error updating solicitud:", err);
+        return null;
+      }
+    },
+    [user?.last_vida, user?.vidas]
+  );
+
+  const DeleteSolicitud = useCallback(async (UUID_Solicitud: string) => {
+    try {
+      const { error } = await supabase
+        .from("amistades")
+        .delete()
+        .eq("id_amistad", UUID_Solicitud);
+      if (error) throw error;
+    } catch (err) {
+      console.error("Error deleting solicitud:", err);
     }
+  }, []);
 
-    // Se devuelve el primer elemento del arreglo resultante
-    return data && data.length > 0 ? data[0] : null;
-  }
-
-  async function SolicitudChange(
-    UIDsolicitud: string,
-    estado: string
-  ): Promise<Amistad | null> {
-    const { data, error } = await supabase
-      .from("amistades")
-      .update({ estado })
-      .eq("id_amistad", UIDsolicitud)
-      .select();
-
-    if (error) {
-      console.error("Error al realizar el upsert de la solicitud:", error);
-      return null;
-    }
-
-    // Se devuelve el primer elemento del arreglo resultante
-    return data && data.length > 0 ? data[0] : null;
-  }
-
-  async function DeleteSolicitud(UUID_Solicitud: string) {
-    const { data, error } = await supabase
-      .from("amistades")
-      .delete()
-      .eq("id_amistad", UUID_Solicitud);
-
-    if (error) {
-      console.error("Error al eliminar la solicitud:", error);
-    }
-  }
-
-  // Memoriza el valor del contexto
+  // Prepare context value
   const contextValue = useMemo(
     () => ({
       user,
       users,
+      setUser,
+      pendingFriends,
       friendUsers,
+      isAuthReady,
       signIn,
       signOut,
       NewSolicitud,
       SolicitudChange,
       DeleteSolicitud,
+      Compra,
     }),
     [
       user,
       users,
+      setUser,
+      pendingFriends,
       friendUsers,
+      isAuthReady,
       signIn,
       signOut,
       NewSolicitud,
       SolicitudChange,
       DeleteSolicitud,
+      Compra,
     ]
   );
-  console.log(users, friendUsers);
+
+  if (!isAuthReady) {
+    return null; // or a loading spinner
+  }
+  console.log("AuthContext", user);
   return (
     <AuthContext.Provider value={contextValue}>{children}</AuthContext.Provider>
   );

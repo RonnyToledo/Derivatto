@@ -123,7 +123,6 @@ export default function RegisterForm({
             <Ionicons
               name="arrow-forward"
               size={18}
-              color="#fff"
               style={{ marginLeft: 8 }}
             />
           </>
@@ -139,7 +138,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     borderWidth: 1,
-    borderColor: "#ccc",
+    borderColor: "#272727",
     borderRadius: 8,
     marginBottom: 10,
     paddingLeft: 40,
@@ -173,7 +172,7 @@ const styles = StyleSheet.create({
   },
   button: {
     flexDirection: "row",
-    backgroundColor: "#ec4899",
+    backgroundColor: "#e3ac83",
     paddingVertical: 12,
     borderRadius: 8,
     justifyContent: "center",
@@ -184,7 +183,6 @@ const styles = StyleSheet.create({
     backgroundColor: "#ccc",
   },
   buttonText: {
-    color: "#fff",
     fontSize: 16,
   },
 });

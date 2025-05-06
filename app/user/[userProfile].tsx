@@ -5,10 +5,8 @@ import {
   Image,
   ActivityIndicator,
   StyleSheet,
-  ScrollView,
   TouchableOpacity,
 } from "react-native";
-import { useNavigation } from "@react-navigation/native";
 import { useLocalSearchParams, useRouter } from "expo-router";
 import {
   UserPlus,
@@ -23,11 +21,13 @@ import {
 } from "lucide-react-native";
 import AchievementCard from "@/components/AchievementCard";
 import * as Progress from "react-native-progress";
-import { supabase } from "@/lib/supbase";
+import { supabase } from "@/libs/supabase";
 import { AuthContext } from "@/components/auth/AuthContext";
+import { getLevelInfo } from "@/functions/getLevelInfo";
+import ScrollViewReload from "@/components/ScrollViewReload";
 
 // Definición del tipo de usuario
-export interface User {
+export interface UserProfile1 {
   id?: string;
   nickname?: string;
   full_name?: string;
@@ -53,7 +53,7 @@ export interface User {
 const fetchUserProfile = async (
   nickname: string,
   UserId: string
-): Promise<User | null> => {
+): Promise<UserProfile1 | null> => {
   try {
     const { data: profile, error: profileError } = await supabase
       .from("profiles")
@@ -83,7 +83,7 @@ const fetchUserProfile = async (
       );
     if (reqErr) throw reqErr;
     const request = requests[0];
-    let friendStatus: User["status"] = "nada";
+    let friendStatus: UserProfile1["status"] = "nada";
     if (request) {
       if (request.estado === "pendiente") {
         friendStatus =
@@ -109,18 +109,11 @@ const fetchUserProfile = async (
 const UserProfilePage = () => {
   const { user, SolicitudChange, DeleteSolicitud, NewSolicitud } =
     useContext(AuthContext);
-  const navigation = useNavigation();
   const router = useRouter();
   const { userProfile } = useLocalSearchParams<{ userProfile: string }>();
-
-  // Si no se recibe el parámetro, no renderiza nada
-  if (!userProfile || typeof userProfile !== "string") {
-    return null;
-  }
-
   const [isLoading, setIsLoading] = useState(true);
   const [loading, setLoading] = useState(false);
-  const [userData, setUserData] = useState<User | null>(null);
+  const [userData, setUserData] = useState<UserProfile1 | null>(null);
   const [activeTab, setActiveTab] = useState<"achievements" | "inventory">(
     "achievements"
   );
@@ -133,7 +126,7 @@ const UserProfilePage = () => {
   const updateItemStatus = (
     userId: string,
     idAmistad: string,
-    newStatus: User["status"]
+    newStatus: UserProfile1["status"]
   ) => {
     if (userData && userData.id === userId) {
       setUserData({ ...userData, status: newStatus, idAmistad });
@@ -155,9 +148,15 @@ const UserProfilePage = () => {
       setUserData(profile);
       setIsLoading(false);
     };
-    if (user) loadProfile();
+    if (user) {
+      loadProfile();
+    }
   }, [userProfile, user]);
 
+  // Si no se recibe el parámetro, no renderiza nada
+  if (!userProfile || typeof userProfile !== "string") {
+    return null;
+  }
   if (isLoading) {
     return (
       <View style={styles.centered}>
@@ -187,7 +186,7 @@ const UserProfilePage = () => {
   }
 
   return (
-    <ScrollView style={styles.container}>
+    <ScrollViewReload style={styles.container}>
       {/* Profile Card */}
       <View style={styles.profileCardContainer}>
         <View style={styles.profileCardBackground} />
@@ -207,7 +206,7 @@ const UserProfilePage = () => {
                 </View>
                 <View style={styles.levelBadge}>
                   <Text style={styles.levelText}>
-                    {userData.puntuation ? userData.puntuation : 0}
+                    {getLevelInfo(userData?.puntuation ?? 0).currentLevel}
                   </Text>
                 </View>
               </View>
@@ -310,13 +309,19 @@ const UserProfilePage = () => {
               <View style={styles.progressLabel}>
                 <Star size={16} color="#f59e0b" />
                 <Text style={styles.progressText}>
-                  Nivel {userData.puntuation ? userData.puntuation : 0}
+                  Nivel {getLevelInfo(userData?.puntuation ?? 0).currentLevel}
                 </Text>
               </View>
-              <Text style={styles.progressXP}>5,640 / 6,000 XP</Text>
+              <Text style={styles.progressXP}>
+                {userData?.puntuation} /{" "}
+                {getLevelInfo(userData?.puntuation ?? 0).nextLevelScore} XP
+              </Text>
             </View>
             <Progress.Bar
-              progress={0.94}
+              progress={
+                (user?.puntuation ?? 0) /
+                getLevelInfo(user?.puntuation ?? 0).nextLevelScore
+              }
               width={null}
               color="#ec4899"
               borderWidth={0}
@@ -395,7 +400,7 @@ const UserProfilePage = () => {
           )}
         </View>
       </View>
-    </ScrollView>
+    </ScrollViewReload>
   );
 };
 export const formatFecha = (isoString: string): string => {

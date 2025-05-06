@@ -2,7 +2,6 @@ import React, { useContext, useMemo, useState } from "react";
 import {
   View,
   Text,
-  ScrollView,
   Image,
   StyleSheet,
   useWindowDimensions,
@@ -17,6 +16,9 @@ import {
 import AntDesign from "@expo/vector-icons/AntDesign";
 import Ionicons from "@expo/vector-icons/Ionicons";
 import { AuthContext } from "@/components/auth/AuthContext";
+import { getLevelInfo } from "@/functions/getLevelInfo";
+import { Link } from "expo-router";
+import ScrollViewReload from "@/components/ScrollViewReload";
 
 export default function RankingPage() {
   const { height } = useWindowDimensions();
@@ -51,7 +53,7 @@ function RankingList({ title, rankingData, user }: RankingListProps) {
   const { width, height } = useWindowDimensions();
 
   return (
-    <ScrollView
+    <ScrollViewReload
       style={{ flex: 1, width: width, height: height }}
       contentContainerStyle={styles.scrollContent}
     >
@@ -59,11 +61,12 @@ function RankingList({ title, rankingData, user }: RankingListProps) {
       <View style={styles.listContainer}>
         {sortedRanking.map((player, index) => (
           <UserRankCard
+            nickname={player?.nickname ?? 0}
             key={player.id}
             rank={index + 1}
             name={player.full_name}
             score={player.puntuation}
-            level={player.puntuation}
+            level={getLevelInfo(player.puntuation).currentLevel}
             avatar={player.image}
             isCurrentUser={(isUserInTop10 && player.id === user?.id) || false}
           />
@@ -75,23 +78,25 @@ function RankingList({ title, rankingData, user }: RankingListProps) {
           <View style={styles.divider} />
           <Text style={styles.subtitle}>Tu posición</Text>
           <UserRankCard
+            nickname={user?.nickname ?? 0}
             rank={user?.position ?? 0}
             name={user?.full_name ?? ""}
             score={user?.puntuation ?? 0}
-            level={user?.puntuation ?? 0}
+            level={getLevelInfo(user?.puntuation).currentLevel ?? 0}
             avatar={user?.image ?? ""}
             isCurrentUser={true}
           />
         </View>
       )}
-    </ScrollView>
+    </ScrollViewReload>
   );
 }
 
 // Ranking global
 function FirstRoute() {
   const { user, users } = useContext(AuthContext);
-  return users.length > 0 && user ? (
+
+  return users.length > 1 && user ? (
     <RankingList title="Top 10 Jugadores" rankingData={users} user={user} />
   ) : (
     <NoRanking />
@@ -101,7 +106,7 @@ function FirstRoute() {
 // Ranking de amigos
 function SecondRoute() {
   const { user, friendUsers } = useContext(AuthContext);
-  return friendUsers.length > 0 && user ? (
+  return friendUsers.length > 1 && user ? (
     <RankingList title="Top 10 Amigos" rankingData={friendUsers} user={user} />
   ) : (
     <NoRanking />
@@ -162,6 +167,7 @@ interface UserRankCardProps {
   score: number;
   level: number;
   avatar: string;
+  nickname: string;
   isCurrentUser: boolean;
 }
 function UserRankCard({
@@ -170,6 +176,7 @@ function UserRankCard({
   score,
   level,
   avatar,
+  nickname,
   isCurrentUser,
 }: UserRankCardProps) {
   // Función memorizada para determinar el icono de posición
@@ -199,17 +206,25 @@ function UserRankCard({
       <View style={styles.cardContent}>
         {getRankIcon(rank)}
         <View style={styles.avatarContainer}>
-          <Image source={{ uri: avatar }} style={styles.avatar} />
+          <Image
+            source={{
+              uri:
+                avatar ||
+                "https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_640.png",
+            }}
+            style={styles.avatar}
+          />
           <View style={styles.levelBadge}>
             <Text style={styles.levelText}>{level}</Text>
           </View>
         </View>
         <View style={styles.infoContainer}>
-          <Text
+          <Link
+            href={isCurrentUser ? "/perfil" : `/user/${nickname}`}
             style={[styles.playerName, isCurrentUser && styles.currentUserName]}
           >
             {name}
-          </Text>
+          </Link>
           <View style={styles.scoreContainer}>
             <AntDesign name="star" size={16} color="yellow" />
             <Text style={styles.scoreText}>{score.toLocaleString()} pts</Text>
@@ -229,7 +244,7 @@ const styles = StyleSheet.create({
     padding: 10,
     paddingBottom: 32,
   },
-  routeContainer: { padding: 16 },
+  routeContainer: { padding: 16, height: "100%" },
   centerContent: { alignItems: "center", justifyContent: "center" },
   title: {
     fontSize: 18,

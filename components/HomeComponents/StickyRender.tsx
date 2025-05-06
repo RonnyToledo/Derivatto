@@ -1,17 +1,13 @@
-import {
-  View,
-  Text,
-  ScrollView,
-  TouchableOpacity,
-  StyleSheet,
-} from "react-native";
-import React from "react";
+import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
+import React, { useContext } from "react";
 import FontAwesome from "@expo/vector-icons/FontAwesome";
 import { ejercicioFinish } from "@/assets/exe";
 import { darkenColor } from "@/functions/tinycolors";
 import { useRouter } from "expo-router";
 import PopoverExample from "./ModalEje";
 import { transformLevel } from "@/functions/transformLevel";
+import ScrollViewReload from "../ScrollViewReload";
+import { AuthContext } from "../auth/AuthContext";
 
 interface Section {
   detectPorCent: (
@@ -23,15 +19,20 @@ interface Section {
 
 export default function StickyRender({ detectPorCent }: Section) {
   const router = useRouter();
+  const { user } = useContext(AuthContext);
+
   return (
-    <ScrollView>
+    <ScrollViewReload>
       {ejercicioFinish.map((section, index) => (
         <View key={index}>
           <View style={styles.header}>
             <View
               style={[
                 styles.cardHeader,
-                { backgroundColor: section.color },
+                {
+                  backgroundColor:
+                    (user?.vidas || 0) > 0 ? section.color : "gray",
+                },
                 styles.shadowStyle,
               ]}
             >
@@ -52,7 +53,8 @@ export default function StickyRender({ detectPorCent }: Section) {
             </View>
           </View>
           {Object.keys(section.ej).map((key, ind) => {
-            const darkerColor = darkenColor(section.color, 15);
+            const color = (user?.vidas || 0) > 0 ? section.color : "gray";
+            const darkerColor = darkenColor(color, 15);
             const valueTranslate = detectPorCent(ind, section.ej[key].length);
 
             return (
@@ -68,8 +70,9 @@ export default function StickyRender({ detectPorCent }: Section) {
                       LevelName={transformLevel(key)}
                       ui={key}
                       title={String(ind + 1)}
-                      color={section.color}
+                      color={color}
                       darkerColor={darkerColor}
+                      disabled={(user?.vidas || 0) === 0}
                     />
                   </View>
                 </View>
@@ -78,7 +81,7 @@ export default function StickyRender({ detectPorCent }: Section) {
           })}
         </View>
       ))}
-    </ScrollView>
+    </ScrollViewReload>
   );
 }
 

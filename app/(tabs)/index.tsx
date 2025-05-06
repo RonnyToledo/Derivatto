@@ -1,11 +1,9 @@
 import React from "react";
-import { StyleSheet, Platform } from "react-native";
-import { useRouter } from "expo-router";
+import { Platform } from "react-native";
 import StickyRender from "@/components/HomeComponents/StickyRender";
 import SectionListComp from "@/components/HomeComponents/SectionListComp";
 
 export default function Index() {
-  const router = useRouter();
   if (Platform.OS === "web") {
     return <StickyRender detectPorCent={detectPorCent} />;
   } else {

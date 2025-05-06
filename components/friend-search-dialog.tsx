@@ -12,7 +12,7 @@ import {
 import { Search, UserPlus, UserCheck, X } from "lucide-react-native";
 import { useRouter } from "expo-router";
 import ModalComponent from "./global/modal";
-import { supabase } from "@/lib/supbase";
+import { supabase } from "@/libs/supabase";
 import { AuthContext } from "@/components/auth/AuthContext";
 
 // Definir el tipo para los usuarios de la búsqueda
@@ -50,7 +50,7 @@ const fetchSearchResults = async (
     return [];
   }
 
-  const ids = users.map((u) => u.id).join(",");
+  const ids = users.map((u: any) => u.id).join(",");
   if (!ids) {
     return [];
   }
@@ -70,9 +70,9 @@ const fetchSearchResults = async (
   }
 
   // Fusionar información para determinar el estado de la amistad
-  const merged = users.map((u) => {
+  const merged = users.map((u: any) => {
     const req = requests.find(
-      (r) =>
+      (r: any) =>
         (r.id_usuario_solicitante === id && r.id_usuario_receptor === u.id) ||
         (r.id_usuario_receptor === id && r.id_usuario_solicitante === u.id)
     );

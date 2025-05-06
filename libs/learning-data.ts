@@ -1595,7 +1595,7 @@ export const topicData = {
     ],
   },
 
-  derivadas_aplicaciones_optimizacion_facil: {
+  derivadas_aplicaciones_facil: {
     title: "Aplicaciones de Derivadas - Nivel Básico",
     description:
       "Introducción a los problemas de tasa de cambio y optimización usando derivadas. Se abordan ejemplos sencillos para comprender cómo la derivada representa la variación instantánea y cómo identificar puntos críticos.",
@@ -1632,7 +1632,7 @@ export const topicData = {
     ],
   },
 
-  derivadas_aplicaciones_optimizacion_medio: {
+  derivadas_aplicaciones_medio: {
     title: "Aplicaciones de Derivadas - Nivel Intermedio",
     description:
       "Profundización en problemas de tasa de cambio y optimización, incluyendo ejemplos aplicados a contextos económicos y de ingeniería. Se introduce el análisis de funciones y la validación de puntos críticos.",
@@ -1671,7 +1671,7 @@ export const topicData = {
     ],
   },
 
-  derivadas_aplicaciones_optimizacion_dificil: {
+  derivadas_aplicaciones_dificil: {
     title: "Aplicaciones de Derivadas - Nivel Avanzado",
     description:
       "Análisis detallado de problemas complejos de tasa de cambio y optimización. Se abordan casos con funciones implícitas, restricciones y aplicaciones en diseño de sistemas y procesos.",

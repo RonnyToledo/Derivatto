@@ -65,21 +65,6 @@ import integrales_aplicaciones_facil from "./data/5-integrales/10-integrales_apl
 import integrales_aplicaciones_media from "./data/5-integrales/11-integrales_aplicaciones_media.json";
 import integrales_aplicaciones_dificil from "./data/5-integrales/12-integrales_aplicaciones_dificil.json";
 
-interface Question {
-  question: string;
-  answer1: string;
-  answer2: string;
-  answer3: string;
-  answer4: string;
-  correct: string;
-  unlock: string;
-  difficulty: string;
-}
-
-type QuestionBank = {
-  [category: string]: Question[];
-};
-
 // ---------------------
 // Creación de dataMap
 // ---------------------

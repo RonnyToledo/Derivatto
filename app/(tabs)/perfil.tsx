@@ -4,50 +4,94 @@ import {
   Text,
   Image,
   StyleSheet,
-  Dimensions,
+  useWindowDimensions,
   TouchableOpacity,
-  ScrollView,
+  ActivityIndicator,
 } from "react-native";
-import FriendSearchDialog from "@/components/friend-search-dialog";
+import * as ImagePicker from "expo-image-picker";
 import AntDesign from "@expo/vector-icons/AntDesign";
-// Si deseas usar una barra de progreso:
 import * as Progress from "react-native-progress";
-import AchievementCard from "../../components/AchievementCard";
-import { AuthContext } from "@/components/auth/AuthContext";
+import FriendSearchDialog from "@/components/friend-search-dialog";
+import AchievementCard from "@/components/AchievementCard";
+import { AuthContext, UserProfile } from "@/components/auth/AuthContext";
+import { getLevelInfo } from "@/functions/getLevelInfo";
+import { supabase } from "@/libs/supabase";
+import ScrollViewReload from "@/components/ScrollViewReload";
+import FriendRequestsList from "@/components/FriendsSolicitudes";
 
 export default function ProfilePage() {
-  const { user, signOut } = useContext(AuthContext);
-  const [showFriendSearch, setShowFriendSearch] = useState<boolean>(false);
-  const [loadingDelete, setloadingDelete] = useState<boolean>(false);
-  const Delete = async () => {
-    setloadingDelete(true);
+  const { user, setUser, signOut } = useContext(AuthContext);
+  const [showFriendSearch, setShowFriendSearch] = useState(false);
+  const [loadingDelete, setLoadingDelete] = useState(false);
+  const [uploading, setUploading] = useState(false);
+
+  const handleSignOut = async () => {
+    setLoadingDelete(true);
     await signOut();
-    setloadingDelete(false);
+    setLoadingDelete(false);
   };
-  return (
-    <View
-      style={[
-        styles.container,
+
+  async function uploadToCloudinary() {
+    const { status } = await ImagePicker.requestMediaLibraryPermissionsAsync();
+    if (status !== "granted") throw new Error("Permiso denegado");
+
+    const result = await ImagePicker.launchImageLibraryAsync({ quality: 0.7 });
+    if (result.canceled) return;
+
+    // 1) convertir URI a blob
+    const blob = await (await fetch(result.assets[0].uri)).blob();
+
+    // 2) preparar FormData
+    const formdata = new FormData();
+    formdata.append("file", blob);
+    formdata.append("upload_preset", "unsigned"); // tu preset unsigned
+    setUploading(true);
+    try {
+      const res = await fetch(
+        "https://api.cloudinary.com/v1_1/dsymecvtw/image/upload",
         {
-          maxWidth: 400,
-          width: "100%",
-          height: Dimensions.get("window").height,
-        },
-      ]}
-    >
-      {/* Contenido principal en ScrollView para que sea desplazable */}
-      <ScrollView
-        style={{
-          flex: 1,
-        }}
-      >
-        {/* Tarjeta de perfil */}
+          method: "POST",
+          body: formdata,
+        }
+      );
+      const json = await res.json();
+      console.info("URL subida:", json.secure_url, user?.id);
+      const { data: userUpdate, error } = await supabase
+        .from("profiles")
+        .update({
+          image: json.secure_url,
+        })
+        .eq("id", user?.id)
+        .select("*")
+        .single();
+
+      if (error) {
+        console.error("Error al actualizar imagen:", error);
+        throw error;
+      }
+      console.info(userUpdate);
+      setUser(userUpdate as UserProfile);
+    } catch (error) {
+      console.error("Error al subir la imagen:", error);
+    } finally {
+      setUploading(false);
+    }
+  }
+
+  const lvlInfo = getLevelInfo(user?.puntuation ?? 0);
+
+  return (
+    <View style={[styles.container, { height: useWindowDimensions().height }]}>
+      <ScrollViewReload style={{ flex: 1 }}>
         <View style={styles.profileCardWrapper}>
           <View style={styles.profileCardBackground} />
-
           <View style={styles.profileCard}>
-            {/* Avatar */}
-            <View style={styles.avatarContainer}>
+            {/* Avatar con onPress */}
+            <TouchableOpacity
+              style={styles.avatarContainer}
+              onPress={uploadToCloudinary}
+              disabled={uploading}
+            >
               <Image
                 source={{
                   uri:
@@ -56,12 +100,21 @@ export default function ProfilePage() {
                 }}
                 style={styles.avatarImage}
               />
+              {uploading && (
+                <ActivityIndicator
+                  style={StyleSheet.absoluteFill}
+                  size="small"
+                  color="#EC4899"
+                />
+              )}
               <View style={styles.avatarLevelBadge}>
-                <Text style={{ color: "#fff", fontWeight: "bold" }}>28</Text>
+                <Text style={{ color: "#fff", fontWeight: "bold" }}>
+                  {lvlInfo.currentLevel}
+                </Text>
               </View>
-            </View>
+            </TouchableOpacity>
 
-            {/* Info Usuario */}
+            {/* Resto de tu UI */}
             <View style={styles.userInfo}>
               <View style={styles.userInfoHeader}>
                 <View>
@@ -81,18 +134,21 @@ export default function ProfilePage() {
               </View>
             </View>
 
-            {/* Nivel y progreso */}
+            {/* Progreso de nivel */}
             <View style={styles.progressContainer}>
               <View style={styles.progressLabelRow}>
                 <View style={{ flexDirection: "row", alignItems: "center" }}>
                   <AntDesign name="star" color="#FFD700" size={16} />
-                  <Text style={styles.progressLabel}> Nivel 28</Text>
+                  <Text style={styles.progressLabel}>
+                    Nivel {lvlInfo.currentLevel}
+                  </Text>
                 </View>
-                <Text style={styles.progressSubLabel}>5640 / 6000 XP</Text>
+                <Text style={styles.progressSubLabel}>
+                  {user?.puntuation} / {lvlInfo.nextLevelScore} XP
+                </Text>
               </View>
-              {/* Barra de progreso con la librería react-native-progress */}
               <Progress.Bar
-                progress={0.74}
+                progress={(user?.puntuation ?? 0) / lvlInfo.nextLevelScore}
                 width={null}
                 color="#FF00FF"
                 unfilledColor="#f3f3f3"
@@ -109,7 +165,7 @@ export default function ProfilePage() {
                 <Text style={styles.statValue}>{user?.partidas}</Text>
               </View>
               <View style={styles.statBox}>
-                <Text style={styles.statLabel}>Victorias</Text>
+                <Text style={styles.statLabel}>Impecables</Text>
                 <Text style={styles.statValue}>{user?.victorias}</Text>
               </View>
               <View style={styles.statBox}>
@@ -120,35 +176,43 @@ export default function ProfilePage() {
           </View>
         </View>
 
-        {/* Ejemplo de Logros (Achievements) */}
-        <Text style={styles.sectionTitle}>Logros</Text>
-        <View style={styles.achievementsGrid}>
-          <AchievementCard
-            title="Primer Victoria"
-            description="Gana tu primera partida"
-            icon={<AntDesign name="star" color="#FFD700" size={24} />}
-            progress={100}
-          />
-          <AchievementCard
-            title="Coleccionista"
-            description="Obtén 10 objetos diferentes"
-            icon={<AntDesign name="star" color="#8B5CF6" size={24} />}
-            progress={80}
-          />
+        {/* Logros */}
+        <View>
+          <Text style={styles.sectionTitle}>Logros</Text>
+          <View style={styles.achievementsGrid}>
+            <AchievementCard
+              title="Primer Victoria"
+              description="Gana tu primera partida"
+              icon={<AntDesign name="star" color="#FFD700" size={24} />}
+              progress={100}
+            />
+            <AchievementCard
+              title="Coleccionista"
+              description="Obtén 10 objetos diferentes"
+              icon={<AntDesign name="star" color="#8B5CF6" size={24} />}
+              progress={80}
+            />
+          </View>
         </View>
 
-        {/* Aquí podrías renderizar más secciones, inventario, etc. */}
+        <View style={styles.headingContent}>
+          <Text style={styles.heading}>Solicitudes de amistad</Text>
+          <FriendRequestsList />
+        </View>
 
-        {/* Botón de Cerrar Sesión */}
-        <TouchableOpacity
-          style={styles.logoutButton}
-          onPress={async () => Delete()}
-          disabled={loadingDelete}
-        >
-          <AntDesign name="logout" color="#EF4444" size={20} />
-          <Text style={styles.logoutButtonText}> Cerrar Sesión</Text>
-        </TouchableOpacity>
-      </ScrollView>
+        {/* Cerrar sesión */}
+        <View>
+          <TouchableOpacity
+            style={styles.logoutButton}
+            onPress={handleSignOut}
+            disabled={loadingDelete}
+          >
+            <AntDesign name="logout" color="#EF4444" size={20} />
+            <Text style={styles.logoutButtonText}> Cerrar Sesión</Text>
+          </TouchableOpacity>
+        </View>
+      </ScrollViewReload>
+
       <FriendSearchDialog
         open={showFriendSearch}
         onOpenChange={setShowFriendSearch}
@@ -156,6 +220,7 @@ export default function ProfilePage() {
     </View>
   );
 }
+
 export const formatFecha = (isoString: string): string => {
   const date = new Date(isoString);
   return date.toLocaleDateString("es-ES", {
@@ -186,6 +251,15 @@ const styles = StyleSheet.create({
   headerIconButton: {
     padding: 8,
   },
+  headingContent: {
+    padding: 10,
+  },
+  heading: {
+    fontSize: 15, // equivalente aproximado a un h3
+    fontWeight: "500", // font-medium
+    color: "#4A5568", // text-gray-700
+    marginBottom: 5, // mb-3 (3 * 4px)
+  },
   profileCardWrapper: {
     marginBottom: 16,
   },
@@ -215,6 +289,7 @@ const styles = StyleSheet.create({
     borderRadius: 40,
     borderWidth: 3,
     borderColor: "#fff",
+    backgroundColor: "#fff",
   },
   avatarLevelBadge: {
     position: "absolute",

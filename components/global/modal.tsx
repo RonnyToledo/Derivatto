@@ -2,13 +2,14 @@ import { Modal } from "react-native";
 import { PropsWithChildren } from "react";
 import {
   View,
-  TouchableWithoutFeedback,
+  Pressable,
   ScrollView,
   TouchableOpacity,
   Text,
   StyleSheet,
+  useWindowDimensions,
 } from "react-native";
-import React, { Children } from "react";
+import React from "react";
 import { X } from "lucide-react-native";
 
 interface ModalProps {
@@ -31,9 +32,12 @@ export default function ModalComponent({
       transparent={true}
       onRequestClose={() => onOpenChange(false)}
     >
-      <TouchableWithoutFeedback onPress={() => onOpenChange(false)}>
+      <Pressable
+        onPress={() => onOpenChange(false)}
+        style={[{ height: useWindowDimensions().height }]}
+      >
         <View style={styles.modalOverlay}>
-          <TouchableWithoutFeedback>
+          <Pressable>
             <View style={styles.container}>
               <View
                 style={{
@@ -52,9 +56,9 @@ export default function ModalComponent({
               </View>
               <ScrollView>{children}</ScrollView>
             </View>
-          </TouchableWithoutFeedback>
+          </Pressable>
         </View>
-      </TouchableWithoutFeedback>
+      </Pressable>
     </Modal>
   );
 }

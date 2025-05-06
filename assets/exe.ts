@@ -2,7 +2,7 @@ import { dataMap } from "./allExcersices";
 // Definición del tipo Category
 // ---------------------
 interface Category {
-  id: Number;
+  id: number;
   title: string;
   color: string;
   ej: Record<string, any[]>;
@@ -141,10 +141,13 @@ const groupedCategories: Category[] = tipos.map((tipo, index) => {
 
   const ejerciciosGrupo = Object.keys(dataMap)
     .filter((key) => key.startsWith(prefix))
-    .reduce((acc, key) => {
-      acc[key] = dataMap[key];
-      return acc;
-    }, {} as Record<string, any[]>);
+    .reduce(
+      (acc, key) => {
+        acc[key] = dataMap[key];
+        return acc;
+      },
+      {} as Record<string, any[]>
+    );
 
   // Se asigna un color único basado en el nombre del grupo.
   const color = getUniqueColor(tipo);

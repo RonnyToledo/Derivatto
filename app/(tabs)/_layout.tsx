@@ -2,10 +2,15 @@ import { Tabs } from "expo-router";
 import React, { useContext } from "react";
 import { Image, Platform, View, StyleSheet } from "react-native";
 import { HapticTab } from "@/components/HapticTab";
-import FontAwesome5 from "@expo/vector-icons/FontAwesome5";
-import Entypo from "@expo/vector-icons/Entypo";
-import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { AuthContext } from "@/components/auth/AuthContext";
+import Home_on from "@/assets/Icons/Icons/SVG/home_on.svg";
+import Home_off from "@/assets/Icons/Icons/SVG/home_off.svg";
+import Learn_on from "@/assets/Icons/Icons/SVG/learn_on.svg";
+import Learn_off from "@/assets/Icons/Icons/SVG/learn_off.svg";
+import Rank_on from "@/assets/Icons/Icons/SVG/rank_on.svg";
+import Rank_off from "@/assets/Icons/Icons/SVG/rank_off.svg";
+import Profile_on from "@/assets/Icons/Icons/SVG/profile_on.svg";
+import Profile_off from "@/assets/Icons/Icons/SVG/profile_off.svg";
 
 export default function TabsLayout() {
   const { user } = useContext(AuthContext);
@@ -32,13 +37,8 @@ export default function TabsLayout() {
         options={{
           title: "Inicio",
           tabBarShowLabel: false, // <-- Oculta label
-          tabBarIcon: ({ color, focused }) => (
-            <FontAwesome5
-              name="home"
-              size={24}
-              color={focused ? "orange" : color}
-            />
-          ),
+          tabBarIcon: ({ color, focused }) =>
+            focused ? <Home_on /> : <Home_off />,
         }}
       />
       <Tabs.Screen
@@ -46,9 +46,8 @@ export default function TabsLayout() {
         options={{
           title: "Aprendizaje",
           tabBarShowLabel: false, // <-- Oculta label
-          tabBarIcon: ({ color, focused }) => (
-            <Entypo name="book" size={24} color={focused ? "blue" : color} />
-          ),
+          tabBarIcon: ({ color, focused }) =>
+            focused ? <Learn_on /> : <Learn_off />,
         }}
       />
       <Tabs.Screen
@@ -56,13 +55,8 @@ export default function TabsLayout() {
         options={{
           title: "Ranking",
           tabBarShowLabel: false, // <-- Oculta label
-          tabBarIcon: ({ color, focused }) => (
-            <FontAwesome6
-              name="trophy"
-              size={24}
-              color={focused ? "gold" : color}
-            />
-          ),
+          tabBarIcon: ({ color, focused }) =>
+            focused ? <Rank_on /> : <Rank_off />,
         }}
       />
       <Tabs.Screen
@@ -86,12 +80,10 @@ export default function TabsLayout() {
                     style={styles.avatarImage}
                   />
                 )
+              ) : focused ? (
+                <Profile_on />
               ) : (
-                <FontAwesome6
-                  name="user-large"
-                  size={24}
-                  color={focused ? "brown" : color}
-                />
+                <Profile_off />
               )}
             </View>
           ),

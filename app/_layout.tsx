@@ -50,7 +50,7 @@ export default function RootLayout() {
   return (
     <AuthProvider>
       <ThemeProvider value={DefaultTheme}>
-        <View style={{ backgroundColor: "#e9e9e9", flex: 1 }}>
+        <View style={{ backgroundColor: "#F2EAE1", flex: 1 }}>
           <SafeAreaView
             style={{
               flex: 1,

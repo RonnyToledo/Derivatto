@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1379.04 1075.25">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        font-size: 104.04px;
+      }
+
+      .cls-6 {
+        font-family: RubikItalic-MediumItalic, Rubik;
+        font-style: italic;
+        font-variation-settings: 'wght' 500;
+        font-weight: 500;
+      }
+
+      .cls-6, .cls-7 {
+        fill: #fffdfa;
+      }
+
+      .cls-8 {
+        font-size: 173.4px;
+      }
+
+      .cls-9 {
+        fill: #6b7f20;
+        stroke: #7f480d;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 81.14px;
+      }
+
+      .cls-2 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-3 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.02em;
+      }
+    </style>
+  </defs>
+  <g id="deri_cow_integrals_prop">
+    <rect class="cls-9" x="83.18" y="113.47" width="1212.68" height="848.32" rx="109.52" ry="109.52" transform="translate(91.2 -99.94) rotate(8.87)"/>
+    <text class="cls-6" transform="translate(160.4 592.77) rotate(-6.73)"><tspan class="cls-8" x="0" y="0">∫</tspan><tspan class="cls-1" x="75.77" y="0">u · d</tspan><tspan class="cls-5" x="287.18" y="0">v</tspan><tspan class="cls-4" x="344.19" y="0" xml:space="preserve"> = u ·</tspan><tspan class="cls-2" x="575.47" y="0"> </tspan><tspan class="cls-5" x="596.79" y="0">v</tspan><tspan class="cls-4" x="653.81" y="0" xml:space="preserve"> - </tspan><tspan class="cls-8" x="752.23" y="0">∫</tspan><tspan class="cls-3" x="828" y="0">v</tspan><tspan class="cls-1" x="885.02" y="0" xml:space="preserve"> · du</tspan></text>
+    <rect class="cls-7" x="927.33" y="939.14" width="121.53" height="32.63" rx="13.87" ry="13.87" transform="translate(159.23 -141) rotate(8.87)"/>
+  </g>
+</svg>

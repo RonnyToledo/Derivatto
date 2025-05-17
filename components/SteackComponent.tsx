@@ -7,8 +7,9 @@ import {
   Animated,
   useWindowDimensions,
 } from "react-native";
-import { Flame, Calendar, Trophy, Award } from "lucide-react-native";
+import { Calendar, Award } from "lucide-react-native";
 import ConfettiCannon from "react-native-confetti-cannon";
+import Fire from "@/assets/Icons/Icons/SVG/fire.svg";
 
 interface StreakAnimationProps {
   previousStreak: number;
@@ -109,7 +110,7 @@ export default function StreakAnimation({
         ]}
       >
         <View style={styles.flameCircle}>
-          <Flame size={80} color="#FBBF24" />
+          <Fire width={60} />
         </View>
         <Animated.View
           style={[
@@ -195,7 +196,6 @@ export default function StreakAnimation({
         ]}
       >
         <TouchableOpacity style={styles.button} onPress={onComplete}>
-          <Trophy size={20} color="#DB2777" />
           <Text style={styles.buttonText}>Continuar</Text>
         </TouchableOpacity>
       </Animated.View>
@@ -216,7 +216,7 @@ export default function StreakAnimation({
 const styles = StyleSheet.create({
   overlay: {
     ...StyleSheet.absoluteFillObject,
-    backgroundColor: "rgba(219, 39, 119, 0.9)",
+    backgroundColor: "#FF981C",
     alignItems: "center",
     justifyContent: "center",
     padding: 20,
@@ -227,7 +227,7 @@ const styles = StyleSheet.create({
     width: 128,
     height: 128,
     borderRadius: 64,
-    backgroundColor: "rgba(252, 211, 77, 0.3)",
+    backgroundColor: "#FFB580",
     alignItems: "center",
     justifyContent: "center",
   },
@@ -238,7 +238,7 @@ const styles = StyleSheet.create({
     width: 48,
     height: 48,
     borderRadius: 24,
-    backgroundColor: "#DB2777",
+    backgroundColor: "#FF981C",
     alignItems: "center",
     justifyContent: "center",
     borderWidth: 2,
@@ -257,8 +257,8 @@ const styles = StyleSheet.create({
     shadowRadius: 4,
     elevation: 5,
   },
-  counterText: { fontSize: 48, fontWeight: "bold", color: "#DB2777" },
-  incrementText: { marginLeft: 8, fontSize: 24, color: "#4ADE80" },
+  counterText: { fontSize: 48, fontWeight: "bold", color: "#FF981C" },
+  incrementText: { marginLeft: 8, fontSize: 24, color: "#BAE639" },
   subtitle: { marginTop: 8, fontSize: 18, color: "rgba(255,255,255,0.9)" },
   messageContainer: { marginTop: 32, alignItems: "center" },
   title: { fontSize: 24, fontWeight: "bold", color: "#FFFFFF" },
@@ -285,7 +285,7 @@ const styles = StyleSheet.create({
     marginLeft: 8,
     fontSize: 16,
     fontWeight: "bold",
-    color: "#DB2777",
+    color: "#5F2641",
   },
   badgeContainer: {
     position: "absolute",

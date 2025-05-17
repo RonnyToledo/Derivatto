@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     padding: 12,
     borderWidth: 1,
-    borderRadius: 8,
+    borderRadius: 12,
     marginVertical: 4,
     width: "100%",
   },
@@ -112,7 +112,7 @@ const styles = StyleSheet.create({
   },
   letterText: {
     fontSize: 16,
-    fontWeight: "500",
+    fontWeight: "700",
   },
   optionContent: {
     flex: 1,

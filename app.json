@@ -4,20 +4,26 @@
     "slug": "derivatto-v2",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "description": "Aprende matemáticas paso a paso con ejercicios interactivos.",
+    "icon": "./assets/Icons/Avatars/PNG/avatar_square_round.png",
     "scheme": "derivatto",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.ronnytoledo87.derivatto",
+      "icon": "./assets/Icons/Avatars/PNG/avatar_square_round.png",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
       }
     },
     "android": {
+      "icon": "./assets/Icons/Avatars/PNG/avatar_square_round.png",
+      "jsEngine": "hermes",
+      "enableProguardInReleaseBuilds": true,
+      "proguardConfig": "proguard-rules.pro",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/Icons/Avatars/PNG/avatar_square_round.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.ronnytoledo87.derivatto"
@@ -25,14 +31,18 @@
     "web": {
       "output": "static",
       "bundler": "metro",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/Icons/Avatars/PNG/avatar_rounded.png",
+      "title": "Derivatto",
+      "description": "Aprende matemáticas paso a paso con ejercicios interactivos.",
+      "themeColor": "#3366FF",
+      "backgroundColor": "#ffffff"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "./assets/Icons/Avatars/PNG/avatar_square_round.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
@@ -50,8 +60,11 @@
         "projectId": "1f5b8234-5a92-483e-9689-3747c446bea6"
       }
     },
-    "notification": {
-      "vapidPublicKey": "BFssRbES0g-8N1tWUAMeEtHMecyIYlZDBAhr5bnHAyp6rsBI88TFmX3W13ki15MfNGl_h_IX__yY27UyXClMQeg"
-    }
+    "splash": {
+      "image": "./assets/Icons/Avatars/PNG/avatar_square_round.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["assets/Icons/Icons/SVG/*"]
   }
 }

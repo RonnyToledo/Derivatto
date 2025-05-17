@@ -8,6 +8,7 @@ import {
   Image,
   ActivityIndicator,
   StyleSheet,
+  useWindowDimensions,
 } from "react-native";
 import { Search, UserPlus, UserCheck, X } from "lucide-react-native";
 import { useRouter } from "expo-router";
@@ -125,6 +126,7 @@ export default function FriendSearchDialog({
       title="Amistades"
       onOpenChange={() => onOpenChange(false)}
       open={open}
+      style={{ height: useWindowDimensions().height / 2 }}
     >
       {/* Header */}
       <Text style={styles.title}>Buscar amigos</Text>
@@ -151,7 +153,7 @@ export default function FriendSearchDialog({
       <View style={styles.resultsContainer}>
         {isSearching ? (
           <View style={styles.loadingContainer}>
-            <ActivityIndicator size="large" color="#ff4081" />
+            <ActivityIndicator size="large" color="#FF981C" />
           </View>
         ) : searchResults.length > 0 ? (
           <FlatList
@@ -329,7 +331,7 @@ const styles = StyleSheet.create({
     fontSize: 20,
     fontWeight: "bold",
     textAlign: "center",
-    color: "#ff4081",
+    color: "#FF981C",
   },
   subtitle: {
     textAlign: "center",
@@ -351,7 +353,7 @@ const styles = StyleSheet.create({
     paddingVertical: 8,
   },
   searchButton: {
-    backgroundColor: "#ff4081",
+    backgroundColor: "#FF981C",
     paddingVertical: 8,
     paddingHorizontal: 15,
     borderRadius: 8,
@@ -396,7 +398,7 @@ const styles = StyleSheet.create({
   },
   addButton: {
     flexDirection: "row",
-    backgroundColor: "#ff4081",
+    backgroundColor: "#FF981C",
     padding: 8,
     borderRadius: 5,
     alignItems: "center",

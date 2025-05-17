@@ -160,7 +160,7 @@ const UserProfilePage = () => {
   if (isLoading) {
     return (
       <View style={styles.centered}>
-        <ActivityIndicator size="large" color="#ec4899" />
+        <ActivityIndicator size="large" color="#FF981C" />
         <Text style={styles.loadingText}>Cargando perfil...</Text>
       </View>
     );
@@ -175,7 +175,7 @@ const UserProfilePage = () => {
           No pudimos encontrar el perfil que estás buscando.
         </Text>
         <TouchableOpacity
-          style={[styles.button, { backgroundColor: "#ec4899" }]}
+          style={[styles.button, { backgroundColor: "#FF981C" }]}
           onPress={handleGoBack}
         >
           <ArrowLeft size={16} color="#fff" />
@@ -224,7 +224,7 @@ const UserProfilePage = () => {
             <View style={styles.actionButtonContainer}>
               {userData.status === "nada" && (
                 <TouchableOpacity
-                  style={[styles.actionButton, { backgroundColor: "#ec4899" }]}
+                  style={[styles.actionButton, { backgroundColor: "#FF981C" }]}
                   onPress={async () => {
                     setLoading(true);
                     const value = await NewSolicitud(
@@ -264,7 +264,7 @@ const UserProfilePage = () => {
 
               {userData.status === "pendiente_rec" && (
                 <TouchableOpacity
-                  style={[styles.actionButton, { backgroundColor: "#ec4899" }]}
+                  style={[styles.actionButton, { backgroundColor: "#FF981C" }]}
                   onPress={async () => {
                     setLoading(true);
                     const value = await SolicitudChange(
@@ -287,7 +287,7 @@ const UserProfilePage = () => {
 
               {userData.status === "aceptada" && (
                 <TouchableOpacity
-                  style={[styles.actionButton, { backgroundColor: "#ec4899" }]}
+                  style={[styles.actionButton, { backgroundColor: "#FF981C" }]}
                   onPress={async () => {
                     setLoading(true);
                     await DeleteSolicitud(userData.idAmistad as string);
@@ -323,7 +323,7 @@ const UserProfilePage = () => {
                 getLevelInfo(user?.puntuation ?? 0).nextLevelScore
               }
               width={null}
-              color="#ec4899"
+              color="#FF981C"
               borderWidth={0}
               height={6}
               style={styles.progressBar}
@@ -348,7 +348,7 @@ const UserProfilePage = () => {
         </View>
       </View>
 
-      {/* Tabs */}
+      {/* Tabs 
       <View style={styles.tabsContainer}>
         <View style={styles.tabsHeader}>
           <TouchableOpacity
@@ -399,7 +399,7 @@ const UserProfilePage = () => {
             </View>
           )}
         </View>
-      </View>
+      </View>*/}
     </ScrollViewReload>
   );
 };
@@ -440,7 +440,7 @@ const styles = StyleSheet.create({
   },
   buttonText: { color: "#fff", marginLeft: 8 },
   header: {
-    backgroundColor: "#ec4899",
+    backgroundColor: "#FF981C",
     padding: 16,
     flexDirection: "row",
     justifyContent: "space-between",
@@ -454,7 +454,7 @@ const styles = StyleSheet.create({
   },
   profileCardBackground: {
     height: 80,
-    backgroundColor: "#ec4899",
+    backgroundColor: "#FF981C",
   },
   profileCard: {
     backgroundColor: "#fff",
@@ -510,9 +510,9 @@ const styles = StyleSheet.create({
     paddingVertical: 8,
     borderRadius: 6,
     borderWidth: 1,
-    borderColor: "#ec4899",
+    borderColor: "#FF981C",
   },
-  outlineButtonText: { color: "#ec4899", marginLeft: 4 },
+  outlineButtonText: { color: "#FF981C", marginLeft: 4 },
   progressContainer: { marginTop: 16 },
   progressHeader: {
     flexDirection: "row",
@@ -550,7 +550,7 @@ const styles = StyleSheet.create({
   tabButton: { flex: 1, padding: 12, alignItems: "center" },
   activeTab: { backgroundColor: "#fde7f2" },
   tabText: { fontSize: 14, color: "#1f2937" },
-  activeTabText: { color: "#ec4899", fontWeight: "bold" },
+  activeTabText: { color: "#FF981C", fontWeight: "bold" },
   tabContent: { padding: 16 },
   achievementsGrid: {
     flexDirection: "row",

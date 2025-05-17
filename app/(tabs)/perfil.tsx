@@ -12,7 +12,6 @@ import * as ImagePicker from "expo-image-picker";
 import AntDesign from "@expo/vector-icons/AntDesign";
 import * as Progress from "react-native-progress";
 import FriendSearchDialog from "@/components/friend-search-dialog";
-import AchievementCard from "@/components/AchievementCard";
 import { AuthContext, UserProfile } from "@/components/auth/AuthContext";
 import { getLevelInfo } from "@/functions/getLevelInfo";
 import { supabase } from "@/libs/supabase";
@@ -93,18 +92,20 @@ export default function ProfilePage() {
               disabled={uploading}
             >
               <Image
-                source={{
-                  uri:
-                    user?.image ||
-                    "https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_640.png",
-                }}
+                source={
+                  user?.image
+                    ? {
+                        uri: user?.image,
+                      }
+                    : require("@/assets/Icons/Icons/PNG/user.png")
+                }
                 style={styles.avatarImage}
               />
               {uploading && (
                 <ActivityIndicator
                   style={StyleSheet.absoluteFill}
                   size="small"
-                  color="#EC4899"
+                  color="#FF981C"
                 />
               )}
               <View style={styles.avatarLevelBadge}>
@@ -150,8 +151,8 @@ export default function ProfilePage() {
               <Progress.Bar
                 progress={(user?.puntuation ?? 0) / lvlInfo.nextLevelScore}
                 width={null}
-                color="#FF00FF"
-                unfilledColor="#f3f3f3"
+                color="#FF981C"
+                unfilledColor="#F2EAE1"
                 borderWidth={0}
                 height={8}
                 style={{ borderRadius: 4 }}
@@ -176,7 +177,7 @@ export default function ProfilePage() {
           </View>
         </View>
 
-        {/* Logros */}
+        {/* Logros 
         <View>
           <Text style={styles.sectionTitle}>Logros</Text>
           <View style={styles.achievementsGrid}>
@@ -193,7 +194,7 @@ export default function ProfilePage() {
               progress={80}
             />
           </View>
-        </View>
+        </View>*/}
 
         <View style={styles.headingContent}>
           <Text style={styles.heading}>Solicitudes de amistad</Text>
@@ -207,7 +208,7 @@ export default function ProfilePage() {
             onPress={handleSignOut}
             disabled={loadingDelete}
           >
-            <AntDesign name="logout" color="#EF4444" size={20} />
+            <AntDesign name="logout" color="#FF981C" size={20} />
             <Text style={styles.logoutButtonText}> Cerrar Sesión</Text>
           </TouchableOpacity>
         </View>
@@ -232,10 +233,10 @@ export const formatFecha = (isoString: string): string => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "#F2EAE1",
   },
   header: {
-    backgroundColor: "#EC4899",
+    backgroundColor: "#FF981C",
     paddingHorizontal: 16,
     paddingVertical: 12,
     flexDirection: "row",
@@ -265,7 +266,7 @@ const styles = StyleSheet.create({
   },
   profileCardBackground: {
     height: 80,
-    backgroundColor: "#EC4899",
+    backgroundColor: "#FF981C",
   },
   profileCard: {
     backgroundColor: "#fff",
@@ -298,7 +299,7 @@ const styles = StyleSheet.create({
     width: 24,
     height: 24,
     borderRadius: 12,
-    backgroundColor: "#3B82F6",
+    backgroundColor: "#FF981C",
     borderWidth: 2,
     borderColor: "#fff",
     alignItems: "center",
@@ -328,7 +329,7 @@ const styles = StyleSheet.create({
   addFriendButton: {
     display: "flex",
     justifyContent: "center",
-    backgroundColor: "#EC4899",
+    backgroundColor: "#FF981C",
     flexDirection: "row",
     alignItems: "center",
     paddingVertical: 6,

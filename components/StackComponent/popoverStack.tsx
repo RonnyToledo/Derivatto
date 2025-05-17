@@ -1,6 +1,11 @@
 import Popover from "react-native-popover-view";
 import React from "react";
-import { TouchableOpacity, useWindowDimensions, View } from "react-native";
+import {
+  TouchableOpacity,
+  useWindowDimensions,
+  Text,
+  View,
+} from "react-native";
 import { X } from "lucide-react-native";
 
 interface PopoverStackProps {
@@ -8,6 +13,7 @@ interface PopoverStackProps {
   isVisible: boolean;
   onRequestClose: () => void;
   ref: React.RefObject<any>;
+  title?: string;
 }
 
 export default function PopoverStack({
@@ -15,6 +21,7 @@ export default function PopoverStack({
   isVisible,
   onRequestClose,
   ref,
+  title = "",
 }: PopoverStackProps) {
   return (
     <Popover
@@ -28,12 +35,19 @@ export default function PopoverStack({
         paddingHorizontal: 15,
       }}
     >
-      <TouchableOpacity
-        onPress={onRequestClose}
-        style={{ height: 40, width: "100%", alignItems: "flex-end" }}
+      <View
+        style={{
+          flexDirection: "row",
+          alignItems: "center",
+          justifyContent: "space-between",
+          marginBottom: 20,
+        }}
       >
-        <X />
-      </TouchableOpacity>
+        <Text style={{ fontSize: 25, paddingHorizontal: 10 }}>{title}</Text>
+        <TouchableOpacity onPress={onRequestClose} style={{ height: 40 }}>
+          <X />
+        </TouchableOpacity>
+      </View>
       {children}
     </Popover>
   );

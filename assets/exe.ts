@@ -9,44 +9,16 @@ interface Category {
 }
 // Paleta con 10 colores bastante diferentes entre sí
 const palette = [
-  "#3CB371", // MediumSeaGreen
-  "#6495ED", // CornflowerBlue
-  "#DA70D6", // Orchid
-  "#FFD700", // Gold
-  "#CD5C5C", // IndianRed
-  "#FF8C00", // DarkOrange
-  "#008B8B", // DarkCyan
-  "#B8860B", // DarkGoldenRod
-  "#C71585", // MediumVioletRed
-  "#7B68EE", // MediumSlateBlue
+  "#ff694e", // MediumSeaGreen
+  "#bae639", // CornflowerBlue
+  "#d9a66c", // Gold
+  "#bf7315", // Orchid
+  "#993d68", // IndianRed
 ];
-
-// Conjunto para llevar registro de los colores ya asignados.
-const usedColors = new Set<string>();
 
 // ---------------------
 // Funciones auxiliares
 // ---------------------
-
-// Función para obtener un color único basado en el nombre del grupo.
-function getUniqueColor(groupName: string): string {
-  // Calcula un hash básico a partir del nombre para tener un índice inicial.
-  const hash = groupName
-    .split("")
-    .reduce((acc, char) => acc + char.charCodeAt(0), 0);
-  let colorIndex = hash % palette.length;
-  let attempts = 0;
-
-  // Si el color ya fue asignado, recorre la paleta para buscar el siguiente no utilizado.
-  while (usedColors.has(palette[colorIndex]) && attempts < palette.length) {
-    colorIndex = (colorIndex + 1) % palette.length;
-    attempts++;
-  }
-
-  const selectedColor = palette[colorIndex];
-  usedColors.add(selectedColor);
-  return selectedColor;
-}
 
 // Mezcla aleatoriamente un array (algoritmo Fisher-Yates)
 function shuffleArray<T>(array: T[]): T[] {
@@ -150,7 +122,7 @@ const groupedCategories: Category[] = tipos.map((tipo, index) => {
     );
 
   // Se asigna un color único basado en el nombre del grupo.
-  const color = getUniqueColor(tipo);
+  const color = palette[index];
 
   return {
     id: index,

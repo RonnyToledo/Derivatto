@@ -7,11 +7,12 @@ import {
   StyleSheet,
 } from "react-native";
 import Svg, { Path } from "react-native-svg";
-import FontAwesome from "@expo/vector-icons/FontAwesome";
-import { Heart, ThermometerSnowflake } from "lucide-react-native";
 import { AuthContext } from "../auth/AuthContext";
-import { Flame } from "lucide-react-native";
 import { startMinuteCountdown } from "@/functions/startMinuteCountdown";
+import Streak_freeze from "@/assets/Icons/Icons/SVG/streak_freeze.svg";
+import Heart from "@/assets/Icons/Icons/SVG/heart.svg";
+import Heart_empty from "@/assets/Icons/Icons/SVG/heart_empty.svg";
+import Emerald from "@/assets/Icons/Icons/SVG/emerald.svg";
 
 export function LifeComponent({ onRequest }: { onRequest: () => void }) {
   const { user } = useContext(AuthContext);
@@ -28,18 +29,16 @@ export function LifeComponent({ onRequest }: { onRequest: () => void }) {
 
   return (
     <Animated.View style={[styles.container]}>
-      <Text style={styles.title}>Vidas</Text>
-
       <View style={styles.heartsRow}>
-        {Array.from({ length: 5 }).map((_, i) => (
-          <FontAwesome
-            key={i}
-            name="heart"
-            size={28}
-            color={i + 1 <= (user?.vidas || 0) ? "#FF4B4B" : "#A0A0A0"}
-            style={{ marginHorizontal: 4 }}
-          />
-        ))}
+        {Array.from({ length: 5 }).map((_, i) =>
+          i + 1 <= (user?.vidas || 0) ? (
+            <Heart style={{ marginHorizontal: 4, width: 40, height: 40 }} />
+          ) : (
+            <Heart_empty
+              style={{ marginHorizontal: 4, width: 40, height: 40 }}
+            />
+          )
+        )}
       </View>
 
       <Text style={styles.fullText}>
@@ -103,11 +102,9 @@ export function LifeComponent({ onRequest }: { onRequest: () => void }) {
         {/* RECUPERA TUS VIDAS */}
         <TouchableOpacity style={styles.optionButton} onPress={onRequest}>
           <View style={styles.optionLeft}>
-            <FontAwesome
-              name="heart"
-              size={24}
+            <Heart
               color="#FF4B4B"
-              style={{ marginRight: 8 }}
+              style={{ marginRight: 8, width: 40, height: 40 }}
             />
             <Text style={styles.optionTextBold}>RECUPERA TUS VIDAS</Text>
           </View>
@@ -143,7 +140,7 @@ export const Shop: React.FC = () => {
         {/* Opción: Recupera tus vidas */}
         <View style={styles.item}>
           <View style={styles.iconContainer}>
-            <Heart color={"red"} fill={"red"} size={50} />
+            <Heart style={{ padding: 5 }} width={40} height={40} />
           </View>
           <View style={styles.itemText}>
             <Text style={styles.itemTitle}>Recupera tus vidas</Text>
@@ -174,22 +171,22 @@ export const Shop: React.FC = () => {
               setLoading(false);
             }}
           >
-            <GemsCard />
+            <Emerald style={styles.gems} />
             <Text style={styles.priceText}>200</Text>
           </TouchableOpacity>
         </View>
         <View style={styles.item}>
-          <View style={styles.iconContainer}>
-            <Heart color={"red"} fill={"red"} size={50} />
+          <View style={[styles.iconContainer, { flex: 1 }]}>
+            <Heart style={{ padding: 5 }} width={40} height={40} />
           </View>
-          <View style={styles.itemText}>
+          <View style={[styles.itemText, { flex: 3 }]}>
             <Text style={styles.itemTitle}>Recupera 1 vida</Text>
             <Text style={styles.itemDescription}>
               Recarga de vida mas economica para que puedas seguir aprendiendo.
             </Text>
           </View>
           <TouchableOpacity
-            style={styles.buttonWithIcon}
+            style={[styles.buttonWithIcon, { flex: 1 }]}
             disabled={loading || user?.vidas === 5}
             onPress={async () => {
               setLoading(true);
@@ -210,7 +207,7 @@ export const Shop: React.FC = () => {
               setLoading(false);
             }}
           >
-            <GemsCard />
+            <Emerald style={styles.gems} />
 
             <Text style={styles.priceText}>50</Text>
           </TouchableOpacity>
@@ -264,10 +261,10 @@ export const Shop: React.FC = () => {
         <Text style={[styles.title, { marginTop: 32 }]}>Potenciadores</Text>
 
         <View style={styles.item}>
-          <View style={styles.iconContainer}>
-            <ThermometerSnowflake />
+          <View style={[styles.iconContainer, { flex: 1 }]}>
+            <Streak_freeze width={50} height={50} />
           </View>
-          <View style={styles.itemText}>
+          <View style={[styles.itemText, { flex: 3 }]}>
             <View style={styles.tag}>
               <Text style={styles.tagText}>
                 {user?.proteccion || 0}/2 EQUIPADO
@@ -279,7 +276,7 @@ export const Shop: React.FC = () => {
             </Text>
           </View>
           <TouchableOpacity
-            style={styles.buttonWithIcon}
+            style={[styles.buttonWithIcon, { flex: 1 }]}
             disabled={loading || (user?.proteccion || 0) >= 2}
             onPress={async () => {
               setLoading(true);
@@ -298,7 +295,7 @@ export const Shop: React.FC = () => {
               setLoading(false);
             }}
           >
-            <GemsCard />
+            <Emerald style={styles.gems} />
             <Text style={styles.priceText}>250</Text>
           </TouchableOpacity>
         </View>
@@ -308,7 +305,6 @@ export const Shop: React.FC = () => {
 };
 
 interface StreakCardProps {
-  title: string;
   streakDays: number;
   protectores: number;
 }
@@ -328,20 +324,11 @@ export const DropletIcon = () => (
 );
 
 export const StreakCard: React.FC<StreakCardProps> = ({
-  title,
   streakDays,
   protectores,
 }) => {
   return (
     <View style={styles.card}>
-      {/* Header */}
-      <View style={styles.header}>
-        <View style={styles.headerBadge}>
-          <Text style={styles.headerBadgeText}>{title}</Text>
-        </View>
-        <View style={styles.iconContainer}></View>
-      </View>
-
       {/* Streak count */}
       <View style={styles.streakSection}>
         <Text
@@ -366,7 +353,7 @@ export const StreakCard: React.FC<StreakCardProps> = ({
         >
           <View style={[styles.friendsIconWrapper, { flex: 2 }]}>
             <View style={styles.flameCircle}>
-              <Flame />
+              <Streak_freeze />
             </View>
           </View>
           <View style={[styles.friendsInfo, { flex: 7 }]}>
@@ -383,21 +370,6 @@ export const StreakCard: React.FC<StreakCardProps> = ({
   );
 };
 
-const GemsCard = () => {
-  return (
-    <Svg
-      style={{ marginHorizontal: 4 }}
-      width={16}
-      height={16}
-      viewBox="0 0 24 24"
-    >
-      <Path
-        d="M12 2L4 5v6.09c0 5.05 3.41 9.76 8 10.91 4.59-1.15 8-5.86 8-10.91V5l-8-3z"
-        fill="#58CCF2"
-      />
-    </Svg>
-  );
-};
 const styles = StyleSheet.create({
   progress: {
     backgroundColor: "#ffccd5",
@@ -415,8 +387,6 @@ const styles = StyleSheet.create({
     padding: 16,
   },
   headerBadge: {
-    borderColor: "#2d4552",
-    borderWidth: 1,
     borderRadius: 12,
     padding: 8,
   },
@@ -428,7 +398,12 @@ const styles = StyleSheet.create({
     lineHeight: 16,
   },
   iconContainer: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    height: 80,
     opacity: 0.7,
+    padding: "auto",
   },
   streakSection: {
     paddingHorizontal: 20,
@@ -436,7 +411,7 @@ const styles = StyleSheet.create({
   },
   streakTextGray: {
     fontSize: 20,
-    color: "#888",
+    color: "#FF981C",
     fontWeight: "500",
   },
   streakTextWhite: {
@@ -444,6 +419,11 @@ const styles = StyleSheet.create({
     fontSize: 16,
 
     fontWeight: "500",
+  },
+  gems: {
+    width: 15,
+    height: 15,
+    paddingHorizontal: 7,
   },
   weeklySection: {
     paddingHorizontal: 20,
@@ -494,14 +474,12 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
   },
   friendsSection: {
-    backgroundColor: "#47bfdd",
+    backgroundColor: "#A7EEFF",
     padding: 20,
     borderTopLeftRadius: 16,
     borderTopRightRadius: 16,
   },
-  friendsHeader: {
-    marginBottom: 16,
-  },
+  friendsHeader: {},
   friendsInfo: {
     alignItems: "flex-start",
     justifyContent: "center",
@@ -511,10 +489,8 @@ const styles = StyleSheet.create({
     marginRight: 12,
   },
   flameCircle: {
-    width: 40,
-    height: 40,
+    height: 80,
     borderRadius: 20,
-    backgroundColor: "#4194f3",
     justifyContent: "center",
     alignItems: "center",
   },
@@ -531,12 +507,13 @@ const styles = StyleSheet.create({
   },
   friendsTitle: {
     fontSize: 16,
-
+    color: "#45B4CE",
     fontWeight: "bold",
   },
   friendsSubtitle: {
     fontSize: 12,
 
+    color: "#45B4CE",
     marginTop: 4,
   },
   friendsButton: {
@@ -558,11 +535,8 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     marginBottom: 24,
-    borderBottomWidth: 1,
-    borderBottomColor: "#EC4899",
-    paddingBottom: 24,
   },
-  itemText: { flex: 1 },
+  itemText: { flex: 1, padding: 5 },
   itemTitle: { fontWeight: "bold", fontSize: 16 },
   itemDescription: { fontSize: 12, color: "#686868" },
   buttonFilled: {
@@ -580,24 +554,27 @@ const styles = StyleSheet.create({
   },
   buttonOutlineText: { color: "#9747FF", fontSize: 12 },
   tag: {
-    backgroundColor: "#EC4899",
+    backgroundColor: "#A7EEFF",
     paddingHorizontal: 8,
     paddingVertical: 4,
-    borderRadius: 4,
+    borderRadius: 8,
     alignSelf: "flex-start",
     marginBottom: 4,
   },
   tagText: { fontSize: 10 },
   buttonWithIcon: {
+    margin: 10,
+    display: "flex",
     flexDirection: "row",
     alignItems: "center",
-    backgroundColor: "#832755",
+    backgroundColor: "#FFB580",
     paddingHorizontal: 16,
     paddingVertical: 8,
-    borderRadius: 8,
+    borderRadius: 12,
+    justifyContent: "center",
   },
   buttonWithIconText: { fontSize: 12 },
-  priceText: { color: "#58CCF2", fontWeight: "bold" },
+  priceText: { color: "#87A629", fontWeight: "bold" },
 
   popoverWrapper: {
     borderRadius: 12,
@@ -625,11 +602,11 @@ const styles = StyleSheet.create({
     marginTop: 8,
   },
   optionButton: {
+    flex: 1,
     flexDirection: "row",
-    justifyContent: "space-between",
+    justifyContent: "center",
     alignItems: "center",
-    borderColor: "#444",
-    borderWidth: 1,
+    backgroundColor: "#FFEEE9",
     borderRadius: 8,
     padding: 12,
     marginBottom: 8,

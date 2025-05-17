@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 177.18 182.57">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #ff981c;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 20px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="achievement_victory">
+      <path class="cls-1" d="M48.7,10h79.78c4.21,0,7.63,3.42,7.63,7.63v64.27c0,25.07-20.36,45.43-45.43,45.43h-4.18c-25.07,0-45.43-20.36-45.43-45.43V17.63c0-4.21,3.42-7.63,7.63-7.63Z"/>
+      <path class="cls-1" d="M41.07,88.81c-17.16,0-31.07-13.91-31.07-31.07s13.91-31.07,31.07-31.07"/>
+      <path class="cls-1" d="M136.11,26.67c17.16,0,31.07,13.91,31.07,31.07s-13.91,31.07-31.07,31.07"/>
+      <line class="cls-1" x1="88.59" y1="127.33" x2="88.59" y2="172.57"/>
+      <line class="cls-1" x1="58.77" y1="172.57" x2="118.41" y2="172.57"/>
+    </g>
+  </g>
+</svg>

@@ -1,10 +1,13 @@
 import { View, Text, TouchableOpacity } from "react-native";
 import React, { useContext, useState, useRef } from "react";
-import { Flame, Gem, Heart } from "lucide-react-native";
 import { AuthContext } from "@/components/auth/AuthContext";
 import { StyleSheet } from "react-native";
 import PopoverStack from "./popoverStack";
 import { LifeComponent, Shop, StreakCard } from "./componentsUp";
+import Emerald from "@/assets/Icons/Icons/SVG/emerald.svg";
+import Fire from "@/assets/Icons/Icons/SVG/fire.svg";
+import Fire_off from "@/assets/Icons/Icons/SVG/fire_off.svg";
+import Heart from "@/assets/Icons/Icons/SVG/heart.svg";
 
 export default function StackComponent() {
   const { user } = useContext(AuthContext);
@@ -20,11 +23,19 @@ export default function StackComponent() {
         style={styles.headerItem}
         ref={buttonRacha}
       >
-        <Flame color="red" size={24} fill="orange" style={styles.headerIcon} />
+        {isToday(user?.last_lesson || "") ? (
+          <Fire style={styles.headerIcon} width={24} />
+        ) : (
+          <Fire_off style={styles.headerIcon} width={24} />
+        )}
         <Text
           style={[
             styles.headerText,
-            { fontSize: 20, color: "red", fontWeight: "500" },
+            {
+              fontSize: 20,
+              color: isToday(user?.last_lesson || "") ? "red" : "gray",
+              fontWeight: "500",
+            },
           ]}
         >
           {user?.racha || 0}
@@ -35,16 +46,11 @@ export default function StackComponent() {
         onPress={() => setPopover("gemas")}
         style={styles.headerItem}
       >
-        <Gem
-          size={24}
-          fill="#1daff6"
-          color="#10879c"
-          style={styles.headerIcon}
-        />
+        <Emerald style={styles.headerIcon} />
         <Text
           style={[
             styles.headerText,
-            { fontSize: 20, color: "#1daff6", fontWeight: "500" },
+            { fontSize: 20, color: "#BFCC46", fontWeight: "500" },
           ]}
         >
           {user?.gemas || 0}
@@ -55,7 +61,7 @@ export default function StackComponent() {
         onPress={() => setPopover("vidas")}
         style={styles.headerItem}
       >
-        <Heart size={24} fill="red" color="brown" style={styles.headerIcon} />
+        <Heart style={styles.headerIcon} />
         <Text
           style={[
             styles.headerText,
@@ -70,9 +76,9 @@ export default function StackComponent() {
         isVisible={popover === "racha"}
         ref={buttonRacha}
         onRequestClose={() => setPopover("")}
+        title="Racha"
       >
         <StreakCard
-          title="Racha"
           streakDays={user?.racha || 0}
           protectores={user?.proteccion || 0}
         />
@@ -81,6 +87,7 @@ export default function StackComponent() {
         isVisible={popover === "gemas"}
         ref={buttonGems}
         onRequestClose={() => setPopover("")}
+        title="Tienda"
       >
         <Shop />
       </PopoverStack>
@@ -88,6 +95,7 @@ export default function StackComponent() {
         isVisible={popover === "vidas"}
         ref={buttonLifes}
         onRequestClose={() => setPopover("")}
+        title="Vidas"
       >
         <LifeComponent
           onRequest={async () => {
@@ -98,6 +106,20 @@ export default function StackComponent() {
         />
       </PopoverStack>
     </View>
+  );
+}
+export function isToday(dateString: string): boolean {
+  const date = new Date(dateString);
+  if (isNaN(date.getTime())) {
+    // Fecha inválida
+    return false;
+  }
+
+  const today = new Date();
+  return (
+    date.getFullYear() === today.getFullYear() &&
+    date.getMonth() === today.getMonth() &&
+    date.getDate() === today.getDate()
   );
 }
 
@@ -114,6 +136,8 @@ const styles = StyleSheet.create({
   },
   headerIcon: {
     marginRight: 8,
+    width: 24,
+    height: 24,
   },
   headerText: {
     fontSize: 16,

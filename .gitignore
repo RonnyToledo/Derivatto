@@ -41,3 +41,4 @@ yarn-error.*
 app-example
 
 .vercel
+node_modules

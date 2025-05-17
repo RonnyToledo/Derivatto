@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 197.06 183.2">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #ff981c;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 20px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="achievement_friends">
+      <g id="user">
+        <path class="cls-1" d="M136.2,173.2c6.45,0,11.43-5.8,10.31-12.16-5.75-32.44-34.08-57.08-68.17-57.08s-62.43,24.64-68.17,57.08c-1.13,6.35,3.86,12.16,10.31,12.16h115.73Z"/>
+        <circle class="cls-1" cx="78.33" cy="49.55" r="39.55"/>
+      </g>
+      <line class="cls-1" x1="153.07" y1="56.59" x2="153.07" y2="124.58"/>
+      <line class="cls-1" x1="119.08" y1="90.58" x2="187.06" y2="90.58"/>
+    </g>
+  </g>
+</svg>

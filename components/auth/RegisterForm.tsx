@@ -5,9 +5,14 @@ import {
   TextInput,
   TouchableOpacity,
   ActivityIndicator,
-  StyleSheet,
 } from "react-native";
-import Ionicons from "@expo/vector-icons/Ionicons";
+import { stylesLogin } from "./LoginForm";
+import Email from "@/assets/Icons/Icons/SVG/email.svg";
+import Password from "@/assets/Icons/Icons/SVG/password.svg";
+import Password_hide from "@/assets/Icons/Icons/SVG/password_hide.svg";
+import Password_show from "@/assets/Icons/Icons/SVG/password_show.svg";
+import Forward from "@/assets/Icons/Icons/SVG/forward.svg";
+import Username from "@/assets/Icons/Icons/SVG/username.svg";
 
 type Props = {
   name: string;
@@ -39,15 +44,10 @@ export default function RegisterForm({
 }: Props) {
   return (
     <View style={{ marginBottom: 20 }}>
-      <View style={styles.inputContainer}>
-        <Ionicons
-          name="person-outline"
-          size={20}
-          color="#888"
-          style={styles.inputIcon}
-        />
+      <View style={stylesLogin.inputContainer}>
+        <Username color="#5F2641" style={stylesLogin.inputIcon} />
         <TextInput
-          style={styles.input}
+          style={stylesLogin.input}
           placeholder="Nombre completo"
           value={name}
           onChangeText={onNameChange}
@@ -55,15 +55,10 @@ export default function RegisterForm({
         />
       </View>
 
-      <View style={styles.inputContainer}>
-        <Ionicons
-          name="mail-outline"
-          size={20}
-          color="#888"
-          style={styles.inputIcon}
-        />
+      <View style={stylesLogin.inputContainer}>
+        <Email color="#5F2641" style={stylesLogin.inputIcon} />
         <TextInput
-          style={styles.input}
+          style={stylesLogin.input}
           placeholder="Correo electrónico"
           keyboardType="email-address"
           value={email}
@@ -72,15 +67,10 @@ export default function RegisterForm({
         />
       </View>
 
-      <View style={styles.inputContainer}>
-        <Ionicons
-          name="lock-closed-outline"
-          size={20}
-          color="#888"
-          style={styles.inputIcon}
-        />
+      <View style={stylesLogin.inputContainer}>
+        <Password color="#5F2641" style={stylesLogin.inputIcon} />
         <TextInput
-          style={styles.input}
+          style={stylesLogin.input}
           placeholder="Contraseña"
           secureTextEntry={!showPassword}
           value={password}
@@ -88,101 +78,42 @@ export default function RegisterForm({
           editable={!isLoading}
         />
         <TouchableOpacity
-          style={styles.showPasswordButton}
+          style={stylesLogin.showPasswordButton}
           onPress={() => onTogglePassword(!showPassword)}
           disabled={isLoading}
         >
-          <Ionicons
-            name={showPassword ? "eye-off-outline" : "eye-outline"}
-            size={20}
-            color="#888"
-          />
+          {showPassword ? (
+            <Password_show color="#5F2641" style={stylesLogin.inputIcon} />
+          ) : (
+            <Password_hide color="#5F2641" style={stylesLogin.inputIcon} />
+          )}
         </TouchableOpacity>
       </View>
 
-      {error ? <Text style={styles.errorText}>{error}</Text> : null}
+      {error ? <Text style={stylesLogin.errorText}>{error}</Text> : null}
 
-      <Text style={styles.termsText}>
+      <Text style={stylesLogin.termsText}>
         Al registrarte, aceptas nuestros Términos de Servicio y Política de
         Privacidad.
       </Text>
 
       <TouchableOpacity
-        style={[styles.button, isLoading && styles.buttonDisabled]}
+        style={[stylesLogin.button, isLoading && stylesLogin.buttonDisabled]}
         onPress={onSubmit}
         disabled={isLoading}
       >
         {isLoading ? (
           <>
             <ActivityIndicator color="#fff" style={{ marginRight: 8 }} />
-            <Text style={styles.buttonText}>Creando cuenta...</Text>
+            <Text style={stylesLogin.buttonText}>Creando cuenta...</Text>
           </>
         ) : (
           <>
-            <Text style={styles.buttonText}>Crear Cuenta</Text>
-            <Ionicons
-              name="arrow-forward"
-              size={18}
-              style={{ marginLeft: 8 }}
-            />
+            <Text style={stylesLogin.buttonText}>Crear Cuenta</Text>
+            <Forward color="#5F2641" style={stylesLogin.inputIcon} />
           </>
         )}
       </TouchableOpacity>
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  inputContainer: {
-    position: "relative",
-    flexDirection: "row",
-    alignItems: "center",
-    borderWidth: 1,
-    borderColor: "#272727",
-    borderRadius: 8,
-    marginBottom: 10,
-    paddingLeft: 40,
-  },
-  inputIcon: {
-    position: "absolute",
-    left: 12,
-  },
-  input: {
-    flex: 1,
-    paddingVertical: 10,
-    paddingRight: 40,
-  },
-  showPasswordButton: {
-    position: "absolute",
-    right: 10,
-    padding: 4,
-  },
-  errorText: {
-    backgroundColor: "#fee2e2",
-    color: "#dc2626",
-    padding: 8,
-    borderRadius: 6,
-    marginBottom: 10,
-  },
-  termsText: {
-    fontSize: 12,
-    color: "#6b7280",
-    marginBottom: 10,
-    textAlign: "justify",
-  },
-  button: {
-    flexDirection: "row",
-    backgroundColor: "#e3ac83",
-    paddingVertical: 12,
-    borderRadius: 8,
-    justifyContent: "center",
-    alignItems: "center",
-    marginBottom: 16,
-  },
-  buttonDisabled: {
-    backgroundColor: "#ccc",
-  },
-  buttonText: {
-    fontSize: 16,
-  },
-});

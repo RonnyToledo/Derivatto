@@ -11,6 +11,7 @@ import RegisterForm from "@/components/auth/RegisterForm";
 import { AuthContext } from "@/components/auth/AuthContext";
 import { supabase } from "@/libs/supabase";
 import { useRouter } from "expo-router";
+import { Image } from "react-native";
 
 // Define los tipos de tabs disponibles
 type TabType = "login" | "register";
@@ -95,17 +96,11 @@ export default function LoginPage() {
     <ScrollView contentContainerStyle={styles.container}>
       {/* Encabezado */}
       <View style={styles.header}>
-        <View style={styles.logoContainer}>
-          <Text style={styles.logoText}>D</Text>
-        </View>
-        <Text
-          style={[
-            styles.title,
-            { fontWeight: 900, fontSize: 30, fontFamily: "Quicksand" },
-          ]}
-        >
-          derivatto
-        </Text>
+        <Image
+          style={styles.image}
+          resizeMode="contain"
+          source={require("@/assets/Icons/Logo/PNG/logo_compound.png")}
+        />
         <Text style={styles.subtitle}>Aprende matemáticas jugando</Text>
       </View>
 
@@ -116,8 +111,8 @@ export default function LoginPage() {
             styles.tabButton,
             activeTab === "login" && styles.tabButtonActive,
             {
-              borderStartStartRadius: 8,
-              borderEndStartRadius: 8,
+              borderRightWidth: 1,
+              borderRadius: "12px 12px 0px 0px",
             },
           ]}
           onPress={() => setActiveTab("login")}
@@ -136,8 +131,7 @@ export default function LoginPage() {
             styles.tabButton,
             activeTab === "register" && styles.tabButtonActive,
             {
-              borderStartEndRadius: 8,
-              borderEndEndRadius: 8,
+              borderRadius: "0px 0px 12px 12px",
             },
           ]}
           onPress={() => setActiveTab("register")}
@@ -201,11 +195,15 @@ const styles = StyleSheet.create({
     alignItems: "center",
     marginBottom: 20,
   },
+  image: {
+    width: 200,
+    height: 200,
+  },
   logoContainer: {
     width: 100,
     height: 100,
     borderRadius: 50,
-    backgroundColor: "#e3ac83", // pink-600
+    backgroundColor: "#FFB580", // pink-600
     justifyContent: "center",
     alignItems: "center",
     marginBottom: 8,
@@ -218,36 +216,36 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 20,
     fontWeight: "bold",
-    color: "#e3ac83",
+    color: "#FFB580",
   },
   subtitle: {
-    color: "#e3ac83",
+    color: "#FFB580",
     marginTop: 4,
   },
   tabContainer: {
     flexDirection: "row",
     marginBottom: 16,
-
-    borderRadius: 8,
+    borderColor: "#5F2641",
+    borderWidth: 1,
+    borderRadius: 12,
     overflow: "hidden",
   },
   tabButton: {
     flex: 1,
     paddingVertical: 12,
     backgroundColor: "#fff",
-    borderWidth: 1,
     alignItems: "center",
-    borderColor: "#272727",
+    borderColor: "#5F2641",
   },
   tabButtonActive: {
-    backgroundColor: "#e3ac83", // pink-50
+    backgroundColor: "#FFB580", // pink-50
   },
   tabButtonText: {
-    color: "#4b5563", // gray-700
+    color: "#5F2641",
     fontWeight: "500",
   },
   tabButtonTextActive: {
-    color: "#000000", // pink-600
+    color: "#5F2641", // pink-600
     fontWeight: "700",
   },
   formContainer: {
@@ -259,13 +257,14 @@ const styles = StyleSheet.create({
     alignItems: "center",
     borderWidth: 1,
     borderColor: "#ccc",
-    borderRadius: 8,
+    borderRadius: 12,
     marginBottom: 10,
     paddingLeft: 40, // Deja espacio para el ícono
   },
   inputIcon: {
     position: "absolute",
     left: 12,
+    color: "#5F2641",
   },
   input: {
     flex: 1,
@@ -286,14 +285,14 @@ const styles = StyleSheet.create({
   },
   forgotPasswordText: {
     textAlign: "right",
-    color: "#e3ac83",
+    color: "#FFB580",
     marginBottom: 10,
     textDecorationLine: "underline",
     fontSize: 13,
   },
   button: {
     flexDirection: "row",
-    backgroundColor: "#e3ac83",
+    backgroundColor: "#FFB580",
     paddingVertical: 12,
     borderRadius: 8,
     justifyContent: "center",
@@ -331,7 +330,7 @@ const styles = StyleSheet.create({
   },
   footer: {
     textAlign: "center",
-    color: "#6b7280",
+    color: "#5F2641",
     fontSize: 12,
     marginTop: 30,
   },

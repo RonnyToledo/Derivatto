@@ -12,9 +12,7 @@ export default function ProgressLevel() {
       progress={(user?.progress || 0) / 15}
       animated={true}
       width={200}
-      color="#FF00FF"
-      unfilledColor="#ffffff"
-      borderWidth={0.5}
+      color="#FF981C"
       height={16}
       style={styles.progress}
     />
@@ -38,7 +36,7 @@ export function Vidas() {
 }
 const styles = StyleSheet.create({
   progress: {
-    backgroundColor: "#ffccd5",
+    backgroundColor: "#F2EAE1",
     borderRadius: 8,
   },
   headerItem: {

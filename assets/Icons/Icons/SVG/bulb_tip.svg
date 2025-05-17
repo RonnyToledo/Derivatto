@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130.08 197.41">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #ff981c;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 10px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="bulb_tip">
+      <path class="cls-1" d="M43.35,121.04c-22.44-8.69-38.35-30.49-38.35-56C5,31.88,31.88,5,65.03,5s60.04,26.88,60.04,60.04c0,25.51-15.91,47.31-38.35,56"/>
+      <line class="cls-1" x1="32.28" y1="136.7" x2="97.79" y2="136.7"/>
+      <line class="cls-1" x1="32.28" y1="152.12" x2="97.79" y2="152.12"/>
+      <path class="cls-1" d="M89.87,167.54c0,13.73-11.13,24.86-24.86,24.86s-24.86-11.13-24.86-24.86"/>
+    </g>
+  </g>
+</svg>

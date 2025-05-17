@@ -61,11 +61,13 @@ export default function FriendRequestsList() {
             <View style={styles.userInfo}>
               <View>
                 <Image
-                  source={{
-                    uri:
-                      avatar ||
-                      "https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_640.png",
-                  }}
+                  source={
+                    avatar
+                      ? {
+                          uri: avatar,
+                        }
+                      : require("@/assets/Icons/Icons/PNG/user.png")
+                  }
                   style={styles.avatar}
                 />
                 <View style={styles.levelBadge}>
@@ -157,7 +159,7 @@ const styles = StyleSheet.create({
     width: 24,
     height: 24,
     borderRadius: 12,
-    backgroundColor: "#007bff",
+    backgroundColor: "#FF981C",
     justifyContent: "center",
     alignItems: "center",
     borderWidth: 2,
@@ -203,7 +205,7 @@ const styles = StyleSheet.create({
     borderRadius: 6,
   },
   acceptButton: {
-    backgroundColor: "#ec4899",
+    backgroundColor: "#FF981C",
   },
   rejectButton: {
     borderWidth: 1,

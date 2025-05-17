@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 167.07 194.09">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #ff981c;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 20px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="achievement_collect">
+      <polyline class="cls-1" points="139.12 105.01 139.12 184.09 27.94 184.09 27.94 105.01"/>
+      <rect class="cls-1" x="10" y="67.96" width="147.07" height="37.04"/>
+      <line class="cls-1" x1="83.54" y1="67.96" x2="83.54" y2="184.08"/>
+      <path class="cls-1" d="M128.55,48.61c-9.99,8.83-45.17,7.96-45.17,7.96,0,0-.98-31.12,9-39.95,9.99-8.83,26.18-8.83,36.17,0s9.99,23.16,0,31.99Z"/>
+      <path class="cls-1" d="M38.2,48.61c9.99,8.83,45.17,7.96,45.17,7.96,0,0,.98-31.12-9-39.95-9.99-8.83-26.18-8.83-36.17,0-9.99,8.83-9.99,23.16,0,31.99Z"/>
+    </g>
+  </g>
+</svg>

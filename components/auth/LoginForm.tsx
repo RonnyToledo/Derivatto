@@ -7,7 +7,11 @@ import {
   ActivityIndicator,
   StyleSheet,
 } from "react-native";
-import Ionicons from "@expo/vector-icons/Ionicons";
+import Email from "@/assets/Icons/Icons/SVG/email.svg";
+import Password from "@/assets/Icons/Icons/SVG/password.svg";
+import Password_hide from "@/assets/Icons/Icons/SVG/password_hide.svg";
+import Password_show from "@/assets/Icons/Icons/SVG/password_show.svg";
+import Forward from "@/assets/Icons/Icons/SVG/forward.svg";
 
 type Props = {
   email: string;
@@ -34,15 +38,10 @@ export default function LoginForm({
 }: Props) {
   return (
     <View style={{ marginBottom: 20 }}>
-      <View style={styles.inputContainer}>
-        <Ionicons
-          name="mail-outline"
-          size={20}
-          color="#888"
-          style={styles.inputIcon}
-        />
+      <View style={stylesLogin.inputContainer}>
+        <Email color="#5F2641" style={stylesLogin.inputIcon} />
         <TextInput
-          style={styles.input}
+          style={stylesLogin.input}
           placeholder="Correo electrónico"
           keyboardType="email-address"
           value={email}
@@ -51,15 +50,10 @@ export default function LoginForm({
         />
       </View>
 
-      <View style={styles.inputContainer}>
-        <Ionicons
-          name="lock-closed-outline"
-          size={20}
-          color="#888"
-          style={styles.inputIcon}
-        />
+      <View style={stylesLogin.inputContainer}>
+        <Password color="#5F2641" style={stylesLogin.inputIcon} />
         <TextInput
-          style={styles.input}
+          style={stylesLogin.input}
           placeholder="Contraseña"
           secureTextEntry={!showPassword}
           value={password}
@@ -67,41 +61,42 @@ export default function LoginForm({
           editable={!isLoading}
         />
         <TouchableOpacity
-          style={styles.showPasswordButton}
+          style={stylesLogin.showPasswordButton}
           onPress={() => onTogglePassword(!showPassword)}
           disabled={isLoading}
         >
-          <Ionicons
-            name={showPassword ? "eye-off-outline" : "eye-outline"}
-            size={20}
-            color="#888"
-          />
+          {showPassword ? (
+            <Password_show color="#5F2641" style={stylesLogin.inputIcon} />
+          ) : (
+            <Password_hide color="#5F2641" style={stylesLogin.inputIcon} />
+          )}
         </TouchableOpacity>
       </View>
 
-      {error ? <Text style={styles.errorText}>{error}</Text> : null}
+      {error ? <Text style={stylesLogin.errorText}>{error}</Text> : null}
 
       <TouchableOpacity>
-        <Text style={styles.forgotPasswordText}>¿Olvidaste tu contraseña?</Text>
+        <Text style={stylesLogin.forgotPasswordText}>
+          ¿Olvidaste tu contraseña?
+        </Text>
       </TouchableOpacity>
 
       <TouchableOpacity
-        style={[styles.button, isLoading && styles.buttonDisabled]}
+        style={[stylesLogin.button, isLoading && stylesLogin.buttonDisabled]}
         onPress={onSubmit}
         disabled={isLoading}
       >
         {isLoading ? (
           <>
             <ActivityIndicator color="#fff" style={{ marginRight: 8 }} />
-            <Text style={styles.buttonText}>Iniciando sesión...</Text>
+            <Text style={stylesLogin.buttonText}>Iniciando sesión...</Text>
           </>
         ) : (
           <>
-            <Text style={styles.buttonText}>Iniciar Sesión</Text>
-            <Ionicons
-              name="arrow-forward"
-              size={18}
-              style={{ marginLeft: 8 }}
+            <Text style={stylesLogin.buttonText}>Iniciar Sesión</Text>
+            <Forward
+              color="#5F2641"
+              style={[stylesLogin.inputIcon, { paddingLeft: 5 }]}
             />
           </>
         )}
@@ -110,20 +105,21 @@ export default function LoginForm({
   );
 }
 
-const styles = StyleSheet.create({
+export const stylesLogin = StyleSheet.create({
   inputContainer: {
     position: "relative",
     flexDirection: "row",
     alignItems: "center",
     borderWidth: 1,
-    borderColor: "#272727",
-    borderRadius: 8,
+    borderColor: "#5F2641",
+    borderRadius: 12,
     marginBottom: 10,
-    paddingLeft: 40,
+    paddingHorizontal: 10,
   },
   inputIcon: {
-    position: "absolute",
-    left: 12,
+    width: 15,
+    height: 15,
+    paddingRight: 5,
   },
   input: {
     flex: 1,
@@ -144,14 +140,14 @@ const styles = StyleSheet.create({
   },
   forgotPasswordText: {
     textAlign: "right",
-    color: "#e3ac83",
+    color: "#FFB580",
     marginBottom: 10,
     textDecorationLine: "underline",
     fontSize: 13,
   },
   button: {
     flexDirection: "row",
-    backgroundColor: "#e3ac83",
+    backgroundColor: "#FFB580",
     paddingVertical: 12,
     borderRadius: 8,
     justifyContent: "center",
@@ -163,5 +159,12 @@ const styles = StyleSheet.create({
   },
   buttonText: {
     fontSize: 16,
+    color: "#5F2641",
+  },
+  termsText: {
+    fontSize: 12,
+    color: "#5F2641",
+    marginBottom: 10,
+    textAlign: "justify",
   },
 });

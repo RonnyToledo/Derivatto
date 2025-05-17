@@ -1,12 +1,14 @@
 import React from "react";
 import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
-import { BookOpen, ChevronRight } from "lucide-react-native";
+import { ChevronRight } from "lucide-react-native";
+import type { SvgProps } from "react-native-svg";
 
 interface LessonCardProps {
   title: string;
   description?: string;
   progress?: number;
   onPress: () => void;
+  Icon: React.FC<SvgProps>;
 }
 
 export default function LessonCard({
@@ -14,6 +16,7 @@ export default function LessonCard({
   description,
   progress = 0,
   onPress,
+  Icon,
 }: LessonCardProps) {
   return (
     <TouchableOpacity
@@ -24,7 +27,7 @@ export default function LessonCard({
       <View style={styles.cardHeader}>
         <View style={styles.iconAndText}>
           <View style={styles.iconContainer}>
-            <BookOpen size={20} color="#ec4899" />
+            <Icon width={25} height={25} />
           </View>
           <View style={styles.textContainer}>
             <Text style={styles.titleText}>{title}</Text>
@@ -55,9 +58,9 @@ const styles = StyleSheet.create({
   cardContainer: {
     borderWidth: 1,
     borderColor: "#e5e7eb",
-    borderRadius: 8,
-    padding: 16,
-    marginVertical: 8,
+    borderRadius: 16,
+    padding: 10,
+    marginVertical: 4,
     backgroundColor: "white",
     width: "100%",
   },
@@ -75,8 +78,6 @@ const styles = StyleSheet.create({
   iconContainer: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: "#ffe4e6", // Aproximación a bg-pink-100
     justifyContent: "center",
     alignItems: "center",
     marginRight: 12,

@@ -43,7 +43,9 @@ export default function PopoverExample({
         popoverStyle={{ borderRadius: 20 }}
       >
         <View style={styles.popoverContent}>
-          <Text style={styles.popoverText}>{LevelName}</Text>
+          <Text style={[styles.popoverText, { color, fontWeight: 700 }]}>
+            {LevelName}
+          </Text>
           {disabled && (
             <Text style={styles.popoverText}>
               {"No tienes vidas para acceder al nivel"}
@@ -53,7 +55,6 @@ export default function PopoverExample({
             title={"Ir al Nivel"}
             color={color}
             darkColor={darkerColor}
-            style={{ width: "100%" }}
             height={50}
             width={150}
             onPress={() => {

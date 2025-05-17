@@ -14,11 +14,11 @@ import {
   SceneRendererProps,
 } from "react-native-tab-view";
 import AntDesign from "@expo/vector-icons/AntDesign";
-import Ionicons from "@expo/vector-icons/Ionicons";
 import { AuthContext } from "@/components/auth/AuthContext";
 import { getLevelInfo } from "@/functions/getLevelInfo";
 import { Link } from "expo-router";
 import ScrollViewReload from "@/components/ScrollViewReload";
+import Ionicons from "@expo/vector-icons/Ionicons";
 
 export default function RankingPage() {
   const { height } = useWindowDimensions();
@@ -151,8 +151,13 @@ export function TabViewExample() {
       ) => (
         <TabBar
           {...props}
-          indicatorStyle={{ backgroundColor: "black" }}
-          style={{ backgroundColor: "white" }}
+          tabStyle={{ borderRadius: 32 }}
+          indicatorStyle={{
+            backgroundColor: "#FF981C",
+            height: "100%",
+            borderRadius: 32,
+          }}
+          style={{ backgroundColor: "#F2EAE1", borderRadius: 32, margin: 20 }}
           activeColor="black"
           inactiveColor="gray"
         />
@@ -181,12 +186,34 @@ function UserRankCard({
 }: UserRankCardProps) {
   // Función memorizada para determinar el icono de posición
   const getRankIcon = (position: number) => {
+    const size = 24;
     if (position === 1) {
-      return <Ionicons name="medal-sharp" size={24} color="yellow" />;
+      return (
+        <Ionicons
+          name="medal"
+          size={size}
+          color="gold"
+          style={styles.headerIcon}
+        />
+      );
     } else if (position === 2) {
-      return <Ionicons name="medal-sharp" size={24} color="gray" />;
+      return (
+        <Ionicons
+          name="medal"
+          size={size}
+          color="silver"
+          style={styles.headerIcon}
+        />
+      );
     } else if (position === 3) {
-      return <Ionicons name="medal-sharp" size={24} color="gold" />;
+      return (
+        <Ionicons
+          name="medal"
+          size={size}
+          color="#995204"
+          style={styles.headerIcon}
+        />
+      );
     } else {
       return (
         <View style={styles.rankCircle}>
@@ -207,11 +234,13 @@ function UserRankCard({
         {getRankIcon(rank)}
         <View style={styles.avatarContainer}>
           <Image
-            source={{
-              uri:
-                avatar ||
-                "https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_640.png",
-            }}
+            source={
+              avatar
+                ? {
+                    uri: avatar,
+                  }
+                : require("@/assets/Icons/Icons/PNG/user.png")
+            }
             style={styles.avatar}
           />
           <View style={styles.levelBadge}>
@@ -236,7 +265,7 @@ function UserRankCard({
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: "#fff" },
+  container: { flex: 1, backgroundColor: "#F2EAE1" },
   tabContainer: { maxWidth: 400, width: "100%" },
   scrollContent: {
     maxWidth: 400,
@@ -263,10 +292,9 @@ const styles = StyleSheet.create({
   divider: { borderTopWidth: 1, borderColor: "#d1d5db", marginVertical: 16 },
   userPositionContainer: { marginTop: 16 },
   card: {
-    borderRadius: 8,
+    borderRadius: 20,
     borderWidth: 1,
-    padding: 12,
-    marginBottom: 12,
+    padding: 7,
     flexDirection: "row",
     alignItems: "center",
   },
@@ -281,6 +309,11 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
+  headerIcon: {
+    marginHorizontal: 5,
+    width: 24,
+    height: 24,
+  },
   rankText: { color: "#374151", fontSize: 12, fontWeight: "bold" },
   avatarContainer: { marginLeft: 12, width: 40, height: 40 },
   avatar: {
@@ -294,7 +327,7 @@ const styles = StyleSheet.create({
     position: "absolute",
     bottom: -2,
     right: -2,
-    backgroundColor: "#3b82f6",
+    backgroundColor: "#FF981C",
     width: 20,
     height: 20,
     borderRadius: 10,

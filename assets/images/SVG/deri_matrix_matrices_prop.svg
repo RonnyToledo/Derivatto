@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820.73 808.51">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #bae639;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 20px;
+      }
+    </style>
+  </defs>
+  <g id="deri_matrix_matrices_prop">
+    <g id="_4x4" data-name="4x4">
+      <path class="cls-1" d="M490.42,10h29.86v96.81h-96.81v-29.86c0-36.98,29.97-66.95,66.95-66.95Z"/>
+      <rect class="cls-1" x="520.28" y="10" width="96.81" height="96.81"/>
+      <rect class="cls-1" x="617.1" y="10" width="96.81" height="96.81"/>
+      <rect class="cls-1" x="423.47" y="106.81" width="96.81" height="96.81"/>
+      <rect class="cls-1" x="520.28" y="106.81" width="96.81" height="96.81"/>
+      <rect class="cls-1" x="617.1" y="106.81" width="96.81" height="96.81"/>
+      <rect class="cls-1" x="423.47" y="203.63" width="96.81" height="96.81"/>
+      <rect class="cls-1" x="520.28" y="203.63" width="96.81" height="96.81"/>
+      <rect class="cls-1" x="617.1" y="203.63" width="96.81" height="96.81"/>
+      <path class="cls-1" d="M713.91,10h29.86c36.98,0,66.95,29.97,66.95,66.95v29.86h-96.81V10Z"/>
+      <rect class="cls-1" x="713.91" y="106.81" width="96.81" height="96.81"/>
+      <rect class="cls-1" x="713.91" y="203.63" width="96.81" height="96.81"/>
+      <path class="cls-1" d="M423.47,300.44h96.81v96.81h-29.86c-36.98,0-66.95-29.97-66.95-66.95v-29.86Z"/>
+      <rect class="cls-1" x="520.28" y="300.44" width="96.81" height="96.81"/>
+      <rect class="cls-1" x="617.1" y="300.44" width="96.81" height="96.81"/>
+      <path class="cls-1" d="M713.91,300.44h96.81v29.86c0,36.98-29.97,66.95-66.95,66.95h-29.86v-96.81Z"/>
+    </g>
+    <g id="_3x3" data-name="3x3">
+      <path class="cls-1" d="M58.14,288.97h48.68v96.81H10v-48.68c0-26.58,21.55-48.14,48.14-48.14Z"/>
+      <rect class="cls-1" x="106.81" y="288.97" width="96.81" height="96.81"/>
+      <path class="cls-1" d="M203.63,288.97h48.68c26.58,0,48.14,21.55,48.14,48.14v48.68h-96.81v-96.81Z"/>
+      <rect class="cls-1" x="10" y="385.79" width="96.81" height="96.81"/>
+      <rect class="cls-1" x="106.81" y="385.79" width="96.81" height="96.81"/>
+      <rect class="cls-1" x="203.63" y="385.79" width="96.81" height="96.81"/>
+      <path class="cls-1" d="M10,482.6h96.81v96.81h-48.68c-26.58,0-48.14-21.55-48.14-48.14v-48.68Z"/>
+      <rect class="cls-1" x="106.81" y="482.6" width="96.81" height="96.81"/>
+      <path class="cls-1" d="M203.63,482.6h96.81v48.68c0,26.58-21.55,48.14-48.14,48.14h-48.68v-96.81Z"/>
+    </g>
+    <g id="_2x2" data-name="2x2">
+      <path class="cls-1" d="M487,604.88h48.83v96.81h-96.81v-48.83c0-26.5,21.48-47.99,47.99-47.99Z"/>
+      <path class="cls-1" d="M535.83,604.88h48.83c26.5,0,47.99,21.48,47.99,47.99v48.83h-96.81v-96.81Z"/>
+      <path class="cls-1" d="M439.01,701.69h96.81v96.81h-48.83c-26.5,0-47.99-21.48-47.99-47.99v-48.83Z"/>
+      <path class="cls-1" d="M535.83,701.69h96.81v48.68c0,26.58-21.55,48.14-48.14,48.14h-48.68v-96.81Z"/>
+    </g>
+  </g>
+</svg>

@@ -15,6 +15,11 @@ import LessonCard from "@/components/lesson-card";
 import { topicData } from "@/libs/learning-data";
 import { useRouter, useGlobalSearchParams } from "expo-router";
 import ScrollViewReload from "@/components/ScrollViewReload";
+import Learn_matrices from "@/assets/Icons/Icons/SVG/learn_matrices.svg";
+import Learn_vectors from "@/assets/Icons/Icons/SVG/learn_vectors.svg";
+import Learn_limits from "@/assets/Icons/Icons/SVG/learn_limits.svg";
+import Learn_derivatives from "@/assets/Icons/Icons/SVG/learn_derivatives.svg";
+import Learn_integrals from "@/assets/Icons/Icons/SVG/learn_integrals.svg";
 
 // ---- Tipos ----
 interface TopicContent {
@@ -238,6 +243,7 @@ function LearningPage() {
                   key={topic.id}
                   title={topic.name}
                   onPress={() => handleTopicSelect(topic.id)}
+                  Icon={selectedTopicIcon(topic.id) || Learn_matrices}
                 />
               ))}
             </View>
@@ -266,35 +272,32 @@ function LearningPage() {
                 style={styles.difficultyCard}
                 onPress={() => handleDifficultySelect(difficulty.id)}
               >
-                <Text
-                  style={[
-                    styles.badge,
-                    {
+                <View>
+                  <View
+                    style={{
+                      width: 40,
+                      height: 40,
+                      borderRadius: 20,
                       backgroundColor:
-                        selectedDifficulty === difficulty.id
-                          ? difficulty.color.backgroundColor
-                          : "#f3f4f6",
-                      borderColor:
-                        selectedDifficulty === difficulty.id
-                          ? difficulty.color.borderColor
-                          : "#e5e7eb",
-                      color:
-                        selectedDifficulty === difficulty.id
-                          ? difficulty.color.textColor
-                          : "#374151",
-                    },
-                  ]}
-                >
-                  {difficulty.name}
-                </Text>
-                <Text style={styles.difficultyDescription}>
-                  {difficulty.id === "facil" &&
-                    "Conceptos básicos y ejemplos sencillos"}
-                  {difficulty.id === "medio" &&
-                    "Aplicaciones y problemas intermedios"}
-                  {difficulty.id === "dificil" &&
-                    "Problemas avanzados y casos especiales"}
-                </Text>
+                        difficulty.id === "facil"
+                          ? "#BAE639"
+                          : difficulty.id === "medio"
+                            ? "#yellow"
+                            : "red",
+                    }}
+                  ></View>
+                </View>
+                <View style={{ marginLeft: 16 }}>
+                  <Text style={[styles.badge]}>{difficulty.name}</Text>
+                  <Text style={styles.difficultyDescription}>
+                    {difficulty.id === "facil" &&
+                      "Conceptos básicos y ejemplos sencillos"}
+                    {difficulty.id === "medio" &&
+                      "Aplicaciones y problemas intermedios"}
+                    {difficulty.id === "dificil" &&
+                      "Problemas avanzados y casos especiales"}
+                  </Text>
+                </View>
               </TouchableOpacity>
             ))}
           </View>
@@ -324,15 +327,7 @@ function LearningPage() {
                         backgroundColor:
                           selectedDifficulty === difficulty.id
                             ? difficulty.color.backgroundColor
-                            : "#f3f4f6",
-                        borderColor:
-                          selectedDifficulty === difficulty.id
-                            ? difficulty.color.borderColor
                             : "#e5e7eb",
-                        color:
-                          selectedDifficulty === difficulty.id
-                            ? difficulty.color.textColor
-                            : "#374151",
                       },
                     ]}
                   >
@@ -360,6 +355,21 @@ function LearningPage() {
     </ScrollViewReload>
   );
 }
+function selectedTopicIcon(topicId: string) {
+  if (topicId.includes("matrices")) {
+    return Learn_matrices;
+  } else if (topicId.includes("vectores")) {
+    return Learn_vectors;
+  } else if (topicId.includes("limites")) {
+    return Learn_limits;
+  } else if (topicId.includes("derivadas")) {
+    return Learn_derivatives;
+  } else if (topicId.includes("integrales")) {
+    return Learn_integrals;
+  }
+  return null; // Retorna null si no se encuentra el ícono correspondiente
+}
+
 interface TopicContent {
   title: string;
   description: string;
@@ -453,7 +463,7 @@ export function LearningExamples({
                         <View style={styles.exampleStepIcon}>
                           <ArrowRight
                             size={20}
-                            color="#db2777"
+                            color="#FF981C"
                             style={styles.icon}
                           />
                         </View>
@@ -521,7 +531,7 @@ export function LearningExamples({
 export default LearningPage;
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: "white" },
+  container: { flex: 1, backgroundColor: "#F2EAE1" },
   topicList: {
     padding: 16,
   },
@@ -532,35 +542,37 @@ const styles = StyleSheet.create({
   },
   difficultySelection: { padding: 16 },
   backButton: {
+    width: "40%",
     flexDirection: "row",
+    justifyContent: "center",
     alignItems: "center",
     marginBottom: 16,
     padding: 8,
-    borderWidth: 1,
-    borderColor: "#e5e7eb",
-    borderRadius: 4,
+    backgroundColor: "white",
+    borderRadius: 12,
   },
-  backButtonText: { fontSize: 14, marginLeft: 4 },
+  backButtonText: { fontSize: 14, marginLeft: 4, backgroundColor: "white" },
   topicTitle: { fontSize: 16, fontWeight: "bold", marginBottom: 16 },
   difficultiesGrid: {
-    flexDirection: "row",
+    flexDirection: "column",
     flexWrap: "wrap",
     justifyContent: "space-between",
   },
   difficultyCard: {
+    flex: 1,
+    backgroundColor: "white",
+    flexDirection: "row",
     borderWidth: 1,
-    borderColor: "#e5e7eb",
+    borderColor: "#5F2641",
     borderRadius: 8,
     padding: 16,
     marginBottom: 12,
-    width: "30%",
   },
   badge: {
     paddingVertical: 4,
     paddingHorizontal: 8,
-    borderRadius: 4,
-    fontSize: 12,
-    textAlign: "center",
+    borderRadius: 12,
+    fontSize: 16,
   },
   difficultyDescription: { marginTop: 8, fontSize: 12, color: "#6b7280" },
   backTopicDifficultyContainer: {
@@ -572,6 +584,7 @@ const styles = StyleSheet.create({
     marginLeft: "auto",
     flexDirection: "row",
     alignItems: "center",
+    backgroundColor: "#e5e7eb",
   },
   topicContentContainer: { padding: 16 },
   topicDetails: { padding: 16 },
@@ -641,7 +654,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 8,
     borderRadius: 4,
     backgroundColor: "#ffe4e6",
-    color: "#db2777",
+    color: "#FF981C",
     fontSize: 12,
   },
   exampleProblem: { fontFamily: "monospace", fontSize: 14 },
@@ -694,7 +707,7 @@ const styles = StyleSheet.create({
     borderColor: "#e5e7eb",
   },
   actionButton: { padding: 12, borderRadius: 4 },
-  nextTopicButton: { backgroundColor: "#ff4081" },
+  nextTopicButton: { backgroundColor: "#FF981C" },
   noContent: { alignItems: "center", paddingVertical: 32 },
   noContentText: { fontSize: 16, color: "#6b7280" },
 });

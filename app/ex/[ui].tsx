@@ -295,7 +295,9 @@ export default function MathExercisesPage() {
           <View
             style={{ width: "100%", flex: 1, margin: 5, minHeight: "auto" }}
           >
-            <MathFormula formula={currentExercise.formula} />
+            {!currentExercise.question.includes(currentExercise.formula) && (
+              <MathFormula formula={currentExercise.formula} />
+            )}
           </View>
           {currentExercise.options?.map((option: string, index: number) => (
             <View key={index}>
@@ -386,11 +388,11 @@ export default function MathExercisesPage() {
         <View style={styles.navigation}>
           <PushableButton
             title={"Siguiente"}
-            color={"#ff4081"}
+            color={"#FF981C"}
             width={100}
             height={50}
             style={{ width: "100%" }}
-            darkColor={darkenColor("#ff4081", 20)}
+            darkColor={darkenColor("#FF981C", 20)}
             onPress={
               showTutorial ? () => setShowTutorial(false) : handleNextExercise
             }
@@ -430,18 +432,17 @@ function removeTrailingNumber(input: string): string {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: "white" },
+  container: { flex: 1, backgroundColor: "#F2EAE1" },
   containerTop: {
     flexDirection: "row",
     width: "100%",
     justifyContent: "space-between",
     alignItems: "center",
-    backgroundColor: "white",
   },
   content: { padding: 16 },
   category: {
     fontSize: 25,
-    color: "#ff4081",
+    color: "#FF981C",
     marginBottom: 8,
     fontWeight: "700",
   },
@@ -528,7 +529,7 @@ const styles = StyleSheet.create({
     gap: 4,
   },
   nextButton: {
-    backgroundColor: "#ff4081",
+    backgroundColor: "#FF981C",
     paddingHorizontal: 20,
     paddingVertical: 10,
     borderRadius: 15,

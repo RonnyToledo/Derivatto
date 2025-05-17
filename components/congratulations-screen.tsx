@@ -46,14 +46,15 @@ export default function CongratulationsScreen({
       clearTimeout(timer3);
     };
   }, []);
+  {
+    useEffect(() => {
+      const timer = setTimeout(() => {
+        onGoHome();
+      }, 30000);
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      onGoHome();
-    }, 30000);
-
-    return () => clearTimeout(timer);
-  }, [onGoHome]);
+      return () => clearTimeout(timer);
+    }, [onGoHome]);
+  }
   return (
     <View style={styles.container}>
       {/* Confetti animation */}
@@ -62,19 +63,19 @@ export default function CongratulationsScreen({
       {/* Trophy and stars */}
       <View style={styles.trophyContainer}>
         <View style={styles.trophyCircle}>
-          <Trophy size={48} color="#ec4899" />
+          <Trophy size={80} color="#FF981C" />
         </View>
 
         {showStars && (
           <>
             <View style={[styles.star, styles.star1]}>
-              <Star size={32} color="#facc15" />
+              <Star size={32} color="#facc15" fill="#facc15" />
             </View>
             <View style={[styles.star, styles.star2]}>
-              <Star size={24} color="#facc15" />
+              <Star size={24} color="#facc15" fill="#facc15" />
             </View>
             <View style={[styles.star, styles.star3]}>
-              <Star size={28} color="#facc15" />
+              <Star size={28} color="#facc15" fill="#facc15" />
             </View>
           </>
         )}
@@ -101,8 +102,8 @@ export default function CongratulationsScreen({
           <Progress.Bar
             progress={percentage}
             width={null}
-            color="#FF00FF"
-            unfilledColor="#f3f3f3"
+            color="#FF981C"
+            unfilledColor="#F2EAE1"
             borderWidth={0}
             height={8}
             style={styles.progress}
@@ -123,15 +124,15 @@ export default function CongratulationsScreen({
         ]}
       >
         <TouchableOpacity onPress={onGoHome} style={styles.outlineButton}>
-          <Home size={16} color="#ff4081" style={styles.iconButton} />
-          <Text style={[styles.buttonText, { color: "#ff4081" }]}>
+          <Home size={25} color="white" style={styles.iconButton} />
+          <Text style={[styles.buttonText, { color: "white" }]}>
             Volver al inicio
           </Text>
         </TouchableOpacity>
 
         <TouchableOpacity style={styles.outlineButtonSecondary}>
-          <Share2 size={16} color="#6b7280" style={styles.iconButton} />
-          <Text style={[styles.buttonText, { color: "#6b7280" }]}>
+          <Share2 size={25} color="#5F2641" style={styles.iconButton} />
+          <Text style={[styles.buttonText, { color: "#5F2641" }]}>
             Compartir resultado
           </Text>
         </TouchableOpacity>
@@ -147,7 +148,7 @@ const styles = StyleSheet.create({
     left: 0,
     right: 0,
     bottom: 0,
-    backgroundColor: "white",
+    backgroundColor: "#F2EAE1",
     zIndex: 50,
     padding: 24,
     justifyContent: "center",
@@ -159,10 +160,10 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   trophyCircle: {
-    width: 96,
-    height: 96,
-    borderRadius: 48,
-    backgroundColor: "#ffe4e6",
+    width: 160,
+    height: 160,
+    borderRadius: 80,
+    backgroundColor: "#FFDFD6",
     justifyContent: "center",
     alignItems: "center",
   },
@@ -170,16 +171,16 @@ const styles = StyleSheet.create({
     position: "absolute",
   },
   star1: {
-    top: -16,
-    right: -16,
+    top: -10,
+    right: -10,
   },
   star2: {
-    bottom: -8,
-    left: -16,
+    bottom: -5,
+    left: -10,
   },
   star3: {
-    top: -8,
-    left: -24,
+    top: -5,
+    left: -15,
   },
   messageContainer: {
     alignItems: "center",
@@ -191,7 +192,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 28,
     fontWeight: "bold",
-    color: "#ec4899",
+    color: "#FF981C",
     marginBottom: 8,
   },
   message: {
@@ -201,7 +202,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   scoreContainer: {
-    backgroundColor: "#ffe4e6",
+    backgroundColor: "white",
     borderRadius: 8,
     padding: 16,
     width: "80%",
@@ -218,7 +219,7 @@ const styles = StyleSheet.create({
   scoreValue: {
     fontSize: 14,
     fontWeight: "bold",
-    color: "#ec4899",
+    color: "#FF981C",
   },
   progress: {
     height: 8,
@@ -249,19 +250,18 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   outlineButton: {
-    borderWidth: 1,
-    borderColor: "#ffbcd9",
     padding: 12,
-    borderRadius: 4,
+    borderRadius: 30,
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "center",
+    backgroundColor: "#FF981C",
   },
   outlineButtonSecondary: {
     borderWidth: 1,
-    borderColor: "#d1d5db",
+    borderColor: "#5F2641",
     padding: 12,
-    borderRadius: 4,
+    borderRadius: 30,
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "center",

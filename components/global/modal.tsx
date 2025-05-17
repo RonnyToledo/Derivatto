@@ -7,6 +7,7 @@ import {
   TouchableOpacity,
   Text,
   StyleSheet,
+  ViewStyle,
   useWindowDimensions,
 } from "react-native";
 import React from "react";
@@ -16,6 +17,7 @@ interface ModalProps {
   open: boolean;
   onOpenChange: (value: boolean) => void;
   title: string;
+  style?: ViewStyle;
 }
 
 export default function ModalComponent({
@@ -23,6 +25,7 @@ export default function ModalComponent({
   open,
   title,
   onOpenChange,
+  style,
 }: PropsWithChildren & ModalProps) {
   return (
     <Modal
@@ -34,9 +37,9 @@ export default function ModalComponent({
     >
       <Pressable
         onPress={() => onOpenChange(false)}
-        style={[{ height: useWindowDimensions().height }]}
+        style={{ height: useWindowDimensions().height }}
       >
-        <View style={styles.modalOverlay}>
+        <View style={[styles.modalOverlay, style]}>
           <Pressable>
             <View style={styles.container}>
               <View

@@ -1,50 +1,89 @@
-# Welcome to your Expo app 👋
+# Derivatto
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Derivatto** es una aplicación educativa móvil para aprender matemáticas mediante ejercicios y experiencias interactivas. Está orientada a facilitar el estudio paso a paso de contenidos matemáticos, con una interfaz adaptada a dispositivos móviles.
 
-## Get started
+## Características
 
-1. Install dependencies
+- Experiencias de aprendizaje y ejercicios interactivos.
+- Contenido matemático presentado mediante expresiones y notación matemática.
+- Navegación móvil con Expo Router.
+- Integración con Supabase.
+- Autenticación con Google (según la configuración de la aplicación).
+- Recursos visuales, notificaciones y retroalimentación háptica.
 
-   ```bash
-   npm install
-   ```
+## Tecnologías
 
-2. Start the app
+- React Native
+- Expo SDK 52
+- Expo Router
+- TypeScript
+- Supabase
+- React Navigation
+- KaTeX y componentes de renderizado matemático
+- EAS Build
 
-   ```bash
-    npx expo start
-   ```
+## Requisitos
 
-In the output, you'll find options to open the app in a
+- Node.js y npm.
+- Expo CLI (se puede utilizar mediante `npx`).
+- Android Studio para emulador Android, Xcode para iOS en macOS o un dispositivo físico.
+- Proyecto de Supabase y credenciales de los servicios integrados.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## Instalación
 
 ```bash
-npm run reset-project
+git clone https://github.com/RonnyToledo/Derivatto.git
+cd Derivatto
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Crea un archivo `.env` en la raíz con las variables públicas que consume la aplicación:
 
-## Learn more
+```env
+EXPO_PUBLIC_SUPABASE_URL=
+EXPO_PUBLIC_SUPABASE_KEY=
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+Utiliza los valores de tu propio proyecto Supabase. No incluyas claves privadas o `service_role` en variables `EXPO_PUBLIC_*`, ya que estas se incorporan al bundle de la aplicación.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Ejecutar
 
-## Join the community
+```bash
+npx expo start
+```
 
-Join our community of developers creating universal apps.
+También puedes iniciar directamente una plataforma:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```bash
+npm run android
+npm run ios
+npm run web
+```
+
+## Scripts disponibles
+
+| Comando | Descripción |
+| --- | --- |
+| `npm start` | Inicia Expo |
+| `npm run android` | Inicia para Android |
+| `npm run ios` | Inicia para iOS |
+| `npm run web` | Inicia la versión web |
+| `npm test` | Ejecuta Jest en modo observación |
+| `npm run lint` | Ejecuta Expo Lint |
+| `npm run deploy:android` | Ejecuta el perfil de build Android configurado |
+| `npm run deploy:web` | Exporta la versión web y ejecuta los pasos de publicación configurados |
+
+## Estructura
+
+- `app/`: rutas y pantallas de Expo Router.
+- `components/`: componentes reutilizables.
+- `assets/`: iconos, imágenes y recursos gráficos.
+- `scripts/`: utilidades de desarrollo.
+
+## Seguridad
+
+No subas archivos `.env` al repositorio. Usa variables de entorno del entorno de desarrollo o del servicio de build y aplica políticas RLS en Supabase.
+
+## Autor
+
+Desarrollado por **Ronny Toledo Ramos** · [GitHub](https://github.com/RonnyToledo).
